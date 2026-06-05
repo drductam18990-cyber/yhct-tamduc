@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kiến thức Y học cổ truyền | YHCT Tâm Đức – Hà Đông, Hà Nội</title>
+  <meta name="description" content="Kiến thức Y học cổ truyền thường thức – mặt bệnh, điều trị không dùng thuốc, thuốc YHCT và phòng bệnh. Cập nhật hàng ngày bởi BS. Nguyễn Đức Tâm." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Noto+Serif+SC:wght@700&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&display=swap" rel="stylesheet" />
+  <style>
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth;-webkit-font-smoothing:antialiased}
+  body{font-family:'Be Vietnam Pro',sans-serif;color:#1c1917;background:#fafaf9;overflow-x:hidden;line-height:1.6}
+  img{display:block;max-width:100%}
+  a{text-decoration:none;color:inherit}
+  ul{list-style:none}
+  button{border:none;cursor:pointer;font-family:inherit}
+
+  /* ── Tokens ── */
+  :root{
+    --g50:#f0fdf4;--g100:#dcfce7;--g200:#bbf7d0;--g300:#86efac;
+    --g400:#4ade80;--g500:#22c55e;--g600:#16a34a;--g700:#15803d;--g800:#166534;
+    --a100:#fef3c7;--a300:#fcd34d;--a400:#fbbf24;--a500:#f59e0b;--a600:#d97706;
+    --o400:#fb923c;--o500:#f97316;
+    --s50:#f8fafc;--s100:#f1f5f9;--s200:#e2e8f0;--s300:#cbd5e1;
+    --s400:#94a3b8;--s500:#64748b;--s600:#475569;--s700:#334155;
+    --s800:#1e293b;--s900:#0f172a;
+    --r-sm:12px;--r-md:16px;--r-lg:24px;--r-xl:32px;
+    --sh-sm:0 2px 8px rgba(0,0,0,.06);
+    --sh-md:0 8px 32px rgba(0,0,0,.10);
+    --sh-lg:0 24px 64px rgba(0,0,0,.14);
+    --sh-green:0 8px 32px rgba(22,163,74,.3);
+  }
+  .container{width:100%;max-width:1200px;margin:0 auto;padding:0 28px}
+
+  /* ── Gradients ── */
+  .g-herb {background:linear-gradient(145deg,#166534,#4ade80)}
+  .g-amber{background:linear-gradient(145deg,#92400e,#fbbf24)}
+  .g-navy {background:linear-gradient(145deg,#1e3a5f,#60a5fa)}
+  .g-fire {background:linear-gradient(145deg,#7c2d12,#f97316)}
+
+  /* ════ HEADER ════ */
+  .header{
+    position:fixed;top:0;left:0;right:0;z-index:100;
+    background:rgba(255,255,255,.92);backdrop-filter:blur(20px);
+    box-shadow:0 1px 0 rgba(0,0,0,.07);
+  }
+  .nav{display:flex;align-items:center;justify-content:space-between;height:70px}
+  .logo{display:flex;align-items:center;gap:10px}
+  .logo-icon{
+    width:46px;height:46px;border-radius:14px;flex-shrink:0;
+    background:linear-gradient(135deg,#00c853 0%,#69f0ae 45%,#ffd740 100%);
+    display:flex;align-items:center;justify-content:center;
+    font-size:1.55rem;font-family:'Noto Serif SC','Source Han Serif CN',serif;font-weight:700;
+    color:#fff;text-shadow:0 1px 4px rgba(0,80,0,.4);
+    box-shadow:0 4px 18px rgba(0,200,83,.45),0 0 0 2px rgba(105,240,174,.3);
+    position:relative;overflow:hidden;
+  }
+  .logo-icon::after{
+    content:'';position:absolute;inset:0;
+    background:linear-gradient(160deg,rgba(255,255,255,.35) 0%,transparent 55%);
+    border-radius:inherit;
+  }
+  .logo-text strong{display:block;font-size:.95rem;font-weight:800;color:var(--s900);line-height:1.2}
+  .logo-text span{font-size:.72rem;color:var(--s400);font-weight:400}
+  .nav-links{display:flex;gap:4px;align-items:center}
+  .nav-links a{padding:8px 14px;border-radius:8px;font-size:.88rem;font-weight:500;color:var(--s600);transition:all .2s}
+  .nav-links a:hover{color:var(--g700);background:var(--g50)}
+  .nav-links a.active{color:var(--g700);background:var(--g50);font-weight:700}
+  .nav-btn{
+    padding:10px 22px;border-radius:999px;font-size:.88rem;font-weight:700;
+    background:var(--g600);color:#fff;
+    box-shadow:var(--sh-green);transition:all .25s;
+  }
+  .nav-btn:hover{background:var(--g700);transform:translateY(-1px)}
+  .nav-hamburger{display:none;background:none;padding:6px;color:var(--s800)}
+  .nav-hamburger svg{width:24px;height:24px}
+
+  /* ════ PAGE HERO ════ */
+  .page-hero{
+    padding:140px 0 80px;
+    background:linear-gradient(160deg,var(--g50) 0%,#fff 60%,var(--a100) 100%);
+    position:relative;overflow:hidden;
+  }
+  .page-hero::before{
+    content:'';position:absolute;top:-100px;right:-100px;
+    width:500px;height:500px;border-radius:50%;
+    background:radial-gradient(circle,rgba(74,222,128,.12) 0%,transparent 65%);
+  }
+  .page-hero::after{
+    content:'';position:absolute;bottom:-80px;left:-60px;
+    width:350px;height:350px;border-radius:50%;
+    background:radial-gradient(circle,rgba(251,191,36,.1) 0%,transparent 65%);
+  }
+  .page-hero-inner{position:relative;z-index:1}
+  .tag{
+    display:inline-flex;align-items:center;gap:6px;
+    background:var(--g100);color:var(--g700);
+    font-size:.75rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+    padding:6px 14px;border-radius:999px;margin-bottom:16px;
+  }
+  .page-hero h1{
+    font-family:'Playfair Display',serif;
+    font-size:clamp(2rem,4.5vw,3rem);line-height:1.2;letter-spacing:-.02em;
+    color:var(--s900);margin-bottom:16px;
+  }
+  .page-hero p{font-size:1.05rem;color:var(--s500);line-height:1.75;max-width:540px}
+  .page-hero-stats{
+    display:flex;gap:32px;margin-top:36px;
+  }
+  .ph-stat strong{display:block;font-family:'Playfair Display',serif;font-size:1.8rem;font-weight:700;color:var(--g700)}
+  .ph-stat span{font-size:.82rem;color:var(--s400)}
+
+  /* ════ FILTERS ════ */
+  .filters-bar{
+    background:#fff;border-bottom:1px solid var(--s100);
+    padding:0;position:sticky;top:70px;z-index:90;
+    box-shadow:0 2px 12px rgba(0,0,0,.04);
+  }
+  .filters-inner{display:flex;align-items:center;gap:8px;padding:14px 0;overflow-x:auto;scrollbar-width:none}
+  .filters-inner::-webkit-scrollbar{display:none}
+  .filter-btn{
+    display:inline-flex;align-items:center;gap:7px;white-space:nowrap;
+    padding:8px 18px;border-radius:999px;font-size:.85rem;font-weight:600;
+    border:1.5px solid var(--s200);color:var(--s600);
+    background:#fff;transition:all .2s;cursor:pointer;
+  }
+  .filter-btn:hover{border-color:var(--g400);color:var(--g700)}
+  .filter-btn.active{background:var(--g600);color:#fff;border-color:var(--g600);box-shadow:var(--sh-green)}
+  .filter-count{
+    font-size:.72rem;font-weight:700;
+    background:rgba(0,0,0,.08);padding:2px 7px;border-radius:999px;
+  }
+  .filter-btn.active .filter-count{background:rgba(255,255,255,.25)}
+
+  /* ════ ARTICLES GRID ════ */
+  .articles-section{padding:64px 0 100px}
+  .articles-count{font-size:.87rem;color:var(--s400);margin-bottom:32px}
+  .articles-count strong{color:var(--s700)}
+  .art-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+  .art-card{
+    background:#fff;border-radius:var(--r-xl);overflow:hidden;
+    border:1px solid rgba(0,0,0,.06);box-shadow:var(--sh-sm);
+    cursor:pointer;transition:all .3s ease;display:flex;flex-direction:column;
+  }
+  .art-card:hover{transform:translateY(-7px);box-shadow:var(--sh-lg)}
+  .art-head{
+    height:148px;display:flex;flex-direction:column;
+    align-items:flex-start;justify-content:flex-end;padding:22px;
+    position:relative;overflow:hidden;
+  }
+  .art-head::before{
+    content:'';position:absolute;top:-40px;right:-40px;
+    width:140px;height:140px;border-radius:50%;background:rgba(255,255,255,.1);
+  }
+  .art-head::after{
+    content:'';position:absolute;top:14px;right:14px;
+    width:60px;height:60px;border-radius:50%;background:rgba(255,255,255,.07);
+  }
+  .art-icon{font-size:2rem;margin-bottom:8px;position:relative;z-index:1;line-height:1}
+  .art-cat{
+    font-size:.7rem;font-weight:700;color:rgba(255,255,255,.9);
+    background:rgba(255,255,255,.18);padding:4px 10px;
+    border-radius:999px;letter-spacing:.05em;text-transform:uppercase;
+    position:relative;z-index:1;
+  }
+  .art-body{padding:22px;flex:1;display:flex;flex-direction:column}
+  .art-body h3{font-size:.97rem;font-weight:800;color:var(--s900);margin-bottom:10px;line-height:1.45}
+  .art-body p{font-size:.86rem;color:var(--s500);line-height:1.72;margin-bottom:16px;flex:1}
+  .art-footer{display:flex;align-items:center;gap:8px;font-size:.76rem;color:var(--s400)}
+  .art-date{margin-right:auto}
+  .art-read{color:var(--g600);font-weight:700;font-size:.83rem;
+    display:inline-flex;align-items:center;gap:5px;transition:gap .2s}
+  .art-read:hover{gap:9px}
+  .no-results{
+    grid-column:1/-1;text-align:center;padding:80px 20px;color:var(--s400);
+  }
+  .no-results p{font-size:1rem;margin-top:8px}
+
+  /* ════ MODAL ════ */
+  .art-modal-overlay{
+    position:fixed;inset:0;z-index:500;
+    background:rgba(0,0,0,.55);backdrop-filter:blur(4px);
+    display:none;align-items:flex-start;justify-content:center;
+    padding:40px 20px;overflow-y:auto;
+  }
+  .art-modal-overlay.open{display:flex}
+  .art-modal{
+    background:#fff;border-radius:var(--r-xl);
+    max-width:800px;width:100%;
+    box-shadow:0 32px 80px rgba(0,0,0,.22);
+    animation:modal-in .3s ease;margin:auto;
+  }
+  @keyframes modal-in{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
+  .art-modal-hero{
+    min-height:190px;display:flex;flex-direction:column;
+    justify-content:flex-end;padding:32px 36px;
+    border-radius:var(--r-xl) var(--r-xl) 0 0;
+    position:relative;overflow:hidden;
+  }
+  .art-modal-hero::before{
+    content:'';position:absolute;top:-60px;right:-60px;
+    width:260px;height:260px;border-radius:50%;background:rgba(255,255,255,.12);
+  }
+  .art-modal-close{
+    position:absolute;top:16px;right:16px;
+    width:36px;height:36px;border-radius:50%;border:none;cursor:pointer;
+    background:rgba(255,255,255,.25);backdrop-filter:blur(8px);
+    color:#fff;font-size:1.1rem;display:flex;align-items:center;justify-content:center;
+    transition:background .2s;z-index:2;
+  }
+  .art-modal-close:hover{background:rgba(255,255,255,.4)}
+  .art-modal-cat{
+    font-size:.72rem;font-weight:700;color:rgba(255,255,255,.9);
+    background:rgba(255,255,255,.2);padding:4px 12px;border-radius:999px;
+    display:inline-block;margin-bottom:10px;letter-spacing:.05em;text-transform:uppercase;
+    position:relative;z-index:1;
+  }
+  .art-modal-icon{font-size:2.6rem;margin-bottom:10px;position:relative;z-index:1;line-height:1}
+  .art-modal-title{
+    font-family:'Playfair Display',serif;font-size:1.55rem;font-weight:700;
+    color:#fff;line-height:1.3;position:relative;z-index:1;
+  }
+  .art-modal-meta{
+    padding:16px 36px;border-bottom:1px solid var(--s100);
+    font-size:.82rem;color:var(--s400);display:flex;gap:18px;flex-wrap:wrap;
+  }
+  .art-modal-content{padding:32px 36px;font-size:.93rem;line-height:1.82;color:var(--s700)}
+  .art-modal-content h2{
+    font-family:'Playfair Display',serif;font-size:1.25rem;font-weight:700;
+    color:var(--s900);margin:28px 0 12px;padding-bottom:8px;
+    border-bottom:2px solid var(--g100);
+  }
+  .art-modal-content h2:first-child{margin-top:0}
+  .art-modal-content h3{font-size:1rem;font-weight:700;color:var(--g700);margin:20px 0 8px}
+  .art-modal-content p{margin-bottom:14px}
+  .art-modal-content ul{padding-left:22px;margin-bottom:14px}
+  .art-modal-content ul li{margin-bottom:8px;list-style:disc}
+  .art-modal-content em{color:var(--g700);font-style:italic;font-weight:600}
+  .art-modal-content strong{color:var(--s900)}
+  .art-cta-box{
+    background:linear-gradient(135deg,var(--g50),var(--a100));
+    border:1px solid var(--g200);border-radius:var(--r-md);
+    padding:20px 24px;margin-top:28px;
+    font-size:.9rem;color:var(--g800);line-height:1.75;
+  }
+  .art-modal-footer{
+    padding:24px 36px;border-top:1px solid var(--s100);
+    display:flex;align-items:center;justify-content:space-between;
+    gap:16px;flex-wrap:wrap;
+  }
+  .btn-green{
+    display:inline-flex;align-items:center;gap:8px;
+    padding:13px 26px;border-radius:999px;font-size:.92rem;font-weight:700;
+    background:var(--g600);color:#fff;box-shadow:var(--sh-green);
+    transition:all .25s;border:none;cursor:pointer;
+  }
+  .btn-green:hover{background:var(--g700);transform:translateY(-2px)}
+
+  /* ════ CTA SECTION ════ */
+  .cta-section{
+    background:linear-gradient(140deg,#0a3d1f 0%,#166534 40%,#92400e 100%);
+    padding:80px 0;text-align:center;
+  }
+  .cta-section h2{
+    font-family:'Playfair Display',serif;font-size:clamp(1.8rem,3.5vw,2.5rem);
+    color:#fff;margin-bottom:16px;
+  }
+  .cta-section p{color:rgba(255,255,255,.75);font-size:1rem;margin-bottom:36px}
+  .btn-white{
+    display:inline-flex;align-items:center;gap:8px;
+    padding:16px 32px;border-radius:999px;font-size:1rem;font-weight:700;
+    background:#fff;color:var(--g700);box-shadow:0 8px 32px rgba(0,0,0,.22);
+    transition:all .25s;
+  }
+  .btn-white:hover{transform:translateY(-2px);box-shadow:0 14px 44px rgba(0,0,0,.28)}
+
+  /* ════ FOOTER ════ */
+  .footer{background:var(--s900);padding:72px 0 36px}
+  .footer-grid{display:grid;grid-template-columns:2.2fr 1fr 1fr 1.2fr;gap:48px;margin-bottom:56px}
+  .footer-brand .logo{margin-bottom:18px}
+  .footer-brand .logo .logo-text strong{color:#fff}
+  .footer-brand .logo .logo-text span{color:var(--s400)}
+  .footer-desc{font-size:.87rem;color:var(--s400);line-height:1.75;margin-bottom:24px}
+  .footer-contact{display:flex;flex-direction:column;gap:12px}
+  .fc-item{display:flex;align-items:flex-start;gap:10px;font-size:.85rem;color:var(--s400)}
+  .fc-icon{font-size:.95rem;flex-shrink:0;margin-top:1px}
+  .fc-item strong{display:block;color:#fff;font-size:.82rem;margin-bottom:1px}
+  .fc-item a{color:var(--g400);font-weight:600}
+  .footer-col h4{font-size:.9rem;font-weight:800;color:#fff;margin-bottom:18px;letter-spacing:.02em}
+  .footer-col ul{display:flex;flex-direction:column;gap:11px}
+  .footer-col ul a{font-size:.85rem;color:var(--s400);transition:color .2s}
+  .footer-col ul a:hover{color:var(--g400)}
+  .hours-card{background:var(--s800);border-radius:var(--r-md);padding:20px;border:1px solid var(--s700)}
+  .hours-badge{
+    display:inline-flex;align-items:center;gap:6px;
+    background:rgba(74,222,128,.15);color:var(--g400);
+    font-size:.75rem;font-weight:700;padding:5px 12px;border-radius:999px;margin-bottom:12px;
+  }
+  .hours-time{font-family:'Playfair Display',serif;font-size:1.6rem;font-weight:700;color:#fff;line-height:1;margin-bottom:6px}
+  .hours-note{font-size:.8rem;color:var(--s400)}
+  .footer-bottom{
+    border-top:1px solid var(--s800);padding-top:28px;
+    display:flex;align-items:center;justify-content:space-between;
+    font-size:.8rem;color:var(--s500);
+  }
+  .footer-bottom a{color:var(--s400);transition:color .2s}
+  .footer-bottom a:hover{color:var(--g400)}
+  .fab{
+    position:fixed;bottom:28px;right:28px;z-index:200;
+    width:60px;height:60px;border-radius:50%;font-size:1.5rem;
+    background:linear-gradient(135deg,var(--g600),var(--a500));
+    color:#fff;display:flex;align-items:center;justify-content:center;
+    box-shadow:0 8px 32px rgba(22,163,74,.5);
+    animation:fab-pulse 2.5s ease-in-out infinite;
+  }
+  @keyframes fab-pulse{
+    0%,100%{box-shadow:0 8px 32px rgba(22,163,74,.5),0 0 0 0 rgba(22,163,74,.25)}
+    50%{box-shadow:0 8px 32px rgba(22,163,74,.5),0 0 0 14px rgba(22,163,74,0)}
+  }
+
+  @media(max-width:1024px){
+    .art-grid{grid-template-columns:repeat(2,1fr)}
+    .footer-grid{grid-template-columns:1fr 1fr;gap:32px}
+  }
+  @media(max-width:768px){
+    .art-grid{grid-template-columns:1fr}
+    .page-hero{padding:110px 0 60px}
+    .page-hero-stats{gap:20px;flex-wrap:wrap}
+    .footer-grid{grid-template-columns:1fr}
+    .footer-bottom{flex-direction:column;gap:8px;text-align:center}
+    .nav-links,.nav-btn{display:none}
+    .nav-hamburger{display:block}
+    .art-modal-hero{padding:24px 22px;min-height:150px}
+    .art-modal-content,.art-modal-meta,.art-modal-footer{padding-left:22px;padding-right:22px}
+    .art-modal-title{font-size:1.2rem}
+  }
+  </style>
+</head>
+<body>
+
+<!-- ════ HEADER ════ -->
+<header class="header">
+  <div class="container">
+    <nav class="nav">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">心</div>
+        <div class="logo-text">
+          <strong>YHCT Tâm Đức</strong>
+          <span>Y Học Cổ Truyền</span>
+        </div>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html#dich-vu">Dịch vụ</a></li>
+        <li><a href="index.html#bac-si">Bác sĩ</a></li>
+        <li><a href="index.html#quy-trinh">Quy trình</a></li>
+        <li><a href="index.html#danh-gia">Đánh giá</a></li>
+        <li><a href="kien-thuc.html" class="active">Kiến thức</a></li>
+        <li><a href="index.html#lien-he">Liên hệ</a></li>
+      </ul>
+      <a href="index.html#dat-lich" class="nav-btn">Đặt lịch khám</a>
+      <button class="nav-hamburger" aria-label="Menu">
+        <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<!-- ════ PAGE HERO ════ -->
+<section class="page-hero">
+  <div class="container page-hero-inner">
+    <div class="tag">📚 Kiến thức YHCT</div>
+    <h1>Kiến thức Y học cổ truyền<br>thường thức</h1>
+    <p>Cập nhật hàng ngày — tìm hiểu về mặt bệnh, phương pháp điều trị, thuốc Đông y và cách phòng bệnh theo Y học cổ truyền.</p>
+    <div class="page-hero-stats">
+      <div class="ph-stat">
+        <strong id="total-count">—</strong>
+        <span>Bài viết</span>
+      </div>
+      <div class="ph-stat">
+        <strong>4</strong>
+        <span>Chủ đề</span>
+      </div>
+      <div class="ph-stat">
+        <strong>Hàng ngày</strong>
+        <span>Cập nhật</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════ FILTERS ════ -->
+<div class="filters-bar">
+  <div class="container">
+    <div class="filters-inner">
+      <button class="filter-btn active" data-cat="all" onclick="filterArticles('all',this)">
+        Tất cả <span class="filter-count" id="cnt-all">0</span>
+      </button>
+      <button class="filter-btn" data-cat="mat-benh" onclick="filterArticles('mat-benh',this)">
+        🩺 Mặt bệnh <span class="filter-count" id="cnt-mat-benh">0</span>
+      </button>
+      <button class="filter-btn" data-cat="khong-thuoc" onclick="filterArticles('khong-thuoc',this)">
+        🧘 Không dùng thuốc <span class="filter-count" id="cnt-khong-thuoc">0</span>
+      </button>
+      <button class="filter-btn" data-cat="thuoc-yhct" onclick="filterArticles('thuoc-yhct',this)">
+        🌿 Thuốc YHCT <span class="filter-count" id="cnt-thuoc-yhct">0</span>
+      </button>
+      <button class="filter-btn" data-cat="phong-benh" onclick="filterArticles('phong-benh',this)">
+        🛡️ Phòng bệnh <span class="filter-count" id="cnt-phong-benh">0</span>
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- ════ ARTICLES ════ -->
+<section class="articles-section">
+  <div class="container">
+    <p class="articles-count" id="articles-count"></p>
+    <div class="art-grid" id="art-grid"></div>
+  </div>
+</section>
+
+<!-- ════ CTA ════ -->
+<section class="cta-section">
+  <div class="container">
+    <h2>Cần tư vấn trực tiếp từ bác sĩ?</h2>
+    <p>BS. Nguyễn Đức Tâm sẵn sàng thăm khám và lập phác đồ điều trị cá nhân hóa cho bạn.</p>
+    <a href="index.html#dat-lich" class="btn-white">
+      📅 Đặt lịch khám tối nay
+    </a>
+  </div>
+</section>
+
+<!-- ════ FOOTER ════ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">
+          <div class="logo-icon">心</div>
+          <div class="logo-text">
+            <strong>YHCT Tâm Đức</strong>
+            <span>Phòng Khám Chuyên Khoa</span>
+          </div>
+        </a>
+        <p class="footer-desc">Phòng Khám Chuyên Khoa Y Học Cổ Truyền Tâm Đức — hội tụ tinh hoa y học phương Đông, phục vụ sức khỏe cộng đồng mỗi buổi tối tại Hà Đông, Hà Nội.</p>
+        <div class="footer-contact">
+          <div class="fc-item">
+            <span class="fc-icon">📍</span>
+            <div>
+              <strong>Địa chỉ</strong>
+              Lk 14 - No14 - Đồng Dưa - TDP 5 Ngô Thì Nhậm, Hà Đông, Hà Nội
+            </div>
+          </div>
+          <div class="fc-item">
+            <span class="fc-icon">📞</span>
+            <div>
+              <strong>Hotline</strong>
+              <a href="tel:0973710237">0973 710 237</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Dịch vụ</h4>
+        <ul>
+          <li><a href="index.html#dat-lich">Châm cứu</a></li>
+          <li><a href="index.html#dat-lich">Xoa bóp bấm huyệt</a></li>
+          <li><a href="index.html#dat-lich">Bốc thuốc thang</a></li>
+          <li><a href="index.html#dat-lich">Khám & tư vấn</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Phòng khám</h4>
+        <ul>
+          <li><a href="index.html#bac-si">BS. Nguyễn Đức Tâm</a></li>
+          <li><a href="index.html#quy-trinh">Quy trình khám</a></li>
+          <li><a href="index.html#danh-gia">Đánh giá bệnh nhân</a></li>
+          <li><a href="kien-thuc.html">Kiến thức YHCT</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Giờ làm việc</h4>
+        <div class="hours-card">
+          <div class="hours-badge">● Mở cửa mỗi ngày</div>
+          <div class="hours-time">18:00 – 22:00</div>
+          <div class="hours-note">Thứ 2 đến Chủ nhật<br>Kể cả lễ & cuối tuần</div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Phòng Khám YHCT Tâm Đức. All rights reserved.</span>
+      <span>Hà Đông · Hà Nội · <a href="tel:0973710237">0973 710 237</a></span>
+    </div>
+  </div>
+</footer>
+
+<a href="tel:0973710237" class="fab" title="Gọi 0973 710 237">📞</a>
+
+<!-- Article detail modal -->
+<div class="art-modal-overlay" id="artModal">
+  <div class="art-modal">
+    <div class="art-modal-hero" id="artModalHero">
+      <button class="art-modal-close" onclick="closeModal()" aria-label="Đóng">✕</button>
+      <span class="art-modal-cat" id="artModalCat"></span>
+      <div class="art-modal-icon" id="artModalIcon"></div>
+      <h2 class="art-modal-title" id="artModalTitle"></h2>
+    </div>
+    <div class="art-modal-meta" id="artModalMeta"></div>
+    <div class="art-modal-content" id="artModalContent"></div>
+    <div class="art-modal-footer">
+      <span style="font-size:.85rem;color:var(--s400)">Phòng khám YHCT Tâm Đức</span>
+      <a href="index.html#dat-lich" class="btn-green" onclick="closeModal()">📅 Đặt lịch khám tối nay</a>
+    </div>
+  </div>
+</div>
+
+<script src="articles.js"></script>
+<script>
+  const gradMap = {
+    'g-herb':'linear-gradient(145deg,#166534,#4ade80)',
+    'g-amber':'linear-gradient(145deg,#92400e,#fbbf24)',
+    'g-navy':'linear-gradient(145deg,#1e3a5f,#60a5fa)',
+    'g-fire':'linear-gradient(145deg,#7c2d12,#f97316)'
+  };
+
+  function formatDate(d){
+    const [y,m,day] = d.split('-');
+    return `${day}/${m}/${y}`;
+  }
+
+  function cardHTML(a){
+    return `
+      <div class="art-card" onclick="openModal(${a.id})">
+        <div class="art-head ${a.gradient}">
+          <div class="art-icon">${a.icon}</div>
+          <span class="art-cat">${a.categoryLabel}</span>
+        </div>
+        <div class="art-body">
+          <h3>${a.title}</h3>
+          <p>${a.excerpt}</p>
+          <div class="art-footer">
+            <span class="art-date">${formatDate(a.date)}</span>
+            <span style="color:var(--s300)">·</span>
+            <span>${a.readTime} phút</span>
+            <span class="art-read">Đọc thêm <svg viewBox="0 0 20 20" fill="currentColor" width="13" height="13"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/></svg></span>
+          </div>
+        </div>
+      </div>`;
+  }
+
+  let currentFilter = 'all';
+
+  function updateCounts(){
+    const cats = ['mat-benh','khong-thuoc','thuoc-yhct','phong-benh'];
+    document.getElementById('cnt-all').textContent = ARTICLES.length;
+    cats.forEach(c => {
+      const el = document.getElementById('cnt-'+c);
+      if(el) el.textContent = ARTICLES.filter(a => a.category === c).length;
+    });
+    document.getElementById('total-count').textContent = ARTICLES.length;
+  }
+
+  function filterArticles(cat, btn){
+    currentFilter = cat;
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    renderGrid(cat);
+  }
+
+  function renderGrid(cat){
+    const grid = document.getElementById('art-grid');
+    const countEl = document.getElementById('articles-count');
+    const filtered = cat === 'all' ? ARTICLES : ARTICLES.filter(a => a.category === cat);
+    if(filtered.length === 0){
+      grid.innerHTML = '<div class="no-results"><div style="font-size:2.5rem">📭</div><p>Chưa có bài viết trong chủ đề này. Quay lại sau nhé!</p></div>';
+      countEl.innerHTML = '';
+      return;
+    }
+    grid.innerHTML = filtered.map(cardHTML).join('');
+    countEl.innerHTML = `Hiển thị <strong>${filtered.length}</strong> bài viết${cat !== 'all' ? ' trong mục <strong>'+filtered[0].categoryLabel+'</strong>' : ''}`;
+  }
+
+  function openModal(id){
+    const a = ARTICLES.find(x => x.id === id);
+    if(!a) return;
+    document.getElementById('artModalHero').style.background = gradMap[a.gradient] || gradMap['g-herb'];
+    document.getElementById('artModalCat').textContent = a.categoryLabel;
+    document.getElementById('artModalIcon').textContent = a.icon;
+    document.getElementById('artModalTitle').textContent = a.title;
+    document.getElementById('artModalMeta').innerHTML =
+      `<span>📅 ${formatDate(a.date)}</span><span>⏱ ${a.readTime} phút đọc</span><span>🏷 ${a.categoryLabel}</span>`;
+    document.getElementById('artModalContent').innerHTML = a.content;
+    const overlay = document.getElementById('artModal');
+    overlay.classList.add('open');
+    overlay.scrollTop = 0;
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeModal(){
+    document.getElementById('artModal').classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
+  document.getElementById('artModal').addEventListener('click', function(e){
+    if(e.target === this) closeModal();
+  });
+  document.addEventListener('keydown', e => { if(e.key === 'Escape') closeModal(); });
+
+  // Init
+  updateCounts();
+  renderGrid('all');
+</script>
+</body>
+</html>
