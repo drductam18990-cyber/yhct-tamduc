@@ -1,5 +1,46 @@
 const ARTICLES = [
   {
+    id: 3,
+    slug: "tu-quan-tu-thang-bo-khi-yhct",
+    date: "2026-06-07",
+    category: "thuoc-yhct",
+    categoryLabel: "Thuốc YHCT",
+    icon: "🌿",
+    gradient: "g-fire",
+    title: "Tứ Quân Tử Thang: Bài Thuốc Bổ Khí Kinh Điển Của Y Học Cổ Truyền",
+    excerpt: "Tứ Quân Tử Thang là bài thuốc bổ khí nền tảng của YHCT, gồm 4 vị Nhân sâm, Bạch truật, Phục linh, Cam thảo. Tìm hiểu công dụng, đối tượng phù hợp và cách dùng an toàn bài thuốc kinh điển này.",
+    readTime: 6,
+    content: `<h2>Tổng quan theo Y học cổ truyền</h2>
+<p>Tứ Quân Tử Thang (四君子湯) — nghĩa đen là "thang thuốc của bốn vị quân tử" — là bài thuốc bổ khí kinh điển, xuất xứ từ tác phẩm <em>Hòa Tể Cục Phương</em> (đời Tống, thế kỷ 11), và được xem là nền tảng của hàng trăm bài thuốc bổ khí, kiện tỳ trong YHCT. Bốn vị thuốc trong bài được ví như bốn bậc quân tử — hiền lành, chắc chắn, không mạnh bạo nhưng hiệu quả sâu bền.</p>
+<p>Theo lý luận YHCT, <em>Tỳ vị</em> là "gốc của hậu thiên", là nguồn sinh hóa khí huyết cho toàn thân. Khi Tỳ khí hư yếu, cơ thể mệt mỏi, tiêu hóa kém, sắc mặt nhợt nhạt, sức đề kháng giảm sút. Tứ Quân Tử Thang tác động trực tiếp vào Tỳ Vị, bồi bổ trung khí, phục hồi chức năng vận hóa, từ đó khí huyết được sinh hóa đầy đủ, nuôi dưỡng toàn thân.</p>
+
+<h2>Thành phần và Tác dụng từng vị</h2>
+<ul>
+  <li><strong>Nhân sâm (Panax ginseng) — 12g:</strong> Quân dược chủ đạo. Đại bổ nguyên khí, kiện tỳ ích phế, sinh tân chỉ khát. Nâng cao chức năng miễn dịch, chống mệt mỏi, tăng cường sinh lực toàn diện. Có thể thay bằng Đảng sâm 15–20g nếu không có Nhân sâm.</li>
+  <li><strong>Bạch truật (Atractylodes macrocephala) — 9g:</strong> Thần dược kiện tỳ táo thấp. Tăng cường chức năng tiêu hóa, hấp thu dinh dưỡng, trừ thấp tà — phối hợp với Nhân sâm tạo thành bộ đôi bổ khí kiện tỳ cốt lõi.</li>
+  <li><strong>Phục linh (Poria cocos) — 9g:</strong> Kiện tỳ thẩm thấp, an thần định chí. Giúp vận chuyển thủy thấp, giảm phù nề, cải thiện giấc ngủ, hỗ trợ tiêu hóa. Đây là vị thuốc "lợi mà không mạnh, bổ mà không trệ".</li>
+  <li><strong>Cam thảo chích (Glycyrrhiza uralensis nướng mật) — 6g:</strong> Sứ dược điều hòa. Bổ trung ích khí, điều hòa tác dụng các vị thuốc khác, giảm độc tính, cân bằng bài thuốc. Cam thảo chích có tính ấm hơn cam thảo sống, phù hợp bổ trung tiêu.</li>
+</ul>
+
+<h2>Chỉ định và Cách sử dụng</h2>
+<p>Tứ Quân Tử Thang được chỉ định cho các trường hợp <em>Tỳ Vị khí hư</em> với biểu hiện đặc trưng: mệt mỏi uể oải, ăn kém tiêu hóa chậm, bụng đầy trướng sau ăn, phân lỏng mạn tính, hồi hộp thở ngắn, lưỡi nhợt bệu rêu trắng mỏng, mạch hoãn nhược.</p>
+<p><strong>Cách sắc và uống truyền thống:</strong> Sắc 4 vị thuốc với 600ml nước, đun nhỏ lửa còn 200ml, chia 2 lần uống ấm trước bữa ăn 30 phút. Một liệu trình thường từ 2–4 tuần, nghỉ 1 tuần rồi có thể tiếp tục theo chỉ định thầy thuốc.</p>
+<p><strong>Gia giảm thường gặp:</strong> Thêm Trần bì và Bán hạ (thành <em>Lục Quân Tử Thang</em>) nếu kèm đàm thấp, buồn nôn; thêm Hoàng kỳ và Đương quy (thành <em>Bát Trân Thang</em>) nếu cần bổ cả khí lẫn huyết. Phối hợp châm huyệt Túc tam lý (ST36) và Tỳ du (BL20) để tăng hiệu quả kiện tỳ ích khí.</p>
+
+<h2>Tự thực hành tại nhà</h2>
+<ul>
+  <li><strong>Dùng dạng thuốc thành phẩm:</strong> Tứ Quân Tử Thang hiện có dạng viên hoàn hoặc cốm hòa tan tiện dùng — tuy nhiên cần hỏi thầy thuốc YHCT trước khi tự mua dùng để xác định đúng thể bệnh.</li>
+  <li><strong>Chế cháo bổ khí tại nhà:</strong> Nấu cháo gạo tẻ với Đảng sâm 15g + Bạch truật 9g + Phục linh 9g + Hoài sơn 15g, đun lấy nước nấu cháo ăn buổi sáng — thích hợp cho người già, trẻ em tỳ vị hư yếu.</li>
+  <li><strong>Bổ trợ qua ăn uống:</strong> Ưu tiên thức ăn ấm, mềm, dễ tiêu như cháo, súp; tránh thức ăn sống lạnh, béo ngấy, đồ ngọt nhiều; ăn đúng giờ và không bỏ bữa sáng.</li>
+  <li><strong>Bấm huyệt Túc tam lý (ST36) hàng ngày:</strong> Huyệt nằm dưới đầu gối ngoài 3 thốn — bấm day mỗi bên 2 phút mỗi ngày, là huyệt bổ khí kiện tỳ nổi tiếng nhất YHCT, có thể tự thực hành tại nhà không cần thuốc.</li>
+  <li><strong>Chú ý chống chỉ định:</strong> Không dùng khi có biểu hiện nhiệt thực như sốt, viêm cấp, táo bón, lưỡi đỏ rêu vàng. Không tự kéo dài dùng thuốc quá 1 tháng mà không tái khám.</li>
+</ul>
+
+<div class="art-cta-box">
+  <p>Tứ Quân Tử Thang là bài thuốc hiền hòa nhưng cần dùng đúng thể bệnh mới phát huy tối đa hiệu quả. Để được thầy thuốc biện chứng chính xác và gia giảm bài thuốc phù hợp tình trạng sức khỏe của bạn, hãy đến <strong>Phòng Khám YHCT Tâm Đức</strong> — BS. Nguyễn Đức Tâm, Hà Đông, Hà Nội. Hotline: <strong>0973 710 237</strong>. Giờ khám: <strong>18:00 – 22:00 hàng ngày</strong>.</p>
+</div>`
+  },
+  {
     id: 2,
     slug: "xoa-bop-chua-dau-co-vai-yhct",
     date: "2026-06-06",
