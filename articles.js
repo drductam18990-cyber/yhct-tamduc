@@ -1,144 +1,323 @@
+// Dữ liệu bài viết kiến thức YHCT — thêm bài mới vào ĐẦU mảng (prepend)
+// Schema: { id, slug, date, category, categoryLabel, icon, gradient, title, excerpt, readTime, content }
+// category values: "mat-benh" | "khong-thuoc" | "thuoc-yhct" | "phong-benh" | "phuong-huyet"
+// gradient values: "g-herb" | "g-amber" | "g-navy" | "g-fire" | "g-huyet"
+
 const ARTICLES = [
   {
-    id: 3,
-    slug: "tu-quan-tu-thang-bo-khi-yhct",
+    id: 4,
+    slug: "phuong-huyet-dieu-tri-dau-dau",
     date: "2026-06-07",
-    category: "thuoc-yhct",
-    categoryLabel: "Thuốc YHCT",
-    icon: "🌿",
-    gradient: "g-fire",
-    title: "Tứ Quân Tử Thang: Bài Thuốc Bổ Khí Kinh Điển Của Y Học Cổ Truyền",
-    excerpt: "Tứ Quân Tử Thang là bài thuốc bổ khí nền tảng của YHCT, gồm 4 vị Nhân sâm, Bạch truật, Phục linh, Cam thảo. Tìm hiểu công dụng, đối tượng phù hợp và cách dùng an toàn bài thuốc kinh điển này.",
+    category: "phuong-huyet",
+    categoryLabel: "Phương huyệt",
+    icon: "📍",
+    gradient: "g-huyet",
+    title: "Phương huyệt điều trị đau đầu theo Y học cổ truyền",
+    excerpt: "5 huyệt cốt lõi trong phác đồ châm cứu điều trị đau đầu — từ đau đầu căng thẳng đến đau nửa đầu — kèm hình minh hoạ vị trí huyệt vị.",
     readTime: 6,
-    content: `<h2>Tổng quan theo Y học cổ truyền</h2>
-<p>Tứ Quân Tử Thang (四君子湯) — nghĩa đen là "thang thuốc của bốn vị quân tử" — là bài thuốc bổ khí kinh điển, xuất xứ từ tác phẩm <em>Hòa Tể Cục Phương</em> (đời Tống, thế kỷ 11), và được xem là nền tảng của hàng trăm bài thuốc bổ khí, kiện tỳ trong YHCT. Bốn vị thuốc trong bài được ví như bốn bậc quân tử — hiền lành, chắc chắn, không mạnh bạo nhưng hiệu quả sâu bền.</p>
-<p>Theo lý luận YHCT, <em>Tỳ vị</em> là "gốc của hậu thiên", là nguồn sinh hóa khí huyết cho toàn thân. Khi Tỳ khí hư yếu, cơ thể mệt mỏi, tiêu hóa kém, sắc mặt nhợt nhạt, sức đề kháng giảm sút. Tứ Quân Tử Thang tác động trực tiếp vào Tỳ Vị, bồi bổ trung khí, phục hồi chức năng vận hóa, từ đó khí huyết được sinh hóa đầy đủ, nuôi dưỡng toàn thân.</p>
+    content: `
+<h2>Cơ chế bệnh sinh đau đầu theo YHCT</h2>
+<p>Đau đầu (đầu thống) trong Y học cổ truyền thuộc phạm trù <em>ngoại cảm đầu thống</em> (do tà khí bên ngoài) hoặc <em>nội thương đầu thống</em> (do nội tạng rối loạn). Nguyên tắc châm cứu: <strong>sơ thông kinh lạc, hành khí hoạt huyết, chỉ thống</strong>.</p>
 
-<h2>Thành phần và Tác dụng từng vị</h2>
+<h2>Sơ đồ phương huyệt</h2>
+<div class="huyet-diagram">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 310" role="img" aria-label="Sơ đồ huyệt châm cứu điều trị đau đầu">
+  <style>
+    .hb{fill:#fde8d0;stroke:#c4956a;stroke-width:1.8}
+    .hh{fill:#d4956a;opacity:0.3}
+    .he{fill:white;stroke:#aaa;stroke-width:1}
+    .hp{fill:#7c3aed;stroke:white;stroke-width:2.5}
+    .hl{font-family:sans-serif;font-size:9px;font-weight:700;fill:#581c87}
+    .hs{font-family:sans-serif;font-size:8px;fill:#7c3aed}
+    .hz{font-family:sans-serif;font-size:10.5px;font-weight:600;fill:#555}
+    .hc{stroke:#a855f7;stroke-width:1.2;stroke-dasharray:3,2;fill:none}
+    .hd{stroke:#e2e8f0;stroke-width:1;fill:none}
+  </style>
+  <rect width="520" height="310" fill="#fafaf9" rx="12"/>
+
+  <!-- PANEL 1: Nhìn trước -->
+  <text x="38" y="20" class="hz">Nhìn phía trước</text>
+  <ellipse cx="90" cy="105" rx="57" ry="70" class="hb"/>
+  <ellipse cx="90" cy="66" rx="55" ry="38" class="hh"/>
+  <ellipse cx="33" cy="110" rx="10" ry="16" class="hb"/>
+  <ellipse cx="147" cy="110" rx="10" ry="16" class="hb"/>
+  <ellipse cx="71" cy="96" rx="11" ry="7" class="he"/>
+  <circle cx="71" cy="96" r="4" fill="#5c3d1a"/>
+  <ellipse cx="109" cy="96" rx="11" ry="7" class="he"/>
+  <circle cx="109" cy="96" r="4" fill="#5c3d1a"/>
+  <path d="M61,88 Q71,84 81,88" fill="none" stroke="#c4956a" stroke-width="1.5"/>
+  <path d="M99,88 Q109,84 119,88" fill="none" stroke="#c4956a" stroke-width="1.5"/>
+  <path d="M85,112 Q90,124 95,112" fill="none" stroke="#c4956a" stroke-width="1.5"/>
+  <path d="M77,137 Q90,147 103,137" fill="none" stroke="#c4956a" stroke-width="1.5"/>
+  <rect x="74" y="171" width="32" height="22" rx="5" class="hb"/>
+
+  <!-- GV20 Bách hội -->
+  <circle cx="90" cy="35" r="7" class="hp"/>
+  <line x1="90" y1="42" x2="90" y2="45" class="hc"/>
+  <text x="100" y="31" class="hl">GV20</text>
+  <text x="100" y="41" class="hs">Bách hội</text>
+
+  <!-- GV29 Ấn đường -->
+  <circle cx="90" cy="84" r="6" class="hp"/>
+  <text x="104" y="79" class="hl">GV29</text>
+  <text x="104" y="88" class="hs">Ấn đường</text>
+
+  <!-- EX-HN5 Thái dương T -->
+  <circle cx="28" cy="100" r="6" class="hp"/>
+  <text x="0" y="89" class="hl">EX-HN5</text>
+  <text x="3" y="98" class="hs">Thái dương</text>
+
+  <!-- EX-HN5 Thái dương P -->
+  <circle cx="152" cy="100" r="6" class="hp"/>
+  <text x="162" y="89" class="hl">EX-HN5</text>
+  <text x="162" y="98" class="hs">Thái dương</text>
+
+  <!-- Divider 1 -->
+  <line x1="215" y1="8" x2="215" y2="205" class="hd"/>
+
+  <!-- PANEL 2: Nhìn sau -->
+  <text x="258" y="20" class="hz">Nhìn phía sau</text>
+  <ellipse cx="310" cy="105" rx="57" ry="70" class="hb"/>
+  <ellipse cx="310" cy="72" rx="55" ry="46" class="hh"/>
+  <ellipse cx="253" cy="110" rx="10" ry="16" class="hb"/>
+  <ellipse cx="367" cy="110" rx="10" ry="16" class="hb"/>
+  <rect x="294" y="171" width="32" height="22" rx="5" class="hb"/>
+  <line x1="310" y1="172" x2="310" y2="192" class="hc" stroke-dasharray="2,2"/>
+
+  <!-- GV20 back -->
+  <circle cx="310" cy="35" r="7" class="hp"/>
+  <line x1="310" y1="42" x2="310" y2="45" class="hc"/>
+  <text x="320" y="31" class="hl">GV20</text>
+  <text x="320" y="41" class="hs">Bách hội</text>
+
+  <!-- GB20 Phong trì T -->
+  <circle cx="278" cy="166" r="6" class="hp"/>
+  <text x="222" y="160" class="hl">GB20</text>
+  <text x="220" y="169" class="hs">Phong trì</text>
+  <line x1="242" y1="165" x2="272" y2="165" class="hc"/>
+
+  <!-- GB20 Phong trì P -->
+  <circle cx="342" cy="166" r="6" class="hp"/>
+  <text x="352" y="160" class="hl">GB20</text>
+  <text x="352" y="169" class="hs">Phong trì</text>
+
+  <!-- Divider 2 -->
+  <line x1="415" y1="8" x2="415" y2="205" class="hd"/>
+
+  <!-- PANEL 3: Bàn tay -->
+  <text x="432" y="20" class="hz">Bàn tay</text>
+  <path d="M452,128 L446,108 L446,94 L450,90 L455,94 L455,86 L459,82 L464,85 L464,80 L468,76 L473,79 L473,85 L477,83 L481,86 L483,98 L481,128 Z" class="hb"/>
+  <path d="M452,128 L444,137 L441,147 L446,154 L453,142 L452,128" class="hb"/>
+
+  <!-- LI4 Hợp cốc -->
+  <circle cx="465" cy="106" r="6" class="hp"/>
+  <text x="418" y="102" class="hl">LI4</text>
+  <text x="415" y="111" class="hs">Hợp cốc</text>
+  <line x1="440" y1="106" x2="459" y2="106" class="hc"/>
+
+  <!-- Legend -->
+  <line x1="15" y1="218" x2="505" y2="218" class="hd"/>
+  <circle cx="26" cy="235" r="5" class="hp"/>
+  <text x="35" y="239" font-family="sans-serif" font-size="8.5" fill="#444">Vị trí huyệt</text>
+  <text x="105" y="239" font-family="sans-serif" font-size="8" fill="#777">  GV = Đốc mạch · GB = Đởm kinh · LI = Đại trường kinh · EX-HN = Ngoại kỳ huyệt vùng đầu</text>
+  <text x="15" y="262" font-family="sans-serif" font-size="8" fill="#999" font-style="italic">Phác đồ: châm tả 20–30 phút/buổi · Liệu trình 10 buổi · Vị trí chính xác cần xác định bởi thầy thuốc YHCT có chuyên môn</text>
+</svg>
+</div>
+
+<h2>Chi tiết từng huyệt vị</h2>
+<div class="huyet-table">
+<table>
+<thead><tr><th>Huyệt</th><th>Mã QT</th><th>Vị trí</th><th>Tác dụng</th></tr></thead>
+<tbody>
+<tr><td><strong>Bách hội</strong></td><td>GV20</td><td>Đỉnh đầu, giao điểm đường thẳng nối hai đỉnh tai và đường giữa đầu</td><td>Thăng dương ích não, bình can tức phong, chỉ thống</td></tr>
+<tr><td><strong>Ấn đường</strong></td><td>GV29</td><td>Giữa hai đầu trong lông mày</td><td>Bình can tức phong, an thần, giảm đau đầu vùng trán</td></tr>
+<tr><td><strong>Thái dương</strong></td><td>EX-HN5</td><td>Thái dương hai bên — hõm sau khóe mắt ngoài 1 thốn</td><td>Khu phong, chỉ thống, sáng mắt — đặc hiệu đau nửa đầu</td></tr>
+<tr><td><strong>Phong trì</strong></td><td>GB20</td><td>Chân tóc gáy, hai hõm cạnh cơ thang và cơ ức đòn chũm</td><td>Khu phong tán hàn, thông lạc chỉ thống — then chốt đau đầu phong hàn</td></tr>
+<tr><td><strong>Hợp cốc</strong></td><td>LI4</td><td>Mu bàn tay, giữa xương đốt bàn tay 1 và 2</td><td>Hành khí hoạt huyết, tán phong giải biểu, chỉ thống toàn đầu</td></tr>
+</tbody>
+</table>
+</div>
+
+<h2>Phân loại và gia giảm huyệt theo thể bệnh</h2>
 <ul>
-  <li><strong>Nhân sâm (Panax ginseng) — 12g:</strong> Quân dược chủ đạo. Đại bổ nguyên khí, kiện tỳ ích phế, sinh tân chỉ khát. Nâng cao chức năng miễn dịch, chống mệt mỏi, tăng cường sinh lực toàn diện. Có thể thay bằng Đảng sâm 15–20g nếu không có Nhân sâm.</li>
-  <li><strong>Bạch truật (Atractylodes macrocephala) — 9g:</strong> Thần dược kiện tỳ táo thấp. Tăng cường chức năng tiêu hóa, hấp thu dinh dưỡng, trừ thấp tà — phối hợp với Nhân sâm tạo thành bộ đôi bổ khí kiện tỳ cốt lõi.</li>
-  <li><strong>Phục linh (Poria cocos) — 9g:</strong> Kiện tỳ thẩm thấp, an thần định chí. Giúp vận chuyển thủy thấp, giảm phù nề, cải thiện giấc ngủ, hỗ trợ tiêu hóa. Đây là vị thuốc "lợi mà không mạnh, bổ mà không trệ".</li>
-  <li><strong>Cam thảo chích (Glycyrrhiza uralensis nướng mật) — 6g:</strong> Sứ dược điều hòa. Bổ trung ích khí, điều hòa tác dụng các vị thuốc khác, giảm độc tính, cân bằng bài thuốc. Cam thảo chích có tính ấm hơn cam thảo sống, phù hợp bổ trung tiêu.</li>
+  <li><strong>Đau đầu phong hàn</strong> (đau lan ra gáy, sợ lạnh): gia thêm <em>Phong môn BL12, Liệt khuyết LU7</em> — ôn kinh tán hàn.</li>
+  <li><strong>Đau đầu phong nhiệt</strong> (đau căng buốt, sốt nhẹ): gia thêm <em>Đại chùy GV14, Ngoại quan SJ5</em> — thanh nhiệt giải độc.</li>
+  <li><strong>Đau nửa đầu (thiên đầu thống)</strong>: gia thêm <em>Suất cốc GB8, Ngoại quan SJ5, Túc lâm khấp GB41</em> — lý khí thông lạc Đởm kinh.</li>
+  <li><strong>Đau đầu do can dương thượng cang</strong> (căng thẳng, huyết áp cao): gia thêm <em>Thái xung LR3, Hành gian LR2</em> — bình can tiềm dương.</li>
+  <li><strong>Đau đầu do khí huyết hư</strong> (mệt mỏi, da xanh): gia thêm <em>Túc tam lý ST36, Tam âm giao SP6</em> — bổ khí dưỡng huyết.</li>
 </ul>
 
-<h2>Chỉ định và Cách sử dụng</h2>
-<p>Tứ Quân Tử Thang được chỉ định cho các trường hợp <em>Tỳ Vị khí hư</em> với biểu hiện đặc trưng: mệt mỏi uể oải, ăn kém tiêu hóa chậm, bụng đầy trướng sau ăn, phân lỏng mạn tính, hồi hộp thở ngắn, lưỡi nhợt bệu rêu trắng mỏng, mạch hoãn nhược.</p>
-<p><strong>Cách sắc và uống truyền thống:</strong> Sắc 4 vị thuốc với 600ml nước, đun nhỏ lửa còn 200ml, chia 2 lần uống ấm trước bữa ăn 30 phút. Một liệu trình thường từ 2–4 tuần, nghỉ 1 tuần rồi có thể tiếp tục theo chỉ định thầy thuốc.</p>
-<p><strong>Gia giảm thường gặp:</strong> Thêm Trần bì và Bán hạ (thành <em>Lục Quân Tử Thang</em>) nếu kèm đàm thấp, buồn nôn; thêm Hoàng kỳ và Đương quy (thành <em>Bát Trân Thang</em>) nếu cần bổ cả khí lẫn huyết. Phối hợp châm huyệt Túc tam lý (ST36) và Tỳ du (BL20) để tăng hiệu quả kiện tỳ ích khí.</p>
+<h2>Quy trình buổi châm cứu</h2>
+<p><strong>Tư thế:</strong> Bệnh nhân nằm ngửa (huyệt vùng mặt trước) → sau đó lật sấp (huyệt vùng gáy GB20).</p>
+<p><strong>Thủ pháp:</strong> Đau thực chứng dùng <em>tả pháp</em> (vê kim ngược chiều, rút nhanh); đau hư chứng dùng <em>bổ pháp</em> (vê kim xuôi chiều, rút chậm).</p>
+<p><strong>Lưu châm:</strong> 20–30 phút/buổi. <strong>Liệu trình:</strong> 10 buổi/đợt (mỗi ngày hoặc cách ngày).</p>
 
-<h2>Tự thực hành tại nhà</h2>
+<div class="art-cta-box">
+  <p>Châm cứu điều trị đau đầu đòi hỏi thầy thuốc xác định đúng thể bệnh trước khi chọn huyệt. Đến phòng khám để được khám phân biệt và áp dụng phác đồ phù hợp với từng người — tránh tự châm khi chưa có chuyên môn.</p>
+</div>
+    `
+  },
+  {
+    id: 3,
+    slug: "phong-ngua-cam-cum-dong-y",
+    date: "2026-05-27",
+    category: "phong-benh",
+    categoryLabel: "Phòng bệnh",
+    icon: "🛡️",
+    gradient: "g-amber",
+    title: "Phòng ngừa cảm cúm mùa theo Y học cổ truyền",
+    excerpt: "Đông y có nhiều phương pháp đơn giản, hiệu quả giúp tăng cường chính khí, bảo vệ cơ thể trước tà khí gây cảm cúm mà không cần dùng thuốc.",
+    readTime: 5,
+    content: `
+<h2>Quan điểm Đông y về cảm cúm</h2>
+<p>Theo Y học cổ truyền, cảm cúm xảy ra khi <strong>tà khí bên ngoài</strong> (phong hàn hoặc phong nhiệt) xâm nhập vào cơ thể do <strong>chính khí suy yếu</strong>. Nguyên tắc phòng bệnh là <em>"Chính khí tồn nội, tà bất khả can"</em> — chính khí đủ mạnh thì tà khí không thể xâm nhập.</p>
+
+<h2>Phân biệt hai thể cảm thường gặp</h2>
 <ul>
-  <li><strong>Dùng dạng thuốc thành phẩm:</strong> Tứ Quân Tử Thang hiện có dạng viên hoàn hoặc cốm hòa tan tiện dùng — tuy nhiên cần hỏi thầy thuốc YHCT trước khi tự mua dùng để xác định đúng thể bệnh.</li>
-  <li><strong>Chế cháo bổ khí tại nhà:</strong> Nấu cháo gạo tẻ với Đảng sâm 15g + Bạch truật 9g + Phục linh 9g + Hoài sơn 15g, đun lấy nước nấu cháo ăn buổi sáng — thích hợp cho người già, trẻ em tỳ vị hư yếu.</li>
-  <li><strong>Bổ trợ qua ăn uống:</strong> Ưu tiên thức ăn ấm, mềm, dễ tiêu như cháo, súp; tránh thức ăn sống lạnh, béo ngấy, đồ ngọt nhiều; ăn đúng giờ và không bỏ bữa sáng.</li>
-  <li><strong>Bấm huyệt Túc tam lý (ST36) hàng ngày:</strong> Huyệt nằm dưới đầu gối ngoài 3 thốn — bấm day mỗi bên 2 phút mỗi ngày, là huyệt bổ khí kiện tỳ nổi tiếng nhất YHCT, có thể tự thực hành tại nhà không cần thuốc.</li>
-  <li><strong>Chú ý chống chỉ định:</strong> Không dùng khi có biểu hiện nhiệt thực như sốt, viêm cấp, táo bón, lưỡi đỏ rêu vàng. Không tự kéo dài dùng thuốc quá 1 tháng mà không tái khám.</li>
+  <li><strong>Phong hàn:</strong> Sợ lạnh, không ra mồ hôi, đau đầu, mũi nghẹt chảy nước trong, rêu lưỡi trắng mỏng. Thường gặp mùa đông, giao mùa thu–đông.</li>
+  <li><strong>Phong nhiệt:</strong> Sốt nhẹ, ra mồ hôi, họng đau đỏ, mũi chảy nước vàng, rêu lưỡi vàng mỏng. Thường gặp mùa hè, giao mùa xuân–hè.</li>
+</ul>
+
+<h2>Bấm huyệt tăng cường chính khí — làm mỗi sáng</h2>
+<ul>
+  <li><strong>Hợp cốc (LI4):</strong> Mu bàn tay, giữa xương ngón 1 và ngón 2. Ấn và xoa tròn 1 phút mỗi bên. Tăng vệ khí, thông kinh lạc.</li>
+  <li><strong>Túc tam lý (ST36):</strong> Dưới xương bánh chè 3 thốn (khoảng 4 ngón tay), ngoài xương chày 1 thốn. Xoa 2 phút mỗi bên. Kiện tỳ vị, tăng cường miễn dịch.</li>
+  <li><strong>Phong trì (GB20):</strong> Chân tóc gáy, hai hõm hai bên cột sống cổ. Ấn xoa nhẹ 30 giây mỗi bên. Khu phong tán hàn — phòng cảm lạnh hiệu quả nhất.</li>
+</ul>
+
+<h2>Động tác đơn giản phòng cảm mỗi ngày</h2>
+<p><strong>Chà xát hai cánh mũi:</strong> Dùng hai ngón trỏ chà dọc hai bên cánh mũi 20–30 lần sau khi ngủ dậy. Kích thích tuần hoàn, ấm mũi, tăng hàng rào bảo vệ đường hô hấp trên.</p>
+<p><strong>Súc miệng nước muối ấm:</strong> Pha 1/4 thìa muối vào 200ml nước ấm, súc họng sáng và tối. Thanh nhiệt giải độc tại cửa ngõ thượng tiêu.</p>
+<p><strong>Ngâm chân nước ấm gừng:</strong> 15–20 phút trước khi ngủ, thêm vài lát gừng tươi. Ấm dương khí từ dưới lên, thông kinh lạc toàn thân.</p>
+
+<h2>Thực phẩm phòng ngừa cảm theo YHCT</h2>
+<ul>
+  <li><strong>Gừng tươi + mật ong:</strong> Ôn kinh tán hàn. 1 chén trà gừng mật ong mỗi tối, đặc biệt khi trời lạnh hoặc sau khi dầm mưa.</li>
+  <li><strong>Tỏi:</strong> Kháng khuẩn, giải độc. 2–3 tép tỏi/ngày (sống hoặc ngâm mật ong).</li>
+  <li><strong>Kinh giới, tía tô:</strong> Phát tán phong hàn. Nấu cháo gừng hành hoặc uống dưới dạng trà khi có nguy cơ cảm lạnh.</li>
+  <li><strong>Táo đỏ + kỷ tử:</strong> Bổ khí huyết, tăng chính khí. Sắc uống 2–3 lần/tuần trong mùa dễ bị cảm.</li>
+</ul>
+
+<h2>Lối sống đúng theo YHCT</h2>
+<ul>
+  <li><strong>Ngủ trước 23h:</strong> Giờ Tý (23h–1h) dương khí được phục hồi. Thiếu ngủ làm vệ khí suy giảm, dễ nhiễm tà khí.</li>
+  <li><strong>Giữ ấm cổ gáy:</strong> Phong trì là nơi phong hàn dễ xâm nhập nhất. Giao mùa nên choàng khăn, tránh quạt thổi thẳng vào gáy.</li>
+  <li><strong>Kiêng đồ lạnh, sống:</strong> Tỳ vị khỏe thì vệ khí mạnh. Hạn chế nước đá, gỏi sống khi giao mùa hoặc đang mệt mỏi.</li>
 </ul>
 
 <div class="art-cta-box">
-  <p>Tứ Quân Tử Thang là bài thuốc hiền hòa nhưng cần dùng đúng thể bệnh mới phát huy tối đa hiệu quả. Để được thầy thuốc biện chứng chính xác và gia giảm bài thuốc phù hợp tình trạng sức khỏe của bạn, hãy đến <strong>Phòng Khám YHCT Tâm Đức</strong> — BS. Nguyễn Đức Tâm, Hà Đông, Hà Nội. Hotline: <strong>0973 710 237</strong>. Giờ khám: <strong>18:00 – 22:00 hàng ngày</strong>.</p>
-</div>`
+  <p>Khi đã bị cảm, nên đến khám để phân biệt đúng thể bệnh — châm cứu giải biểu hoặc thuốc thang đúng thể sẽ rút ngắn thời gian bệnh đáng kể so với tự điều trị.</p>
+</div>
+    `
   },
   {
     id: 2,
-    slug: "xoa-bop-chua-dau-co-vai-yhct",
-    date: "2026-06-06",
+    slug: "dau-that-lung-cham-cuu-xoa-bop",
+    date: "2026-05-24",
     category: "khong-thuoc",
     categoryLabel: "Không dùng thuốc",
     icon: "🧘",
     gradient: "g-herb",
-    title: "Xoa Bóp Chữa Đau Cổ Vai: Hướng Dẫn Thực Hành Theo YHCT",
-    excerpt: "Đau cổ vai gáy do ngồi sai tư thế, khí huyết ứ trệ có thể cải thiện rõ rệt bằng xoa bóp bấm huyệt YHCT. Bài viết hướng dẫn từng động tác và huyệt vị cụ thể để tự thực hành tại nhà.",
-    readTime: 5,
-    content: `<h2>Tổng quan theo Y học cổ truyền</h2>
-<p>Đau cổ vai gáy (YHCT gọi là <em>Hạng cường thống</em> hoặc <em>Kiên tý</em>) là chứng bệnh cực kỳ phổ biến trong xã hội hiện đại, đặc biệt ở những người lao động trí óc, ngồi máy tính nhiều giờ. Theo lý luận YHCT, vùng cổ vai là nơi giao hội của các kinh Thái dương, Thiếu dương và Dương minh — khi khí huyết lưu thông kém, phong hàn thấp tà xâm nhập hoặc cân cơ co rút do tư thế sai, kinh lạc bị tắc nghẽn sẽ sinh ra đau nhức, co cứng.</p>
-<p>Xoa bóp (Án ma) là một trong những phương pháp điều trị không dùng thuốc cốt lõi của YHCT, có tác dụng thông kinh hoạt lạc, giải phóng co cứng cơ, kích thích lưu thông khí huyết, giảm đau tại chỗ nhanh và an toàn, không tác dụng phụ.</p>
+    title: "Đau thắt lưng: Châm cứu và xoa bóp bấm huyệt hiệu quả không cần thuốc",
+    excerpt: "Đau thắt lưng mạn tính có thể cải thiện rõ rệt chỉ sau 5–7 buổi châm cứu kết hợp xoa bóp bấm huyệt — không cần phụ thuộc thuốc giảm đau.",
+    readTime: 6,
+    content: `
+<h2>Đông y nhìn nhận đau thắt lưng như thế nào?</h2>
+<p>Đau thắt lưng (yêu thống) trong YHCT chủ yếu do ba nguyên nhân: <strong>Thận hư</strong> (thận âm hoặc thận dương hư suy); <strong>Phong hàn thấp</strong> xâm phạm kinh lạc; hoặc <strong>Khí trệ huyết ứ</strong> sau chấn thương hay ngồi lâu. Điều trị cần xác định đúng thể bệnh.</p>
 
-<h2>Phân thể / Nguyên nhân theo YHCT</h2>
+<h2>Phân thể và đặc điểm nhận biết</h2>
 <ul>
-  <li><strong>Thể Phong hàn thấp tý:</strong> Đau cổ vai tăng khi trời lạnh hoặc sau khi ngồi điều hòa, co cứng khớp buổi sáng, chườm nóng giảm đau. Hướng điều trị: Trừ phong tán hàn, thông kinh hoạt lạc.</li>
-  <li><strong>Thể Khí huyết ứ trệ:</strong> Đau cố định, tính chất như châm chích, do tư thế sai kéo dài hoặc chấn thương cũ, đau tăng khi ấn vào điểm khu trú. Hướng điều trị: Hành khí hoạt huyết, thông lạc chỉ thống.</li>
-  <li><strong>Thể Can Thận hư:</strong> Đau âm ỉ kéo dài, kèm ù tai, hoa mắt, lưng gối mỏi, hay gặp ở người trung niên và cao tuổi. Hướng điều trị: Bổ ích Can Thận, khu phong thông lạc.</li>
-  <li><strong>Thể Khí hư đàm thấp:</strong> Cổ vai nặng nề, tê mỏi, kèm chóng mặt buồn nôn, người béo phì, rêu lưỡi trắng nhờn. Hướng điều trị: Kiện tỳ hóa đàm, thông kinh lạc.</li>
+  <li><strong>Thận dương hư:</strong> Đau âm ỉ kéo dài, mỏi gối, lạnh lưng, tiểu đêm nhiều, chân tay lạnh. Điều trị: ôn thận tráng dương, cứu huyệt.</li>
+  <li><strong>Thận âm hư:</strong> Đau mỏi về chiều tối, ra mồ hôi trộm, miệng khô, lưỡi đỏ ít rêu. Điều trị: tư âm bổ thận.</li>
+  <li><strong>Phong hàn thấp tý:</strong> Đau tăng rõ khi lạnh ẩm, giảm khi ấm áp, cứng lưng buổi sáng, nặng nề. Điều trị: khu phong tán hàn, trừ thấp thông lạc.</li>
+  <li><strong>Khí trệ huyết ứ:</strong> Đau cố định như kim châm, thường sau chấn thương hoặc ngồi lâu, đau tăng khi ấn. Điều trị: hành khí hoạt huyết, hóa ứ thông lạc.</li>
 </ul>
 
-<h2>Huyệt vị và Kỹ thuật Xoa bóp</h2>
-<p>Trình tự xoa bóp vùng cổ vai gáy hiệu quả bao gồm các bước sau:</p>
-<p><strong>Các huyệt vị quan trọng cần tác động:</strong></p>
+<h2>Huyệt vị châm cứu hiệu quả</h2>
+<p>Phác đồ cơ bản — BS. Nguyễn Đức Tâm sẽ điều chỉnh tùy thể bệnh cụ thể:</p>
 <ul>
-  <li><strong>Phong trì (GB20):</strong> Hõm dưới xương chẩm, hai bên gân cổ — trừ phong, giải kinh, giảm đau đầu cổ, hạ áp. Ấn day mỗi bên 1–2 phút.</li>
-  <li><strong>Kiên tỉnh (GB21):</strong> Đỉnh vai, điểm giữa đường nối mỏm vai và cột sống — điểm hội tụ của kinh Đởm, đặc hiệu chữa đau vai gáy, cứng cổ. Bóp nắn mạnh 1 phút mỗi bên.</li>
-  <li><strong>Thiên tông (SI11):</strong> Giữa bả vai, hõm dưới xương bả vai — thông kinh Tiểu trường, giảm đau bả vai và cánh tay. Ấn sâu 1–2 phút.</li>
-  <li><strong>Đại chùy (GV14):</strong> Dưới mỏm gai đốt sống cổ 7 — tổng hội các kinh dương, giải biểu tán hàn, thông dương khí. Day ấn 2 phút.</li>
-  <li><strong>Hợp cốc (LI4):</strong> Mu bàn tay giữa ngón cái và ngón trỏ — giảm đau vùng đầu mặt cổ, hành khí thông lạc. Ấn mạnh 1 phút mỗi tay.</li>
-  <li><strong>Hậu khê (SI3):</strong> Bờ trong bàn tay, mô út, khi nắm tay nếp gấp ngang nhất — thông đốc mạch, chữa cứng cổ và đau cột sống cổ. Ấn day 1 phút.</li>
+  <li><strong>Thận du (BL23):</strong> Cạnh cột sống ngang đốt L2, cách gai 1,5 thốn. Bổ thận, chủ trị mọi thể đau thắt lưng.</li>
+  <li><strong>Đại trường du (BL25):</strong> Cạnh cột sống ngang đốt L4. Thư cân, lý khí chỉ thống.</li>
+  <li><strong>Uỷ trung (BL40):</strong> Giữa nếp gấp khoeo. <em>"Yêu bối uỷ trung cầu"</em> — câu kinh điển YHCT, đây là huyệt chủ trị đau lưng quan trọng nhất.</li>
+  <li><strong>Dương lăng tuyền (GB34):</strong> Trước và dưới đầu xương mác. Thư gân giải co cứng, trừ thấp.</li>
+  <li><strong>Côn lôn (BL60):</strong> Giữa mắt cá ngoài và gân Achilles. Thông kinh hoạt lạc, chỉ thống.</li>
 </ul>
-<p><strong>Quy trình xoa bóp 15 phút:</strong> Bắt đầu bằng xoa ấm vùng cổ gáy (2 phút) → véo nắn dọc cơ thang (3 phút) → bấm tuần tự các huyệt Phong trì, Kiên tỉnh, Thiên tông (6 phút) → day ấn Đại chùy, Hợp cốc, Hậu khê (3 phút) → kết thúc bằng vỗ nhẹ toàn vùng (1 phút).</p>
 
-<h2>Tự thực hành tại nhà</h2>
+<h2>Kỹ thuật xoa bóp tự làm tại nhà</h2>
+<p><strong>Xoa thận du — làm hàng ngày:</strong> Hai tay nắm lại, dùng mu khớp ngón xoa mạnh vùng thắt lưng hai bên cột sống theo chiều lên xuống 3–5 phút đến khi ấm nóng. Thực hiện trước khi ngủ. Bổ thận dương, giảm đau mạn tính.</p>
+<p><strong>Ấn huyệt uỷ trung:</strong> Ngồi duỗi thẳng chân, dùng ngón cái ấn vào giữa nếp khoeo, giữ 30 giây — thả — lặp lại 5 lần mỗi bên. Hiệu quả giảm đau cấp tính.</p>
+
+<h2>Bài tập dưỡng sinh hỗ trợ điều trị</h2>
 <ul>
-  <li><strong>Xoa ấm khởi động:</strong> Hai lòng bàn tay xoa vào nhau cho nóng, áp lên vùng gáy xoa vòng tròn 30 lần để làm ấm và thông khí huyết trước khi bấm huyệt.</li>
-  <li><strong>Bấm huyệt Phong trì (GB20):</strong> Dùng hai ngón cái ấn đồng thời hai huyệt Phong trì theo hướng hơi hướng lên trên và vào trong, giữ 30 giây, lặp lại 3 lần. Cảm giác tức căng lan đến đỉnh đầu là đúng huyệt.</li>
-  <li><strong>Véo nắn cơ thang:</strong> Dùng ngón cái và các ngón còn lại véo nhẹ dọc theo cơ thang từ cổ xuống vai, mỗi bên 2 phút — hiệu quả nhất cho tình trạng cứng vai do ngồi lâu.</li>
-  <li><strong>Tự bấm Kiên tỉnh (GB21):</strong> Dùng ngón giữa bàn tay đối bên ấn thẳng xuống đỉnh vai, ấn và giữ 30 giây rồi thả, lặp 5 lần mỗi bên. Tránh dùng huyệt này với phụ nữ mang thai.</li>
-  <li><strong>Vận động nhẹ sau xoa bóp:</strong> Xoay cổ chậm 5 vòng mỗi chiều, ngả đầu sang hai bên giữ 10 giây — giúp cơ thư giãn hoàn toàn sau khi được thông kinh lạc.</li>
-  <li><strong>Chườm ngải nóng:</strong> Nếu có túi chườm thảo dược (ngải cứu + muối hạt rang nóng), chườm lên vùng cổ vai 15–20 phút sau khi xoa bóp để tăng tác dụng tán hàn thông lạc.</li>
+  <li><strong>Nằm co gối:</strong> Nằm ngửa, co 2 gối về ngực, ôm giữ 30 giây, thả. 10 lần mỗi ngày. Giãn cơ cạnh sống.</li>
+  <li><strong>Cầu lưng:</strong> Nằm ngửa co gối, nâng mông lên cao giữ 5 giây. 15 lần/ngày. Tăng cường cơ lưng dưới và mông.</li>
+  <li><strong>Xoay hông:</strong> Đứng thẳng tay chống hông, xoay tròn 10 vòng mỗi chiều, sáng và tối. Thông khí huyết vùng thắt lưng.</li>
 </ul>
+
+<h2>Kết quả điều trị thực tế</h2>
+<p>Với đau thắt lưng mạn tính, liệu trình 10–15 buổi châm cứu (mỗi buổi 30 phút, cách ngày) thường giảm 60–80% cường độ đau. Kết hợp xoa bóp và bài tập tại nhà, nhiều bệnh nhân không cần dùng thuốc giảm đau sau tuần thứ 2.</p>
 
 <div class="art-cta-box">
-  <p>Xoa bóp tại nhà có thể giảm đau tạm thời, nhưng để điều trị dứt điểm đau cổ vai gáy mạn tính, cần được thầy thuốc YHCT thăm khám xác định thể bệnh và phối hợp châm cứu, bài thuốc phù hợp. Hãy đến <strong>Phòng Khám YHCT Tâm Đức</strong> — BS. Nguyễn Đức Tâm, Hà Đông, Hà Nội để được tư vấn và điều trị chuyên sâu. Hotline: <strong>0973 710 237</strong>. Giờ khám: <strong>18:00 – 22:00 hàng ngày</strong>.</p>
-</div>`
+  <p>Đau thắt lưng kéo dài hơn 2 tuần, lan xuống chân, kèm tê bì hoặc yếu cơ cần được thăm khám để loại trừ thoát vị đĩa đệm và xây dựng phác đồ điều trị phù hợp.</p>
+</div>
+    `
   },
   {
     id: 1,
-    slug: "dau-dau-kinh-nien-yhct",
-    date: "2026-06-05",
+    slug: "mat-ngu-phan-the-va-dieu-tri",
+    date: "2026-05-20",
     category: "mat-benh",
     categoryLabel: "Mặt bệnh",
-    icon: "🩺",
+    icon: "🌙",
     gradient: "g-navy",
-    title: "Đau Đầu Kinh Niên: Nguyên Nhân và Điều Trị Theo Y Học Cổ Truyền",
-    excerpt: "Đau đầu mạn tính theo YHCT thường do Can khí uất kết, Thận âm hư hoặc Đàm thấp. Bài viết phân tích từng thể bệnh và hướng dẫn huyệt vị, bài thuốc phù hợp.",
-    readTime: 6,
-    content: `<h2>Tổng quan theo Y học cổ truyền</h2>
-<p>Đau đầu kinh niên (kéo dài trên 3 tháng, tái phát nhiều lần) trong Y học cổ truyền (YHCT) được gọi là <em>Đầu thống</em> hoặc <em>Đầu phong</em>. Khác với Tây y chủ yếu kiểm soát triệu chứng bằng thuốc giảm đau, YHCT tiếp cận theo căn nguyên — tìm và điều chỉnh sự mất cân bằng âm dương, khí huyết, tạng phủ để loại trừ tận gốc nguyên nhân gây đau.</p>
-<p>Theo lý luận YHCT, não là <em>"bể của tủy"</em>, chịu sự nuôi dưỡng từ Thận tinh và Can huyết. Khi khí huyết không lưu thông, hoặc phong tà, đàm thấp tắc nghẽn kinh lạc, đầu não không được nhu dưỡng đầy đủ sẽ sinh ra đau.</p>
+    title: "Mất ngủ theo Y học cổ truyền: Phân thể và phác đồ điều trị",
+    excerpt: "YHCT phân mất ngủ thành 5 thể bệnh với phác đồ điều trị khác nhau — châm cứu, thuốc thang và bấm huyệt có thể phục hồi giấc ngủ tự nhiên mà không gây lệ thuộc.",
+    readTime: 7,
+    content: `
+<h2>Mất ngủ — bệnh của thời đại hiện đại</h2>
+<p>Mất ngủ (thất miên) ngày càng phổ biến trong xã hội hiện đại. Khác với Tây y dùng thuốc an thần có nguy cơ gây lệ thuộc, <strong>Y học cổ truyền điều trị theo gốc rễ</strong> — phục hồi cân bằng âm dương, điều hòa tâm thần để giấc ngủ trở lại tự nhiên.</p>
 
-<h2>Phân thể theo YHCT</h2>
+<h2>5 thể bệnh mất ngủ theo YHCT</h2>
+
+<h3>1. Tâm tỳ lưỡng hư (hay gặp nhất)</h3>
+<p><strong>Nhận biết:</strong> Khó vào giấc, dễ thức giữa đêm, mơ nhiều, hay lo lắng, mệt mỏi ban ngày, ăn kém, tim hồi hộp, da xanh nhợt.</p>
+<p><strong>Điều trị:</strong> Bổ tâm kiện tỳ, dưỡng huyết an thần. Bài thuốc kinh điển: <em>Quy tỳ thang</em> gia giảm. Huyệt chính: Tâm du, Tỳ du, Thần môn, Túc tam lý, Tam âm giao.</p>
+
+<h3>2. Tâm thận bất giao</h3>
+<p><strong>Nhận biết:</strong> Không ngủ được hoặc ngủ rất ít, bồn chồn, nóng trong người về chiều tối, ra mồ hôi trộm, miệng khô, ù tai.</p>
+<p><strong>Điều trị:</strong> Tư thận âm, giáng tâm hỏa, giao thông tâm thận. Bài thuốc: <em>Hoàng liên a giao thang</em>. Huyệt: Thái khê, Thần môn, Nội quan, Tâm du, Thận du.</p>
+
+<h3>3. Can khí uất kết</h3>
+<p><strong>Nhận biết:</strong> Khó ngủ do suy nghĩ nhiều, tức ngực sườn, thở dài, dễ cáu gắt, ngủ hay ác mộng, miệng đắng, kinh nguyệt không đều (ở phụ nữ).</p>
+<p><strong>Điều trị:</strong> Sơ can giải uất, định thần. Bài thuốc: <em>Tiêu dao tán</em> gia giảm. Huyệt: Thái xung, Kỳ môn, Thần môn, Nội quan, Bách hội.</p>
+
+<h3>4. Đàm nhiệt nội nhiễu</h3>
+<p><strong>Nhận biết:</strong> Mất ngủ, đầu nặng, nhiều đờm dãi, buồn nôn, bụng đầy trướng, miệng nhớt đắng. Hay gặp ở người thừa cân, ăn nhiều chất béo ngọt.</p>
+<p><strong>Điều trị:</strong> Thanh nhiệt hóa đàm, hòa vị an thần. Bài thuốc: <em>Ôn đởm thang</em>. Huyệt: Phong long, Nội quan, Túc tam lý, Trung quản.</p>
+
+<h3>5. Tâm hỏa vượng</h3>
+<p><strong>Nhận biết:</strong> Bồn chồn không ngủ được, người nóng bừng, miệng lưỡi lở loét, tiểu vàng ít, táo bón.</p>
+<p><strong>Điều trị:</strong> Thanh tâm tả hỏa, an thần. Huyệt: Thần môn, Lao cung, Tam âm giao, Hành gian, Thiếu phủ.</p>
+
+<h2>Bấm huyệt giúp dễ ngủ — tự làm tại nhà</h2>
 <ul>
-  <li><strong>Thể Can khí uất kết:</strong> Đau vùng thái dương hoặc đỉnh đầu, đau tăng khi căng thẳng, kèm khó chịu hông sườn, miệng đắng, mắt đỏ. Hướng điều trị: Sơ Can giải uất, bình Can tiềm dương.</li>
-  <li><strong>Thể Thận âm hư:</strong> Đau âm ỉ kéo dài, ù tai, hoa mắt, lưng gối mỏi, ngủ kém, lòng bàn tay chân nóng. Hướng điều trị: Tư bổ Thận âm, an thần.</li>
-  <li><strong>Thể Đàm thấp:</strong> Đau đầu nặng nề như bị bọc, chóng mặt, buồn nôn, người nặng nề, rêu lưỡi trắng dày. Hướng điều trị: Hóa đàm trừ thấp, thông kinh hoạt lạc.</li>
-  <li><strong>Thể Khí huyết hư:</strong> Đau nhức dai dẳng, sắc mặt nhợt, mệt mỏi, hồi hộp, hay quên. Hướng điều trị: Bổ khí dưỡng huyết.</li>
-  <li><strong>Thể Ứ huyết:</strong> Đau cố định một chỗ, đau như châm chích, lưỡi tím có điểm ứ huyết. Hướng điều trị: Hoạt huyết hóa ứ, thông lạc.</li>
+  <li><strong>Thần môn (HT7):</strong> Cổ tay trong, phía ngón út, cạnh gân. Ấn và giữ 30 giây mỗi bên trước khi ngủ.</li>
+  <li><strong>Tam âm giao (SP6):</strong> Mắt cá trong, lên 3 thốn (4 ngón tay). Ấn xoa nhẹ 2 phút mỗi bên.</li>
+  <li><strong>An miên (điểm kinh nghiệm):</strong> Sau tai, giữa huyệt Phong trì và Ế phong. Xoa tròn 50–100 lần — đặc trị mất ngủ.</li>
+  <li><strong>Ấn đường:</strong> Giữa hai đầu lông mày. Nhắm mắt, ấn nhẹ và xoa tròn 1–2 phút. Định tâm, giảm lo âu.</li>
 </ul>
 
-<h2>Phương pháp điều trị và Huyệt vị</h2>
-<p>YHCT phối hợp châm cứu, xoa bóp và bài thuốc để điều trị đau đầu kinh niên theo thể bệnh cụ thể.</p>
-<p><strong>Huyệt vị cơ bản thường dùng:</strong></p>
+<h2>Thói quen buổi tối theo YHCT</h2>
 <ul>
-  <li><strong>Bách hội (GV20):</strong> Đỉnh đầu, tổng hội của các kinh dương — thông dương, an thần, giảm đau đầu.</li>
-  <li><strong>Thái dương (EX-HN5):</strong> Vùng thái dương — đặc hiệu cho đau nửa đầu, đau vùng thái dương.</li>
-  <li><strong>Phong trì (GB20):</strong> Hõm chân tóc sau gáy — trừ phong, thông lạc, hạ áp.</li>
-  <li><strong>Hợp cốc (LI4):</strong> Mu bàn tay giữa ngón cái và trỏ — giảm đau toàn thân, đặc biệt vùng đầu mặt.</li>
-  <li><strong>Túc tam lý (ST36):</strong> Dưới đầu gối 3 thốn — bổ khí huyết, kiện tỳ vị.</li>
-  <li><strong>Thái xung (LR3):</strong> Mu bàn chân giữa ngón 1 và 2 — sơ Can giải uất, bình Can tiềm dương (đặc biệt tốt cho thể Can khí uất).</li>
-  <li><strong>Thái khê (KI3):</strong> Hõm sau mắt cá trong — tư bổ Thận âm (tốt cho thể Thận âm hư).</li>
-</ul>
-<p>Bài thuốc điển hình: Thể Can khí uất dùng <em>Thiên ma câu đằng ẩm</em>; thể Thận âm hư dùng <em>Lục vị địa hoàng hoàn</em> gia vị; thể Đàm thấp dùng <em>Bán hạ bạch truật thiên ma thang</em>.</p>
-
-<h2>Tự thực hành tại nhà</h2>
-<ul>
-  <li><strong>Bấm huyệt hàng ngày:</strong> Dùng ngón cái ấn và xoay tròn huyệt Thái dương (EX-HN5) và Phong trì (GB20) mỗi huyệt 2 phút, ngày 2 lần sáng tối.</li>
-  <li><strong>Trà hoa cúc — câu kỷ:</strong> Hoa cúc bạch 6g + câu kỷ tử 10g + mật ong, hãm nước sôi uống hàng ngày giúp thanh Can, dưỡng âm.</li>
-  <li><strong>Xoa bóp đầu gáy:</strong> Dùng 10 đầu ngón tay gõ nhẹ toàn bộ đầu 3–5 phút, sau đó day ấn vùng gáy giúp lưu thông khí huyết.</li>
-  <li><strong>Điều chỉnh lối sống:</strong> Ngủ đúng giờ (trước 23h), tránh rượu bia, hạn chế căng thẳng kéo dài, tập thở bụng 10 phút mỗi sáng.</li>
-  <li><strong>Chú ý theo dõi:</strong> Ghi chép nhật ký đau đầu (thời gian, cường độ, yếu tố kích hoạt) để hỗ trợ thầy thuốc chẩn đoán chính xác hơn.</li>
+  <li>Ngâm chân nước ấm 40°C (thêm gừng hoặc muối) 15–20 phút trước ngủ — kéo dương khí xuống hạ tiêu, giúp não thư giãn.</li>
+  <li>Uống trà tâm sen hoặc trà hoa cúc ấm — thanh tâm, trừ phiền nhiệt.</li>
+  <li>Không dùng điện thoại sau 21h — ánh sáng xanh kích thích dương khí, cản trở quá trình âm khí phục hồi vào ban đêm.</li>
+  <li>Ngủ trước 23h — giờ Tý (23h–1h) là thời điểm dương khí phục hồi mạnh nhất; ngủ đúng giờ này bổ khí tốt nhất.</li>
 </ul>
 
 <div class="art-cta-box">
-  <p>Đau đầu kinh niên có nhiều thể bệnh khác nhau — điều trị hiệu quả cần được thầy thuốc YHCT thăm khám, biện chứng và xây dựng phác đồ cá nhân hóa. Hãy đến <strong>Phòng Khám YHCT Tâm Đức</strong> — BS. Nguyễn Đức Tâm, Hà Đông, Hà Nội để được tư vấn và điều trị tận gốc. Hotline: <strong>0973 710 237</strong>. Giờ khám: <strong>18:00 – 22:00 hàng ngày</strong>.</p>
-</div>`
+  <p>Mất ngủ kéo dài trên 1 tháng cần thăm khám để xác định đúng thể bệnh. Điều trị sai thể không chỉ không hiệu quả mà có thể làm nặng thêm triệu chứng.</p>
+</div>
+    `
   }
 ];
