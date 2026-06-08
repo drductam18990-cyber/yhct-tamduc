@@ -5,6 +5,55 @@
 
 const ARTICLES = [
   {
+    id: 5,
+    slug: "dau-vai-gay-yhct-phan-the-dieu-tri",
+    date: "2026-06-08",
+    category: "mat-benh",
+    categoryLabel: "Mặt bệnh",
+    icon: "🩺",
+    gradient: "g-navy",
+    title: "Đau vai gáy theo Y học cổ truyền: Phân thể và phác đồ điều trị",
+    excerpt: "Đau vai gáy mạn tính trong YHCT thường do phong hàn thấp xâm phạm hoặc can thận hư — xác định đúng thể giúp châm cứu và xoa bóp đạt hiệu quả tốt nhất.",
+    readTime: 6,
+    content: `
+<h2>Tổng quan theo Y học cổ truyền</h2>
+<p>Đau vai gáy (hạng bối thống) là chứng bệnh thuộc kinh Thái dương Bàng quang và kinh Đởm, thường gặp ở người làm việc văn phòng, lao động nặng và người cao tuổi. Theo YHCT, cổ - vai - gáy là vùng hội tụ của nhiều kinh lạc quan trọng; khi <strong>khí huyết không thông</strong> hoặc <strong>tà khí xâm nhập</strong>, kinh lạc bị tắc nghẽn gây đau. Nguyên tắc điều trị: <em>thông kinh lạc, hành khí hoạt huyết, khu tà chỉ thống</em>.</p>
+
+<h2>Phân thể / Nguyên nhân theo YHCT</h2>
+<ul>
+  <li><strong>Thể phong hàn thấp tý:</strong> Đau cứng cổ vai tăng rõ khi gặp lạnh, gió; giảm khi chườm ấm. Hay gặp sau ngủ quạt, điều hòa thổi thẳng vào gáy, hoặc dầm mưa. Biểu hiện: cổ cứng khó quay, đau lan vai và cánh tay, rêu lưỡi trắng nhớt. Hướng điều trị: khu phong tán hàn, trừ thấp thông lạc.</li>
+  <li><strong>Thể khí trệ huyết ứ:</strong> Đau cố định như kim châm, tăng khi ngồi lâu một tư thế, ấn vào đau nhiều hơn. Thường gặp ở dân văn phòng ngồi máy tính nhiều giờ. Lưỡi tím có điểm ứ. Hướng điều trị: hành khí hoạt huyết, hóa ứ thông lạc.</li>
+  <li><strong>Thể can thận hư:</strong> Đau mỏi âm ỉ kéo dài, kèm hoa mắt chóng mặt, ù tai, mỏi gối lưng. Hay gặp ở người trung niên, cao tuổi hoặc sau bệnh nặng. Hướng điều trị: bổ can thận, mạnh gân cốt.</li>
+  <li><strong>Thể đàm thấp trở lạc:</strong> Đau mỏi vai gáy kèm đầu nặng, chóng mặt, người béo phì, cổ to ngắn. Lưỡi bệu rêu nhờn dày. Hướng điều trị: hóa đàm trừ thấp, thông kinh lạc.</li>
+</ul>
+
+<h2>Phương pháp điều trị — Huyệt vị châm cứu</h2>
+<p>Phác đồ cơ bản dùng trong điều trị đau vai gáy — thầy thuốc sẽ gia giảm theo từng thể bệnh:</p>
+<ul>
+  <li><strong>Phong trì (GB20):</strong> Chân tóc gáy, hai hõm cạnh cơ thang và cơ ức đòn chũm. Huyệt quan trọng nhất — khu phong tán hàn, thông lạc chỉ thống toàn vùng đầu cổ.</li>
+  <li><strong>Thiên trụ (BL10):</strong> Cạnh cột sống cổ, ngang C2, cách gai 1,3 thốn. Thông kinh Bàng quang, giải cứng cổ gáy.</li>
+  <li><strong>Kiên tỉnh (GB21):</strong> Đỉnh vai, giữa cổ và mỏm vai. Lý khí thông lạc, giải co cứng cơ thang — huyệt đặc trị căng cứng cơ vai.</li>
+  <li><strong>Hậu khê (SI3):</strong> Bờ ngoài bàn tay, sau khớp đốt bàn ngón 5. Thông Đốc mạch, khu phong giải biểu — huyệt xa tác dụng mạnh trên cột sống cổ.</li>
+  <li><strong>Hợp cốc (LI4):</strong> Mu bàn tay, giữa đốt bàn tay 1 và 2. Hành khí hoạt huyết, chỉ thống toàn thân — gia thêm khi đau kèm nhức đầu.</li>
+  <li><strong>Thân trụ (GV12):</strong> Đường giữa lưng ngang T3. Thông Đốc mạch, kiên cố khí vệ — gia thêm khi thể phong hàn.</li>
+</ul>
+<p>Thể can thận hư: gia thêm <em>Thận du (BL23), Thái khê (KI3), Can du (BL18)</em>. Thể khí trệ huyết ứ: gia thêm <em>Cách du (BL17), Huyết hải (SP10)</em>.</p>
+
+<h2>Tự thực hành tại nhà</h2>
+<ul>
+  <li><strong>Xoa bóp huyệt Phong trì (GB20):</strong> Dùng hai ngón cái ấn vào hai hõm dưới chân tóc gáy, xoa tròn nhẹ 2 phút mỗi ngày — giảm căng thẳng cơ cổ, cải thiện tuần hoàn não.</li>
+  <li><strong>Chườm ấm vùng vai gáy:</strong> Túi muối rang nóng hoặc khăn ấm chườm 15–20 phút buổi tối — đặc biệt hiệu quả với thể phong hàn. Không chườm khi đang viêm cấp.</li>
+  <li><strong>Bài tập xoay cổ dưỡng sinh:</strong> Ngồi thẳng lưng, từ từ nghiêng đầu phải–trái–trước–sau mỗi hướng 10 giây, xoay tròn nhẹ 5 vòng mỗi chiều. Thực hiện sáng và chiều.</li>
+  <li><strong>Ấn huyệt Kiên tỉnh (GB21):</strong> Dùng ngón tay bên đối diện ấn và bóp nhẹ đỉnh vai 30 giây mỗi bên, 3–4 lần/ngày — hiệu quả giảm căng cứng cơ thang tức thì.</li>
+  <li><strong>Điều chỉnh tư thế làm việc:</strong> Màn hình ngang tầm mắt, không cúi cổ quá 20 độ, cứ 45 phút đứng dậy vươn vai một lần — phòng ngừa tái phát.</li>
+</ul>
+
+<div class="art-cta-box">
+  <p>Đau vai gáy tái đi tái lại hoặc kèm tê bì tay, yếu cơ là dấu hiệu cần thăm khám để loại trừ thoát vị đĩa đệm cổ. Tại <strong>Phòng Khám YHCT Tâm Đức</strong>, BS. Nguyễn Đức Tâm sẽ khám phân thể và xây dựng phác đồ châm cứu kết hợp xoa bóp bấm huyệt phù hợp với từng bệnh nhân. Liên hệ <strong>0973 710 237</strong> để đặt lịch — giờ khám <strong>18:00–22:00 hàng ngày</strong>, Hà Đông, Hà Nội.</p>
+</div>
+    `
+  },
+  {
     id: 4,
     slug: "phuong-huyet-dieu-tri-dau-dau",
     date: "2026-06-07",
