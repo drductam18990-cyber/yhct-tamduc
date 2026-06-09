@@ -5,6 +5,55 @@
 
 const ARTICLES = [
   {
+    id: 6,
+    slug: "bam-huyet-cai-thien-tieu-hoa",
+    date: "2026-06-09",
+    category: "khong-thuoc",
+    categoryLabel: "Không dùng thuốc",
+    icon: "🧘",
+    gradient: "g-herb",
+    title: "Bấm huyệt cải thiện tiêu hóa: Giải pháp không dùng thuốc từ Y học cổ truyền",
+    excerpt: "Hệ tiêu hóa yếu, đầy bụng, ăn không tiêu, tiêu chảy hoặc táo bón mạn tính đều có thể cải thiện rõ rệt chỉ với vài huyệt đơn giản — không cần dùng thuốc.",
+    readTime: 5,
+    content: `
+<h2>Tổng quan theo Y học cổ truyền</h2>
+<p>Tiêu hóa kém trong YHCT chủ yếu xuất phát từ sự suy yếu của <strong>Tỳ vị</strong> — hai tạng phủ đóng vai trò vận hóa thủy cốc, hấp thu tinh chất nuôi dưỡng toàn thân. Khi Tỳ vị hư nhược hoặc bị can khí phạm vị, khí cơ thăng giáng mất điều hòa, người bệnh sẽ xuất hiện các triệu chứng như đầy bụng, ợ hơi, ăn không tiêu, phân lỏng hoặc táo bón xen kẽ. Nguyên tắc điều trị: <em>kiện tỳ hòa vị, lý khí tiêu đạo</em>.</p>
+
+<h2>Phân thể / Nguyên nhân theo YHCT</h2>
+<ul>
+  <li><strong>Thể tỳ khí hư:</strong> Ăn kém, bụng đầy trướng sau ăn, người mệt mỏi, phân nát nhão, lưỡi bệu nhạt rêu trắng. Hay gặp ở người ăn uống thất thường, thức khuya nhiều. Hướng điều trị: kiện tỳ ích khí, tiêu đạo.</li>
+  <li><strong>Thể can khí phạm vị:</strong> Bụng trên đau tức căng, đau liên quan đến stress và cảm xúc, ợ hơi thở dài, miệng đắng. Hướng điều trị: sơ can lý khí, hòa vị chỉ thống.</li>
+  <li><strong>Thể thấp nhiệt trung tiêu:</strong> Bụng đầy nóng, buồn nôn, miệng nhớt đắng, phân lỏng thối khắm, rêu lưỡi vàng nhờn. Hay gặp sau ăn đồ dầu mỡ nhiều. Hướng điều trị: thanh nhiệt hóa thấp, hòa trung.</li>
+  <li><strong>Thể vị hàn:</strong> Đau bụng âm ỉ, thích chườm ấm, nôn ra nước trong, sợ lạnh, phân lỏng loãng. Hướng điều trị: ôn trung tán hàn, kiện tỳ.</li>
+</ul>
+
+<h2>Phương pháp điều trị — Huyệt vị bấm huyệt</h2>
+<p>Các huyệt sau đây là phác đồ nền tảng điều trị tiêu hóa kém — thầy thuốc sẽ gia giảm theo từng thể bệnh:</p>
+<ul>
+  <li><strong>Túc tam lý (ST36):</strong> Dưới lồi củ xương chày 3 thốn (4 ngón tay), ngoài mào chày 1 thốn. Đây là huyệt bổ ích toàn thân quan trọng nhất trong YHCT — kiện tỳ vị, hóa đờm thấp, tăng cường miễn dịch và cải thiện hấp thu. Ấn và xoa tròn 2–3 phút mỗi bên.</li>
+  <li><strong>Trung quản (CV12):</strong> Đường giữa bụng, giữa rốn và mũi ức (4 thốn trên rốn). Mộ huyệt của Vị kinh — điều hòa khí cơ tỳ vị, tiêu đạo hóa trệ, chỉ nôn. Xoa tròn theo chiều kim đồng hồ 3 phút sau ăn.</li>
+  <li><strong>Thiên khu (ST25):</strong> Hai bên rốn, mỗi bên 2 thốn. Mộ huyệt của Đại trường — điều hòa đại tràng, chỉ tả, thông tiện. Hiệu quả với cả tiêu chảy lẫn táo bón tùy thủ pháp bổ tả.</li>
+  <li><strong>Nội quan (PC6):</strong> Mặt trong cổ tay, giữa hai gân, lên 2 thốn. Hòa vị giáng nghịch, chỉ nôn, an thần — đặc biệt hiệu quả khi tiêu hóa kém do stress, lo âu.</li>
+  <li><strong>Tam âm giao (SP6):</strong> Mắt cá trong, lên 3 thốn (4 ngón tay), sau bờ xương chày. Kiện tỳ hóa thấp, điều hòa khí huyết — huyệt hội tụ ba kinh âm Tỳ–Can–Thận.</li>
+  <li><strong>Hợp cốc (LI4):</strong> Mu bàn tay, giữa đốt bàn tay 1 và 2. Hành khí hoạt huyết, điều hòa đại trường — gia thêm khi táo bón hoặc đau bụng do khí trệ.</li>
+</ul>
+<p>Thể can khí phạm vị: gia thêm <em>Thái xung (LR3), Kỳ môn (LR14)</em>. Thể vị hàn: kết hợp cứu ngải tại Trung quản và Túc tam lý 15 phút.</p>
+
+<h2>Tự thực hành tại nhà</h2>
+<ul>
+  <li><strong>Bấm huyệt Túc tam lý (ST36) sau ăn:</strong> Ngồi thư giãn, dùng ngón cái ấn vào huyệt, vê tròn với lực vừa phải, 2 phút mỗi bên. Thực hiện 15–30 phút sau bữa ăn chính để hỗ trợ tiêu hóa tối ưu.</li>
+  <li><strong>Xoa bụng theo chiều kim đồng hồ:</strong> Nằm ngửa, hai bàn tay chồng lên nhau đặt ở rốn, xoa tròn từ trong ra ngoài theo chiều kim đồng hồ 50–100 vòng. Thực hiện trước bữa ăn sáng 10 phút — kích thích nhu động ruột, cải thiện táo bón.</li>
+  <li><strong>Ấn huyệt Nội quan (PC6) khi buồn nôn:</strong> Dùng ngón cái bên đối diện ấn mạnh vào điểm giữa hai gân mặt trong cổ tay, giữ 30 giây — thả — lặp lại 3–5 lần. Giảm buồn nôn, ợ hơi tức thì.</li>
+  <li><strong>Chườm ấm Trung quản:</strong> Túi muối rang hoặc chai nước ấm chườm vùng giữa bụng trên 15–20 phút trước khi ngủ — hiệu quả với thể vị hàn, ăn uống không tiêu do lạnh.</li>
+  <li><strong>Điều chỉnh lối sống:</strong> Ăn chậm nhai kỹ, không ăn khuya sau 21h, hạn chế đồ lạnh và dầu mỡ — Tỳ vị YHCT ưa ấm, ghét hàn ẩm.</li>
+</ul>
+
+<div class="art-cta-box">
+  <p>Tiêu hóa kém kéo dài, sụt cân không rõ nguyên nhân hoặc kèm đau bụng dữ dội cần được thăm khám để loại trừ bệnh lý thực thể trước khi điều trị bằng YHCT. Tại <strong>Phòng Khám YHCT Tâm Đức</strong>, BS. Nguyễn Đức Tâm sẽ thăm khám, phân thể và xây dựng phác đồ châm cứu bấm huyệt phù hợp cho từng bệnh nhân. Liên hệ <strong>0973 710 237</strong> để đặt lịch — giờ khám <strong>18:00–22:00 hàng ngày</strong>, Hà Đông, Hà Nội.</p>
+</div>
+    `
+  },
+  {
     id: 5,
     slug: "dau-vai-gay-yhct-phan-the-dieu-tri",
     date: "2026-06-08",
