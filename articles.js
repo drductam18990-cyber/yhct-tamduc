@@ -5,6 +5,60 @@
 
 const ARTICLES = [
   {
+    id: 7,
+    slug: "luc-vi-dia-hoang-hoan-bo-than-am",
+    date: "2026-06-10",
+    category: "thuoc-yhct",
+    categoryLabel: "Thuốc YHCT",
+    icon: "🌿",
+    gradient: "g-fire",
+    title: "Lục vị địa hoàng hoàn — Bài thuốc bổ thận âm kinh điển của Y học cổ truyền",
+    excerpt: "Lục vị địa hoàng hoàn là bài thuốc bổ thận âm nổi tiếng nhất Đông y, dùng điều trị thận âm hư gây mỏi lưng gối, ù tai, ra mồ hôi trộm và lão hóa sớm.",
+    readTime: 6,
+    content: `
+<h2>Tổng quan theo Y học cổ truyền</h2>
+<p><strong>Lục vị địa hoàng hoàn</strong> (六味地黃丸) là bài thuốc kinh điển do danh y Tiền Ất (triều Tống) soạn ra, bắt nguồn từ bài <em>Thận khí hoàn</em> trong "Kim quỹ yếu lược" của Trương Trọng Cảnh — bằng cách bỏ hai vị ôn dương là Phụ tử và Quế chi, chỉ giữ lại sáu vị có tác dụng tư bổ thận âm thuần túy. Sau hơn nghìn năm, đây vẫn là bài thuốc được dùng rộng rãi nhất trong điều trị <strong>thận âm hư</strong> — trạng thái thiếu hụt âm dịch ở Thận, biểu hiện bằng hội chứng hư nhiệt và suy giảm chức năng tàng tinh.</p>
+<p>Nguyên tắc cấu tạo bài thuốc theo YHCT: <em>"ba bổ ba tả"</em> — ba vị bổ ích (Thục địa, Sơn dược, Sơn thù du) phối hợp ba vị tả thực tà (Trạch tả, Phục linh, Đan bì) — tạo nên sự cân bằng: bổ mà không trệ, tư âm mà không trợ thấp.</p>
+
+<h2>Sáu vị dược liệu và vai trò</h2>
+<ul>
+  <li><strong>Thục địa hoàng (Rehmannia glutinosa — quân dược):</strong> Vị ngọt, tính ôn — tư âm bổ thận, điền tinh ích tủy. Liều 24g, là vị chủ dược chiếm tỷ lệ cao nhất.</li>
+  <li><strong>Sơn thù du (Cornus officinalis — thần dược):</strong> Vị chua, tính ôn — bổ can thận, thu liễm tinh khí, cầm mồ hôi trộm. Liều 12g.</li>
+  <li><strong>Sơn dược (Dioscorea opposita — thần dược):</strong> Vị ngọt, tính bình — kiện tỳ bổ phế, cố thận sinh tinh. Liều 12g.</li>
+  <li><strong>Trạch tả (Alisma orientale — tá dược):</strong> Tả thận hỏa, lợi thủy thấm thấp — phòng Thục địa quá nê trệ. Liều 9g.</li>
+  <li><strong>Phục linh (Poria cocos — tá dược):</strong> Kiện tỳ lợi thấp — phòng Sơn dược trợ thấp, hỗ trợ tiêu hóa. Liều 9g.</li>
+  <li><strong>Mẫu đơn bì (Paeonia suffruticosa — tá dược):</strong> Thanh can hỏa, lương huyết hoạt huyết — chế ước nhiệt do âm hư sinh ra. Liều 9g.</li>
+</ul>
+
+<h2>Chỉ định và phân thể điều trị</h2>
+<ul>
+  <li><strong>Thận âm hư điển hình:</strong> Mỏi lưng gối dai dẳng, hoa mắt chóng mặt, ù tai tiếng ve, ra mồ hôi trộm ban đêm, miệng khô họng táo, lòng bàn tay và bàn chân nóng (ngũ tâm phiền nhiệt), lưỡi đỏ ít rêu hoặc không rêu, mạch tế sác.</li>
+  <li><strong>Di tinh, hoạt tinh do thận hư:</strong> Thận không tàng tinh được, kèm mệt mỏi, hay quên, tóc bạc sớm.</li>
+  <li><strong>Tiêu khát (đái tháo đường) thể âm hư:</strong> Khát nhiều, uống nhiều, tiểu nhiều, người gầy sút.</li>
+  <li><strong>Phụ nữ mãn kinh âm hư:</strong> Bốc hỏa, mồ hôi trộm, khô âm đạo, mất ngủ, da khô nhăn sớm.</li>
+  <li><strong>Trẻ em ngũ trì, ngũ nhuyễn:</strong> Chậm mọc răng, chậm đứng, chậm nói do thận tinh bất túc — dùng dạng hoàn nhỏ liều thấp.</li>
+</ul>
+
+<h2>Cách dùng và liều lượng</h2>
+<p>Dạng <strong>hoàn mật</strong> (thành phẩm): 8–9g/lần × 2–3 lần/ngày, uống với nước ấm hoặc nước muối nhạt ấm (dẫn vào thận kinh). Dùng trước bữa ăn 30 phút để hấp thu tốt hơn.</p>
+<p>Dạng <strong>thang sắc</strong>: Theo tỷ lệ nguyên bản, sắc 3 lần lấy nước uống chia 2–3 lần trong ngày. Thầy thuốc thường gia thêm tùy thể — <em>Tri bá địa hoàng hoàn</em> (thêm Tri mẫu, Hoàng bá) khi hư nhiệt rõ; <em>Kỷ cúc địa hoàng hoàn</em> (thêm Kỷ tử, Cúc hoa) khi suy thị lực, mắt khô.</p>
+<p><strong>Liệu trình:</strong> Tối thiểu 4–6 tuần để thấy hiệu quả rõ rệt; bệnh mạn tính dùng 3–6 tháng, nghỉ 1 tháng rồi có thể tiếp tục.</p>
+
+<h2>Tự thực hành tại nhà</h2>
+<ul>
+  <li><strong>Kết hợp bấm huyệt Thái khê (KI3):</strong> Huyệt nguyên của Thận kinh, giữa mắt cá trong và gân Achilles — xoa ấn 2 phút mỗi bên buổi tối để tăng tác dụng tư thận âm của bài thuốc.</li>
+  <li><strong>Ngâm chân nước ấm:</strong> 15–20 phút trước ngủ — dẫn thuốc xuống hạ tiêu, giúp hấp thu và an thần.</li>
+  <li><strong>Kiêng kị khi dùng thuốc:</strong> Hạn chế đồ cay nóng (ớt, rượu, hành tây sống), đồ lạnh sống — tránh tổn thương âm dịch hoặc trợ thấp làm giảm hiệu quả thuốc.</li>
+  <li><strong>Bổ sung thực phẩm dưỡng thận âm:</strong> Hà thủ ô, đen mè, óc chó, trứng vịt muối, thịt heo thận — phối hợp với thuốc để rút ngắn liệu trình.</li>
+  <li><strong>Chống chỉ định cần biết:</strong> Không dùng khi đang cảm cúm, tiêu chảy, hoặc tỳ vị hư hàn (bụng lạnh đau, phân lỏng) vì Thục địa nê trệ dễ làm nặng thêm.</li>
+</ul>
+
+<div class="art-cta-box">
+  <p>Lục vị địa hoàng hoàn dù là thuốc bổ vẫn cần thăm khám để xác định đúng thể bệnh — dùng sai thể hoặc sai liều có thể gây đầy bụng, tiêu chảy hoặc không hiệu quả. Tại <strong>Phòng Khám YHCT Tâm Đức</strong>, BS. Nguyễn Đức Tâm sẽ tứ chẩn hợp tham, xác định thể thận hư và gia giảm bài thuốc phù hợp với từng bệnh nhân. Liên hệ <strong>0973 710 237</strong> để đặt lịch — giờ khám <strong>18:00–22:00 hàng ngày</strong>, Hà Đông, Hà Nội.</p>
+</div>
+    `
+  },
+  {
     id: 6,
     slug: "bam-huyet-cai-thien-tieu-hoa",
     date: "2026-06-09",
