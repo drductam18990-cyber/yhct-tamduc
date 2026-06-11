@@ -5,6 +5,55 @@
 
 const ARTICLES = [
   {
+    id: 8,
+    slug: "duong-sinh-mua-he-bao-ve-suc-khoe-yhct",
+    date: "2026-06-11",
+    category: "phong-benh",
+    categoryLabel: "Phòng bệnh",
+    icon: "🛡️",
+    gradient: "g-amber",
+    title: "Dưỡng sinh theo mùa hè: Bí quyết bảo vệ sức khỏe mùa nóng theo Y học cổ truyền",
+    excerpt: "Mùa hè dương khí thịnh, nhiệt tà và thử thấp dễ xâm nhập gây hao tổn tâm khí. YHCT có bộ nguyên tắc dưỡng sinh toàn diện giúp thích nghi với nắng nóng, bảo vệ tỳ vị và an thần.",
+    readTime: 5,
+    content: `
+<h2>Tổng quan theo Y học cổ truyền</h2>
+<p>Trong hệ thống <strong>ngũ hành — ngũ tạng</strong> của YHCT, mùa hè ứng với hành <strong>Hỏa</strong>, tạng <strong>Tâm</strong> và phủ <strong>Tiểu trường</strong>. Đây là mùa dương khí đạt đỉnh, cơ thể trao đổi chất mạnh nhất trong năm. Tuy nhiên, nhiệt tà và thử thấp (nóng kết hợp ẩm) là hai loại tà khí đặc trưng dễ xâm nhập, gây <em>hao khí thương âm</em> — mất nước điện giải, suy giảm chính khí và tổn thương tỳ vị nếu không dưỡng sinh đúng cách.</p>
+<p>Nguyên tắc cốt lõi của YHCT mùa hè: <em>"Dưỡng tâm thanh nhiệt, kiện tỳ hóa thấp, ích khí sinh tân"</em> — giữ tâm an tĩnh, thanh nhiệt cơ thể, kiện tỳ chống thấp và bù đắp khí âm bị hao tổn do mồ hôi.</p>
+
+<h2>Phân thể / Nguyên nhân theo YHCT</h2>
+<ul>
+  <li><strong>Trúng thử (say nắng, cảm nóng):</strong> Tiếp xúc nắng gắt quá lâu — sốt cao đột ngột, đổ mồ hôi dầm dề, khát nước dữ dội, đầu váng buồn nôn, thậm chí ngất. Cơ chế: thử nhiệt đốt tân dịch, khí theo hãn thoát ra ngoài. Hướng điều trị: thanh thử ích khí, sinh tân chỉ khát.</li>
+  <li><strong>Thử thấp nội trợ (nắng nóng kết ẩm):</strong> Mệt mỏi nặng nề, ăn kém không ngon, đầy bụng ợ hơi, tiêu chảy phân lỏng hoặc sệt, người ẩm nhớp nháp. Rêu lưỡi vàng dày nhờn. Hay gặp ở người làm ngoài nắng rồi vào phòng lạnh uống nước đá. Hướng điều trị: thanh thử hóa thấp, kiện tỳ hòa vị.</li>
+  <li><strong>Tâm hỏa thịnh (nhiệt nung nấu tâm thần):</strong> Bồn chồn khó ngủ, miệng lở loét, tiểu vàng ít buốt, nóng bừng trong người đặc biệt về chiều. Hay gặp ở người căng thẳng, làm việc áp lực cao vào mùa nóng. Hướng điều trị: thanh tâm tả hỏa, an thần.</li>
+  <li><strong>Khí âm lưỡng hư (hao tổn kéo dài):</strong> Ra mồ hôi nhiều và kéo dài làm cạn kiệt cả khí lẫn âm dịch — mệt lả, thở ngắn, da khô môi nứt, tim hồi hộp, đuối sức không hồi phục sau nghỉ ngơi. Hướng điều trị: ích khí dưỡng âm, sinh tân bổ dịch.</li>
+</ul>
+
+<h2>Phương pháp điều trị / Huyệt vị dưỡng sinh mùa hè</h2>
+<p>Bộ huyệt dưỡng sinh mùa hè — xoa bóp bấm huyệt hàng ngày để phòng bệnh và tăng cường thích nghi với nóng:</p>
+<ul>
+  <li><strong>Hợp cốc (LI4):</strong> Mu bàn tay, giữa đốt bàn tay 1 và 2. Hành khí hoạt huyết, thanh nhiệt giải biểu, tăng vệ khí — huyệt phòng bệnh mùa hè số một. Ấn xoa 2 phút mỗi bên buổi sáng.</li>
+  <li><strong>Nội quan (PC6):</strong> Mặt trong cổ tay, giữa hai gân, lên 2 thốn. Dưỡng tâm an thần, hòa vị giáng nghịch — giảm bồn chồn, chống say nắng buồn nôn. Ấn giữ 1 phút mỗi bên.</li>
+  <li><strong>Túc tam lý (ST36):</strong> Dưới lồi củ xương chày 3 thốn, ngoài mào chày 1 thốn. Kiện tỳ bổ khí, tăng chính khí chống thấp nhiệt — bổ sung năng lượng hao tổn do nóng. Xoa tròn 2 phút mỗi bên.</li>
+  <li><strong>Tam âm giao (SP6):</strong> Mắt cá trong lên 3 thốn, sau bờ xương chày. Kiện tỳ hóa thấp, dưỡng âm thanh nhiệt — huyệt thiết yếu khi thử thấp gây tiêu hóa rối loạn và da khô. Ấn xoa 1–2 phút mỗi bên.</li>
+  <li><strong>Đại chùy (GV14):</strong> Đường giữa lưng, dưới gai đốt sống C7. Thanh nhiệt giải thử, thông dương khu tà — ấn nhẹ hoặc cạo gió vùng này khi có dấu hiệu cảm nóng nhẹ.</li>
+</ul>
+<p>Thể tâm hỏa thịnh: gia thêm <em>Thần môn (HT7), Thiếu phủ (HT8)</em>. Thể thử thấp tiêu hóa kém: gia thêm <em>Trung quản (CV12), Thiên khu (ST25)</em>.</p>
+
+<h2>Tự thực hành tại nhà</h2>
+<ul>
+  <li><strong>Trà thanh nhiệt mùa hè uống hàng ngày:</strong> Đậu xanh cả vỏ 30g + lá sen khô 10g + cam thảo 5g sắc với 1 lít nước, để nguội uống cả ngày. Thanh thử lợi thấp, bổ dịch — thay thế nước lạnh rất hiệu quả.</li>
+  <li><strong>Ngủ trưa ngắn 20–30 phút:</strong> Giờ Ngọ (11h–13h) là thời điểm tâm kinh vượng nhất — ngủ trưa ngắn giúp dưỡng tâm khí, phục hồi năng lượng cho buổi chiều mà không gây ngủ li bì.</li>
+  <li><strong>Tránh tắm lạnh ngay sau khi đổ mồ hôi:</strong> Mồ hôi ra nhiều thì lỗ chân lông đang mở, tắm lạnh ngay khiến hàn tà xâm nhập vào kinh cơ — gây đau nhức, cảm lạnh. Nghỉ 15–20 phút cho mồ hôi khô rồi mới tắm.</li>
+  <li><strong>Kiêng đồ lạnh quá mức:</strong> Tỳ vị YHCT ưa ấm ghét hàn — uống nước đá, ăn kem liên tục làm tỳ vị hư hàn, sinh thấp, gây tiêu chảy và mệt mỏi mạn tính. Thay bằng nước mát thường (không đá) hoặc trà thanh nhiệt.</li>
+  <li><strong>Dưỡng tâm bằng tĩnh tâm buổi sáng:</strong> Ngồi yên 5–10 phút sau khi ngủ dậy, thở chậm sâu, không nhìn điện thoại ngay — YHCT nói <em>"tâm tĩnh tự nhiên lương"</em>: tâm an tĩnh thì cơ thể mát mẻ từ bên trong dù trời nóng.</li>
+</ul>
+
+<div class="art-cta-box">
+  <p>Mùa hè nóng bức là thời điểm tỳ vị và tâm khí dễ tổn thương nhất trong năm — dưỡng sinh đúng cách ngay từ đầu mùa sẽ giúp bạn vượt qua mùa nóng khỏe mạnh, tràn đầy sinh lực. Nếu bạn thường xuyên mệt mỏi, ăn kém, mất ngủ vào mùa hè hoặc hay bị say nắng tái phát, hãy đến thăm khám tại <strong>Phòng Khám YHCT Tâm Đức</strong>. BS. Nguyễn Đức Tâm sẽ tứ chẩn hợp tham và xây dựng phác đồ dưỡng sinh cá nhân hóa phù hợp với thể trạng của bạn. Liên hệ <strong>0973 710 237</strong> để đặt lịch — giờ khám <strong>18:00–22:00 hàng ngày</strong>, Hà Đông, Hà Nội.</p>
+</div>
+    `
+  },
+  {
     id: 7,
     slug: "luc-vi-dia-hoang-hoan-bo-than-am",
     date: "2026-06-10",
