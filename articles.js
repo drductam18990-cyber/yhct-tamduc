@@ -5,6 +5,57 @@
 
 const ARTICLES = [
   {
+    id: 9,
+    slug: "thoai-hoa-khop-goi-yhct-phan-the-dieu-tri",
+    date: "2026-06-12",
+    category: "mat-benh",
+    categoryLabel: "Mặt bệnh",
+    icon: "🩺",
+    gradient: "g-navy",
+    title: "Thoái hóa khớp gối theo Y học cổ truyền: Phân thể và phác đồ điều trị",
+    excerpt: "Thoái hóa khớp gối là bệnh lý mạn tính phổ biến ở người trung niên và cao tuổi. YHCT phân thể cụ thể và điều trị bằng châm cứu, xoa bóp giúp giảm đau, cải thiện vận động hiệu quả.",
+    readTime: 6,
+    content: `
+<h2>Tổng quan theo Y học cổ truyền</h2>
+<p>Thoái hóa khớp gối (tất thống) trong Y học cổ truyền thuộc phạm trù <strong>tý chứng</strong> và <strong>cốt tý</strong> — bệnh do kinh lạc vùng gối bị tắc trở, khí huyết không thông, kết hợp với sự suy yếu của <strong>can thận</strong> theo tuổi tác. Theo YHCT, gân thuộc Can, xương thuộc Thận — khi can thận suy nhược, gân không được nhu dưỡng, xương không được tàng tinh, tà khí (phong hàn thấp hoặc đàm ứ) nhân cơ hội xâm nhập kinh lạc khớp gối gây đau.</p>
+<p>Nguyên tắc điều trị: <em>"Bổ can thận, khu tà thông lạc, hoạt huyết chỉ thống"</em>. Khác với thuốc kháng viêm Tây y chỉ giảm triệu chứng, YHCT tác động vào gốc rễ bệnh — phục hồi chức năng can thận, tăng cường khí huyết nuôi dưỡng gân xương, từ đó kiểm soát đau lâu dài và làm chậm tiến triển thoái hóa.</p>
+
+<h2>Phân thể / Nguyên nhân theo YHCT</h2>
+<ul>
+  <li><strong>Thể phong hàn thấp tý:</strong> Đau khớp gối tăng rõ khi gặp lạnh, ẩm ướt, trời mưa; giảm khi chườm ấm. Gối cứng buổi sáng, cảm giác nặng nề tê bì, không sưng đỏ. Rêu lưỡi trắng nhớt. Hay gặp khi thay đổi thời tiết đột ngột. Hướng điều trị: khu phong tán hàn, trừ thấp thông lạc.</li>
+  <li><strong>Thể can thận âm hư:</strong> Đau mỏi gối âm ỉ kéo dài, tăng về chiều tối, kèm ù tai, hoa mắt, mỏi lưng, miệng khô họng táo, ra mồ hôi trộm ban đêm. Lưỡi đỏ ít rêu, mạch tế sác. Hay gặp ở người cao tuổi hoặc thể chất suy nhược. Hướng điều trị: tư bổ can thận, dưỡng âm mạnh gân cốt.</li>
+  <li><strong>Thể thận dương hư:</strong> Đau mỏi gối lạnh, sợ lạnh toàn thân, chân tay lạnh, tiểu đêm nhiều, phân lỏng, người uể oải. Lưỡi nhạt bệu rêu trắng. Hướng điều trị: ôn bổ thận dương, cường cơ kiện cốt.</li>
+  <li><strong>Thể khí trệ huyết ứ:</strong> Đau cố định như kim châm, sưng nề hoặc ứ dịch khớp sau chấn thương, cử động đau tăng, ấn đau nhiều hơn. Lưỡi tím hoặc có điểm ứ huyết. Hay gặp sau chấn thương cũ hoặc phẫu thuật khớp. Hướng điều trị: hành khí hoạt huyết, hóa ứ tiêu sưng.</li>
+  <li><strong>Thể đàm thấp trở lạc:</strong> Gối sưng to mềm, nặng nề, người béo phì, chóng mặt đầu nặng, ăn kém. Rêu lưỡi nhớt dày. Hướng điều trị: hóa đàm trừ thấp, thông kinh tiêu sưng.</li>
+</ul>
+
+<h2>Phương pháp điều trị / Huyệt vị</h2>
+<p>Phác đồ huyệt nền tảng điều trị thoái hóa khớp gối — thầy thuốc sẽ gia giảm và phối hợp cứu ngải, điện châm tùy từng thể bệnh:</p>
+<ul>
+  <li><strong>Độc tỵ (ST35) và Ngoại tất nhãn (EX-LE5):</strong> Hai hõm hai bên gân bánh chè — huyệt cục bộ quan trọng nhất, trực tiếp thông khí huyết khớp gối, giảm sưng đau tại chỗ.</li>
+  <li><strong>Dương lăng tuyền (GB34):</strong> Trước và dưới đầu xương mác, dưới đầu gối ngoài. Hội huyệt của gân — thư cân hoạt lạc, trừ thấp chỉ thống. Bắt buộc trong mọi thể bệnh khớp gối.</li>
+  <li><strong>Âm lăng tuyền (SP9):</strong> Dưới lồi cầu trong xương chày, hõm dưới đầu trong xương chày. Kiện tỳ hóa thấp, lợi thủy tiêu sưng — đặc biệt hiệu quả khi gối có ứ dịch hoặc thể thấp.</li>
+  <li><strong>Huyết hải (SP10):</strong> Mặt trong đùi, trên bờ trên xương bánh chè 2 thốn. Hoạt huyết hóa ứ, khu phong trừ thấp — huyệt quan trọng thể huyết ứ và phong thấp.</li>
+  <li><strong>Túc tam lý (ST36):</strong> Dưới lồi củ xương chày 3 thốn, ngoài mào chày 1 thốn. Kiện tỳ bổ khí, tăng cường chính khí — phối hợp trong mọi thể để tăng hiệu quả điều trị.</li>
+  <li><strong>Thận du (BL23) và Can du (BL18):</strong> Cạnh cột sống lưng ngang L2 và T9. Bổ can thận, mạnh gân xương — dùng thêm trong thể can thận hư.</li>
+</ul>
+<p>Thể phong hàn thấp: kết hợp <em>cứu ngải</em> tại Độc tỵ và Dương lăng tuyền (GB34) 15–20 phút. Thể thận dương hư: cứu thêm <em>Mệnh môn (GV4)</em>. Thể huyết ứ: điện châm tần số thấp kết hợp giác hơi vùng gối.</p>
+
+<h2>Tự thực hành tại nhà</h2>
+<ul>
+  <li><strong>Xoa bóp quanh bánh chè:</strong> Ngồi duỗi thẳng chân, dùng ngón cái và ngón trỏ xoa tròn quanh bánh chè 50–100 lần mỗi ngày — kích thích tuần hoàn tại khớp, giảm cứng khớp buổi sáng.</li>
+  <li><strong>Ấn huyệt Dương lăng tuyền (GB34):</strong> Ấn giữ 1–2 phút mỗi bên buổi sáng và tối — thư gân, giảm căng cứng cơ quanh gối hiệu quả.</li>
+  <li><strong>Chườm ấm ngải cứu:</strong> Nướng nhẹ một nắm ngải cứu tươi hoặc dùng túi muối rang, chườm vùng gối 15–20 phút trước khi ngủ — đặc biệt hiệu quả với thể phong hàn thấp. Không chườm khi gối đang sưng nóng đỏ cấp tính.</li>
+  <li><strong>Bài tập dưỡng sinh nhẹ:</strong> Ngồi trên ghế, duỗi thẳng rồi co gối lần lượt 20 lần mỗi chân; đứng dậy ngồi xuống chậm rãi 10 lần — duy trì biên độ khớp mà không gây tải trọng đột ngột.</li>
+  <li><strong>Kiêng kị:</strong> Tránh leo cầu thang nhiều, ngồi xổm lâu, mang vác nặng — các tư thế này tăng áp lực khớp gối gấp 4–6 lần trọng lượng cơ thể, đẩy nhanh thoái hóa.</li>
+</ul>
+
+<div class="art-cta-box">
+  <p>Thoái hóa khớp gối không thể đảo ngược hoàn toàn, nhưng YHCT có thể kiểm soát đau, cải thiện vận động và làm chậm tiến triển bệnh hiệu quả. Nếu bạn đang chịu đựng đau gối mạn tính ảnh hưởng đến sinh hoạt hàng ngày, hãy đến thăm khám tại <strong>Phòng Khám YHCT Tâm Đức</strong>. BS. Nguyễn Đức Tâm sẽ tứ chẩn hợp tham, xác định thể bệnh và xây dựng phác đồ châm cứu, xoa bóp cùng thuốc YHCT phù hợp. Liên hệ <strong>0973 710 237</strong> để đặt lịch — giờ khám <strong>18:00–22:00 hàng ngày</strong>, Hà Đông, Hà Nội.</p>
+</div>
+    `
+  },
+  {
     id: 8,
     slug: "duong-sinh-mua-he-bao-ve-suc-khoe-yhct",
     date: "2026-06-11",
