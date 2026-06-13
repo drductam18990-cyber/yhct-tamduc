@@ -5,6 +5,56 @@
 
 const ARTICLES = [
   {
+    id: 10,
+    slug: "nhi-cham-giam-stress-lo-au-yhct",
+    date: "2026-06-13",
+    category: "khong-thuoc",
+    categoryLabel: "Không dùng thuốc",
+    icon: "🧘",
+    gradient: "g-herb",
+    title: "Nhĩ châm giảm stress và lo âu: Liệu pháp không dùng thuốc từ Y học cổ truyền",
+    excerpt: "Nhĩ châm — châm cứu vào huyệt vị tai — là liệu pháp YHCT không dùng thuốc, giúp giảm stress, lo âu, mất ngủ bằng cách điều hòa thần kinh thực vật và cân bằng tạng phủ.",
+    readTime: 5,
+    content: `
+<h2>Tổng quan theo Y học cổ truyền</h2>
+<p>Nhĩ châm (耳針 — châm cứu vào tai) là liệu pháp đặc biệt trong Y học cổ truyền, dựa trên quan điểm tai là nơi hội tụ của tất cả các kinh lạc và phản ánh toàn bộ cơ thể theo bản đồ huyệt nhĩ. Theo YHCT, tai liên hệ mật thiết với tạng <strong>Thận</strong> ("thận khai khiếu ở tai"), đồng thời thông qua kinh lạc kết nối với Can, Tâm và các tạng phủ khác. Khi stress và lo âu kéo dài, Can khí uất kết, Tâm thần thất dưỡng — nhĩ châm giải uất, an thần, phục hồi cân bằng thần kinh thực vật mà không cần dùng thuốc.</p>
+<p>Nguyên tắc điều trị: <em>"Thông kinh lạc, điều khí cơ, bình can giải uất, an tâm định thần"</em>. Y học hiện đại xác nhận nhĩ châm có tác dụng điều tiết trục hạ đồi–tuyến yên–thượng thận, giảm cortisol (hormone stress), tăng endorphin — phù hợp với nguyên lý an thần của YHCT.</p>
+
+<h2>Phân thể / Nguyên nhân theo YHCT</h2>
+<ul>
+  <li><strong>Thể can khí uất kết:</strong> Stress kéo dài do áp lực công việc, lo lắng không giải tỏa được. Biểu hiện: tức ngực thở dài, cáu gắt, đau đầu vùng thái dương, khó vào giấc, miệng đắng. Rêu lưỡi trắng hoặc vàng nhẹ, mạch huyền. Hướng điều trị: sơ can giải uất, lý khí an thần.</li>
+  <li><strong>Thể tâm tỳ lưỡng hư:</strong> Lo âu mạn tính, suy nghĩ quá mức hao tổn tâm huyết và tỳ khí. Biểu hiện: lo lắng không lý do, tim hồi hộp, mất ngủ, mệt mỏi, ăn kém, hay quên. Lưỡi nhạt rêu trắng, mạch tế nhược. Hướng điều trị: kiện tỳ dưỡng tâm, bổ khí an thần.</li>
+  <li><strong>Thể tâm thận bất giao:</strong> Lo âu kèm nóng bừng trong người, ra mồ hôi trộm, ù tai, mỏi lưng. Thường gặp ở phụ nữ tiền mãn kinh hoặc người làm việc quá sức kéo dài. Hướng điều trị: tư thận âm, giáng tâm hỏa, giao thông tâm thận.</li>
+  <li><strong>Thể đàm khí uất kết:</strong> Lo âu kèm cảm giác vật gì chặn trong họng (mai hạch khí), đầu nặng chóng mặt, buồn nôn, rêu lưỡi nhờn dày. Hay gặp ở người béo phì hoặc ăn nhiều đồ béo ngọt. Hướng điều trị: hóa đàm giải uất, lý khí hòa trung.</li>
+</ul>
+
+<h2>Phương pháp điều trị / Huyệt vị nhĩ châm</h2>
+<p>Các huyệt nhĩ được chọn theo bản đồ phản chiếu tai — thầy thuốc dùng kim nhĩ châm nhỏ hoặc hạt từ dán kéo dài 3–5 ngày, kết hợp bấm huyệt thể châm tăng hiệu quả:</p>
+<ul>
+  <li><strong>Thần môn nhĩ (TF4 — Shenmen):</strong> Tam giác hố xoắn tai, phần trên. Huyệt an thần số một trong nhĩ châm — giảm lo âu, bồn chồn, mất ngủ. Nghiên cứu lâm sàng xác nhận kích thích huyệt này giảm lo âu trước phẫu thuật rõ rệt.</li>
+  <li><strong>Tâm nhĩ (CO15 — Heart):</strong> Hố xoắn tai vùng giữa. Dưỡng tâm an thần, điều hòa nhịp tim, giảm hồi hộp đánh trống ngực do stress.</li>
+  <li><strong>Giao cảm nhĩ (AH6a — Sympathetic):</strong> Chân cung đối tai trong, tiếp giáp gờ đối bình tai. Điều hòa hệ thần kinh thực vật, giảm phản ứng căng thẳng, hạ huyết áp tăng do stress.</li>
+  <li><strong>Nội tiết nhĩ (CO18 — Endocrine):</strong> Bình tai, trong hố bình tai. Điều tiết hormone stress (cortisol), cân bằng trục nội tiết — tác dụng rõ với thể lo âu mạn tính kèm rối loạn kinh nguyệt hoặc mãn kinh.</li>
+  <li><strong>Can nhĩ (CO12 — Liver):</strong> Hố xoắn tai vùng dưới. Sơ can giải uất, điều khí — huyệt quan trọng với thể can khí uất kết, hay cáu gắt, tức ngực.</li>
+  <li><strong>Thận nhĩ (CO10 — Kidney):</strong> Hố xoắn tai dưới, gần cuống tai. Bổ thận an thần, cải thiện ù tai và lo âu thể thận hư.</li>
+</ul>
+<p>Thể tâm tỳ lưỡng hư: gia thêm <em>Tỳ nhĩ (CO13), Vị nhĩ (CO4)</em>. Thể đàm khí uất: gia thêm <em>Phế nhĩ (CO14)</em>. Kết hợp thể châm: <em>Nội quan (PC6), Thần môn (HT7), Thái xung (LR3)</em> để tăng hiệu quả toàn diện.</p>
+
+<h2>Tự thực hành tại nhà</h2>
+<ul>
+  <li><strong>Bấm huyệt Thần môn nhĩ:</strong> Dùng ngón trỏ và ngón cái kẹp nhẹ vào tam giác hố xoắn tai (phần trên hõm tai), ấn và lăn tròn nhẹ 30–60 giây mỗi bên, 3–4 lần/ngày — đặc biệt hiệu quả khi cảm thấy căng thẳng đột ngột hoặc trước khi đi ngủ.</li>
+  <li><strong>Xoa vành tai toàn bộ:</strong> Ngón cái sau tai, ngón trỏ trên mặt trước, kéo nhẹ và xoa dọc từ dái tai lên đến đỉnh tai rồi ngược lại 20–30 lần. Kích thích toàn bộ huyệt nhĩ, thư giãn hệ thần kinh tổng thể.</li>
+  <li><strong>Bấm huyệt Nội quan (PC6):</strong> Mặt trong cổ tay, giữa hai gân, cách nếp cổ tay 2 thốn — ấn giữ 1 phút mỗi bên khi lo âu hoặc hồi hộp. Phối hợp tốt với nhĩ châm để tăng tác dụng dưỡng tâm an thần.</li>
+  <li><strong>Kỹ thuật thở bụng 4-7-8:</strong> Hít vào bụng đếm 4 — nín thở đếm 7 — thở ra chậm đếm 8. Thực hiện 3–4 chu kỳ, 2 lần/ngày. Kích hoạt phó giao cảm, phù hợp với nguyên lý "kiện tỳ bổ phế, an tâm định thần" của YHCT.</li>
+  <li><strong>Kiêng kị:</strong> Tránh cà phê và rượu khi đang điều trị lo âu — hai chất này kích thích Can hỏa, làm giảm tác dụng an thần. Không tự dùng nhĩ châm khi tai đang viêm, có vết thương hở hoặc phụ nữ có thai (một số huyệt nhĩ có thể kích thích tử cung).</li>
+</ul>
+
+<div class="art-cta-box">
+  <p>Stress và lo âu kéo dài ảnh hưởng nghiêm trọng đến sức khỏe tổng thể — từ mất ngủ, suy giảm miễn dịch đến các bệnh tim mạch. Nhĩ châm kết hợp châm thể là liệu pháp an toàn, không gây lệ thuộc. Hãy đến thăm khám tại <strong>Phòng Khám YHCT Tâm Đức</strong> để được BS. Nguyễn Đức Tâm phân thể và áp dụng phác đồ nhĩ châm cá nhân hóa phù hợp với thể trạng của bạn. Liên hệ <strong>0973 710 237</strong> để đặt lịch — giờ khám <strong>18:00–22:00 hàng ngày</strong>, Hà Đông, Hà Nội.</p>
+</div>
+    `
+  },
+  {
     id: 9,
     slug: "thoai-hoa-khop-goi-yhct-phan-the-dieu-tri",
     date: "2026-06-12",
