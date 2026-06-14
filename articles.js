@@ -5,6 +5,65 @@
 
 const ARTICLES = [
   {
+    id: 11,
+    slug: "tu-quan-tu-thang-bo-khi-yhct",
+    date: "2026-06-14",
+    category: "thuoc-yhct",
+    categoryLabel: "Thuốc YHCT",
+    icon: "🌿",
+    gradient: "g-fire",
+    title: "Tứ quân tử thang — Bài thuốc bổ khí nền tảng của Y học cổ truyền",
+    excerpt: "Tứ quân tử thang là bài thuốc bổ khí kinh điển nhất Đông y, dùng điều trị tỳ vị khí hư: mệt mỏi, ăn kém, phân lỏng, sức đề kháng yếu — nền tảng của hàng trăm bài thuốc bổ khí khác.",
+    readTime: 6,
+    content: `
+<h2>Tổng quan theo Y học cổ truyền</h2>
+<p><strong>Tứ quân tử thang</strong> (四君子湯) là bài thuốc bổ khí nền tảng nhất trong kho tàng Y học cổ truyền, được ghi chép lần đầu trong "Thái bình huệ dân hòa tễ cục phương" (triều Tống). Tên gọi "tứ quân tử" ví von bốn vị dược liệu như bốn vị quân tử — đức hạnh điều độ, bổ mà không mãnh liệt, hiệu quả bền vững mà không gây tác dụng phụ. Đây là bài thuốc điều trị căn bản hội chứng <strong>tỳ vị khí hư</strong> — khi tỳ vị suy nhược, không đủ sức vận hóa thủy cốc sinh ra khí huyết nuôi dưỡng toàn thân.</p>
+<p>Nguyên tắc cốt lõi: <em>"Ích khí kiện tỳ"</em> — bồi bổ trung khí, tăng cường chức năng vận hóa của tỳ vị. Hàng trăm bài thuốc danh tiếng trong lịch sử Đông y đều lấy Tứ quân tử thang làm nền tảng: <em>Lục quân tử thang</em> (thêm Trần bì, Bán hạ để hóa đàm), <em>Sâm linh bạch truật tán</em> (thêm nhiều vị kiện tỳ thấm thấp), <em>Bổ trung ích khí thang</em> (thêm Hoàng kỳ, Thăng ma, Sài hồ để thăng đề trung khí) — tất cả đều xuất phát từ bốn vị thuốc cơ bản này.</p>
+
+<h2>Phân thể / Nguyên nhân theo YHCT</h2>
+<ul>
+  <li><strong>Tỳ vị khí hư điển hình:</strong> Ăn ít chóng no, bụng đầy trướng sau ăn, người mệt mỏi thiếu sức, nói nhỏ tiếng, phân lỏng nát hoặc đại tiện không thành khuôn, da xanh nhợt, lưỡi nhạt bệu rêu trắng mỏng, mạch hoãn nhược. Đây là chỉ định cốt lõi của Tứ quân tử thang. Hướng điều trị: ích khí kiện tỳ, hòa vị.</li>
+  <li><strong>Khí hư vệ biểu bất cố:</strong> Tỳ khí hư không sinh được vệ khí đủ mạnh để bảo vệ cơ thể — biểu hiện hay đổ mồ hôi tự nhiên (tự hãn) dù không vận động, dễ bị cảm lạnh tái đi tái lại, sau cảm lâu khỏi. Hướng điều trị: bổ khí cố biểu (gia thêm Hoàng kỳ, Phòng phong).</li>
+  <li><strong>Khí hư kèm đàm thấp:</strong> Tỳ khí hư không vận hóa được thủy thấp, sinh đàm thấp nội trở — người nặng nề, ngực tức đờm nhiều, buồn nôn, đầu nặng chóng mặt, rêu lưỡi nhờn dày. Dùng <em>Lục quân tử thang</em> (Tứ quân + Trần bì + Bán hạ chế) — phối hợp kiện tỳ với hóa đàm.</li>
+  <li><strong>Trung khí hạ hãm:</strong> Tỳ khí hư nặng không còn sức thăng đề — sa dạ dày, sa trực tràng, sa tử cung, tiêu chảy kéo dài mạn tính, kiệt sức sau bệnh nặng hoặc phẫu thuật. Dùng <em>Bổ trung ích khí thang</em> (biến thể từ Tứ quân, thêm Hoàng kỳ, Sài hồ, Thăng ma) để thăng đề trung khí.</li>
+  <li><strong>Khí huyết lưỡng hư:</strong> Tỳ không sinh huyết được — mệt mỏi, da xanh vàng, hoa mắt chóng mặt, tim hồi hộp, kinh nguyệt ít màu nhạt. Phối hợp với bài bổ huyết (thêm Đương quy, Bạch thược, Thục địa) thành <em>Bát trân thang</em>.</li>
+</ul>
+
+<h2>Bốn vị dược liệu và vai trò trong bài thuốc</h2>
+<p>Cấu trúc bài thuốc theo nguyên tắc <em>quân — thần — tá — sứ</em>:</p>
+<ul>
+  <li><strong>Nhân sâm / Đảng sâm (quân dược):</strong> Nhân sâm (Panax ginseng) vị ngọt, tính ôn — đại bổ nguyên khí, kiện tỳ ích phế, sinh tân. Liều 9–15g. Trong lâm sàng thường thay bằng <em>Đảng sâm</em> (Codonopsis pilosula) liều 15–30g vì kinh tế và ít tác dụng phụ hơn — tác dụng bổ tỳ khí tương đương, nhưng không bổ tâm phế mạnh bằng Nhân sâm.</li>
+  <li><strong>Bạch truật (thần dược):</strong> Atractylodes macrocephala, vị ngọt đắng, tính ôn — kiện tỳ táo thấp, ích khí cố biểu, an thai. Liều 9–15g. Hỗ trợ Nhân sâm bổ tỳ, đồng thời trừ thấp để tỳ vị không bị thấp khốn trở nên trệ trệ.</li>
+  <li><strong>Phục linh (tá dược):</strong> Poria cocos, vị ngọt nhạt, tính bình — kiện tỳ lợi thấp, thẩm thấp hóa đàm, an thần. Liều 9–15g. Phối hợp với Bạch truật thấm thấp, phòng Nhân sâm và Bạch truật bổ mà gây trệ thấp.</li>
+  <li><strong>Cam thảo chích (sứ dược):</strong> Glycyrrhiza uralensis sao mật, vị ngọt, tính ôn — bổ trung khí, hòa vị, điều hòa các vị dược liệu, giảm độc tính. Liều 6g. Cam thảo chích (sao với mật ong) tăng tác dụng bổ khí so với Cam thảo sống.</li>
+</ul>
+
+<h2>Phương pháp điều trị / Huyệt vị phối hợp</h2>
+<p>Tứ quân tử thang đạt hiệu quả tối ưu khi kết hợp châm cứu vào các huyệt kiện tỳ bổ khí sau đây — thầy thuốc sẽ gia giảm theo từng thể bệnh:</p>
+<ul>
+  <li><strong>Túc tam lý (ST36):</strong> Dưới lồi củ xương chày 3 thốn, ngoài mào chày 1 thốn. Huyệt bổ khí toàn thân quan trọng nhất — kiện tỳ vị, tăng hấp thu, tăng miễn dịch. Điện châm bổ pháp hoặc cứu ngải 15 phút tại huyệt này hiệp đồng mạnh với thuốc bổ khí.</li>
+  <li><strong>Tỳ du (BL20):</strong> Cạnh cột sống lưng ngang đốt T11, cách gai sống 1,5 thốn. Du huyệt của Tỳ — bổ tỳ khí trực tiếp, cải thiện chức năng vận hóa. Kết hợp cứu ngải 10–15 phút tại huyệt này với thuốc uống sẽ rút ngắn thời gian điều trị.</li>
+  <li><strong>Vị du (BL21):</strong> Cạnh cột sống lưng ngang đốt T12, cách gai sống 1,5 thốn. Du huyệt của Vị — điều hòa vị khí, giảm đầy bụng, cải thiện tiêu hóa.</li>
+  <li><strong>Trung quản (CV12):</strong> Đường giữa bụng, giữa rốn và mũi ức (4 thốn trên rốn). Mộ huyệt của Vị, hội huyệt của phủ — điều hòa trung tiêu, kiện tỳ hòa vị. Cứu ngải hoặc điện châm bổ pháp.</li>
+  <li><strong>Khí hải (CV6):</strong> Đường giữa bụng, dưới rốn 1,5 thốn. Bổ nguyên khí, tăng cường chính khí toàn thân — đặc biệt hiệu quả với thể trung khí hạ hãm và khí hư mạn tính. Cứu ngải 15–20 phút.</li>
+</ul>
+<p>Thể khí hư vệ biểu bất cố: gia châm thêm <em>Phế du (BL13), Phong môn (BL12)</em>. Thể trung khí hạ hãm: gia thêm <em>Bách hội (GV20)</em> — điện châm bổ pháp để thăng đề khí.</p>
+
+<h2>Tự thực hành tại nhà</h2>
+<ul>
+  <li><strong>Cứu ngải huyệt Túc tam lý (ST36) và Khí hải (CV6):</strong> Dùng điếu ngải cứu cách mặt da 2–3cm, cứu ấm mỗi huyệt 10–15 phút, ngày 1 lần vào buổi sáng. Đây là phương pháp dân gian bổ khí lâu đời nhất trong YHCT — người xưa nói <em>"ba ngày cứu một lần Túc tam lý, thọ hơn thái sơn"</em>. Liệu trình 1–2 tháng.</li>
+  <li><strong>Thực phẩm kiện tỳ bổ khí hàng ngày:</strong> Củ mài (hoài sơn) 30g + hạt sen 20g + ý dĩ 20g nấu cháo ăn sáng — bổ tỳ thận, trừ thấp, phù hợp dùng song song với thuốc. Đại táo 5–7 quả thêm vào trà hoặc cháo hàng ngày.</li>
+  <li><strong>Kiêng kị khi dùng thuốc:</strong> Hạn chế đồ lạnh, sống, đồ ngọt béo nhiều — tỳ vị ưa ấm ghét hàn ẩm; những thứ này làm tỳ vị khó vận hóa, giảm tác dụng thuốc bổ. Không dùng chung với trà xanh đặc hoặc cà phê trong vòng 1 giờ sau khi uống thuốc.</li>
+  <li><strong>Ăn uống đúng giờ và nhai kỹ:</strong> Tỳ vị hoạt động tốt nhất từ 7–9h (giờ Thìn — Vị kinh vượng) và 9–11h (Tỳ kinh vượng). Ăn sáng đúng giờ, nhai kỹ 20–30 lần mỗi miếng — hỗ trợ tỳ vị vận hóa, tăng hấp thu thuốc.</li>
+  <li><strong>Liệu trình và theo dõi:</strong> Dùng 4–6 tuần mới thấy hiệu quả rõ rệt. Dấu hiệu thuốc có tác dụng: ăn ngon hơn, bụng không còn đầy sau ăn, phân thành khuôn, bớt mệt mỏi. Nếu sau 2 tuần bụng đầy hơn hoặc phân lỏng tăng, cần thăm khám lại để điều chỉnh.</li>
+</ul>
+
+<div class="art-cta-box">
+  <p>Tứ quân tử thang dù là bài thuốc bổ kinh điển vẫn cần được thầy thuốc xác định đúng thể khí hư và gia giảm phù hợp — dùng sai thể hoặc khi đang có cảm mạo, thấp nhiệt có thể làm bệnh nặng thêm. Tại <strong>Phòng Khám YHCT Tâm Đức</strong>, BS. Nguyễn Đức Tâm sẽ tứ chẩn hợp tham, phân thể khí hư và bào chế bài thuốc gia giảm phù hợp với từng bệnh nhân — kết hợp châm cứu bổ pháp và cứu ngải để tăng tốc phục hồi. Liên hệ <strong>0973 710 237</strong> để đặt lịch — giờ khám <strong>18:00–22:00 hàng ngày</strong>, Hà Đông, Hà Nội.</p>
+</div>
+    `
+  },
+  {
     id: 10,
     slug: "nhi-cham-giam-stress-lo-au-yhct",
     date: "2026-06-13",
