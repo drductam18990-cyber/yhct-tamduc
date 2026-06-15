@@ -5,6 +5,55 @@
 
 const ARTICLES = [
   {
+    id: 12,
+    slug: "an-uong-theo-ngu-tang-yhct",
+    date: "2026-06-15",
+    category: "phong-benh",
+    categoryLabel: "Phòng bệnh",
+    icon: "🛡️",
+    gradient: "g-amber",
+    title: "Ăn uống theo ngũ tạng Y học cổ truyền: Thực phẩm bổ đúng tạng, phòng bệnh từ gốc",
+    excerpt: "YHCT chia thức ăn theo ngũ vị — ngũ sắc tương ứng ngũ tạng: chua bổ can, đắng dưỡng tâm, ngọt kiện tỳ, cay bổ phế, mặn bổ thận. Ăn đúng tạng là phòng bệnh từ gốc rễ.",
+    readTime: 6,
+    content: `
+<h2>Tổng quan theo Y học cổ truyền</h2>
+<p>Trong Y học cổ truyền, thức ăn không chỉ cung cấp dinh dưỡng mà còn là phương tiện <strong>điều hòa ngũ tạng</strong>. Theo học thuyết <strong>ngũ hành — ngũ tạng — ngũ vị</strong>, mỗi vị thực phẩm có sự tương ứng với một tạng cụ thể: vị <em>chua</em> vào Can, vị <em>đắng</em> vào Tâm, vị <em>ngọt</em> vào Tỳ, vị <em>cay</em> vào Phế, vị <em>mặn</em> vào Thận. Tương tự, ngũ sắc của thực phẩm cũng tương ứng ngũ tạng: xanh (Can), đỏ (Tâm), vàng (Tỳ), trắng (Phế), đen (Thận).</p>
+<p>Nguyên tắc dưỡng sinh cốt lõi: <em>"Dĩ thực vi dược"</em> — lấy thức ăn làm thuốc. Ăn uống đúng theo ngũ tạng không chỉ bổ dưỡng từng tạng phủ mà còn phòng ngừa bệnh tật, làm chậm lão hóa và tăng cường chính khí toàn thân.</p>
+
+<h2>Phân thể / Nguyên nhân theo YHCT</h2>
+<ul>
+  <li><strong>Can hư (thiếu thực phẩm xanh, ít đạm):</strong> Mắt khô mờ, móng tay giòn dễ gãy, gân cơ co rút, kinh nguyệt ít màu nhạt, dễ cáu gắt. Can khai khiếu ở mắt, chủ gân — thiếu dưỡng chất bổ Can ảnh hưởng thị lực và gân cơ. Hướng điều trị: bổ can dưỡng huyết bằng thực phẩm vị chua, màu xanh đậm.</li>
+  <li><strong>Tâm hư (ít thực phẩm đỏ, thiếu sắt):</strong> Tim hồi hộp, hay quên, mất ngủ, da xanh xao. Tâm chủ huyết mạch và thần minh — nuôi dưỡng Tâm đúng cách cải thiện tuần hoàn và giấc ngủ. Hướng điều trị: dưỡng tâm an thần bằng thực phẩm vị đắng, màu đỏ.</li>
+  <li><strong>Tỳ hư (ăn uống thất thường, đồ lạnh nhiều):</strong> Ăn kém chóng no, bụng đầy, người mệt mỏi, cơ nhục mềm nhão, da vàng nhợt. Tỳ chủ vận hóa và cơ nhục — ăn uống đúng tỳ là nền tảng sức khỏe toàn thân. Hướng điều trị: kiện tỳ ích khí bằng thực phẩm vị ngọt nhạt, màu vàng.</li>
+  <li><strong>Phế hư (ít thực phẩm trắng, thiếu độ ẩm):</strong> Ho khan ít đờm, da khô nứt nẻ, dễ cảm lạnh, giọng yếu. Phế chủ bì mao và khí — bổ phế tăng sức đề kháng và bảo vệ đường hô hấp. Hướng điều trị: bổ phế nhuận táo bằng thực phẩm vị cay nhẹ, màu trắng.</li>
+  <li><strong>Thận hư (ăn quá nhạt hoặc quá kiêng):</strong> Mỏi lưng gối, ù tai, tóc bạc sớm, tiểu nhiều đêm, sinh lực giảm sút. Thận tàng tinh và chủ cốt tủy — bổ thận là bổ gốc rễ sinh mệnh. Hướng điều trị: bổ thận ích tinh bằng thực phẩm vị mặn nhạt, màu đen.</li>
+</ul>
+
+<h2>Phương pháp điều trị / Thực phẩm theo từng tạng</h2>
+<p>Bảng thực phẩm bổ ngũ tạng theo YHCT — áp dụng mỗi ngày để dưỡng sinh phòng bệnh:</p>
+<ul>
+  <li><strong>Bổ Can (vị chua — màu xanh):</strong> Gan lợn, rau bina, cải bó xôi, táo xanh, kỷ tử, mơ, Đương quy (bổ huyết). Mỗi tuần ăn gan 1–2 lần, rau xanh đậm 200–300g/ngày. Đặc biệt tốt vào mùa xuân khi Can khí vượng. Người mắt mờ, kinh nguyệt không đều ưu tiên tăng nhóm này.</li>
+  <li><strong>Dưỡng Tâm (vị đắng — màu đỏ):</strong> Táo đỏ, long nhãn, hạt sen, khổ qua (mướp đắng), dâu tây, cà chua, đan sâm (vị thuốc). Trà long nhãn táo đỏ uống buổi chiều. Tốt nhất vào mùa hè — Tâm kinh vượng mạnh. Người mất ngủ hồi hộp ưu tiên nhóm này.</li>
+  <li><strong>Kiện Tỳ (vị ngọt nhạt — màu vàng):</strong> Khoai lang vàng, bí đỏ, củ mài (hoài sơn), hạt ý dĩ, đại táo, gạo tẻ, Đảng sâm. Cháo củ mài ý dĩ ăn sáng 3–4 lần/tuần là bài thuốc dân gian kiện tỳ đơn giản nhất. Tốt nhất vào cuối hè — Tỳ thổ vượng.</li>
+  <li><strong>Bổ Phế (vị cay nhẹ — màu trắng):</strong> Bạch mộc nhĩ (nấm tuyết), lê, củ năng, ngó sen, hạt hạnh nhân, Bách hợp, Sa sâm (vị thuốc). Canh bạch mộc nhĩ lê táo đỏ 2–3 lần/tuần nhuận phế hiệu quả, tốt nhất mùa thu khi khí hậu hanh khô. Người da khô ho khan ưu tiên nhóm này.</li>
+  <li><strong>Bổ Thận (vị mặn nhạt — màu đen):</strong> Mè đen, đậu đen, nấm đen, hà thủ ô, óc chó, thịt heo thận, Thục địa, Sơn thù du (vị thuốc). Cháo đậu đen mè đen buổi sáng hoặc óc chó ngâm mật ong bổ thận ích tinh, tốt nhất vào mùa đông — Thận kinh vượng. Người mỏi lưng tóc bạc sớm ưu tiên nhóm này.</li>
+</ul>
+
+<h2>Tự thực hành tại nhà</h2>
+<ul>
+  <li><strong>Áp dụng nguyên tắc "ăn theo ngũ sắc":</strong> Bữa ăn hàng ngày nên có đủ 5 màu: xanh (rau lá xanh), đỏ (cà chua / thịt đỏ ít), vàng (bí / khoai lang), trắng (cơm / đậu phụ / nấm trắng), đen (mè đen / nấm đen / đậu đen). Đây là cách đơn giản nhất để nuôi dưỡng đủ ngũ tạng mỗi ngày.</li>
+  <li><strong>Ăn theo mùa — thuận thiên:</strong> Xuân — rau xanh bổ Can; Hè — thực phẩm đỏ dưỡng Tâm thanh nhiệt; Cuối hè — thực phẩm vàng nhạt kiện Tỳ; Thu — thực phẩm trắng bổ Phế nhuận táo; Đông — thực phẩm đen bổ Thận ích tinh. Nguyên tắc: <em>"Nhân thiên hợp nhất"</em> — sống thuận theo thời tiết.</li>
+  <li><strong>Kiêng kị: không ăn thiên lệch một vị:</strong> Chua quá hại tỳ, đắng quá hại phế, ngọt quá hại thận, cay quá hại can, mặn quá hại tâm. YHCT nhấn mạnh <em>"ngũ vị điều hòa"</em> — cân bằng là nền tảng, không tuyệt đối kiêng hay ăn quá nhiều bất kỳ vị nào.</li>
+  <li><strong>Giờ ăn theo đồng hồ sinh học YHCT:</strong> Bữa sáng 7–9h (Vị kinh vượng) — ăn đủ chất; Bữa trưa 11–13h (Tâm kinh vượng) — ăn vừa phải; Bữa tối trước 19h — ăn nhẹ. Không ăn khuya sau 21h khi tỳ vị đã vào trạng thái nghỉ ngơi.</li>
+  <li><strong>Bấm huyệt Túc tam lý (ST36) trước bữa ăn:</strong> Dưới lồi củ xương chày 3 thốn, ngoài mào chày 1 thốn — xoa ấn 1 phút mỗi bên trước bữa ăn chính để kích thích tỳ vị vận hóa tốt hơn, tăng hấp thu dinh dưỡng từ thực phẩm.</li>
+</ul>
+
+<div class="art-cta-box">
+  <p>Ăn uống theo ngũ tạng là nghệ thuật dưỡng sinh lâu đời nhất của YHCT — nhưng khi tạng phủ đã suy nhược rõ rệt, cần thăm khám để xác định tạng nào cần bổ ưu tiên và phối hợp thuốc YHCT phù hợp. Tại <strong>Phòng Khám YHCT Tâm Đức</strong>, BS. Nguyễn Đức Tâm sẽ tứ chẩn hợp tham, xác định thể trạng và hướng dẫn chế độ ăn uống cá nhân hóa theo YHCT kết hợp phác đồ điều trị toàn diện. Liên hệ <strong>0973 710 237</strong> để đặt lịch — giờ khám <strong>18:00–22:00 hàng ngày</strong>, Hà Đông, Hà Nội.</p>
+</div>
+    `
+  },
+  {
     id: 11,
     slug: "tu-quan-tu-thang-bo-khi-yhct",
     date: "2026-06-14",
