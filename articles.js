@@ -1,7 +1,7 @@
 // Dữ liệu bài viết kiến thức YHCT — thêm bài mới vào ĐẦU mảng (prepend)
 // Schema: { id, slug, date, category, categoryLabel, icon, gradient, title, excerpt, readTime, content }
-// category values: "mat-benh" | "khong-thuoc" | "thuoc-yhct" | "phong-benh" | "phuong-huyet"
-// gradient values: "g-herb" | "g-amber" | "g-navy" | "g-fire" | "g-huyet"
+// category values: "mat-benh" | "khong-thuoc" | "thuoc-yhct" | "phong-benh" | "phuong-huyet" | "lam-dep"
+// gradient values: "g-herb" | "g-amber" | "g-navy" | "g-fire" | "g-huyet" | "g-rose"
 
 const ARTICLES = [
   {
