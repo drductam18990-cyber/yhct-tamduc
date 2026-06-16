@@ -5,6 +5,57 @@
 
 const ARTICLES = [
   {
+    id: 13,
+    slug: "dau-than-kinh-toa-yhct-phan-the-dieu-tri",
+    date: "2026-06-16",
+    category: "mat-benh",
+    categoryLabel: "Mặt bệnh",
+    icon: "🩺",
+    gradient: "g-navy",
+    title: "Đau thần kinh tọa theo Y học cổ truyền: Phân thể và phác đồ điều trị toàn diện",
+    excerpt: "Đau thần kinh tọa — đau lan từ thắt lưng xuống chân theo dọc dây thần kinh — được YHCT phân thể cụ thể và điều trị hiệu quả bằng châm cứu, xoa bóp kết hợp thuốc YHCT.",
+    readTime: 6,
+    content: `
+<h2>Tổng quan theo Y học cổ truyền</h2>
+<p>Đau thần kinh tọa (đau lan dọc dây thần kinh hông to từ thắt lưng qua mông xuống chân) trong Y học cổ truyền thuộc phạm trù <strong>tý chứng</strong> — cụ thể là <em>thống tý</em> và <em>trước tý</em>. YHCT lý giải nguyên nhân gốc rễ là <strong>can thận hư tổn</strong> làm gân xương mất nhu dưỡng, tạo điều kiện cho tà khí (phong hàn thấp hoặc thấp nhiệt) xâm nhập kinh túc thái dương Bàng quang và kinh túc thiếu dương Đởm — hai kinh lạc chạy dọc mặt sau và ngoài chân, trùng với đường đi của dây thần kinh hông to.</p>
+<p>Nguyên tắc điều trị: <em>"Khu tà thông lạc, hoạt huyết chỉ thống, bổ can thận kiện cân cốt"</em>. YHCT không chỉ giảm đau triệu chứng mà còn phục hồi chức năng can thận, tăng cường khí huyết nuôi gân xương, từ đó xử lý nguyên nhân gốc rễ và phòng tái phát lâu dài.</p>
+
+<h2>Phân thể / Nguyên nhân theo YHCT</h2>
+<ul>
+  <li><strong>Thể phong hàn thấp tý:</strong> Đau thắt lưng lan xuống mông và chân như điện giật, đau tăng khi gặp lạnh và ẩm ướt, giảm khi chườm ấm. Cơ lưng và mông co cứng, cảm giác tê nặng dọc chân. Rêu lưỡi trắng nhớt, mạch trầm hoãn. Hay gặp sau dầm mưa, ở phòng điều hòa lạnh nhiều hoặc bưng vác nặng trong trời lạnh. Hướng điều trị: khu phong tán hàn, trừ thấp thông lạc.</li>
+  <li><strong>Thể thấp nhiệt trở lạc:</strong> Đau thắt lưng và chân dữ dội, vùng đau nóng rát, không chịu được chườm ấm, người sốt nhẹ hoặc nóng trong người, tiểu vàng. Rêu lưỡi vàng nhớt, mạch hoạt sác. Hay gặp trong mùa hè nóng ẩm hoặc người có thể trạng nhiệt. Hướng điều trị: thanh nhiệt trừ thấp, thông lạc chỉ thống.</li>
+  <li><strong>Thể khí trệ huyết ứ:</strong> Đau cố định như kim châm, vị trí đau không di chuyển, đau tăng về đêm và khi ấn vào. Thường xuất hiện sau chấn thương, bưng vác sai tư thế hoặc ngồi lâu. Lưỡi tím hoặc có điểm ứ huyết, mạch sáp. Hướng điều trị: hành khí hoạt huyết, hóa ứ thông lạc.</li>
+  <li><strong>Thể can thận âm hư:</strong> Đau mỏi âm ỉ kéo dài, tăng về chiều tối và sau lao động, kèm ù tai, hoa mắt, mỏi gối, miệng khô, mồ hôi trộm ban đêm. Lưỡi đỏ ít rêu, mạch tế sác. Hay gặp ở người cao tuổi hoặc làm việc trí óc kéo dài. Hướng điều trị: tư bổ can thận, dưỡng âm thông lạc.</li>
+  <li><strong>Thể thận dương hư:</strong> Đau lưng chân lạnh, đặc biệt tệ hơn vào mùa đông, sợ lạnh toàn thân, tay chân lạnh, tiểu đêm nhiều, người uể oải thiếu sức. Lưỡi nhạt bệu rêu trắng, mạch trầm trì. Hướng điều trị: ôn thận trợ dương, cường cân kiện cốt.</li>
+</ul>
+
+<h2>Phương pháp điều trị / Huyệt vị</h2>
+<p>Phác đồ huyệt cốt lõi điều trị đau thần kinh tọa — thầy thuốc sẽ gia giảm và phối hợp điện châm, cứu ngải hoặc giác hơi tùy từng thể bệnh:</p>
+<ul>
+  <li><strong>Hoàn khiêu (GB30):</strong> Ở mông, tại điểm nối 1/3 ngoài và 2/3 trong đường nối đỉnh xương cùng với mấu chuyển lớn xương đùi. Huyệt quan trọng nhất điều trị đau thần kinh tọa — thông kinh hoạt lạc, hành khí giảm đau, trực tiếp tác động vào điểm xuất phát của dây thần kinh hông to.</li>
+  <li><strong>Ủy trung (BL40):</strong> Chính giữa nếp khoeo. Huyệt lạc của kinh Bàng quang, hội huyệt của huyết — thư cân hoạt lạc, giảm co cứng cơ và đau lan dọc mặt sau chân. Cổ nhân nói: <em>"Yêu bối ủy trung cầu"</em> — bệnh lưng lưng tìm huyệt Ủy trung.</li>
+  <li><strong>Dương lăng tuyền (GB34):</strong> Trước và dưới đầu xương mác, dưới đầu gối ngoài. Hội huyệt của gân — thư cân giải co thắt, thông lợi kinh Đởm chạy dọc mặt ngoài chân. Đặc biệt hiệu quả khi đau lan theo mặt ngoài đùi và bắp chân.</li>
+  <li><strong>Côn lôn (BL60):</strong> Giữa đỉnh mắt cá ngoài và bờ ngoài gân gót. Thông kinh hoạt lạc, chỉ thống — huyệt vị xa cuối đường kinh Bàng quang, tăng hiệu quả điều trị toàn bộ đường đi của dây thần kinh hông to mặt sau.</li>
+  <li><strong>Thận du (BL23):</strong> Cạnh cột sống, ngang đốt thắt lưng L2, cách gai sống 1,5 thốn. Du huyệt của Thận — bổ thận mạnh gân xương, điều trị gốc rễ trong thể can thận hư. Kết hợp cứu ngải 15 phút tại huyệt này với thể thận dương hư.</li>
+  <li><strong>Đại trường du (BL25) và Tiểu trường du (BL27):</strong> Cạnh cột sống ngang L4 và S1 tương ứng. Thông kinh giảm đau vùng thắt lưng thấp và mông — đặc biệt hiệu quả khi có triệu chứng đau khu trú vùng L4-S1 (nguyên nhân thường gặp nhất của đau thần kinh tọa).</li>
+</ul>
+<p>Thể phong hàn thấp: kết hợp <em>cứu ngải</em> Hoàn khiêu (GB30) và Thận du (BL23) 15–20 phút; có thể thêm <em>giác hơi</em> vùng thắt lưng. Thể huyết ứ: điện châm tần số thấp (2Hz) trên huyệt chính tạo cảm giác tê buồn lan dọc chân. Thể thấp nhiệt: châm tả pháp, không cứu ngải.</p>
+
+<h2>Tự thực hành tại nhà</h2>
+<ul>
+  <li><strong>Ấn huyệt Ủy trung (BL40):</strong> Ngồi duỗi thẳng chân hoặc nằm sấp, dùng ngón cái ấn điểm chính giữa nếp khoeo mỗi bên 1–2 phút, sáng và tối. Huyệt này rất nhạy cảm — khi ấn đúng sẽ có cảm giác tê buồn lan xuống bắp chân, đây là dấu hiệu đúng huyệt. Không ấn mạnh đột ngột khi đang trong cơn đau cấp.</li>
+  <li><strong>Chườm ấm ngải cứu thắt lưng:</strong> Nướng nhẹ một nắm ngải cứu tươi hoặc dùng túi muối rang, chườm vùng thắt lưng và mông 15–20 phút trước khi ngủ — chỉ áp dụng với thể phong hàn thấp (đau giảm khi ấm). Không chườm nóng nếu vùng đau đang nóng rát (thể thấp nhiệt).</li>
+  <li><strong>Bài tập kéo giãn nhẹ dây thần kinh tọa:</strong> Nằm ngửa, co gối bên đau lên ngực giữ 30 giây, thả ra, lặp lại 5–10 lần mỗi tối. Bài tập này giúp giải phóng áp lực lên rễ thần kinh và tăng tuần hoàn vùng thắt lưng. Dừng ngay nếu đau tăng.</li>
+  <li><strong>Tư thế ngủ và sinh hoạt đúng:</strong> Nằm nghiêng bên lành, kẹp gối mỏng giữa hai đầu gối để giảm xoắn vặn vùng thắt lưng. Tránh ngồi bắt chân chéo và ngồi liên tục quá 45 phút — đứng dậy đi bộ nhẹ 2–3 phút giữa các giờ làm việc để tránh ứ trệ khí huyết kinh lạc vùng lưng.</li>
+  <li><strong>Thực phẩm bổ can thận hỗ trợ điều trị:</strong> Mè đen, đậu đen, óc chó, thịt heo thận — bổ thận ích tinh; cháo đậu đen hạt sen ăn sáng 3–4 lần/tuần. Kiêng rượu bia, thức khuya và bưng vác nặng trong thời gian điều trị.</li>
+</ul>
+
+<div class="art-cta-box">
+  <p>Đau thần kinh tọa kéo dài ảnh hưởng nghiêm trọng đến sinh hoạt và chất lượng cuộc sống — điều trị sớm và đúng thể bệnh giúp rút ngắn thời gian phục hồi và phòng tái phát hiệu quả. Tại <strong>Phòng Khám YHCT Tâm Đức</strong>, BS. Nguyễn Đức Tâm sẽ tứ chẩn hợp tham, xác định thể bệnh và áp dụng phác đồ châm cứu điện châm kết hợp xoa bóp bấm huyệt và thuốc YHCT phù hợp từng người. Liên hệ <strong>0973 710 237</strong> để đặt lịch — giờ khám <strong>18:00–22:00 hàng ngày</strong>, Hà Đông, Hà Nội.</p>
+</div>
+    `
+  },
+  {
     id: 12,
     slug: "an-uong-theo-ngu-tang-yhct",
     date: "2026-06-15",
