@@ -40,6 +40,7 @@
   .g-navy {background:linear-gradient(145deg,#1e3a5f,#60a5fa)}
   .g-fire {background:linear-gradient(145deg,#7c2d12,#f97316)}
   .g-huyet{background:linear-gradient(145deg,#581c87,#a855f7)}
+  .g-rose {background:linear-gradient(145deg,#9d174d,#fb7185)}
 
   /* ── Phương huyệt diagram & table ── */
   .huyet-diagram{margin:24px 0;border-radius:12px;overflow:hidden;border:1px solid #ede9fe;box-shadow:0 4px 20px rgba(124,58,237,.08)}
@@ -415,6 +416,9 @@
       <button class="filter-btn" data-cat="phuong-huyet" onclick="filterArticles('phuong-huyet',this)">
         📍 Phương huyệt <span class="filter-count" id="cnt-phuong-huyet">0</span>
       </button>
+      <button class="filter-btn" data-cat="lam-dep" onclick="filterArticles('lam-dep',this)">
+        🌸 Làm đẹp <span class="filter-count" id="cnt-lam-dep">0</span>
+      </button>
     </div>
   </div>
 </div>
@@ -529,7 +533,8 @@
     'g-amber':'linear-gradient(145deg,#92400e,#fbbf24)',
     'g-navy':'linear-gradient(145deg,#1e3a5f,#60a5fa)',
     'g-fire':'linear-gradient(145deg,#7c2d12,#f97316)',
-    'g-huyet':'linear-gradient(145deg,#581c87,#a855f7)'
+    'g-huyet':'linear-gradient(145deg,#581c87,#a855f7)',
+    'g-rose':'linear-gradient(145deg,#9d174d,#fb7185)'
   };
 
   function formatDate(d){
@@ -560,7 +565,7 @@
   let currentFilter = 'all';
 
   function updateCounts(){
-    const cats = ['mat-benh','khong-thuoc','thuoc-yhct','phong-benh','phuong-huyet'];
+    const cats = ['mat-benh','khong-thuoc','thuoc-yhct','phong-benh','phuong-huyet','lam-dep'];
     document.getElementById('cnt-all').textContent = ARTICLES.length;
     cats.forEach(c => {
       const el = document.getElementById('cnt-'+c);
