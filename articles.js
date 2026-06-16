@@ -5,6 +5,61 @@
 
 const ARTICLES = [
   {
+    id: 20,
+    slug: "co-so-ly-luan-trung-y-my-dung",
+    date: "2026-06-16",
+    category: "lam-dep",
+    categoryLabel: "Làm đẹp",
+    icon: "🌸",
+    gradient: "g-rose",
+    title: "Cơ sở lý luận Trung Y Mỹ Dung: Vì sao tạng phủ quyết định vẻ đẹp dung nhan",
+    excerpt: "Trung Y Mỹ Dung học xây dựng trên nền tảng lý luận chỉnh thể, âm dương ngũ hành và tạng tượng — giải thích vì sao sắc mặt, da, tóc, móng đều là tấm gương phản chiếu sức khỏe tạng phủ bên trong.",
+    readTime: 7,
+    content: `
+<h2>Quan niệm chỉnh thể: vẻ đẹp bắt đầu từ bên trong</h2>
+<p>Trung Y Mỹ Dung học (làm đẹp bằng Y học cổ truyền) không xem da, tóc, móng là những bộ phận tách biệt cần "sửa chữa" riêng lẻ, mà đặt chúng trong mối liên hệ chỉnh thể với toàn bộ tạng phủ, khí huyết và môi trường sống. Theo quan niệm này, cơ thể là một thể thống nhất hữu cơ — biến đổi bệnh lý ở tạng phủ bên trong tất yếu phản ánh ra dung nhan bên ngoài, và ngược lại, các vấn đề về da hay tóc thường bắt nguồn từ sự mất cân bằng tạng phủ, khí huyết ở một mức độ nào đó.</p>
+<p>Đây là lý do vì sao YHCT tiếp cận làm đẹp theo hướng <em>"trị từ gốc"</em>: thay vì chỉ can thiệp tại chỗ, thầy thuốc luôn xem xét tổng thể thể trạng, sinh hoạt và cảm xúc của người bệnh trước khi đưa ra phương pháp chăm sóc phù hợp.</p>
+<p>Quan niệm chỉnh thể còn mở rộng ra mối quan hệ giữa con người và tự nhiên. Cơ thể thích ứng theo quy luật bốn mùa — da tiết nhiều dầu và mồ hôi hơn vào mùa xuân hè khi dương khí phát tán ra ngoài, trở nên khô và cần dưỡng ẩm nhiều hơn vào mùa thu đông khi dương khí thu về bên trong. Nhiều vấn đề da liễu cũng mang tính mùa rõ rệt: cháy nắng và nám thường nặng hơn vào xuân hè, nứt nẻ da và cước lạnh xuất hiện nhiều vào mùa đông.</p>
+
+<h2>Âm dương ngũ hành — nền tảng đánh giá vẻ đẹp khỏe mạnh</h2>
+<p>YHCT xem cân bằng âm dương không chỉ là tiêu chuẩn sức khỏe mà còn là tiêu chuẩn thẩm mỹ. Một gương mặt hồng hào, tươi sáng, có sức sống là biểu hiện của khí huyết điều hòa, âm dương cân bằng. Khi âm dương lệch — dương thịnh sinh nóng bứt rứt, mặt đỏ; âm thịnh sinh hàn, da nhợt phù nề — dung nhan cũng mất đi vẻ hài hòa tự nhiên.</p>
+<p>Học thuyết ngũ hành (Mộc, Hỏa, Thổ, Kim, Thủy) được dùng để phân loại thể trạng và xu hướng bệnh lý liên quan đến từng tạng: Can (Mộc), Tâm (Hỏa), Tỳ (Thổ), Phế (Kim), Thận (Thủy). Mỗi nhóm thể trạng có đặc điểm hình thể, sắc da và nguy cơ vấn đề thẩm mỹ khác nhau, giúp thầy thuốc định hướng chăm sóc phù hợp với từng người thay vì áp dụng một công thức chung cho tất cả.</p>
+
+<h2>Tạng tượng học: mỗi tạng phủ "vinh nhuận" ra một bộ phận</h2>
+<p>Đây là phần lý luận cốt lõi giải thích trực tiếp mối liên hệ giữa nội tạng và vẻ đẹp bên ngoài:</p>
+<ul>
+  <li><strong>Tâm (Tim):</strong> chủ huyết mạch, vinh nhuận ở mặt. Tâm khí đủ thì mặt hồng nhuận sáng; tâm huyết hư thì mặt vô hoa, kém sắc.</li>
+  <li><strong>Phế (Phổi):</strong> chủ da và lông. Phế khí đầy đủ thì da dẻ mịn mượt, lỗ chân lông khép mở điều hòa; phế khí hư thì da lông khô héo, dễ nổi mụn.</li>
+  <li><strong>Tỳ (Lá lách):</strong> chủ cơ nhục, vinh nhuận ở môi. Tỳ vị là nguồn sinh hóa khí huyết — tỳ hư khiến cơ nhục gầy yếu, môi nhợt nhạt.</li>
+  <li><strong>Can (Gan):</strong> tàng huyết, vinh nhuận ở móng tay, chủ gân. Can huyết đủ giúp móng hồng chắc khỏe, tinh thần thư thái; can uất dễ sinh nếp nhăn do tâm trạng căng thẳng kéo dài.</li>
+  <li><strong>Thận:</strong> tàng tinh, là gốc của khí huyết toàn thân, chủ cốt và "vinh nhuận" ở tóc và răng. Thận tinh đầy đủ thì tóc đen bóng, răng chắc khỏe; thận tinh suy thì tóc bạc sớm, rụng tóc, răng lung lay — đây là cơ sở lý luận cho rất nhiều phương pháp chống lão hóa của YHCT.</li>
+</ul>
+<p>Chính nhờ hệ thống tương ứng này, thầy thuốc YHCT khi nhìn vào tình trạng da, tóc, móng, môi có thể suy đoán được tạng phủ nào đang suy yếu, từ đó điều trị đúng gốc bệnh thay vì chỉ xử lý biểu hiện bên ngoài.</p>
+
+<h2>Khí, huyết, tân dịch — vật chất nền tảng của vẻ đẹp</h2>
+<p>YHCT coi khí, huyết và tân dịch là ba loại vật chất cơ bản nuôi dưỡng da, cơ nhục và tóc. Khí đủ giúp cơ thể ấm áp, da sáng bóng và đề kháng tốt với tác nhân gây bệnh từ ngoài; khí hư dễ sinh huyết ứ, biểu hiện thành nám và tàn nhang. Huyết đầy đủ giúp tinh thần minh mẫn, mắt sáng, cơ nhục săn chắc; huyết hư khiến da xanh xao, tóc dễ gãy rụng; huyết nhiệt lại dễ sinh mụn và các vấn đề viêm đỏ trên da. Tân dịch nhuận dưỡng da và tóc — thiếu tân dịch gây da khô nứt nẻ, còn tân dịch ứ trệ lại dẫn đến phù nề, béo phì.</p>
+
+<h2>Nguyên nhân thường gặp gây tổn thương dung nhan</h2>
+<ul>
+  <li><strong>Lục dâm (tà khí từ ngoài):</strong> phong, hàn, thử, thấp, táo, hỏa — mỗi loại gây ra kiểu tổn thương da đặc trưng, ví dụ phong nhiệt dễ sinh tàn nhang và ban đỏ, táo tà gây da khô nứt nẻ vào mùa thu.</li>
+  <li><strong>Thất tình nội thương:</strong> cảm xúc thái quá hoặc kéo dài (giận, lo, buồn, sợ, suy nghĩ nhiều) đều có thể làm tổn thương tạng phủ tương ứng và biểu hiện ra dung nhan — đây là cơ sở lý luận cho việc xem stress là một trong những "kẻ thù" hàng đầu của làn da.</li>
+  <li><strong>Ăn uống không điều độ:</strong> ăn thiếu gây gầy yếu kém sắc, ăn quá nhiều hoặc lệch vị gây tích nhiệt sinh mụn hoặc béo phì.</li>
+  <li><strong>Lao dật thất thường:</strong> làm việc quá độ tổn hao khí huyết; ngược lại quá nhàn rỗi cũng khiến khí huyết trì trệ, sinh đờm thấp.</li>
+</ul>
+
+<h2>Nguyên tắc điều trị làm đẹp theo Y học cổ truyền</h2>
+<ul>
+  <li><strong>Điều trị theo chỉnh thể:</strong> luôn xem xét tạng phủ, khí huyết toàn thân trước khi can thiệp tại chỗ.</li>
+  <li><strong>Phòng bệnh trước khi mắc:</strong> dưỡng sinh, sinh hoạt điều độ và thuận theo quy luật bốn mùa được coi trọng hơn là chỉ xử lý khi vấn đề đã xuất hiện.</li>
+  <li><strong>Tam nhân chế nghi:</strong> phương pháp chăm sóc cần phù hợp theo thời điểm (mùa), theo địa phương (khí hậu, môi trường sống) và theo từng người (thể trạng riêng biệt) — không áp dụng một công thức làm đẹp cứng nhắc cho mọi người.</li>
+</ul>
+
+<div class="art-cta-box">
+  <p>Hiểu đúng cơ sở lý luận Trung Y Mỹ Dung giúp việc chăm sóc và điều trị các vấn đề về da, tóc đạt hiệu quả bền vững thay vì chỉ che giấu tạm thời. Tại <strong>Phòng Khám YHCT Tâm Đức</strong>, BS. Nguyễn Đức Tâm tư vấn và xây dựng phác đồ làm đẹp dựa trên biện chứng tạng phủ, khí huyết phù hợp từng thể trạng. Liên hệ <strong>0973 710 237</strong> để đặt lịch — giờ khám <strong>18:00–22:00 hàng ngày</strong>, Hà Đông, Hà Nội.</p>
+</div>
+    `
+  },
+  {
     id: 19,
     slug: "tri-nam-da-tan-nhang-yhct",
     date: "2026-06-16",
