@@ -5,6 +5,55 @@
 
 const ARTICLES = [
   {
+    id: 21,
+    slug: "cao-huyet-ap-theo-yhct",
+    date: "2026-06-17",
+    category: "mat-benh",
+    categoryLabel: "Mặt bệnh",
+    icon: "🩺",
+    gradient: "g-navy",
+    title: "Cao huyết áp theo Y học cổ truyền: Phân thể và phác đồ điều trị",
+    excerpt: "Cao huyết áp (huyễn vựng) trong YHCT chia thành nhiều thể bệnh khác nhau — điều trị bằng châm cứu, bấm huyệt và dưỡng sinh giúp ổn định huyết áp bền vững, giảm phụ thuộc thuốc.",
+    readTime: 6,
+    content: `
+<h2>Tổng quan theo Y học cổ truyền</h2>
+<p>Cao huyết áp trong YHCT thuộc phạm trù <strong>huyễn vựng</strong> (chóng mặt, hoa mắt) và <strong>đầu thống</strong> (đau đầu) — nguyên nhân cốt lõi thường do <strong>can dương thượng cang</strong> (can hỏa bốc lên đầu) phối hợp với <strong>can thận âm hư</strong> không tiềm được dương, hoặc do <strong>đàm thấp trở trệ</strong> làm khí huyết vận hành kém. Khác với Tây y chỉ tập trung hạ số đo huyết áp, YHCT điều trị theo hướng <em>"bình can tiềm dương, tư âm bổ thận"</em> — vừa hạ áp vừa điều hòa căn nguyên tạng phủ, giúp ổn định lâu dài và giảm các triệu chứng kèm theo như đau đầu, mất ngủ, hồi hộp.</p>
+
+<h2>Phân thể theo YHCT</h2>
+<ul>
+  <li><strong>Thể can dương thượng cang:</strong> Đau đầu căng, chóng mặt, mặt đỏ bừng, dễ cáu gắt, miệng khô đắng, huyết áp dao động mạnh khi căng thẳng. Lưỡi đỏ rêu vàng, mạch huyền. Hướng điều trị: bình can tiềm dương, thanh can tả hỏa.</li>
+  <li><strong>Thể đàm thấp trở trệ:</strong> Đầu nặng như đội mũ chì, người béo bệu, ngực tức bụng đầy, đờm nhiều, dễ buồn nôn, mệt mỏi uể oải. Lưỡi bệu rêu trắng dày, mạch hoạt. Hướng điều trị: hóa đàm trừ thấp, kiện tỳ thông lạc.</li>
+  <li><strong>Thể can thận âm hư:</strong> Chóng mặt ù tai, hoa mắt khi đứng dậy, mỏi lưng gối, miệng khô, mất ngủ, ngũ tâm phiền nhiệt (lòng bàn tay chân nóng). Lưỡi đỏ ít rêu, mạch tế sác. Hướng điều trị: tư bổ can thận, dưỡng âm tiềm dương.</li>
+  <li><strong>Thể khí huyết hư (tâm tỳ lưỡng hư):</strong> Mệt mỏi, hồi hộp đánh trống ngực, sắc mặt nhợt, hoa mắt chóng mặt khi thay đổi tư thế, kém ăn. Lưỡi nhạt, mạch tế nhược. Hướng điều trị: bổ khí dưỡng huyết, kiện tỳ ích tâm.</li>
+</ul>
+
+<h2>Phương pháp điều trị / Huyệt vị</h2>
+<ul>
+  <li><strong>Thái xung (LR3):</strong> Mu bàn chân, giữa khe ngón 1-2. Nguyên huyệt kinh Can — bình can tiềm dương, huyệt chủ lực cho thể can dương thượng cang.</li>
+  <li><strong>Phong trì (GB20):</strong> Sau gáy, dưới đáy hộp sọ. Thanh can hỏa, giảm đau đầu chóng mặt — phối hợp Thái xung (LR3) tạo phác đồ "tứ quan" cổ truyền trị huyễn vựng.</li>
+  <li><strong>Bách hội (GV20):</strong> Đỉnh đầu, giao điểm đường nối hai vành tai và đường giữa đầu. Bình can tức phong, an thần — hỗ trợ giảm chóng mặt và ổn định thần kinh.</li>
+  <li><strong>Thái khê (KI3):</strong> Giữa đỉnh mắt cá trong và gân gót. Nguyên huyệt kinh Thận — tư âm bổ thận, dùng cho thể can thận âm hư.</li>
+  <li><strong>Tam âm giao (SP6):</strong> Trên mắt cá trong 3 thốn. Điều hòa can thận tỳ, hỗ trợ hạ áp và an thần, dùng được cho nhiều thể bệnh.</li>
+  <li><strong>Nội quan (PC6):</strong> Giữa mặt trong cổ tay, trên lằn chỉ cổ tay 2 thốn. An thần định chí, giảm hồi hộp đánh trống ngực — đặc biệt hữu ích thể khí huyết hư và khi huyết áp dao động do lo âu.</li>
+  <li><strong>Túc tam lý (ST36):</strong> Dưới đầu gối ngoài 3 thốn. Kiện tỳ hóa đàm, bổ khí huyết — dùng cho thể đàm thấp và thể khí huyết hư.</li>
+</ul>
+<p>Thể can dương thượng cang: châm tả Thái xung (LR3), Phong trì (GB20), không cứu ngải. Thể âm hư: châm bổ Thái khê (KI3), Tam âm giao (SP6), có thể thêm nhu châm lưu kim kéo dài. Thể đàm thấp và khí huyết hư: châm bổ kết hợp cứu ngải nhẹ Túc tam lý (ST36). Liệu trình 10–15 buổi, 2–3 buổi/tuần, theo dõi huyết áp trước và sau mỗi lần châm.</p>
+
+<h2>Tự thực hành tại nhà</h2>
+<ul>
+  <li><strong>Bấm huyệt Thái xung (LR3) và Phong trì (GB20):</strong> Ấn giữ mỗi huyệt 1–2 phút khi thấy đau đầu, căng thẳng hoặc huyết áp có dấu hiệu tăng — thực hiện đều đặn buổi sáng và tối.</li>
+  <li><strong>Ngâm chân nước ấm trước khi ngủ:</strong> 15 phút mỗi tối giúp dẫn hỏa từ trên đầu xuống, hỗ trợ an thần và ổn định huyết áp, đặc biệt tốt cho thể can dương thượng cang.</li>
+  <li><strong>Hạn chế muối, đồ cay nóng, rượu bia:</strong> Các vị này dễ sinh đàm hỏa, làm nặng thêm các thể can dương và đàm thấp.</li>
+  <li><strong>Tập thở sâu và đi bộ nhẹ mỗi ngày 20–30 phút:</strong> Giúp khí huyết lưu thông, giảm stress — yếu tố trực tiếp làm can khí uất, dương khí bốc lên gây tăng huyết áp.</li>
+  <li><strong>Trà hoa cúc, trà hoa hòe:</strong> Có tác dụng thanh can hỏa, hỗ trợ ổn định huyết áp khi dùng đều đặn — chỉ nên dùng khi không có biểu hiện hàn (tay chân lạnh, sợ lạnh).</li>
+</ul>
+
+<div class="art-cta-box">
+  <p>Cao huyết áp cần theo dõi và điều trị kiên trì, không tự ý ngưng thuốc Tây y khi đang điều trị kết hợp YHCT. Tại <strong>Phòng Khám YHCT Tâm Đức</strong>, BS. Nguyễn Đức Tâm tư vấn phác đồ châm cứu, bấm huyệt kết hợp dưỡng sinh phù hợp từng thể bệnh để hỗ trợ ổn định huyết áp bền vững. Liên hệ <strong>0973 710 237</strong> để đặt lịch — giờ khám <strong>18:00–22:00 hàng ngày</strong>, Hà Đông, Hà Nội.</p>
+</div>
+    `
+  },
+  {
     id: 20,
     slug: "co-so-ly-luan-trung-y-my-dung",
     date: "2026-06-16",
