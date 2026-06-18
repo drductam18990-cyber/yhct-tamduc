@@ -5,6 +5,406 @@
 
 const ARTICLES = [
   {
+    id: 32,
+    slug: "bien-chung-yhct-trong-lam-dep",
+    date: "2026-06-18",
+    category: "lam-dep",
+    categoryLabel: "Làm đẹp",
+    icon: "🌸",
+    gradient: "g-rose",
+    title: "Biện chứng YHCT trong làm đẹp: Phân biệt hàn – nhiệt – hư – thực để chăm sóc da đúng cách",
+    excerpt: "Cùng một vấn đề da nhưng thể hàn hay nhiệt, hư hay thực lại cần cách xử lý hoàn toàn khác nhau — đây là nền tảng để Y học cổ truyền cá nhân hóa việc chăm sóc làn da.",
+    readTime: 6,
+    content: `
+<h2>Vì sao phải biện chứng trước khi chăm sóc da?</h2>
+<p>Trung Y Mỹ Dung không có một công thức làm đẹp chung cho tất cả mọi người. Cùng triệu chứng mụn trứng cá, da khô hay nám, nhưng nguyên nhân và cơ chế bệnh sinh có thể hoàn toàn khác nhau giữa từng người — do đó cách điều trị và chăm sóc cũng phải khác nhau. Bước đầu tiên luôn là <strong>biện chứng</strong>: phân tích toàn diện các triệu chứng, thể trạng để xác định "chứng" thuộc loại nào, rồi mới "luận trị" — chọn phương pháp phù hợp.</p>
+
+<h2>Bát cương biện chứng ứng dụng trong mỹ dung</h2>
+<p>Tám tiêu chí cơ bản (bát cương) là khung phân tích nền tảng nhất trong YHCT, áp dụng trực tiếp vào các vấn đề dung nhan:</p>
+<ul>
+  <li><strong>Biểu – Lý:</strong> Biểu chứng — bệnh ở tầng da bề mặt, phát nhanh, bệnh trình ngắn (ví dụ: dị ứng da cấp, nổi mề đay đột ngột). Lý chứng — bệnh sâu từ tạng phủ bên trong, thường mạn tính và phức tạp hơn (ví dụ: nám do rối loạn nội tiết, mụn nang do tỳ vị nhiệt mạn).</li>
+  <li><strong>Hàn – Nhiệt:</strong> Da khô trắng lạnh, mặt xanh nhợt, sợ lạnh — thiên về hàn chứng, không nên dùng sản phẩm lạnh mát. Da đỏ bốc nhiệt, mụn mủ, miệng khô táo bón — thiên về nhiệt chứng, cần thanh nhiệt giải độc, tránh thức ăn cay nóng.</li>
+  <li><strong>Hư – Thực:</strong> Hư chứng (khí huyết âm dương thiếu hụt) — da nhợt, nhão, kém sắc sống, mệt mỏi; cần bổ. Thực chứng (tà khí vượng — thấp nhiệt, đờm ứ, khí trệ) — da dầu, mụn viêm đỏ, lỗ chân lông to; cần tả/thông.</li>
+  <li><strong>Âm – Dương:</strong> Tổng hợp của các tiêu chí trên — giúp phân loại tổng quát và định hướng phương pháp: âm chứng cần ôn bổ dương khí, dương chứng cần thanh nhiệt tư âm.</li>
+</ul>
+
+<h2>Biện chứng khí huyết tân dịch trong mỹ dung</h2>
+<ul>
+  <li><strong>Khí hư:</strong> Mặt vàng nhợt, da lỏng lẻo kém đàn tính, mệt mỏi ít hơi. Cần bổ khí kiện tỳ — ưu tiên Bổ trung ích khí thang, bấm huyệt Túc tam lý.</li>
+  <li><strong>Khí trệ:</strong> Da xỉn, nám lan tỏa, hay thở dài, tức sườn. Cần sơ can lý khí — dùng Sài hồ sơ can tán, bấm huyệt Thái xung.</li>
+  <li><strong>Huyết hư:</strong> Mặt trắng xanh, môi nhợt, tóc khô dễ rụng, móng mỏng. Cần dưỡng huyết — Tứ vật thang, bổ sung thực phẩm bổ huyết.</li>
+  <li><strong>Huyết nhiệt:</strong> Mụn viêm đỏ, nám sậm màu đột ngột, da bốc nóng. Cần lương huyết giải độc — tránh đồ cay nóng, rượu bia.</li>
+  <li><strong>Huyết ứ:</strong> Nám cố định, đau như châm chích, da sạm tím. Cần hoạt huyết hóa ứ — Đào nhân, Hồng hoa phối hợp.</li>
+  <li><strong>Tân dịch bất túc:</strong> Da khô nứt, môi khô, mắt khô, tiểu ít. Cần dưỡng âm sinh tân — uống đủ nước, ăn thực phẩm nhuận táo.</li>
+</ul>
+
+<h2>Ứng dụng thực tế: Chăm sóc da theo biện chứng</h2>
+<ul>
+  <li>Da dầu, mụn viêm, lỗ chân lông to (thấp nhiệt): hạn chế thức ăn ngọt béo, dùng mặt nạ đất sét, uống trà bồ công anh.</li>
+  <li>Da khô nhăn, kém sắc (âm hư huyết hư): tăng thực phẩm dưỡng âm (mè đen, ngân nhĩ, kỷ tử), dùng kem dưỡng ẩm giàu dinh dưỡng, ngủ trước 23h.</li>
+  <li>Nám do stress (can uất khí trệ): ưu tiên giải toả căng thẳng, tập thở, đi bộ, uống trà hoa hồng.</li>
+  <li>Mụn lạnh (dương hư): tránh ăn đồ lạnh, sống, chườm ấm, tập dưỡng sinh buổi sáng.</li>
+</ul>
+
+<div class="art-cta-box">
+  <p>Biện chứng đúng là chìa khoá để chăm sóc da hiệu quả và lâu dài. Tại <strong>Phòng Khám YHCT Tâm Đức</strong>, BS. Nguyễn Đức Tâm tứ chẩn toàn diện để xác định thể chứng và lập phác đồ làm đẹp cá nhân hóa. Liên hệ <strong>0973 710 237</strong> — giờ khám <strong>18:00–22:00 hàng ngày</strong>, Hà Đông, Hà Nội.</p>
+</div>
+    `
+  },
+  {
+    id: 31,
+    slug: "phuong-huyet-liet-mat-bell-palsy",
+    date: "2026-06-18",
+    category: "phuong-huyet",
+    categoryLabel: "Phương huyệt",
+    icon: "📍",
+    gradient: "g-huyet",
+    title: "Phương huyệt điều trị liệt mặt (Bell's palsy) theo Y học cổ truyền",
+    excerpt: "Châm cứu huyệt vùng mặt kết hợp huyệt toàn thân là phương pháp hiệu quả cao trong điều trị liệt mặt ngoại biên — cần can thiệp sớm để phục hồi tốt nhất.",
+    readTime: 5,
+    content: `
+<h2>Liệt mặt theo Y học cổ truyền</h2>
+<p>Liệt mặt ngoại biên (Bell's palsy) trong YHCT thuộc phạm trù <strong>khẩu nhãn oa tà</strong> — miệng mắt méo xệch do tà khí xâm phạm. Nguyên nhân chủ yếu là <em>phong hàn hoặc phong nhiệt</em> thừa cơ chính khí hư xâm nhập kinh lạc vùng mặt, gây khí huyết ứ trệ tại kinh túc dương minh Vị và kinh thủ dương minh Đại trường — hai kinh lạc chính phân bố ở mặt.</p>
+<p>Điều trị sớm (trong 7–14 ngày đầu) bằng châm cứu giúp rút ngắn thời gian hồi phục đáng kể. YHCT kết hợp châm cứu tại chỗ vùng mặt, điện châm và cứu ngải để thúc đẩy khí huyết lưu thông, phục hồi chức năng thần kinh ngoại biên.</p>
+
+<h2>Phác đồ huyệt cốt lõi</h2>
+<ul>
+  <li><strong>Địa thương (ST4):</strong> Cạnh khoé miệng 1cm. Huyệt tại chỗ quan trọng nhất — thông khí huyết vùng miệng, hỗ trợ phục hồi cơ vòng miệng bị liệt.</li>
+  <li><strong>Giáp xa (ST6):</strong> Cơ cắn (chỗ phình lên khi nghiến răng). Hành khí thông lạc vùng hàm và má, đặc biệt hiệu quả khi có méo miệng rõ.</li>
+  <li><strong>Nghinh hương (LI20):</strong> Cạnh cánh mũi. Thông khí huyết vùng má và cánh mũi, hỗ trợ phục hồi cơ mũi.</li>
+  <li><strong>Toản trúc (BL2):</strong> Đầu trong lông mày. Giúp phục hồi chức năng nhắm mắt — cơ vòng mắt thường bị ảnh hưởng nặng nhất trong Bell's palsy.</li>
+  <li><strong>Dương bạch (GB14):</strong> Trên lông mày 1 thốn, thẳng đồng tử. Thông kinh hoạt lạc vùng trán và mắt.</li>
+  <li><strong>Hợp cốc (LI4):</strong> Hổ khẩu bàn tay, châm bên đối diện với mặt bị liệt. Huyệt xa rất quan trọng — "mặt miệng Hợp cốc thu" — hành khí thông lạc toàn bộ vùng mặt và đầu.</li>
+  <li><strong>Phong trì (GB20):</strong> Sau gáy. Khu phong giải biểu — đặc biệt quan trọng trong giai đoạn cấp (7–14 ngày đầu) để loại trừ phong tà.</li>
+</ul>
+<p>Giai đoạn cấp: châm nhẹ hoặc tả pháp, không kích thích mạnh. Sau 2 tuần chuyển điện châm tần số thấp để kích thích phục hồi cơ. Cứu ngải Hợp cốc và Phong trì nếu thể phong hàn. Liệu trình 20–30 buổi, mỗi ngày hoặc cách ngày.</p>
+
+<div class="art-cta-box">
+  <p>Liệt mặt cần điều trị sớm và kiên trì để phục hồi hoàn toàn. Tại <strong>Phòng Khám YHCT Tâm Đức</strong>, BS. Nguyễn Đức Tâm áp dụng điện châm kết hợp xoa bóp vùng mặt cho các trường hợp liệt mặt ngoại biên. Liên hệ <strong>0973 710 237</strong> — giờ khám <strong>18:00–22:00 hàng ngày</strong>, Hà Đông, Hà Nội.</p>
+</div>
+    `
+  },
+  {
+    id: 30,
+    slug: "phong-thoai-hoa-cot-song-yhct",
+    date: "2026-06-18",
+    category: "phong-benh",
+    categoryLabel: "Phòng bệnh",
+    icon: "🛡️",
+    gradient: "g-amber",
+    title: "Phòng ngừa thoái hóa cột sống theo Y học cổ truyền",
+    excerpt: "Thoái hóa cột sống liên quan đến can thận suy và khí huyết ứ trệ — YHCT phòng bệnh bằng vận động dưỡng sinh, ăn uống bổ thận và tránh các thói quen hao tổn gân cốt.",
+    readTime: 5,
+    content: `
+<h2>Nguyên nhân theo Y học cổ truyền</h2>
+<p>Thoái hóa cột sống (cổ, lưng, thắt lưng) trong YHCT chủ yếu do <strong>can thận dần suy</strong> theo tuổi tác — thận chủ cốt, can chủ gân, hai tạng này suy yếu thì xương khớp mất dưỡng, gân cơ kém đàn hồi, tạo điều kiện cho <em>phong hàn thấp</em> xâm nhập và khí huyết ứ trệ tại cột sống.</p>
+
+<h2>Các biện pháp phòng ngừa hiệu quả</h2>
+<ul>
+  <li><strong>Vận động dưỡng sinh đúng cách:</strong> Tập Bát đoạn cẩm, dưỡng sinh thái cực quyền đều đặn mỗi sáng giúp lưu thông khí huyết, nuôi dưỡng gân cốt. Chỉ cần 15–20 phút/ngày, tốt hơn nhiều so với không tập hoặc tập gắng sức.</li>
+  <li><strong>Không ngồi liên tục quá 45 phút:</strong> Đứng dậy đi bộ nhẹ và xoay cổ nhẹ nhàng giữa các giờ làm việc — phòng khí huyết ứ trệ vùng cột sống do ngồi một tư thế kéo dài.</li>
+  <li><strong>Giữ ấm vùng cổ và lưng:</strong> Phong hàn thấp là tà khí dễ xâm nhập khi cơ thể tiếp xúc lạnh đột ngột — đặc biệt tránh để cổ và lưng hứng gió điều hoà trực tiếp.</li>
+  <li><strong>Thực phẩm bổ thận mạnh gân cốt:</strong> Mè đen, đậu đen, óc chó, thịt bò gân — bổ thận ích tinh, mạnh gân xương. Cháo đậu đen hạt sen ăn thường xuyên có lợi lâu dài.</li>
+  <li><strong>Tránh phòng lao thái quá:</strong> Sinh hoạt vợ chồng không điều độ tổn thương thận tinh — gân cốt mất nguồn nuôi dưỡng, dễ thoái hóa sớm.</li>
+</ul>
+
+<h2>Huyệt vị bổ can thận hỗ trợ phòng bệnh</h2>
+<ul>
+  <li><strong>Thận du (BL23) + Mệnh môn (GV4):</strong> Vùng lưng ngang L2-L3. Cứu ngải 15 phút mỗi tối giúp bổ thận dương, ôn ấm và nuôi dưỡng xương cột sống.</li>
+  <li><strong>Huyền chung (GB39):</strong> Trên mắt cá ngoài 3 thốn. Hội huyệt của tủy — bấm huyệt hỗ trợ bổ thận sinh tủy, mạnh xương khớp.</li>
+  <li><strong>Túc tam lý (ST36):</strong> Bổ khí kiện tỳ, hỗ trợ hấp thu dinh dưỡng nuôi dưỡng cân cốt toàn thân.</li>
+</ul>
+
+<div class="art-cta-box">
+  <p>Phòng thoái hóa cột sống hiệu quả nhất là từ khi chưa có triệu chứng rõ ràng. Tại <strong>Phòng Khám YHCT Tâm Đức</strong>, BS. Nguyễn Đức Tâm tư vấn lộ trình phòng bệnh và điều trị sớm các vấn đề cột sống bằng châm cứu kết hợp thuốc YHCT. Liên hệ <strong>0973 710 237</strong> — giờ khám <strong>18:00–22:00 hàng ngày</strong>, Hà Đông, Hà Nội.</p>
+</div>
+    `
+  },
+  {
+    id: 29,
+    slug: "than-khi-hoan-bo-than-duong",
+    date: "2026-06-18",
+    category: "thuoc-yhct",
+    categoryLabel: "Thuốc YHCT",
+    icon: "🌿",
+    gradient: "g-fire",
+    title: "Thận khí hoàn — Bài thuốc bổ thận dương kinh điển của Y học cổ truyền",
+    excerpt: "Thận khí hoàn (Kim quỹ thận khí hoàn) là bài cổ phương hàng đầu bổ thận dương, kiện lưng gối, chuyên trị các chứng thận dương hư do danh y Trương Trọng Cảnh sáng lập.",
+    readTime: 5,
+    content: `
+<h2>Nguồn gốc và công dụng</h2>
+<p><strong>Thận khí hoàn</strong> (còn gọi Kim quỹ thận khí hoàn) xuất phát từ <em>Kim Quỹ Yếu Lược</em> của danh y Trương Trọng Cảnh (đời Đông Hán). Đây là bài thuốc bổ thận dương cổ điển nền tảng nhất trong YHCT, chuyên dùng cho người <strong>thận dương hư</strong> — thận khí không đủ ấm dẫn đến tình trạng sợ lạnh, tiểu nhiều về đêm, lưng gối lạnh mỏi, phù nhẹ chi dưới.</p>
+
+<h2>Thành phần bài thuốc</h2>
+<ul>
+  <li><strong>Thục địa (8 phần):</strong> Vị thuốc chủ — bổ thận âm, dưỡng tinh huyết — nền tảng để bổ thận dương (âm trung cầu dương).</li>
+  <li><strong>Sơn thù du (4 phần):</strong> Bổ thận ích tinh, liễm âm chỉ hãn.</li>
+  <li><strong>Hoài sơn (4 phần):</strong> Kiện tỳ bổ thận, cố tinh.</li>
+  <li><strong>Trạch tả + Phục linh + Đơn bì (mỗi vị 3 phần):</strong> Tam tả — thấm thấp lợi niệu, thanh hư nhiệt, tránh bổ mà bị trệ.</li>
+  <li><strong>Phụ tử và Quế chi (mỗi vị 1 phần):</strong> Vị ôn dương cốt lõi — ôn bổ thận dương, dẫn hỏa quy nguyên. Liều nhỏ theo nguyên tắc "thiếu hỏa sinh khí".</li>
+</ul>
+<p>Cấu trúc bài thuốc tinh tế — 6 vị Lục vị địa hoàng hoàn (bổ thận âm) làm nền, thêm Phụ tử và Quế chi ôn dương với liều nhỏ, thể hiện triết lý <em>"âm trung cầu dương, dương được âm trợ thì sinh hóa vô cùng"</em>.</p>
+
+<h2>Chỉ định lâm sàng</h2>
+<ul>
+  <li>Đau lưng mỏi gối kéo dài, nặng hơn vào mùa đông và ban đêm.</li>
+  <li>Tiểu đêm nhiều (trên 2–3 lần), tiểu trong dài, hoặc tiểu không kiểm soát ở người cao tuổi.</li>
+  <li>Sợ lạnh, tay chân lạnh, tinh thần uể oải thiếu sức (thận dương không ôn ấm tứ chi).</li>
+  <li>Phù nhẹ chi dưới buổi chiều tối (thận dương hư không khí hóa được thủy thấp).</li>
+  <li>Rối loạn tình dục do thận dương hư ở nam giới.</li>
+</ul>
+
+<h2>Lưu ý</h2>
+<p>Phụ tử (Aconite) trong bài có tính độc nếu dùng sai liều — cần thầy thuốc YHCT kê đơn đúng liều, đúng cách bào chế. Không dùng khi có âm hư hỏa vượng, phụ nữ mang thai. Hiện có dạng thành phẩm viên hoàn tiêu chuẩn hóa và an toàn hơn.</p>
+
+<div class="art-cta-box">
+  <p>Thận khí hoàn là bài thuốc bổ thận dương quan trọng nhưng cần dùng đúng thể bệnh và có sự giám sát của thầy thuốc. Tại <strong>Phòng Khám YHCT Tâm Đức</strong>, BS. Nguyễn Đức Tâm tứ chẩn kỹ trước khi kê đơn, đảm bảo an toàn hiệu quả. Liên hệ <strong>0973 710 237</strong> — giờ khám <strong>18:00–22:00 hàng ngày</strong>, Hà Đông, Hà Nội.</p>
+</div>
+    `
+  },
+  {
+    id: 28,
+    slug: "tieu-duong-type-2-tieu-khat-yhct",
+    date: "2026-06-18",
+    category: "mat-benh",
+    categoryLabel: "Mặt bệnh",
+    icon: "🩺",
+    gradient: "g-navy",
+    title: "Đái tháo đường type 2 (tiêu khát) theo Y học cổ truyền: Phân thể và điều trị",
+    excerpt: "YHCT gọi đái tháo đường là 'tiêu khát' — bệnh do âm hư táo nhiệt làm hao tổn tân dịch. Điều trị kết hợp thuốc YHCT, châm cứu và điều chỉnh lối sống giúp kiểm soát đường huyết hiệu quả.",
+    readTime: 6,
+    content: `
+<h2>Tổng quan theo Y học cổ truyền</h2>
+<p>Đái tháo đường type 2 trong YHCT thuộc phạm trù <strong>tiêu khát</strong> — "tiêu" là tiêu hao (ăn nhiều, gầy, tiểu nhiều), "khát" là khát nước không dứt. Bệnh được YHCT ghi chép từ hàng nghìn năm trước trong Nội Kinh. Cơ chế chủ yếu là <em>âm hư táo nhiệt</em> — tân dịch bị hao tổn do nhiệt từ phế, vị, thận gây ra, biểu hiện qua "tam nhiều một ít": ăn nhiều, uống nhiều, tiểu nhiều và gầy ít.</p>
+
+<h2>Phân thể theo YHCT</h2>
+<ul>
+  <li><strong>Thể thượng tiêu (phế nhiệt tổn thương tân):</strong> Khát nhiều uống nhiều là chính, miệng khô họng khô, tiểu nhiều, lưỡi đỏ ít tân, mạch sác. Hướng điều trị: thanh phế nhuận táo, sinh tân chỉ khát.</li>
+  <li><strong>Thể trung tiêu (vị nhiệt táo thịnh):</strong> Ăn nhiều mau đói, thân thể gầy, đại tiện táo, lưỡi vàng khô, mạch hoạt sác. Hướng điều trị: thanh vị tả hỏa, dưỡng âm nhuận táo.</li>
+  <li><strong>Thể hạ tiêu (thận âm hư):</strong> Tiểu nhiều như nước vo gạo, lượng nhiều, kèm đau lưng mỏi gối, hoa mắt ù tai, lưỡi đỏ ít rêu, mạch tế sác. Hướng điều trị: tư âm bổ thận, nhuận táo.</li>
+  <li><strong>Thể khí âm lưỡng hư (giai đoạn muộn):</strong> Mệt mỏi nhiều, khí ngắn, kết hợp các triệu chứng âm hư. Hướng điều trị: ích khí dưỡng âm.</li>
+</ul>
+
+<h2>Huyệt vị và phương pháp YHCT</h2>
+<ul>
+  <li><strong>Tỳ du (BL20) + Vị du (BL21):</strong> Du huyệt tương ứng — điều hòa chức năng tỳ vị, hỗ trợ vận hóa đường.</li>
+  <li><strong>Thận du (BL23):</strong> Bổ thận âm — đặc biệt quan trọng ở thể hạ tiêu thận âm hư.</li>
+  <li><strong>Tam âm giao (SP6) + Túc tam lý (ST36):</strong> Điều hòa tỳ thận, bổ khí âm, hỗ trợ kiểm soát đường huyết.</li>
+  <li><strong>Nhiên cốc (KI2):</strong> Thanh thận nhiệt, dưỡng thận âm — giảm triệu chứng khát và tiểu nhiều.</li>
+</ul>
+
+<h2>Chế độ ăn uống và sinh hoạt</h2>
+<ul>
+  <li><strong>Hạn chế ngũ vị ngọt:</strong> Tỳ ưa ngọt nhưng ngọt thái quá làm thấp nhiệt ứ tỳ, nặng thêm tiêu khát — giảm đường tinh luyện, cơm trắng, trái cây ngọt nhiều.</li>
+  <li><strong>Thực phẩm hỗ trợ:</strong> Khổ qua (mướp đắng), khoai lang tím, lá dâu tằm, đậu đen — có tác dụng hỗ trợ hạ đường huyết trong kinh nghiệm dân gian YHCT.</li>
+  <li><strong>Vận động điều độ:</strong> Đi bộ 30 phút mỗi ngày sau bữa ăn — giúp tỳ khí vận hóa tốt hơn, cải thiện chuyển hóa đường.</li>
+  <li><strong>Kiêng rượu, bia, hút thuốc:</strong> Gây thấp nhiệt và hỏa nhiệt, làm nặng thêm âm hư táo nhiệt.</li>
+</ul>
+
+<div class="art-cta-box">
+  <p>Tiêu khát (đái tháo đường) cần điều trị phối hợp y học hiện đại và YHCT, không tự ý ngừng thuốc tây y. YHCT hỗ trợ kiểm soát triệu chứng, giảm biến chứng và cải thiện chất lượng cuộc sống. Tại <strong>Phòng Khám YHCT Tâm Đức</strong>, BS. Nguyễn Đức Tâm tư vấn phác đồ điều trị hỗ trợ phù hợp. Liên hệ <strong>0973 710 237</strong> — giờ khám <strong>18:00–22:00 hàng ngày</strong>, Hà Đông, Hà Nội.</p>
+</div>
+    `
+  },
+  {
+    id: 27,
+    slug: "tu-chan-danh-gia-lan-da-yhct",
+    date: "2026-06-17",
+    category: "lam-dep",
+    categoryLabel: "Làm đẹp",
+    icon: "🌸",
+    gradient: "g-rose",
+    title: "Tứ chẩn đánh giá làn da và dung nhan: Cách thầy thuốc YHCT 'đọc' vẻ đẹp sức khỏe",
+    excerpt: "Vọng, văn, vấn, thiết — bốn phương pháp chẩn đoán YHCT ứng dụng vào mỹ dung giúp xác định chính xác nguyên nhân gây mụn, nám, rụng tóc và lão hóa sớm.",
+    readTime: 6,
+    content: `
+<h2>Tứ chẩn trong mỹ dung là gì?</h2>
+<p>Trước khi đưa ra bất kỳ phương pháp làm đẹp nào, thầy thuốc YHCT luôn tiến hành <strong>tứ chẩn</strong> (vọng – văn – vấn – thiết) để có bức tranh toàn diện về tình trạng sức khoẻ và nguyên nhân gốc rễ của các vấn đề thẩm mỹ. Đây là điểm khác biệt cốt lõi giữa YHCT và các phương pháp làm đẹp thông thường.</p>
+
+<h2>Vọng chẩn — Quan sát da, mắt, tóc, lưỡi</h2>
+<p>Vọng chẩn (quan sát bằng mắt) chiếm vị trí đặc biệt quan trọng trong mỹ dung vì hầu hết biểu hiện của bệnh tổn thương dung nhan đều lộ ra bên ngoài. Thầy thuốc quan sát có hệ thống:</p>
+<ul>
+  <li><strong>Quan sát thần sắc:</strong> Mặt hồng nhuận sáng là khí huyết điều hòa; vàng sạm là tỳ hư thấp trệ; trắng nhợt là huyết hư hoặc hàn; đỏ bốc là nhiệt thịnh hoặc âm hư hỏa vượng; tím xỉn là khí trệ huyết ứ.</li>
+  <li><strong>Phân loại da:</strong> Da trung tính (khí huyết điều hòa), da dầu (thấp nhiệt), da khô (âm hư hoặc huyết hư phong táo), da hỗn hợp, da nhạy cảm (vệ khí hư).</li>
+  <li><strong>Quan sát mụn và ban:</strong> Mụn viêm đỏ mủ là phế vị nhiệt; mụn lạnh cứng là hàn ngưng đờm trệ; nám nâu quanh mắt má là can khí uất hoặc thấp nhiệt nội uẩn; ban đỏ đối xứng là âm hư hỏa vượng.</li>
+  <li><strong>Quan sát tóc:</strong> Tóc bạc sớm kèm đau lưng ù tai là thận hư; bạc sớm ở người trẻ không có triệu chứng khác thường là huyết nhiệt; rụng tóc từng mảng tròn là huyết hư phong táo; tóc dầu nhiều gàu là thấp nhiệt.</li>
+  <li><strong>Quan sát lưỡi:</strong> Lưỡi nhạt rêu trắng là hàn hư; đỏ rêu vàng là nhiệt; tím là huyết ứ; đỏ ít rêu là âm hư — lưỡi phản chiếu trạng thái tạng phủ nội tạng một cách trực tiếp và đáng tin cậy.</li>
+  <li><strong>Quan sát mắt và môi:</strong> Mắt quầng thâm là thận hư hoặc huyết ứ; môi nhợt là huyết hư; môi tím là huyết ứ; môi đỏ khô là nhiệt thịnh.</li>
+</ul>
+
+<h2>Văn chẩn — Nghe và ngửi</h2>
+<ul>
+  <li>Miệng hôi, mùi chua là vị tích thực thấp nhiệt — thường kèm da dầu, mụn.</li>
+  <li>Hôi nách nhiều là thấp nhiệt uẩn trong tấu lý — cần thanh nhiệt trừ thấp.</li>
+  <li>Giọng nói nhỏ yếu, biếng nói là khí hư — da thường kém sắc, nhão.</li>
+</ul>
+
+<h2>Vấn chẩn — Hỏi khai thác</h2>
+<p>Thầy thuốc hỏi về thói quen sinh hoạt, ngủ nghỉ, kinh nguyệt (phụ nữ), chế độ ăn uống, công việc, căng thẳng và lịch sử chăm sóc da. Ở phụ nữ, kinh nguyệt bất điều thường liên quan trực tiếp đến tình trạng da: kinh chậm màu tím có cục kèm mụn trứng cá thường là huyết ứ, khí trệ; kinh sớm màu đỏ sẫm là huyết nhiệt...</p>
+
+<h2>Thiết chẩn — Bắt mạch và sờ</h2>
+<p>Bắt mạch cung cấp thông tin quan trọng: mạch tế sác là âm hư; mạch hoạt là thấp đờm; mạch huyền là can khí uất; mạch trầm trì là hàn hư. Sờ da kiểm tra nhiệt độ và độ ẩm: da ấm bóng là nhiệt, da lạnh khô là hàn hư.</p>
+
+<div class="art-cta-box">
+  <p>Tứ chẩn đầy đủ giúp xác định đúng nguyên nhân gốc rễ của mọi vấn đề dung nhan — đó là bước không thể thiếu để có phác đồ làm đẹp hiệu quả thực sự. Tại <strong>Phòng Khám YHCT Tâm Đức</strong>, BS. Nguyễn Đức Tâm thực hiện tứ chẩn toàn diện trước khi tư vấn phác đồ. Liên hệ <strong>0973 710 237</strong> — giờ khám <strong>18:00–22:00 hàng ngày</strong>, Hà Đông, Hà Nội.</p>
+</div>
+    `
+  },
+  {
+    id: 26,
+    slug: "phuong-huyet-viem-loet-da-day",
+    date: "2026-06-17",
+    category: "phuong-huyet",
+    categoryLabel: "Phương huyệt",
+    icon: "📍",
+    gradient: "g-huyet",
+    title: "Phương huyệt điều trị viêm loét dạ dày theo Y học cổ truyền",
+    excerpt: "Phác đồ huyệt cốt lõi giảm đau, giảm acid và hỗ trợ lành niêm mạc dạ dày — kết hợp châm cứu tại chỗ và huyệt toàn thân theo từng thể bệnh.",
+    readTime: 5,
+    content: `
+<h2>Viêm loét dạ dày theo Y học cổ truyền</h2>
+<p>Viêm loét dạ dày thuộc phạm trù <strong>vị quản thống</strong> (đau vùng thượng vị) trong YHCT. Nguyên nhân chủ yếu: <em>can khí phạm vị</em> (stress khiến can khí xâm phạm vị), <em>tỳ vị hư hàn</em> (ăn uống không điều độ, sợ lạnh), hoặc <em>vị âm bất túc</em> (viêm mạn tính lâu ngày). Mỗi thể bệnh có phác đồ huyệt khác nhau.</p>
+
+<h2>Phác đồ huyệt cốt lõi</h2>
+<ul>
+  <li><strong>Trung quản (CV12):</strong> Giữa rốn và mỏm ức. Mộ huyệt của Vị — huyệt chủ lực điều hòa chức năng dạ dày, giảm đau thượng vị, giảm acid. Châm thẳng 1–1,5 thốn hoặc cứu ngải 15 phút với thể hàn.</li>
+  <li><strong>Túc tam lý (ST36):</strong> Hạ hợp huyệt của Vị — huyệt quan trọng nhất của kinh Vị, kiện vị hòa trung, giảm đau và hỗ trợ lành niêm mạc.</li>
+  <li><strong>Nội quan (PC6):</strong> Trên cổ tay trong 2 thốn. Giải uất an thần, hòa vị giáng nghịch — đặc biệt hiệu quả khi đau dạ dày kèm buồn nôn, ợ chua, căng thẳng.</li>
+  <li><strong>Công tôn (SP4):</strong> Hội huyệt của Xung mạch, kết huyệt với Nội quan — phối hợp hai huyệt này (mở Xung mạch) rất hiệu quả với mọi bệnh lý vùng dạ dày và thực quản.</li>
+  <li><strong>Vị du (BL21):</strong> Du huyệt của Vị, cạnh cột sống ngang T12. Điều hòa chức năng Vị từ phía sau — thường phối hợp với Trung quản (bối du đẹp huyệt phối).</li>
+</ul>
+
+<h2>Gia giảm theo thể bệnh</h2>
+<ul>
+  <li><strong>Thể can vị bất hòa (đau kèm stress):</strong> Thêm Thái xung (LR3) — sơ can lý khí.</li>
+  <li><strong>Thể tỳ vị hư hàn (đau giảm khi ấm):</strong> Cứu ngải Trung quản + Tỳ du (BL20) 15–20 phút.</li>
+  <li><strong>Thể vị âm hư (đau âm ỉ, miệng khô):</strong> Thêm Tam âm giao (SP6) + Thái khê (KI3), không cứu ngải.</li>
+</ul>
+
+<div class="art-cta-box">
+  <p>Châm cứu kết hợp thuốc YHCT và điều chỉnh ăn uống giúp kiểm soát viêm loét dạ dày hiệu quả và giảm tái phát. Tại <strong>Phòng Khám YHCT Tâm Đức</strong>, BS. Nguyễn Đức Tâm lập phác đồ điều trị cá nhân hóa theo từng thể bệnh. Liên hệ <strong>0973 710 237</strong> — giờ khám <strong>18:00–22:00 hàng ngày</strong>, Hà Đông, Hà Nội.</p>
+</div>
+    `
+  },
+  {
+    id: 25,
+    slug: "phong-tai-bien-mach-mau-nao-yhct",
+    date: "2026-06-17",
+    category: "phong-benh",
+    categoryLabel: "Phòng bệnh",
+    icon: "🛡️",
+    gradient: "g-amber",
+    title: "Phòng ngừa tai biến mạch máu não theo Y học cổ truyền",
+    excerpt: "YHCT gọi tai biến là 'trúng phong' — phòng ngừa bằng kiểm soát can dương vượng, dưỡng sinh tinh thần và phát hiện sớm các dấu hiệu cảnh báo trước tai biến.",
+    readTime: 5,
+    content: `
+<h2>Tai biến mạch máu não theo Y học cổ truyền</h2>
+<p>YHCT gọi tai biến là <strong>trúng phong</strong> — phong (nội phong hoặc ngoại phong) đột ngột xâm phạm não phủ, gây liệt một bên người, nói khó, méo miệng, rối loạn ý thức. Nguyên nhân chủ yếu là <em>can dương vượng</em> lâu ngày làm can hỏa khuếch tán thành phong, kết hợp đờm thấp và khí huyết ứ trệ.</p>
+
+<h2>Dấu hiệu cảnh báo sớm cần lưu ý</h2>
+<p>YHCT nhận biết các biểu hiện sớm trước tai biến ("tiểu trúng phong"): đột ngột tê bì một bên mặt/tay/chân thoáng qua, nói ngắc thoáng qua, hoa mắt chóng mặt đứng không vững, đau đầu dữ dội bất thường. Đây là tín hiệu cần đi khám cấp cứu ngay.</p>
+
+<h2>Phòng ngừa theo YHCT</h2>
+<ul>
+  <li><strong>Kiểm soát can dương vượng:</strong> Tránh tức giận, stress kéo dài — giận hại can, can hỏa bốc thành phong. Uống trà hoa cúc + câu đằng (Uncaria) giúp bình can tiềm dương trong thể can dương vượng.</li>
+  <li><strong>Kiểm soát huyết áp:</strong> Can dương vượng thường biểu hiện bằng huyết áp cao — đây là yếu tố nguy cơ số 1. Bấm huyệt Thái xung (LR3) và Khúc trì (LI11) hàng ngày hỗ trợ hạ áp nhẹ theo YHCT.</li>
+  <li><strong>Hóa đờm thấp, trừ nguy cơ ứ huyết:</strong> Béo phì, ăn nhiều chất béo sinh đờm thấp làm trở ngại huyết mạch — giảm thức ăn ngọt béo, tăng vận động, uống nước đủ.</li>
+  <li><strong>Không thức khuya, kiêng rượu:</strong> Thức khuya hao thận âm, thận âm không kiềm chế được can dương — nguy cơ tăng. Rượu sinh thấp nhiệt kích động can hỏa.</li>
+  <li><strong>Tập dưỡng sinh nhẹ nhàng:</strong> Đi bộ, bát đoạn cẩm, thái cực quyền điều hòa khí huyết, tránh vận động quá gắng sức đột ngột (dễ kích động can dương bốc lên).</li>
+</ul>
+
+<h2>Huyệt vị phòng ngừa định kỳ</h2>
+<ul>
+  <li><strong>Túc tam lý (ST36):</strong> Cứu ngải định kỳ (mỗi tuần 2–3 lần) — bổ khí, kiện tỳ, hỗ trợ phòng ngừa đột quỵ theo kinh nghiệm YHCT cổ truyền ("Tứ thập dĩ hậu túc tam lý bất ly hỏa").</li>
+  <li><strong>Nội quan (PC6) + Thái xung (LR3):</strong> Bình can an thần — dùng cho người có xu hướng căng thẳng, dễ tức giận, huyết áp hay dao động.</li>
+</ul>
+
+<div class="art-cta-box">
+  <p>Phòng trúng phong hiệu quả nhất là kiểm soát yếu tố nguy cơ từ sớm và duy trì lối sống điều độ. Tại <strong>Phòng Khám YHCT Tâm Đức</strong>, BS. Nguyễn Đức Tâm tư vấn phòng ngừa và phục hồi sau tai biến bằng châm cứu kết hợp YHCT. Liên hệ <strong>0973 710 237</strong> — giờ khám <strong>18:00–22:00 hàng ngày</strong>, Hà Đông, Hà Nội.</p>
+</div>
+    `
+  },
+  {
+    id: 24,
+    slug: "quy-ty-thang-duong-tam-an-than",
+    date: "2026-06-17",
+    category: "thuoc-yhct",
+    categoryLabel: "Thuốc YHCT",
+    icon: "🌿",
+    gradient: "g-fire",
+    title: "Quy tỳ thang — Bài thuốc dưỡng tâm an thần, bổ khí huyết kinh điển",
+    excerpt: "Bài thuốc kinh điển trị mất ngủ, hồi hộp, hay quên do tâm tỳ lưỡng hư — kết hợp bổ khí kiện tỳ và dưỡng huyết an thần trong một phác đồ toàn diện.",
+    readTime: 5,
+    content: `
+<h2>Nguồn gốc và chỉ định</h2>
+<p><strong>Quy tỳ thang</strong> xuất phát từ sách <em>Tế Sinh Phương</em> (thời Tống), sau được bổ sung và hoàn thiện trong <em>Cảnh Nhạc Toàn Thư</em>. Bài thuốc chuyên trị <strong>tâm tỳ lưỡng hư</strong> — tỳ vị suy yếu không sinh hóa đủ khí huyết để nuôi tâm, dẫn đến mất ngủ, hồi hộp, hay quên, lo âu và mệt mỏi kéo dài. Đây là thể bệnh rất phổ biến ở người làm việc trí óc căng thẳng hoặc phụ nữ sau sinh.</p>
+
+<h2>Thành phần bài thuốc</h2>
+<ul>
+  <li><strong>Đảng sâm + Hoàng kỳ:</strong> Đại bổ tỳ khí, kiện tỳ sinh huyết — hai vị chủ dược bổ khí.</li>
+  <li><strong>Bạch truật + Phục thần:</strong> Kiện tỳ táo thấp, an thần định trí.</li>
+  <li><strong>Đương quy + Long nhãn nhục:</strong> Dưỡng huyết, bổ tâm an thần — nuôi dưỡng tâm huyết để ổn định thần chí.</li>
+  <li><strong>Toan táo nhân + Viễn chí:</strong> An thần định trí, giao thông tâm thận — hỗ trợ ngủ sâu và giảm hồi hộp lo âu.</li>
+  <li><strong>Mộc hương:</strong> Lý khí, tránh các vị bổ gây đầy trướng.</li>
+  <li><strong>Cam thảo + Sinh khương + Đại táo:</strong> Điều hòa bài thuốc, kiện tỳ hòa vị.</li>
+</ul>
+
+<h2>Chỉ định lâm sàng</h2>
+<ul>
+  <li>Mất ngủ khó vào giấc, ngủ mơ nhiều, thức dậy mệt mỏi không sảng khoái.</li>
+  <li>Hồi hộp trống ngực, lo âu vô cớ, dễ giật mình.</li>
+  <li>Hay quên, khó tập trung, suy giảm trí nhớ do căng thẳng kéo dài.</li>
+  <li>Ăn kém, mệt mỏi, sắc mặt vàng nhợt, chóng mặt nhẹ sau lao động.</li>
+  <li>Phụ nữ kinh nguyệt ít, màu nhạt, hoặc băng huyết chức năng do khí hư không nhiếp huyết.</li>
+</ul>
+
+<h2>Lưu ý</h2>
+<p>Không dùng khi mất ngủ do âm hư hỏa vượng (người bứt rứt, nóng nảy, lưỡi đỏ), hoặc có đờm nhiệt (lưỡi rêu vàng nhớt). Cần thầy thuốc gia giảm theo thể bệnh cụ thể.</p>
+
+<div class="art-cta-box">
+  <p>Quy tỳ thang là bài thuốc quý cho các vấn đề mất ngủ, lo âu do căng thẳng kéo dài — đặc biệt phổ biến trong cuộc sống hiện đại. Tại <strong>Phòng Khám YHCT Tâm Đức</strong>, BS. Nguyễn Đức Tâm tứ chẩn kỹ để kê đơn đúng thể bệnh. Liên hệ <strong>0973 710 237</strong> — giờ khám <strong>18:00–22:00 hàng ngày</strong>, Hà Đông, Hà Nội.</p>
+</div>
+    `
+  },
+  {
+    id: 23,
+    slug: "xoa-bop-mat-duong-nhan-yhct",
+    date: "2026-06-17",
+    category: "khong-thuoc",
+    categoryLabel: "Không dùng thuốc",
+    icon: "🧘",
+    gradient: "g-herb",
+    title: "Xoa bóp mặt dưỡng nhan theo Y học cổ truyền: Kỹ thuật tại nhà mỗi ngày",
+    excerpt: "Xoa bóp mặt đúng huyệt và đúng kỹ thuật giúp tăng tuần hoàn khí huyết vùng mặt, giảm nếp nhăn, sáng da và thư giãn — liệu pháp không dùng thuốc từ YHCT.",
+    readTime: 5,
+    content: `
+<h2>Cơ sở lý luận YHCT</h2>
+<p>Vùng mặt là nơi hội tụ của nhiều kinh lạc quan trọng — kinh Dương minh (Đại trường và Vị), kinh Thiếu dương (Tam tiêu và Đởm), kinh Thái dương (Tiểu trường và Bàng quang) — cùng Nhâm mạch và Đốc mạch. Xoa bóp mặt theo kinh lạc và huyệt vị giúp khí huyết lưu thông đều đặn đến từng tế bào da, tăng cường nuôi dưỡng và thải độc tại chỗ — kết quả là da sáng, hồng hào và trì hoãn lão hóa.</p>
+
+<h2>Quy trình xoa bóp mặt cơ bản (10–15 phút)</h2>
+<ul>
+  <li><strong>Bước 1 — Làm ấm tay:</strong> Xoa hai lòng bàn tay vào nhau cho ấm, áp nhẹ lên mặt 30 giây để dẫn nhiệt vào da, mở lỗ chân lông và thư giãn cơ mặt.</li>
+  <li><strong>Bước 2 — Xoa vùng trán:</strong> Dùng 3 ngón giữa miết nhẹ từ giữa trán ra hai bên thái dương, từ dưới lên trên — đi qua huyệt Ấn đường (EX-HN3) ở giữa trán, lặp lại 10–15 lần. Giảm nếp nhăn ngang trán, thanh tâm an thần.</li>
+  <li><strong>Bước 3 — Bấm huyệt vùng mắt:</strong> Ngón cái và trỏ nhẹ nhàng ấn theo vòng quanh hốc mắt từ trong ra ngoài — bấm Toản trúc (BL2), Ngư yêu (EX-HN4), Ty trúc không (TE23), Đồng tử liêu (GB1), Thừa khấp (ST1), Tứ bạch (ST2). Mỗi huyệt 5–10 giây, giảm quầng thâm và nhăn đuôi mắt.</li>
+  <li><strong>Bước 4 — Xoa gò má và mũi:</strong> Hai ngón cái xoa từ cạnh mũi (huyệt Nghênh hương LI20) ra theo gò má lên thái dương — 10 lần. Thông khí huyết vùng má, hỗ trợ giảm nám và làm sáng da.</li>
+  <li><strong>Bước 5 — Xoa vùng miệng và cằm:</strong> Hai ngón cái xoa từ giữa môi trên (Nhân trung) và dưới (Thừa tương) ra hai bên — 10 lần. Bổ tỳ khí, giảm nhăn vùng quanh miệng.</li>
+  <li><strong>Bước 6 — Vỗ nhẹ toàn mặt:</strong> Dùng các đầu ngón tay vỗ nhẹ nhanh khắp mặt 30–60 giây — kích thích tuần hoàn, tăng đàn hồi da.</li>
+</ul>
+
+<h2>Lưu ý khi thực hiện</h2>
+<ul>
+  <li>Nên rửa mặt sạch trước, có thể dùng một ít dầu dưỡng hoặc kem dưỡng để tay trượt nhẹ hơn.</li>
+  <li>Lực xoa nhẹ nhàng, không kéo căng da — da mặt mỏng hơn nhiều so với các vùng cơ thể khác.</li>
+  <li>Tập đều đặn mỗi tối trước khi ngủ, kết hợp hít thở sâu và chậm trong lúc xoa bóp để tăng tác dụng thư giãn.</li>
+  <li>Không xoa bóp trực tiếp lên vùng mụn đang viêm hoặc da bị tổn thương.</li>
+</ul>
+
+<div class="art-cta-box">
+  <p>Xoa bóp mặt đúng kỹ thuật là liệu pháp dưỡng nhan an toàn, không tốn kém và có thể thực hiện hàng ngày tại nhà. Tại <strong>Phòng Khám YHCT Tâm Đức</strong>, BS. Nguyễn Đức Tâm hướng dẫn kỹ thuật xoa bóp mặt và châm cứu dưỡng nhan phù hợp từng người. Liên hệ <strong>0973 710 237</strong> — giờ khám <strong>18:00–22:00 hàng ngày</strong>, Hà Đông, Hà Nội.</p>
+</div>
+    `
+  },
+  {
     id: 22,
     slug: "cuu-ngai-dieu-tri-lanh-bung",
     date: "2026-06-18",
