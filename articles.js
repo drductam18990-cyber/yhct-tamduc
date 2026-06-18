@@ -5,6 +5,52 @@
 
 const ARTICLES = [
   {
+    id: 22,
+    slug: "cuu-ngai-dieu-tri-lanh-bung",
+    date: "2026-06-18",
+    category: "khong-thuoc",
+    categoryLabel: "Không dùng thuốc",
+    icon: "🧘",
+    gradient: "g-herb",
+    title: "Cứu ngải điều trị lạnh bụng: Phương pháp ôn ấm tỳ vị không dùng thuốc",
+    excerpt: "Lạnh bụng, đau bụng âm ỉ khi gặp lạnh hoặc ăn đồ mát thường do hư hàn tỳ vị — cứu ngải tại các huyệt vùng bụng giúp ôn ấm, hành khí và cải thiện tiêu hóa hiệu quả.",
+    readTime: 5,
+    content: `
+<h2>Tổng quan theo Y học cổ truyền</h2>
+<p>Lạnh bụng (vị hàn, tỳ hư hàn) là tình trạng rất phổ biến trong YHCT, đặc trưng bởi cảm giác đau âm ỉ hoặc lạnh trong bụng, thích chườm ấm, sợ ăn đồ lạnh và thường đi kèm tiêu hóa kém. Nguyên nhân cốt lõi là <strong>dương khí của Tỳ vị suy yếu</strong>, không đủ sức ôn ấm và vận hóa thủy cốc, khiến hàn tà dễ tích tụ ở trung tiêu. Cứu ngải (đốt ngải cứu hun ấm huyệt vị) là phương pháp không dùng thuốc rất phù hợp với tình trạng này, vì hơi ấm và dược tính của ngải cứu giúp <em>ôn trung tán hàn, kiện tỳ ích vị</em> trực tiếp tại gốc bệnh mà không cần uống thuốc.</p>
+
+<h2>Phân thể / Nguyên nhân theo YHCT</h2>
+<ul>
+  <li><strong>Thể tỳ vị hư hàn:</strong> Đau bụng âm ỉ kéo dài, thích chườm ấm và xoa bụng, ăn đồ lạnh dễ đau hoặc tiêu chảy, người mệt mỏi, sắc mặt nhợt, chân tay lạnh. Lưỡi nhạt bệu, rêu trắng. Hướng điều trị: ôn trung kiện tỳ, tán hàn chỉ thống.</li>
+  <li><strong>Thể hàn thấp ngưng trệ:</strong> Bụng đầy trướng, lạnh, nặng nề, đại tiện lỏng nát, không muốn ăn uống, hay gặp sau dầm mưa hoặc ở phòng điều hòa lạnh lâu. Hướng điều trị: ôn hóa hàn thấp, lý khí hòa trung.</li>
+  <li><strong>Thể thận dương hư kèm tỳ hàn:</strong> Lạnh bụng kèm lạnh lưng, sợ lạnh toàn thân, tiểu đêm nhiều, đại tiện lỏng vào buổi sáng sớm. Hướng điều trị: ôn bổ thận dương, kiêm kiện tỳ.</li>
+</ul>
+
+<h2>Phương pháp điều trị / Huyệt vị cứu ngải</h2>
+<ul>
+  <li><strong>Trung quản (CV12):</strong> Đường giữa bụng, giữa rốn và mũi ức (4 thốn trên rốn). Mộ huyệt của Vị — cứu ngải tại đây giúp ôn ấm trực tiếp vùng dạ dày, giảm đau và đầy trướng nhanh.</li>
+  <li><strong>Khí hải (CV6):</strong> Dưới rốn 1,5 thốn. Bổ nguyên khí, ôn ấm hạ tiêu — huyệt nền tảng cho mọi chứng hư hàn vùng bụng dưới.</li>
+  <li><strong>Quan nguyên (CV4):</strong> Dưới rốn 3 thốn. Cứu ngải huyệt này đặc biệt hiệu quả với thể thận dương hư, giúp ôn bổ thận dương và tán hàn toàn thân.</li>
+  <li><strong>Túc tam lý (ST36):</strong> Dưới đầu gối ngoài 3 thốn. Kiện tỳ vị, tăng dương khí — cứu ngải huyệt này hỗ trợ tiêu hóa và nâng cao chính khí lâu dài.</li>
+  <li><strong>Thần khuyết (CV8):</strong> Chính giữa rốn (chỉ cứu cách ngải bằng lát gừng, không châm). Ôn ấm trung tiêu rất mạnh, hay dùng trong cứu ngải điều trị lạnh bụng mạn tính ở người cao tuổi và trẻ em.</li>
+</ul>
+<p>Cách thực hiện: dùng điều ngải cứu (que ngải) đốt cháy đầu, hun cách da khoảng 2–3cm tại từng huyệt 10–15 phút đến khi vùng da ấm hồng, không để bỏng. Có thể cứu cách gừng (đặt lát gừng mỏng lên huyệt rồi đặt mồi ngải lên trên) để tăng hiệu quả ôn ấm và giảm nguy cơ bỏng. Thực hiện 1 lần/ngày, liên tục 7–10 ngày, hoặc duy trì 2–3 lần/tuần với người hay lạnh bụng mạn tính.</p>
+
+<h2>Tự thực hành tại nhà</h2>
+<ul>
+  <li><strong>Cứu ngải vùng rốn và Trung quản (CV12):</strong> Thực hiện vào buổi tối trước khi ngủ, ở nơi kín gió, sau khi cứu nên giữ ấm bụng, tránh ra ngoài ngay.</li>
+  <li><strong>Chườm ấm kết hợp xoa bụng:</strong> Dùng túi muối rang hoặc chai nước ấm chườm bụng 15 phút, sau đó xoa tròn theo chiều kim đồng hồ quanh rốn 5–10 phút để tăng tuần hoàn.</li>
+  <li><strong>Uống nước gừng ấm hoặc trà quế:</strong> Hỗ trợ ôn trung tán hàn từ bên trong, đặc biệt hữu ích vào buổi sáng sớm hoặc khi bụng lạnh đột ngột.</li>
+  <li><strong>Tránh đồ lạnh, sống và uống nước đá:</strong> Hạn chế tối đa thực phẩm tính hàn để không làm nặng thêm tỳ vị hư hàn.</li>
+  <li><strong>Giữ ấm vùng bụng và lưng:</strong> Mặc áo che kín bụng, tránh để hở rốn khi ngủ hoặc ngồi điều hòa lạnh kéo dài.</li>
+</ul>
+
+<div class="art-cta-box">
+  <p>Cứu ngải là phương pháp an toàn, dễ thực hiện nhưng cần đúng huyệt và đúng liều lượng để đạt hiệu quả, đặc biệt với người có bệnh nền hoặc da nhạy cảm nên được thầy thuốc hướng dẫn trực tiếp. Tại <strong>Phòng Khám YHCT Tâm Đức</strong>, BS. Nguyễn Đức Tâm tư vấn và thực hiện cứu ngải, châm cứu phù hợp từng thể bệnh hư hàn. Liên hệ <strong>0973 710 237</strong> để đặt lịch — giờ khám <strong>18:00–22:00 hàng ngày</strong>, Hà Đông, Hà Nội.</p>
+</div>
+    `
+  },
+  {
     id: 21,
     slug: "cao-huyet-ap-theo-yhct",
     date: "2026-06-17",
