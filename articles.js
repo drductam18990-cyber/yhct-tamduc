@@ -5,6 +5,221 @@
 
 const ARTICLES = [
   {
+    id: 34,
+    slug: "benh-gout-thong-phong-theo-yhct",
+    date: "2026-06-19",
+    category: "mat-benh",
+    categoryLabel: "Mặt bệnh",
+    icon: "🩺",
+    gradient: "g-navy",
+    title: "Bệnh Gout (Thống phong) theo Y học cổ truyền: Phân thể và phác đồ điều trị",
+    excerpt: "Gout (thống phong) là bệnh lý do rối loạn chuyển hóa purin gây ứ đọng acid uric tại khớp. Y học cổ truyền phân thể bệnh để điều trị tận gốc, kết hợp châm cứu và bài thuốc phù hợp từng giai đoạn.",
+    readTime: 6,
+    content: `
+<h2>Tổng quan về bệnh Gout theo Y học cổ truyền</h2>
+<p>Gout, còn gọi là thống phong, là bệnh lý viêm khớp do lắng đọng tinh thể urat tại các khớp, gây sưng nóng đỏ đau dữ dội, thường khởi phát đột ngột vào ban đêm. Theo Y học cổ truyền (YHCT), thống phong thuộc phạm vi chứng "Tý" và "Thống phong", nguyên nhân cốt lõi là do tỳ thận hư yếu không vận hóa được thấp trọc, kết hợp với phong hàn thấp nhiệt xâm nhập gây ứ trệ ở kinh lạc, khớp xương, lâu ngày sinh đàm thấp, huyết ứ làm khớp biến dạng, nổi hạt tophi.</p>
+<p>Bệnh thường gặp ở nam giới trung niên, người béo phì, uống nhiều rượu bia, ăn nhiều đạm động vật. Nếu không điều trị đúng cách, gout có thể tiến triển thành mạn tính, gây tổn thương khớp vĩnh viễn và ảnh hưởng đến thận.</p>
+<h2>Phân thể bệnh Gout theo Y học cổ truyền</h2>
+<p>Việc biện chứng phân thể chính xác là nền tảng để xây dựng phác đồ điều trị hiệu quả:</p>
+<ul>
+<li><strong>Thể thấp nhiệt uẩn kết (giai đoạn gout cấp):</strong> Khớp sưng to, nóng đỏ, đau dữ dội, chạm vào càng đau, kèm sốt, miệng khát, tiểu vàng, lưỡi đỏ rêu vàng nhớt. Đây là giai đoạn viêm cấp tính điển hình.</li>
+<li><strong>Thể đàm thấp ứ trệ:</strong> Khớp sưng nhưng không nóng đỏ rõ, đau âm ỉ kéo dài, người nặng nề, chán ăn, rêu lưỡi trắng dày nhớt. Thường gặp ở người béo, ít vận động.</li>
+<li><strong>Thể thấp trọc lưu chú (gout mạn có hạt tophi):</strong> Bệnh kéo dài nhiều năm, xuất hiện hạt tophi quanh khớp, khớp biến dạng cứng, vận động hạn chế, có thể kèm sỏi thận.</li>
+<li><strong>Thể can thận âm hư:</strong> Khớp đau âm ỉ về đêm, kèm đau lưng mỏi gối, ù tai, hoa mắt, ngũ tâm phiền nhiệt, lưỡi đỏ ít rêu. Gặp ở bệnh nhân gout mạn tính lâu năm.</li>
+<li><strong>Thể khí trệ huyết ứ:</strong> Khớp đau nhức cố định một vị trí, sắc da tím sạm, sờ thấy cục cứng dưới da, lưỡi tím có điểm ứ huyết.</li>
+</ul>
+<h2>Nguyên tắc và phương pháp điều trị</h2>
+<p>YHCT điều trị gout theo nguyên tắc "trị tiêu" (giảm đau, kháng viêm cấp) kết hợp "trị bản" (bổ tỳ thận, kiện tỳ trừ thấp, hóa đàm tán kết) tùy giai đoạn bệnh:</p>
+<ul>
+<li>Giai đoạn cấp (thấp nhiệt): Pháp thanh nhiệt, lợi thấp, giải độc, tiêu thũng — dùng huyệt Hợp cốc, Khúc trì, Túc tam lý, Tam âm giao, Nội đình, A thị huyệt tại khớp viêm bằng thủ pháp tả.</li>
+<li>Giai đoạn mạn (đàm thấp, thận hư): Pháp kiện tỳ hóa đàm, bổ thận — châm cứu kết hợp cứu ngải tại Túc tam lý, Tam âm giao, Thái xung, Thái khê, Thận du.</li>
+<li>Kết hợp xoa bóp bấm huyệt giảm đau, chế độ ăn hạn chế đạm động vật, nội tạng, hải sản, rượu bia, tăng cường uống nước.</li>
+</ul>
+<div class="art-cta-box"><p>Quý khách có dấu hiệu đau khớp nghi gout hoặc đã được chẩn đoán gout mạn tính cần được biện chứng đúng thể bệnh để điều trị hiệu quả, vui lòng liên hệ Phòng Khám YHCT Tâm Đức - BS. Nguyễn Đức Tâm, hotline 0973 710 237, làm việc 18:00–22:00 hàng ngày, địa chỉ tại Hà Đông, Hà Nội.</p></div>
+  `
+  },
+  {
+    id: 35,
+    slug: "giac-hoi-va-chi-dinh-dung-theo-yhct",
+    date: "2026-06-19",
+    category: "khong-thuoc",
+    categoryLabel: "Không dùng thuốc",
+    icon: "🧘",
+    gradient: "g-herb",
+    title: "Giác hơi (Bạt hoán) và chỉ định đúng trong Y học cổ truyền",
+    excerpt: "Giác hơi là phương pháp trị liệu không dùng thuốc lâu đời, giúp khu phong tán hàn, hành khí hoạt huyết. Hiểu đúng chỉ định và chống chỉ định giúp giác hơi phát huy hiệu quả an toàn.",
+    readTime: 5,
+    content: `
+<h2>Giác hơi là gì?</h2>
+<p>Giác hơi (bạt hoán liệu pháp) là phương pháp dùng ống giác (bằng tre, thủy tinh hoặc nhựa) tạo áp lực âm hút lên vùng da nhất định, nhằm khu phong tán hàn, thông kinh hoạt lạc, hành khí hoạt huyết, bài trừ thấp độc ra ngoài cơ thể. Đây là một trong những phương pháp không dùng thuốc được sử dụng phổ biến trong Y học cổ truyền (YHCT) suốt hàng nghìn năm.</p>
+<h2>Cơ chế tác dụng theo Y học cổ truyền</h2>
+<p>Theo lý luận YHCT, khi phong hàn thấp tà xâm nhập cơ thể gây tắc nghẽn kinh lạc, khí huyết không thông sẽ sinh đau nhức, tê mỏi. Lực hút âm áp của giác hơi tác động lên da, cơ, kinh lạc giúp khai thông tắc nghẽn, đẩy tà khí (phong, hàn, thấp, ứ huyết) ra ngoài qua bề mặt da, đồng thời kích thích tuần hoàn khí huyết tại chỗ, giảm đau và thư giãn cơ.</p>
+<h2>Chỉ định của giác hơi</h2>
+<ul>
+<li>Đau mỏi cơ vùng vai gáy, lưng, do nhiễm lạnh hoặc ngồi sai tư thế lâu ngày.</li>
+<li>Cảm mạo phong hàn giai đoạn đầu (ho, sổ mũi, đau đầu, gai rét).</li>
+<li>Đau thắt lưng, đau thần kinh tọa thể hàn thấp.</li>
+<li>Hỗ trợ giảm căng cơ, mệt mỏi sau vận động hoặc lao động nặng.</li>
+<li>Hỗ trợ điều trị một số bệnh lý hô hấp mạn tính như viêm phế quản (khi không có sốt cao).</li>
+</ul>
+<h2>Chống chỉ định cần lưu ý</h2>
+<ul>
+<li>Người có rối loạn đông máu, đang dùng thuốc chống đông, dễ chảy máu, bầm tím.</li>
+<li>Vùng da có vết thương hở, viêm nhiễm, lở loét, hoặc vùng da quá mỏng, nhạy cảm.</li>
+<li>Phụ nữ mang thai, đặc biệt vùng bụng và thắt lưng.</li>
+<li>Người đang sốt cao, mất nước nặng, suy nhược nặng.</li>
+<li>Trẻ nhỏ dưới 4 tuổi, người cao tuổi da quá mỏng yếu cần cân nhắc kỹ.</li>
+</ul>
+<h2>Quy trình thực hiện và lưu ý an toàn</h2>
+<p>Giác hơi cần được thực hiện bởi thầy thuốc có chuyên môn, xác định đúng vùng huyệt, thời gian giác phù hợp (thường 5-10 phút), lực hút vừa phải tránh gây bỏng rộp da. Sau giác hơi, vùng da sẽ có vết tím đỏ tự nhiên, người bệnh cần giữ ấm, tránh gió lạnh, không tắm nước lạnh ngay sau khi giác, kiêng ăn đồ tanh lạnh trong 24 giờ đầu để đạt hiệu quả tối ưu.</p>
+<div class="art-cta-box"><p>Để được tư vấn và thực hiện giác hơi đúng kỹ thuật, an toàn, phù hợp thể trạng, quý khách vui lòng đến Phòng Khám YHCT Tâm Đức - BS. Nguyễn Đức Tâm, hotline 0973 710 237, làm việc 18:00–22:00 hàng ngày, địa chỉ tại Hà Đông, Hà Nội.</p></div>
+  `
+  },
+  {
+    id: 36,
+    slug: "tieu-dao-tan-bai-thuoc-kinh-dien",
+    date: "2026-06-19",
+    category: "thuoc-yhct",
+    categoryLabel: "Thuốc YHCT",
+    icon: "🌿",
+    gradient: "g-fire",
+    title: "Tiêu dao tán — Bài thuốc sơ can giải uất kinh điển của Y học cổ truyền",
+    excerpt: "Tiêu dao tán là bài thuốc cổ phương nổi tiếng giúp sơ can giải uất, dưỡng huyết, kiện tỳ, thường dùng cho các chứng can khí uất kết, rối loạn kinh nguyệt, căng thẳng kéo dài.",
+    readTime: 6,
+    content: `
+<h2>Nguồn gốc bài thuốc Tiêu dao tán</h2>
+<p>Tiêu dao tán là bài thuốc cổ phương xuất xứ từ sách "Hòa tễ cục phương" thời nhà Tống, được sử dụng rộng rãi trong Y học cổ truyền (YHCT) cho đến ngày nay. Tên gọi "Tiêu dao" mang ý nghĩa giúp người bệnh trở nên thư thái, nhẹ nhàng, giải tỏa được uất ức trong lòng — phản ánh đúng công năng cốt lõi của bài thuốc là sơ can giải uất.</p>
+<h2>Thành phần và vai trò các vị thuốc</h2>
+<ul>
+<li><strong>Sài hồ:</strong> Quân dược, sơ can giải uất, thăng dương khí, là vị thuốc chủ đạo điều hòa chức năng tạng can.</li>
+<li><strong>Bạch thược:</strong> Dưỡng huyết liễm âm, nhu can hòa lý, phối hợp Sài hồ để vừa sơ vừa dưỡng, tránh sơ tán quá mức làm hao tổn âm huyết.</li>
+<li><strong>Đương quy:</strong> Bổ huyết hoạt huyết, dưỡng can điều kinh, hỗ trợ Bạch thược dưỡng huyết.</li>
+<li><strong>Bạch truật:</strong> Kiện tỳ táo thấp, tăng cường vận hóa, hỗ trợ tỳ vị không bị can khí lấn áp.</li>
+<li><strong>Phục linh (Bạch linh):</strong> Lợi thủy thấm thấp, kiện tỳ an thần, phối hợp Bạch truật kiện tỳ trừ thấp.</li>
+<li><strong>Cam thảo:</strong> Điều hòa các vị thuốc, ích khí hòa trung.</li>
+<li><strong>Bạc hà:</strong> Tá dược dẫn thuốc, hỗ trợ Sài hồ sơ can thấu nhiệt, làm thư thái tinh thần.</li>
+<li><strong>Sinh khương:</strong> Ôn trung hòa vị, hỗ trợ tiêu hóa, giảm tác dụng phụ của các vị thuốc khác lên tỳ vị.</li>
+</ul>
+<h2>Chỉ định lâm sàng</h2>
+<ul>
+<li>Chứng can khí uất kết: ngực sườn đầy tức, hay thở dài, dễ cáu giận, tính khí thay đổi bất thường.</li>
+<li>Rối loạn kinh nguyệt do can uất: kinh nguyệt không đều, đau bụng kinh, căng tức vùng ngực trước kỳ kinh.</li>
+<li>Suy nhược thần kinh, mất ngủ, lo âu kéo dài liên quan căng thẳng tâm lý, áp lực công việc.</li>
+<li>Rối loạn tiêu hóa do căng thẳng: ăn kém, đầy bụng, người mệt mỏi, sắc mặt kém tươi.</li>
+<li>Hỗ trợ điều trị hội chứng tiền kinh nguyệt, rối loạn nội tiết nhẹ ở phụ nữ.</li>
+</ul>
+<h2>Chống chỉ định và lưu ý khi sử dụng</h2>
+<ul>
+<li>Không dùng cho người âm hư hỏa vượng nặng, sốt cao, mất nước.</li>
+<li>Phụ nữ có thai cần thận trọng, chỉ sử dụng khi có chỉ định và theo dõi của thầy thuốc.</li>
+<li>Người đang chảy máu, rong huyết cần cân nhắc kỹ trước khi dùng do có vị hoạt huyết.</li>
+<li>Cần gia giảm liều lượng và thành phần phù hợp theo thể trạng từng người, không tự ý sử dụng kéo dài.</li>
+</ul>
+<div class="art-cta-box"><p>Để được bốc thuốc Tiêu dao tán gia giảm phù hợp với thể trạng và biện chứng chính xác, quý khách vui lòng liên hệ Phòng Khám YHCT Tâm Đức - BS. Nguyễn Đức Tâm, hotline 0973 710 237, làm việc 18:00–22:00 hàng ngày, địa chỉ tại Hà Đông, Hà Nội.</p></div>
+  `
+  },
+  {
+    id: 37,
+    slug: "phong-ngua-soi-than-theo-yhct",
+    date: "2026-06-19",
+    category: "phong-benh",
+    categoryLabel: "Phòng bệnh",
+    icon: "🛡️",
+    gradient: "g-amber",
+    title: "Phòng ngừa sỏi thận - tiết niệu theo Y học cổ truyền",
+    excerpt: "Sỏi thận tiết niệu liên quan đến thấp nhiệt uẩn kết tại bàng quang, thận khí hư yếu. Áp dụng các nguyên tắc dưỡng sinh, ăn uống, sinh hoạt theo YHCT giúp phòng ngừa sỏi hình thành và tái phát.",
+    readTime: 5,
+    content: `
+<h2>Quan điểm Y học cổ truyền về sỏi thận - tiết niệu</h2>
+<p>Sỏi thận, sỏi tiết niệu thuộc phạm vi chứng "Thạch lâm" trong Y học cổ truyền (YHCT). Nguyên nhân chủ yếu do thấp nhiệt uẩn kết tại hạ tiêu (thận, bàng quang) lâu ngày ngưng kết thành sỏi, kết hợp với thận khí hư yếu không khí hóa được thủy dịch, khiến cặn lắng đọng. Người có thói quen ăn nhiều đồ cay nóng, dầu mỡ, uống ít nước, nhịn tiểu thường xuyên là đối tượng dễ mắc bệnh.</p>
+<h2>Nguyên tắc phòng bệnh theo Y học cổ truyền</h2>
+<p>Phòng bệnh hơn chữa bệnh — YHCT chú trọng điều chỉnh từ gốc bằng cách thanh thấp nhiệt, bổ thận khí, lợi tiểu thông lâm, kết hợp điều chỉnh ăn uống và sinh hoạt hàng ngày để cơ thể luôn ở trạng thái cân bằng âm dương, khí huyết thông sướng, hạn chế hình thành sỏi.</p>
+<h2>Chế độ ăn uống phòng ngừa sỏi</h2>
+<ul>
+<li>Uống đủ nước (khoảng 2-2,5 lít/ngày), nên uống nước ấm, có thể dùng nước sắc kim tiền thảo, râu ngô, mã đề để hỗ trợ lợi tiểu.</li>
+<li>Hạn chế thực phẩm giàu oxalat như rau muống, cải bó xôi, trà đặc; hạn chế đồ ăn nhiều dầu mỡ, cay nóng, nội tạng động vật.</li>
+<li>Giảm lượng muối và đạm động vật trong khẩu phần ăn hàng ngày.</li>
+<li>Tăng cường rau xanh, trái cây tươi có tính thanh nhiệt như dưa hấu, bí đao, rau má.</li>
+</ul>
+<h2>Sinh hoạt và dưỡng sinh hàng ngày</h2>
+<ul>
+<li>Không nhịn tiểu, đi tiểu ngay khi có nhu cầu để tránh ứ đọng nước tiểu.</li>
+<li>Vận động thể dục đều đặn, tránh ngồi lâu một chỗ giúp khí huyết lưu thông, hỗ trợ bài tiết.</li>
+<li>Tránh thức khuya, giữ tinh thần thoải mái, hạn chế căng thẳng kéo dài làm tổn hại thận khí.</li>
+<li>Có thể xoa bóp vùng thắt lưng, bấm huyệt Thận du, Tam âm giao, Thái khê hàng ngày để hỗ trợ bổ thận, lợi niệu.</li>
+</ul>
+<h2>Theo dõi và tái khám định kỳ</h2>
+<p>Người có tiền sử sỏi thận, sỏi tiết niệu hoặc gia đình có người mắc bệnh nên kiểm tra sức khỏe định kỳ 6 tháng/lần để phát hiện sớm sỏi mới hình thành, kết hợp điều trị bằng các bài thuốc lợi thấp thông lâm khi có dấu hiệu bất thường, tránh để bệnh tiến triển gây biến chứng tắc nghẽn đường tiết niệu.</p>
+<div class="art-cta-box"><p>Để được tư vấn chế độ dưỡng sinh phòng ngừa sỏi thận - tiết niệu phù hợp thể trạng, quý khách vui lòng liên hệ Phòng Khám YHCT Tâm Đức - BS. Nguyễn Đức Tâm, hotline 0973 710 237, làm việc 18:00–22:00 hàng ngày, địa chỉ tại Hà Đông, Hà Nội.</p></div>
+  `
+  },
+  {
+    id: 38,
+    slug: "phuong-huyet-dieu-tri-zona-than-kinh",
+    date: "2026-06-19",
+    category: "phuong-huyet",
+    categoryLabel: "Phương huyệt",
+    icon: "📍",
+    gradient: "g-huyet",
+    title: "Phương huyệt điều trị Zona thần kinh theo Y học cổ truyền",
+    excerpt: "Zona thần kinh gây đau rát dữ dội dọc theo đường dây thần kinh. Châm cứu các huyệt vị phù hợp giúp giảm đau, kháng viêm, rút ngắn thời gian bệnh và hạn chế đau thần kinh sau zona.",
+    readTime: 6,
+    content: `
+<h2>Tổng quan về Zona thần kinh theo Y học cổ truyền</h2>
+<p>Zona thần kinh (xà xoa sang) trong Y học cổ truyền (YHCT) thuộc chứng do can đởm thấp nhiệt hoặc hỏa độc nung nấu kết hợp khí huyết ứ trệ tại kinh lạc, gây nổi mụn nước thành chùm dọc theo đường đi của thần kinh kèm đau rát dữ dội. Châm cứu kết hợp các phương huyệt phù hợp giúp thanh nhiệt giải độc, hành khí hoạt huyết, giảm đau nhanh và hạn chế di chứng đau thần kinh sau zona.</p>
+<h2>Các huyệt vị chính trong điều trị</h2>
+<ul>
+<li><strong>Giáp tích huyệt (đoạn tương ứng với vùng tổn thương):</strong> Nằm cách đường giữa cột sống khoảng 0,5 thốn, tại đoạn cột sống tương ứng với khoanh da bị zona. Có tác dụng điều hòa thần kinh tại chỗ, giảm đau dọc theo dây thần kinh liên sườn.</li>
+<li><strong>Hợp cốc:</strong> Nằm ở giữa xương bàn tay 1 và 2, mu bàn tay. Có tác dụng thanh nhiệt giải độc, giảm đau toàn thân, thường dùng phối hợp trong các bệnh lý viêm nhiễm da.</li>
+<li><strong>Khúc trì:</strong> Nằm ở đầu ngoài nếp gấp khuỷu tay khi gấp cẳng tay vào cánh tay. Có tác dụng thanh nhiệt, lương huyết, giải độc, hỗ trợ giảm viêm tại vùng tổn thương.</li>
+<li><strong>Huyết hải:</strong> Nằm ở mặt trong đùi, trên bờ trong xương bánh chè khoảng 2 thốn. Có tác dụng hoạt huyết, lương huyết, hỗ trợ làm lành tổn thương da nhanh hơn.</li>
+<li><strong>Tam âm giao:</strong> Nằm trên mắt cá chân trong khoảng 3 thốn, sát bờ sau xương chày. Có tác dụng điều hòa can thận, dưỡng âm, hỗ trợ giảm đau và tăng sức đề kháng.</li>
+<li><strong>Dương lăng tuyền:</strong> Nằm ở chỗ lõm phía trước dưới đầu nhỏ xương mác. Có tác dụng thanh can đởm hỏa, giảm đau vùng sườn, mạng sườn — đặc biệt hiệu quả với zona vùng liên sườn.</li>
+<li><strong>A thị huyệt (huyệt cục bộ):</strong> Là các điểm đau nhất tại vùng tổn thương zona, châm tại chỗ giúp giảm đau trực tiếp và thúc đẩy lưu thông khí huyết tại vùng da bệnh.</li>
+</ul>
+<h2>Nguyên tắc phối huyệt theo từng giai đoạn</h2>
+<p>Giai đoạn cấp (mụn nước, đau rát nhiều): ưu tiên thanh nhiệt giải độc với Hợp cốc, Khúc trì, Dương lăng tuyền, kết hợp A thị huyệt tả pháp. Giai đoạn sau khi mụn nước đã khô, còn đau thần kinh: chuyển sang dưỡng âm, hoạt huyết với Tam âm giao, Huyết hải, Giáp tích huyệt, kết hợp cứu ngải ấm để hành khí hoạt huyết, giảm đau dây thần kinh kéo dài.</p>
+<h2>Lưu ý khi điều trị</h2>
+<p>Cần điều trị càng sớm càng tốt ngay khi phát hiện zona để giảm thiểu nguy cơ đau thần kinh sau zona — một di chứng khó điều trị nếu để muộn. Người bệnh cần giữ vệ sinh vùng da tổn thương, tránh gãi hoặc làm vỡ mụn nước, kết hợp nghỉ ngơi và ăn uống thanh đạm trong thời gian điều trị.</p>
+<div class="art-cta-box"><p>Để được châm cứu điều trị zona thần kinh đúng huyệt vị, giảm đau nhanh và hạn chế di chứng, quý khách vui lòng liên hệ Phòng Khám YHCT Tâm Đức - BS. Nguyễn Đức Tâm, hotline 0973 710 237, làm việc 18:00–22:00 hàng ngày, địa chỉ tại Hà Đông, Hà Nội.</p></div>
+  `
+  },
+  {
+    id: 39,
+    slug: "cham-cuu-tre-hoa-da-mat-theo-yhct",
+    date: "2026-06-19",
+    category: "lam-dep",
+    categoryLabel: "Làm đẹp",
+    icon: "🌸",
+    gradient: "g-rose",
+    title: "Châm cứu trẻ hóa da mặt (Facial Acupuncture) theo Y học cổ truyền",
+    excerpt: "Châm cứu trẻ hóa da mặt là phương pháp làm đẹp tự nhiên, tác động vào kinh lạc vùng mặt để cải thiện sắc diện, làm chậm lão hóa thông qua điều hòa khí huyết và tạng phủ bên trong.",
+    readTime: 6,
+    content: `
+<h2>Cơ sở lý luận của châm cứu trẻ hóa da mặt</h2>
+<p>Theo Y học cổ truyền (YHCT), dung nhan và làn da phản ánh trực tiếp tình trạng khí huyết, tạng phủ bên trong. Da mặt sạm, kém sắc, chảy xệ, nhiều nếp nhăn thường liên quan đến tỳ khí hư (khí huyết không đủ nuôi dưỡng da), thận âm hư (thận chủ tinh, tinh suy thì da khô sạm, lão hóa nhanh), can huyết hư (can chủ huyết, huyết không đủ thì da nhợt nhạt thiếu sức sống), và phế khí hư (phế chủ bì mao, phế hư thì da kém đàn hồi, dễ lão hóa). Châm cứu trẻ hóa da mặt (facial acupuncture) không chỉ tác động tại chỗ mà còn điều hòa các tạng phủ này để cải thiện sắc diện từ gốc.</p>
+<h2>Cơ chế tác động của châm cứu lên da mặt</h2>
+<p>Khi châm các huyệt vị vùng mặt và toàn thân, kim châm kích thích tuần hoàn khí huyết tại chỗ, tăng cường nuôi dưỡng tế bào da, kích thích sản sinh collagen tự nhiên, đồng thời điều hòa chức năng tạng phủ giúp cải thiện sắc diện từ bên trong. Đây là phương pháp làm đẹp không xâm lấn sâu, an toàn và bền vững hơn so với các can thiệp thẩm mỹ hóa học.</p>
+<h2>Phương pháp châm cứu kết hợp ngoại trị</h2>
+<ul>
+<li>Châm các huyệt vùng mặt: Toàn trúc, Tứ bạch, Nghênh hương, Địa thương, Giáp xa, Hạ quan giúp tăng tuần hoàn máu tại chỗ, làm da hồng hào, giảm nếp nhăn.</li>
+<li>Châm các huyệt toàn thân hỗ trợ: Túc tam lý, Tam âm giao, Thái khê, Huyết hải để bổ khí huyết, dưỡng thận âm, nuôi dưỡng da từ bên trong.</li>
+<li>Kết hợp xoa bóp bấm huyệt mặt hàng ngày tại nhà với các động tác nhẹ nhàng theo chiều kinh lạc để duy trì hiệu quả giữa các liệu trình.</li>
+<li>Sử dụng thêm cứu ngải ấm nhẹ vùng huyệt Quan nguyên, Khí hải để bổ nguyên khí, hỗ trợ làn da từ gốc.</li>
+</ul>
+<h2>Hỗ trợ từ bên trong bằng dưỡng sinh và thảo dược</h2>
+<ul>
+<li>Bổ huyết dưỡng nhan bằng các vị thuốc như Đương quy, Hà thủ ô, Kỷ tử, Đại táo dùng dưới dạng trà hoặc bài thuốc sắc theo chỉ định thầy thuốc.</li>
+<li>Ngủ đủ giấc, đi ngủ trước 23 giờ để dưỡng can huyết, vì khoảng thời gian này can đởm hoạt động mạnh, ảnh hưởng trực tiếp đến sắc diện.</li>
+<li>Uống đủ nước, ăn nhiều rau củ quả tươi, hạn chế đồ cay nóng, nhiều dầu mỡ gây thấp nhiệt nổi mụn, sạm da.</li>
+<li>Giữ tinh thần thư thái, hạn chế căng thẳng vì can khí uất kết lâu ngày khiến da xám sạm, kém tươi.</li>
+</ul>
+<h2>Lưu ý khi thực hiện</h2>
+<p>Châm cứu trẻ hóa da mặt cần được thực hiện bởi thầy thuốc có chuyên môn, biện chứng đúng thể trạng từng người để phối huyệt phù hợp. Hiệu quả thường rõ rệt sau một liệu trình từ 8-10 lần châm, kết hợp duy trì đều đặn để giữ kết quả lâu dài. Phương pháp này phù hợp với người muốn làm đẹp tự nhiên, an toàn, không xâm lấn mạnh.</p>
+<div class="art-cta-box"><p>Để được tư vấn và thực hiện châm cứu trẻ hóa da mặt phù hợp với thể trạng, quý khách vui lòng liên hệ Phòng Khám YHCT Tâm Đức - BS. Nguyễn Đức Tâm, hotline 0973 710 237, làm việc 18:00–22:00 hàng ngày, địa chỉ tại Hà Đông, Hà Nội.</p></div>
+  `
+  },
+  {
     id: 33,
     slug: "hoi-chung-ruot-kich-thich-theo-yhct",
     date: "2026-06-19",
