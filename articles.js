@@ -5,6 +5,56 @@
 
 const ARTICLES = [
   {
+    id: 33,
+    slug: "hoi-chung-ruot-kich-thich-theo-yhct",
+    date: "2026-06-19",
+    category: "mat-benh",
+    categoryLabel: "Mặt bệnh",
+    icon: "🩺",
+    gradient: "g-navy",
+    title: "Hội chứng ruột kích thích theo Y học cổ truyền: Phân thể và phác đồ điều trị",
+    excerpt: "Hội chứng ruột kích thích gây đau bụng, đầy hơi, rối loạn đại tiện kéo dài. YHCT phân thể theo can tỳ, thấp nhiệt, dương hư để điều trị tận gốc bằng châm cứu và thuốc.",
+    readTime: 6,
+    content: `
+<h2>Tổng quan theo Y học cổ truyền</h2>
+<p>Hội chứng ruột kích thích (HCRKT) trong Y học cổ truyền thuộc phạm trù <strong>tiết tả</strong>, <strong>phúc thống</strong> và <strong>tiện bí</strong> — biểu hiện bằng đau bụng tái diễn kèm thay đổi tính chất và số lần đại tiện (lỏng, táo hoặc xen kẽ cả hai) mà không có tổn thương thực thể rõ ràng trên nội soi. YHCT quy nguyên nhân chính về sự mất điều hòa giữa <strong>Can</strong> và <strong>Tỳ Vị</strong>: Can chủ sơ tiết, khi tình chí uất ức, căng thẳng kéo dài sẽ làm Can khí uất kết, mất khả năng sơ tiết, từ đó "Can khắc Tỳ" — Tỳ Vị mất kiện vận, thủy thấp không hóa, sinh ra các triệu chứng tiêu hóa.</p>
+<p>Bên cạnh đó, Tỳ Vị bản thân hư nhược (do ăn uống không điều độ, lo nghĩ quá mức) hoặc Thận dương suy yếu không ôn ấm được Tỳ cũng là nguyên nhân quan trọng gây tiết tả mạn tính. Nguyên tắc điều trị chung: <em>"Điều hòa Can Tỳ, kiện Tỳ hòa Vị, ôn bổ khi cần"</em> — kết hợp giải tỏa stress tâm lý với phục hồi chức năng tiêu hóa, khác với Tây y chủ yếu điều trị triệu chứng.</p>
+
+<h2>Phân thể / Nguyên nhân theo YHCT</h2>
+<ul>
+  <li><strong>Thể Can khí uất kết, Tỳ Vị bất hòa:</strong> Đau bụng quặn liên quan rõ đến cảm xúc, căng thẳng, stress; đầy hơi, sôi bụng, đại tiện không đều lúc lỏng lúc táo, hay kèm ợ hơi, ngực sườn đầy tức. Lưỡi hồng rêu mỏng, mạch huyền. Hướng điều trị: sơ can lý khí, hòa Vị kiện Tỳ.</li>
+  <li><strong>Thể Tỳ Vị hư nhược:</strong> Đại tiện lỏng kéo dài, phân nát không thành khuôn, ăn kém, ăn đồ dầu mỡ hoặc lạnh dễ đau bụng đi ngoài ngay, người mệt mỏi, sắc mặt vàng nhợt. Lưỡi nhạt bệu, rêu trắng mỏng, mạch nhược. Hướng điều trị: kiện Tỳ ích khí, táo thấp chỉ tả.</li>
+  <li><strong>Thể thấp nhiệt uẩn kết đại trường:</strong> Đại tiện lỏng nhớt mùi hôi, hậu môn nóng rát, bụng đầy đau âm ỉ, có thể kèm mót rặn, miệng khô đắng. Lưỡi đỏ rêu vàng nhớt, mạch hoạt sác. Hướng điều trị: thanh nhiệt hóa thấp, điều hòa khí trệ.</li>
+  <li><strong>Thể Tỳ Thận dương hư:</strong> Đại tiện lỏng vào sáng sớm (ngũ canh tả), đau bụng âm ỉ giảm khi chườm ấm, sợ lạnh, chân tay lạnh, lưng gối mỏi yếu. Lưỡi nhạt bệu có vết răng, mạch trầm trì. Hướng điều trị: ôn bổ Tỳ Thận, cố sáp chỉ tả.</li>
+</ul>
+
+<h2>Phương pháp điều trị / Huyệt vị</h2>
+<p>Phác đồ huyệt nền tảng điều trị HCRKT, gia giảm tùy thể bệnh:</p>
+<ul>
+  <li><strong>Túc tam lý (ST36):</strong> Dưới lồi củ xương chày 3 thốn — kiện Tỳ ích khí, hòa Vị, là huyệt chủ lực trong mọi thể bệnh tiêu hóa.</li>
+  <li><strong>Thiên khu (ST25):</strong> Cạnh rốn 2 thốn — huyệt mộ của Đại trường, điều hòa khí cơ ruột, giảm đau bụng, điều chỉnh đại tiện bất thường rất hiệu quả.</li>
+  <li><strong>Trung quản (CV12):</strong> Trên rốn 4 thốn — hòa Vị giáng nghịch, kiện Tỳ tiêu trệ, dùng cho đầy hơi, khó tiêu.</li>
+  <li><strong>Thái xung (LR3):</strong> Mu bàn chân, giữa xương bàn 1 và 2 — bình Can giải uất, dùng riêng cho thể Can khí uất kết liên quan stress.</li>
+  <li><strong>Tỳ du (BL20) và Đại trường du (BL25):</strong> Cạnh cột sống lưng ngang T11 và L4 — kiện Tỳ, điều khí đại trường, phối hợp tăng hiệu quả điều hòa tiêu hóa.</li>
+  <li><strong>Quan nguyên (CV4) và Khí hải (CV6):</strong> Dưới rốn 3 thốn và 1,5 thốn — ôn bổ nguyên khí, dùng cứu ngải cho thể Tỳ Thận dương hư, đại tiện lỏng sáng sớm.</li>
+</ul>
+<p>Thể Can khí uất kết nên phối hợp châm Thái xung (LR3) và Kỳ môn (LR14); thể thấp nhiệt thêm Âm lăng tuyền (SP9) để thanh thấp; thể dương hư bắt buộc cứu ngải Quan nguyên (CV4) và Mệnh môn (GV4) 15–20 phút mỗi lần.</p>
+
+<h2>Tự thực hành tại nhà</h2>
+<ul>
+  <li><strong>Xoa bụng theo chiều kim đồng hồ:</strong> Dùng lòng bàn tay xoa quanh rốn 50–100 vòng mỗi sáng trước khi ăn — thúc đẩy nhu động ruột, giảm đầy hơi và táo bón nhẹ.</li>
+  <li><strong>Ấn huyệt Túc tam lý (ST36) và Thiên khu (ST25):</strong> Ấn giữ mỗi huyệt 1–2 phút, 2 lần mỗi ngày — hỗ trợ điều hòa tiêu hóa, giảm đau bụng tái diễn.</li>
+  <li><strong>Chườm ấm vùng bụng:</strong> Dùng túi muối rang hoặc ngải cứu nướng chườm bụng dưới 15 phút trước khi ngủ — đặc biệt hữu ích với thể dương hư, đại tiện lỏng sáng sớm. Không chườm khi có thấp nhiệt, hậu môn nóng rát.</li>
+  <li><strong>Điều chỉnh tâm lý:</strong> Tập thở sâu, đi bộ nhẹ 20–30 phút mỗi ngày, hạn chế lo nghĩ căng thẳng — yếu tố cốt lõi vì Can khí uất kết là nguyên nhân phổ biến nhất của HCRKT.</li>
+  <li><strong>Ăn uống điều độ:</strong> Ăn đúng giờ, tránh đồ sống lạnh, cay nóng, nhiều dầu mỡ; ưu tiên cháo, súp ấm dễ tiêu, nhai kỹ nuốt chậm.</li>
+</ul>
+
+<div class="art-cta-box">
+  <p>Hội chứng ruột kích thích là bệnh mạn tính dễ tái phát do liên quan mật thiết đến tâm lý và chức năng tạng phủ, cần điều trị kiên trì và đúng thể bệnh. Nếu bạn thường xuyên đau bụng, đầy hơi, rối loạn đại tiện kéo dài, hãy đến thăm khám tại <strong>Phòng Khám YHCT Tâm Đức</strong>. BS. Nguyễn Đức Tâm sẽ tứ chẩn xác định thể bệnh và xây dựng phác đồ châm cứu, thuốc YHCT phù hợp riêng cho bạn. Liên hệ <strong>0973 710 237</strong> để đặt lịch — giờ khám <strong>18:00–22:00 hàng ngày</strong>, Hà Đông, Hà Nội.</p>
+</div>
+    `
+  },
+  {
     id: 32,
     slug: "bien-chung-yhct-trong-lam-dep",
     date: "2026-06-18",
