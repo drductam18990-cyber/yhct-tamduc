@@ -311,13 +311,15 @@
   }
   .footer-bottom a{color:var(--s400);transition:color .2s}
   .footer-bottom a:hover{color:var(--g400)}
-  .fab-group{position:fixed;bottom:24px;right:24px;z-index:200;display:flex;flex-direction:column;gap:12px;align-items:center}
+  .fab-group{position:fixed;bottom:24px;right:24px;z-index:200;display:flex;flex-direction:column;gap:12px;align-items:flex-end}
   .fab{
-    width:56px;height:56px;border-radius:50%;font-size:1.4rem;
-    color:#fff;display:flex;align-items:center;justify-content:center;
-    text-decoration:none;transition:transform .2s;
+    height:52px;border-radius:26px;font-size:1.3rem;
+    color:#fff;display:flex;align-items:center;justify-content:center;gap:8px;
+    text-decoration:none;transition:transform .2s;padding:0 18px 0 14px;
+    white-space:nowrap;
   }
-  .fab:hover{transform:scale(1.1)}
+  .fab-label{font-size:.92rem;font-weight:700;font-family:inherit}
+  .fab:hover{transform:scale(1.06)}
   .fab-phone{
     background:linear-gradient(135deg,var(--g600),var(--a500));
     box-shadow:0 6px 24px rgba(22,163,74,.5);
@@ -329,7 +331,7 @@
     animation:fab-pulse-blue 2.5s ease-in-out infinite;
     animation-delay:.8s;
   }
-  .fab-zalo svg{width:30px;height:30px;fill:#fff}
+  .fab-zalo svg{width:28px;height:28px;fill:#fff;flex-shrink:0}
   @keyframes fab-pulse-green{
     0%,100%{box-shadow:0 6px 24px rgba(22,163,74,.5),0 0 0 0 rgba(22,163,74,.25)}
     50%{box-shadow:0 6px 24px rgba(22,163,74,.5),0 0 0 12px rgba(22,163,74,0)}
@@ -525,8 +527,9 @@
 <div class="fab-group">
   <a href="https://zalo.me/0973710237" target="_blank" rel="noopener" class="fab fab-zalo" title="Nhắn Zalo 0973 710 237">
     <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><path d="M24 4C13 4 4 13 4 24c0 4.1 1.2 7.9 3.3 11.1L4 44l9.2-3.2A19.8 19.8 0 0 0 24 44c11 0 20-9 20-20S35 4 24 4zm-8.5 13h12.1l-12 13.5H28c.8 0 1.5.7 1.5 1.5s-.7 1.5-1.5 1.5H15.3l12-13.5H15.5c-.8 0-1.5-.7-1.5-1.5s.7-1.5 1.5-1.5z"/></svg>
+    <span class="fab-label">Zalo</span>
   </a>
-  <a href="tel:0973710237" class="fab fab-phone" title="Gọi 0973 710 237">📞</a>
+  <a href="tel:0973710237" class="fab fab-phone" title="Gọi 0973 710 237">📞<span class="fab-label">Gọi điện</span></a>
 </div>
 
 <!-- Article detail modal -->
