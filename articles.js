@@ -5,6 +5,55 @@
 
 const ARTICLES = [
   {
+    id: 40,
+    slug: "khi-cong-duong-sinh-buoi-sang-yhct",
+    date: "2026-06-20",
+    category: "khong-thuoc",
+    categoryLabel: "Không dùng thuốc",
+    icon: "🧘",
+    gradient: "g-herb",
+    title: "Khí công dưỡng sinh buổi sáng theo Y học cổ truyền: Phương pháp không dùng thuốc",
+    excerpt: "Luyện khí công vào buổi sáng giúp điều hòa khí huyết, bồi bổ chính khí ngay từ đầu ngày. Tìm hiểu nguyên lý, huyệt vị và cách thực hành đúng theo từng thể trạng.",
+    readTime: 6,
+    content: `
+<h2>Tổng quan theo Y học cổ truyền</h2>
+<p>Khí công dưỡng sinh là phương pháp luyện tập kết hợp điều thân (tư thế, động tác), điều khí (hít thở) và điều tâm (tĩnh tâm, tập trung ý niệm), nhằm bồi bổ chính khí, điều hòa âm dương, thông kinh hoạt lạc. Theo Y học cổ truyền (YHCT), khoảng thời gian từ 5–7 giờ sáng (giờ Mão) là lúc dương khí trong tự nhiên đang thăng lên mạnh nhất, đại trường và phế kinh đang vượng khí — luyện khí công vào thời điểm này giúp cơ thể hấp thu dương khí tự nhiên, tăng cường chính khí, phòng chống tà khí xâm nhập trong suốt cả ngày.</p>
+<p>Khác với các bài tập thể lực thông thường, khí công dưỡng sinh chú trọng sự thư thái, nhịp thở sâu và chậm, vận động nhẹ nhàng liên tục, giúp khí huyết lưu thông toàn thân mà không gây hao tổn nguyên khí — phù hợp với mọi lứa tuổi, đặc biệt là người trung niên, cao tuổi hoặc người có thể trạng suy yếu.</p>
+
+<h2>Phân thể / Nguyên nhân theo YHCT</h2>
+<ul>
+<li><strong>Thể khí hư:</strong> Người hay mệt mỏi, hụt hơi, nói nhỏ, dễ ốm vặt, ra mồ hôi tự nhiên. Nên ưu tiên các động tác hít thở bụng sâu, vận động chậm để bổ khí, tránh tập gắng sức gây hao khí thêm.</li>
+<li><strong>Thể dương hư:</strong> Sợ lạnh, chân tay lạnh, tiểu nhiều lần, tinh thần uể oải. Nên tập vào lúc có ánh nắng sớm, kết hợp xoa ấm vùng đan điền (dưới rốn) trước và sau khi tập để ôn bổ thận dương.</li>
+<li><strong>Thể can khí uất:</strong> Hay căng thẳng, tức ngực, thở dài, dễ cáu giận. Nên kết hợp các động tác giãn cơ vùng ngực sườn, thở sâu chậm để sơ can giải uất, thư giãn tinh thần.</li>
+<li><strong>Thể đàm thấp:</strong> Người nặng nề, béo bụng, ngủ nhiều vẫn mệt, rêu lưỡi dày nhớt. Nên tập các động tác vận động toàn thân với cường độ nhẹ tăng dần để hành khí, hóa thấp, tránh ứ trệ.</li>
+</ul>
+
+<h2>Phương pháp điều trị / Huyệt vị / Bài thuốc</h2>
+<p>Trước khi luyện khí công, nên xoa ấm và tác động vào một số huyệt vị quan trọng để dẫn khí, tăng hiệu quả luyện tập:</p>
+<ul>
+<li><strong>Bách hội (GV20):</strong> Đỉnh đầu, giao điểm đường nối hai đỉnh vành tai với đường giữa đầu. Xoa nhẹ giúp thăng dương khí, tỉnh thần, minh mục.</li>
+<li><strong>Khí hải (CV6):</strong> Dưới rốn 1,5 thốn. Là bể chứa khí của toàn thân, xoa ấm huyệt này trước khi tập giúp tập trung và dẫn khí xuống đan điền.</li>
+<li><strong>Mệnh môn (GV4):</strong> Ngay dưới mỏm gai đốt sống thắt lưng L2, đối diện rốn qua lưng. Ôn bổ thận dương, là gốc của nguyên khí toàn thân.</li>
+<li><strong>Túc tam lý (ST36):</strong> Dưới lồi củ ngoài xương chày 3 thốn. Kiện tỳ ích khí, hỗ trợ tăng cường nguyên khí khi tập luyện đều đặn.</li>
+<li><strong>Dũng tuyền (KI1):</strong> Lòng bàn chân, 1/3 trước gan chân. Xoa ấm huyệt này cuối buổi tập giúp dẫn khí hỏa xuống dưới, an định tâm thần.</li>
+</ul>
+<p>Trình tự luyện tập cơ bản: đứng thẳng tự nhiên (trạm trang), hai chân rộng bằng vai, đầu lưỡi chạm nhẹ vòm miệng trên, hít vào bằng mũi cho bụng phình ra, thở ra từ từ bằng miệng cho bụng hóp lại, kết hợp tay đưa lên xuống nhẹ nhàng theo nhịp thở trong 10–15 phút.</p>
+
+<h2>Tự thực hành tại nhà</h2>
+<ul>
+<li><strong>Chọn không gian thoáng, sạch:</strong> Tập ở nơi có không khí trong lành, tránh gió lùa trực tiếp, có thể tập trong nhà gần cửa sổ mở nếu trời lạnh.</li>
+<li><strong>Khởi động nhẹ trước khi tập:</strong> Xoay cổ, xoay khớp vai, gối nhẹ nhàng 2–3 phút để khí huyết lưu thông trước khi vào bài tập chính.</li>
+<li><strong>Duy trì hơi thở đều, sâu, chậm:</strong> Đây là yếu tố quan trọng nhất — tránh nín thở hoặc thở gấp, luôn giữ tâm thái thư thái trong suốt quá trình tập.</li>
+<li><strong>Tập đều đặn mỗi ngày 15–20 phút:</strong> Hiệu quả khí công đến từ sự kiên trì lâu dài hơn là cường độ một lần tập, nên duy trì vào cùng một thời điểm mỗi sáng.</li>
+<li><strong>Không tập khi đang đói quá hoặc vừa ăn no:</strong> Nên tập trước ăn sáng hoặc sau khi ăn nhẹ ít nhất 30 phút để tránh ảnh hưởng đến tỳ vị.</li>
+</ul>
+
+<div class="art-cta-box">
+  <p>Khí công dưỡng sinh buổi sáng là phương pháp an toàn, phù hợp mọi thể trạng nếu luyện tập đúng cách và đều đặn. Nếu bạn chưa rõ thể trạng của mình thuộc nhóm nào hoặc muốn được hướng dẫn bài tập phù hợp, hãy đến thăm khám tại <strong>Phòng Khám YHCT Tâm Đức</strong>. BS. Nguyễn Đức Tâm sẽ tứ chẩn xác định thể trạng và tư vấn phương pháp dưỡng sinh phù hợp riêng cho bạn. Liên hệ <strong>0973 710 237</strong> để đặt lịch — giờ khám <strong>18:00–22:00 hàng ngày</strong>, Hà Đông, Hà Nội.</p>
+</div>
+    `
+  },
+  {
     id: 34,
     slug: "benh-gout-thong-phong-theo-yhct",
     date: "2026-06-19",
