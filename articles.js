@@ -5,6 +5,275 @@
 
 const ARTICLES = [
   {
+    id: 41,
+    slug: "viem-khop-dang-thap-theo-yhct",
+    date: "2026-06-20",
+    category: "mat-benh",
+    categoryLabel: "Mặt bệnh",
+    icon: "🩺",
+    gradient: "g-navy",
+    title: "Viêm khớp dạng thấp theo Y học cổ truyền: Phân thể và phác đồ điều trị",
+    excerpt: "Viêm khớp dạng thấp là bệnh tự miễn gây sưng đau, biến dạng nhiều khớp nhỏ. Y học cổ truyền xếp vào chứng Tý, phân thể rõ ràng để phối hợp châm cứu và bài thuốc điều trị căn nguyên, hạn chế tái phát.",
+    readTime: 7,
+    content: `
+<h2>Tổng quan về Viêm khớp dạng thấp theo Y học cổ truyền</h2>
+<p>Viêm khớp dạng thấp (VKDT) là bệnh lý tự miễn mạn tính, đặc trưng bởi viêm màng hoạt dịch nhiều khớp, thường đối xứng hai bên, hay gặp ở các khớp nhỏ bàn tay, bàn chân, cổ tay, gối. Bệnh tiến triển kéo dài có thể gây biến dạng khớp, teo cơ, giảm vận động nếu không điều trị đúng cách. Theo Y học cổ truyền (YHCT), VKDT thuộc phạm vi chứng "Tý" (tý chứng), cụ thể là "Lịch tiết phong" hay "Nhiệt tý" khi có biểu hiện viêm sưng nóng đỏ rõ. Nguyên nhân cốt lõi là chính khí suy yếu (vệ khí không bền), tạo điều kiện cho phong, hàn, thấp, nhiệt xâm nhập vào kinh lạc, ứ trệ ở khớp xương gây đau nhức, sưng nề; lâu ngày khí huyết ứ trệ, đàm thấp ngưng tụ làm khớp biến dạng, co rút gân cơ.</p>
+
+<h2>Phân thể bệnh và đặc điểm nhận biết</h2>
+<h3>1. Thể Phong hàn thấp tý</h3>
+<p><strong>Nhận biết:</strong> Đau nhức nhiều khớp, đau tăng khi gặp lạnh hoặc trời ẩm, giảm khi giữ ấm, khớp không nóng đỏ nhiều, cứng khớp buổi sáng, sợ lạnh, rêu lưỡi trắng mỏng.</p>
+<p><strong>Pháp điều trị:</strong> Khu phong, tán hàn, trừ thấp, thông kinh lạc.</p>
+<h3>2. Thể Phong thấp nhiệt tý (giai đoạn cấp)</h3>
+<p><strong>Nhận biết:</strong> Khớp sưng nóng đỏ đau rõ, đau dữ dội, sợ chườm nóng, có thể kèm sốt nhẹ, miệng khát, tiểu vàng, rêu lưỡi vàng nhớt.</p>
+<p><strong>Pháp điều trị:</strong> Thanh nhiệt, trừ thấp, khu phong thông lạc, giảm viêm cấp.</p>
+<h3>3. Thể Đàm ứ tý (giai đoạn mạn, biến dạng khớp)</h3>
+<p><strong>Nhận biết:</strong> Bệnh kéo dài, khớp sưng to, cứng, biến dạng, có thể nổi hạt dưới da, đau âm ỉ kéo dài, cử động hạn chế rõ, lưỡi tím sạm có điểm ứ huyết.</p>
+<p><strong>Pháp điều trị:</strong> Hoạt huyết hóa ứ, hóa đàm, thông lạc, nhuyễn kiên (làm mềm chỗ cứng).</p>
+<h3>4. Thể Khí huyết hư kèm tý (giai đoạn ổn định, suy yếu toàn thân)</h3>
+<p><strong>Nhận biết:</strong> Bệnh lâu năm, cơ thể suy nhược, teo cơ vùng khớp bệnh, mệt mỏi, sắc mặt nhợt, đau ê ẩm, dễ tái phát khi gắng sức hoặc thay đổi thời tiết.</p>
+<p><strong>Pháp điều trị:</strong> Bổ khí huyết, bổ can thận, kết hợp khu phong trừ thấp để củng cố chính khí, ngừa tái phát.</p>
+
+<h2>Phương pháp điều trị bằng châm cứu và huyệt vị</h2>
+<ul>
+  <li><strong>Hợp cốc, Khúc trì:</strong> Giảm viêm sưng đau khớp tay, thông kinh lạc Đại trường.</li>
+  <li><strong>Túc tam lý, Dương lăng tuyền:</strong> Trừ thấp, bổ khí, hỗ trợ khớp gối, khớp cổ chân.</li>
+  <li><strong>Huyết hải, Tam âm giao:</strong> Hoạt huyết, dưỡng huyết, hỗ trợ thể đàm ứ và khí huyết hư.</li>
+  <li><strong>Đại chùy, Phong môn:</strong> Khu phong tán hàn toàn thân trong thể phong hàn thấp.</li>
+  <li>Kết hợp ôn châm hoặc cứu ngải tại các khớp đau khi không có dấu hiệu viêm nhiệt cấp, giúp tăng tuần hoàn và giảm cứng khớp.</li>
+</ul>
+
+<h2>Kết hợp dùng thuốc và chăm sóc tại nhà</h2>
+<p>Tùy thể bệnh, thầy thuốc YHCT sẽ gia giảm các bài thuốc cổ phương như Quyên tý thang, Độc hoạt ký sinh thang hoặc Đào hồng tứ vật thang để khu phong trừ thấp, hoạt huyết hóa ứ. Người bệnh cần giữ ấm các khớp, tránh ẩm lạnh kéo dài, tập vận động khớp nhẹ nhàng đều đặn (xoay cổ tay, cổ chân, nắm mở bàn tay) để duy trì tầm vận động, hạn chế teo cứng cơ khớp. Chế độ ăn nên hạn chế đồ lạnh, dầu mỡ, tăng cường thực phẩm bổ khí huyết như hầm xương, đậu đen, gừng ấm.</p>
+
+<div class="art-cta-box">
+  <p>Viêm khớp dạng thấp cần điều trị kiên trì, đúng thể bệnh để kiểm soát viêm và ngăn biến dạng khớp. Phòng Khám YHCT Tâm Đức do BS. Nguyễn Đức Tâm trực tiếp khám và điều trị, nhận tư vấn qua hotline 0973 710 237, làm việc 18:00–22:00 hàng ngày tại Hà Đông, Hà Nội.</p>
+</div>
+    `
+  },
+  {
+    id: 42,
+    slug: "ngu-cam-hi-bai-tap-khi-cong-duong-sinh",
+    date: "2026-06-20",
+    category: "khong-thuoc",
+    categoryLabel: "Không dùng thuốc",
+    icon: "🧘",
+    gradient: "g-herb",
+    title: "Ngũ cầm hí — Bài tập khí công dưỡng sinh ngũ tạng không dùng thuốc",
+    excerpt: "Ngũ cầm hí là bài khí công cổ truyền mô phỏng động tác của 5 loài vật, giúp điều hòa khí huyết, tăng cường chức năng ngũ tạng mà không cần dùng thuốc. Phù hợp tập luyện hàng ngày cho mọi lứa tuổi.",
+    readTime: 6,
+    content: `
+<h2>Ngũ cầm hí là gì?</h2>
+<p>Ngũ cầm hí (五禽戏) là bài tập khí công dưỡng sinh cổ truyền, được cho là do danh y Hoa Đà thời Đông Hán sáng tạo, mô phỏng động tác của năm loài vật: Hổ, Hươu, Gấu, Vượn và Chim (hạc). Mỗi động tác không chỉ rèn luyện gân cốt, cơ bắp mà còn tương ứng với một tạng trong ngũ tạng theo lý luận YHCT, giúp điều hòa khí huyết, tăng cường chính khí, phòng và hỗ trợ điều trị bệnh mà hoàn toàn không cần dùng thuốc.</p>
+
+<h2>Nguyên lý dưỡng sinh của Ngũ cầm hí</h2>
+<p>Theo YHCT, ngũ tạng (tâm, can, tỳ, phế, thận) liên hệ chặt chẽ với trạng thái vận động của cơ thể. Khi tập luyện đúng cách, các động tác mô phỏng linh hoạt của loài vật giúp khai thông kinh lạc, dẫn khí huyết lưu thông đến từng tạng phủ, từ đó bồi bổ chính khí, cải thiện chức năng tiêu hóa, hô hấp, tuần hoàn và an định tâm thần.</p>
+
+<h2>Năm động tác cơ bản và tác dụng tương ứng</h2>
+<ul>
+  <li><strong>Hổ hí (động tác Hổ):</strong> Mô phỏng hổ vờn, rướn thân, vươn móng. Tác dụng kiện cốt, mạnh lưng gối, bổ thận, tăng sức mạnh cơ bắp toàn thân.</li>
+  <li><strong>Lộc hí (động tác Hươu):</strong> Mô phỏng hươu quay đầu, xoay eo nhẹ nhàng. Tác dụng thư giãn gân cốt, hoạt huyết, hỗ trợ chức năng can (gan), tăng sự dẻo dai cột sống.</li>
+  <li><strong>Hùng hí (động tác Gấu):</strong> Mô phỏng gấu lắc lư, dồn trọng tâm hai chân. Tác dụng kiện tỳ vị, tăng cường tiêu hóa, ôn ấm trung tiêu.</li>
+  <li><strong>Viên hí (động tác Vượn):</strong> Mô phỏng vượn leo trèo, linh hoạt tay chân. Tác dụng dưỡng tâm an thần, tăng phản xạ, linh hoạt khớp tay.</li>
+  <li><strong>Hạc hí (động tác Chim hạc):</strong> Mô phỏng hạc vươn cánh, đứng một chân. Tác dụng bổ phế, điều hòa hô hấp, tăng cường thăng bằng và sự dẻo dai.</li>
+</ul>
+
+<h2>Hướng dẫn tập luyện đúng cách</h2>
+<p>Nên tập Ngũ cầm hí vào buổi sáng sớm, nơi thoáng khí, mặc trang phục rộng rãi. Mỗi động tác lặp lại 8–16 lần, kết hợp hít thở sâu đều theo nhịp động tác: hít vào khi mở rộng tư thế, thở ra khi thu về. Người mới tập nên tập chậm, chú trọng cảm nhận luồng khí lưu chuyển hơn là tốc độ. Toàn bài có thể tập trong 15–20 phút mỗi ngày.</p>
+
+<h2>Lưu ý khi tập luyện</h2>
+<ul>
+  <li>Người có bệnh khớp nặng, huyết áp không ổn định nên tập động tác nhẹ, tránh xoay vặn mạnh đột ngột.</li>
+  <li>Không tập khi quá no hoặc quá đói, nên tập sau ăn tối thiểu 1 giờ.</li>
+  <li>Kiên trì tập đều đặn hàng ngày mới phát huy hiệu quả dưỡng sinh rõ rệt, không nên tập ngắt quãng.</li>
+</ul>
+
+<div class="art-cta-box">
+  <p>Ngũ cầm hí là phương pháp dưỡng sinh an toàn, phù hợp mọi lứa tuổi khi tập đúng kỹ thuật. Để được hướng dẫn bài tập phù hợp với tình trạng sức khỏe cụ thể, liên hệ Phòng Khám YHCT Tâm Đức — BS. Nguyễn Đức Tâm, hotline 0973 710 237, làm việc 18:00–22:00 hàng ngày tại Hà Đông, Hà Nội.</p>
+</div>
+    `
+  },
+  {
+    id: 43,
+    slug: "doc-hoat-ky-sinh-thang-bai-thuoc-tri-phong-thap",
+    date: "2026-06-20",
+    category: "thuoc-yhct",
+    categoryLabel: "Thuốc YHCT",
+    icon: "🌿",
+    gradient: "g-fire",
+    title: "Độc hoạt ký sinh thang — Bài thuốc trị phong thấp, đau nhức xương khớp kinh điển",
+    excerpt: "Độc hoạt ký sinh thang là bài thuốc cổ phương nổi tiếng trong điều trị phong thấp, đau nhức xương khớp do chính khí suy yếu kết hợp ngoại tà xâm nhập, thường dùng cho các bệnh khớp mạn tính.",
+    readTime: 6,
+    content: `
+<h2>Nguồn gốc bài thuốc Độc hoạt ký sinh thang</h2>
+<p>Độc hoạt ký sinh thang (còn gọi là Độc hoạt tang ký sinh thang) là bài thuốc cổ phương được ghi trong "Bị cấp thiên kim yếu phương" của danh y Tôn Tư Mạc thời Đường. Bài thuốc ra đời nhằm điều trị các chứng đau nhức xương khớp mạn tính do phong, hàn, thấp xâm nhập kết hợp với cơ thể suy yếu khí huyết, can thận bất túc — tình trạng thường gặp ở người lớn tuổi hoặc bệnh khớp lâu năm.</p>
+
+<h2>Thành phần và vai trò các vị thuốc</h2>
+<ul>
+  <li><strong>Độc hoạt, Phòng phong:</strong> Khu phong, trừ thấp, là quân dược chủ trị phong thấp tý thống.</li>
+  <li><strong>Tang ký sinh, Đỗ trọng, Ngưu tất:</strong> Bổ can thận, mạnh gân cốt, hỗ trợ phục hồi vùng lưng gối yếu mỏi.</li>
+  <li><strong>Tế tân, Quế chi:</strong> Tán hàn, thông kinh lạc, giảm đau do lạnh.</li>
+  <li><strong>Đương quy, Xuyên khung, Thục địa, Bạch thược:</strong> Bổ huyết, hoạt huyết, dưỡng âm, hỗ trợ nuôi dưỡng gân cơ khớp xương.</li>
+  <li><strong>Đảng sâm, Phục linh, Bạch truật, Cam thảo:</strong> Bổ khí kiện tỳ, làm nền tảng nâng cao chính khí để chống lại ngoại tà.</li>
+  <li><strong>Ngưu tất, Tần giao:</strong> Thông lợi kinh lạc, hỗ trợ giảm đau khớp dưới.</li>
+</ul>
+<p>Các vị thuốc phối hợp theo nguyên tắc vừa khu tà (trừ phong thấp) vừa phù chính (bổ khí huyết, can thận), phù hợp với bệnh cảnh lâu năm chính khí đã suy.</p>
+
+<h2>Chỉ định lâm sàng</h2>
+<ul>
+  <li>Đau nhức xương khớp mạn tính do phong hàn thấp tý, đau tăng khi gặp lạnh hoặc vận động.</li>
+  <li>Thoái hóa khớp, thoái hóa cột sống ở người lớn tuổi kèm biểu hiện can thận hư (mỏi lưng, yếu gối).</li>
+  <li>Viêm khớp dạng thấp giai đoạn mạn, khớp đau ê ẩm kéo dài kèm cơ thể suy nhược.</li>
+  <li>Đau thần kinh tọa, đau thắt lưng mạn tính do hàn thấp kết hợp khí huyết hư.</li>
+</ul>
+
+<h2>Chống chỉ định và lưu ý khi dùng</h2>
+<ul>
+  <li>Không dùng cho người đang sốt cao, viêm khớp cấp có sưng nóng đỏ rõ (thể thấp nhiệt) vì bài thuốc có tính ôn, dễ làm tăng nhiệt.</li>
+  <li>Phụ nữ có thai cần thận trọng, chỉ sử dụng khi có chỉ định và theo dõi của thầy thuốc chuyên môn.</li>
+  <li>Người tỳ vị hư hàn dễ đầy bụng nên dùng kèm vị kiện tỳ hoặc uống sau ăn để giảm kích ứng tiêu hóa.</li>
+  <li>Cần gia giảm liều lượng tùy thể trạng và mức độ bệnh, không tự ý sử dụng kéo dài khi chưa được bắt mạch, biện chứng cụ thể.</li>
+</ul>
+
+<h2>Kết hợp điều trị toàn diện</h2>
+<p>Để đạt hiệu quả tối ưu, Độc hoạt ký sinh thang thường được phối hợp với châm cứu, xoa bóp bấm huyệt và các bài tập vận động nhẹ nhàng nhằm tăng cường lưu thông khí huyết tại khớp, đồng thời cải thiện chế độ ăn uống, giữ ấm cơ thể để hỗ trợ quá trình hồi phục lâu dài.</p>
+
+<div class="art-cta-box">
+  <p>Việc sử dụng Độc hoạt ký sinh thang cần được biện chứng đúng thể bệnh để đạt hiệu quả và an toàn. Liên hệ Phòng Khám YHCT Tâm Đức — BS. Nguyễn Đức Tâm để được tư vấn, hotline 0973 710 237, làm việc 18:00–22:00 hàng ngày tại Hà Đông, Hà Nội.</p>
+</div>
+    `
+  },
+  {
+    id: 44,
+    slug: "phong-ngua-loang-xuong-theo-yhct",
+    date: "2026-06-20",
+    category: "phong-benh",
+    categoryLabel: "Phòng bệnh",
+    icon: "🛡️",
+    gradient: "g-amber",
+    title: "Phòng ngừa loãng xương theo Y học cổ truyền",
+    excerpt: "Loãng xương liên quan chặt chẽ đến chức năng thận theo YHCT. Hiểu đúng nguyên lý dưỡng thận, bổ tinh kết hợp dinh dưỡng và vận động hợp lý giúp phòng ngừa loãng xương hiệu quả, đặc biệt ở người trung niên và cao tuổi.",
+    readTime: 5,
+    content: `
+<h2>Mối liên hệ giữa Thận và xương theo Y học cổ truyền</h2>
+<p>Theo YHCT, "Thận chủ cốt" — thận tàng tinh, tinh sinh tủy, tủy nuôi dưỡng xương. Khi thận khí, thận tinh đầy đủ, xương cốt chắc khỏe, vận động linh hoạt. Ngược lại, khi tuổi cao hoặc cơ thể suy nhược, thận tinh hao tổn dần, xương trở nên giòn, xốp, dễ gãy — đây chính là cơ chế cốt lõi của chứng loãng xương trong YHCT, thường gọi là "cốt nuy" hoặc nằm trong phạm vi chứng "tý" mạn tính. Ngoài thận, tỳ vị (chủ vận hóa, hấp thu dưỡng chất) và can (chủ cân, tàng huyết) cũng ảnh hưởng gián tiếp đến sức khỏe xương khớp.</p>
+
+<h2>Đối tượng cần chú trọng phòng ngừa</h2>
+<ul>
+  <li>Phụ nữ sau mãn kinh — giai đoạn thiên quý suy giảm mạnh, thận âm hư rõ rệt.</li>
+  <li>Người trên 50 tuổi, đặc biệt có tiền sử gia đình loãng xương.</li>
+  <li>Người ít vận động, ít tiếp xúc ánh nắng, ăn uống thiếu canxi và đạm trong thời gian dài.</li>
+  <li>Người dùng corticoid kéo dài hoặc có bệnh lý tuyến giáp, tuyến cận giáp.</li>
+</ul>
+
+<h2>Nguyên tắc dưỡng sinh phòng ngừa loãng xương</h2>
+<h3>1. Bổ thận, dưỡng tinh</h3>
+<p>Ưu tiên thực phẩm bổ thận như hạt óc chó, mè đen, đậu đen, hải sâm, tôm, cua nhỏ ăn cả vỏ, xương ống hầm. Hạn chế thức khuya, lao lực quá mức làm hao tổn thận tinh.</p>
+<h3>2. Kiện tỳ vị để tăng hấp thu dưỡng chất</h3>
+<p>Tỳ vị khỏe mới hấp thu tốt canxi và dưỡng chất từ thức ăn. Nên ăn chín, ăn ấm, tránh đồ lạnh, đồ sống nhiều, ăn đúng giờ, không bỏ bữa sáng.</p>
+<h3>3. Vận động phù hợp dưỡng cân cốt</h3>
+<p>Tập các bài dưỡng sinh nhẹ nhàng như đi bộ, Bát đoạn cẩm, Thái cực quyền giúp khí huyết lưu thông đến xương khớp, kích thích tạo xương tự nhiên, đồng thời tăng cường thăng bằng, giảm nguy cơ té ngã gãy xương ở người cao tuổi.</p>
+
+<h2>Huyệt vị hỗ trợ dưỡng cốt phòng loãng xương</h2>
+<ul>
+  <li><strong>Thận du:</strong> Hai bên cột sống thắt lưng, ngang đốt sống L2. Xoa ấm hoặc cứu ngải hàng ngày giúp bổ thận khí.</li>
+  <li><strong>Thái khê:</strong> Mắt cá trong, giữa đỉnh mắt cá và gân gót. Bấm xoa giúp tư bổ thận âm.</li>
+  <li><strong>Túc tam lý:</strong> Dưới đầu gối 3 thốn. Kiện tỳ vị, tăng hấp thu dưỡng chất toàn thân.</li>
+</ul>
+
+<h2>Lưu ý quan trọng</h2>
+<p>Người có nguy cơ cao nên kiểm tra mật độ xương định kỳ, kết hợp YHCT với theo dõi y khoa hiện đại để phát hiện sớm và can thiệp kịp thời, không nên chỉ dựa vào một phương pháp duy nhất khi đã có dấu hiệu loãng xương rõ rệt.</p>
+
+<div class="art-cta-box">
+  <p>Phòng ngừa loãng xương cần thực hiện sớm và kiên trì, đặc biệt từ tuổi trung niên. Phòng Khám YHCT Tâm Đức — BS. Nguyễn Đức Tâm tư vấn dưỡng sinh bổ thận phù hợp từng thể trạng, hotline 0973 710 237, làm việc 18:00–22:00 hàng ngày tại Hà Đông, Hà Nội.</p>
+</div>
+    `
+  },
+  {
+    id: 45,
+    slug: "phuong-huyet-dieu-tri-roi-loan-tien-dinh",
+    date: "2026-06-20",
+    category: "phuong-huyet",
+    categoryLabel: "Phương huyệt",
+    icon: "📍",
+    gradient: "g-huyet",
+    title: "Phương huyệt điều trị Rối loạn tiền đình theo Y học cổ truyền",
+    excerpt: "Rối loạn tiền đình gây chóng mặt, mất thăng bằng, buồn nôn. Y học cổ truyền sử dụng phối hợp huyệt vị vùng đầu và toàn thân để điều hòa khí huyết, an định thanh khiếu, cải thiện triệu chứng hiệu quả.",
+    readTime: 6,
+    content: `
+<h2>Rối loạn tiền đình theo quan điểm Y học cổ truyền</h2>
+<p>Rối loạn tiền đình gây các triệu chứng chóng mặt, hoa mắt, mất thăng bằng, đôi khi kèm buồn nôn, ù tai. Theo YHCT, bệnh thuộc phạm vi chứng "Huyễn vựng", nguyên nhân chủ yếu do can dương vượng (can hỏa nghịch lên đầu), đàm thấp che lấp thanh khiếu, khí huyết hư không nuôi dưỡng được não, hoặc thận âm hư không tiềm dương khiến dương khí bốc lên gây chóng mặt. Châm cứu vào các huyệt vị phù hợp giúp bình can tức phong, hóa đàm trừ thấp, bổ khí huyết, từ đó cải thiện rõ rệt triệu chứng chóng mặt và mất thăng bằng.</p>
+
+<h2>Các huyệt vị chính trong điều trị</h2>
+<ul>
+  <li><strong>Bách hội:</strong> Đỉnh đầu, giao điểm đường nối hai đỉnh tai và đường giữa đầu. Tác dụng an thần, bình can tức phong, giảm chóng mặt, hoa mắt.</li>
+  <li><strong>Phong trì:</strong> Sau gáy, hõm giữa cơ ức đòn chũm và cơ thang, ngang dái tai. Tác dụng khu phong, thông kinh lạc vùng đầu cổ, giảm chóng mặt do can dương vượng.</li>
+  <li><strong>Ấn đường:</strong> Giữa hai đầu lông mày. Tác dụng an thần, định tâm, hỗ trợ giảm cảm giác lâng lâng, hoa mắt.</li>
+  <li><strong>Nội quan:</strong> Mặt trong cổ tay, trên lằn chỉ cổ tay 2 thốn, giữa hai gân. Tác dụng giảm buồn nôn, an thần, hòa vị — rất hiệu quả khi rối loạn tiền đình kèm nôn ói.</li>
+  <li><strong>Túc tam lý:</strong> Dưới đầu gối ngoài 3 thốn. Tác dụng bổ khí huyết, kiện tỳ vị, hỗ trợ thể khí huyết hư gây huyễn vựng.</li>
+  <li><strong>Thái xung:</strong> Mu bàn chân, giữa xương ngón chân 1 và 2. Tác dụng bình can, tức phong, hạ can hỏa.</li>
+  <li><strong>Thái khê:</strong> Mắt cá trong, giữa đỉnh mắt cá và gân gót. Tác dụng tư bổ thận âm, tiềm dương, hỗ trợ thể thận âm hư.</li>
+</ul>
+
+<h2>Phối huyệt theo thể bệnh</h2>
+<p>Với thể can dương vượng, phối Bách hội, Phong trì, Thái xung để bình can tức phong. Với thể đàm thấp, thêm Phong long, Trung quản để hóa đàm trừ thấp. Với thể khí huyết hư, phối Túc tam lý, Tam âm giao để bổ khí dưỡng huyết. Với thể thận âm hư, phối Thái khê, Tam âm giao để tư âm tiềm dương.</p>
+
+<h2>Kết hợp bấm huyệt tại nhà hỗ trợ giảm chóng mặt</h2>
+<ul>
+  <li>Bấm Ấn đường và Phong trì mỗi khi có cảm giác chóng mặt khởi phát, xoa nhẹ 1–2 phút mỗi huyệt.</li>
+  <li>Tránh thay đổi tư thế đột ngột (đứng lên ngồi xuống nhanh, quay đầu nhanh) trong giai đoạn đang có triệu chứng.</li>
+  <li>Nghỉ ngơi nơi yên tĩnh, tránh ánh sáng mạnh khi cơn chóng mặt xuất hiện.</li>
+</ul>
+
+<div class="art-cta-box">
+  <p>Rối loạn tiền đình cần được biện chứng đúng thể để châm cứu đạt hiệu quả tối ưu và an toàn. Phòng Khám YHCT Tâm Đức — BS. Nguyễn Đức Tâm trực tiếp thăm khám, châm cứu điều trị, liên hệ hotline 0973 710 237, làm việc 18:00–22:00 hàng ngày tại Hà Đông, Hà Nội.</p>
+</div>
+    `
+  },
+  {
+    id: 46,
+    slug: "dieu-tri-rung-toc-tung-mang-theo-yhct",
+    date: "2026-06-20",
+    category: "lam-dep",
+    categoryLabel: "Làm đẹp",
+    icon: "🌸",
+    gradient: "g-rose",
+    title: "Điều trị rụng tóc từng mảng (Alopecia Areata) theo Y học cổ truyền",
+    excerpt: "Rụng tóc từng mảng khiến tóc rụng thành đốm tròn bất thường, ảnh hưởng lớn đến thẩm mỹ và tâm lý. Y học cổ truyền nhìn nhận đây là biểu hiện của can thận huyết hư, có thể cải thiện bằng bài thuốc bổ huyết kết hợp châm cứu kích thích mọc tóc.",
+    readTime: 6,
+    content: `
+<h2>Rụng tóc từng mảng và mối liên hệ tạng phủ theo YHCT</h2>
+<p>Rụng tóc từng mảng (Alopecia Areata) là tình trạng tóc rụng thành từng đốm tròn hoặc bầu dục, ranh giới rõ, có thể xuất hiện đột ngột không kèm ngứa hay viêm da rõ rệt. Theo YHCT, "Phát vi thận chi hoa, huyết dư chi biểu" — tóc là biểu hiện của thận tinh và là phần dư của huyết. Tóc mọc tốt, đen bóng nhờ thận tinh đầy đủ và can huyết dồi dào nuôi dưỡng. Khi can thận âm huyết bất túc, hoặc cơ thể trải qua stress, lo âu kéo dài làm can khí uất kết, huyết không thông để nuôi dưỡng nang tóc, dẫn đến rụng tóc thành từng mảng. Một số trường hợp liên quan đến huyết ứ tại da đầu cản trở khí huyết lưu thông đến nang tóc.</p>
+
+<h2>Các thể bệnh thường gặp</h2>
+<h3>1. Thể Can thận âm hư</h3>
+<p>Tóc rụng từng mảng kèm tóc bạc sớm, hoa mắt chóng mặt, lưng gối mỏi yếu, ngủ kém, lưỡi đỏ ít rêu. Thường gặp ở người làm việc trí óc căng thẳng, mất ngủ kéo dài.</p>
+<h3>2. Thể Khí huyết hư</h3>
+<p>Tóc rụng kèm sắc mặt nhợt nhạt, mệt mỏi, hồi hộp, móng tay nhợt giòn dễ gãy, ăn uống kém. Thường gặp sau sinh, sau bệnh nặng hoặc thiếu dinh dưỡng kéo dài.</p>
+<h3>3. Thể Can khí uất kết (liên quan stress)</h3>
+<p>Rụng tóc xuất hiện hoặc nặng hơn sau giai đoạn căng thẳng tâm lý, lo âu, mất ngủ, kèm dễ cáu giận, tức ngực, đau mạng sườn.</p>
+<h3>4. Thể Huyết ứ tại da đầu</h3>
+<p>Vùng rụng tóc da đầu hơi tím sạm, sờ có thể thấy hơi cứng, mảng rụng tóc dai dẳng lâu hồi phục dù đã điều trị bổ huyết.</p>
+
+<h2>Điều trị bên trong bằng bài thuốc bổ huyết, dưỡng can thận</h2>
+<p>Tùy thể bệnh, thầy thuốc gia giảm các bài thuốc nền như Thất bảo mỹ nhiệm đan (bổ can thận, đen tóc), Tứ vật thang gia giảm (dưỡng huyết), hoặc Sài hồ sơ can tán khi có yếu tố can khí uất kết do stress. Các vị thuốc thường dùng gồm Hà thủ ô đỏ, Thục địa, Đương quy, Bạch thược, Kỷ tử, Đan sâm — vừa bổ huyết dưỡng tóc, vừa hoạt huyết thông kinh lạc da đầu.</p>
+
+<h2>Điều trị bên ngoài bằng châm cứu và xoa bóp da đầu</h2>
+<ul>
+  <li><strong>Bách hội, Tứ thần thông:</strong> Các huyệt vùng đỉnh đầu, kích thích tuần hoàn máu tại chỗ, thúc đẩy mọc tóc trở lại.</li>
+  <li><strong>Phong trì, Thái dương:</strong> Hỗ trợ giảm căng thẳng, cải thiện tuần hoàn vùng đầu.</li>
+  <li><strong>Mai hoa châm (châm bì phu):</strong> Gõ nhẹ vùng da đầu bị rụng tóc để kích thích tại chỗ, tăng lưu thông khí huyết đến nang tóc.</li>
+  <li>Xoa bóp da đầu nhẹ nhàng 5–10 phút mỗi ngày bằng dầu dưỡng thảo dược (dầu mè đen ấm) giúp thư giãn, tăng tuần hoàn cục bộ.</li>
+</ul>
+
+<h2>Chăm sóc và phòng ngừa tái phát</h2>
+<p>Người bệnh cần giữ tâm lý ổn định, hạn chế stress, ngủ đủ giấc trước 23h để dưỡng can huyết. Bổ sung thực phẩm đen như mè đen, đậu đen, gạo lứt — theo YHCT các thực phẩm màu đen có tác dụng bổ thận, ích tóc. Tránh gội đầu nước quá nóng hoặc dùng hóa chất mạnh trong giai đoạn tóc đang phục hồi.</p>
+
+<div class="art-cta-box">
+  <p>Rụng tóc từng mảng cần điều trị kiên trì cả bên trong và bên ngoài để đạt hiệu quả bền vững. Phòng Khám YHCT Tâm Đức — BS. Nguyễn Đức Tâm tư vấn phác đồ phù hợp từng thể trạng, liên hệ hotline 0973 710 237, làm việc 18:00–22:00 hàng ngày tại Hà Đông, Hà Nội.</p>
+</div>
+    `
+  },
+  {
     id: 40,
     slug: "khi-cong-duong-sinh-buoi-sang-yhct",
     date: "2026-06-20",
