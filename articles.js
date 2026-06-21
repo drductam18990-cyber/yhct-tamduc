@@ -5,6 +5,55 @@
 
 const ARTICLES = [
   {
+    id: 47,
+    slug: "xoa-bop-bam-huyet-chua-dau-co-vai-gay",
+    date: "2026-06-21",
+    category: "khong-thuoc",
+    categoryLabel: "Không dùng thuốc",
+    icon: "🧘",
+    gradient: "g-herb",
+    title: "Xoa bóp bấm huyệt chữa đau cổ vai gáy: Phương pháp không dùng thuốc theo Y học cổ truyền",
+    excerpt: "Đau cổ vai gáy là tình trạng phổ biến do ngồi sai tư thế, nhiễm lạnh hoặc căng thẳng kéo dài. Xoa bóp bấm huyệt đúng cách giúp thông kinh hoạt lạc, giảm đau hiệu quả mà không cần dùng thuốc.",
+    readTime: 6,
+    content: `
+<h2>Tổng quan theo Y học cổ truyền</h2>
+<p>Đau cổ vai gáy là tình trạng đau mỏi, cứng vùng cổ, lan xuống vai và bả vai, đôi khi kèm hạn chế xoay cổ, gặp rất phổ biến ở người làm việc văn phòng, lái xe đường dài hoặc người lớn tuổi. Theo Y học cổ truyền (YHCT), chứng này thuộc phạm vi "Kiên tý" hoặc "Lạc chẩm", nguyên nhân chủ yếu do phong hàn thấp xâm nhập vùng kinh Đởm, kinh Bàng quang và kinh Tiểu trường đi qua vùng cổ vai gáy, làm khí huyết tại đây bị tắc trệ. Ngoài ra, ngồi sai tư thế lâu ngày, ít vận động hoặc căng thẳng tâm lý kéo dài cũng khiến khí huyết ứ trệ tại chỗ, gây đau mỏi dai dẳng. Xoa bóp bấm huyệt là phương pháp không dùng thuốc, tác động trực tiếp lên kinh lạc và huyệt vị vùng cổ vai gáy, giúp khu phong tán hàn, hành khí hoạt huyết, thư cân hoạt lạc, từ đó giảm đau và phục hồi tầm vận động cổ.</p>
+
+<h2>Phân thể / Nguyên nhân theo YHCT</h2>
+<ul>
+  <li><strong>Thể phong hàn thấp:</strong> Đau mỏi cổ vai gáy tăng khi gặp lạnh, trời ẩm, gió lùa (thường sau khi nằm điều hòa hoặc tắm gội xong ra ngoài lạnh), cứng cổ buổi sáng, sợ lạnh, rêu lưỡi trắng mỏng. Hướng điều trị: khu phong, tán hàn, ôn thông kinh lạc.</li>
+  <li><strong>Thể khí trệ huyết ứ:</strong> Đau cố định một điểm, đau nhiều khi ấn vào, có thể sờ thấy cơ co cứng thành dải, thường gặp sau ngồi lâu sai tư thế, làm việc máy tính kéo dài. Hướng điều trị: hành khí hoạt huyết, thông kinh chỉ thống.</li>
+  <li><strong>Thể can khí uất kết:</strong> Đau mỏi vai gáy kèm căng thẳng, dễ cáu giận, mất ngủ, hay thở dài, đau tăng khi stress. Hướng điều trị: sơ can giải uất, kết hợp thư giãn cân cơ.</li>
+  <li><strong>Thể khí huyết hư:</strong> Đau mỏi âm ỉ kéo dài, mệt mỏi, sắc mặt nhợt, đau tăng khi vận động gắng sức, giảm khi nghỉ ngơi. Hướng điều trị: bổ khí huyết, kết hợp xoa bóp nhẹ nhàng dưỡng cân.</li>
+</ul>
+
+<h2>Phương pháp điều trị / Huyệt vị / Bài thuốc</h2>
+<p>Xoa bóp bấm huyệt vùng cổ vai gáy thường kết hợp các thủ pháp xát, xoa, bóp, lăn, ấn, day tại các huyệt vị sau để khu phong tán hàn, hành khí hoạt huyết:</p>
+<ul>
+  <li><strong>Phong trì (GB20):</strong> Hõm sau gáy, giữa cơ ức đòn chũm và cơ thang, ngang dái tai. Khu phong, thông kinh lạc đầu cổ, giảm đau cứng gáy.</li>
+  <li><strong>Kiên tỉnh (GB21):</strong> Điểm cao nhất của vai, giữa đường nối huyệt Đại chùy và mỏm cùng vai. Thông kinh Đởm, giảm đau mỏi vai gáy lan xuống cánh tay.</li>
+  <li><strong>Đại chùy (GV14):</strong> Dưới mỏm gai đốt sống cổ 7 (chỗ gồ cao nhất khi cúi đầu). Khu phong tán hàn toàn vùng cổ vai, tăng dương khí.</li>
+  <li><strong>Kiên ngoại du (SI14):</strong> Cách đường giữa cột sống 3 thốn, ngang đốt sống lưng 1. Hỗ trợ giảm đau lan vùng bả vai.</li>
+  <li><strong>Hợp cốc (LI4):</strong> Mu bàn tay, giữa xương bàn tay 1 và 2. Thông kinh lạc toàn thân, hỗ trợ giảm đau vùng đầu cổ.</li>
+  <li><strong>A thị huyệt:</strong> Chính là điểm đau nhất khi sờ ấn (thường là vùng cơ thang co cứng), day ấn trực tiếp giúp giải phóng điểm co cứng tại chỗ.</li>
+</ul>
+<p>Thủ pháp xoa bóp nên bắt đầu bằng xát nóng làm ấm vùng da, sau đó bóp nhẹ cơ vai gáy, lăn cán tay dọc theo cơ thang, cuối cùng day ấn từng huyệt 30–60 giây mỗi huyệt với lực vừa phải, không ấn quá mạnh gây bầm tím.</p>
+
+<h2>Tự thực hành tại nhà</h2>
+<ul>
+  <li>Xoa ấm hai bàn tay rồi xoa nhẹ vùng gáy và vai từ trên xuống dưới 1–2 phút trước khi bấm huyệt.</li>
+  <li>Dùng ngón tay cái day ấn huyệt Phong trì và Kiên tỉnh mỗi bên 1 phút, lực tăng dần rồi giảm dần, lặp lại 2–3 lần mỗi buổi.</li>
+  <li>Xoay cổ nhẹ nhàng theo 4 hướng (gập, ngửa, nghiêng, xoay) mỗi hướng 5–10 lần, tránh xoay mạnh đột ngột khi đang đau cấp.</li>
+  <li>Tránh ngồi một tư thế quá lâu, nên đứng dậy vận động cổ vai mỗi 45–60 phút khi làm việc văn phòng.</li>
+  <li>Giữ ấm vùng cổ gáy khi ra ngoài lạnh hoặc khi nằm điều hòa, tránh để gió lùa trực tiếp vào sau gáy.</li>
+</ul>
+
+<div class="art-cta-box">
+  <p>Xoa bóp bấm huyệt mang lại hiệu quả tốt với đau cổ vai gáy thể nhẹ và mới khởi phát, nhưng cần biện chứng đúng thể bệnh để phối hợp phương pháp phù hợp, tránh chuyển thành mạn tính. Quý khách nên đến thăm khám trực tiếp tại <strong>Phòng Khám YHCT Tâm Đức</strong> — BS. Nguyễn Đức Tâm để được chẩn đoán và xoa bóp bấm huyệt đúng kỹ thuật. Liên hệ hotline <strong>0973 710 237</strong>, làm việc <strong>18:00–22:00 hàng ngày</strong> tại Hà Đông, Hà Nội.</p>
+</div>
+    `
+  },
+  {
     id: 41,
     slug: "viem-khop-dang-thap-theo-yhct",
     date: "2026-06-20",
