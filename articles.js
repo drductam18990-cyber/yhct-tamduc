@@ -5,6 +5,214 @@
 
 const ARTICLES = [
   {
+    id: 48,
+    slug: "viem-dai-trang-man-tinh-yhct-phan-the-dieu-tri",
+    date: "2026-06-21",
+    category: "mat-benh",
+    categoryLabel: "Mặt bệnh",
+    icon: "🩺",
+    gradient: "g-navy",
+    title: "Viêm đại tràng mạn tính theo Y học cổ truyền: Phân thể và phác đồ điều trị",
+    excerpt: "Viêm đại tràng mạn tính gây đau bụng, rối loạn tiêu hóa kéo dài, ảnh hưởng nặng đến chất lượng sống. Y học cổ truyền tiếp cận bệnh theo từng thể trạng cụ thể để điều trị triệt để từ gốc.",
+    readTime: 6,
+    content: `
+<h2>Tổng quan về viêm đại tràng mạn tính theo Y học cổ truyền</h2>
+<p>Viêm đại tràng mạn tính là tình trạng viêm nhiễm, tổn thương niêm mạc đại tràng kéo dài, tái phát nhiều lần, biểu hiện bằng đau bụng âm ỉ hoặc quặn từng cơn, đại tiện phân lúc lỏng lúc táo, có thể lẫn nhầy hoặc máu, kèm chướng bụng, mệt mỏi, ăn kém. Trong Y học cổ truyền (YHCT), bệnh được xếp vào phạm vi chứng "Tiết tả", "Phục thống", "Trường tích" — chỉ tình trạng tỳ vị và đại tràng mất chức năng vận hóa, thăng giáng thất thường, dẫn đến thấp trệ, khí trệ huyết ứ tích tụ tại đại tràng.</p>
+<p>Khác với y học hiện đại chủ yếu dùng kháng viêm và điều chỉnh hệ vi sinh đường ruột, YHCT chú trọng điều hòa tỳ vị — cơ quan chủ vận hóa thủy cốc, đồng thời xét đến vai trò của can (gan) trong điều khí và thận trong việc ôn ấm trường vị. Việc xác định đúng thể bệnh là yếu tố quyết định hiệu quả điều trị lâu dài.</p>
+<h2>Nguyên nhân và cơ chế bệnh sinh</h2>
+<p>Theo YHCT, viêm đại tràng mạn tính hình thành do nhiều yếu tố phối hợp:</p>
+<ul>
+<li>Ăn uống không điều độ, ăn nhiều đồ sống lạnh, cay nóng, rượu bia làm tổn thương tỳ vị.</li>
+<li>Tình chí uất ức, stress kéo dài khiến can khí uất kết, ảnh hưởng đến vận hóa của tỳ ("can khắc tỳ").</li>
+<li>Ngoại tà thấp nhiệt hoặc hàn thấp xâm nhập qua đường ăn uống, tích tụ tại đại tràng.</li>
+<li>Tỳ vị vốn hư nhược, vận hóa kém, lâu ngày sinh thấp trệ, khí huyết ứ trệ tại trường vị.</li>
+<li>Thận dương hư suy ở người cao tuổi hoặc bệnh lâu năm, không đủ ôn ấm cho tỳ thổ.</li>
+</ul>
+<h2>Phân thể bệnh và biểu hiện lâm sàng</h2>
+<p>Viêm đại tràng mạn tính theo YHCT được chia thành các thể chính sau:</p>
+<ul>
+<li><strong>Thể tỳ vị hư nhược:</strong> Đau bụng âm ỉ, đại tiện phân lỏng, sống phân, ăn vào dễ đi ngoài, mệt mỏi, sắc mặt vàng nhợt, lưỡi nhợt bệu, rêu trắng mỏng.</li>
+<li><strong>Thể thấp nhiệt uất kết:</strong> Đau bụng quặn, đại tiện phân nhầy lẫn máu, mùi hôi khó chịu, hậu môn nóng rát, miệng khô đắng, lưỡi đỏ rêu vàng nhớt.</li>
+<li><strong>Thể can khí uất kết (can tỳ bất hòa):</strong> Đau bụng liên quan rõ đến cảm xúc, đầy chướng hai bên sườn, đại tiện lúc táo lúc lỏng, ợ hơi, dễ cáu giận.</li>
+<li><strong>Thể tỳ thận dương hư:</strong> Đau bụng âm ỉ thích chườm ấm, sợ lạnh, chân tay lạnh, đại tiện lỏng kéo dài về sáng sớm (kê minh tả), lưng gối yếu mỏi.</li>
+<li><strong>Thể huyết ứ ở đại tràng:</strong> Đau bụng cố định một vị trí, đau như châm chích, đại tiện có thể lẫn máu tối, bụng sờ thấy cứng nhẹ.</li>
+</ul>
+<h2>Phương pháp điều trị theo từng thể</h2>
+<p>Nguyên tắc điều trị chung là kiện tỳ hòa vị, lý khí trừ thấp, kết hợp châm cứu và dùng thuốc theo thể bệnh:</p>
+<ul>
+<li>Thể tỳ vị hư nhược: dùng bài Sâm linh bạch truật tán gia giảm để kiện tỳ ích khí; châm cứu các huyệt Túc tam lý, Tỳ du, Vị du, Trung quản nhằm bồi bổ tỳ vị.</li>
+<li>Thể thấp nhiệt: dùng bài Bạch đầu ông thang hoặc Cát căn cầm liên thang để thanh nhiệt táo thấp; châm tả huyệt Thiên khu, Đại trường du, Hợp cốc.</li>
+<li>Thể can tỳ bất hòa: dùng bài Thống tả yếu phương gia giảm sơ can lý khí; châm huyệt Thái xung, Kỳ môn kết hợp Túc tam lý.</li>
+<li>Thể tỳ thận dương hư: dùng bài Phụ tử lý trung thang ôn bổ tỳ thận; cứu ngải các huyệt Thần khuyết, Quan nguyên, Mệnh môn.</li>
+<li>Thể huyết ứ: phối hợp hoạt huyết hóa ứ với Thiên khu, Tam âm giao, Huyết hải.</li>
+</ul>
+<h2>Chế độ ăn uống và sinh hoạt hỗ trợ điều trị</h2>
+<p>Người bệnh nên ăn chín uống sôi, chia nhỏ bữa ăn, hạn chế đồ sống lạnh, cay nóng, rượu bia và các chất kích thích. Nên bổ sung thực phẩm kiện tỳ như gạo, khoai, bí đỏ, hạt sen; giữ ấm vùng bụng, tránh căng thẳng tâm lý và duy trì vận động nhẹ nhàng như đi bộ, dưỡng sinh để hỗ trợ vận hóa của tỳ vị.</p>
+<div class="art-cta-box"><p>Nếu bạn đang gặp các triệu chứng đau bụng, rối loạn đại tiện kéo dài, hãy đến <strong>Phòng Khám YHCT Tâm Đức</strong> để được <strong>BS. Nguyễn Đức Tâm</strong> trực tiếp khám, biện chứng luận trị và xây dựng phác đồ điều trị phù hợp với thể trạng của bạn. Phòng khám làm việc từ <strong>18:00–22:00 hàng ngày</strong> tại <strong>Hà Đông, Hà Nội</strong>. Liên hệ đặt lịch qua hotline <strong>0973 710 237</strong>.</p></div>
+  `
+  },
+  {
+    id: 49,
+    slug: "thuy-cham-ho-tro-dieu-tri-yhct",
+    date: "2026-06-21",
+    category: "khong-thuoc",
+    categoryLabel: "Không dùng thuốc",
+    icon: "🧘",
+    gradient: "g-herb",
+    title: "Thủy châm hỗ trợ điều trị: Phương pháp kết hợp Đông – Tây y hiệu quả không dùng thuốc uống",
+    excerpt: "Thủy châm là phương pháp đưa thuốc trực tiếp vào huyệt vị, kết hợp tác dụng kích thích huyệt của châm cứu với dược lý của thuốc, giúp giảm đau, phục hồi thần kinh nhanh và bền vững.",
+    readTime: 5,
+    content: `
+<h2>Thủy châm là gì?</h2>
+<p>Thủy châm (còn gọi là tiêm thuốc vào huyệt) là phương pháp điều trị kết hợp giữa lý luận huyệt vị của Y học cổ truyền và kỹ thuật tiêm của y học hiện đại. Thay vì châm kim khô đơn thuần, thầy thuốc sẽ tiêm một lượng nhỏ dung dịch thuốc (thường là vitamin nhóm B, thuốc giảm đau chống viêm phù hợp hoặc dung dịch sinh lý) trực tiếp vào các huyệt vị đã được lựa chọn theo bệnh lý cụ thể.</p>
+<p>Phương pháp này được xem là sự giao thoa giữa châm cứu cổ truyền và liệu pháp dùng thuốc, mang lại hiệu quả kép: vừa kích thích huyệt vị để điều khí huyết, vừa đưa dược chất tác dụng trực tiếp tại vị trí cần điều trị.</p>
+<h2>Cơ chế tác dụng theo Y học cổ truyền và y học hiện đại</h2>
+<p>Theo YHCT, huyệt vị là nơi khí huyết của kinh lạc tụ hội với tạng phủ bên trong. Khi đưa thuốc vào huyệt, tác dụng kích thích cơ học của kim kết hợp với dược lực của thuốc sẽ khuếch đại hiệu quả thông kinh hoạt lạc, giảm đau, hành khí hoạt huyết tại chỗ.</p>
+<p>Theo y học hiện đại, huyệt vị thường nằm tại các điểm có mật độ thụ thể thần kinh, mạch máu cao; tiêm thuốc tại đây giúp thuốc được hấp thu nhanh và tập trung tác dụng dược lý đúng vùng tổn thương, đồng thời giảm liều thuốc toàn thân cần dùng so với đường uống hoặc tiêm tĩnh mạch.</p>
+<h2>Chỉ định và chống chỉ định</h2>
+<p>Thủy châm thường được chỉ định trong các trường hợp:</p>
+<ul>
+<li>Đau thần kinh tọa, đau vai gáy, đau thắt lưng mạn tính.</li>
+<li>Di chứng liệt do tai biến mạch máu não, liệt mặt ngoại biên.</li>
+<li>Đau dây thần kinh ngoại biên, tê bì chân tay do thiếu vitamin nhóm B.</li>
+<li>Đau khớp do thoái hóa, viêm quanh khớp vai.</li>
+</ul>
+<p>Chống chỉ định với người có rối loạn đông máu, dị ứng với thành phần thuốc sử dụng, vùng da tại huyệt đang viêm nhiễm, nhiễm trùng cấp, phụ nữ có thai cần cân nhắc kỹ và chỉ thực hiện khi có chỉ định của bác sĩ chuyên khoa.</p>
+<h2>Quy trình thực hiện</h2>
+<p>Bác sĩ khám và biện chứng để xác định huyệt vị phù hợp, lựa chọn loại thuốc và liều lượng thích hợp với tình trạng bệnh. Vùng da tại huyệt được sát khuẩn kỹ, sau đó tiêm một lượng nhỏ thuốc vào đúng vị trí huyệt với kỹ thuật vô khuẩn nghiêm ngặt. Mỗi liệu trình thường kéo dài 10–15 lần, cách ngày hoặc theo chỉ định cụ thể của bác sĩ.</p>
+<h2>Ưu điểm và lưu ý khi thực hiện</h2>
+<p>So với châm cứu khô, thủy châm có ưu điểm tác dụng nhanh hơn nhờ kết hợp dược lý, đặc biệt hiệu quả trong các trường hợp đau do tổn thương thần kinh. Tuy nhiên, đây là kỹ thuật y khoa cần được thực hiện bởi bác sĩ hoặc kỹ thuật viên có chuyên môn, tại cơ sở y tế đảm bảo vô khuẩn để tránh nguy cơ nhiễm trùng hoặc phản ứng với thuốc.</p>
+<div class="art-cta-box"><p>Để được tư vấn và thực hiện thủy châm an toàn, đúng chỉ định, mời bạn đến <strong>Phòng Khám YHCT Tâm Đức</strong> — nơi <strong>BS. Nguyễn Đức Tâm</strong> trực tiếp khám và điều trị theo từng tình trạng cụ thể. Phòng khám mở cửa <strong>18:00–22:00 hàng ngày</strong> tại <strong>Hà Đông, Hà Nội</strong>. Hotline tư vấn: <strong>0973 710 237</strong>.</p></div>
+  `
+  },
+  {
+    id: 50,
+    slug: "bo-duong-hoan-ngu-thang-bai-thuoc-hoat-huyet",
+    date: "2026-06-21",
+    category: "thuoc-yhct",
+    categoryLabel: "Thuốc YHCT",
+    icon: "🌿",
+    gradient: "g-fire",
+    title: "Bổ dương hoàn ngũ thang — Bài thuốc hoạt huyết bổ khí trị di chứng tai biến kinh điển",
+    excerpt: "Bổ dương hoàn ngũ thang là bài thuốc nổi tiếng của Vương Thanh Nhiệm, chuyên trị khí huyết hư kèm huyết ứ gây liệt nửa người, tê yếu chi sau tai biến mạch máu não.",
+    readTime: 5,
+    content: `
+<h2>Nguồn gốc bài thuốc</h2>
+<p>Bổ dương hoàn ngũ thang là bài thuốc cổ phương xuất xứ từ sách "Y Lâm Cải Thác" của danh y Vương Thanh Nhiệm thời nhà Thanh — một trong những thầy thuốc có nhiều đóng góp quan trọng cho lý luận hoạt huyết hóa ứ trong Y học cổ truyền. Tên bài thuốc mang ý nghĩa "bổ lại một phần dương khí đã mất", thể hiện rõ mục đích điều trị: phục hồi khí huyết và lưu thông huyết mạch ở những bệnh nhân bị tổn thương sau trúng phong (tai biến mạch máu não).</p>
+<h2>Thành phần và vai trò các vị thuốc</h2>
+<p>Bài thuốc gồm các vị thuốc chính sau, phối hợp theo nguyên tắc quân – thần – tá – sứ:</p>
+<ul>
+<li><strong>Hoàng kỳ (quân dược):</strong> Vị thuốc chủ lực với liều lượng lớn, có tác dụng đại bổ nguyên khí, ích khí để thống huyết, là nền tảng giúp khí vượng thì huyết mới lưu thông được.</li>
+<li><strong>Quy vĩ (thần dược):</strong> Hoạt huyết, dưỡng huyết, hỗ trợ Hoàng kỳ trong việc bổ khí hoạt huyết song hành.</li>
+<li><strong>Xích thược:</strong> Hoạt huyết, hành ứ, giảm tình trạng huyết trệ tại các kinh mạch bị tổn thương.</li>
+<li><strong>Xuyên khung:</strong> Hành khí hoạt huyết, dẫn thuốc đi khắp toàn thân, đặc biệt mạnh ở phần trên cơ thể.</li>
+<li><strong>Đào nhân, Hồng hoa:</strong> Phá huyết ứ, hoạt huyết mạnh, hỗ trợ thông kinh lạc bị tắc nghẽn.</li>
+<li><strong>Địa long (sứ dược):</strong> Thông kinh hoạt lạc, dẫn thuốc đến tận các khớp và đầu chi, đặc biệt hữu ích trong chứng tê liệt chi.</li>
+</ul>
+<h2>Chỉ định lâm sàng</h2>
+<p>Bài thuốc được chỉ định cho các trường hợp:</p>
+<ul>
+<li>Di chứng sau tai biến mạch máu não (trúng phong) với biểu hiện liệt nửa người, tê yếu chi, miệng méo, nói khó.</li>
+<li>Thể khí huyết hư kèm huyết ứ: người mệt mỏi, sắc mặt nhợt nhạt, chi thể yếu liệt, lưỡi nhợt có điểm ứ huyết.</li>
+<li>Hỗ trợ phục hồi vận động sau chấn thương thần kinh, liệt do các nguyên nhân mạch máu khác.</li>
+</ul>
+<h2>Chống chỉ định và lưu ý khi sử dụng</h2>
+<p>Bài thuốc chống chỉ định trong giai đoạn xuất huyết não cấp tính chưa ổn định, người có huyết áp cao chưa kiểm soát tốt, phụ nữ có thai, và người có cơ địa dễ chảy máu, rối loạn đông máu. Bài thuốc chỉ phù hợp khi bệnh đã qua giai đoạn cấp, cần được bác sĩ YHCT biện chứng kỹ trước khi kê đơn, không tự ý sử dụng để tránh tương tác với thuốc tây đang điều trị.</p>
+<h2>Gia giảm theo thể trạng</h2>
+<p>Tùy theo mức độ khí hư hay huyết ứ chiếm ưu thế, thầy thuốc có thể gia giảm liều Hoàng kỳ, thêm các vị bổ thận như Đỗ trọng, Ngưu tất nếu kèm yếu lưng gối, hoặc thêm Thiên ma, Câu đằng nếu kèm run giật, co cứng chi.</p>
+<div class="art-cta-box"><p>Việc sử dụng bài thuốc Bổ dương hoàn ngũ thang cần được bác sĩ YHCT khám và gia giảm phù hợp với từng thể trạng. Hãy đến <strong>Phòng Khám YHCT Tâm Đức</strong> để được <strong>BS. Nguyễn Đức Tâm</strong> tư vấn trực tiếp, khám và kê đơn an toàn, hiệu quả. Phòng khám hoạt động <strong>18:00–22:00 hàng ngày</strong> tại <strong>Hà Đông, Hà Nội</strong>. Hotline: <strong>0973 710 237</strong>.</p></div>
+  `
+  },
+  {
+    id: 51,
+    slug: "duong-sinh-theo-mua-thu-yhct",
+    date: "2026-06-21",
+    category: "phong-benh",
+    categoryLabel: "Phòng bệnh",
+    icon: "🛡️",
+    gradient: "g-amber",
+    title: "Dưỡng sinh theo mùa thu: Bí quyết bảo vệ sức khỏe theo Y học cổ truyền",
+    excerpt: "Mùa thu với khí hậu khô se là thời điểm Phế dễ bị tổn thương theo quan niệm YHCT. Hiểu đúng nguyên tắc dưỡng sinh mùa thu giúp phòng ngừa ho, viêm họng và các bệnh hô hấp hiệu quả.",
+    readTime: 5,
+    content: `
+<h2>Đặc điểm khí hậu mùa thu và ảnh hưởng tới sức khỏe</h2>
+<p>Theo Y học cổ truyền, mùa thu là giai đoạn chuyển tiếp giữa dương khí thịnh của mùa hè sang âm khí thịnh của mùa đông, đặc trưng bởi khí "táo" (khô hanh). Tạng Phế trong ngũ hành thuộc Kim, tương ứng với mùa thu, có đặc tính "ưa nhuận, ghét táo" — nghĩa là Phế dễ bị tổn thương nhất khi thời tiết khô hanh kéo dài. Khí táo xâm nhập qua đường hô hấp và da gây nên các chứng ho khan, đau rát họng, khô mũi, khô da, dễ mắc các bệnh viêm đường hô hấp trên.</p>
+<h2>Nguyên tắc dưỡng sinh mùa thu: Dưỡng Phế, nhuận táo</h2>
+<p>Nguyên tắc dưỡng sinh cốt lõi của mùa thu là "thu thu đông tàng" — thu khí, giữ gìn tinh thần và cơ thể trầm tĩnh, tránh để dương khí phát tán quá mức như mùa hè. Cần đặc biệt chú trọng bổ dưỡng và bảo vệ tạng Phế, đồng thời tư âm nhuận táo để cân bằng lại sự khô hanh của thời tiết.</p>
+<h2>Chế độ ăn uống mùa thu</h2>
+<p>Về ăn uống, nên ưu tiên các thực phẩm có tính nhuận, bổ Phế như:</p>
+<ul>
+<li>Lê, mật ong, ngân nhĩ (mộc nhĩ trắng), bách hợp — có tác dụng nhuận Phế, sinh tân dịch.</li>
+<li>Vừng đen, hạt sen, củ sen — bổ âm nhuận táo.</li>
+<li>Hạn chế đồ ăn cay nóng, chiên xào nhiều dầu mỡ vì dễ làm tổn thương âm dịch, gia tăng tình trạng khô táo trong người.</li>
+<li>Uống đủ nước, có thể dùng các loại trà thảo dược như trà hoa cúc, trà atiso để thanh nhiệt nhuận táo nhẹ nhàng.</li>
+</ul>
+<h2>Luyện tập và sinh hoạt</h2>
+<p>Mùa thu nên duy trì các bài tập nhẹ nhàng như đi bộ, dưỡng sinh, hít thở sâu vào buổi sáng để tăng cường chức năng Phế. Cần giữ ấm vùng cổ, ngực khi thời tiết chuyển lạnh về đêm, tránh để cơ thể bị nhiễm lạnh đột ngột. Giữ tinh thần thư thái, tránh lo âu phiền muộn vì theo YHCT, Phế cũng liên quan mật thiết đến cảm xúc buồn bã, ưu sầu.</p>
+<h2>Phòng ngừa các bệnh thường gặp mùa thu</h2>
+<p>Để phòng ngừa ho, viêm họng, viêm mũi dị ứng và các bệnh hô hấp thường gia tăng vào mùa thu, nên giữ ẩm không khí trong nhà, vệ sinh mũi họng hàng ngày, hạn chế tiếp xúc với khói bụi, phấn hoa. Người có cơ địa dị ứng, hen suyễn cần chủ động thăm khám sớm khi có dấu hiệu bất thường để được điều trị và dự phòng kịp thời.</p>
+<div class="art-cta-box"><p>Để được tư vấn chế độ dưỡng sinh phù hợp theo mùa và thể trạng riêng, mời bạn đến <strong>Phòng Khám YHCT Tâm Đức</strong> gặp <strong>BS. Nguyễn Đức Tâm</strong>. Phòng khám làm việc <strong>18:00–22:00 hàng ngày</strong> tại <strong>Hà Đông, Hà Nội</strong>. Liên hệ hotline <strong>0973 710 237</strong> để đặt lịch khám.</p></div>
+  `
+  },
+  {
+    id: 52,
+    slug: "phuong-huyet-dieu-tri-hen-phe-quan",
+    date: "2026-06-21",
+    category: "phuong-huyet",
+    categoryLabel: "Phương huyệt",
+    icon: "📍",
+    gradient: "g-huyet",
+    title: "Phương huyệt điều trị Hen phế quản theo Y học cổ truyền",
+    excerpt: "Châm cứu các huyệt vị đặc hiệu giúp cắt cơn khó thở, giảm tần suất tái phát và nâng cao chức năng hô hấp cho người bệnh hen phế quản theo nguyên tắc của Y học cổ truyền.",
+    readTime: 6,
+    content: `
+<h2>Tổng quan về hen phế quản theo Y học cổ truyền</h2>
+<p>Hen phế quản thuộc phạm vi chứng "Háo suyễn" trong YHCT, đặc trưng bởi các cơn khó thở, thở khò khè, ho, tức ngực tái phát, liên quan đến rối loạn chức năng của ba tạng Phế, Tỳ, Thận — trong đó Phế chủ khí và là cơ quan trực tiếp bị ảnh hưởng. Khi cơn hen tái phát nhiều lần, đờm thấp tích tụ lâu ngày tại Phế gây nên tình trạng tắc nghẽn đường thở. Châm cứu các huyệt vị phù hợp giúp tuyên thông Phế khí, hóa đờm, bình suyễn, đồng thời bồi bổ căn nguyên ở Tỳ và Thận để giảm tái phát.</p>
+<h2>Nguyên tắc lựa chọn huyệt</h2>
+<p>Nguyên tắc châm cứu trong hen phế quản là kết hợp huyệt tại chỗ vùng ngực — lưng để tuyên Phế, giáng khí, cắt cơn cấp, đồng thời phối hợp các huyệt toàn thân để bổ Tỳ Thận, củng cố căn bản phòng tái phát.</p>
+<h2>Các huyệt vị chính trong điều trị hen phế quản</h2>
+<ul>
+<li><strong>Phế du (BL13):</strong> Nằm ở vùng lưng trên, cách đốt sống ngực 3 (D3) khoảng 1,5 thốn ra hai bên. Đây là huyệt du của tạng Phế, có tác dụng tuyên Phế, hóa đờm, là huyệt chủ lực trong mọi bệnh lý hô hấp.</li>
+<li><strong>Định suyễn (huyệt ngoài kinh):</strong> Nằm cách đốt sống cổ 7 (C7) khoảng 0,5 thốn ra hai bên. Huyệt có tác dụng đặc hiệu cắt cơn khó thở, bình suyễn nhanh.</li>
+<li><strong>Thiên đột (CV22):</strong> Nằm tại chính giữa hõm trên xương ức, ngay dưới yết hầu. Có tác dụng tuyên thông Phế khí, giảm ho, giảm cảm giác tức nghẹn ở cổ họng.</li>
+<li><strong>Đản trung (CV17):</strong> Nằm tại điểm giữa hai núm vú, trên đường giữa ngực. Huyệt hội của khí, có tác dụng khoan khoái lồng ngực, giáng khí, giảm tức ngực khi khó thở.</li>
+<li><strong>Khổng tối (LU6):</strong> Nằm trên đường nối từ huyệt Xích trạch đến Thái uyên, cách cổ tay khoảng 7 thốn ở mặt trước cẳng tay. Huyệt khích của kinh Phế, có tác dụng đặc hiệu cắt cơn ho, cơn hen cấp.</li>
+<li><strong>Túc tam lý (ST36):</strong> Nằm dưới hõm ngoài đầu gối khoảng 3 thốn, cách mào xương chày một khoát ngón tay. Có tác dụng kiện Tỳ ích khí, nâng cao thể trạng, hỗ trợ phòng tái phát.</li>
+<li><strong>Thái uyên (LU9):</strong> Nằm tại lằn chỉ cổ tay phía ngón cái, chỗ lõm động mạch quay. Là huyệt nguyên của kinh Phế, có tác dụng bổ Phế khí, tăng cường chính khí đường hô hấp.</li>
+</ul>
+<h2>Phối hợp điều trị theo giai đoạn bệnh</h2>
+<p>Trong cơn hen cấp, ưu tiên châm tả các huyệt Định suyễn, Thiên đột, Khổng tối để cắt cơn nhanh. Ở giai đoạn ổn định ngoài cơn, nên phối hợp châm bổ và cứu ấm các huyệt Phế du, Túc tam lý, Thái uyên, kết hợp dùng thuốc bổ Tỳ Thận để củng cố căn bản, giảm tần suất và mức độ các cơn hen trong tương lai.</p>
+<h2>Lưu ý khi điều trị</h2>
+<p>Châm cứu hỗ trợ điều trị hen phế quản cần được thực hiện bởi thầy thuốc có chuyên môn, kết hợp theo dõi sát tình trạng hô hấp. Trường hợp cơn hen nặng, khó thở dữ dội cần xử trí cấp cứu y tế hiện đại trước, sau đó mới phối hợp châm cứu và YHCT để điều trị củng cố lâu dài.</p>
+<div class="art-cta-box"><p>Nếu bạn hoặc người thân đang gặp tình trạng hen phế quản tái phát nhiều lần, hãy đến <strong>Phòng Khám YHCT Tâm Đức</strong> để được <strong>BS. Nguyễn Đức Tâm</strong> khám, châm cứu và xây dựng phác đồ điều trị phù hợp. Phòng khám làm việc <strong>18:00–22:00 hàng ngày</strong> tại <strong>Hà Đông, Hà Nội</strong>. Hotline: <strong>0973 710 237</strong>.</p></div>
+  `
+  },
+  {
+    id: 53,
+    slug: "tri-mun-trung-ca-the-thap-nhiet-yhct",
+    date: "2026-06-21",
+    category: "lam-dep",
+    categoryLabel: "Làm đẹp",
+    icon: "🌸",
+    gradient: "g-rose",
+    title: "Trị mụn trứng cá thể thấp nhiệt theo Y học cổ truyền",
+    excerpt: "Mụn trứng cá sưng đỏ, có mủ, da nhờn dầu thường liên quan đến thể thấp nhiệt ở Phế và Vị theo YHCT. Điều trị đúng thể giúp giải quyết mụn từ gốc, hạn chế tái phát.",
+    readTime: 5,
+    content: `
+<h2>Mối liên hệ giữa mụn trứng cá và tạng phủ theo Y học cổ truyền</h2>
+<p>Theo quan niệm YHCT, da mặt là nơi phản ánh trực tiếp tình trạng khí huyết và chức năng của các tạng phủ bên trong, đặc biệt là Phế, Vị và Can. Mụn trứng cá được xếp vào chứng "Phấn thứ" hay "Tửu thứ", phần lớn xuất phát từ tình trạng thấp nhiệt uất kết tại Phế và Vị. Khi ăn uống nhiều đồ cay nóng, dầu mỡ, đồ ngọt, hoặc cơ thể có cơ địa thấp nhiệt, nhiệt độc tích tụ sẽ bốc lên vùng mặt theo đường kinh của Phế và Vị, gây nên mụn sưng đỏ, có mủ, da nhờn dầu, lỗ chân lông to.</p>
+<h2>Đặc điểm nhận biết mụn trứng cá thể thấp nhiệt</h2>
+<p>Mụn thể thấp nhiệt thường có các đặc điểm: nốt mụn sưng to, đỏ, có đầu mủ trắng hoặc vàng, da mặt nhờn dầu rõ rệt, lỗ chân lông giãn to, có thể kèm ngứa rát nhẹ. Người bệnh thường kèm các biểu hiện toàn thân như miệng khô đắng, hơi thở hôi, đại tiện táo hoặc phân nát, rêu lưỡi vàng nhớt — đây là các dấu hiệu giúp phân biệt với các thể mụn khác như thể huyết ứ (mụn thâm, sẹo lồi) hay thể âm hư (mụn nhỏ, da khô, dễ tái phát khi stress).</p>
+<h2>Điều trị từ bên trong bằng bài thuốc thanh nhiệt giải độc</h2>
+<p>Nguyên tắc điều trị thể thấp nhiệt là thanh nhiệt, giải độc, trừ thấp, lương huyết. Các bài thuốc thường được sử dụng gồm Tỳ bà thanh phế ẩm gia giảm để thanh Phế nhiệt, hoặc Hoàng liên giải độc thang gia giảm để thanh nhiệt giải độc toàn thân, kết hợp các vị thuốc lương huyết tiêu viêm như Kim ngân hoa, Bồ công anh, Sinh địa, Đan sâm tùy theo mức độ viêm của mụn. Việc gia giảm cần do bác sĩ YHCT biện chứng cụ thể trên từng người bệnh.</p>
+<h2>Điều trị từ bên ngoài: Châm cứu và chăm sóc da</h2>
+<p>Bên cạnh dùng thuốc, có thể phối hợp châm cứu các huyệt Hợp cốc, Khúc trì, Nội đình để thanh nhiệt tả hỏa theo đường kinh Dương minh — kinh đi qua vùng mặt nhiều nhất, giúp giảm viêm và hỗ trợ đào thải độc tố. Về chăm sóc ngoài da, có thể đắp mặt bằng các thảo dược có tính thanh nhiệt như Trà xanh, Diếp cá, Nha đam giúp làm dịu da, giảm sưng viêm, tuy nhiên cần thử phản ứng trên vùng da nhỏ trước khi áp dụng toàn mặt để tránh kích ứng.</p>
+<h2>Chế độ ăn uống và sinh hoạt phòng ngừa tái phát</h2>
+<p>Người có cơ địa thấp nhiệt cần hạn chế tối đa đồ cay nóng, nhiều dầu mỡ, đồ ngọt, rượu bia — đây là các yếu tố làm gia tăng nhiệt độc trong cơ thể. Nên tăng cường rau xanh, trái cây có tính thanh nhiệt như rau diếp cá, mướp đắng, bí đao; uống đủ nước, ngủ đủ giấc và giữ vệ sinh da mặt sạch sẽ hàng ngày để hỗ trợ quá trình điều trị mụn đạt hiệu quả bền vững.</p>
+<div class="art-cta-box"><p>Để được khám và xác định đúng thể bệnh, xây dựng phác đồ điều trị mụn trứng cá phù hợp với cơ địa, hãy đến <strong>Phòng Khám YHCT Tâm Đức</strong> gặp <strong>BS. Nguyễn Đức Tâm</strong>. Phòng khám làm việc <strong>18:00–22:00 hàng ngày</strong> tại <strong>Hà Đông, Hà Nội</strong>. Hotline tư vấn: <strong>0973 710 237</strong>.</p></div>
+  `
+  },
+  {
     id: 47,
     slug: "xoa-bop-bam-huyet-chua-dau-co-vai-gay",
     date: "2026-06-21",
