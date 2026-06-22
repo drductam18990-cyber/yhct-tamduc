@@ -4,6 +4,240 @@
 // gradient values: "g-herb" | "g-amber" | "g-navy" | "g-fire" | "g-huyet" | "g-rose"
 
 const ARTICLES = [
+{
+  id: 55,
+  slug: "viem-khop-vai-dong-cung-ngu-thap-kien-theo-yhct",
+  date: "2026-06-22",
+  category: "mat-benh",
+  categoryLabel: "Mặt bệnh",
+  icon: "🩺",
+  gradient: "g-navy",
+  title: "Viêm khớp vai đông cứng (Ngũ thập kiên) theo Y học cổ truyền: Phân thể và phác đồ điều trị",
+  excerpt: "Viêm khớp vai đông cứng, dân gian còn gọi là \"ngũ thập kiên\", gây đau và hạn chế vận động khớp vai kéo dài. Y học cổ truyền phân thể bệnh rõ ràng để có phác đồ châm cứu, xoa bóp và dùng thuốc phù hợp.",
+  readTime: 6,
+  content: `
+<h2>Tổng quan về viêm khớp vai đông cứng</h2>
+<p>Viêm khớp vai đông cứng (frozen shoulder) là tình trạng viêm dính bao khớp vai khiến khớp vai đau nhức và bị hạn chế vận động nặng, thường gặp ở người 40-60 tuổi nên dân gian gọi là "ngũ thập kiên". Bệnh diễn tiến qua ba giai đoạn: giai đoạn đau (đau tăng dần, vận động khó), giai đoạn cứng (đau giảm nhưng vận động rất hạn chế) và giai đoạn hồi phục (vận động cải thiện dần). Trong Y học cổ truyền (YHCT), bệnh được quy vào chứng "kiên tý" hay "lậu kiên phong", do kinh lạc vùng vai bị tà khí phong hàn thấp xâm nhập, khí huyết vận hành kém, lâu ngày dẫn đến khí huyết ứ trệ tại khớp vai.</p>
+
+<h2>Nguyên nhân và cơ chế bệnh sinh theo Y học cổ truyền</h2>
+<p>YHCT cho rằng nguyên nhân gây bệnh gồm hai nhóm chính: ngoại nhân và nội nhân. Ngoại nhân là phong, hàn, thấp xâm nhập qua da, kinh lạc vùng vai gáy khi cơ thể suy yếu, ra mồ hôi gặp lạnh hoặc nằm ngủ nơi có gió lùa. Nội nhân là do tạng phủ suy yếu, đặc biệt là can thận hư, khí huyết bất túc ở người trung niên, khiến cân cơ vùng vai không được nuôi dưỡng đầy đủ, dễ bị tà khí thừa cơ xâm nhập gây tắc trở kinh lạc, sinh đau và co cứng khớp vai.</p>
+
+<h2>Phân thể bệnh</h2>
+<p>Tùy theo biểu hiện lâm sàng, viêm khớp vai đông cứng được chia thành các thể sau:</p>
+<ul>
+<li><strong>Thể phong hàn thấp tý (giai đoạn cấp):</strong> Đau vai dữ dội, đau tăng khi gặp lạnh hoặc mưa ẩm, sợ lạnh, vận động khớp vai rất hạn chế, rêu lưỡi trắng nhớt.</li>
+<li><strong>Thể khí huyết ứ trệ:</strong> Đau nhói cố định một vị trí, đau tăng về đêm, vận động khớp vai bị cản trở rõ, có thể sờ thấy điểm đau chói (a thị huyệt), lưỡi có điểm ứ huyết.</li>
+<li><strong>Thể can thận âm hư:</strong> Thường gặp ở người trung niên, cao tuổi, đau vai âm ỉ kéo dài kèm mỏi lưng, gối, ù tai, ngủ kém, lưỡi đỏ ít rêu.</li>
+<li><strong>Thể đàm thấp ứ trệ:</strong> Gặp ở người thể trạng béo, nặng nề, vai tê bì nhiều hơn đau, kèm cảm giác nặng nề toàn thân, rêu lưỡi dày nhớt.</li>
+</ul>
+
+<h2>Phương pháp điều trị</h2>
+<p>Nguyên tắc điều trị chung là khu phong, tán hàn, trừ thấp, hoạt huyết thông kinh lạc, kết hợp bổ khí huyết và bổ can thận tùy thể bệnh.</p>
+<ul>
+<li><strong>Châm cứu:</strong> Sử dụng các huyệt vùng vai như Kiên ngung, Kiên liêu, Kiên trinh, Tý nhu phối hợp với Khúc trì, Hợp cốc, Ngoại quan để thông kinh hoạt lạc, giảm đau, tăng tầm vận động khớp vai.</li>
+<li><strong>Cứu ngải (ôn châm):</strong> Áp dụng cho thể phong hàn thấp tý, giúp ôn thông kinh lạc, giảm đau nhanh.</li>
+<li><strong>Xoa bóp bấm huyệt:</strong> Kết hợp các thủ pháp xoa, day, bấm, vận động khớp vai nhẹ nhàng để giảm dính khớp, tăng tầm vận động.</li>
+<li><strong>Bài thuốc YHCT:</strong> Thể phong hàn thấp dùng các bài khu phong tán hàn trừ thấp; thể khí huyết ứ trệ dùng bài hoạt huyết hóa ứ; thể can thận âm hư dùng các bài bổ can thận, dưỡng cân.</li>
+</ul>
+
+<h2>Lời khuyên phòng ngừa và tập luyện</h2>
+<p>Người bệnh cần giữ ấm vùng vai gáy, tránh để quạt, điều hòa thổi trực tiếp vào vai khi ngủ. Nên tập các bài vận động khớp vai nhẹ nhàng hàng ngày như đưa tay lên cao, xoay vai, kéo dây qua ròng rọc để duy trì tầm vận động, tránh để khớp vai bị dính cứng hoàn toàn. Việc điều trị kết hợp châm cứu, xoa bóp và bài thuốc phù hợp thể bệnh ngay từ giai đoạn đầu sẽ giúp rút ngắn thời gian hồi phục đáng kể.</p>
+
+<div class="art-cta-box"><p>Nếu bạn đang bị đau cứng khớp vai, hạn chế vận động kéo dài, hãy đến <strong>Phòng Khám YHCT Tâm Đức</strong> để được <strong>BS. Nguyễn Đức Tâm</strong> trực tiếp thăm khám, biện chứng phân thể và xây dựng phác đồ châm cứu, xoa bóp, dùng thuốc phù hợp. Phòng khám làm việc từ <strong>18:00–22:00 hàng ngày</strong> tại <strong>Hà Đông, Hà Nội</strong>. Liên hệ đặt lịch: <strong>0973 710 237</strong>.</p></div>
+  `
+},
+{
+  id: 56,
+  slug: "tho-bung-phuc-thuc-ho-hap-duong-sinh-khong-dung-thuoc",
+  date: "2026-06-22",
+  category: "khong-thuoc",
+  categoryLabel: "Không dùng thuốc",
+  icon: "🧘",
+  gradient: "g-herb",
+  title: "Thở bụng (Phúc thức hô hấp): Phương pháp dưỡng sinh không dùng thuốc theo Y học cổ truyền",
+  excerpt: "Thở bụng là kỹ thuật hô hấp cổ truyền giúp điều khí, an thần, kiện tỳ vị mà không cần dùng thuốc. Đây là phương pháp dưỡng sinh đơn giản, có thể luyện tập mỗi ngày để cải thiện sức khỏe toàn diện.",
+  readTime: 5,
+  content: `
+<h2>Thở bụng là gì theo quan điểm Y học cổ truyền</h2>
+<p>Thở bụng, còn gọi là phúc thức hô hấp hay thở đan điền, là kỹ thuật hít thở sâu bằng cơ hoành, đưa khí xuống vùng bụng dưới (vùng đan điền) thay vì chỉ thở ngắn ở lồng ngực như thông thường. Theo Y học cổ truyền, "khí" là nguồn năng lượng sống vận hành trong toàn thân, và đan điền được xem là "bể chứa khí" quan trọng của cơ thể. Luyện thở bụng đúng cách giúp dẫn khí về đan điền, làm cho khí huyết lưu thông điều hòa, từ đó nuôi dưỡng ngũ tạng, đặc biệt là tỳ, phế và thận.</p>
+
+<h2>Cơ chế tác dụng</h2>
+<p>Khi thở bụng, cơ hoành hạ xuống sâu hơn, tạo áp lực nhẹ xoa bóp các tạng phủ vùng bụng như tỳ, vị, gan, thận, hỗ trợ tiêu hóa và tuần hoàn khí huyết tại chỗ. Đồng thời, nhịp thở chậm và sâu giúp tâm thần an định, giảm trạng thái căng thẳng, lo âu – điều mà YHCT gọi là "điều tâm, dưỡng thần". Về lâu dài, luyện tập thường xuyên giúp kiện tỳ vị, bổ phế khí, cố thận tinh, là một phương pháp dưỡng sinh toàn diện không cần dùng đến thuốc.</p>
+
+<h2>Hướng dẫn kỹ thuật thực hành</h2>
+<ul>
+<li><strong>Bước 1:</strong> Ngồi hoặc nằm ở tư thế thoải mái, thả lỏng toàn thân, một tay đặt lên ngực, một tay đặt lên bụng dưới rốn.</li>
+<li><strong>Bước 2:</strong> Hít vào chậm bằng mũi, cảm nhận bụng dưới phình lên (tay đặt trên bụng nhô lên), tay trên ngực gần như không di chuyển.</li>
+<li><strong>Bước 3:</strong> Giữ hơi nhẹ trong 1-2 giây, sau đó thở ra chậm bằng mũi hoặc miệng, bụng dưới hạ xuống tự nhiên.</li>
+<li><strong>Bước 4:</strong> Lặp lại đều đặn 10-15 phút mỗi lần, 1-2 lần mỗi ngày, tốt nhất vào sáng sớm và trước khi ngủ.</li>
+</ul>
+
+<h2>Lợi ích với các nhóm bệnh thường gặp</h2>
+<p>Thở bụng được khuyến khích áp dụng hỗ trợ cho nhiều tình trạng: người mất ngủ, hay lo âu căng thẳng nhờ tác dụng an thần định tâm; người rối loạn tiêu hóa, đầy bụng do tỳ vị khí trệ nhờ tác dụng kiện tỳ; người có bệnh hô hấp mạn tính như hen, viêm phế quản nhờ tăng dung tích phổi và điều hòa phế khí; người cao tuổi suy nhược cũng có thể luyện tập nhẹ nhàng để bồi bổ nguyên khí.</p>
+
+<h2>Lưu ý khi luyện tập</h2>
+<p>Nên luyện tập ở nơi thoáng khí, yên tĩnh, tránh tập ngay sau khi ăn no. Người mới bắt đầu nên tập với nhịp thở tự nhiên, không gắng sức nín thở quá lâu để tránh chóng mặt. Người có bệnh tim mạch, hô hấp nặng nên tham khảo ý kiến thầy thuốc trước khi luyện tập với cường độ cao.</p>
+
+<div class="art-cta-box"><p>Nếu bạn muốn được hướng dẫn luyện thở bụng đúng cách kết hợp với các phương pháp dưỡng sinh khác phù hợp thể trạng, hãy đến <strong>Phòng Khám YHCT Tâm Đức</strong> để được <strong>BS. Nguyễn Đức Tâm</strong> tư vấn trực tiếp. Phòng khám làm việc từ <strong>18:00–22:00 hàng ngày</strong> tại <strong>Hà Đông, Hà Nội</strong>. Liên hệ đặt lịch: <strong>0973 710 237</strong>.</p></div>
+  `
+},
+{
+  id: 57,
+  slug: "que-chi-phuc-linh-hoan-bai-thuoc-hoat-huyet-tieu-trung",
+  date: "2026-06-22",
+  category: "thuoc-yhct",
+  categoryLabel: "Thuốc YHCT",
+  icon: "🌿",
+  gradient: "g-fire",
+  title: "Quế chi phục linh hoàn — Bài thuốc hoạt huyết tiêu trưng kinh điển của Y học cổ truyền",
+  excerpt: "Quế chi phục linh hoàn là bài thuốc cổ phương nổi tiếng trong điều trị huyết ứ, trưng hà (u cục vùng bụng dưới), rong huyết và thống kinh ở phụ nữ. Bài thuốc thể hiện rõ nguyên tắc hoạt huyết hóa ứ của Y học cổ truyền.",
+  readTime: 5,
+  content: `
+<h2>Nguồn gốc xuất xứ</h2>
+<p>Quế chi phục linh hoàn (còn gọi là Quế chi phục linh thang) là bài thuốc cổ phương được ghi chép trong sách "Kim quỹ yếu lược" của danh y Trương Trọng Cảnh thời Đông Hán. Đây là một trong những bài thuốc kinh điển về hoạt huyết hóa ứ, tiêu trưng (làm tan các khối u cục), được sử dụng phổ biến trong các bệnh lý phụ khoa liên quan đến huyết ứ ở phụ nữ.</p>
+
+<h2>Thành phần và vai trò từng vị thuốc</h2>
+<p>Bài thuốc gốc gồm năm vị dược liệu với liều lượng bằng nhau, mỗi vị giữ một vai trò riêng trong cấu trúc bài thuốc:</p>
+<ul>
+<li><strong>Quế chi:</strong> Vị quân dược, có tác dụng ôn thông kinh mạch, hành huyết, giúp dẫn các vị thuốc khác đi vào vùng huyết ứ.</li>
+<li><strong>Phục linh:</strong> Kiện tỳ, lợi thủy, trừ thấp, hỗ trợ tiêu trừ phần thấp trệ phối hợp với huyết ứ tạo thành trưng hà.</li>
+<li><strong>Đào nhân:</strong> Hoạt huyết, hóa ứ, nhuận tràng, là vị thuốc chủ lực phá vỡ huyết ứ kết tụ.</li>
+<li><strong>Xích thược (hoặc Bạch thược):</strong> Hoạt huyết, chỉ thống, điều hòa kinh nguyệt, giảm đau do huyết ứ.</li>
+<li><strong>Đan bì (mẫu đơn bì):</strong> Thanh huyết nhiệt, hoạt huyết, hóa ứ, hỗ trợ tiêu tan kết tụ huyết ứ kèm nhiệt.</li>
+</ul>
+<p>Sự phối hợp giữa vị ôn (Quế chi) và các vị hoạt huyết, thanh nhiệt khác tạo nên tác dụng "ôn thông nhưng không quá nhiệt, hoạt huyết nhưng không hại chính khí", phù hợp điều trị huyết ứ kèm thấp trệ kéo dài.</p>
+
+<h2>Công năng chủ trị</h2>
+<p>Bài thuốc có công năng hoạt huyết hóa ứ, tiêu trưng tán kết, thường được chỉ định trong các trường hợp huyết ứ ở tử cung và vùng bụng dưới gây ra các triệu chứng như đau bụng dưới, rong huyết, kinh nguyệt không đều, có khối u cục vùng bụng dưới.</p>
+
+<h2>Chỉ định lâm sàng</h2>
+<ul>
+<li>U xơ tử cung kèm rong huyết, đau bụng dưới do huyết ứ.</li>
+<li>Thống kinh (đau bụng kinh) do huyết ứ trệ, đau cố định, máu kinh có cục.</li>
+<li>Lạc nội mạc tử cung, u nang buồng trứng có biểu hiện huyết ứ.</li>
+<li>Sót thai lưu, huyết ứ sau sảy thai, sau sinh gây đau bụng dưới kéo dài.</li>
+</ul>
+
+<h2>Chống chỉ định và lưu ý</h2>
+<p>Bài thuốc có tính hoạt huyết mạnh nên tuyệt đối không dùng cho phụ nữ đang mang thai vì có thể gây sảy thai. Người có thể trạng hư hàn, khí huyết hư nhiều, hoặc đang có xuất huyết cấp nặng cần được thầy thuốc đánh giá kỹ và gia giảm phù hợp trước khi sử dụng. Việc dùng bài thuốc cần có sự thăm khám, biện chứng cụ thể của thầy thuốc YHCT, không tự ý sử dụng để tránh ảnh hưởng đến sức khỏe sinh sản.</p>
+
+<div class="art-cta-box"><p>Nếu bạn đang gặp các vấn đề về huyết ứ, rong huyết, thống kinh hoặc u xơ tử cung, hãy đến <strong>Phòng Khám YHCT Tâm Đức</strong> để được <strong>BS. Nguyễn Đức Tâm</strong> thăm khám, biện chứng và tư vấn sử dụng bài thuốc phù hợp, an toàn. Phòng khám làm việc từ <strong>18:00–22:00 hàng ngày</strong> tại <strong>Hà Đông, Hà Nội</strong>. Liên hệ đặt lịch: <strong>0973 710 237</strong>.</p></div>
+  `
+},
+{
+  id: 58,
+  slug: "cham-soc-suc-khoe-sau-50-tuoi-theo-yhct",
+  date: "2026-06-22",
+  category: "phong-benh",
+  categoryLabel: "Phòng bệnh",
+  icon: "🛡️",
+  gradient: "g-amber",
+  title: "Chăm sóc sức khỏe sau 50 tuổi theo Y học cổ truyền: Dưỡng sinh để sống thọ, sống khỏe",
+  excerpt: "Sau tuổi 50, cơ thể trải qua nhiều thay đổi sinh lý theo quan điểm Y học cổ truyền. Dưỡng sinh đúng cách ở giai đoạn này giúp phòng bệnh, kéo dài tuổi thọ và nâng cao chất lượng sống.",
+  readTime: 6,
+  content: `
+<h2>Đặc điểm sinh lý cơ thể sau 50 tuổi theo Y học cổ truyền</h2>
+<p>Theo Y học cổ truyền (YHCT), con người trải qua các giai đoạn sinh, trưởng, thịnh, suy theo quy luật của thận khí và tiên thiên chi khí. Sau tuổi 50, thận khí bắt đầu suy giảm rõ rệt, kéo theo sự suy yếu của các tạng phủ khác do thận được xem là "gốc của tiên thiên". Đồng thời, tỳ vị (hệ tiêu hóa) cũng hoạt động kém hiệu quả hơn, khí huyết sinh ra không còn dồi dào như tuổi trẻ, dẫn đến các biểu hiện như mỏi lưng, mỏi gối, tóc bạc, da khô, ngủ kém, trí nhớ giảm.</p>
+
+<h2>Nguyên tắc dưỡng sinh ở tuổi trung niên và cao niên</h2>
+<p>Nguyên tắc dưỡng sinh cốt lõi sau 50 tuổi là "bổ thận, kiện tỳ, dưỡng tâm, điều khí huyết". Cần chú trọng bồi bổ từ từ, tránh dùng các phương pháp quá mạnh gây hao tổn chính khí. Việc dưỡng sinh cần kết hợp đồng thời cả ăn uống, vận động, sinh hoạt và điều chỉnh tinh thần, không chỉ dựa vào một phương pháp đơn lẻ.</p>
+
+<h2>Chế độ ăn uống phù hợp</h2>
+<ul>
+<li>Ăn uống điều độ, ưu tiên thực phẩm dễ tiêu, ấm nóng, hạn chế đồ lạnh, đồ dầu mỡ gây hại tỳ vị.</li>
+<li>Bổ sung các thực phẩm bổ thận như hạt sen, kỷ tử, hà thủ ô, mè đen, các loại đậu.</li>
+<li>Ăn nhiều rau xanh, trái cây tươi để bổ sung tân dịch, hỗ trợ nhuận tràng, phòng táo bón thường gặp ở người cao tuổi.</li>
+<li>Hạn chế rượu bia, đồ ăn quá mặn, quá cay nóng vì dễ gây tổn hại can thận.</li>
+</ul>
+
+<h2>Vận động và rèn luyện thân thể</h2>
+<p>Người sau 50 tuổi nên duy trì vận động nhẹ nhàng, đều đặn mỗi ngày như đi bộ, dưỡng sinh, bát đoạn cẩm, thái cực quyền, tránh các bài tập gắng sức quá mức gây hao tổn nguyên khí. Vận động đều đặn giúp khí huyết lưu thông, xương khớp linh hoạt, phòng ngừa thoái hóa khớp và loãng xương.</p>
+
+<h2>Điều chỉnh sinh hoạt và tinh thần</h2>
+<p>YHCT rất coi trọng yếu tố tinh thần trong dưỡng sinh, gọi là "dưỡng tâm an thần". Cần giữ tâm trạng an định, tránh lo âu, tức giận quá mức vì dễ làm tổn hại can khí. Nên ngủ đủ giấc, đi ngủ và thức dậy đúng giờ, tránh thức khuya làm hao tổn âm huyết.</p>
+
+<h2>Hỗ trợ bằng các phương pháp Y học cổ truyền</h2>
+<p>Có thể áp dụng thêm các phương pháp như ngâm chân thảo dược ấm trước khi ngủ để dẫn khí huyết về dưới, bấm huyệt dưỡng sinh tại các huyệt Túc tam lý, Thái khê, Quan nguyên, Khí hải để bồi bổ nguyên khí. Việc thăm khám định kỳ với thầy thuốc YHCT để được biện chứng thể trạng và bồi bổ bằng bài thuốc phù hợp cũng rất cần thiết để phòng bệnh từ sớm.</p>
+
+<div class="art-cta-box"><p>Nếu bạn đã ngoài 50 tuổi và muốn được tư vấn dưỡng sinh, bồi bổ sức khỏe phù hợp với thể trạng, hãy đến <strong>Phòng Khám YHCT Tâm Đức</strong> để được <strong>BS. Nguyễn Đức Tâm</strong> thăm khám trực tiếp. Phòng khám làm việc từ <strong>18:00–22:00 hàng ngày</strong> tại <strong>Hà Đông, Hà Nội</strong>. Liên hệ đặt lịch: <strong>0973 710 237</strong>.</p></div>
+  `
+},
+{
+  id: 59,
+  slug: "phuong-huyet-dieu-tri-viem-mui-di-ung",
+  date: "2026-06-22",
+  category: "phuong-huyet",
+  categoryLabel: "Phương huyệt",
+  icon: "📍",
+  gradient: "g-huyet",
+  title: "Phương huyệt điều trị viêm mũi dị ứng theo Y học cổ truyền",
+  excerpt: "Châm cứu các huyệt vị vùng mặt, tay, chân kết hợp bổ phế, kiện tỳ giúp giảm nhanh các triệu chứng hắt hơi, ngạt mũi, chảy nước mũi do viêm mũi dị ứng, đồng thời hỗ trợ phòng ngừa tái phát lâu dài.",
+  readTime: 5,
+  content: `
+<h2>Tổng quan viêm mũi dị ứng theo Y học cổ truyền</h2>
+<p>Viêm mũi dị ứng trong Y học cổ truyền (YHCT) thuộc chứng "tỵ cừu" hay "thấu phong", biểu hiện bằng hắt hơi liên tục, ngạt mũi, chảy nước mũi trong, ngứa mũi, thường tái phát khi gặp lạnh hoặc thay đổi thời tiết. Nguyên nhân chủ yếu do phế khí hư, vệ khí không cố nên dễ bị phong hàn xâm nhập qua mũi; đồng thời tỳ thận khí hư cũng làm giảm khả năng cố nhiếp tân dịch, khiến nước mũi chảy nhiều, bệnh dễ tái diễn mạn tính.</p>
+
+<h2>Nguyên tắc điều trị bằng châm cứu</h2>
+<p>Nguyên tắc điều trị là khu phong, thông khiếu, kết hợp bổ phế khí, kiện tỳ và ích thận để củng cố chính khí, giảm tần suất tái phát. Châm cứu tác động trực tiếp lên các huyệt vùng mũi mặt giúp giảm nhanh triệu chứng, đồng thời phối hợp các huyệt toàn thân để điều chỉnh căn nguyên.</p>
+
+<h2>Các huyệt vị chính trong điều trị</h2>
+<ul>
+<li><strong>Nghinh hương (LI20):</strong> Nằm ở rãnh mũi má, ngang cánh mũi. Tác dụng thông mũi, khu phong, giảm ngạt mũi nhanh.</li>
+<li><strong>Ấn đường (EX-HN3):</strong> Điểm giữa hai đầu lông mày. Tác dụng thông khiếu, an thần, hỗ trợ giảm ngứa mũi, hắt hơi.</li>
+<li><strong>Hợp cốc (LI4):</strong> Nằm ở mu bàn tay, giữa khe xương bàn tay ngón 1 và ngón 2. Tác dụng giải biểu, khu phong, tăng cường vệ khí.</li>
+<li><strong>Phong trì (GB20):</strong> Ở chỗ lõm sau gáy, dưới đáy sọ, giữa cơ ức đòn chũm và cơ thang. Tác dụng khu phong giải biểu, trị các chứng do phong tà gây ra.</li>
+<li><strong>Phế du (BL13):</strong> Nằm ở lưng trên, cạnh đốt sống ngực D3. Tác dụng bổ phế khí, là huyệt quan trọng để củng cố tạng phế.</li>
+<li><strong>Túc tam lý (ST36):</strong> Dưới hõm ngoài xương bánh chè khoảng 3 thốn. Tác dụng bổ tỳ vị, ích khí, tăng cường chính khí toàn thân.</li>
+<li><strong>Thận du (BL23):</strong> Cạnh đốt sống thắt lưng L2. Tác dụng bổ thận khí, dùng trong thể bệnh mạn tính, tái phát nhiều lần.</li>
+</ul>
+
+<h2>Phối hợp cứu ngải và xoa bóp</h2>
+<p>Trong giai đoạn cấp hoặc thể hàn rõ, có thể phối hợp cứu ngải ấm tại các huyệt Nghinh hương, Phế du để tăng hiệu quả khu phong tán hàn. Xoa bóp nhẹ vùng cánh mũi, ấn đường hàng ngày cũng giúp giảm triệu chứng ngạt mũi, hỗ trợ điều trị duy trì tại nhà.</p>
+
+<h2>Lưu ý khi điều trị</h2>
+<p>Người bệnh cần tránh tiếp xúc với các yếu tố dị nguyên đã biết, giữ ấm vùng mũi họng khi thời tiết lạnh, hạn chế ăn đồ lạnh, đồ sống. Quá trình châm cứu cần thực hiện liên tục theo liệu trình của thầy thuốc để đạt hiệu quả bền vững, kết hợp bồi bổ phế tỳ thận nhằm hạn chế tái phát lâu dài.</p>
+
+<div class="art-cta-box"><p>Nếu bạn thường xuyên bị hắt hơi, ngạt mũi, chảy nước mũi do viêm mũi dị ứng, hãy đến <strong>Phòng Khám YHCT Tâm Đức</strong> để được <strong>BS. Nguyễn Đức Tâm</strong> thăm khám và xây dựng phác đồ châm cứu phù hợp. Phòng khám làm việc từ <strong>18:00–22:00 hàng ngày</strong> tại <strong>Hà Đông, Hà Nội</strong>. Liên hệ đặt lịch: <strong>0973 710 237</strong>.</p></div>
+  `
+},
+{
+  id: 60,
+  slug: "tri-tham-quang-mat-theo-yhct",
+  date: "2026-06-22",
+  category: "lam-dep",
+  categoryLabel: "Làm đẹp",
+  icon: "🌸",
+  gradient: "g-rose",
+  title: "Trị thâm quầng mắt theo Y học cổ truyền: Dưỡng từ Thận - Can để sáng mắt, đẹp da",
+  excerpt: "Thâm quầng mắt không chỉ là vấn đề thẩm mỹ ngoài da mà theo Y học cổ truyền còn phản ánh tình trạng tạng phủ bên trong, đặc biệt là thận và can. Điều trị từ gốc kết hợp trong ngoài giúp cải thiện bền vững.",
+  readTime: 5,
+  content: `
+<h2>Quan điểm Y học cổ truyền về thâm quầng mắt</h2>
+<p>Theo Y học cổ truyền (YHCT), vùng da quanh mắt là nơi mỏng nhất trên cơ thể và có liên hệ mật thiết với các đường kinh của tạng thận, can và bàng quang. Thận chủ về tinh, khai khiếu ra tai nhưng có liên quan đến sắc tối vùng mắt; can chủ về huyết, khai khiếu ra mắt. Khi thận khí hư hoặc can huyết bất túc, khí huyết không đủ nuôi dưỡng vùng da quanh mắt, hoặc khí huyết ứ trệ tại chỗ, sẽ dẫn đến thâm quầng mắt, da vùng này trở nên sạm tối, kém sức sống.</p>
+
+<h2>Phân loại theo biện chứng</h2>
+<ul>
+<li><strong>Thể thận hư:</strong> Quầng mắt thâm xanh đen, kèm mỏi lưng gối, ù tai, ngủ kém, da nhợt nhạt. Thường gặp ở người làm việc quá sức, thiếu ngủ kéo dài.</li>
+<li><strong>Thể huyết ứ:</strong> Quầng mắt thâm tím, có thể kèm các đường tĩnh mạch nổi rõ dưới da, lưỡi có điểm ứ huyết, thường liên quan đến tuần hoàn máu kém tại chỗ.</li>
+<li><strong>Thể khí huyết hư:</strong> Quầng mắt thâm nhạt, da xung quanh mắt nhão, kém đàn hồi, kèm mệt mỏi, sắc mặt nhợt, hay gặp ở người mới sinh, mới ốm dậy hoặc ăn uống kém.</li>
+</ul>
+
+<h2>Phương pháp điều trị bên trong</h2>
+<p>Tùy theo thể bệnh, thầy thuốc YHCT sẽ gia giảm các bài thuốc phù hợp: thể thận hư dùng các bài bổ thận như Lục vị địa hoàng hoàn gia giảm; thể huyết ứ dùng các bài hoạt huyết hóa ứ; thể khí huyết hư dùng các bài bổ khí huyết như Tứ quân tử thang, Quy tỳ thang gia giảm. Việc bồi bổ tạng phủ từ bên trong là nền tảng quan trọng để cải thiện thâm quầng mắt bền vững, không chỉ che lấp tạm thời bên ngoài.</p>
+
+<h2>Phương pháp điều trị bên ngoài</h2>
+<ul>
+<li><strong>Châm cứu, bấm huyệt quanh mắt:</strong> Tác động vào các huyệt Tình minh, Toản trúc, Ty trúc không, Thái dương giúp tăng tuần hoàn máu vùng mắt, giảm sạm thâm.</li>
+<li><strong>Xoa mặt dưỡng nhan:</strong> Thực hiện các động tác xoa, ấn nhẹ vùng quanh mắt theo chiều từ trong ra ngoài mỗi sáng tối giúp khí huyết lưu thông tại chỗ.</li>
+<li><strong>Chườm ấm thảo dược:</strong> Dùng túi thảo dược ấm chườm nhẹ quanh mắt giúp giảm ứ trệ, làm sáng vùng da thâm.</li>
+</ul>
+
+<h2>Chế độ sinh hoạt hỗ trợ</h2>
+<p>Cần ngủ đủ giấc, đi ngủ trước 23 giờ để dưỡng thận âm, hạn chế thức khuya làm hao tổn tinh huyết. Bổ sung thực phẩm bổ thận, dưỡng huyết như kỷ tử, hạt sen, mè đen, các loại rau xanh đậm màu. Hạn chế dùng mắt quá nhiều liên tục (xem điện thoại, máy tính kéo dài) vì dễ làm hao tổn can huyết, khiến quầng mắt thâm nặng hơn.</p>
+
+<div class="art-cta-box"><p>Nếu bạn đang gặp tình trạng thâm quầng mắt kéo dài kèm các dấu hiệu mệt mỏi, mất ngủ, hãy đến <strong>Phòng Khám YHCT Tâm Đức</strong> để được <strong>BS. Nguyễn Đức Tâm</strong> thăm khám, biện chứng và tư vấn phương pháp điều trị trong ngoài phù hợp. Phòng khám làm việc từ <strong>18:00–22:00 hàng ngày</strong> tại <strong>Hà Đông, Hà Nội</strong>. Liên hệ đặt lịch: <strong>0973 710 237</strong>.</p></div>
+  `
+},
   {
     id: 54,
     slug: "cao-gio-chua-cam-cum-dau-moi-khong-dung-thuoc",
