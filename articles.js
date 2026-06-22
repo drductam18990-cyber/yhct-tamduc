@@ -5,6 +5,55 @@
 
 const ARTICLES = [
   {
+    id: 54,
+    slug: "cao-gio-chua-cam-cum-dau-moi-khong-dung-thuoc",
+    date: "2026-06-22",
+    category: "khong-thuoc",
+    categoryLabel: "Không dùng thuốc",
+    icon: "🧘",
+    gradient: "g-herb",
+    title: "Cạo gió chữa cảm cúm, đau mỏi: Phương pháp không dùng thuốc theo Y học cổ truyền",
+    excerpt: "Cạo gió là liệu pháp dân gian lâu đời giúp giải cảm, giảm đau mỏi nhanh chóng mà không cần thuốc. Tìm hiểu cơ chế, kỹ thuật đúng và những lưu ý quan trọng theo Y học cổ truyền.",
+    readTime: 5,
+    content: `
+<h2>Tổng quan theo Y học cổ truyền</h2>
+<p>Cạo gió (còn gọi là sát phong, Trung Quốc gọi là "guasha") là phương pháp dùng vật có cạnh tròn nhẵn (đồng bạc, sừng trâu, thìa inox) cạo trên da theo một chiều nhất định, kết hợp với dầu gió hoặc dầu khuynh diệp, nhằm đẩy ngoại tà ra khỏi cơ thể. Theo lý luận YHCT, các bệnh cảm mạo, đau mỏi cơ thể thường do <strong>phong, hàn, thấp tà</strong> xâm nhập qua bì phu (da) và tấu lý (khoảng giữa da và cơ), làm tắc nghẽn kinh lạc, khí huyết lưu thông kém. Cạo gió tác động trực tiếp lên bì phu và lạc mạch ở bề mặt, giúp khai thông tấu lý, đẩy tà khí ra ngoài, từ đó kinh lạc thông suốt, khí huyết điều hòa, các triệu chứng đau mỏi, sợ lạnh, nhức đầu nhanh chóng giảm.</p>
+<p>Quan sát vết cạo gió (xuất hiện các vết đỏ tím gọi là "sa") cũng là một hình thức chẩn đoán: vết sa đậm, tím sẫm cho thấy tà khí ứ trệ nhiều; vết sa nhạt, hồng cho thấy khí huyết còn lưu thông tốt. Đây là phương pháp đơn giản, rẻ tiền, hiệu quả nhanh đối với các chứng cảm mạo phong hàn mới phát và đau mỏi cơ do nhiễm lạnh.</p>
+
+<h2>Phân thể / Chỉ định và chống chỉ định</h2>
+<ul>
+  <li><strong>Thể cảm mạo phong hàn:</strong> Sợ lạnh, gai rét, nhức đầu, ngạt mũi, hắt hơi, đau mỏi toàn thân, chưa sốt cao. Đây là chỉ định tốt nhất cho cạo gió.</li>
+  <li><strong>Thể đau mỏi cơ do nhiễm lạnh, ngồi sai tư thế:</strong> Đau cứng vùng cổ, vai, lưng do hàn thấp tích tụ tại cơ, lạc mạch bị tắc nghẽn cục bộ.</li>
+  <li><strong>Thể cảm mạo phong nhiệt (cần cân nhắc):</strong> Sốt cao, họng đỏ rát, người nóng bừng — nên cạo nhẹ và phối hợp thanh nhiệt, không cạo mạnh gây kích thích thêm dương nhiệt.</li>
+  <li><strong>Chống chỉ định:</strong> Phụ nữ có thai, người có rối loạn đông máu, da có vết thương hở, viêm nhiễm da, người quá suy nhược, trẻ nhỏ dưới 3 tuổi, người vừa ăn no hoặc đang say rượu.</li>
+</ul>
+
+<h2>Kỹ thuật cạo gió đúng cách và các vùng huyệt thường dùng</h2>
+<p>Trước khi cạo, nên thoa một lớp dầu gió hoặc dầu khuynh diệp lên da để giảm ma sát. Dùng vật cạo có cạnh tròn, giữ góc nghiêng khoảng 45 độ so với da, cạo theo một chiều từ trên xuống dưới hoặc từ trong ra ngoài, lực vừa phải, mỗi vùng cạo 15–20 lần đến khi da đỏ hồng hoặc xuất hiện vết sa nhẹ thì dừng.</p>
+<p>Các vùng và huyệt thường được cạo gió để giải cảm, giảm đau mỏi:</p>
+<ul>
+  <li><strong>Vùng sống lưng dọc hai bên cột sống (giáp tích):</strong> Cạo từ huyệt Đại trữ (BL11) xuống đến Thận du (BL23) — vùng tập trung các du huyệt của tạng phủ, giúp giải cảm toàn thân.</li>
+  <li><strong>Phong trì (GB20):</strong> Sau gáy, dưới chỗ lõm xương chẩm — chủ trị nhức đầu, cứng cổ do phong hàn.</li>
+  <li><strong>Đại chùy (GV14):</strong> Dưới đốt sống cổ 7, là huyệt giải biểu hàn quan trọng, cạo tại đây giúp hạ sốt nhẹ và giải cảm nhanh.</li>
+  <li><strong>Kiên tỉnh (GB21):</strong> Đỉnh vai, chủ trị đau mỏi cổ vai gáy do nhiễm lạnh.</li>
+  <li><strong>Khúc trì (LI11):</strong> Mặt ngoài khuỷu tay khi gập, hỗ trợ thanh nhiệt khi có sốt kèm theo.</li>
+</ul>
+
+<h2>Tự thực hành tại nhà</h2>
+<ul>
+  <li>Chuẩn bị thìa inox bo tròn cạnh hoặc đồng bạc, dầu gió/dầu khuynh diệp, khăn mềm lau sạch da trước khi cạo.</li>
+  <li>Cạo ở nơi kín gió, sau khi cạo nên giữ ấm cơ thể, tránh ra gió lạnh hoặc tắm ngay trong 2–3 giờ.</li>
+  <li>Uống một cốc nước ấm hoặc trà gừng sau khi cạo gió để hỗ trợ giải cảm và bù nước.</li>
+  <li>Vết sa thường mờ dần sau 3–5 ngày; nếu sau 1–2 lần cạo gió mà triệu chứng không giảm hoặc sốt cao kéo dài, cần đi khám để loại trừ các bệnh lý khác.</li>
+  <li>Không cạo gió quá thường xuyên (không quá 1 lần/3–5 ngày tại cùng một vị trí) để tránh tổn thương da và lạc mạch.</li>
+</ul>
+
+<div class="art-cta-box">
+  <p>Cạo gió là phương pháp hỗ trợ tốt cho cảm mạo phong hàn nhẹ, nhưng cần biện chứng đúng thể bệnh để áp dụng an toàn và hiệu quả. Nếu bạn thường xuyên cảm mạo, đau mỏi tái phát hoặc muốn được hướng dẫn cạo gió, bấm huyệt đúng kỹ thuật, hãy đến <strong>Phòng Khám YHCT Tâm Đức</strong> để được <strong>BS. Nguyễn Đức Tâm</strong> trực tiếp khám và tư vấn. Phòng khám làm việc từ <strong>18:00–22:00 hàng ngày</strong> tại <strong>Hà Đông, Hà Nội</strong>. Liên hệ đặt lịch qua hotline <strong>0973 710 237</strong>.</p>
+</div>
+    `
+  },
+  {
     id: 48,
     slug: "viem-dai-trang-man-tinh-yhct-phan-the-dieu-tri",
     date: "2026-06-21",
