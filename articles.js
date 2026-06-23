@@ -4,6 +4,253 @@
 // gradient values: "g-herb" | "g-amber" | "g-navy" | "g-fire" | "g-huyet" | "g-rose"
 
 const ARTICLES = [
+  {
+    id: 62,
+    slug: "tri-noi-ngoai-theo-yhct",
+    date: "2026-06-23",
+    category: "mat-benh",
+    categoryLabel: "Mặt bệnh",
+    icon: "🩺",
+    gradient: "g-navy",
+    title: "Trĩ nội, trĩ ngoại theo Y học cổ truyền: Phân thể và phác đồ điều trị",
+    excerpt: "Bệnh trĩ theo Y học cổ truyền được biện chứng thành nhiều thể khác nhau, từ đó có phác đồ châm cứu, dùng thuốc và chăm sóc phù hợp giúp giảm đau, cầm máu và ngăn tái phát.",
+    readTime: 6,
+    content: `
+<h2>Tổng quan về bệnh trĩ theo Y học cổ truyền</h2>
+<p>Trong Y học cổ truyền (YHCT), bệnh trĩ được gọi là "trĩ sang" hoặc "trĩ tật", xếp vào nhóm bệnh của trực tràng – hậu môn. Nguyên nhân được cho là do khí huyết hư yếu, mạch lạc ở vùng hậu môn bị ứ trệ lâu ngày kết hợp với thấp nhiệt nội sinh từ ăn uống cay nóng, rượu bia, ngồi lâu, táo bón mạn tính hoặc phụ nữ mang thai, sinh đẻ nhiều lần khiến khí huyết dồn xuống hạ tiêu, tĩnh mạch hậu môn giãn lớn tạo thành búi trĩ.</p>
+<p>YHCT không chỉ nhìn bệnh trĩ ở tổn thương tại chỗ mà còn xem xét tổng trạng cơ thể, từ đó phân thể bệnh để điều trị tận gốc, hạn chế tái phát chứ không chỉ giảm triệu chứng tạm thời.</p>
+<h2>Phân thể bệnh trĩ theo Y học cổ truyền</h2>
+<p>Tùy theo biểu hiện lâm sàng, bệnh trĩ thường được phân thành các thể sau:</p>
+<ul>
+<li><strong>Thể thấp nhiệt hạ trú:</strong> búi trĩ sưng đỏ, đau rát, có thể chảy dịch, kèm táo bón, nước tiểu vàng, lưỡi đỏ rêu vàng nhớt. Đây là thể thường gặp ở giai đoạn cấp, viêm tắc trĩ.</li>
+<li><strong>Thể khí trệ huyết ứ:</strong> búi trĩ tím sẫm, đau nhiều, có thể sa nghẹt không tự co lên được, đại tiện khó khăn do khí huyết lưu thông kém tại chỗ.</li>
+<li><strong>Thể huyết nhiệt vong hành:</strong> đại tiện ra máu tươi nhiều, máu chảy thành tia hoặc nhỏ giọt, người có thể kèm hồi hộp, hoa mắt do mất máu, lưỡi đỏ.</li>
+<li><strong>Thể tỳ khí hư hạ hãm:</strong> búi trĩ sa ra ngoài sau đại tiện, lâu ngày khó co lên, kèm mệt mỏi, ăn kém, sắc mặt nhợt, hay gặp ở người lớn tuổi, sau sinh hoặc làm việc nặng lâu năm.</li>
+</ul>
+<h2>Phương pháp điều trị bằng châm cứu và huyệt vị</h2>
+<p>Tùy thể bệnh, thầy thuốc lựa chọn các huyệt và phương pháp tác động phù hợp:</p>
+<ul>
+<li><strong>Trường cường (Đốc mạch 1):</strong> huyệt chủ trị tại chỗ, có tác dụng điều khí huyết vùng hậu môn, giảm đau, giảm sa búi trĩ.</li>
+<li><strong>Bách hội (Đốc mạch 20):</strong> nâng đỡ khí, hỗ trợ điều trị sa trĩ do khí hư hạ hãm.</li>
+<li><strong>Thừa sơn (Bàng quang 57):</strong> giảm đau, chống co thắt vùng hậu môn – trực tràng.</li>
+<li><strong>Túc tam lý (Vị 36) và Tam âm giao (Tỳ 6):</strong> kiện tỳ, bổ khí huyết, hỗ trợ thể tỳ khí hư.</li>
+<li><strong>Huyết hải (Tỳ 10):</strong> phối hợp khi có huyết ứ hoặc chảy máu.</li>
+</ul>
+<p>Bên cạnh châm cứu, có thể kết hợp cứu ngải tại huyệt Bách hội với thể sa trĩ do khí hư, xông hơi thuốc thảo dược (hoàng bá, kinh giới, hòe hoa, ngải diệp) để giảm sưng đau tại chỗ, và ngâm rửa nước ấm pha thuốc sau đại tiện.</p>
+<h2>Dùng thuốc Y học cổ truyền phối hợp</h2>
+<p>Với thể thấp nhiệt, thường dùng các vị thanh nhiệt lợi thấp như hoàng bá, hoàng liên, hòe hoa, chỉ xác. Thể huyết ứ dùng hoạt huyết như đan sâm, xích thược, đào nhân. Thể chảy máu dùng các vị chỉ huyết như tông lư bì, trắc bách diệp, địa du. Thể khí hư hạ hãm thường phối các vị bổ khí thăng đề như hoàng kỳ, đảng sâm, thăng ma, sài hồ để nâng búi trĩ lên.</p>
+<h2>Lưu ý sinh hoạt và phòng ngừa tái phát</h2>
+<ul>
+<li>Uống đủ nước, tăng cường chất xơ từ rau củ để tránh táo bón.</li>
+<li>Tránh ngồi lâu một chỗ, nên đứng lên đi lại sau mỗi 45–60 phút làm việc.</li>
+<li>Vệ sinh hậu môn sạch sẽ, tránh rặn mạnh khi đại tiện.</li>
+<li>Tập các bài khí công nhẹ nhàng như co thắt hậu môn (đề cốc) hằng ngày để tăng trương lực cơ vùng đáy chậu.</li>
+</ul>
+<div class="art-cta-box"><p>Quý khách đang gặp các triệu chứng trĩ nội, trĩ ngoại như đau rát, chảy máu, sa búi trĩ kéo dài, hãy đến trực tiếp <strong>Phòng Khám YHCT Tâm Đức</strong> để được <strong>BS. Nguyễn Đức Tâm</strong> trực tiếp khám, biện chứng phân thể và xây dựng phác đồ điều trị phù hợp. Phòng khám làm việc từ <strong>18:00–22:00 hàng ngày</strong> tại <strong>Hà Đông, Hà Nội</strong>. Liên hệ đặt lịch qua số <strong>0973 710 237</strong>.</p></div>
+  `
+  },
+  {
+    id: 63,
+    slug: "thien-dinh-theo-yhct-duong-sinh-tam-than",
+    date: "2026-06-23",
+    category: "khong-thuoc",
+    categoryLabel: "Không dùng thuốc",
+    icon: "🧘",
+    gradient: "g-herb",
+    title: "Thiền định theo Y học cổ truyền: Phương pháp dưỡng sinh tâm thần không dùng thuốc",
+    excerpt: "Thiền định là phương pháp dưỡng sinh điều tâm, an thần được Y học cổ truyền coi trọng từ ngàn xưa, giúp cân bằng khí huyết, giảm stress và hỗ trợ điều trị nhiều bệnh mạn tính.",
+    readTime: 5,
+    content: `
+<h2>Vị trí của thiền định trong dưỡng sinh Y học cổ truyền</h2>
+<p>Y học cổ truyền (YHCT) luôn coi "điều tâm" là gốc của dưỡng sinh, bởi tâm là nơi chủ thần minh, tâm an thì khí huyết điều hòa, tạng phủ hoạt động nhịp nhàng. Sách Hoàng đế Nội kinh viết: "Tâm bất an tắc bách bệnh sinh", nghĩa là tâm không yên thì trăm bệnh dễ nảy sinh. Thiền định chính là phương pháp giúp con người tĩnh tâm, điều khí, an thần, từ đó hỗ trợ phòng và trị bệnh mà không cần dùng đến thuốc.</p>
+<h2>Cơ chế tác động của thiền định theo quan điểm Y học cổ truyền</h2>
+<ul>
+<li><strong>An thần định trí:</strong> khi tâm tĩnh, Tâm hỏa không bốc lên gây mất ngủ, hồi hộp, lo âu.</li>
+<li><strong>Điều hòa khí cơ:</strong> hơi thở chậm sâu trong thiền giúp khí vận hành thông suốt theo các kinh mạch, đặc biệt là Nhâm mạch và Đốc mạch.</li>
+<li><strong>Bổ dưỡng Tâm – Thận:</strong> thiền định lâu ngày giúp Thận thủy tư nhuận Tâm hỏa, làm dịu các trạng thái căng thẳng, bốc nóng do hư hỏa.</li>
+<li><strong>Cân bằng âm dương:</strong> trạng thái tĩnh lặng giúp dưỡng âm, bù đắp phần âm hao tổn do lao tâm, mất ngủ kéo dài.</li>
+</ul>
+<h2>Hướng dẫn thực hành thiền định cơ bản</h2>
+<p>Người mới bắt đầu có thể thực hành theo các bước đơn giản sau:</p>
+<ul>
+<li>Chọn nơi yên tĩnh, ngồi tư thế thoải mái, lưng thẳng, hai tay đặt nhẹ trên đùi hoặc kết ấn tam muội.</li>
+<li>Nhắm mắt hoặc nhìn nhẹ xuống, tập trung vào hơi thở vào – ra qua mũi, hít sâu xuống bụng dưới (đan điền).</li>
+<li>Khi tâm trí xuất hiện suy nghĩ, không cưỡng ép loại bỏ mà nhẹ nhàng đưa sự chú ý trở lại hơi thở.</li>
+<li>Bắt đầu với 10–15 phút mỗi ngày, tăng dần lên 20–30 phút khi đã quen.</li>
+<li>Thời điểm tốt nhất là sáng sớm sau khi ngủ dậy hoặc tối trước khi đi ngủ.</li>
+</ul>
+<h2>Chỉ định và lợi ích lâm sàng</h2>
+<p>Thiền định đặc biệt phù hợp với người mất ngủ, rối loạn lo âu, suy nhược thần kinh, tăng huyết áp do căng thẳng, hội chứng ruột kích thích liên quan đến stress, và người đang trong quá trình phục hồi sau bệnh nặng cần ổn định tâm lý. Thực hành đều đặn giúp giảm nhịp tim, hạ huyết áp nhẹ, cải thiện chất lượng giấc ngủ và tăng khả năng tập trung.</p>
+<h2>Một số lưu ý khi thực hành</h2>
+<ul>
+<li>Không nên thiền ngay sau khi ăn no hoặc khi quá đói, quá mệt.</li>
+<li>Người có bệnh tâm thần nặng cần tham khảo ý kiến chuyên gia trước khi tự tập luyện kéo dài.</li>
+<li>Kết hợp thiền với các phương pháp khác như châm cứu, xoa bóp bấm huyệt sẽ tăng hiệu quả an thần, dưỡng sinh toàn diện.</li>
+</ul>
+<div class="art-cta-box"><p>Để được hướng dẫn phương pháp dưỡng sinh, thiền định kết hợp châm cứu an thần phù hợp với thể trạng riêng, quý khách hãy đến <strong>Phòng Khám YHCT Tâm Đức</strong> gặp <strong>BS. Nguyễn Đức Tâm</strong>. Phòng khám đón tiếp từ <strong>18:00–22:00 hàng ngày</strong> tại <strong>Hà Đông, Hà Nội</strong>. Hotline tư vấn: <strong>0973 710 237</strong>.</p></div>
+  `
+  },
+  {
+    id: 64,
+    slug: "thap-toan-dai-bo-thang",
+    date: "2026-06-23",
+    category: "thuoc-yhct",
+    categoryLabel: "Thuốc YHCT",
+    icon: "🌿",
+    gradient: "g-fire",
+    title: "Thập toàn đại bổ thang — Bài thuốc bổ khí huyết toàn diện kinh điển của Y học cổ truyền",
+    excerpt: "Thập toàn đại bổ thang là bài thuốc cổ phương nổi tiếng dùng để bồi bổ khí huyết toàn diện, thích hợp cho người suy nhược, sau bệnh nặng, sau phẫu thuật hoặc người cao tuổi.",
+    readTime: 6,
+    content: `
+<h2>Nguồn gốc bài thuốc</h2>
+<p>Thập toàn đại bổ thang là bài thuốc cổ phương được ghi trong "Thái Bình Huệ Dân Hòa Tễ Cục Phương" thời Tống, Trung Quốc. Bài thuốc được phát triển từ "Bát trân thang" (8 vị bổ khí huyết cơ bản) bằng cách thêm hai vị Hoàng kỳ và Nhục quế, tạo thành "mười vị thuốc quý" (Thập toàn), có tác dụng bổ cả khí và huyết, ôn dương, dùng rộng rãi cho người suy nhược toàn thân.</p>
+<h2>Thành phần và vai trò các vị thuốc</h2>
+<ul>
+<li><strong>Nhân sâm (hoặc Đảng sâm):</strong> quân dược, đại bổ nguyên khí, ích Tỳ Phế.</li>
+<li><strong>Hoàng kỳ:</strong> bổ khí, thăng dương, tăng cường sức đề kháng, hỗ trợ Nhân sâm bổ khí mạnh hơn.</li>
+<li><strong>Bạch truật:</strong> kiện Tỳ, táo thấp, hỗ trợ tiêu hóa, tăng hấp thu dưỡng chất.</li>
+<li><strong>Bạch linh (Phục linh):</strong> kiện Tỳ, lợi thủy, an thần nhẹ.</li>
+<li><strong>Cam thảo:</strong> điều hòa các vị thuốc, ích khí, hòa vị.</li>
+<li><strong>Đương quy:</strong> bổ huyết, hoạt huyết, dưỡng huyết điều kinh.</li>
+<li><strong>Thục địa:</strong> tư âm bổ huyết, ích tinh.</li>
+<li><strong>Bạch thược:</strong> dưỡng huyết, liễm âm, hòa hoãn cân mạch.</li>
+<li><strong>Xuyên khung:</strong> hoạt huyết, hành khí, hỗ trợ lưu thông huyết mạch.</li>
+<li><strong>Nhục quế:</strong> ôn thận dương, ôn trung, dẫn các vị thuốc bổ vào sâu, tăng cường khả năng hấp thu.</li>
+</ul>
+<h2>Cơ chế tác dụng theo lý luận Y học cổ truyền</h2>
+<p>Bài thuốc kết hợp nhóm bổ khí (Nhân sâm, Hoàng kỳ, Bạch truật, Cam thảo, Phục linh) với nhóm bổ huyết (Đương quy, Thục địa, Bạch thược, Xuyên khung), cộng thêm Nhục quế ôn dương dẫn thuốc, tạo nên công thức "khí huyết song bổ, âm dương đều điều". Nhờ vậy bài thuốc không chỉ bổ huyết đơn thuần mà còn hỗ trợ vận hóa khí huyết, tránh tình trạng "bổ mà ứ trệ" thường gặp khi dùng các vị bổ huyết tư nhuận một mình.</p>
+<h2>Chỉ định lâm sàng</h2>
+<ul>
+<li>Người suy nhược cơ thể sau bệnh nặng, sau phẫu thuật, sau sinh mất nhiều máu.</li>
+<li>Người cao tuổi khí huyết hư suy, sắc mặt nhợt nhạt, mệt mỏi, chán ăn, hay choáng váng.</li>
+<li>Phụ nữ thiếu máu, rối loạn kinh nguyệt do khí huyết hư.</li>
+<li>Người đang hóa – xạ trị cần hỗ trợ phục hồi thể trạng (cần phối hợp theo dõi của bác sĩ chuyên khoa).</li>
+<li>Trẻ em chậm phát triển thể chất do khí huyết bất túc (gia giảm liều phù hợp).</li>
+</ul>
+<h2>Chống chỉ định và lưu ý khi sử dụng</h2>
+<ul>
+<li>Không dùng cho người đang sốt cao, cảm mạo phong nhiệt, viêm nhiễm cấp tính có thực nhiệt.</li>
+<li>Không dùng cho người thể chất thực nhiệt, táo bón, đại tiện táo kết do bài thuốc có tính ôn bổ.</li>
+<li>Phụ nữ mang thai cần thận trọng, chỉ sử dụng khi có chỉ định và theo dõi của thầy thuốc có chuyên môn.</li>
+<li>Người tỳ vị thấp nhiệt, đầy bụng, khó tiêu nên gia giảm bớt các vị tư nhuận để tránh trệ khí.</li>
+</ul>
+<div class="art-cta-box"><p>Bài thuốc Thập toàn đại bổ thang cần được gia giảm phù hợp theo từng thể trạng cụ thể. Quý khách có nhu cầu bồi bổ khí huyết, phục hồi sức khỏe sau bệnh, sau sinh, hãy đến <strong>Phòng Khám YHCT Tâm Đức</strong> để được <strong>BS. Nguyễn Đức Tâm</strong> trực tiếp khám và kê đơn phù hợp. Thời gian khám: <strong>18:00–22:00 hàng ngày</strong>, tại <strong>Hà Đông, Hà Nội</strong>. Hotline: <strong>0973 710 237</strong>.</p></div>
+  `
+  },
+  {
+    id: 65,
+    slug: "duong-sinh-theo-mua-dong",
+    date: "2026-06-23",
+    category: "phong-benh",
+    categoryLabel: "Phòng bệnh",
+    icon: "🛡️",
+    gradient: "g-amber",
+    title: "Dưỡng sinh theo mùa đông: Bí quyết bảo vệ sức khỏe theo Y học cổ truyền",
+    excerpt: "Mùa đông là thời điểm dương khí thu lại, âm khí thịnh, theo Y học cổ truyền cần điều chỉnh ăn uống, sinh hoạt và vận động phù hợp để dưỡng thận, giữ ấm và phòng bệnh hiệu quả.",
+    readTime: 5,
+    content: `
+<h2>Nguyên lý dưỡng sinh mùa đông theo Y học cổ truyền</h2>
+<p>Theo lý luận "Tứ thời dưỡng sinh" của Y học cổ truyền (YHCT), mùa đông ứng với hành Thủy, tạng Thận, đặc trưng bởi khí hậu lạnh, dương khí trong tự nhiên thu liễm, âm khí thịnh. Nguyên tắc dưỡng sinh mùa đông được gói trong hai chữ "tàng dưỡng" – nghĩa là giữ gìn, tích trữ năng lượng, tránh hao tổn dương khí, để cơ thể "ngủ đông" tích lũy sức cho mùa xuân sinh trưởng. Người không biết dưỡng sinh đúng mùa đông dễ mắc các bệnh về hô hấp, xương khớp, tim mạch và suy giảm chức năng Thận.</p>
+<h2>Nguyên tắc ăn uống mùa đông</h2>
+<ul>
+<li>Ưu tiên thực phẩm có tính ôn, bổ dương như gừng, hành, tỏi, thịt dê, thịt bò, hạt dẻ, vừng đen, long nhãn.</li>
+<li>Tăng cường món hầm, súp nóng để giữ ấm tỳ vị, tránh đồ ăn sống lạnh, nước đá.</li>
+<li>Bổ sung các vị thuốc bổ thận như câu kỷ tử, đỗ trọng, ba kích (nên có chỉ định của thầy thuốc) để hỗ trợ dương khí.</li>
+<li>Hạn chế đồ ăn quá mặn vì vị mặn vào Thận có thể làm hao tổn Thận khí nếu dùng quá nhiều.</li>
+</ul>
+<h2>Sinh hoạt và vận động phù hợp</h2>
+<ul>
+<li>Giữ ấm cơ thể, đặc biệt vùng đầu, cổ, bàn chân và vùng thắt lưng (nơi trú của Thận).</li>
+<li>Ngủ sớm, dậy hơi muộn hơn mùa khác để tránh ra ngoài lúc khí lạnh còn nặng vào sáng sớm.</li>
+<li>Tập luyện nhẹ nhàng như đi bộ, dưỡng sinh khí công, tránh vận động gắng sức ra nhiều mồ hôi làm hao tổn dương khí.</li>
+<li>Tắm nước ấm, tránh tắm khuya hoặc tắm ngay sau khi vận động ra mồ hôi nhiều.</li>
+</ul>
+<h2>Phòng ngừa các bệnh thường gặp mùa đông</h2>
+<ul>
+<li><strong>Cảm lạnh, viêm hô hấp:</strong> giữ ấm vùng cổ ngực, có thể xông hơi gừng, sả khi mới chớm có dấu hiệu nhiễm lạnh.</li>
+<li><strong>Đau nhức xương khớp:</strong> giữ ấm khớp, có thể chườm ngải cứu hoặc ngâm chân nước ấm thảo dược trước khi ngủ.</li>
+<li><strong>Tăng huyết áp, bệnh tim mạch:</strong> tránh thay đổi nhiệt độ đột ngột, hạn chế ra ngoài sớm khi nhiệt độ xuống thấp.</li>
+<li><strong>Da khô nứt nẻ:</strong> dưỡng ẩm da, uống đủ nước, bổ sung thực phẩm dưỡng âm như mật ong, vừng đen.</li>
+</ul>
+<h2>Châm cứu, cứu ngải hỗ trợ dưỡng sinh mùa đông</h2>
+<p>Có thể cứu ngải tại huyệt Quan nguyên, Khí hải, Túc tam lý, Thận du định kỳ trong mùa đông để ôn bổ dương khí, tăng cường chính khí, phòng bệnh hô hấp và xương khớp tái phát.</p>
+<div class="art-cta-box"><p>Để được tư vấn chế độ dưỡng sinh, cứu ngải ôn bổ phù hợp trong mùa lạnh, quý khách hãy đến <strong>Phòng Khám YHCT Tâm Đức</strong> gặp <strong>BS. Nguyễn Đức Tâm</strong>. Phòng khám làm việc từ <strong>18:00–22:00 hàng ngày</strong> tại <strong>Hà Đông, Hà Nội</strong>. Liên hệ: <strong>0973 710 237</strong>.</p></div>
+  `
+  },
+  {
+    id: 66,
+    slug: "phuong-huyet-dieu-tri-mat-ngu",
+    date: "2026-06-23",
+    category: "phuong-huyet",
+    categoryLabel: "Phương huyệt",
+    icon: "📍",
+    gradient: "g-huyet",
+    title: "Phương huyệt điều trị mất ngủ theo Y học cổ truyền",
+    excerpt: "Châm cứu, bấm huyệt vào các huyệt vị an thần, dưỡng tâm là phương pháp hiệu quả giúp cải thiện chất lượng giấc ngủ mà không cần phụ thuộc vào thuốc an thần tổng hợp.",
+    readTime: 6,
+    content: `
+<h2>Cơ sở lý luận chọn huyệt điều trị mất ngủ</h2>
+<p>Theo Y học cổ truyền (YHCT), mất ngủ (thất miên) liên quan chủ yếu đến mất cân bằng Tâm – Thận, Can khí uất kết hoặc Tỳ vị bất hòa. Khi Tâm thần không yên, dương khí không thể quy về âm vào ban đêm sẽ gây ra trạng thái khó ngủ, ngủ không sâu, hay thức giấc giữa đêm. Việc lựa chọn huyệt điều trị do đó tập trung vào nhóm huyệt an thần, dưỡng tâm, điều hòa Can – Thận và kiện Tỳ.</p>
+<h2>Các huyệt vị chính trong điều trị mất ngủ</h2>
+<ul>
+<li><strong>Bách hội (Đốc mạch 20):</strong> nằm ở giao điểm đường nối hai đỉnh vành tai với đường giữa đỉnh đầu. Huyệt có tác dụng an thần định trí, điều hòa khí ở não, thường dùng đầu tiên trong các chứng mất ngủ, đau đầu do căng thẳng.</li>
+<li><strong>Thần môn (Tâm 7):</strong> nằm ở lằn chỉ cổ tay, phía xương trụ, ngay bờ ngoài gân gấp cổ tay trụ. Huyệt có tác dụng dưỡng tâm an thần, là huyệt nguyên của kinh Tâm, rất hiệu quả với mất ngủ do tâm hư.</li>
+<li><strong>Nội quan (Tâm bào 6):</strong> nằm trên lằn chỉ cổ tay 2 thốn, giữa hai gân gan tay lớn và bé. Huyệt giúp an thần, định tâm, giảm hồi hộp, lo âu kèm mất ngủ.</li>
+<li><strong>Tam âm giao (Tỳ 6):</strong> nằm trên mắt cá chân trong 3 thốn, sát bờ sau xương chày. Huyệt giao hội của ba kinh âm (Tỳ, Can, Thận), có tác dụng dưỡng âm, điều hòa khí huyết, hỗ trợ giấc ngủ sâu hơn.</li>
+<li><strong>An miên (huyệt ngoài kinh):</strong> nằm phía sau tai, giữa khoảng từ ụ chũm đến góc hàm dưới. Đây là huyệt kinh nghiệm chuyên biệt cho chứng mất ngủ, giúp thư giãn thần kinh.</li>
+<li><strong>Thái xung (Can 3):</strong> nằm ở mu bàn chân, khe giữa xương bàn chân 1 và 2. Huyệt giúp bình Can, giải uất, dùng khi mất ngủ kèm dễ cáu gắt, căng thẳng do Can khí uất.</li>
+<li><strong>Thái khê (Thận 3):</strong> nằm ở chỗ lõm giữa mắt cá trong và gân gót. Huyệt bổ Thận âm, dùng khi mất ngủ kèm đau lưng, ù tai, ngũ tâm phiền nhiệt về đêm.</li>
+</ul>
+<h2>Nguyên tắc phối huyệt theo thể bệnh</h2>
+<ul>
+<li>Mất ngủ do Tâm Thận bất giao: phối Thần môn, Tam âm giao, Thái khê.</li>
+<li>Mất ngủ do Can khí uất kết: phối Thái xung, Nội quan, Bách hội.</li>
+<li>Mất ngủ do Tỳ vị bất hòa, ăn không tiêu: phối thêm Túc tam lý, Trung quản.</li>
+</ul>
+<h2>Kỹ thuật châm cứu và lưu ý</h2>
+<p>Châm cứu thường thực hiện vào buổi tối hoặc đầu giờ tối để hỗ trợ giấc ngủ đêm, lưu kim 20–30 phút, có thể kết hợp nhĩ châm tại các điểm Tâm, Thần môn ở vành tai. Nên thực hiện liệu trình liên tục 10–15 lần kết hợp xoa bóp bấm huyệt và điều chỉnh sinh hoạt để đạt hiệu quả bền vững.</p>
+<div class="art-cta-box"><p>Quý khách bị mất ngủ kéo dài, khó vào giấc hoặc hay thức giấc giữa đêm, hãy đến <strong>Phòng Khám YHCT Tâm Đức</strong> để được <strong>BS. Nguyễn Đức Tâm</strong> châm cứu, bấm huyệt theo đúng thể bệnh. Phòng khám hoạt động từ <strong>18:00–22:00 hàng ngày</strong> tại <strong>Hà Đông, Hà Nội</strong>. Đặt lịch qua hotline <strong>0973 710 237</strong>.</p></div>
+  `
+  },
+  {
+    id: 67,
+    slug: "tri-me-day-man-tinh-theo-yhct",
+    date: "2026-06-23",
+    category: "lam-dep",
+    categoryLabel: "Làm đẹp",
+    icon: "🌸",
+    gradient: "g-rose",
+    title: "Trị mề đay mạn tính theo Y học cổ truyền: Dưỡng từ Can – Tỳ để an da, hết ngứa",
+    excerpt: "Mề đay mạn tính không chỉ là vấn đề ngoài da mà còn phản ánh sự mất cân bằng Can, Tỳ, Vệ khí bên trong; Y học cổ truyền chú trọng điều trị từ gốc kết hợp chăm sóc da bên ngoài.",
+    readTime: 6,
+    content: `
+<h2>Mối liên hệ giữa mề đay và tạng phủ theo Y học cổ truyền</h2>
+<p>Mề đay (phong chẩn khối) trong Y học cổ truyền (YHCT) được xem là biểu hiện của phong tà xâm nhập kết hợp với cơ thể có sẵn yếu tố nội sinh như huyết nhiệt, thấp trệ hoặc Vệ khí không cố. Da là nơi phản chiếu của Phế (chủ bì mao) và liên quan chặt chẽ đến Can (chủ về phong, huyết) và Tỳ (chủ vận hóa thấp). Khi Can huyết không điều hòa, Tỳ vị thấp trệ sinh độc, kết hợp phong tà bên ngoài (gió, lạnh, dị nguyên) sẽ phát thành các nốt sẩn ngứa, nổi cục từng đợt – đặc biệt khi mề đay kéo dài trên 6 tuần (mạn tính), YHCT cho rằng cơ thể đã suy yếu Vệ khí, khí huyết hư nhược khiến phong tà dễ tái phát.</p>
+<h2>Phân thể mề đay mạn tính thường gặp</h2>
+<ul>
+<li><strong>Thể phong nhiệt:</strong> sẩn ngứa đỏ, nóng rát, tăng khi gặp nóng, lưỡi đỏ, thường gặp ở người ăn nhiều đồ cay nóng, hải sản.</li>
+<li><strong>Thể phong hàn:</strong> sẩn ngứa trắng nhạt, tăng khi gặp lạnh hoặc gió, da lạnh, kèm sợ lạnh.</li>
+<li><strong>Thể thấp nhiệt (Tỳ vị thấp trệ):</strong> sẩn kèm cảm giác nặng nề, đầy bụng, có thể kèm rối loạn tiêu hóa, ăn uống khó tiêu.</li>
+<li><strong>Thể Can uất Tỳ hư huyết hư:</strong> mề đay tái phát liên quan đến căng thẳng, stress, kèm mệt mỏi, da khô, dễ tái phát về đêm.</li>
+</ul>
+<h2>Điều trị nội – dùng thuốc Y học cổ truyền</h2>
+<p>Tùy thể bệnh, thầy thuốc sẽ gia giảm các vị thuốc: thể phong nhiệt dùng các vị thanh nhiệt khu phong như kim ngân hoa, liên kiều, ngưu bàng tử; thể phong hàn dùng quế chi, kinh giới, phòng phong để ôn tán phong hàn; thể thấp nhiệt phối các vị lợi thấp như hoàng bá, xa tiền tử kết hợp kiện tỳ; thể Can uất Tỳ hư cần bổ huyết, dưỡng Can, kiện Tỳ với đương quy, bạch thược, hoàng kỳ, kết hợp sài hồ để giải uất.</p>
+<h2>Điều trị ngoại – châm cứu và chăm sóc da</h2>
+<ul>
+<li><strong>Châm cứu các huyệt:</strong> Khúc trì, Huyết hải, Tam âm giao giúp thanh nhiệt lương huyết, giảm ngứa; Túc tam lý, Tỳ du hỗ trợ kiện tỳ trừ thấp.</li>
+<li><strong>Xoa bóp nhẹ vùng da nổi mề đay</strong> bằng các loại dầu thảo dược có tính mát để giảm ngứa, tránh gãi mạnh gây trầy xước, bội nhiễm.</li>
+<li><strong>Tắm hoặc đắp thảo dược</strong> như lá khế, kinh giới, ngải cứu đun nước ấm để làm dịu da khi mề đay bùng phát cấp.</li>
+</ul>
+<h2>Chế độ ăn uống và sinh hoạt hỗ trợ</h2>
+<ul>
+<li>Hạn chế hải sản, đồ cay nóng, rượu bia – các yếu tố dễ gây phong nhiệt huyết nhiệt.</li>
+<li>Giữ ấm cơ thể với thể phong hàn, tránh tiếp xúc gió lạnh đột ngột.</li>
+<li>Ngủ đủ giấc, giảm stress vì căng thẳng tâm lý là yếu tố thúc đẩy mề đay mạn tính do Can uất.</li>
+<li>Uống nhiều nước, bổ sung rau xanh để hỗ trợ Tỳ vị vận hóa thấp tốt hơn.</li>
+</ul>
+<div class="art-cta-box"><p>Mề đay mạn tính tái phát nhiều lần cần được biện chứng đúng thể để điều trị tận gốc, không chỉ giảm ngứa tạm thời. Quý khách hãy đến <strong>Phòng Khám YHCT Tâm Đức</strong> để được <strong>BS. Nguyễn Đức Tâm</strong> trực tiếp khám và tư vấn. Phòng khám đón khách từ <strong>18:00–22:00 hàng ngày</strong> tại <strong>Hà Đông, Hà Nội</strong>. Hotline: <strong>0973 710 237</strong>.</p></div>
+  `
+  },
 {
   id: 61,
   slug: "bam-huyet-dieu-tri-dau-dau-tai-nha-theo-yhct",
