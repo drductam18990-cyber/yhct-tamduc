@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bài tập trị liệu cơ xương khớp | YHCT Tâm Đức – Hà Đông, Hà Nội</title>
+  <meta name="description" content="Bài tập thể dục, yoga trị liệu hỗ trợ bệnh nhân cơ xương khớp: cổ, vai, thắt lưng, khớp gối, cổ tay. Hướng dẫn minh họa từng động tác, cập nhật bởi BS. Nguyễn Đức Tâm." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Noto+Serif+SC:wght@700&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&display=swap" rel="stylesheet" />
+  <style>
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth;-webkit-font-smoothing:antialiased}
+  body{font-family:'Be Vietnam Pro',sans-serif;color:#1c1917;background:#fafaf9;overflow-x:hidden;line-height:1.6}
+  img{display:block;max-width:100%}
+  a{text-decoration:none;color:inherit}
+  ul,ol{list-style:none}
+  button{border:none;cursor:pointer;font-family:inherit}
+
+  :root{
+    --g50:#f0fdf4;--g100:#dcfce7;--g200:#bbf7d0;--g300:#86efac;
+    --g400:#4ade80;--g500:#22c55e;--g600:#16a34a;--g700:#15803d;--g800:#166534;
+    --a100:#fef3c7;--a300:#fcd34d;--a400:#fbbf24;--a500:#f59e0b;--a600:#d97706;
+    --o400:#fb923c;--o500:#f97316;
+    --s50:#f8fafc;--s100:#f1f5f9;--s200:#e2e8f0;--s300:#cbd5e1;
+    --s400:#94a3b8;--s500:#64748b;--s600:#475569;--s700:#334155;
+    --s800:#1e293b;--s900:#0f172a;
+    --r-sm:12px;--r-md:16px;--r-lg:24px;--r-xl:32px;
+    --sh-sm:0 2px 8px rgba(0,0,0,.06);
+    --sh-md:0 8px 32px rgba(0,0,0,.10);
+    --sh-lg:0 24px 64px rgba(0,0,0,.14);
+    --sh-green:0 8px 32px rgba(22,163,74,.3);
+  }
+  .container{width:100%;max-width:1200px;margin:0 auto;padding:0 28px}
+
+  .g-herb {background:linear-gradient(145deg,#166534,#4ade80)}
+  .g-amber{background:linear-gradient(145deg,#92400e,#fbbf24)}
+  .g-navy {background:linear-gradient(145deg,#1e3a5f,#60a5fa)}
+  .g-fire {background:linear-gradient(145deg,#7c2d12,#f97316)}
+  .g-huyet{background:linear-gradient(145deg,#581c87,#a855f7)}
+  .g-rose {background:linear-gradient(145deg,#9d174d,#fb7185)}
+
+  /* ════ HEADER ════ */
+  .header{
+    position:fixed;top:0;left:0;right:0;z-index:100;
+    background:rgba(255,255,255,.92);backdrop-filter:blur(20px);
+    box-shadow:0 1px 0 rgba(0,0,0,.07);
+  }
+  .nav{display:flex;align-items:center;justify-content:space-between;height:70px}
+  .logo{display:flex;align-items:center;gap:10px}
+  .logo-icon{
+    width:46px;height:46px;border-radius:50%;flex-shrink:0;
+    overflow:hidden;background:transparent;
+    box-shadow:0 4px 18px rgba(0,200,83,.35),0 0 0 2px rgba(105,240,174,.2);
+  }
+  .logo-icon img{width:100%;height:100%;object-fit:cover;display:block}
+  .logo-text strong{display:block;font-size:.95rem;font-weight:800;color:var(--s900);line-height:1.2}
+  .logo-text span{font-size:.72rem;color:var(--s400);font-weight:400}
+  .nav-links{display:flex;gap:4px;align-items:center}
+  .nav-links a{padding:8px 14px;border-radius:8px;font-size:.88rem;font-weight:500;color:var(--s600);transition:all .2s}
+  .nav-links a:hover{color:var(--g700);background:var(--g50)}
+  .nav-links a.active{color:var(--g700);background:var(--g50);font-weight:700}
+  .nav-btn{
+    padding:10px 22px;border-radius:999px;font-size:.88rem;font-weight:700;
+    background:var(--g600);color:#fff;
+    box-shadow:var(--sh-green);transition:all .25s;
+  }
+  .nav-btn:hover{background:var(--g700);transform:translateY(-1px)}
+  .nav-hamburger{display:none;background:none;padding:6px;color:var(--s800)}
+  .nav-hamburger svg{width:24px;height:24px}
+
+  /* ════ PAGE HERO ════ */
+  .page-hero{
+    padding:140px 0 70px;
+    background:linear-gradient(160deg,var(--g50) 0%,#fff 60%,var(--a100) 100%);
+    position:relative;overflow:hidden;
+  }
+  .page-hero::before{
+    content:'';position:absolute;top:-100px;right:-100px;
+    width:500px;height:500px;border-radius:50%;
+    background:radial-gradient(circle,rgba(74,222,128,.12) 0%,transparent 65%);
+  }
+  .page-hero-inner{position:relative;z-index:1}
+  .tag{
+    display:inline-flex;align-items:center;gap:6px;
+    background:var(--g100);color:var(--g700);
+    font-size:.75rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+    padding:6px 14px;border-radius:999px;margin-bottom:16px;
+  }
+  .page-hero h1{
+    font-family:'Playfair Display',serif;
+    font-size:clamp(2rem,4.5vw,3rem);line-height:1.2;letter-spacing:-.02em;
+    color:var(--s900);margin-bottom:16px;
+  }
+  .page-hero p{font-size:1.05rem;color:var(--s500);line-height:1.75;max-width:620px}
+
+  /* ════ SAFETY NOTICE ════ */
+  .safety-box{
+    margin-top:28px;background:#fff;border:1.5px solid var(--a300);
+    border-radius:var(--r-md);padding:18px 22px;max-width:760px;
+    display:flex;gap:14px;align-items:flex-start;box-shadow:var(--sh-sm);
+  }
+  .safety-box .si{font-size:1.4rem;flex-shrink:0}
+  .safety-box p{font-size:.88rem;color:var(--s600);margin:0;line-height:1.7}
+  .safety-box strong{color:var(--s900)}
+
+  /* ════ JUMP NAV ════ */
+  .jumpnav-bar{
+    background:#fff;border-bottom:1px solid var(--s100);
+    position:sticky;top:70px;z-index:90;box-shadow:0 2px 12px rgba(0,0,0,.04);
+  }
+  .jumpnav-inner{display:flex;gap:8px;padding:14px 0;overflow-x:auto;scrollbar-width:none}
+  .jumpnav-inner::-webkit-scrollbar{display:none}
+  .jumpnav-inner a{
+    white-space:nowrap;padding:8px 18px;border-radius:999px;font-size:.85rem;font-weight:600;
+    border:1.5px solid var(--s200);color:var(--s600);background:#fff;transition:all .2s;
+  }
+  .jumpnav-inner a:hover{border-color:var(--g400);color:var(--g700);background:var(--g50)}
+
+  /* ════ EXERCISE SECTIONS ════ */
+  .ex-section{padding:56px 0}
+  .ex-section:nth-of-type(even){background:#fff}
+  .ex-section-title{
+    font-family:'Playfair Display',serif;font-size:1.6rem;font-weight:700;
+    color:var(--s900);margin-bottom:8px;scroll-margin-top:150px;
+  }
+  .ex-section-desc{font-size:.92rem;color:var(--s500);margin-bottom:28px;max-width:700px;line-height:1.7}
+  .ex-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}
+  .ex-card{
+    background:#fff;border-radius:var(--r-xl);overflow:hidden;
+    border:1px solid rgba(0,0,0,.06);box-shadow:var(--sh-sm);
+    display:flex;flex-direction:column;transition:box-shadow .25s,transform .25s;
+  }
+  .ex-card:hover{box-shadow:var(--sh-md);transform:translateY(-3px)}
+  .ex-illust{
+    background:linear-gradient(160deg,var(--g50),#fff);
+    display:flex;align-items:center;justify-content:center;padding:14px;
+  }
+  .ex-illust .ex-svg{width:140px;height:auto}
+  .ex-body{padding:20px 22px 24px}
+  .ex-body h3{font-size:1.02rem;font-weight:800;color:var(--s900);margin-bottom:12px}
+  .ex-steps{padding-left:0;margin-bottom:14px;counter-reset:step}
+  .ex-steps li{
+    font-size:.86rem;color:var(--s600);line-height:1.65;margin-bottom:8px;
+    padding-left:26px;position:relative;counter-increment:step;
+  }
+  .ex-steps li::before{
+    content:counter(step);position:absolute;left:0;top:0;
+    width:18px;height:18px;border-radius:50%;background:var(--g100);color:var(--g700);
+    font-size:.7rem;font-weight:800;display:flex;align-items:center;justify-content:center;
+  }
+  .ex-reps{
+    font-size:.82rem;font-weight:700;color:var(--g700);background:var(--g50);
+    display:inline-block;padding:5px 12px;border-radius:999px;margin-bottom:10px;
+  }
+  .ex-note{font-size:.8rem;color:var(--a600);line-height:1.6;margin-bottom:14px}
+  .ex-video{
+    border:1.5px dashed var(--s300);border-radius:var(--r-sm);
+    padding:14px;text-align:center;font-size:.8rem;color:var(--s400);
+    background:var(--s50);
+  }
+
+  /* ════ CTA SECTION ════ */
+  .cta-section{
+    background:linear-gradient(140deg,#0a3d1f 0%,#166534 40%,#92400e 100%);
+    padding:80px 0;text-align:center;
+  }
+  .cta-section h2{
+    font-family:'Playfair Display',serif;font-size:clamp(1.8rem,3.5vw,2.5rem);
+    color:#fff;margin-bottom:16px;
+  }
+  .cta-section p{color:rgba(255,255,255,.75);font-size:1rem;margin-bottom:36px}
+  .btn-white{
+    display:inline-flex;align-items:center;gap:8px;
+    padding:16px 32px;border-radius:999px;font-size:1rem;font-weight:700;
+    background:#fff;color:var(--g700);box-shadow:0 8px 32px rgba(0,0,0,.22);
+    transition:all .25s;
+  }
+  .btn-white:hover{transform:translateY(-2px);box-shadow:0 14px 44px rgba(0,0,0,.28)}
+
+  /* ════ FOOTER ════ */
+  .footer{background:var(--s900);padding:72px 0 36px}
+  .footer-grid{display:grid;grid-template-columns:2.2fr 1fr 1fr 1.2fr;gap:48px;margin-bottom:56px}
+  .footer-brand .logo{margin-bottom:18px}
+  .footer-brand .logo .logo-text strong{color:#fff}
+  .footer-brand .logo .logo-text span{color:var(--s400)}
+  .footer-desc{font-size:.87rem;color:var(--s400);line-height:1.75;margin-bottom:24px}
+  .footer-contact{display:flex;flex-direction:column;gap:12px}
+  .fc-item{display:flex;align-items:flex-start;gap:10px;font-size:.85rem;color:var(--s400)}
+  .fc-icon{font-size:.95rem;flex-shrink:0;margin-top:1px}
+  .fc-item strong{display:block;color:#fff;font-size:.82rem;margin-bottom:1px}
+  .fc-item a{color:var(--g400);font-weight:600}
+  .footer-col h4{font-size:.9rem;font-weight:800;color:#fff;margin-bottom:18px;letter-spacing:.02em}
+  .footer-col ul{display:flex;flex-direction:column;gap:11px}
+  .footer-col ul a{font-size:.85rem;color:var(--s400);transition:color .2s}
+  .footer-col ul a:hover{color:var(--g400)}
+  .hours-card{background:var(--s800);border-radius:var(--r-md);padding:20px;border:1px solid var(--s700)}
+  .hours-badge{
+    display:inline-flex;align-items:center;gap:6px;
+    background:rgba(74,222,128,.15);color:var(--g400);
+    font-size:.75rem;font-weight:700;padding:5px 12px;border-radius:999px;margin-bottom:12px;
+  }
+  .hours-time{font-family:'Playfair Display',serif;font-size:1.6rem;font-weight:700;color:#fff;line-height:1;margin-bottom:6px}
+  .hours-note{font-size:.8rem;color:var(--s400)}
+  .footer-bottom{
+    border-top:1px solid var(--s800);padding-top:28px;
+    display:flex;align-items:center;justify-content:space-between;
+    font-size:.8rem;color:var(--s500);
+  }
+  .footer-bottom a{color:var(--s400);transition:color .2s}
+  .footer-bottom a:hover{color:var(--g400)}
+  .fab-group{position:fixed;bottom:24px;right:24px;z-index:200;display:flex;flex-direction:column;gap:12px;align-items:flex-end}
+  .fab{
+    height:52px;border-radius:26px;font-size:1.3rem;
+    color:#fff;display:flex;align-items:center;justify-content:center;gap:8px;
+    text-decoration:none;transition:transform .2s;padding:0 18px 0 14px;
+    white-space:nowrap;
+  }
+  .fab-label{font-size:.92rem;font-weight:700;font-family:inherit}
+  .fab:hover{transform:scale(1.06)}
+  .fab-phone{
+    background:linear-gradient(135deg,var(--g600),var(--a500));
+    box-shadow:0 6px 24px rgba(22,163,74,.5);
+    animation:fab-pulse-green 2.5s ease-in-out infinite;
+  }
+  .fab-zalo{
+    background:linear-gradient(135deg,#0068ff,#2196f3);
+    box-shadow:0 6px 24px rgba(0,104,255,.45);
+    animation:fab-pulse-blue 2.5s ease-in-out infinite;
+    animation-delay:.8s;
+  }
+  .fab-zalo svg{width:28px;height:28px;fill:#fff;flex-shrink:0}
+  @keyframes fab-pulse-green{
+    0%,100%{box-shadow:0 6px 24px rgba(22,163,74,.5),0 0 0 0 rgba(22,163,74,.25)}
+    50%{box-shadow:0 6px 24px rgba(22,163,74,.5),0 0 0 12px rgba(22,163,74,0)}
+  }
+  @keyframes fab-pulse-blue{
+    0%,100%{box-shadow:0 6px 24px rgba(0,104,255,.45),0 0 0 0 rgba(0,104,255,.2)}
+    50%{box-shadow:0 6px 24px rgba(0,104,255,.45),0 0 0 12px rgba(0,104,255,0)}
+  }
+
+  @media(max-width:1024px){
+    .ex-grid{grid-template-columns:1fr}
+    .footer-grid{grid-template-columns:1fr 1fr;gap:32px}
+  }
+  @media(max-width:768px){
+    .page-hero{padding:110px 0 50px}
+    .footer-grid{grid-template-columns:1fr}
+    .footer-bottom{flex-direction:column;gap:8px;text-align:center}
+    .nav-links,.nav-btn{display:none}
+    .nav-hamburger{display:block}
+  }
+  </style>
+</head>
+<body>
+
+<!-- ════ HEADER ════ -->
+<header class="header">
+  <div class="container">
+    <nav class="nav">
+      <a href="index.html" class="logo">
+        <div class="logo-icon"><img src="logo.svg" alt="Logo Đông Y Tâm Đức"></div>
+        <div class="logo-text">
+          <strong>YHCT Tâm Đức</strong>
+          <span>Y Học Cổ Truyền</span>
+        </div>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html#dich-vu">Dịch vụ</a></li>
+        <li><a href="index.html#bac-si">Bác sĩ</a></li>
+        <li><a href="index.html#quy-trinh">Quy trình</a></li>
+        <li><a href="index.html#danh-gia">Đánh giá</a></li>
+        <li><a href="kien-thuc.html">Kiến thức</a></li>
+        <li><a href="bai-tap.html" class="active">Bài tập trị liệu</a></li>
+        <li><a href="index.html#lien-he">Liên hệ</a></li>
+      </ul>
+      <a href="index.html#dat-lich" class="nav-btn">Đặt lịch khám</a>
+      <button class="nav-hamburger" aria-label="Menu">
+        <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<!-- ════ PAGE HERO ════ -->
+<section class="page-hero">
+  <div class="container page-hero-inner">
+    <div class="tag">🏃 Bài tập trị liệu</div>
+    <h1>Bài tập hỗ trợ bệnh<br>cơ xương khớp</h1>
+    <p>Các bài tập thể dục, yoga dưỡng sinh đơn giản, có minh họa từng động tác — giúp bệnh nhân tự tập tại nhà để hỗ trợ điều trị và phòng ngừa các bệnh lý cơ xương khớp.</p>
+    <div class="safety-box">
+      <span class="si">⚠️</span>
+      <p><strong>Lưu ý trước khi tập:</strong> Các bài tập dưới đây mang tính tham khảo, hỗ trợ điều trị. Vui lòng tập đúng kỹ thuật, tăng dần độ khó, và <strong>ngừng ngay nếu thấy đau nhói, tê tay/chân hoặc chóng mặt</strong>. Nên hỏi ý kiến bác sĩ trước khi tập nếu đang trong giai đoạn đau cấp hoặc có bệnh lý nặng.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ════ JUMP NAV ════ -->
+<div class="jumpnav-bar">
+  <div class="container">
+    <div class="jumpnav-inner">
+<a href="#vung-co">Vùng cổ – cổ vai gáy</a><a href="#vung-vai">Vùng vai</a><a href="#vung-lung">Vùng thắt lưng</a><a href="#khop-goi">Khớp gối</a><a href="#co-tay">Cổ tay – cẳng tay</a><a href="#yoga">Yoga dưỡng sinh tổng quát</a>
+    </div>
+  </div>
+</div>
+
+
+<section class="ex-section" id="vung-co">
+  <div class="container">
+    <h2 class="ex-section-title">🦴 Vùng cổ – cổ vai gáy</h2>
+    <p class="ex-section-desc">Phù hợp với người thoái hóa đốt sống cổ, đau mỏi cổ gáy do ngồi máy tính lâu, cứng cổ buổi sáng.</p>
+    <div class="ex-grid">
+        <div class="ex-card">
+          <div class="ex-illust"><svg viewBox="0 0 160 210" xmlns="http://www.w3.org/2000/svg" class="ex-svg"><line x1="10" y1="195" x2="150" y2="195" stroke="#94a3b8" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 6"/><line x1="80.0" y1="150.0" x2="80.0" y2="95.0" stroke="#0f766e" stroke-width="7" stroke-linecap="round"/><line x1="80.0" y1="95.0" x2="57.5" y2="108.0" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="57.5" y1="108.0" x2="32.4" y2="114.7" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="57.5" cy="108.0" r="4.5" fill="#0f766e"/><circle cx="32.4" cy="114.7" r="4.5" fill="#0f766e"/><line x1="80.0" y1="95.0" x2="102.5" y2="108.0" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="102.5" y1="108.0" x2="127.6" y2="114.7" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="102.5" cy="108.0" r="4.5" fill="#0f766e"/><circle cx="127.6" cy="114.7" r="4.5" fill="#0f766e"/><line x1="80.0" y1="150.0" x2="70.4" y2="204.2" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="70.4" y1="204.2" x2="65.7" y2="259.0" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="70.4" cy="204.2" r="4.5" fill="#0f766e"/><circle cx="65.7" cy="259.0" r="4.5" fill="#0f766e"/><line x1="80.0" y1="150.0" x2="89.6" y2="204.2" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="89.6" y1="204.2" x2="94.3" y2="259.0" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="89.6" cy="204.2" r="4.5" fill="#0f766e"/><circle cx="94.3" cy="259.0" r="4.5" fill="#0f766e"/><circle cx="80.0" cy="95.0" r="5" fill="#0f766e"/><circle cx="80.0" cy="150.0" r="5" fill="#0f766e"/><circle cx="89.4" cy="84.6" r="11" fill="#fff" stroke="#0f766e" stroke-width="6"/></svg></div>
+          <div class="ex-body">
+            <h3>Gập – ngửa cổ</h3>
+            <ol class="ex-steps"><li>Ngồi thẳng lưng, hai vai thả lỏng.</li><li>Từ từ gập cổ cúi cằm về phía ngực đến khi căng nhẹ vùng gáy, giữ 5 giây.</li><li>Ngửa cổ nhẹ nhàng lên trên, giữ 5 giây.</li><li>Trở lại vị trí trung gian, lặp lại.</li></ol>
+            <div class="ex-reps">🔁 8–10 lần, 2 lượt/ngày</div>
+            <div class="ex-note">⚠️ Thực hiện chậm, không giật cổ. Ngừng ngay nếu chóng mặt hoặc đau lan xuống tay.</div>
+            <div class="ex-video" data-video-url="">
+              <span>🎬 Video hướng dẫn sẽ được cập nhật sau</span>
+            </div>
+          </div>
+        </div>
+        <div class="ex-card">
+          <div class="ex-illust"><svg viewBox="0 0 160 210" xmlns="http://www.w3.org/2000/svg" class="ex-svg"><line x1="10" y1="195" x2="150" y2="195" stroke="#94a3b8" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 6"/><line x1="80.0" y1="150.0" x2="80.0" y2="95.0" stroke="#0f766e" stroke-width="7" stroke-linecap="round"/><line x1="80.0" y1="95.0" x2="57.5" y2="108.0" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="57.5" y1="108.0" x2="32.4" y2="114.7" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="57.5" cy="108.0" r="4.5" fill="#0f766e"/><circle cx="32.4" cy="114.7" r="4.5" fill="#0f766e"/><line x1="80.0" y1="95.0" x2="102.5" y2="108.0" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="102.5" y1="108.0" x2="127.6" y2="114.7" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="102.5" cy="108.0" r="4.5" fill="#0f766e"/><circle cx="127.6" cy="114.7" r="4.5" fill="#0f766e"/><line x1="80.0" y1="150.0" x2="70.4" y2="204.2" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="70.4" y1="204.2" x2="65.7" y2="259.0" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="70.4" cy="204.2" r="4.5" fill="#0f766e"/><circle cx="65.7" cy="259.0" r="4.5" fill="#0f766e"/><line x1="80.0" y1="150.0" x2="89.6" y2="204.2" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="89.6" y1="204.2" x2="94.3" y2="259.0" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="89.6" cy="204.2" r="4.5" fill="#0f766e"/><circle cx="94.3" cy="259.0" r="4.5" fill="#0f766e"/><circle cx="80.0" cy="95.0" r="5" fill="#0f766e"/><circle cx="80.0" cy="150.0" r="5" fill="#0f766e"/><circle cx="69.3" cy="86.0" r="11" fill="#fff" stroke="#0f766e" stroke-width="6"/></svg></div>
+          <div class="ex-body">
+            <h3>Nghiêng cổ hai bên</h3>
+            <ol class="ex-steps"><li>Ngồi thẳng, hai tay thả lỏng trên đùi.</li><li>Nghiêng đầu sang phải, tai hướng về vai phải đến khi căng nhẹ bên trái cổ, giữ 10 giây.</li><li>Trở lại giữa, đổi bên trái.</li><li>Có thể dùng tay nhẹ nhàng hỗ trợ kéo thêm (không kéo mạnh).</li></ol>
+            <div class="ex-reps">🔁 5 lần mỗi bên, 2 lượt/ngày</div>
+            <div class="ex-note">⚠️ Không ép đầu xuống quá mạnh, đặc biệt nếu có thoát vị đĩa đệm cổ.</div>
+            <div class="ex-video" data-video-url="">
+              <span>🎬 Video hướng dẫn sẽ được cập nhật sau</span>
+            </div>
+          </div>
+        </div>
+        <div class="ex-card">
+          <div class="ex-illust"><svg viewBox="0 0 160 210" xmlns="http://www.w3.org/2000/svg" class="ex-svg"><line x1="10" y1="195" x2="150" y2="195" stroke="#94a3b8" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 6"/><line x1="80.0" y1="150.0" x2="80.0" y2="95.0" stroke="#0f766e" stroke-width="7" stroke-linecap="round"/><line x1="80.0" y1="95.0" x2="57.5" y2="108.0" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="57.5" y1="108.0" x2="32.4" y2="114.7" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="57.5" cy="108.0" r="4.5" fill="#0f766e"/><circle cx="32.4" cy="114.7" r="4.5" fill="#0f766e"/><line x1="80.0" y1="95.0" x2="102.5" y2="108.0" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="102.5" y1="108.0" x2="127.6" y2="114.7" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="102.5" cy="108.0" r="4.5" fill="#0f766e"/><circle cx="127.6" cy="114.7" r="4.5" fill="#0f766e"/><line x1="80.0" y1="150.0" x2="70.4" y2="204.2" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="70.4" y1="204.2" x2="65.7" y2="259.0" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="70.4" cy="204.2" r="4.5" fill="#0f766e"/><circle cx="65.7" cy="259.0" r="4.5" fill="#0f766e"/><line x1="80.0" y1="150.0" x2="89.6" y2="204.2" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="89.6" y1="204.2" x2="94.3" y2="259.0" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="89.6" cy="204.2" r="4.5" fill="#0f766e"/><circle cx="94.3" cy="259.0" r="4.5" fill="#0f766e"/><circle cx="80.0" cy="95.0" r="5" fill="#0f766e"/><circle cx="80.0" cy="150.0" r="5" fill="#0f766e"/><circle cx="93.2" cy="90.2" r="11" fill="#fff" stroke="#0f766e" stroke-width="6"/></svg></div>
+          <div class="ex-body">
+            <h3>Xoay cổ nhẹ</h3>
+            <ol class="ex-steps"><li>Ngồi thẳng lưng, mắt nhìn thẳng.</li><li>Quay đầu sang phải hết mức có thể một cách thoải mái, giữ 5 giây.</li><li>Quay về giữa, đổi sang trái.</li><li>Giữ vai cố định, chỉ xoay phần đầu – cổ.</li></ol>
+            <div class="ex-reps">🔁 6–8 lần mỗi bên</div>
+            <div class="ex-note">⚠️ Không xoay tròn 360° kiểu "lắc cổ" vì dễ gây chóng mặt và tổn thương đốt sống cổ.</div>
+            <div class="ex-video" data-video-url="">
+              <span>🎬 Video hướng dẫn sẽ được cập nhật sau</span>
+            </div>
+          </div>
+        </div>
+        <div class="ex-card">
+          <div class="ex-illust"><svg viewBox="0 0 160 210" xmlns="http://www.w3.org/2000/svg" class="ex-svg"><line x1="10" y1="195" x2="150" y2="195" stroke="#94a3b8" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 6"/><line x1="80.0" y1="150.0" x2="80.0" y2="95.0" stroke="#0f766e" stroke-width="7" stroke-linecap="round"/><line x1="80.0" y1="95.0" x2="57.5" y2="108.0" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="57.5" y1="108.0" x2="32.4" y2="114.7" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="57.5" cy="108.0" r="4.5" fill="#0f766e"/><circle cx="32.4" cy="114.7" r="4.5" fill="#0f766e"/><line x1="80.0" y1="95.0" x2="102.5" y2="108.0" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="102.5" y1="108.0" x2="127.6" y2="114.7" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="102.5" cy="108.0" r="4.5" fill="#0f766e"/><circle cx="127.6" cy="114.7" r="4.5" fill="#0f766e"/><line x1="80.0" y1="150.0" x2="70.4" y2="204.2" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="70.4" y1="204.2" x2="65.7" y2="259.0" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="70.4" cy="204.2" r="4.5" fill="#0f766e"/><circle cx="65.7" cy="259.0" r="4.5" fill="#0f766e"/><line x1="80.0" y1="150.0" x2="89.6" y2="204.2" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="89.6" y1="204.2" x2="94.3" y2="259.0" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="89.6" cy="204.2" r="4.5" fill="#0f766e"/><circle cx="94.3" cy="259.0" r="4.5" fill="#0f766e"/><circle cx="80.0" cy="95.0" r="5" fill="#0f766e"/><circle cx="80.0" cy="150.0" r="5" fill="#0f766e"/><circle cx="77.6" cy="81.2" r="11" fill="#fff" stroke="#0f766e" stroke-width="6"/></svg></div>
+          <div class="ex-body">
+            <h3>Rút cằm (Chin tuck)</h3>
+            <ol class="ex-steps"><li>Ngồi hoặc đứng thẳng, mắt nhìn ngang.</li><li>Nhẹ nhàng kéo cằm về phía sau (như tạo "cằm đôi"), giữ cổ thẳng.</li><li>Giữ 5 giây rồi thả lỏng.</li><li>Đây là bài tập rất tốt để chỉnh tư thế đầu cổ do ngồi cúi nhiều.</li></ol>
+            <div class="ex-reps">🔁 10 lần, nhiều lượt trong ngày</div>
+            <div class="ex-note">⚠️ Bài tập an toàn, có thể làm thường xuyên khi làm việc với máy tính/điện thoại.</div>
+            <div class="ex-video" data-video-url="">
+              <span>🎬 Video hướng dẫn sẽ được cập nhật sau</span>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</section>
+<section class="ex-section" id="vung-vai">
+  <div class="container">
+    <h2 class="ex-section-title">💪 Vùng vai</h2>
+    <p class="ex-section-desc">Phù hợp với đau vai gáy, viêm quanh khớp vai, hội chứng "vai đông cứng" (frozen shoulder).</p>
+    <div class="ex-grid">
+        <div class="ex-card">
+          <div class="ex-illust"><svg viewBox="0 0 160 210" xmlns="http://www.w3.org/2000/svg" class="ex-svg"><line x1="10" y1="195" x2="150" y2="195" stroke="#94a3b8" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 6"/><line x1="80.0" y1="150.0" x2="80.0" y2="95.0" stroke="#0f766e" stroke-width="7" stroke-linecap="round"/><line x1="80.0" y1="95.0" x2="71.1" y2="119.4" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="71.1" y1="119.4" x2="55.7" y2="137.8" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="71.1" cy="119.4" r="4.5" fill="#0f766e"/><circle cx="55.7" cy="137.8" r="4.5" fill="#0f766e"/><line x1="80.0" y1="95.0" x2="88.9" y2="119.4" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="88.9" y1="119.4" x2="104.3" y2="137.8" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="88.9" cy="119.4" r="4.5" fill="#0f766e"/><circle cx="104.3" cy="137.8" r="4.5" fill="#0f766e"/><line x1="80.0" y1="150.0" x2="70.4" y2="204.2" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="70.4" y1="204.2" x2="65.7" y2="259.0" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="70.4" cy="204.2" r="4.5" fill="#0f766e"/><circle cx="65.7" cy="259.0" r="4.5" fill="#0f766e"/><line x1="80.0" y1="150.0" x2="89.6" y2="204.2" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="89.6" y1="204.2" x2="94.3" y2="259.0" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="89.6" cy="204.2" r="4.5" fill="#0f766e"/><circle cx="94.3" cy="259.0" r="4.5" fill="#0f766e"/><circle cx="80.0" cy="95.0" r="5" fill="#0f766e"/><circle cx="80.0" cy="150.0" r="5" fill="#0f766e"/><circle cx="80.0" cy="81.0" r="11" fill="#fff" stroke="#0f766e" stroke-width="6"/></svg></div>
+          <div class="ex-body">
+            <h3>Xoay vai</h3>
+            <ol class="ex-steps"><li>Đứng hoặc ngồi thẳng, hai tay thả lỏng hai bên.</li><li>Nhấc hai vai lên, xoay vai về phía sau theo vòng tròn.</li><li>Xoay chậm và đều 8–10 vòng rồi đổi chiều xoay về phía trước.</li></ol>
+            <div class="ex-reps">🔁 2 chiều x 10 vòng, 2 lượt/ngày</div>
+            <div class="ex-note">⚠️ Biên độ tăng dần theo khả năng, không gắng sức nếu vai đang viêm cấp.</div>
+            <div class="ex-video" data-video-url="">
+              <span>🎬 Video hướng dẫn sẽ được cập nhật sau</span>
+            </div>
+          </div>
+        </div>
+        <div class="ex-card">
+          <div class="ex-illust"><svg viewBox="0 0 160 210" xmlns="http://www.w3.org/2000/svg" class="ex-svg"><line x1="10" y1="195" x2="150" y2="195" stroke="#94a3b8" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 6"/><line x1="80.0" y1="130.0" x2="61.2" y2="78.3" stroke="#0f766e" stroke-width="7" stroke-linecap="round"/><line x1="61.2" y1="78.3" x2="23.6" y2="92.0" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="23.6" y1="92.0" x2="-5.9" y2="97.2" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="23.6" cy="92.0" r="4.5" fill="#0f766e"/><circle cx="-5.9" cy="97.2" r="4.5" fill="#0f766e"/><line x1="61.2" y1="78.3" x2="85.6" y2="87.2" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="85.6" y1="87.2" x2="108.8" y2="93.4" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="85.6" cy="87.2" r="4.5" fill="#0f766e"/><circle cx="108.8" cy="93.4" r="4.5" fill="#0f766e"/><line x1="80.0" y1="130.0" x2="70.4" y2="184.2" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="70.4" y1="184.2" x2="65.7" y2="239.0" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="70.4" cy="184.2" r="4.5" fill="#0f766e"/><circle cx="65.7" cy="239.0" r="4.5" fill="#0f766e"/><line x1="80.0" y1="130.0" x2="89.6" y2="184.2" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="89.6" y1="184.2" x2="94.3" y2="239.0" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="89.6" cy="184.2" r="4.5" fill="#0f766e"/><circle cx="94.3" cy="239.0" r="4.5" fill="#0f766e"/><circle cx="61.2" cy="78.3" r="5" fill="#0f766e"/><circle cx="80.0" cy="130.0" r="5" fill="#0f766e"/><circle cx="58.8" cy="64.5" r="11" fill="#fff" stroke="#0f766e" stroke-width="6"/></svg></div>
+          <div class="ex-body">
+            <h3>Bài tập con lắc (Pendulum)</h3>
+            <ol class="ex-steps"><li>Đứng, hơi cúi người, tay bên đau thả lỏng tự nhiên xuống dưới (có thể vịn tay kia vào bàn/ghế).</li><li>Đung đưa nhẹ cánh tay đau theo hình vòng tròn nhỏ như con lắc, để trọng lực dẫn động, không dùng lực vai.</li><li>Đổi chiều đung đưa sau khi đủ số vòng.</li></ol>
+            <div class="ex-reps">🔁 10 vòng mỗi chiều, 2–3 lượt/ngày</div>
+            <div class="ex-note">⚠️ Rất phù hợp giai đoạn đau cấp của vai đông cứng vì không cần gắng sức chủ động.</div>
+            <div class="ex-video" data-video-url="">
+              <span>🎬 Video hướng dẫn sẽ được cập nhật sau</span>
+            </div>
+          </div>
+        </div>
+        <div class="ex-card">
+          <div class="ex-illust"><svg viewBox="0 0 160 210" xmlns="http://www.w3.org/2000/svg" class="ex-svg"><line x1="10" y1="195" x2="150" y2="195" stroke="#94a3b8" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 6"/><line x1="46.0" y1="160.0" x2="150.0" y2="120.0" stroke="#fb923c" stroke-width="5" stroke-linecap="round" stroke-dasharray="1 5"/><line x1="80.0" y1="150.0" x2="80.0" y2="95.0" stroke="#0f766e" stroke-width="7" stroke-linecap="round"/><line x1="80.0" y1="95.0" x2="94.0" y2="119.2" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="94.0" y1="119.2" x2="71.5" y2="132.2" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="94.0" cy="119.2" r="4.5" fill="#0f766e"/><circle cx="71.5" cy="132.2" r="4.5" fill="#0f766e"/><line x1="80.0" y1="95.0" x2="54.0" y2="110.0" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="54.0" y1="110.0" x2="69.0" y2="136.0" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="54.0" cy="110.0" r="4.5" fill="#0f766e"/><circle cx="69.0" cy="136.0" r="4.5" fill="#0f766e"/><line x1="80.0" y1="150.0" x2="70.4" y2="204.2" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="70.4" y1="204.2" x2="65.7" y2="259.0" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="70.4" cy="204.2" r="4.5" fill="#0f766e"/><circle cx="65.7" cy="259.0" r="4.5" fill="#0f766e"/><line x1="80.0" y1="150.0" x2="89.6" y2="204.2" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="89.6" y1="204.2" x2="94.3" y2="259.0" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="89.6" cy="204.2" r="4.5" fill="#0f766e"/><circle cx="94.3" cy="259.0" r="4.5" fill="#0f766e"/><circle cx="80.0" cy="95.0" r="5" fill="#0f766e"/><circle cx="80.0" cy="150.0" r="5" fill="#0f766e"/><circle cx="80.0" cy="81.0" r="11" fill="#fff" stroke="#0f766e" stroke-width="6"/></svg></div>
+          <div class="ex-body">
+            <h3>Kéo khăn sau lưng</h3>
+            <ol class="ex-steps"><li>Cầm hai đầu một chiếc khăn dài, một tay đưa qua vai từ phía trên, một tay đưa từ phía dưới sau lưng để nắm khăn.</li><li>Tay trên kéo khăn lên giúp kéo giãn tay dưới lên cao dần dọc theo lưng.</li><li>Đổi tay sau khi hoàn thành.</li></ol>
+            <div class="ex-reps">🔁 8–10 lần mỗi bên</div>
+            <div class="ex-note">⚠️ Dừng lại ở mức căng nhẹ, không kéo gây đau nhói.</div>
+            <div class="ex-video" data-video-url="">
+              <span>🎬 Video hướng dẫn sẽ được cập nhật sau</span>
+            </div>
+          </div>
+        </div>
+        <div class="ex-card">
+          <div class="ex-illust"><svg viewBox="0 0 160 210" xmlns="http://www.w3.org/2000/svg" class="ex-svg"><line x1="10" y1="195" x2="150" y2="195" stroke="#94a3b8" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 6"/><line x1="140" y1="10" x2="140" y2="200" stroke="#94a3b8" stroke-width="6" stroke-linecap="round"/><line x1="100.0" y1="150.0" x2="95.2" y2="95.2" stroke="#0f766e" stroke-width="7" stroke-linecap="round"/><line x1="95.2" y1="95.2" x2="128.1" y2="76.2" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="128.1" y1="76.2" x2="155.3" y2="63.5" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="128.1" cy="76.2" r="4.5" fill="#0f766e"/><circle cx="155.3" cy="63.5" r="4.5" fill="#0f766e"/><line x1="95.2" y1="95.2" x2="118.2" y2="75.9" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="118.2" y1="75.9" x2="135.5" y2="65.9" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="118.2" cy="75.9" r="4.5" fill="#0f766e"/><circle cx="135.5" cy="65.9" r="4.5" fill="#0f766e"/><line x1="100.0" y1="150.0" x2="95.2" y2="204.8" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="95.2" y1="204.8" x2="95.2" y2="259.8" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="95.2" cy="204.8" r="4.5" fill="#0f766e"/><circle cx="95.2" cy="259.8" r="4.5" fill="#0f766e"/><line x1="100.0" y1="150.0" x2="114.2" y2="203.1" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="114.2" y1="203.1" x2="123.8" y2="257.3" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="114.2" cy="203.1" r="4.5" fill="#0f766e"/><circle cx="123.8" cy="257.3" r="4.5" fill="#0f766e"/><circle cx="95.2" cy="95.2" r="5" fill="#0f766e"/><circle cx="100.0" cy="150.0" r="5" fill="#0f766e"/><circle cx="95.2" cy="81.2" r="11" fill="#fff" stroke="#0f766e" stroke-width="6"/></svg></div>
+          <div class="ex-body">
+            <h3>Leo tường bằng ngón tay</h3>
+            <ol class="ex-steps"><li>Đứng đối diện hoặc nghiêng người cạnh tường, các ngón tay chạm tường ở độ cao ngang vai.</li><li>Dùng các ngón tay từ từ "bước" leo lên cao dần trên tường, vai và cánh tay nâng theo.</li><li>Leo lên đến mức căng nhẹ thì giữ vài giây, rồi từ từ "bước" tay xuống lại.</li></ol>
+            <div class="ex-reps">🔁 5–8 lần/buổi</div>
+            <div class="ex-note">⚠️ Mục tiêu là cải thiện dần biên độ vận động qua từng ngày, không cần đạt độ cao tối đa ngay.</div>
+            <div class="ex-video" data-video-url="">
+              <span>🎬 Video hướng dẫn sẽ được cập nhật sau</span>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</section>
+<section class="ex-section" id="vung-lung">
+  <div class="container">
+    <h2 class="ex-section-title">🧍 Vùng thắt lưng</h2>
+    <p class="ex-section-desc">Phù hợp với đau lưng do thoái hóa cột sống, thoát vị đĩa đệm (giai đoạn ổn định), ngồi nhiều, người cao tuổi.</p>
+    <div class="ex-grid">
+        <div class="ex-card">
+          <div class="ex-illust"><svg viewBox="0 0 160 210" xmlns="http://www.w3.org/2000/svg" class="ex-svg"><line x1="10" y1="190" x2="150" y2="190" stroke="#94a3b8" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 6"/><line x1="60.0" y1="150.0" x2="116.4" y2="170.5" stroke="#0f766e" stroke-width="7" stroke-linecap="round"/><line x1="116.4" y1="170.5" x2="116.4" y2="215.5" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="116.4" y1="215.5" x2="116.4" y2="230.5" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="116.4" cy="215.5" r="4.5" fill="#0f766e"/><circle cx="116.4" cy="230.5" r="4.5" fill="#0f766e"/><line x1="116.4" y1="170.5" x2="116.4" y2="215.5" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="116.4" y1="215.5" x2="116.4" y2="230.5" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="116.4" cy="215.5" r="4.5" fill="#0f766e"/><circle cx="116.4" cy="230.5" r="4.5" fill="#0f766e"/><line x1="60.0" y1="150.0" x2="46.0" y2="174.2" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="46.0" y1="174.2" x2="46.0" y2="202.2" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="46.0" cy="174.2" r="4.5" fill="#0f766e"/><circle cx="46.0" cy="202.2" r="4.5" fill="#0f766e"/><line x1="60.0" y1="150.0" x2="46.0" y2="174.2" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="46.0" y1="174.2" x2="46.0" y2="202.2" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="46.0" cy="174.2" r="4.5" fill="#0f766e"/><circle cx="46.0" cy="202.2" r="4.5" fill="#0f766e"/><circle cx="116.4" cy="170.5" r="5" fill="#0f766e"/><circle cx="60.0" cy="150.0" r="5" fill="#0f766e"/><circle cx="130.2" cy="168.1" r="11" fill="#fff" stroke="#0f766e" stroke-width="6"/></svg></div>
+          <div class="ex-body">
+            <h3>Tư thế Mèo – Bò</h3>
+            <ol class="ex-steps"><li>Quỳ bốn điểm (hai tay, hai gối) trên sàn, lưng thẳng tự nhiên.</li><li>Hít vào, võng lưng xuống, ngẩng đầu lên (tư thế Bò).</li><li>Thở ra, cong lưng lên trên, cúi đầu nhìn về bụng (tư thế Mèo).</li><li>Chuyển động chậm, nhịp nhàng theo hơi thở.</li></ol>
+            <div class="ex-reps">🔁 10–12 lần, 1–2 lượt/ngày</div>
+            <div class="ex-note">⚠️ Một trong những bài tập an toàn và hiệu quả nhất cho cột sống thắt lưng, phù hợp cả người mới bắt đầu.</div>
+            <div class="ex-video" data-video-url="">
+              <span>🎬 Video hướng dẫn sẽ được cập nhật sau</span>
+            </div>
+          </div>
+        </div>
+        <div class="ex-card">
+          <div class="ex-illust"><svg viewBox="0 0 160 210" xmlns="http://www.w3.org/2000/svg" class="ex-svg"><line x1="10" y1="195" x2="150" y2="195" stroke="#94a3b8" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 6"/><line x1="70.0" y1="150.0" x2="66.1" y2="105.2" stroke="#0f766e" stroke-width="7" stroke-linecap="round"/><line x1="66.1" y1="105.2" x2="89.1" y2="124.5" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="89.1" y1="124.5" x2="113.3" y2="110.5" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="89.1" cy="124.5" r="4.5" fill="#0f766e"/><circle cx="113.3" cy="110.5" r="4.5" fill="#0f766e"/><line x1="66.1" y1="105.2" x2="89.1" y2="124.5" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="89.1" y1="124.5" x2="113.3" y2="110.5" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="89.1" cy="124.5" r="4.5" fill="#0f766e"/><circle cx="113.3" cy="110.5" r="4.5" fill="#0f766e"/><line x1="70.0" y1="150.0" x2="97.7" y2="134.0" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="97.7" y1="134.0" x2="108.0" y2="105.8" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="97.7" cy="134.0" r="4.5" fill="#0f766e"/><circle cx="108.0" cy="105.8" r="4.5" fill="#0f766e"/><line x1="70.0" y1="150.0" x2="97.7" y2="134.0" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="97.7" y1="134.0" x2="108.0" y2="105.8" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="97.7" cy="134.0" r="4.5" fill="#0f766e"/><circle cx="108.0" cy="105.8" r="4.5" fill="#0f766e"/><circle cx="66.1" cy="105.2" r="5" fill="#0f766e"/><circle cx="70.0" cy="150.0" r="5" fill="#0f766e"/><circle cx="68.5" cy="91.4" r="11" fill="#fff" stroke="#0f766e" stroke-width="6"/></svg></div>
+          <div class="ex-body">
+            <h3>Co gối ép ngực</h3>
+            <ol class="ex-steps"><li>Nằm ngửa, hai chân duỗi thẳng trên sàn.</li><li>Co một chân lên, dùng hai tay ôm lấy gối kéo nhẹ về phía ngực, giữ 15–20 giây.</li><li>Thả chân về vị trí ban đầu, đổi chân.</li><li>Có thể thực hiện co cả hai gối cùng lúc nếu đã quen.</li></ol>
+            <div class="ex-reps">🔁 3 lần mỗi chân</div>
+            <div class="ex-note">⚠️ Giúp kéo giãn nhẹ vùng thắt lưng dưới, giảm co cứng cơ cạnh sống.</div>
+            <div class="ex-video" data-video-url="">
+              <span>🎬 Video hướng dẫn sẽ được cập nhật sau</span>
+            </div>
+          </div>
+        </div>
+        <div class="ex-card">
+          <div class="ex-illust"><svg viewBox="0 0 160 210" xmlns="http://www.w3.org/2000/svg" class="ex-svg"><line x1="10" y1="195" x2="150" y2="195" stroke="#94a3b8" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 6"/><line x1="60.0" y1="160.0" x2="119.8" y2="165.2" stroke="#0f766e" stroke-width="7" stroke-linecap="round"/><line x1="119.8" y1="165.2" x2="117.3" y2="193.1" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="117.3" y1="193.1" x2="116.0" y2="208.1" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="117.3" cy="193.1" r="4.5" fill="#0f766e"/><circle cx="116.0" cy="208.1" r="4.5" fill="#0f766e"/><line x1="119.8" y1="165.2" x2="117.3" y2="193.1" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="117.3" y1="193.1" x2="116.0" y2="208.1" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="117.3" cy="193.1" r="4.5" fill="#0f766e"/><circle cx="116.0" cy="208.1" r="4.5" fill="#0f766e"/><line x1="60.0" y1="160.0" x2="75.0" y2="134.0" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="75.0" y1="134.0" x2="104.9" y2="136.6" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="75.0" cy="134.0" r="4.5" fill="#0f766e"/><circle cx="104.9" cy="136.6" r="4.5" fill="#0f766e"/><line x1="60.0" y1="160.0" x2="75.0" y2="134.0" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="75.0" y1="134.0" x2="104.9" y2="136.6" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="75.0" cy="134.0" r="4.5" fill="#0f766e"/><circle cx="104.9" cy="136.6" r="4.5" fill="#0f766e"/><circle cx="119.8" cy="165.2" r="5" fill="#0f766e"/><circle cx="60.0" cy="160.0" r="5" fill="#0f766e"/><circle cx="133.7" cy="166.4" r="11" fill="#fff" stroke="#0f766e" stroke-width="6"/></svg></div>
+          <div class="ex-body">
+            <h3>Bài tập cầu hông (Bridge)</h3>
+            <ol class="ex-steps"><li>Nằm ngửa, co hai gối, hai bàn chân đặt sát sàn rộng bằng hông.</li><li>Siết cơ bụng và mông, nâng hông lên khỏi sàn tạo thành đường thẳng từ gối đến vai.</li><li>Giữ 5 giây rồi hạ hông xuống từ từ.</li></ol>
+            <div class="ex-reps">🔁 10–12 lần, 2 lượt/ngày</div>
+            <div class="ex-note">⚠️ Giúp tăng sức mạnh cơ mông và cơ lưng dưới – nhóm cơ nâng đỡ cột sống quan trọng.</div>
+            <div class="ex-video" data-video-url="">
+              <span>🎬 Video hướng dẫn sẽ được cập nhật sau</span>
+            </div>
+          </div>
+        </div>
+        <div class="ex-card">
+          <div class="ex-illust"><svg viewBox="0 0 160 210" xmlns="http://www.w3.org/2000/svg" class="ex-svg"><line x1="10" y1="195" x2="150" y2="195" stroke="#94a3b8" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 6"/><line x1="70.0" y1="150.0" x2="68.4" y2="105.0" stroke="#0f766e" stroke-width="7" stroke-linecap="round"/><line x1="68.4" y1="105.0" x2="73.6" y2="134.6" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="73.6" y1="134.6" x2="97.9" y2="148.6" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="73.6" cy="134.6" r="4.5" fill="#0f766e"/><circle cx="97.9" cy="148.6" r="4.5" fill="#0f766e"/><line x1="68.4" y1="105.0" x2="73.6" y2="75.5" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="73.6" y1="75.5" x2="97.9" y2="61.5" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="73.6" cy="75.5" r="4.5" fill="#0f766e"/><circle cx="97.9" cy="61.5" r="4.5" fill="#0f766e"/><line x1="70.0" y1="150.0" x2="94.5" y2="170.6" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="94.5" y1="170.6" x2="120.5" y2="185.6" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="94.5" cy="170.6" r="4.5" fill="#0f766e"/><circle cx="120.5" cy="185.6" r="4.5" fill="#0f766e"/><line x1="70.0" y1="150.0" x2="94.5" y2="170.6" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="94.5" y1="170.6" x2="120.5" y2="185.6" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="94.5" cy="170.6" r="4.5" fill="#0f766e"/><circle cx="120.5" cy="185.6" r="4.5" fill="#0f766e"/><circle cx="68.4" cy="105.0" r="5" fill="#0f766e"/><circle cx="70.0" cy="150.0" r="5" fill="#0f766e"/><circle cx="70.4" cy="91.2" r="11" fill="#fff" stroke="#0f766e" stroke-width="6"/></svg></div>
+          <div class="ex-body">
+            <h3>Xoay cột sống khi nằm</h3>
+            <ol class="ex-steps"><li>Nằm ngửa, co hai gối, hai bàn chân đặt sát sàn.</li><li>Giữ hai vai chạm sàn, từ từ hạ hai gối nghiêng sang một bên đến khi căng nhẹ, giữ 15–20 giây.</li><li>Đưa gối về giữa, đổi sang bên kia.</li></ol>
+            <div class="ex-reps">🔁 3 lần mỗi bên</div>
+            <div class="ex-note">⚠️ Động tác giúp thư giãn các cơ xoay thân và giảm cứng khớp vùng thắt lưng – chậu.</div>
+            <div class="ex-video" data-video-url="">
+              <span>🎬 Video hướng dẫn sẽ được cập nhật sau</span>
+            </div>
+          </div>
+        </div>
+        <div class="ex-card">
+          <div class="ex-illust"><svg viewBox="0 0 160 210" xmlns="http://www.w3.org/2000/svg" class="ex-svg"><line x1="10" y1="195" x2="150" y2="195" stroke="#94a3b8" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 6"/><line x1="40.0" y1="150.0" x2="109.7" y2="156.1" stroke="#0f766e" stroke-width="7" stroke-linecap="round"/><line x1="109.7" y1="156.1" x2="106.7" y2="191.0" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="106.7" y1="191.0" x2="106.6" y2="192.0" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="106.7" cy="191.0" r="4.5" fill="#0f766e"/><circle cx="106.6" cy="192.0" r="4.5" fill="#0f766e"/><line x1="109.7" y1="156.1" x2="106.7" y2="191.0" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="106.7" y1="191.0" x2="106.6" y2="192.0" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="106.7" cy="191.0" r="4.5" fill="#0f766e"/><circle cx="106.6" cy="192.0" r="4.5" fill="#0f766e"/><line x1="40.0" y1="150.0" x2="44.3" y2="174.6" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="44.3" y1="174.6" x2="42.2" y2="199.5" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="44.3" cy="174.6" r="4.5" fill="#0f766e"/><circle cx="42.2" cy="199.5" r="4.5" fill="#0f766e"/><line x1="40.0" y1="150.0" x2="44.3" y2="174.6" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="44.3" y1="174.6" x2="42.2" y2="199.5" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="44.3" cy="174.6" r="4.5" fill="#0f766e"/><circle cx="42.2" cy="199.5" r="4.5" fill="#0f766e"/><circle cx="109.7" cy="156.1" r="5" fill="#0f766e"/><circle cx="40.0" cy="150.0" r="5" fill="#0f766e"/><circle cx="123.7" cy="157.3" r="11" fill="#fff" stroke="#0f766e" stroke-width="6"/></svg></div>
+          <div class="ex-body">
+            <h3>Plank chống gối</h3>
+            <ol class="ex-steps"><li>Chống hai cẳng tay và hai gối xuống sàn, giữ lưng – hông – đầu thẳng một đường.</li><li>Siết nhẹ cơ bụng, giữ tư thế trong khoảng thời gian quy định.</li><li>Thở đều, không nín thở, không để hông sụp võng.</li></ol>
+            <div class="ex-reps">🔁 Giữ 15–30 giây, 3 lần</div>
+            <div class="ex-note">⚠️ Tăng dần thời gian giữ khi cơ lưng – bụng đã khỏe hơn; ngừng nếu cảm thấy đau nhói cột sống.</div>
+            <div class="ex-video" data-video-url="">
+              <span>🎬 Video hướng dẫn sẽ được cập nhật sau</span>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</section>
+<section class="ex-section" id="khop-goi">
+  <div class="container">
+    <h2 class="ex-section-title">🦵 Khớp gối</h2>
+    <p class="ex-section-desc">Phù hợp với thoái hóa khớp gối, đau gối khi lên/xuống cầu thang, sau chấn thương gối đã ổn định.</p>
+    <div class="ex-grid">
+        <div class="ex-card">
+          <div class="ex-illust"><svg viewBox="0 0 160 210" xmlns="http://www.w3.org/2000/svg" class="ex-svg"><rect x="95" y="120" width="40" height="8" fill="none" stroke="#94a3b8" stroke-width="4"/><line x1="95" y1="128" x2="95" y2="195" stroke="#94a3b8" stroke-width="4"/><line x1="135" y1="128" x2="135" y2="195" stroke="#94a3b8" stroke-width="4"/><line x1="133" y1="120" x2="133" y2="80" stroke="#94a3b8" stroke-width="4"/><line x1="100.0" y1="120.0" x2="100.0" y2="75.0" stroke="#0f766e" stroke-width="7" stroke-linecap="round"/><line x1="100.0" y1="75.0" x2="77.5" y2="88.0" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="77.5" y1="88.0" x2="54.3" y2="94.2" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="77.5" cy="88.0" r="4.5" fill="#0f766e"/><circle cx="54.3" cy="94.2" r="4.5" fill="#0f766e"/><line x1="100.0" y1="75.0" x2="122.5" y2="88.0" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="122.5" y1="88.0" x2="145.7" y2="94.2" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="122.5" cy="88.0" r="4.5" fill="#0f766e"/><circle cx="145.7" cy="94.2" r="4.5" fill="#0f766e"/><line x1="100.0" y1="120.0" x2="94.8" y2="149.5" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="94.8" y1="149.5" x2="132.6" y2="146.2" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="94.8" cy="149.5" r="4.5" fill="#0f766e"/><circle cx="132.6" cy="146.2" r="4.5" fill="#0f766e"/><line x1="100.0" y1="120.0" x2="105.2" y2="149.5" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="105.2" y1="149.5" x2="65.2" y2="149.5" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="105.2" cy="149.5" r="4.5" fill="#0f766e"/><circle cx="65.2" cy="149.5" r="4.5" fill="#0f766e"/><circle cx="100.0" cy="75.0" r="5" fill="#0f766e"/><circle cx="100.0" cy="120.0" r="5" fill="#0f766e"/><circle cx="100.0" cy="61.0" r="11" fill="#fff" stroke="#0f766e" stroke-width="6"/></svg></div>
+          <div class="ex-body">
+            <h3>Duỗi gối khi ngồi ghế</h3>
+            <ol class="ex-steps"><li>Ngồi trên ghế, lưng thẳng, hai chân vuông góc với sàn.</li><li>Từ từ duỗi thẳng một chân ra phía trước đến khi cảm thấy căng nhẹ phía sau gối, giữ 5 giây.</li><li>Hạ chân về vị trí ban đầu, đổi chân.</li></ol>
+            <div class="ex-reps">🔁 10–15 lần mỗi chân, 2 lượt/ngày</div>
+            <div class="ex-note">⚠️ Bài tập tốt cho người lớn tuổi, có thể làm ngay tại nhà mà không cần dụng cụ.</div>
+            <div class="ex-video" data-video-url="">
+              <span>🎬 Video hướng dẫn sẽ được cập nhật sau</span>
+            </div>
+          </div>
+        </div>
+        <div class="ex-card">
+          <div class="ex-illust"><svg viewBox="0 0 160 210" xmlns="http://www.w3.org/2000/svg" class="ex-svg"><line x1="10" y1="195" x2="150" y2="195" stroke="#94a3b8" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 6"/><line x1="70.0" y1="150.0" x2="68.4" y2="105.0" stroke="#0f766e" stroke-width="7" stroke-linecap="round"/><line x1="68.4" y1="105.0" x2="89.9" y2="123.0" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="89.9" y1="123.0" x2="112.4" y2="110.0" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="89.9" cy="123.0" r="4.5" fill="#0f766e"/><circle cx="112.4" cy="110.0" r="4.5" fill="#0f766e"/><line x1="68.4" y1="105.0" x2="89.9" y2="123.0" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="89.9" y1="123.0" x2="112.4" y2="110.0" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="89.9" cy="123.0" r="4.5" fill="#0f766e"/><circle cx="112.4" cy="110.0" r="4.5" fill="#0f766e"/><line x1="70.0" y1="150.0" x2="96.0" y2="135.0" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="96.0" y1="135.0" x2="106.2" y2="106.8" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="96.0" cy="135.0" r="4.5" fill="#0f766e"/><circle cx="106.2" cy="106.8" r="4.5" fill="#0f766e"/><line x1="70.0" y1="150.0" x2="66.5" y2="189.8" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="66.5" y1="189.8" x2="66.5" y2="227.8" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="66.5" cy="189.8" r="4.5" fill="#0f766e"/><circle cx="66.5" cy="227.8" r="4.5" fill="#0f766e"/><circle cx="68.4" cy="105.0" r="5" fill="#0f766e"/><circle cx="70.0" cy="150.0" r="5" fill="#0f766e"/><circle cx="70.4" cy="91.2" r="11" fill="#fff" stroke="#0f766e" stroke-width="6"/></svg></div>
+          <div class="ex-body">
+            <h3>Nâng chân thẳng (Straight leg raise)</h3>
+            <ol class="ex-steps"><li>Nằm ngửa, một chân co gối đặt bàn chân trên sàn, chân kia duỗi thẳng.</li><li>Siết cơ đùi của chân duỗi thẳng, nâng chân lên cao khoảng 30–40cm so với sàn, giữ 5 giây.</li><li>Hạ chân từ từ xuống, lặp lại rồi đổi chân.</li></ol>
+            <div class="ex-reps">🔁 10 lần mỗi chân, 2 lượt/ngày</div>
+            <div class="ex-note">⚠️ Giúp tăng cường cơ tứ đầu đùi mà không gây áp lực trực tiếp lên khớp gối.</div>
+            <div class="ex-video" data-video-url="">
+              <span>🎬 Video hướng dẫn sẽ được cập nhật sau</span>
+            </div>
+          </div>
+        </div>
+        <div class="ex-card">
+          <div class="ex-illust"><svg viewBox="0 0 160 210" xmlns="http://www.w3.org/2000/svg" class="ex-svg"><line x1="10" y1="195" x2="150" y2="195" stroke="#94a3b8" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 6"/><line x1="145" y1="10" x2="145" y2="200" stroke="#94a3b8" stroke-width="6" stroke-linecap="round"/><line x1="110.0" y1="140.0" x2="100.4" y2="85.8" stroke="#0f766e" stroke-width="7" stroke-linecap="round"/><line x1="100.4" y1="85.8" x2="76.2" y2="99.8" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="76.2" y1="99.8" x2="53.6" y2="108.0" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="76.2" cy="99.8" r="4.5" fill="#0f766e"/><circle cx="53.6" cy="108.0" r="4.5" fill="#0f766e"/><line x1="100.4" y1="85.8" x2="76.2" y2="99.8" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="76.2" y1="99.8" x2="53.6" y2="108.0" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="76.2" cy="99.8" r="4.5" fill="#0f766e"/><circle cx="53.6" cy="108.0" r="4.5" fill="#0f766e"/><line x1="110.0" y1="140.0" x2="106.5" y2="179.8" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="106.5" y1="179.8" x2="141.4" y2="182.9" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="106.5" cy="179.8" r="4.5" fill="#0f766e"/><circle cx="141.4" cy="182.9" r="4.5" fill="#0f766e"/><line x1="110.0" y1="140.0" x2="113.5" y2="179.8" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="113.5" y1="179.8" x2="148.4" y2="176.8" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="113.5" cy="179.8" r="4.5" fill="#0f766e"/><circle cx="148.4" cy="176.8" r="4.5" fill="#0f766e"/><circle cx="100.4" cy="85.8" r="5" fill="#0f766e"/><circle cx="110.0" cy="140.0" r="5" fill="#0f766e"/><circle cx="98.0" cy="72.0" r="11" fill="#fff" stroke="#0f766e" stroke-width="6"/></svg></div>
+          <div class="ex-body">
+            <h3>Squat tựa tường (nhẹ)</h3>
+            <ol class="ex-steps"><li>Đứng tựa lưng vào tường, hai chân rộng bằng hông, cách tường khoảng một bước chân.</li><li>Từ từ trượt lưng theo tường, hạ người xuống đến khi gối gập nhẹ (không cần gập sâu như squat thường), giữ vài giây.</li><li>Đẩy người trở lại vị trí đứng thẳng.</li></ol>
+            <div class="ex-reps">🔁 8–10 lần, 2 lượt/ngày</div>
+            <div class="ex-note">⚠️ Chỉ gập gối ở mức không gây đau; người thoái hóa khớp gối nặng nên hỏi ý kiến bác sĩ trước khi tăng độ sâu.</div>
+            <div class="ex-video" data-video-url="">
+              <span>🎬 Video hướng dẫn sẽ được cập nhật sau</span>
+            </div>
+          </div>
+        </div>
+        <div class="ex-card">
+          <div class="ex-illust"><svg viewBox="0 0 160 210" xmlns="http://www.w3.org/2000/svg" class="ex-svg"><line x1="10" y1="195" x2="150" y2="195" stroke="#94a3b8" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 6"/><line x1="70.0" y1="140.0" x2="70.0" y2="85.0" stroke="#0f766e" stroke-width="7" stroke-linecap="round"/><line x1="70.0" y1="85.0" x2="77.5" y2="98.0" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="77.5" y1="98.0" x2="105.2" y2="82.0" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="77.5" cy="98.0" r="4.5" fill="#0f766e"/><circle cx="105.2" cy="82.0" r="4.5" fill="#0f766e"/><line x1="70.0" y1="85.0" x2="93.0" y2="104.3" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="93.0" y1="104.3" x2="118.1" y2="111.0" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="93.0" cy="104.3" r="4.5" fill="#0f766e"/><circle cx="118.1" cy="111.0" r="4.5" fill="#0f766e"/><line x1="70.0" y1="140.0" x2="63.1" y2="179.4" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="63.1" y1="179.4" x2="59.6" y2="219.2" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="63.1" cy="179.4" r="4.5" fill="#0f766e"/><circle cx="59.6" cy="219.2" r="4.5" fill="#0f766e"/><line x1="70.0" y1="140.0" x2="32.6" y2="146.6" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="32.6" y1="146.6" x2="25.6" y2="107.2" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="32.6" cy="146.6" r="4.5" fill="#0f766e"/><circle cx="25.6" cy="107.2" r="4.5" fill="#0f766e"/><circle cx="70.0" cy="85.0" r="5" fill="#0f766e"/><circle cx="70.0" cy="140.0" r="5" fill="#0f766e"/><circle cx="71.2" cy="71.1" r="11" fill="#fff" stroke="#0f766e" stroke-width="6"/></svg></div>
+          <div class="ex-body">
+            <h3>Kéo giãn cơ tứ đầu đùi</h3>
+            <ol class="ex-steps"><li>Đứng vịn tay vào ghế/tường để giữ thăng bằng.</li><li>Co một chân về sau, dùng tay cùng bên nắm lấy cổ chân kéo nhẹ gót chân về phía mông.</li><li>Giữ căng nhẹ phía trước đùi trong 15–20 giây, đổi chân.</li></ol>
+            <div class="ex-reps">🔁 3 lần mỗi chân</div>
+            <div class="ex-note">⚠️ Giúp giảm căng cơ tứ đầu đùi – một nguyên nhân thường gặp gây áp lực lên khớp gối.</div>
+            <div class="ex-video" data-video-url="">
+              <span>🎬 Video hướng dẫn sẽ được cập nhật sau</span>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</section>
+<section class="ex-section" id="co-tay">
+  <div class="container">
+    <h2 class="ex-section-title">✋ Cổ tay – cẳng tay</h2>
+    <p class="ex-section-desc">Phù hợp với người làm việc văn phòng, dùng máy tính/điện thoại nhiều, viêm khớp cổ tay, hội chứng ống cổ tay nhẹ.</p>
+    <div class="ex-grid">
+        <div class="ex-card">
+          <div class="ex-illust"><svg viewBox="0 0 160 210" xmlns="http://www.w3.org/2000/svg" class="ex-svg"><line x1="10" y1="195" x2="150" y2="195" stroke="#94a3b8" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 6"/><line x1="80.0" y1="140.0" x2="80.0" y2="90.0" stroke="#0f766e" stroke-width="7" stroke-linecap="round"/><line x1="80.0" y1="90.0" x2="78.7" y2="104.9" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="78.7" y1="104.9" x2="104.7" y2="119.9" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="78.7" cy="104.9" r="4.5" fill="#0f766e"/><circle cx="104.7" cy="119.9" r="4.5" fill="#0f766e"/><line x1="80.0" y1="90.0" x2="81.3" y2="104.9" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="81.3" y1="104.9" x2="55.3" y2="119.9" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="81.3" cy="104.9" r="4.5" fill="#0f766e"/><circle cx="55.3" cy="119.9" r="4.5" fill="#0f766e"/><line x1="80.0" y1="140.0" x2="71.3" y2="189.2" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="71.3" y1="189.2" x2="67.0" y2="239.1" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="71.3" cy="189.2" r="4.5" fill="#0f766e"/><circle cx="67.0" cy="239.1" r="4.5" fill="#0f766e"/><line x1="80.0" y1="140.0" x2="88.7" y2="189.2" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="88.7" y1="189.2" x2="93.0" y2="239.1" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="88.7" cy="189.2" r="4.5" fill="#0f766e"/><circle cx="93.0" cy="239.1" r="4.5" fill="#0f766e"/><circle cx="80.0" cy="90.0" r="5" fill="#0f766e"/><circle cx="80.0" cy="140.0" r="5" fill="#0f766e"/><circle cx="80.0" cy="76.0" r="11" fill="#fff" stroke="#0f766e" stroke-width="6"/></svg></div>
+          <div class="ex-body">
+            <h3>Gập – duỗi cổ tay</h3>
+            <ol class="ex-steps"><li>Duỗi thẳng một tay ra phía trước, lòng bàn tay hướng xuống.</li><li>Dùng tay kia nhẹ nhàng kéo các ngón tay về phía cơ thể để gập cổ tay, giữ 10 giây.</li><li>Sau đó kéo ngược các ngón tay về phía sau để duỗi cổ tay, giữ 10 giây.</li></ol>
+            <div class="ex-reps">🔁 5 lần mỗi chiều, mỗi tay</div>
+            <div class="ex-note">⚠️ Thực hiện nhẹ nhàng, đặc biệt hữu ích để nghỉ giữa giờ làm việc máy tính.</div>
+            <div class="ex-video" data-video-url="">
+              <span>🎬 Video hướng dẫn sẽ được cập nhật sau</span>
+            </div>
+          </div>
+        </div>
+        <div class="ex-card">
+          <div class="ex-illust"><svg viewBox="0 0 160 210" xmlns="http://www.w3.org/2000/svg" class="ex-svg"><line x1="10" y1="195" x2="150" y2="195" stroke="#94a3b8" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 6"/><line x1="80.0" y1="140.0" x2="80.0" y2="90.0" stroke="#0f766e" stroke-width="7" stroke-linecap="round"/><line x1="80.0" y1="90.0" x2="78.7" y2="104.9" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="78.7" y1="104.9" x2="109.6" y2="113.2" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="78.7" cy="104.9" r="4.5" fill="#0f766e"/><circle cx="109.6" cy="113.2" r="4.5" fill="#0f766e"/><line x1="80.0" y1="90.0" x2="81.3" y2="104.9" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="81.3" y1="104.9" x2="50.4" y2="113.2" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="81.3" cy="104.9" r="4.5" fill="#0f766e"/><circle cx="50.4" cy="113.2" r="4.5" fill="#0f766e"/><line x1="80.0" y1="140.0" x2="71.3" y2="189.2" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="71.3" y1="189.2" x2="67.0" y2="239.1" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="71.3" cy="189.2" r="4.5" fill="#0f766e"/><circle cx="67.0" cy="239.1" r="4.5" fill="#0f766e"/><line x1="80.0" y1="140.0" x2="88.7" y2="189.2" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="88.7" y1="189.2" x2="93.0" y2="239.1" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="88.7" cy="189.2" r="4.5" fill="#0f766e"/><circle cx="93.0" cy="239.1" r="4.5" fill="#0f766e"/><circle cx="80.0" cy="90.0" r="5" fill="#0f766e"/><circle cx="80.0" cy="140.0" r="5" fill="#0f766e"/><circle cx="80.0" cy="76.0" r="11" fill="#fff" stroke="#0f766e" stroke-width="6"/></svg></div>
+          <div class="ex-body">
+            <h3>Xoay cổ tay</h3>
+            <ol class="ex-steps"><li>Đưa hai tay ra phía trước, nắm hờ bàn tay.</li><li>Xoay cổ tay theo vòng tròn, chiều kim đồng hồ rồi đổi chiều ngược lại.</li><li>Giữ chuyển động chậm và đều.</li></ol>
+            <div class="ex-reps">🔁 10 vòng mỗi chiều, mỗi tay</div>
+            <div class="ex-note">⚠️ Giúp bôi trơn khớp cổ tay, giảm cứng khớp buổi sáng.</div>
+            <div class="ex-video" data-video-url="">
+              <span>🎬 Video hướng dẫn sẽ được cập nhật sau</span>
+            </div>
+          </div>
+        </div>
+        <div class="ex-card">
+          <div class="ex-illust"><svg viewBox="0 0 160 210" xmlns="http://www.w3.org/2000/svg" class="ex-svg"><line x1="10" y1="195" x2="150" y2="195" stroke="#94a3b8" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 6"/><line x1="80.0" y1="140.0" x2="80.0" y2="90.0" stroke="#0f766e" stroke-width="7" stroke-linecap="round"/><line x1="80.0" y1="90.0" x2="76.9" y2="107.7" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="76.9" y1="107.7" x2="98.3" y2="125.7" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="76.9" cy="107.7" r="4.5" fill="#0f766e"/><circle cx="98.3" cy="125.7" r="4.5" fill="#0f766e"/><line x1="80.0" y1="90.0" x2="83.1" y2="107.7" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="83.1" y1="107.7" x2="61.7" y2="125.7" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="83.1" cy="107.7" r="4.5" fill="#0f766e"/><circle cx="61.7" cy="125.7" r="4.5" fill="#0f766e"/><line x1="80.0" y1="140.0" x2="71.3" y2="189.2" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="71.3" y1="189.2" x2="67.0" y2="239.1" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="71.3" cy="189.2" r="4.5" fill="#0f766e"/><circle cx="67.0" cy="239.1" r="4.5" fill="#0f766e"/><line x1="80.0" y1="140.0" x2="88.7" y2="189.2" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="88.7" y1="189.2" x2="93.0" y2="239.1" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="88.7" cy="189.2" r="4.5" fill="#0f766e"/><circle cx="93.0" cy="239.1" r="4.5" fill="#0f766e"/><circle cx="80.0" cy="90.0" r="5" fill="#0f766e"/><circle cx="80.0" cy="140.0" r="5" fill="#0f766e"/><circle cx="80.0" cy="76.0" r="11" fill="#fff" stroke="#0f766e" stroke-width="6"/></svg></div>
+          <div class="ex-body">
+            <h3>Nắm – mở bàn tay</h3>
+            <ol class="ex-steps"><li>Đưa tay ra phía trước, các ngón tay duỗi thẳng, xòe rộng hết mức.</li><li>Nắm chặt bàn tay lại thành nắm đấm.</li><li>Mở xòe tay ra trở lại, lặp lại nhịp nhàng.</li></ol>
+            <div class="ex-reps">🔁 10–15 lần mỗi tay</div>
+            <div class="ex-note">⚠️ Bài tập đơn giản giúp tăng tuần hoàn và linh hoạt các khớp ngón – cổ tay.</div>
+            <div class="ex-video" data-video-url="">
+              <span>🎬 Video hướng dẫn sẽ được cập nhật sau</span>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</section>
+<section class="ex-section" id="yoga">
+  <div class="container">
+    <h2 class="ex-section-title">🧘 Yoga dưỡng sinh tổng quát</h2>
+    <p class="ex-section-desc">Các động tác nhẹ nhàng hỗ trợ thư giãn toàn thân, phù hợp tập cuối buổi hoặc trước khi ngủ.</p>
+    <div class="ex-grid">
+        <div class="ex-card">
+          <div class="ex-illust"><svg viewBox="0 0 160 210" xmlns="http://www.w3.org/2000/svg" class="ex-svg"><line x1="10" y1="195" x2="150" y2="195" stroke="#94a3b8" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 6"/><line x1="50.0" y1="170.0" x2="104.2" y2="160.4" stroke="#0f766e" stroke-width="7" stroke-linecap="round"/><line x1="104.2" y1="160.4" x2="143.6" y2="174.8" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="143.6" y1="174.8" x2="172.6" y2="182.6" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="143.6" cy="174.8" r="4.5" fill="#0f766e"/><circle cx="172.6" cy="182.6" r="4.5" fill="#0f766e"/><line x1="104.2" y1="160.4" x2="143.6" y2="174.8" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="143.6" y1="174.8" x2="172.6" y2="182.6" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="143.6" cy="174.8" r="4.5" fill="#0f766e"/><circle cx="172.6" cy="182.6" r="4.5" fill="#0f766e"/><line x1="50.0" y1="170.0" x2="39.0" y2="189.1" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="39.0" y1="189.1" x2="22.1" y2="203.2" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="39.0" cy="189.1" r="4.5" fill="#0f766e"/><circle cx="22.1" cy="203.2" r="4.5" fill="#0f766e"/><line x1="50.0" y1="170.0" x2="39.0" y2="189.1" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="39.0" y1="189.1" x2="22.1" y2="203.2" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="39.0" cy="189.1" r="4.5" fill="#0f766e"/><circle cx="22.1" cy="203.2" r="4.5" fill="#0f766e"/><circle cx="104.2" cy="160.4" r="5" fill="#0f766e"/><circle cx="50.0" cy="170.0" r="5" fill="#0f766e"/><circle cx="118.2" cy="160.4" r="11" fill="#fff" stroke="#0f766e" stroke-width="6"/></svg></div>
+          <div class="ex-body">
+            <h3>Tư thế trẻ em (Child's pose)</h3>
+            <ol class="ex-steps"><li>Quỳ trên sàn, hai gối mở rộng bằng hông, ngón chân chụm lại.</li><li>Từ từ gập người về phía trước, hai tay duỗi thẳng trên sàn, trán chạm sàn (hoặc gối nếu chưa chạm tới).</li><li>Thả lỏng vùng lưng, hít thở sâu và đều.</li></ol>
+            <div class="ex-reps">🔁 Giữ 30–60 giây</div>
+            <div class="ex-note">⚠️ Giúp kéo giãn nhẹ toàn bộ cột sống và thư giãn thần kinh; tránh nếu đang đau gối cấp.</div>
+            <div class="ex-video" data-video-url="">
+              <span>🎬 Video hướng dẫn sẽ được cập nhật sau</span>
+            </div>
+          </div>
+        </div>
+        <div class="ex-card">
+          <div class="ex-illust"><svg viewBox="0 0 160 210" xmlns="http://www.w3.org/2000/svg" class="ex-svg"><line x1="10" y1="195" x2="150" y2="195" stroke="#94a3b8" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 6"/><line x1="50.0" y1="170.0" x2="103.1" y2="155.8" stroke="#0f766e" stroke-width="7" stroke-linecap="round"/><line x1="103.1" y1="155.8" x2="109.7" y2="118.3" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="109.7" y1="118.3" x2="122.6" y2="103.0" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="109.7" cy="118.3" r="4.5" fill="#0f766e"/><circle cx="122.6" cy="103.0" r="4.5" fill="#0f766e"/><line x1="103.1" y1="155.8" x2="109.7" y2="118.3" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="109.7" y1="118.3" x2="122.6" y2="103.0" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="109.7" cy="118.3" r="4.5" fill="#0f766e"/><circle cx="122.6" cy="103.0" r="4.5" fill="#0f766e"/><line x1="50.0" y1="170.0" x2="49.0" y2="182.0" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="49.0" y1="182.0" x2="45.5" y2="221.8" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="49.0" cy="182.0" r="4.5" fill="#0f766e"/><circle cx="45.5" cy="221.8" r="4.5" fill="#0f766e"/><line x1="50.0" y1="170.0" x2="51.0" y2="182.0" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="51.0" y1="182.0" x2="54.5" y2="221.8" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="51.0" cy="182.0" r="4.5" fill="#0f766e"/><circle cx="54.5" cy="221.8" r="4.5" fill="#0f766e"/><circle cx="103.1" cy="155.8" r="5" fill="#0f766e"/><circle cx="50.0" cy="170.0" r="5" fill="#0f766e"/><circle cx="113.9" cy="146.8" r="11" fill="#fff" stroke="#0f766e" stroke-width="6"/></svg></div>
+          <div class="ex-body">
+            <h3>Tư thế rắn hổ mang (nhẹ)</h3>
+            <ol class="ex-steps"><li>Nằm sấp, hai tay chống xuống sàn ngang ngực, hai chân duỗi thẳng khép nhẹ.</li><li>Dùng lực tay từ từ nâng phần thân trên lên, giữ hông và chân chạm sàn, chỉ ngẩng lên mức thoải mái.</li><li>Giữ vài nhịp thở, sau đó hạ người xuống từ từ.</li></ol>
+            <div class="ex-reps">🔁 Giữ 10–15 giây, 3 lần</div>
+            <div class="ex-note">⚠️ Chỉ nâng lên đến mức không gây đau thắt lưng; người thoát vị đĩa đệm nặng nên hỏi ý kiến bác sĩ trước.</div>
+            <div class="ex-video" data-video-url="">
+              <span>🎬 Video hướng dẫn sẽ được cập nhật sau</span>
+            </div>
+          </div>
+        </div>
+        <div class="ex-card">
+          <div class="ex-illust"><svg viewBox="0 0 160 210" xmlns="http://www.w3.org/2000/svg" class="ex-svg"><line x1="10" y1="195" x2="150" y2="195" stroke="#94a3b8" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 6"/><line x1="90.0" y1="140.0" x2="85.2" y2="85.2" stroke="#0f766e" stroke-width="7" stroke-linecap="round"/><line x1="85.2" y1="85.2" x2="57.0" y2="95.5" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="57.0" y1="95.5" x2="30.0" y2="102.7" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="57.0" cy="95.5" r="4.5" fill="#0f766e"/><circle cx="30.0" cy="102.7" r="4.5" fill="#0f766e"/><line x1="85.2" y1="85.2" x2="113.4" y2="95.5" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="113.4" y1="95.5" x2="140.4" y2="102.7" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="113.4" cy="95.5" r="4.5" fill="#0f766e"/><circle cx="140.4" cy="102.7" r="4.5" fill="#0f766e"/><line x1="90.0" y1="140.0" x2="70.0" y2="174.6" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="70.0" y1="174.6" x2="66.7" y2="212.5" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="70.0" cy="174.6" r="4.5" fill="#0f766e"/><circle cx="66.7" cy="212.5" r="4.5" fill="#0f766e"/><line x1="90.0" y1="140.0" x2="105.0" y2="166.0" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="105.0" y1="166.0" x2="110.6" y2="197.5" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="105.0" cy="166.0" r="4.5" fill="#0f766e"/><circle cx="110.6" cy="197.5" r="4.5" fill="#0f766e"/><circle cx="85.2" cy="85.2" r="5" fill="#0f766e"/><circle cx="90.0" cy="140.0" r="5" fill="#0f766e"/><circle cx="84.0" cy="71.3" r="11" fill="#fff" stroke="#0f766e" stroke-width="6"/></svg></div>
+          <div class="ex-body">
+            <h3>Tư thế chiến binh (nhẹ)</h3>
+            <ol class="ex-steps"><li>Đứng, bước một chân ra trước thành thế chân trước – chân sau, hai chân cách nhau vừa phải.</li><li>Gập nhẹ gối chân trước, chân sau giữ thẳng, hai tay có thể đưa lên cao hoặc chống hông.</li><li>Giữ thăng bằng, lưng thẳng, hít thở đều.</li></ol>
+            <div class="ex-reps">🔁 Giữ 15–20 giây mỗi bên</div>
+            <div class="ex-note">⚠️ Giúp tăng cường sức mạnh chân và sự dẻo dai vùng hông; có thể vịn tường/ghế nếu khó giữ thăng bằng.</div>
+            <div class="ex-video" data-video-url="">
+              <span>🎬 Video hướng dẫn sẽ được cập nhật sau</span>
+            </div>
+          </div>
+        </div>
+        <div class="ex-card">
+          <div class="ex-illust"><svg viewBox="0 0 160 210" xmlns="http://www.w3.org/2000/svg" class="ex-svg"><line x1="10" y1="195" x2="150" y2="195" stroke="#94a3b8" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 6"/><line x1="40.0" y1="180.0" x2="100.0" y2="180.0" stroke="#0f766e" stroke-width="7" stroke-linecap="round"/><line x1="100.0" y1="180.0" x2="85.0" y2="206.0" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="85.0" y1="206.0" x2="69.7" y2="218.8" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="85.0" cy="206.0" r="4.5" fill="#0f766e"/><circle cx="69.7" cy="218.8" r="4.5" fill="#0f766e"/><line x1="100.0" y1="180.0" x2="115.0" y2="206.0" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="115.0" y1="206.0" x2="130.3" y2="218.8" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="115.0" cy="206.0" r="4.5" fill="#0f766e"/><circle cx="130.3" cy="218.8" r="4.5" fill="#0f766e"/><line x1="40.0" y1="180.0" x2="38.7" y2="194.9" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="38.7" y1="194.9" x2="31.7" y2="234.3" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="38.7" cy="194.9" r="4.5" fill="#0f766e"/><circle cx="31.7" cy="234.3" r="4.5" fill="#0f766e"/><line x1="40.0" y1="180.0" x2="41.3" y2="194.9" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><line x1="41.3" y1="194.9" x2="48.3" y2="234.3" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/><circle cx="41.3" cy="194.9" r="4.5" fill="#0f766e"/><circle cx="48.3" cy="234.3" r="4.5" fill="#0f766e"/><circle cx="100.0" cy="180.0" r="5" fill="#0f766e"/><circle cx="40.0" cy="180.0" r="5" fill="#0f766e"/><circle cx="114.0" cy="180.0" r="11" fill="#fff" stroke="#0f766e" stroke-width="6"/></svg></div>
+          <div class="ex-body">
+            <h3>Tư thế thư giãn (Savasana)</h3>
+            <ol class="ex-steps"><li>Nằm ngửa thoải mái trên sàn hoặc giường, hai tay xuôi theo thân, lòng bàn tay hướng lên.</li><li>Hai chân duỗi thẳng, hơi mở rộng tự nhiên.</li><li>Nhắm mắt, thả lỏng toàn thân, hít thở chậm và sâu.</li></ol>
+            <div class="ex-reps">🔁 Giữ 3–5 phút để kết thúc buổi tập</div>
+            <div class="ex-note">⚠️ Giúp cơ thể phục hồi sau khi tập, ổn định nhịp tim và thư giãn hệ thần kinh.</div>
+            <div class="ex-video" data-video-url="">
+              <span>🎬 Video hướng dẫn sẽ được cập nhật sau</span>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════ CTA ════ -->
+<section class="cta-section">
+  <div class="container">
+    <h2>Cần bác sĩ tư vấn bài tập phù hợp với bạn?</h2>
+    <p>BS. Nguyễn Đức Tâm sẽ thăm khám và hướng dẫn bài tập phù hợp với tình trạng cụ thể của từng bệnh nhân.</p>
+    <a href="index.html#dat-lich" class="btn-white">
+      📅 Đặt lịch khám tối nay
+    </a>
+  </div>
+</section>
+
+<!-- ════ FOOTER ════ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">
+          <div class="logo-icon"><img src="logo.svg" alt="Logo Đông Y Tâm Đức"></div>
+          <div class="logo-text">
+            <strong>YHCT Tâm Đức</strong>
+            <span>Phòng Khám Chuyên Khoa</span>
+          </div>
+        </a>
+        <p class="footer-desc">Phòng Khám Chuyên Khoa Y Học Cổ Truyền Tâm Đức — hội tụ tinh hoa y học phương Đông, phục vụ sức khỏe cộng đồng mỗi buổi tối tại Hà Đông, Hà Nội.</p>
+        <div class="footer-contact">
+          <div class="fc-item">
+            <span class="fc-icon">📍</span>
+            <div>
+              <strong>Địa chỉ</strong>
+              Lk 14 - No14 - Đồng Dưa - TDP 5 Ngô Thì Nhậm, Hà Đông, Hà Nội
+            </div>
+          </div>
+          <div class="fc-item">
+            <span class="fc-icon">📞</span>
+            <div>
+              <strong>Hotline</strong>
+              <a href="tel:0973710237">0973 710 237</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Dịch vụ</h4>
+        <ul>
+          <li><a href="index.html#dat-lich">Châm cứu</a></li>
+          <li><a href="index.html#dat-lich">Xoa bóp bấm huyệt</a></li>
+          <li><a href="index.html#dat-lich">Bốc thuốc thang</a></li>
+          <li><a href="index.html#dat-lich">Khám & tư vấn</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Phòng khám</h4>
+        <ul>
+          <li><a href="index.html#bac-si">BS. Nguyễn Đức Tâm</a></li>
+          <li><a href="index.html#quy-trinh">Quy trình khám</a></li>
+          <li><a href="index.html#danh-gia">Đánh giá bệnh nhân</a></li>
+          <li><a href="kien-thuc.html">Kiến thức YHCT</a></li>
+          <li><a href="bai-tap.html">Bài tập trị liệu</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Giờ làm việc</h4>
+        <div class="hours-card">
+          <div class="hours-badge">● Mở cửa mỗi ngày</div>
+          <div class="hours-time">18:00 – 22:00</div>
+          <div class="hours-note">Thứ 2 đến Chủ nhật<br>Kể cả lễ & cuối tuần</div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Phòng Khám YHCT Tâm Đức. All rights reserved.</span>
+      <span>Hà Đông · Hà Nội · <a href="tel:0973710237">0973 710 237</a></span>
+    </div>
+  </div>
+</footer>
+
+<!-- FAB group -->
+<div class="fab-group">
+  <a href="https://zalo.me/0973710237" target="_blank" rel="noopener" class="fab fab-zalo" title="Nhắn Zalo 0973 710 237">
+    <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><path d="M24 4C13 4 4 13 4 24c0 4.1 1.2 7.9 3.3 11.1L4 44l9.2-3.2A19.8 19.8 0 0 0 24 44c11 0 20-9 20-20S35 4 24 4zm-8.5 13h12.1l-12 13.5H28c.8 0 1.5.7 1.5 1.5s-.7 1.5-1.5 1.5H15.3l12-13.5H15.5c-.8 0-1.5-.7-1.5-1.5s.7-1.5 1.5-1.5z"/></svg>
+    <span class="fab-label">Zalo</span>
+  </a>
+  <a href="tel:0973710237" class="fab fab-phone" title="Gọi 0973 710 237">📞<span class="fab-label">Gọi điện</span></a>
+</div>
+
+</body>
+</html>
