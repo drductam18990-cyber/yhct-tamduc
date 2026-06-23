@@ -5,6 +5,53 @@
 
 const ARTICLES = [
 {
+  id: 61,
+  slug: "bam-huyet-dieu-tri-dau-dau-tai-nha-theo-yhct",
+  date: "2026-06-23",
+  category: "khong-thuoc",
+  categoryLabel: "Không dùng thuốc",
+  icon: "🧘",
+  gradient: "g-herb",
+  title: "Bấm huyệt điều trị đau đầu tại nhà: Phương pháp không dùng thuốc theo Y học cổ truyền",
+  excerpt: "Bấm huyệt là phương pháp không dùng thuốc giúp giảm đau đầu nhanh, an toàn. Bài viết hướng dẫn các huyệt vị cốt lõi và cách tự thực hành đúng kỹ thuật tại nhà.",
+  readTime: 6,
+  content: `
+<h2>Tổng quan theo Y học cổ truyền</h2>
+<p>Đau đầu là triệu chứng rất phổ biến, có thể do căng thẳng, thiếu ngủ, thay đổi thời tiết hoặc các rối loạn nội tại của cơ thể. Trong Y học cổ truyền (YHCT), đau đầu được gọi là "đầu thống", xảy ra khi khí huyết vận hành trong các kinh lạc vùng đầu bị tắc trở, hoặc do tạng phủ (can, tỳ, thận) suy yếu khiến đầu không được nuôi dưỡng đầy đủ. Bấm huyệt là phương pháp dùng lực của ngón tay tác động lên các huyệt vị trên kinh lạc để khai thông khí huyết, không cần dùng thuốc, có thể tự thực hiện tại nhà một cách an toàn nếu đúng kỹ thuật và đúng huyệt vị.</p>
+
+<h2>Phân thể nguyên nhân đau đầu theo YHCT</h2>
+<ul>
+<li><strong>Thể can dương thượng cang:</strong> Đau đầu hai bên thái dương hoặc đỉnh đầu, đau căng tức, dễ kèm chóng mặt, hoa mắt, bực dọc, hay xảy ra khi căng thẳng, mất ngủ.</li>
+<li><strong>Thể đàm thấp:</strong> Đau đầu có cảm giác nặng nề, âm ỉ, kèm chóng mặt, buồn nôn, người nặng nề, hay gặp ở người béo, ăn nhiều đồ dầu mỡ.</li>
+<li><strong>Thể khí huyết hư:</strong> Đau đầu âm ỉ, kéo dài, tăng khi mệt mỏi, làm việc quá sức, kèm mệt mỏi, sắc mặt nhợt, hay quên.</li>
+<li><strong>Thể ngoại cảm phong hàn:</strong> Đau đầu xuất hiện đột ngột sau khi gặp lạnh, gió, kèm sợ lạnh, ngạt mũi, đau mỏi vai gáy.</li>
+</ul>
+
+<h2>Phương pháp điều trị và huyệt vị cốt lõi</h2>
+<p>Nguyên tắc bấm huyệt là sơ thông kinh lạc vùng đầu, bình can tức phong, kiện tỳ trừ đàm hoặc bổ khí huyết tùy theo thể bệnh. Một số huyệt thường dùng:</p>
+<ul>
+<li><strong>Bách hội (GV20):</strong> Ở đỉnh đầu, giao điểm đường nối hai đỉnh vành tai với đường giữa đầu, giúp thanh thần, giảm đau đỉnh đầu, chóng mặt.</li>
+<li><strong>Phong trì (GB20):</strong> Ở chỗ lõm sau gáy, hai bên cơ thang, giúp khu phong, giảm đau đầu vùng sau gáy do căng cơ hoặc cảm lạnh.</li>
+<li><strong>Thái dương (huyệt ngoài kinh):</strong> Ở hõm thái dương, cách đuôi mắt khoảng 1 đốt ngón tay, giảm đau đầu vùng thái dương rất hiệu quả.</li>
+<li><strong>Ấn đường (EX-HN3):</strong> Ở điểm giữa hai đầu lông mày, giúp giảm đau đầu vùng trán, an thần.</li>
+<li><strong>Hợp cốc (LI4):</strong> Ở mu bàn tay, giữa ngón cái và ngón trỏ, có tác dụng giảm đau toàn thân, đặc biệt đau đầu vùng trán và thái dương.</li>
+<li><strong>Thái xung (LR3):</strong> Ở mu bàn chân, giữa ngón chân 1 và 2, giúp bình can, giảm đau đầu do căng thẳng, bực dọc (thể can dương thượng cang).</li>
+</ul>
+<p>Mỗi huyệt nên bấm day theo chiều kim đồng hồ với lực vừa phải trong 1-2 phút, kết hợp hít thở sâu, có thể thực hiện 2-3 lần mỗi ngày khi cơn đau đầu xuất hiện.</p>
+
+<h2>Tự thực hành tại nhà</h2>
+<ul>
+<li>Rửa sạch tay, ngồi hoặc nằm ở tư thế thoải mái, thư giãn cơ vùng đầu cổ trước khi bấm huyệt.</li>
+<li>Dùng đầu ngón tay cái hoặc ngón giữa ấn vào huyệt với lực tăng dần, day nhẹ theo vòng tròn, tránh ấn quá mạnh gây bầm tím.</li>
+<li>Kết hợp xoa nóng hai lòng bàn tay rồi vuốt nhẹ từ trán ra hai bên thái dương và xuống sau gáy để tăng lưu thông khí huyết.</li>
+<li>Uống đủ nước, ngủ đủ giấc, hạn chế dùng thiết bị điện tử liên tục để giảm nguy cơ tái phát đau đầu do căng thẳng.</li>
+<li>Nếu đau đầu kèm sốt cao, nôn nhiều, yếu liệt tay chân hoặc đau dữ dội bất thường, cần đến cơ sở y tế ngay, không chỉ bấm huyệt tại nhà.</li>
+</ul>
+
+<div class="art-cta-box"><p>Bấm huyệt đúng kỹ thuật giúp giảm đau đầu an toàn, không cần dùng thuốc, nhưng cần xác định đúng thể bệnh để đạt hiệu quả tốt nhất. Hãy đến <strong>Phòng Khám YHCT Tâm Đức</strong> để được <strong>BS. Nguyễn Đức Tâm</strong> trực tiếp thăm khám, biện chứng phân thể và hướng dẫn phác đồ châm cứu, bấm huyệt phù hợp. Phòng khám làm việc từ <strong>18:00–22:00 hàng ngày</strong> tại <strong>Hà Đông, Hà Nội</strong>. Liên hệ đặt lịch: <strong>0973 710 237</strong>.</p></div>
+  `
+},
+{
   id: 55,
   slug: "viem-khop-vai-dong-cung-ngu-thap-kien-theo-yhct",
   date: "2026-06-22",
