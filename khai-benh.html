@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-  <title>Phiếu khai thông tin bệnh lý | YHCT Tâm Đức – Hà Đông, Hà Nội</title>
-  <meta name="description" content="Điền phiếu khai thông tin sức khỏe trước khi gặp BS. Nguyễn Đức Tâm. Hệ thống sẽ gợi ý sơ bộ thể bệnh theo Y học cổ truyền."/>
+  <title>Phiếu khai thông tin bệnh lý | YHCT Tâm Đức</title>
+  <meta name="description" content="Điền phiếu khai bệnh trước khi gặp BS. Nguyễn Đức Tâm. Hệ thống gợi ý sơ bộ thể bệnh YHCT."/>
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet"/>
   <style>
   *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
   html{scroll-behavior:smooth;-webkit-font-smoothing:antialiased}
@@ -20,148 +20,152 @@
 
   :root{
     --g50:#f0fdf4;--g100:#dcfce7;--g200:#bbf7d0;
-    --g400:#4ade80;--g600:#16a34a;--g700:#15803d;--g800:#166534;
+    --g400:#4ade80;--g600:#16a34a;--g700:#15803d;
     --a100:#fef3c7;--a300:#fcd34d;--a500:#f59e0b;--a600:#d97706;
     --s50:#f8fafc;--s100:#f1f5f9;--s200:#e2e8f0;--s300:#cbd5e1;
     --s400:#94a3b8;--s500:#64748b;--s600:#475569;--s700:#334155;
     --s800:#1e293b;--s900:#0f172a;
-    --r-sm:10px;--r-md:16px;--r-lg:24px;--r-xl:32px;
+    --r-sm:10px;--r-md:16px;--r-lg:24px;--r-xl:28px;
     --sh-sm:0 2px 8px rgba(0,0,0,.06);
     --sh-md:0 8px 32px rgba(0,0,0,.10);
     --sh-green:0 8px 32px rgba(22,163,74,.3);
   }
-  .container{width:100%;max-width:860px;margin:0 auto;padding:0 20px}
+  .container{width:100%;max-width:880px;margin:0 auto;padding:0 18px}
 
-  /* ── HEADER ── */
-  .header{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(255,255,255,.93);backdrop-filter:blur(20px);box-shadow:0 1px 0 rgba(0,0,0,.07)}
-  .nav{display:flex;align-items:center;justify-content:space-between;height:68px}
+  /* HEADER */
+  .header{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(255,255,255,.94);backdrop-filter:blur(20px);box-shadow:0 1px 0 rgba(0,0,0,.07)}
+  .nav{display:flex;align-items:center;justify-content:space-between;height:66px}
   .logo{display:flex;align-items:center;gap:10px}
-  .logo-icon{width:44px;height:44px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 4px 18px rgba(0,200,83,.35),0 0 0 2px rgba(105,240,174,.2)}
+  .logo-icon{width:42px;height:42px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 4px 18px rgba(0,200,83,.35),0 0 0 2px rgba(105,240,174,.2)}
   .logo-icon img{width:100%;height:100%;object-fit:cover}
-  .logo-text strong{display:block;font-size:.93rem;font-weight:800;color:var(--s900);line-height:1.2}
-  .logo-text span{font-size:.7rem;color:var(--s400)}
-  .nav-links{display:flex;gap:4px;align-items:center}
-  .nav-links a{padding:8px 14px;border-radius:8px;font-size:.85rem;font-weight:500;color:var(--s600);transition:all .2s}
+  .logo-text strong{display:block;font-size:.92rem;font-weight:800;color:var(--s900);line-height:1.2}
+  .logo-text span{font-size:.69rem;color:var(--s400)}
+  .nav-links{display:flex;gap:3px;align-items:center}
+  .nav-links a{padding:7px 12px;border-radius:8px;font-size:.82rem;font-weight:500;color:var(--s600);transition:all .2s}
   .nav-links a:hover{color:var(--g700);background:var(--g50)}
   .nav-links a.active{color:var(--g700);background:var(--g50);font-weight:700}
-  .nav-btn{padding:9px 20px;border-radius:999px;font-size:.86rem;font-weight:700;background:var(--g600);color:#fff;box-shadow:var(--sh-green)}
+  .nav-btn{padding:9px 18px;border-radius:999px;font-size:.84rem;font-weight:700;background:var(--g600);color:#fff;box-shadow:var(--sh-green);white-space:nowrap}
   .nav-hamburger{display:none;background:none;padding:6px;color:var(--s800)}
-  .nav-hamburger svg{width:24px;height:24px}
+  .nav-hamburger svg{width:22px;height:22px}
 
-  /* ── HERO ── */
-  .page-hero{padding:130px 0 54px;background:linear-gradient(160deg,var(--g50) 0%,#fff 60%,var(--a100) 100%);position:relative;overflow:hidden}
-  .page-hero::before{content:'';position:absolute;top:-100px;right:-100px;width:480px;height:480px;border-radius:50%;background:radial-gradient(circle,rgba(74,222,128,.12) 0%,transparent 65%)}
+  /* HERO */
+  .page-hero{padding:120px 0 44px;background:linear-gradient(160deg,var(--g50) 0%,#fff 55%,var(--a100) 100%);position:relative;overflow:hidden}
+  .page-hero::before{content:'';position:absolute;top:-80px;right:-80px;width:420px;height:420px;border-radius:50%;background:radial-gradient(circle,rgba(74,222,128,.12) 0%,transparent 65%)}
   .hero-inner{position:relative;z-index:1}
-  .tag{display:inline-flex;align-items:center;gap:6px;background:var(--g100);color:var(--g700);font-size:.73rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:6px 14px;border-radius:999px;margin-bottom:14px}
-  .page-hero h1{font-family:'Playfair Display',serif;font-size:clamp(1.8rem,4vw,2.6rem);line-height:1.22;letter-spacing:-.02em;color:var(--s900);margin-bottom:14px}
-  .page-hero p{font-size:1rem;color:var(--s500);max-width:600px;line-height:1.75}
-  .steps-row{display:flex;gap:28px;margin-top:30px;flex-wrap:wrap}
-  .step-chip{display:flex;align-items:center;gap:10px;background:#fff;border:1px solid var(--s200);border-radius:var(--r-md);padding:10px 16px;box-shadow:var(--sh-sm)}
-  .step-num{width:26px;height:26px;border-radius:50%;background:var(--g600);color:#fff;font-size:.75rem;font-weight:800;display:flex;align-items:center;justify-content:center;flex-shrink:0}
-  .step-chip span{font-size:.82rem;color:var(--s600);font-weight:600}
+  .tag{display:inline-flex;align-items:center;gap:6px;background:var(--g100);color:var(--g700);font-size:.72rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:5px 13px;border-radius:999px;margin-bottom:12px}
+  .page-hero h1{font-family:'Playfair Display',serif;font-size:clamp(1.7rem,4vw,2.4rem);line-height:1.22;color:var(--s900);margin-bottom:12px}
+  .page-hero p{font-size:.95rem;color:var(--s500);max-width:580px;line-height:1.75}
+  .steps-row{display:flex;gap:10px;margin-top:22px;flex-wrap:wrap}
+  .step-chip{display:flex;align-items:center;gap:8px;background:#fff;border:1px solid var(--s200);border-radius:var(--r-md);padding:8px 14px;box-shadow:var(--sh-sm)}
+  .step-num{width:22px;height:22px;border-radius:50%;background:var(--g600);color:#fff;font-size:.7rem;font-weight:800;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+  .step-chip span{font-size:.8rem;color:var(--s600);font-weight:600}
 
-  /* ── FORM ── */
-  .form-wrap{padding:48px 0 80px}
-  .form-card{background:#fff;border-radius:var(--r-xl);border:1px solid rgba(0,0,0,.06);box-shadow:var(--sh-sm);overflow:hidden;margin-bottom:20px}
-  .form-card-head{background:linear-gradient(135deg,var(--g50),var(--a100));padding:18px 28px;border-bottom:1px solid var(--s100);display:flex;align-items:center;gap:12px}
-  .fc-icon{font-size:1.3rem}
-  .form-card-head h2{font-size:1rem;font-weight:800;color:var(--s900)}
-  .form-card-body{padding:24px 28px;display:flex;flex-direction:column;gap:18px}
+  /* FORM LAYOUT */
+  .form-wrap{padding:36px 0 70px}
+  .form-card{background:#fff;border-radius:var(--r-xl);border:1px solid rgba(0,0,0,.06);box-shadow:var(--sh-sm);overflow:hidden;margin-bottom:16px}
+  .form-card-head{background:linear-gradient(135deg,var(--g50),var(--a100));padding:14px 24px;border-bottom:1px solid var(--s100);display:flex;align-items:center;gap:10px}
+  .fc-icon{font-size:1.2rem}
+  .form-card-head h2{font-size:.95rem;font-weight:800;color:var(--s900)}
+  .form-card-body{padding:20px 24px;display:flex;flex-direction:column;gap:14px}
 
-  label.field{display:flex;flex-direction:column;gap:5px;font-size:.85rem;font-weight:600;color:var(--s700)}
-  label.field input,label.field select,label.field textarea{
-    border:1.5px solid var(--s200);border-radius:var(--r-sm);padding:10px 14px;
-    font-size:.9rem;color:var(--s800);background:#fff;transition:border-color .2s;
-  }
-  label.field input:focus,label.field select:focus,label.field textarea:focus{outline:none;border-color:var(--g600);box-shadow:0 0 0 3px rgba(22,163,74,.12)}
-  .row-2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-  .row-3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px}
-  textarea{resize:vertical;min-height:80px}
+  /* Fields */
+  label.field{display:flex;flex-direction:column;gap:4px;font-size:.82rem;font-weight:600;color:var(--s700)}
+  label.field input,label.field select,label.field textarea{border:1.5px solid var(--s200);border-radius:var(--r-sm);padding:9px 13px;font-size:.88rem;color:var(--s800);background:#fff;transition:border-color .2s}
+  label.field input:focus,label.field select:focus,label.field textarea:focus{outline:none;border-color:var(--g600);box-shadow:0 0 0 3px rgba(22,163,74,.1)}
+  .row-2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  .row-3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px}
+  textarea{resize:vertical;min-height:72px}
 
-  /* checkboxes */
-  .cb-group{display:flex;flex-direction:column;gap:4px}
-  .cb-group-label{font-size:.83rem;font-weight:700;color:var(--s600);margin-bottom:4px}
-  .cb-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:6px}
-  .cb-item{display:flex;align-items:flex-start;gap:9px;padding:9px 12px;border:1.5px solid var(--s200);border-radius:var(--r-sm);cursor:pointer;transition:all .15s;user-select:none;font-size:.84rem;color:var(--s700)}
+  /* Checkboxes */
+  .cb-group{display:flex;flex-direction:column;gap:6px}
+  .cb-group-label{font-size:.8rem;font-weight:700;color:var(--s600)}
+  .cb-grid{display:grid;gap:5px}
+  .cb-3{grid-template-columns:repeat(3,1fr)}
+  .cb-4{grid-template-columns:repeat(4,1fr)}
+  .cb-2{grid-template-columns:repeat(2,1fr)}
+  .cb-6{grid-template-columns:repeat(6,1fr)}
+  .cb-item{display:flex;align-items:flex-start;gap:7px;padding:7px 10px;border:1.5px solid var(--s200);border-radius:8px;cursor:pointer;transition:all .15s;user-select:none;font-size:.8rem;color:var(--s700);line-height:1.4}
   .cb-item:hover{border-color:var(--g400);background:var(--g50)}
-  .cb-item input{margin-top:2px;accent-color:var(--g600);flex-shrink:0}
+  .cb-item input{margin-top:1px;accent-color:var(--g600);flex-shrink:0}
   .cb-item.checked{border-color:var(--g600);background:var(--g50);color:var(--g700);font-weight:600}
 
-  /* tongue section */
-  .tongue-guide{background:var(--s50);border:1px dashed var(--s300);border-radius:var(--r-md);padding:16px;margin-bottom:4px}
-  .tongue-guide h4{font-size:.82rem;font-weight:700;color:var(--s700);margin-bottom:10px;display:flex;align-items:center;gap:6px}
-  .tongue-guide ol{padding-left:18px;font-size:.8rem;color:var(--s600);line-height:1.7;list-style:decimal}
-  .tongue-guide ol li{margin-bottom:4px}
-  .tongue-guide .tip{margin-top:10px;font-size:.78rem;color:var(--a600);background:var(--a100);border-radius:8px;padding:8px 12px;display:flex;gap:7px}
+  /* Tongue section */
+  .tongue-guide{background:var(--s50);border:1px dashed var(--s300);border-radius:var(--r-md);padding:14px}
+  .tongue-guide h4{font-size:.8rem;font-weight:700;color:var(--s700);margin-bottom:8px}
+  .tongue-guide ol{padding-left:16px;font-size:.78rem;color:var(--s600);line-height:1.65;list-style:decimal}
+  .tongue-guide ol li{margin-bottom:3px}
+  .tongue-guide .tip{margin-top:8px;font-size:.76rem;color:var(--a600);background:var(--a100);border-radius:7px;padding:7px 11px}
 
-  /* upload areas */
-  .upload-area{border:2px dashed var(--s300);border-radius:var(--r-md);padding:20px;text-align:center;cursor:pointer;transition:all .2s;position:relative;background:#fff}
+  /* Upload */
+  .upload-area{border:2px dashed var(--s300);border-radius:var(--r-md);padding:18px;text-align:center;cursor:pointer;transition:all .2s;position:relative;background:#fff}
   .upload-area:hover,.upload-area.dragover{border-color:var(--g600);background:var(--g50)}
   .upload-area input[type=file]{position:absolute;inset:0;opacity:0;cursor:pointer;width:100%;height:100%}
-  .upload-icon{font-size:1.8rem;margin-bottom:6px}
-  .upload-area p{font-size:.83rem;color:var(--s500);margin:0}
-  .upload-area .up-hint{font-size:.75rem;color:var(--s400);margin-top:4px}
-  .preview-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(90px,1fr));gap:10px;margin-top:12px}
-  .preview-item{position:relative;border-radius:8px;overflow:hidden;aspect-ratio:1;background:var(--s100)}
+  .upload-icon{font-size:1.6rem;margin-bottom:5px}
+  .upload-area p{font-size:.81rem;color:var(--s500);margin:0}
+  .upload-area .up-hint{font-size:.73rem;color:var(--s400);margin-top:3px}
+  .preview-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(80px,1fr));gap:8px;margin-top:10px}
+  .preview-item{position:relative;border-radius:7px;overflow:hidden;aspect-ratio:1;background:var(--s100)}
   .preview-item img{width:100%;height:100%;object-fit:cover}
-  .preview-item .rm{position:absolute;top:3px;right:3px;width:20px;height:20px;border-radius:50%;background:rgba(0,0,0,.6);color:#fff;font-size:.7rem;display:flex;align-items:center;justify-content:center;cursor:pointer;border:none}
-  .preview-file{display:flex;align-items:center;gap:8px;padding:8px 12px;background:var(--s50);border-radius:8px;border:1px solid var(--s200);font-size:.8rem;color:var(--s700)}
-  .preview-file .rm{background:none;color:var(--s400);cursor:pointer;border:none;font-size:.9rem;margin-left:auto}
+  .preview-item .rm{position:absolute;top:3px;right:3px;width:18px;height:18px;border-radius:50%;background:rgba(0,0,0,.6);color:#fff;font-size:.65rem;display:flex;align-items:center;justify-content:center;cursor:pointer;border:none}
+  .preview-file{display:flex;align-items:center;gap:8px;padding:7px 11px;background:var(--s50);border-radius:7px;border:1px solid var(--s200);font-size:.78rem;color:var(--s700)}
+  .preview-file .rm{background:none;color:var(--s400);cursor:pointer;border:none;font-size:.88rem;margin-left:auto}
 
-  /* submit */
-  .submit-row{display:flex;justify-content:center;padding-top:8px}
-  .btn-submit{display:inline-flex;align-items:center;gap:10px;padding:16px 40px;border-radius:999px;font-size:1rem;font-weight:800;background:var(--g600);color:#fff;box-shadow:var(--sh-green);transition:all .25s;border:none;cursor:pointer}
+  /* Submit */
+  .submit-row{display:flex;flex-direction:column;align-items:center;gap:10px;padding-top:6px}
+  .btn-submit{display:inline-flex;align-items:center;gap:10px;padding:15px 38px;border-radius:999px;font-size:.97rem;font-weight:800;background:var(--g600);color:#fff;box-shadow:var(--sh-green);transition:all .25s;border:none;cursor:pointer}
   .btn-submit:hover:not(:disabled){background:var(--g700);transform:translateY(-2px)}
   .btn-submit:disabled{opacity:.6;cursor:not-allowed}
-  .btn-submit .spinner-sm{width:18px;height:18px;border:2.5px solid rgba(255,255,255,.4);border-top-color:#fff;border-radius:50%;animation:spin .7s linear infinite;display:none}
+  .spinner-sm{width:17px;height:17px;border:2.5px solid rgba(255,255,255,.4);border-top-color:#fff;border-radius:50%;animation:spin .7s linear infinite;display:none}
   .btn-submit.loading .spinner-sm{display:block}
   .btn-submit.loading .btn-text{display:none}
   @keyframes spin{to{transform:rotate(360deg)}}
+  .submit-note{font-size:.78rem;color:var(--s400);text-align:center}
 
-  /* result */
-  .result-section{background:#fff;border-radius:var(--r-xl);border:1px solid rgba(0,0,0,.06);box-shadow:var(--sh-md);margin-top:24px;overflow:hidden;display:none}
+  /* Results */
+  .result-section{background:#fff;border-radius:var(--r-xl);border:1px solid rgba(0,0,0,.06);box-shadow:var(--sh-md);margin-top:20px;overflow:hidden;display:none}
   .result-section.show{display:block}
-  .result-head{background:linear-gradient(140deg,#0a3d1f,#166534);padding:28px;color:#fff}
-  .result-head h2{font-family:'Playfair Display',serif;font-size:1.4rem;margin-bottom:6px}
-  .result-head p{font-size:.85rem;opacity:.8}
-  .result-body{padding:28px}
-  .pattern-card{border:1px solid var(--s200);border-radius:var(--r-md);padding:20px;margin-bottom:14px;position:relative}
+  .result-head{background:linear-gradient(140deg,#0a3d1f,#166534);padding:24px;color:#fff}
+  .result-head h2{font-family:'Playfair Display',serif;font-size:1.3rem;margin-bottom:5px}
+  .result-head p{font-size:.83rem;opacity:.8}
+  .result-body{padding:24px}
+  .pattern-card{border:1px solid var(--s200);border-radius:var(--r-md);padding:18px;margin-bottom:12px;position:relative}
   .pattern-card:first-child{border-color:var(--g300);background:var(--g50)}
-  .pattern-rank{position:absolute;top:16px;right:16px;background:var(--g600);color:#fff;font-size:.72rem;font-weight:800;padding:3px 10px;border-radius:999px}
-  .pattern-name{font-size:1.05rem;font-weight:800;color:var(--s900);margin-bottom:4px}
-  .pattern-phap{font-size:.82rem;font-weight:700;color:var(--g700);margin-bottom:10px}
-  .pattern-desc{font-size:.85rem;color:var(--s600);line-height:1.7;margin-bottom:10px}
-  .pattern-guide{background:var(--a100);border-radius:8px;padding:10px 14px;font-size:.82rem;color:var(--a600);line-height:1.65}
-  .pattern-bar{height:5px;border-radius:999px;background:var(--s100);margin-bottom:14px;overflow:hidden}
-  .pattern-bar-fill{height:100%;background:linear-gradient(90deg,var(--g600),var(--g400));border-radius:999px;transition:width 1s ease}
-  .no-pattern{text-align:center;padding:28px;color:var(--s400)}
-  .disclaimer-box{background:var(--a100);border:1px solid var(--a300);border-radius:var(--r-md);padding:14px 18px;font-size:.82rem;color:var(--a600);line-height:1.7;margin-top:20px;display:flex;gap:10px}
-  .mail-status{margin-top:16px;font-size:.82rem;text-align:center;color:var(--s400)}
+  .pattern-rank{position:absolute;top:14px;right:14px;background:var(--g600);color:#fff;font-size:.7rem;font-weight:800;padding:2px 9px;border-radius:999px}
+  .pattern-name{font-size:1rem;font-weight:800;color:var(--s900);margin-bottom:3px}
+  .pattern-phap{font-size:.8rem;font-weight:700;color:var(--g700);margin-bottom:8px}
+  .pattern-desc{font-size:.83rem;color:var(--s600);line-height:1.68;margin-bottom:8px}
+  .pattern-guide{background:var(--a100);border-radius:7px;padding:9px 13px;font-size:.8rem;color:var(--a600);line-height:1.6}
+  .pattern-bar{height:4px;border-radius:999px;background:var(--s100);margin-bottom:12px;overflow:hidden}
+  .pattern-bar-fill{height:100%;background:linear-gradient(90deg,var(--g600),var(--g400));border-radius:999px}
+  .no-pattern{text-align:center;padding:24px;color:var(--s400)}
+  .disclaimer-box{background:var(--a100);border:1px solid var(--a300);border-radius:var(--r-md);padding:13px 16px;font-size:.8rem;color:var(--a600);line-height:1.65;margin-top:16px;display:flex;gap:8px}
+  .mail-status{margin-top:14px;font-size:.8rem;text-align:center}
 
   /* FAB */
   .fab-group{position:fixed;bottom:24px;right:24px;z-index:200;display:flex;flex-direction:column;gap:12px;align-items:flex-end}
-  .fab{height:52px;border-radius:26px;font-size:1.3rem;color:#fff;display:flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;transition:transform .2s;padding:0 18px 0 14px;white-space:nowrap}
-  .fab-label{font-size:.92rem;font-weight:700}
+  .fab{height:50px;border-radius:25px;font-size:1.25rem;color:#fff;display:flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;transition:transform .2s;padding:0 16px 0 12px;white-space:nowrap}
+  .fab-label{font-size:.88rem;font-weight:700}
   .fab:hover{transform:scale(1.06)}
   .fab-phone{background:linear-gradient(135deg,var(--g600),var(--a500));box-shadow:0 6px 24px rgba(22,163,74,.5);animation:fp 2.5s ease-in-out infinite}
   .fab-zalo{background:linear-gradient(135deg,#0068ff,#2196f3);box-shadow:0 6px 24px rgba(0,104,255,.45);animation:fz 2.5s ease-in-out infinite;animation-delay:.8s}
-  .fab-zalo svg{width:28px;height:28px;fill:#fff;flex-shrink:0}
+  .fab-zalo svg{width:26px;height:26px;fill:#fff;flex-shrink:0}
   @keyframes fp{0%,100%{box-shadow:0 6px 24px rgba(22,163,74,.5),0 0 0 0 rgba(22,163,74,.25)}50%{box-shadow:0 6px 24px rgba(22,163,74,.5),0 0 0 12px rgba(22,163,74,0)}}
   @keyframes fz{0%,100%{box-shadow:0 6px 24px rgba(0,104,255,.45),0 0 0 0 rgba(0,104,255,.2)}50%{box-shadow:0 6px 24px rgba(0,104,255,.45),0 0 0 12px rgba(0,104,255,0)}}
 
-  /* footer */
-  .footer{background:var(--s900);padding:40px 0 28px;margin-top:0}
-  .footer-bottom{display:flex;align-items:center;justify-content:space-between;font-size:.8rem;color:var(--s500)}
+  /* Footer */
+  .footer{background:var(--s900);padding:32px 0 24px}
+  .footer-bottom{display:flex;align-items:center;justify-content:space-between;font-size:.78rem;color:var(--s500)}
   .footer-bottom a{color:var(--s400)}
   .footer-bottom a:hover{color:var(--g400)}
 
-  @media(max-width:680px){
+  @media(max-width:700px){
     .row-2,.row-3{grid-template-columns:1fr}
-    .cb-grid{grid-template-columns:1fr}
+    .cb-3{grid-template-columns:repeat(2,1fr)}
+    .cb-4{grid-template-columns:repeat(2,1fr)}
+    .cb-6{grid-template-columns:repeat(3,1fr)}
     .nav-links,.nav-btn{display:none}
     .nav-hamburger{display:block}
-    .steps-row{gap:12px}
-    .form-card-body{padding:18px}
+    .form-card-body{padding:16px}
   }
   </style>
 </head>
@@ -178,7 +182,7 @@
         <li><a href="index.html#dich-vu">Dịch vụ</a></li>
         <li><a href="index.html#bac-si">Bác sĩ</a></li>
         <li><a href="kien-thuc.html">Kiến thức</a></li>
-        <li><a href="bai-tap.html">Bài tập trị liệu</a></li>
+        <li><a href="bai-tap.html">Bài tập</a></li>
         <li><a href="khai-benh.html" class="active">Khai bệnh</a></li>
         <li><a href="index.html#lien-he">Liên hệ</a></li>
       </ul>
@@ -194,7 +198,7 @@
   <div class="container hero-inner">
     <div class="tag">📋 Phiếu khai thông tin</div>
     <h1>Khai bệnh trực tuyến<br>trước khi gặp bác sĩ</h1>
-    <p>Điền đầy đủ phiếu dưới đây — hệ thống sẽ gợi ý sơ bộ thể bệnh theo YHCT và gửi thông tin đến bác sĩ để chuẩn bị trước khi bạn đến khám.</p>
+    <p>Điền đầy đủ phiếu để hệ thống gợi ý sơ bộ thể bệnh YHCT và gửi thông tin đến bác sĩ trước khi bạn đến khám.</p>
     <div class="steps-row">
       <div class="step-chip"><div class="step-num">1</div><span>Điền thông tin</span></div>
       <div class="step-chip"><div class="step-num">2</div><span>Hệ thống phân tích</span></div>
@@ -208,261 +212,122 @@
   <div class="container">
   <form id="intake-form" novalidate>
 
-    <!-- 1. Thông tin cá nhân -->
-    <div class="form-card">
-      <div class="form-card-head">
-        <span class="fc-icon">👤</span>
-        <h2>1. Thông tin cá nhân</h2>
-      </div>
-      <div class="form-card-body">
-        <div class="row-2">
-          <label class="field">Họ và tên *<input type="text" name="ho_ten" required placeholder="Nguyễn Văn A"/></label>
-          <label class="field">Số điện thoại<input type="tel" name="dien_thoai" placeholder="0912 345 678"/></label>
-        </div>
-        <div class="row-3">
-          <label class="field">Tuổi *<input type="number" name="tuoi" min="0" max="120" required placeholder="45"/></label>
-          <label class="field">Giới tính
-            <select name="gioi_tinh">
-              <option value="Nam">Nam</option>
-              <option value="Nữ">Nữ</option>
-              <option value="Khác">Khác</option>
-            </select>
-          </label>
-          <label class="field">Nghề nghiệp<input type="text" name="nghe_nghiep" placeholder="Nhân viên văn phòng"/></label>
-        </div>
-        <label class="field">Lý do đến khám *<textarea name="ly_do_kham" required rows="2" placeholder="VD: mất ngủ kéo dài, đau lưng, mệt mỏi không rõ nguyên nhân..."></textarea></label>
-        <label class="field" id="kinh-nguyet-field" style="display:none">Kinh nguyệt (nếu là nữ)<input type="text" name="kinh_nguyet" placeholder="VD: không đều, đau bụng kinh, kinh ít, màu đen..."/></label>
-      </div>
+    <div class="form-card" id="sec-personal">
+      <div class="form-card-head"><span class="fc-icon">👤</span><h2>1. Thông tin cá nhân</h2></div>
+      <div class="form-card-body"><div class="row-2"><label class="field">Họ và tên *<input type="text" name="ho_ten" required placeholder="Nguyễn Văn A"/></label><label class="field">Số điện thoại<input type="tel" name="dien_thoai" placeholder="0912 345 678"/></label></div>
+<div class="row-3"><label class="field">Tuổi *<input type="number" name="tuoi" min="0" max="120" required placeholder="45"/></label><label class="field">Giới tính<select name="gioi_tinh"><option value="Nam">Nam</option><option value="Nữ">Nữ</option><option value="Khác">Khác</option></select></label><label class="field">Nghề nghiệp<input type="text" name="nghe_nghiep" placeholder="Nhân viên văn phòng"/></label></div>
+<label class="field">Chủ chứng – Triệu chứng khó chịu nhất khiến bạn đến khám *<textarea name="ly_do_kham" required rows="2" placeholder="VD: mất ngủ 3 tháng, đau lưng mỗi buổi sáng, mệt mỏi kéo dài..."></textarea></label></div>
     </div>
-
-    <!-- 2. Toàn trạng -->
     <div class="form-card">
-      <div class="form-card-head">
-        <span class="fc-icon">🌡️</span>
-        <h2>2. Toàn trạng</h2>
-      </div>
-      <div class="form-card-body">
-        <div class="row-3">
-          <label class="field">Giấc ngủ
-            <select name="ngu">
-              <option value="Ngủ ngon">Ngủ ngon</option>
-              <option value="Khó ngủ, hay tỉnh giấc">Khó ngủ, hay tỉnh giấc</option>
-              <option value="Mất ngủ nặng">Mất ngủ nặng</option>
-            </select>
-          </label>
-          <label class="field">Ăn uống
-            <select name="an_uong">
-              <option value="Bình thường">Bình thường</option>
-              <option value="Chán ăn">Chán ăn</option>
-              <option value="Ăn nhiều, hay đói">Ăn nhiều, hay đói</option>
-            </select>
-          </label>
-          <label class="field">Đại tiện
-            <select name="dai_tien">
-              <option value="Bình thường">Bình thường</option>
-              <option value="Táo bón">Táo bón</option>
-              <option value="Phân nát, lỏng">Phân nát, lỏng</option>
-            </select>
-          </label>
-        </div>
-        <label class="field">Tiểu tiện
-          <select name="tieu_tien">
-            <option value="Bình thường">Bình thường</option>
-            <option value="Tiểu nhiều, tiểu đêm">Tiểu nhiều, tiểu đêm</option>
-            <option value="Tiểu ít, tiểu vàng">Tiểu ít, tiểu vàng</option>
-          </select>
-        </label>
-
-        <div class="cb-group">
-          <div class="cb-group-label">Cảm giác (chọn nếu có):</div>
-          <div class="cb-grid">
-            <label class="cb-item"><input type="checkbox" name="han_nhiet" value="Sợ lạnh"/> Sợ lạnh</label>
-            <label class="cb-item"><input type="checkbox" name="han_nhiet" value="Sợ nóng"/> Sợ nóng</label>
-            <label class="cb-item"><input type="checkbox" name="han_nhiet" value="Tay chân lạnh"/> Tay chân lạnh</label>
-            <label class="cb-item"><input type="checkbox" name="han_nhiet" value="Nóng trong người, khát nước"/> Nóng trong người, khát nước</label>
-          </div>
-        </div>
-        <div class="cb-group">
-          <div class="cb-group-label">Mồ hôi (chọn nếu có):</div>
-          <div class="cb-grid">
-            <label class="cb-item"><input type="checkbox" name="mo_hoi" value="Tự ra mồ hôi ban ngày"/> Tự ra mồ hôi ban ngày</label>
-            <label class="cb-item"><input type="checkbox" name="mo_hoi" value="Ra mồ hôi trộm ban đêm"/> Ra mồ hôi trộm ban đêm</label>
-          </div>
-        </div>
-      </div>
+      <div class="form-card-head"><span class="fc-icon">📋</span><h2>2. Bệnh sử</h2></div>
+      <div class="form-card-body"><div class="row-2"><label class="field">Xuất hiện từ bao giờ?<input type="text" name="xuat_hien" placeholder="VD: 3 tháng trước, sau khi sinh con..."/></label><label class="field">Thời gian kéo dài mỗi lần?<input type="text" name="thoi_gian_keo_dai" placeholder="VD: cả ngày, chỉ buổi sáng..."/></label></div>
+<div class="cb-group"><div class="cb-group-label">Yếu tố làm triệu chứng nặng hơn:</div><div class="cb-grid cb-4"><label class="cb-item"><input type="checkbox" name="yeu_to_nang" value="Khi gặp lạnh"/> Khi gặp lạnh</label><label class="cb-item"><input type="checkbox" name="yeu_to_nang" value="Khi gặp nóng"/> Khi gặp nóng</label><label class="cb-item"><input type="checkbox" name="yeu_to_nang" value="Khi căng thẳng"/> Khi căng thẳng</label><label class="cb-item"><input type="checkbox" name="yeu_to_nang" value="Sau khi ăn"/> Sau khi ăn</label><label class="cb-item"><input type="checkbox" name="yeu_to_nang" value="Lúc mệt mỏi"/> Lúc mệt mỏi</label><label class="cb-item"><input type="checkbox" name="yeu_to_nang" value="Buổi sáng sớm"/> Buổi sáng sớm</label><label class="cb-item"><input type="checkbox" name="yeu_to_nang" value="Buổi chiều – tối"/> Buổi chiều – tối</label><label class="cb-item"><input type="checkbox" name="yeu_to_nang" value="Thay đổi thời tiết"/> Thay đổi thời tiết</label></div></div>
+<div class="cb-group"><div class="cb-group-label">Yếu tố làm triệu chứng giảm:</div><div class="cb-grid cb-4"><label class="cb-item"><input type="checkbox" name="yeu_to_giam" value="Chườm ấm"/> Chườm ấm</label><label class="cb-item"><input type="checkbox" name="yeu_to_giam" value="Chườm lạnh"/> Chườm lạnh</label><label class="cb-item"><input type="checkbox" name="yeu_to_giam" value="Nghỉ ngơi"/> Nghỉ ngơi</label><label class="cb-item"><input type="checkbox" name="yeu_to_giam" value="Xoa bóp"/> Xoa bóp</label><label class="cb-item"><input type="checkbox" name="yeu_to_giam" value="Sau khi ăn"/> Sau khi ăn</label><label class="cb-item"><input type="checkbox" name="yeu_to_giam" value="Khi đi vệ sinh"/> Khi đi vệ sinh</label><label class="cb-item"><input type="checkbox" name="yeu_to_giam" value="Không có yếu tố rõ ràng"/> Không có yếu tố rõ ràng</label></div></div>
+<label class="field">Tiền sử bệnh / thuốc đang dùng / dị ứng<textarea name="tien_su" rows="2" placeholder="VD: cao huyết áp 5 năm, đang dùng Amlodipine. Dị ứng penicillin..."></textarea></label>
+<label class="field">Gia đình có ai mắc bệnh tương tự không?<input type="text" name="gia_dinh" placeholder="VD: bố bị tiểu đường, mẹ bị huyết áp..."/></label></div>
     </div>
-
-    <!-- 3. Đau -->
     <div class="form-card">
-      <div class="form-card-head">
-        <span class="fc-icon">🩹</span>
-        <h2>3. Vị trí và tính chất đau (nếu có)</h2>
-      </div>
-      <div class="form-card-body">
-        <div class="cb-group">
-          <div class="cb-group-label">Vị trí đau:</div>
-          <div class="cb-grid">
-            <label class="cb-item"><input type="checkbox" name="vi_tri_dau" value="Đầu"/> Đầu</label>
-            <label class="cb-item"><input type="checkbox" name="vi_tri_dau" value="Cổ / gáy"/> Cổ / gáy</label>
-            <label class="cb-item"><input type="checkbox" name="vi_tri_dau" value="Lưng"/> Lưng</label>
-            <label class="cb-item"><input type="checkbox" name="vi_tri_dau" value="Hai bên sườn"/> Hai bên sườn</label>
-            <label class="cb-item"><input type="checkbox" name="vi_tri_dau" value="Bụng"/> Bụng</label>
-            <label class="cb-item"><input type="checkbox" name="vi_tri_dau" value="Khớp"/> Khớp</label>
-          </div>
-        </div>
-        <div class="cb-group">
-          <div class="cb-group-label">Tính chất đau:</div>
-          <div class="cb-grid">
-            <label class="cb-item"><input type="checkbox" name="tinh_chat_dau" value="Âm ỉ, kéo dài"/> Âm ỉ, kéo dài</label>
-            <label class="cb-item"><input type="checkbox" name="tinh_chat_dau" value="Đau nhói, cố định"/> Đau nhói, cố định</label>
-            <label class="cb-item"><input type="checkbox" name="tinh_chat_dau" value="Căng tức, đau chạy"/> Căng tức, đau chạy</label>
-            <label class="cb-item"><input type="checkbox" name="tinh_chat_dau" value="Giảm khi chườm ấm"/> Giảm khi chườm ấm</label>
-          </div>
-        </div>
-      </div>
+      <div class="form-card-head"><span class="fc-icon">🥤</span><h2>3. Ăn uống & Khẩu vị</h2></div>
+      <div class="form-card-body"><div class="cb-group"><div class="cb-group-label">Uống nước (chọn 1):</div><div class="cb-grid cb-3"><label class="cb-item"><input type="checkbox" name="uong_nuoc" value="Uống ít (< 1 lít/ngày)"/> Uống ít (< 1 lít/ngày)</label><label class="cb-item"><input type="checkbox" name="uong_nuoc" value="Bình thường (~2 lít/ngày)"/> Bình thường (~2 lít/ngày)</label><label class="cb-item"><input type="checkbox" name="uong_nuoc" value="Uống nhiều (> 2 lít/ngày)"/> Uống nhiều (> 2 lít/ngày)</label><label class="cb-item"><input type="checkbox" name="uong_nuoc" value="Khát nhưng không muốn uống"/> Khát nhưng không muốn uống</label><label class="cb-item"><input type="checkbox" name="uong_nuoc" value="Khát và uống nhiều"/> Khát và uống nhiều</label></div></div>
+<div class="cb-group"><div class="cb-group-label">Thích uống nước:</div><div class="cb-grid cb-3"><label class="cb-item"><input type="checkbox" name="thich_uong" value="Nước lạnh / nước đá"/> Nước lạnh / nước đá</label><label class="cb-item"><input type="checkbox" name="thich_uong" value="Nước ấm / nóng"/> Nước ấm / nóng</label><label class="cb-item"><input type="checkbox" name="thich_uong" value="Loại nào cũng được"/> Loại nào cũng được</label></div></div>
+<div class="cb-group"><div class="cb-group-label">Cảm giác trong miệng (chọn tất cả phù hợp):</div><div class="cb-grid cb-4"><label class="cb-item"><input type="checkbox" name="cam_giac_mieng" value="Bình thường"/> Bình thường</label><label class="cb-item"><input type="checkbox" name="cam_giac_mieng" value="Đắng"/> Đắng</label><label class="cb-item"><input type="checkbox" name="cam_giac_mieng" value="Chua"/> Chua</label><label class="cb-item"><input type="checkbox" name="cam_giac_mieng" value="Ngọt"/> Ngọt</label><label class="cb-item"><input type="checkbox" name="cam_giac_mieng" value="Mặn"/> Mặn</label><label class="cb-item"><input type="checkbox" name="cam_giac_mieng" value="Nhạt miệng"/> Nhạt miệng</label><label class="cb-item"><input type="checkbox" name="cam_giac_mieng" value="Khô miệng"/> Khô miệng</label><label class="cb-item"><input type="checkbox" name="cam_giac_mieng" value="Dính miệng"/> Dính miệng</label><label class="cb-item"><input type="checkbox" name="cam_giac_mieng" value="Hôi miệng"/> Hôi miệng</label><label class="cb-item"><input type="checkbox" name="cam_giac_mieng" value="Nóng rát miệng"/> Nóng rát miệng</label><label class="cb-item"><input type="checkbox" name="cam_giac_mieng" value="Nhiệt miệng (lở miệng)"/> Nhiệt miệng (lở miệng)</label></div></div>
+<div class="cb-group"><div class="cb-group-label">Cảm giác khi ăn:</div><div class="cb-grid cb-3"><label class="cb-item"><input type="checkbox" name="cam_giac_an" value="Ngon miệng bình thường"/> Ngon miệng bình thường</label><label class="cb-item"><input type="checkbox" name="cam_giac_an" value="Chán ăn / ăn kém"/> Chán ăn / ăn kém</label><label class="cb-item"><input type="checkbox" name="cam_giac_an" value="Ăn nhiều, mau đói"/> Ăn nhiều, mau đói</label><label class="cb-item"><input type="checkbox" name="cam_giac_an" value="Thèm ăn nhưng không ăn được nhiều"/> Thèm ăn nhưng không ăn được nhiều</label><label class="cb-item"><input type="checkbox" name="cam_giac_an" value="Nấc"/> Nấc</label><label class="cb-item"><input type="checkbox" name="cam_giac_an" value="Ợ hơi"/> Ợ hơi</label><label class="cb-item"><input type="checkbox" name="cam_giac_an" value="Ợ chua"/> Ợ chua</label><label class="cb-item"><input type="checkbox" name="cam_giac_an" value="Đầy bụng sau ăn"/> Đầy bụng sau ăn</label><label class="cb-item"><input type="checkbox" name="cam_giac_an" value="Buồn nôn"/> Buồn nôn</label><label class="cb-item"><input type="checkbox" name="cam_giac_an" value="Nóng rát thực quản / thượng vị"/> Nóng rát thực quản / thượng vị</label></div></div>
+<div class="cb-group"><div class="cb-group-label">Thích vị:</div><div class="cb-grid cb-6"><label class="cb-item"><input type="checkbox" name="thich_vi" value="Cay"/> Cay</label><label class="cb-item"><input type="checkbox" name="thich_vi" value="Ngọt"/> Ngọt</label><label class="cb-item"><input type="checkbox" name="thich_vi" value="Chua"/> Chua</label><label class="cb-item"><input type="checkbox" name="thich_vi" value="Đắng"/> Đắng</label><label class="cb-item"><input type="checkbox" name="thich_vi" value="Mặn"/> Mặn</label><label class="cb-item"><input type="checkbox" name="thich_vi" value="Không thiên lệch"/> Không thiên lệch</label></div></div></div>
     </div>
-
-    <!-- 4. Triệu chứng tạng phủ -->
     <div class="form-card">
-      <div class="form-card-head">
-        <span class="fc-icon">🫀</span>
-        <h2>4. Triệu chứng theo tạng phủ (chọn nếu có)</h2>
-      </div>
-      <div class="form-card-body">
-        <div class="cb-group">
-          <div class="cb-group-label">❤️ Tâm:</div>
-          <div class="cb-grid">
-            <label class="cb-item"><input type="checkbox" name="tam" value="Hồi hộp, trống ngực"/> Hồi hộp, trống ngực</label>
-            <label class="cb-item"><input type="checkbox" name="tam" value="Hay quên"/> Hay quên</label>
-            <label class="cb-item"><input type="checkbox" name="tam" value="Hay lo âu, bồn chồn"/> Hay lo âu, bồn chồn</label>
-          </div>
-        </div>
-        <div class="cb-group">
-          <div class="cb-group-label">🫁 Phế:</div>
-          <div class="cb-grid">
-            <label class="cb-item"><input type="checkbox" name="phe" value="Ho kéo dài"/> Ho kéo dài</label>
-            <label class="cb-item"><input type="checkbox" name="phe" value="Khó thở, hụt hơi"/> Khó thở, hụt hơi</label>
-            <label class="cb-item"><input type="checkbox" name="phe" value="Giọng nói yếu"/> Giọng nói yếu</label>
-          </div>
-        </div>
-        <div class="cb-group">
-          <div class="cb-group-label">🟡 Tỳ Vị:</div>
-          <div class="cb-grid">
-            <label class="cb-item"><input type="checkbox" name="ty_vi" value="Đầy bụng, khó tiêu"/> Đầy bụng, khó tiêu</label>
-            <label class="cb-item"><input type="checkbox" name="ty_vi" value="Mệt mỏi, tay chân rã rời"/> Mệt mỏi, tay chân rã rời</label>
-            <label class="cb-item"><input type="checkbox" name="ty_vi" value="Phân nát, không thành khuôn"/> Phân nát, không thành khuôn</label>
-          </div>
-        </div>
-        <div class="cb-group">
-          <div class="cb-group-label">🟢 Can:</div>
-          <div class="cb-grid">
-            <label class="cb-item"><input type="checkbox" name="can" value="Dễ cáu gắt, bực bội"/> Dễ cáu gắt, bực bội</label>
-            <label class="cb-item"><input type="checkbox" name="can" value="Đau tức hai bên sườn"/> Đau tức hai bên sườn</label>
-            <label class="cb-item"><input type="checkbox" name="can" value="Hoa mắt, chóng mặt"/> Hoa mắt, chóng mặt</label>
-          </div>
-        </div>
-        <div class="cb-group">
-          <div class="cb-group-label">🫘 Thận:</div>
-          <div class="cb-grid">
-            <label class="cb-item"><input type="checkbox" name="than" value="Đau lưng mỏi gối"/> Đau lưng mỏi gối</label>
-            <label class="cb-item"><input type="checkbox" name="than" value="Tiểu đêm nhiều lần"/> Tiểu đêm nhiều lần</label>
-            <label class="cb-item"><input type="checkbox" name="than" value="Ù tai"/> Ù tai</label>
-            <label class="cb-item"><input type="checkbox" name="than" value="Rụng tóc, tóc bạc sớm"/> Rụng tóc, tóc bạc sớm</label>
-          </div>
-        </div>
-      </div>
+      <div class="form-card-head"><span class="fc-icon">🚽</span><h2>4. Đại tiện</h2></div>
+      <div class="form-card-body"><div class="cb-group"><div class="cb-group-label">Tần suất:</div><div class="cb-grid cb-3"><label class="cb-item"><input type="checkbox" name="dai_tien_tan" value="1 lần/ngày"/> 1 lần/ngày</label><label class="cb-item"><input type="checkbox" name="dai_tien_tan" value="Vài lần/ngày"/> Vài lần/ngày</label><label class="cb-item"><input type="checkbox" name="dai_tien_tan" value="Vài ngày 1 lần"/> Vài ngày 1 lần</label><label class="cb-item"><input type="checkbox" name="dai_tien_tan" value="Táo bón lâu năm"/> Táo bón lâu năm</label><label class="cb-item"><input type="checkbox" name="dai_tien_tan" value="Phân nát lâu năm"/> Phân nát lâu năm</label></div></div>
+<div class="cb-group"><div class="cb-group-label">Hình dáng & chất phân:</div><div class="cb-grid cb-3"><label class="cb-item"><input type="checkbox" name="chat_phan" value="Khuôn đẹp"/> Khuôn đẹp</label><label class="cb-item"><input type="checkbox" name="chat_phan" value="Nhỏ dài / cứng"/> Nhỏ dài / cứng</label><label class="cb-item"><input type="checkbox" name="chat_phan" value="Nát không thành hình"/> Nát không thành hình</label><label class="cb-item"><input type="checkbox" name="chat_phan" value="Lỏng / toàn nước"/> Lỏng / toàn nước</label><label class="cb-item"><input type="checkbox" name="chat_phan" value="Hơi khô"/> Hơi khô</label><label class="cb-item"><input type="checkbox" name="chat_phan" value="Dính"/> Dính</label><label class="cb-item"><input type="checkbox" name="chat_phan" value="Có máu"/> Có máu</label><label class="cb-item"><input type="checkbox" name="chat_phan" value="Màu đen"/> Màu đen</label><label class="cb-item"><input type="checkbox" name="chat_phan" value="Mùi rất thối"/> Mùi rất thối</label></div></div>
+<div class="cb-group"><div class="cb-group-label">Kèm theo:</div><div class="cb-grid cb-3"><label class="cb-item"><input type="checkbox" name="dai_tien_kem" value="Bình thường"/> Bình thường</label><label class="cb-item"><input type="checkbox" name="dai_tien_kem" value="Đánh rắm nhiều"/> Đánh rắm nhiều</label><label class="cb-item"><input type="checkbox" name="dai_tien_kem" value="Nóng rát hậu môn"/> Nóng rát hậu môn</label><label class="cb-item"><input type="checkbox" name="dai_tien_kem" value="Đại tiện không hết phân"/> Đại tiện không hết phân</label><label class="cb-item"><input type="checkbox" name="dai_tien_kem" value="Phải rặn nhiều"/> Phải rặn nhiều</label></div></div></div>
     </div>
-
-    <!-- 5. Lưỡi -->
     <div class="form-card">
-      <div class="form-card-head">
-        <span class="fc-icon">👅</span>
-        <h2>5. Quan sát lưỡi</h2>
-      </div>
-      <div class="form-card-body">
-        <div class="row-2">
-          <label class="field">Chất lưỡi
-            <select name="chat_luoi">
-              <option value="">Không rõ / bỏ qua</option>
-              <option value="Lưỡi hồng nhạt">Lưỡi hồng nhạt</option>
-              <option value="Lưỡi đỏ">Lưỡi đỏ (đỏ hơn bình thường)</option>
-              <option value="Lưỡi nhợt, bầu">Lưỡi nhợt màu, hoặc bầu tím</option>
-              <option value="Lưỡi có điểm ứ tím">Lưỡi có điểm ứ tím hoặc ban đỏ</option>
-            </select>
-          </label>
-          <label class="field">Rêu lưỡi
-            <select name="reu_luoi">
-              <option value="">Không rõ / bỏ qua</option>
-              <option value="Rêu trắng mỏng">Rêu trắng mỏng (bình thường)</option>
-              <option value="Rêu vàng">Rêu vàng</option>
-              <option value="Rêu dày nhớt">Rêu dày nhớt</option>
-              <option value="Ít rêu / không rêu">Ít rêu hoặc không rêu</option>
-            </select>
-          </label>
-        </div>
-
-        <div class="tongue-guide">
-          <h4>📸 Cách chụp ảnh lưỡi đúng chuẩn</h4>
-          <ol>
-            <li>Chụp dưới ánh sáng tự nhiên ban ngày hoặc đèn trắng đủ sáng (tránh đèn vàng).</li>
-            <li>Không ăn uống, đánh răng hoặc uống thuốc ít nhất <strong>30 phút</strong> trước khi chụp.</li>
-            <li>Há miệng thoải mái, thè lưỡi ra nhẹ nhàng — <strong>không</strong> thè cong hoặc căng lưỡi quá mức.</li>
-            <li>Chụp thẳng, camera ngang tầm miệng, khoảng cách 15–20 cm.</li>
-            <li>Chụp ít nhất 2 ảnh (nhìn từ trên xuống và nhìn thẳng).</li>
-          </ol>
-          <div class="tip">💡 Ảnh lưỡi rõ nét giúp bác sĩ nhận biết màu sắc chất lưỡi, rêu lưỡi và các dấu hiệu quan trọng khác ngay cả khi chưa gặp trực tiếp.</div>
-        </div>
-
-        <div id="tongue-upload-area" class="upload-area">
-          <input type="file" id="tongue-files" accept="image/*" multiple/>
-          <div class="upload-icon">📷</div>
-          <p>Tải ảnh lưỡi lên (không bắt buộc)</p>
-          <p class="up-hint">JPG, PNG, HEIC · Tối đa 5 ảnh · Mỗi ảnh ≤ 10 MB</p>
-        </div>
-        <div id="tongue-preview" class="preview-grid" style="display:none"></div>
-      </div>
+      <div class="form-card-head"><span class="fc-icon">💧</span><h2>5. Tiểu tiện</h2></div>
+      <div class="form-card-body"><div class="cb-group"><div class="cb-group-label">Triệu chứng (chọn tất cả phù hợp):</div><div class="cb-grid cb-3"><label class="cb-item"><input type="checkbox" name="tieu_tien" value="Bình thường (5–8 lần/ngày)"/> Bình thường (5–8 lần/ngày)</label><label class="cb-item"><input type="checkbox" name="tieu_tien" value="Đi tiểu ít"/> Đi tiểu ít</label><label class="cb-item"><input type="checkbox" name="tieu_tien" value="Đi tiểu nhiều"/> Đi tiểu nhiều</label><label class="cb-item"><input type="checkbox" name="tieu_tien" value="Tiểu gấp"/> Tiểu gấp</label><label class="cb-item"><input type="checkbox" name="tieu_tien" value="Tiểu buốt / rắt"/> Tiểu buốt / rắt</label><label class="cb-item"><input type="checkbox" name="tieu_tien" value="Tiểu không hết"/> Tiểu không hết</label><label class="cb-item"><input type="checkbox" name="tieu_tien" value="Tiểu đêm 1 lần"/> Tiểu đêm 1 lần</label><label class="cb-item"><input type="checkbox" name="tieu_tien" value="Tiểu đêm nhiều lần"/> Tiểu đêm nhiều lần</label><label class="cb-item"><input type="checkbox" name="tieu_tien" value="Tiểu nóng"/> Tiểu nóng</label><label class="cb-item"><input type="checkbox" name="tieu_tien" value="Tiểu ra bọt"/> Tiểu ra bọt</label><label class="cb-item"><input type="checkbox" name="tieu_tien" value="Mùi khai nồng"/> Mùi khai nồng</label></div></div>
+<div class="cb-group"><div class="cb-group-label">Màu nước tiểu:</div><div class="cb-grid cb-3"><label class="cb-item"><input type="checkbox" name="mau_tieu" value="Vàng chanh (bình thường)"/> Vàng chanh (bình thường)</label><label class="cb-item"><input type="checkbox" name="mau_tieu" value="Vàng nhạt"/> Vàng nhạt</label><label class="cb-item"><input type="checkbox" name="mau_tieu" value="Vàng đậm như nước chè"/> Vàng đậm như nước chè</label><label class="cb-item"><input type="checkbox" name="mau_tieu" value="Trắng trong"/> Trắng trong</label><label class="cb-item"><input type="checkbox" name="mau_tieu" value="Hồng / có máu"/> Hồng / có máu</label></div></div></div>
     </div>
-
-    <!-- 6. Xét nghiệm / hình ảnh bổ sung -->
     <div class="form-card">
-      <div class="form-card-head">
-        <span class="fc-icon">📎</span>
-        <h2>6. Đính kèm xét nghiệm / hình ảnh</h2>
-      </div>
-      <div class="form-card-body">
-        <p style="font-size:.85rem;color:var(--s500)">Tải lên kết quả xét nghiệm máu, X-quang, MRI hoặc bất kỳ tài liệu y tế nào bạn có sẵn.</p>
-        <div id="lab-upload-area" class="upload-area">
-          <input type="file" id="lab-files" accept="image/*,.pdf,.doc,.docx" multiple/>
-          <div class="upload-icon">📄</div>
-          <p>Tải file xét nghiệm / hình ảnh lên</p>
-          <p class="up-hint">JPG, PNG, PDF, DOC · Tối đa 10 file · Mỗi file ≤ 25 MB</p>
-        </div>
-        <div id="lab-preview" style="display:flex;flex-direction:column;gap:8px;margin-top:10px"></div>
-      </div>
+      <div class="form-card-head"><span class="fc-icon">🌙</span><h2>6. Giấc ngủ & Cảm xúc</h2></div>
+      <div class="form-card-body"><div class="cb-group"><div class="cb-group-label">Vào giấc:</div><div class="cb-grid cb-2"><label class="cb-item"><input type="checkbox" name="vao_giac" value="Dễ ngủ"/> Dễ ngủ</label><label class="cb-item"><input type="checkbox" name="vao_giac" value="Trằn trọc khó ngủ"/> Trằn trọc khó ngủ</label></div></div>
+<div class="cb-group"><div class="cb-group-label">Chất lượng giấc ngủ:</div><div class="cb-grid cb-3"><label class="cb-item"><input type="checkbox" name="chat_luong_ngu" value="Sâu giấc"/> Sâu giấc</label><label class="cb-item"><input type="checkbox" name="chat_luong_ngu" value="Ngủ không sâu, dễ tỉnh"/> Ngủ không sâu, dễ tỉnh</label><label class="cb-item"><input type="checkbox" name="chat_luong_ngu" value="Mất ngủ nhiều năm"/> Mất ngủ nhiều năm</label><label class="cb-item"><input type="checkbox" name="chat_luong_ngu" value="Ăn xong buồn ngủ"/> Ăn xong buồn ngủ</label><label class="cb-item"><input type="checkbox" name="chat_luong_ngu" value="Buồn ngủ ban ngày"/> Buồn ngủ ban ngày</label></div></div>
+<div class="cb-group"><div class="cb-group-label">Mơ:</div><div class="cb-grid cb-4"><label class="cb-item"><input type="checkbox" name="mo" value="Không mơ"/> Không mơ</label><label class="cb-item"><input type="checkbox" name="mo" value="Thoảng mơ"/> Thoảng mơ</label><label class="cb-item"><input type="checkbox" name="mo" value="Mơ nhiều"/> Mơ nhiều</label><label class="cb-item"><input type="checkbox" name="mo" value="Mơ sợ hãi / ác mộng"/> Mơ sợ hãi / ác mộng</label></div></div>
+<div class="cb-group"><div class="cb-group-label">Tỉnh giấc giữa đêm:</div><div class="cb-grid cb-2"><label class="cb-item"><input type="checkbox" name="dem_tinh" value="Không tỉnh"/> Không tỉnh</label><label class="cb-item"><input type="checkbox" name="dem_tinh" value="Thoảng tỉnh"/> Thoảng tỉnh</label><label class="cb-item"><input type="checkbox" name="dem_tinh" value="Thường xuyên tỉnh giữa đêm"/> Thường xuyên tỉnh giữa đêm</label><label class="cb-item"><input type="checkbox" name="dem_tinh" value="Tỉnh sớm không ngủ lại được"/> Tỉnh sớm không ngủ lại được</label></div></div>
+<div class="cb-group"><div class="cb-group-label">Tính tình & Cảm xúc:</div><div class="cb-grid cb-3"><label class="cb-item"><input type="checkbox" name="tinh_tinh" value="Bình thường"/> Bình thường</label><label class="cb-item"><input type="checkbox" name="tinh_tinh" value="Dễ cáu gắt"/> Dễ cáu gắt</label><label class="cb-item"><input type="checkbox" name="tinh_tinh" value="Dễ buồn bã"/> Dễ buồn bã</label><label class="cb-item"><input type="checkbox" name="tinh_tinh" value="Dễ bực bội"/> Dễ bực bội</label><label class="cb-item"><input type="checkbox" name="tinh_tinh" value="Hay lo âu, suy nghĩ nhiều"/> Hay lo âu, suy nghĩ nhiều</label><label class="cb-item"><input type="checkbox" name="tinh_tinh" value="Dễ giật mình"/> Dễ giật mình</label><label class="cb-item"><input type="checkbox" name="tinh_tinh" value="Uất ức, ức chế"/> Uất ức, ức chế</label><label class="cb-item"><input type="checkbox" name="tinh_tinh" value="Hay thở dài"/> Hay thở dài</label><label class="cb-item"><input type="checkbox" name="tinh_tinh" value="Thích nơi yên tĩnh"/> Thích nơi yên tĩnh</label><label class="cb-item"><input type="checkbox" name="tinh_tinh" value="Thích chỗ đông người"/> Thích chỗ đông người</label></div></div></div>
     </div>
-
-    <!-- 7. Mô tả thêm -->
     <div class="form-card">
-      <div class="form-card-head">
-        <span class="fc-icon">📝</span>
-        <h2>7. Thông tin bổ sung</h2>
-      </div>
-      <div class="form-card-body">
-        <label class="field">Bạn có điều gì khác muốn chia sẻ thêm không?
-          <textarea name="mo_ta_them" rows="4" placeholder="Diễn biến bệnh, thuốc đang dùng, bệnh nền (tiểu đường, huyết áp...), tiền sử gia đình..."></textarea>
-        </label>
-      </div>
+      <div class="form-card-head"><span class="fc-icon">🌡️</span><h2>7. Cảm giác cơ thể</h2></div>
+      <div class="form-card-body"><div class="cb-group"><div class="cb-group-label">Cảm nhận nhiệt độ cơ thể:</div><div class="cb-grid cb-3"><label class="cb-item"><input type="checkbox" name="cam_nhan_co_the" value="Bình thường"/> Bình thường</label><label class="cb-item"><input type="checkbox" name="cam_nhan_co_the" value="Sợ lạnh"/> Sợ lạnh</label><label class="cb-item"><input type="checkbox" name="cam_nhan_co_the" value="Sợ gió"/> Sợ gió</label><label class="cb-item"><input type="checkbox" name="cam_nhan_co_the" value="Sợ nóng"/> Sợ nóng</label><label class="cb-item"><input type="checkbox" name="cam_nhan_co_the" value="Nửa trên nóng nửa dưới lạnh"/> Nửa trên nóng nửa dưới lạnh</label><label class="cb-item"><input type="checkbox" name="cam_nhan_co_the" value="Lúc nóng lúc lạnh"/> Lúc nóng lúc lạnh</label><label class="cb-item"><input type="checkbox" name="cam_nhan_co_the" value="Sốt về chiều"/> Sốt về chiều</label><label class="cb-item"><input type="checkbox" name="cam_nhan_co_the" value="Sốt nhẹ kéo dài"/> Sốt nhẹ kéo dài</label><label class="cb-item"><input type="checkbox" name="cam_nhan_co_the" value="Da nóng"/> Da nóng</label></div></div>
+<div class="cb-group"><div class="cb-group-label">Tay chân:</div><div class="cb-grid cb-3"><label class="cb-item"><input type="checkbox" name="chan_tay" value="Bình thường"/> Bình thường</label><label class="cb-item"><input type="checkbox" name="chan_tay" value="Tay chân lạnh"/> Tay chân lạnh</label><label class="cb-item"><input type="checkbox" name="chan_tay" value="Tay chân nóng"/> Tay chân nóng</label><label class="cb-item"><input type="checkbox" name="chan_tay" value="Đầu ngón tê buốt"/> Đầu ngón tê buốt</label><label class="cb-item"><input type="checkbox" name="chan_tay" value="Lòng bàn tay chân nóng (Ngũ tâm phiền nhiệt)"/> Lòng bàn tay chân nóng (Ngũ tâm phiền nhiệt)</label><label class="cb-item"><input type="checkbox" name="chan_tay" value="Tứ chi tê đau"/> Tứ chi tê đau</label><label class="cb-item"><input type="checkbox" name="chan_tay" value="Tứ chi vô lực"/> Tứ chi vô lực</label><label class="cb-item"><input type="checkbox" name="chan_tay" value="Chuột rút khi ngủ"/> Chuột rút khi ngủ</label></div></div>
+<div class="cb-group"><div class="cb-group-label">Mồ hôi:</div><div class="cb-grid cb-3"><label class="cb-item"><input type="checkbox" name="mo_hoi_detail" value="Bình thường"/> Bình thường</label><label class="cb-item"><input type="checkbox" name="mo_hoi_detail" value="Tự ra mồ hôi ban ngày (Tự hãn)"/> Tự ra mồ hôi ban ngày (Tự hãn)</label><label class="cb-item"><input type="checkbox" name="mo_hoi_detail" value="Ra mồ hôi trộm ban đêm"/> Ra mồ hôi trộm ban đêm</label><label class="cb-item"><input type="checkbox" name="mo_hoi_detail" value="Dễ đổ mồ hôi"/> Dễ đổ mồ hôi</label><label class="cb-item"><input type="checkbox" name="mo_hoi_detail" value="Mồ hôi lòng bàn tay/chân"/> Mồ hôi lòng bàn tay/chân</label><label class="cb-item"><input type="checkbox" name="mo_hoi_detail" value="Mồ hôi chỉ ở đầu/mặt"/> Mồ hôi chỉ ở đầu/mặt</label><label class="cb-item"><input type="checkbox" name="mo_hoi_detail" value="Mùi mồ hôi khó chịu"/> Mùi mồ hôi khó chịu</label><label class="cb-item"><input type="checkbox" name="mo_hoi_detail" value="Hầu như không có mồ hôi"/> Hầu như không có mồ hôi</label></div></div></div>
     </div>
-
+    <div class="form-card">
+      <div class="form-card-head"><span class="fc-icon">🫁</span><h2>8. Đầu, họng, ngực, bụng</h2></div>
+      <div class="form-card-body"><div class="cb-group"><div class="cb-group-label">Đầu & mắt & mũi:</div><div class="cb-grid cb-3"><label class="cb-item"><input type="checkbox" name="dau_hong" value="Bình thường"/> Bình thường</label><label class="cb-item"><input type="checkbox" name="dau_hong" value="Đau đầu vùng trán"/> Đau đầu vùng trán</label><label class="cb-item"><input type="checkbox" name="dau_hong" value="Đau đầu vùng đỉnh"/> Đau đầu vùng đỉnh</label><label class="cb-item"><input type="checkbox" name="dau_hong" value="Đau đầu vùng gáy"/> Đau đầu vùng gáy</label><label class="cb-item"><input type="checkbox" name="dau_hong" value="Đau nửa đầu"/> Đau nửa đầu</label><label class="cb-item"><input type="checkbox" name="dau_hong" value="Chóng mặt"/> Chóng mặt</label><label class="cb-item"><input type="checkbox" name="dau_hong" value="Nặng đầu"/> Nặng đầu</label><label class="cb-item"><input type="checkbox" name="dau_hong" value="Khô mắt / mỏi mắt"/> Khô mắt / mỏi mắt</label><label class="cb-item"><input type="checkbox" name="dau_hong" value="Thị lực giảm"/> Thị lực giảm</label><label class="cb-item"><input type="checkbox" name="dau_hong" value="Ngứa họng / khô họng"/> Ngứa họng / khô họng</label><label class="cb-item"><input type="checkbox" name="dau_hong" value="Đau họng"/> Đau họng</label><label class="cb-item"><input type="checkbox" name="dau_hong" value="Nước mũi trong"/> Nước mũi trong</label><label class="cb-item"><input type="checkbox" name="dau_hong" value="Nước mũi đặc / vàng"/> Nước mũi đặc / vàng</label><label class="cb-item"><input type="checkbox" name="dau_hong" value="Hắt hơi nhiều"/> Hắt hơi nhiều</label></div></div>
+<div class="cb-group"><div class="cb-group-label">Ho & đờm:</div><div class="cb-grid cb-3"><label class="cb-item"><input type="checkbox" name="ho_dom" value="Không ho"/> Không ho</label><label class="cb-item"><input type="checkbox" name="ho_dom" value="Ho khan"/> Ho khan</label><label class="cb-item"><input type="checkbox" name="ho_dom" value="Ho có đờm ít"/> Ho có đờm ít</label><label class="cb-item"><input type="checkbox" name="ho_dom" value="Ho có đờm nhiều"/> Ho có đờm nhiều</label><label class="cb-item"><input type="checkbox" name="ho_dom" value="Đờm trắng loãng"/> Đờm trắng loãng</label><label class="cb-item"><input type="checkbox" name="ho_dom" value="Đờm vàng đặc"/> Đờm vàng đặc</label><label class="cb-item"><input type="checkbox" name="ho_dom" value="Đờm dính"/> Đờm dính</label><label class="cb-item"><input type="checkbox" name="ho_dom" value="Khó khạc đờm"/> Khó khạc đờm</label><label class="cb-item"><input type="checkbox" name="ho_dom" value="Suyễn / khó thở"/> Suyễn / khó thở</label></div></div>
+<div class="cb-group"><div class="cb-group-label">Ngực & bụng:</div><div class="cb-grid cb-3"><label class="cb-item"><input type="checkbox" name="nguc_bung" value="Bình thường"/> Bình thường</label><label class="cb-item"><input type="checkbox" name="nguc_bung" value="Hồi hộp đánh trống ngực"/> Hồi hộp đánh trống ngực</label><label class="cb-item"><input type="checkbox" name="nguc_bung" value="Tức ngực / bí ngực"/> Tức ngực / bí ngực</label><label class="cb-item"><input type="checkbox" name="nguc_bung" value="Đau tức sườn"/> Đau tức sườn</label><label class="cb-item"><input type="checkbox" name="nguc_bung" value="Thở ngắn nông / hụt hơi"/> Thở ngắn nông / hụt hơi</label><label class="cb-item"><input type="checkbox" name="nguc_bung" value="Đau bụng"/> Đau bụng</label><label class="cb-item"><input type="checkbox" name="nguc_bung" value="Chướng bụng"/> Chướng bụng</label><label class="cb-item"><input type="checkbox" name="nguc_bung" value="Buồn nôn"/> Buồn nôn</label><label class="cb-item"><input type="checkbox" name="nguc_bung" value="Có khí chạy từ dưới lên"/> Có khí chạy từ dưới lên</label></div></div></div>
+    </div>
+    <div class="form-card">
+      <div class="form-card-head"><span class="fc-icon">👅</span><h2>9. Quan sát lưỡi</h2></div>
+      <div class="form-card-body"><div class="row-2"><label class="field">Chất lưỡi<select name="chat_luoi"><option value=""></option><option value="Lưỡi hồng nhạt">Lưỡi hồng nhạt</option><option value="Lưỡi đỏ (đỏ hơn bình thường)">Lưỡi đỏ (đỏ hơn bình thường)</option><option value="Lưỡi nhợt màu">Lưỡi nhợt màu</option><option value="Lưỡi bầu tím / có điểm ứ tím">Lưỡi bầu tím / có điểm ứ tím</option></select></label><label class="field">Rêu lưỡi<select name="reu_luoi"><option value=""></option><option value="Rêu trắng mỏng (bình thường)">Rêu trắng mỏng (bình thường)</option><option value="Rêu vàng">Rêu vàng</option><option value="Rêu dày nhớt">Rêu dày nhớt</option><option value="Ít rêu / không rêu">Ít rêu / không rêu</option></select></label></div>
+<div class="tongue-guide">
+    <h4>📸 Cách chụp ảnh lưỡi đúng</h4>
+    <ol>
+      <li>Chụp dưới ánh sáng tự nhiên hoặc đèn trắng đủ sáng (tránh đèn vàng).</li>
+      <li>Không ăn uống, đánh răng ít nhất <strong>30 phút</strong> trước khi chụp.</li>
+      <li>Há miệng thoải mái, thè lưỡi ra nhẹ nhàng – <strong>không</strong> căng hoặc cong lưỡi.</li>
+      <li>Chụp thẳng từ phía trên xuống, khoảng cách 15–20 cm.</li>
+    </ol>
+    <div class="tip">💡 Ảnh lưỡi rõ giúp bác sĩ nhận biết màu chất lưỡi và rêu lưỡi — dấu hiệu quan trọng trong YHCT.</div>
+  </div>
+<div id="tongue-upload-area" class="upload-area">
+    <input type="file" id="tongue-files" accept="image/*" multiple/>
+    <div class="upload-icon">📷</div>
+    <p>Tải ảnh lưỡi lên (không bắt buộc)</p>
+    <p class="up-hint">JPG, PNG, HEIC · Tối đa 5 ảnh</p>
+  </div>
+  <div id="tongue-preview" class="preview-grid" style="display:none"></div></div>
+    </div>
+    <div class="form-card">
+      <div class="form-card-head"><span class="fc-icon">🏃</span><h2>10. Thói quen sinh hoạt</h2></div>
+      <div class="form-card-body"><div class="cb-group"><div class="cb-group-label">Chọn những mục phù hợp:</div><div class="cb-grid cb-3"><label class="cb-item"><input type="checkbox" name="thoi_quen" value="Không có thói quen đặc biệt"/> Không có thói quen đặc biệt</label><label class="cb-item"><input type="checkbox" name="thoi_quen" value="Hay ăn cay nóng"/> Hay ăn cay nóng</label><label class="cb-item"><input type="checkbox" name="thoi_quen" value="Uống rượu / bia nhiều"/> Uống rượu / bia nhiều</label><label class="cb-item"><input type="checkbox" name="thoi_quen" value="Hút thuốc lá"/> Hút thuốc lá</label><label class="cb-item"><input type="checkbox" name="thoi_quen" value="Thức khuya (sau 23h)"/> Thức khuya (sau 23h)</label><label class="cb-item"><input type="checkbox" name="thoi_quen" value="Ăn không đúng bữa"/> Ăn không đúng bữa</label><label class="cb-item"><input type="checkbox" name="thoi_quen" value="Ít vận động"/> Ít vận động</label><label class="cb-item"><input type="checkbox" name="thoi_quen" value="Hay lo lắng / căng thẳng kéo dài"/> Hay lo lắng / căng thẳng kéo dài</label></div></div></div>
+    </div>
+    <div class="form-card" id="sec-phukoa">
+      <div class="form-card-head"><span class="fc-icon">🌸</span><h2>11A. Phụ Khoa</h2></div>
+      <div class="form-card-body"><div class="row-2"><label class="field">Tình trạng kinh nguyệt<select name="kinh_nguyet_con"><option value="Còn kinh">Còn kinh</option><option value="Mãn kinh">Mãn kinh</option></select></label><label class="field">Kỳ kinh<select name="ky_kinh"><option value="Đều (~28 ngày)">Đều (~28 ngày)</option><option value="Đến sớm (< 25 ngày)">Đến sớm (< 25 ngày)</option><option value="Đến muộn (> 32 ngày)">Đến muộn (> 32 ngày)</option><option value="Không quy luật">Không quy luật</option></select></label></div>
+<div class="cb-group"><div class="cb-group-label">Lượng kinh & màu sắc:</div><div class="cb-grid cb-3"><label class="cb-item"><input type="checkbox" name="luong_mau_kinh" value="Lượng bình thường"/> Lượng bình thường</label><label class="cb-item"><input type="checkbox" name="luong_mau_kinh" value="Lượng ít"/> Lượng ít</label><label class="cb-item"><input type="checkbox" name="luong_mau_kinh" value="Lượng nhiều"/> Lượng nhiều</label><label class="cb-item"><input type="checkbox" name="luong_mau_kinh" value="Rong kinh"/> Rong kinh</label><label class="cb-item"><input type="checkbox" name="luong_mau_kinh" value="Màu hồng nhạt"/> Màu hồng nhạt</label><label class="cb-item"><input type="checkbox" name="luong_mau_kinh" value="Màu đỏ tươi"/> Màu đỏ tươi</label><label class="cb-item"><input type="checkbox" name="luong_mau_kinh" value="Màu đỏ sẫm"/> Màu đỏ sẫm</label><label class="cb-item"><input type="checkbox" name="luong_mau_kinh" value="Màu nâu đen"/> Màu nâu đen</label><label class="cb-item"><input type="checkbox" name="luong_mau_kinh" value="Có huyết cục"/> Có huyết cục</label></div></div>
+<div class="cb-group"><div class="cb-group-label">Triệu chứng kèm theo:</div><div class="cb-grid cb-3"><label class="cb-item"><input type="checkbox" name="trieu_chung_kinh" value="Bình thường"/> Bình thường</label><label class="cb-item"><input type="checkbox" name="trieu_chung_kinh" value="Đau bụng kinh"/> Đau bụng kinh</label><label class="cb-item"><input type="checkbox" name="trieu_chung_kinh" value="Đau lưng trước kỳ kinh"/> Đau lưng trước kỳ kinh</label><label class="cb-item"><input type="checkbox" name="trieu_chung_kinh" value="Căng tức ngực trước kinh"/> Căng tức ngực trước kinh</label><label class="cb-item"><input type="checkbox" name="trieu_chung_kinh" value="Buồn nôn / ói khi hành kinh"/> Buồn nôn / ói khi hành kinh</label></div></div>
+<div class="cb-group"><div class="cb-group-label">Khí hư:</div><div class="cb-grid cb-3"><label class="cb-item"><input type="checkbox" name="khi_hu" value="Không có"/> Không có</label><label class="cb-item"><input type="checkbox" name="khi_hu" value="Khí hư trắng loãng"/> Khí hư trắng loãng</label><label class="cb-item"><input type="checkbox" name="khi_hu" value="Khí hư vàng / xanh"/> Khí hư vàng / xanh</label><label class="cb-item"><input type="checkbox" name="khi_hu" value="Khí hư đặc dính"/> Khí hư đặc dính</label><label class="cb-item"><input type="checkbox" name="khi_hu" value="Khí hư có mùi hôi"/> Khí hư có mùi hôi</label><label class="cb-item"><input type="checkbox" name="khi_hu" value="Ngứa âm đạo"/> Ngứa âm đạo</label></div></div>
+<div class="cb-group"><div class="cb-group-label">Tình dục (nữ):</div><div class="cb-grid cb-2"><label class="cb-item"><input type="checkbox" name="tinh_duc_nu" value="Bình thường"/> Bình thường</label><label class="cb-item"><input type="checkbox" name="tinh_duc_nu" value="Giảm ham muốn"/> Giảm ham muốn</label><label class="cb-item"><input type="checkbox" name="tinh_duc_nu" value="Khô / giảm dịch âm đạo"/> Khô / giảm dịch âm đạo</label><label class="cb-item"><input type="checkbox" name="tinh_duc_nu" value="Đau khi quan hệ"/> Đau khi quan hệ</label></div></div></div>
+    </div>
+    <div class="form-card" id="sec-namkhoa">
+      <div class="form-card-head"><span class="fc-icon">🔵</span><h2>11B. Nam Khoa</h2></div>
+      <div class="form-card-body"><div class="cb-group"><div class="cb-group-label">Cảm giác:</div><div class="cb-grid cb-2"><label class="cb-item"><input type="checkbox" name="nam_cam_giac" value="Bình thường"/> Bình thường</label><label class="cb-item"><input type="checkbox" name="nam_cam_giac" value="Giảm ham muốn"/> Giảm ham muốn</label><label class="cb-item"><input type="checkbox" name="nam_cam_giac" value="Có ham muốn nhưng không cương được"/> Có ham muốn nhưng không cương được</label><label class="cb-item"><input type="checkbox" name="nam_cam_giac" value="Cương nhưng không lâu (xuất tinh sớm)"/> Cương nhưng không lâu (xuất tinh sớm)</label></div></div>
+<div class="cb-group"><div class="cb-group-label">Sau quan hệ:</div><div class="cb-grid cb-3"><label class="cb-item"><input type="checkbox" name="sau_quan_he" value="Bình thường"/> Bình thường</label><label class="cb-item"><input type="checkbox" name="sau_quan_he" value="Mệt mỏi nhiều"/> Mệt mỏi nhiều</label><label class="cb-item"><input type="checkbox" name="sau_quan_he" value="Đau lưng / mỏi lưng sau quan hệ"/> Đau lưng / mỏi lưng sau quan hệ</label></div></div>
+<div class="cb-group"><div class="cb-group-label">Tần suất:</div><div class="cb-grid cb-4"><label class="cb-item"><input type="checkbox" name="tan_suat_td" value="1 lần/tuần"/> 1 lần/tuần</label><label class="cb-item"><input type="checkbox" name="tan_suat_td" value="2–3 lần/tuần"/> 2–3 lần/tuần</label><label class="cb-item"><input type="checkbox" name="tan_suat_td" value="Trên 3 lần/tuần"/> Trên 3 lần/tuần</label><label class="cb-item"><input type="checkbox" name="tan_suat_td" value="Ít hơn 1 lần/tuần"/> Ít hơn 1 lần/tuần</label></div></div></div>
+    </div>
+    <div class="form-card">
+      <div class="form-card-head"><span class="fc-icon">📎</span><h2>12. Đính kèm xét nghiệm / hình ảnh</h2></div>
+      <div class="form-card-body"><p style="font-size:.85rem;color:var(--s500);margin-bottom:10px">Tải lên kết quả xét nghiệm, X-quang, siêu âm, MRI hoặc ảnh vị trí đau.</p>
+<div id="lab-upload-area" class="upload-area">
+    <input type="file" id="lab-files" accept="image/*,.pdf,.doc,.docx" multiple/>
+    <div class="upload-icon">📄</div>
+    <p>Tải file xét nghiệm / hình ảnh vị trí bệnh</p>
+    <p class="up-hint">JPG, PNG, PDF · Tối đa 10 file</p>
+  </div>
+  <div id="lab-preview" style="display:flex;flex-direction:column;gap:8px;margin-top:10px"></div></div>
+    </div>
+    <div class="form-card">
+      <div class="form-card-head"><span class="fc-icon">📝</span><h2>13. Thông tin bổ sung</h2></div>
+      <div class="form-card-body"><label class="field">Bạn có điều gì khác muốn chia sẻ?<textarea name="mo_ta_them" rows="3" placeholder="Bất kỳ thông tin nào bạn nghĩ hữu ích cho bác sĩ..."></textarea></label></div>
+    </div>
     <div class="submit-row">
       <button type="submit" id="submit-btn" class="btn-submit">
         <div class="spinner-sm"></div>
         <span class="btn-text">🔍 Phân tích và gửi thông tin</span>
       </button>
+      <p class="submit-note">Thông tin sẽ được gửi đến BS. Nguyễn Đức Tâm</p>
     </div>
   </form>
 
-  <!-- Result -->
   <div id="result-section" class="result-section">
     <div class="result-head">
       <h2>🏥 Kết quả gợi ý sơ bộ</h2>
@@ -472,10 +337,10 @@
       <div id="result-content"></div>
       <div class="disclaimer-box">
         <span>⚠️</span>
-        <span>Đây chỉ là <strong>gợi ý sơ bộ</strong> dựa trên biện chứng YHCT từ thông tin tự khai, <strong>không thay thế chẩn đoán chính thức</strong>. Bác sĩ sẽ chẩn đoán chính xác sau khi trực tiếp thăm khám (nhìn, nghe, hỏi, mạch) và xem xét toàn bộ hồ sơ.</span>
+        <span>Đây chỉ là <strong>gợi ý sơ bộ</strong> dựa trên biện chứng YHCT từ thông tin tự khai. Bác sĩ sẽ chẩn đoán chính xác sau khi trực tiếp thăm khám (tứ chẩn: vọng, văn, vấn, thiết).</span>
       </div>
       <div class="mail-status" id="mail-status"></div>
-      <div style="text-align:center;margin-top:24px">
+      <div style="text-align:center;margin-top:20px">
         <a href="index.html#dat-lich" class="btn-submit" style="display:inline-flex;text-decoration:none">📅 Đặt lịch khám ngay</a>
       </div>
     </div>
@@ -500,255 +365,295 @@
   <a href="tel:0973710237" class="fab fab-phone">📞<span class="fab-label">Gọi điện</span></a>
 </div>
 
-<!-- ══ TCM Engine ══ -->
 <script>
-const TCM_PATTERNS=[{id:'tam-huyet-hu',name:'Tâm Huyết Hư',phap:'Bổ Tâm dưỡng huyết, an thần',mo_ta:'Huyết không đủ nuôi dưỡng Tâm thần, gây mất ngủ, hồi hộp, trí nhớ giảm sút.',huong_dan:'Nghỉ ngơi điều độ, tránh lo nghĩ quá mức. Ăn đủ chất đạm, rau xanh, táo đỏ, long nhãn.',rules:[{f:'tam',v:'Hồi hộp, trống ngực',w:3},{f:'tam',v:'Hay quên',w:2},{f:'tam',v:'Hay lo âu, bồn chồn',w:2},{f:'ngu',v:'Khó ngủ, hay tỉnh giấc',w:3},{f:'ngu',v:'Mất ngủ nặng',w:4},{f:'chat_luoi',v:'Lưỡi hồng nhạt',w:2},{f:'mo_hoi',v:'Ra mồ hôi trộm ban đêm',w:1}]},{id:'tam-hoa-vuong',name:'Tâm Hỏa Vượng',phap:'Thanh Tâm tả hỏa, an thần',mo_ta:'Hỏa nhiệt bốc lên Tâm, gây bứt rứt, mất ngủ, người nóng trong.',huong_dan:'Hạn chế thức ăn cay nóng, rượu bia. Uống nhiều nước, ăn rau mát như rau má, khổ qua.',rules:[{f:'ngu',v:'Mất ngủ nặng',w:3},{f:'tam',v:'Hay lo âu, bồn chồn',w:2},{f:'han_nhiet',v:'Nóng trong người, khát nước',w:3},{f:'tieu_tien',v:'Tiểu ít, tiểu vàng',w:2},{f:'chat_luoi',v:'Lưỡi đỏ',w:2},{f:'reu_luoi',v:'Rêu vàng',w:1}]},{id:'ty-vi-hu-han',name:'Tỳ Vị Hư Hàn',phap:'Ôn trung kiện Tỳ, tán hàn',mo_ta:'Tỳ Vị dương khí bất túc, không vận hóa được thủy cốc, gây tiêu hóa kém, mệt mỏi.',huong_dan:'Ăn đồ ấm, tránh đồ lạnh sống. Gừng tươi, trà gừng mật ong rất tốt. Ăn đúng giờ.',rules:[{f:'han_nhiet',v:'Sợ lạnh',w:2},{f:'han_nhiet',v:'Tay chân lạnh',w:3},{f:'dai_tien',v:'Phân nát, lỏng',w:3},{f:'ty_vi',v:'Mệt mỏi, tay chân rã rời',w:2},{f:'ty_vi',v:'Phân nát, không thành khuôn',w:2},{f:'an_uong',v:'Chán ăn',w:2},{f:'chat_luoi',v:'Lưỡi nhợt, bầu',w:2}]},{id:'ty-vi-thap-nhiet',name:'Tỳ Vị Thấp Nhiệt',phap:'Thanh nhiệt táo thấp, kiện Tỳ',mo_ta:'Thấp nhiệt ứ trệ ở Tỳ Vị, ảnh hưởng tiêu hóa và làm người nặng nề.',huong_dan:'Tránh đồ chiên xào, béo ngọt. Ăn nhạt, nhiều rau, bí đỏ, ý dĩ. Uống đủ nước.',rules:[{f:'ty_vi',v:'Đầy bụng, khó tiêu',w:3},{f:'han_nhiet',v:'Nóng trong người, khát nước',w:2},{f:'reu_luoi',v:'Rêu vàng',w:3},{f:'reu_luoi',v:'Rêu dày nhớt',w:3},{f:'dai_tien',v:'Phân nát, lỏng',w:1}]},{id:'can-khi-uut-ket',name:'Can Khí Uất Kết',phap:'Sơ Can lý khí, giải uất',mo_ta:'Khí cơ tắc trở do căng thẳng, xúc cảm, gây đau tức ngực sườn, tinh thần ức chế.',huong_dan:'Thư giãn tinh thần, tránh stress. Tập yoga, đi bộ buổi sáng. Trà hoa cúc, trần bì rất tốt.',rules:[{f:'can',v:'Dễ cáu gắt, bực bội',w:3},{f:'can',v:'Đau tức hai bên sườn',w:3},{f:'vi_tri_dau',v:'Hai bên sườn',w:2},{f:'tinh_chat_dau',v:'Căng tức, đau chạy',w:2},{f:'ngu',v:'Khó ngủ, hay tỉnh giấc',w:1},{f:'an_uong',v:'Chán ăn',w:1}]},{id:'can-than-am-hu',name:'Can Thận Âm Hư',phap:'Tư bổ Can Thận, dưỡng âm',mo_ta:'Âm dịch suy kém ở Can Thận, gây hoa mắt, ù tai, đau lưng mỏi gối, ngủ ít.',huong_dan:'Nghỉ ngơi đủ giấc, tránh thức khuya. Ăn vừng đen, dâu tằm, kỷ tử. Hạn chế thức khuya.',rules:[{f:'than',v:'Đau lưng mỏi gối',w:3},{f:'than',v:'Ù tai',w:2},{f:'than',v:'Rụng tóc, tóc bạc sớm',w:1},{f:'can',v:'Hoa mắt, chóng mặt',w:3},{f:'mo_hoi',v:'Ra mồ hôi trộm ban đêm',w:2},{f:'ngu',v:'Khó ngủ, hay tỉnh giấc',w:2},{f:'chat_luoi',v:'Lưỡi đỏ',w:1},{f:'reu_luoi',v:'Ít rêu / không rêu',w:2}]},{id:'than-duong-hu',name:'Thận Dương Hư',phap:'Ôn bổ Thận dương',mo_ta:'Thận dương suy yếu, không ôn ấm toàn thân, gây lưng lạnh, tiểu đêm nhiều.',huong_dan:'Giữ ấm vùng thắt lưng. Ăn thịt dê, tôm, hạt óc chó. Tránh bơi nước lạnh.',rules:[{f:'than',v:'Đau lưng mỏi gối',w:2},{f:'than',v:'Tiểu đêm nhiều lần',w:3},{f:'han_nhiet',v:'Sợ lạnh',w:3},{f:'han_nhiet',v:'Tay chân lạnh',w:2},{f:'tieu_tien',v:'Tiểu nhiều, tiểu đêm',w:2},{f:'chat_luoi',v:'Lưỡi nhợt, bầu',w:2}]},{id:'phe-khi-hu',name:'Phế Khí Hư',phap:'Bổ Phế ích khí, chỉ khái',mo_ta:'Phế khí bất túc, chức năng tuyên giáng suy giảm, gây ho kéo dài, mệt khi nói nhiều.',huong_dan:'Tránh lạnh, gió. Tập thở sâu bụng mỗi sáng. Bạch mộc nhĩ, yến, táo tàu bổ Phế tốt.',rules:[{f:'phe',v:'Ho kéo dài',w:4},{f:'phe',v:'Khó thở, hụt hơi',w:3},{f:'phe',v:'Giọng nói yếu',w:3},{f:'mo_hoi',v:'Tự ra mồ hôi ban ngày',w:2},{f:'chat_luoi',v:'Lưỡi hồng nhạt',w:1}]},{id:'khi-huyet-hu',name:'Khí Huyết Lưỡng Hư',phap:'Bổ khí dưỡng huyết',mo_ta:'Cả khí lẫn huyết đều suy, cơ thể thiếu năng lượng và dưỡng chất nuôi dưỡng các tạng phủ.',huong_dan:'Ngủ đủ giấc, ăn đủ chất. Đại táo, long nhãn, hoàng kỳ, đương quy phù hợp.',rules:[{f:'ty_vi',v:'Mệt mỏi, tay chân rã rời',w:3},{f:'an_uong',v:'Chán ăn',w:2},{f:'tam',v:'Hay quên',w:2},{f:'ngu',v:'Khó ngủ, hay tỉnh giấc',w:1},{f:'chat_luoi',v:'Lưỡi hồng nhạt',w:3},{f:'mo_hoi',v:'Tự ra mồ hôi ban ngày',w:1},{f:'can',v:'Hoa mắt, chóng mặt',w:1}]},{id:'dam-thap',name:'Đàm Thấp Trở Trệ',phap:'Kiện Tỳ trừ thấp, hóa đàm',mo_ta:'Tỳ vận hóa kém sinh đàm thấp, ứ trở khí cơ, gây nặng đầu, buồn ngủ, người nặng nề.',huong_dan:'Vận động thường xuyên, tránh ngồi nhiều. Hạn chế đồ béo ngọt. Ý dĩ nhân, bạch linh, trần bì phù hợp.',rules:[{f:'ty_vi',v:'Đầy bụng, khó tiêu',w:2},{f:'ty_vi',v:'Phân nát, không thành khuôn',w:2},{f:'reu_luoi',v:'Rêu dày nhớt',w:4},{f:'reu_luoi',v:'Rêu trắng mỏng',w:1},{f:'chat_luoi',v:'Lưỡi nhợt, bầu',w:2},{f:'vi_tri_dau',v:'Đầu',w:1}]}];
+// ══════════════════════════════════════════
+//  TCM DIAGNOSIS ENGINE (expanded)
+// ══════════════════════════════════════════
+const P=[
+  {n:'Tâm Huyết Hư',p:'Bổ Tâm dưỡng huyết, an thần',d:'Huyết không nuôi dưỡng Tâm thần — mất ngủ, hồi hộp, hay quên.',g:'Ngủ đủ giấc, ăn táo đỏ, long nhãn, vừng đen. Hạn chế thức khuya.',r:[
+    {f:'tinh_tinh',v:'Hay lo âu, suy nghĩ nhiều',w:3},{f:'tinh_tinh',v:'Hay quên',w:2},
+    {f:'vao_giac',v:'Trằn trọc khó ngủ',w:3},{f:'chat_luong_ngu',v:'Ngủ không sâu, dễ tỉnh',w:2},{f:'chat_luong_ngu',v:'Mất ngủ nhiều năm',w:3},
+    {f:'nguc_bung',v:'Hồi hộp đánh trống ngực',w:3},
+    {f:'mo',v:'Mơ nhiều',w:1},{f:'mo_hoi_detail',v:'Ra mồ hôi trộm ban đêm',w:2},
+    {f:'chat_luoi',v:'Lưỡi hồng nhạt',w:2},
+  ]},
+  {n:'Tâm Hỏa Vượng',p:'Thanh Tâm tả hỏa, an thần',d:'Hỏa nhiệt bốc lên Tâm — bứt rứt, mất ngủ, khát nước, nước tiểu vàng.',g:'Kiêng cay nóng, rượu bia. Uống rau má, khổ qua, hoa cúc.',r:[
+    {f:'chat_luong_ngu',v:'Mất ngủ nhiều năm',w:2},{f:'vao_giac',v:'Trằn trọc khó ngủ',w:2},
+    {f:'tinh_tinh',v:'Dễ bực bội',w:2},{f:'cam_nhan_co_the',v:'Sợ nóng',w:2},
+    {f:'cam_giac_mieng',v:'Đắng',w:3},{f:'cam_giac_mieng',v:'Khô miệng',w:2},{f:'cam_giac_mieng',v:'Nóng rát miệng',w:2},
+    {f:'thich_uong',v:'Nước lạnh / nước đá',w:2},
+    {f:'mau_tieu',v:'Vàng đậm như nước chè',w:2},
+    {f:'mo',v:'Mơ sợ hãi / ác mộng',w:2},
+    {f:'chat_luoi',v:'Lưỡi đỏ (đỏ hơn bình thường)',w:2},{f:'reu_luoi',v:'Rêu vàng',w:1},
+  ]},
+  {n:'Tỳ Vị Hư Hàn',p:'Ôn trung kiện Tỳ, tán hàn',d:'Tỳ Vị dương hư — tiêu hóa kém, mệt mỏi, sợ lạnh, tay chân lạnh.',g:'Ăn đồ ấm, tránh lạnh sống. Gừng, trà gừng mật ong, ý dĩ rang.',r:[
+    {f:'cam_nhan_co_the',v:'Sợ lạnh',w:2},{f:'chan_tay',v:'Tay chân lạnh',w:3},
+    {f:'dai_tien_tan',v:'Phân nát lâu năm',w:2},{f:'chat_phan',v:'Nát không thành hình',w:3},{f:'chat_phan',v:'Lỏng / toàn nước',w:3},
+    {f:'cam_giac_an',v:'Chán ăn / ăn kém',w:2},
+    {f:'tinh_tinh',v:'Hay thở dài',w:1},
+    {f:'chat_luong_ngu',v:'Ăn xong buồn ngủ',w:1},
+    {f:'chat_luoi',v:'Lưỡi nhợt màu',w:2},{f:'reu_luoi',v:'Rêu trắng mỏng (bình thường)',w:1},
+  ]},
+  {n:'Tỳ Vị Thấp Nhiệt',p:'Thanh nhiệt táo thấp, kiện Tỳ',d:'Thấp nhiệt ứ trệ Tỳ Vị — đầy bụng, ợ chua, rêu vàng dày.',g:'Kiêng chiên xào béo ngọt. Ý dĩ sống, bí đỏ, đậu đỏ, uống đủ nước.',r:[
+    {f:'cam_giac_an',v:'Đầy bụng sau ăn',w:3},{f:'cam_giac_an',v:'Ợ chua',w:2},{f:'cam_giac_an',v:'Ợ hơi',w:1},
+    {f:'cam_giac_mieng',v:'Dính miệng',w:2},{f:'cam_giac_mieng',v:'Hôi miệng',w:2},{f:'cam_giac_mieng',v:'Đắng',w:1},
+    {f:'cam_nhan_co_the',v:'Sợ nóng',w:1},{f:'thich_uong',v:'Nước lạnh / nước đá',w:1},
+    {f:'reu_luoi',v:'Rêu vàng',w:3},{f:'reu_luoi',v:'Rêu dày nhớt',w:4},
+    {f:'mau_tieu',v:'Vàng đậm như nước chè',w:1},
+  ]},
+  {n:'Can Khí Uất Kết',p:'Sơ Can lý khí, giải uất',d:'Khí cơ tắc trở — đau tức sườn, dễ cáu, ức chế cảm xúc.',g:'Thư giãn, tránh stress. Yoga, đi bộ, trà hoa cúc / trần bì / hoa hồng.',r:[
+    {f:'tinh_tinh',v:'Dễ cáu gắt',w:3},{f:'tinh_tinh',v:'Dễ bực bội',w:2},{f:'tinh_tinh',v:'Uất ức, ức chế',w:3},{f:'tinh_tinh',v:'Hay thở dài',w:2},
+    {f:'nguc_bung',v:'Đau tức sườn',w:3},{f:'nguc_bung',v:'Tức ngực / bí ngực',w:2},
+    {f:'cam_giac_an',v:'Ợ hơi',w:1},{f:'cam_giac_an',v:'Chán ăn / ăn kém',w:1},
+    {f:'vao_giac',v:'Trằn trọc khó ngủ',w:1},
+    {f:'yeu_to_nang',v:'Khi căng thẳng',w:2},
+  ]},
+  {n:'Can Thận Âm Hư',p:'Tư bổ Can Thận, dưỡng âm',d:'Âm dịch suy — hoa mắt, ù tai, đau lưng mỏi gối, ngủ ít, mồ hôi trộm.',g:'Tránh thức khuya. Vừng đen, kỷ tử, dâu tằm, mật ong. Hạn chế tình dục.',r:[
+    {f:'dau_hong',v:'Chóng mặt',w:2},
+    {f:'cam_nhan_co_the',v:'Sốt về chiều',w:3},
+    {f:'chan_tay',v:'Lòng bàn tay chân nóng (Ngũ tâm phiền nhiệt)',w:3},
+    {f:'mo_hoi_detail',v:'Ra mồ hôi trộm ban đêm',w:3},
+    {f:'chat_luong_ngu',v:'Ngủ không sâu, dễ tỉnh',w:2},
+    {f:'cam_giac_mieng',v:'Khô miệng',w:1},{f:'thich_uong',v:'Nước lạnh / nước đá',w:1},
+    {f:'chat_luoi',v:'Lưỡi đỏ (đỏ hơn bình thường)',w:2},{f:'reu_luoi',v:'Ít rêu / không rêu',w:3},
+    {f:'tieu_tien',v:'Tiểu ít',w:1},{f:'mau_tieu',v:'Vàng đậm như nước chè',w:1},
+  ]},
+  {n:'Thận Dương Hư',p:'Ôn bổ Thận dương',d:'Thận dương suy — lưng lạnh, tiểu đêm nhiều, sợ lạnh, tay chân lạnh.',g:'Giữ ấm thắt lưng. Thịt dê, tôm, hạt óc chó, quế. Tránh bơi nước lạnh.',r:[
+    {f:'cam_nhan_co_the',v:'Sợ lạnh',w:3},{f:'chan_tay',v:'Tay chân lạnh',w:2},
+    {f:'tieu_tien',v:'Tiểu đêm nhiều lần',w:4},{f:'tieu_tien',v:'Tiểu đêm 1 lần',w:2},{f:'tieu_tien',v:'Đi tiểu nhiều',w:1},
+    {f:'mau_tieu',v:'Vàng nhạt',w:1},{f:'mau_tieu',v:'Trắng trong',w:2},
+    {f:'chat_luoi',v:'Lưỡi nhợt màu',w:2},
+    {f:'yeu_to_nang',v:'Khi gặp lạnh',w:2},
+    {f:'yeu_to_giam',v:'Chườm ấm',w:1},
+  ]},
+  {n:'Phế Khí Hư',p:'Bổ Phế ích khí, chỉ khái',d:'Phế khí bất túc — ho kéo dài, giọng yếu, dễ ra mồ hôi, hay mệt.',g:'Tránh lạnh gió. Tập thở bụng mỗi sáng. Bạch mộc nhĩ, yến, táo tàu.',r:[
+    {f:'ho_dom',v:'Ho khan',w:3},{f:'ho_dom',v:'Ho có đờm ít',w:2},{f:'ho_dom',v:'Đờm trắng loãng',w:2},
+    {f:'nguc_bung',v:'Thở ngắn nông / hụt hơi',w:3},
+    {f:'mo_hoi_detail',v:'Tự ra mồ hôi ban ngày (Tự hãn)',w:3},
+    {f:'cam_giac_mieng',v:'Khô miệng',w:1},
+    {f:'chat_luoi',v:'Lưỡi hồng nhạt',w:1},
+  ]},
+  {n:'Khí Huyết Lưỡng Hư',p:'Bổ khí dưỡng huyết',d:'Cả khí lẫn huyết suy — mệt mỏi, chán ăn, hoa mắt, hay quên, ngủ kém.',g:'Ngủ đủ, ăn đủ chất. Đại táo, long nhãn, hoàng kỳ, đương quy.',r:[
+    {f:'cam_giac_an',v:'Chán ăn / ăn kém',w:2},
+    {f:'tinh_tinh',v:'Hay quên',w:2},{f:'tinh_tinh',v:'Hay lo âu, suy nghĩ nhiều',w:1},
+    {f:'chat_luong_ngu',v:'Ngủ không sâu, dễ tỉnh',w:1},
+    {f:'dau_hong',v:'Chóng mặt',w:2},
+    {f:'chan_tay',v:'Tứ chi vô lực',w:2},
+    {f:'mo_hoi_detail',v:'Tự ra mồ hôi ban ngày (Tự hãn)',w:1},
+    {f:'chat_luoi',v:'Lưỡi hồng nhạt',w:3},
+    {f:'cam_nhan_co_the',v:'Sợ lạnh',w:1},
+  ]},
+  {n:'Đàm Thấp Trở Trệ',p:'Kiện Tỳ trừ thấp, hóa đàm',d:'Tỳ vận hóa kém sinh đàm thấp — nặng đầu, buồn ngủ, người nặng nề.',g:'Vận động mỗi ngày. Ý dĩ, bạch linh, trần bì. Kiêng béo ngọt.',r:[
+    {f:'cam_giac_an',v:'Đầy bụng sau ăn',w:2},{f:'chat_luong_ngu',v:'Ăn xong buồn ngủ',w:3},{f:'chat_luong_ngu',v:'Buồn ngủ ban ngày',w:2},
+    {f:'dau_hong',v:'Nặng đầu',w:2},
+    {f:'ho_dom',v:'Ho có đờm nhiều',w:2},{f:'ho_dom',v:'Đờm trắng loãng',w:2},{f:'ho_dom',v:'Đờm dính',w:2},
+    {f:'chat_phan',v:'Nát không thành hình',w:2},{f:'chat_phan',v:'Dính',w:2},
+    {f:'reu_luoi',v:'Rêu dày nhớt',w:4},{f:'chat_luoi',v:'Lưỡi nhợt màu',w:1},
+    {f:'cam_giac_mieng',v:'Dính miệng',w:2},
+  ]},
+  {n:'Can Hỏa Vượng',p:'Thanh Can tả hỏa',d:'Can Hỏa bốc mạnh — đau đầu hai bên, mắt đỏ, dễ cáu, huyết áp cao.',g:'Kiêng rượu bia, cay nóng. Trà hoa cúc, hạ khô thảo. Nghỉ ngơi đầy đủ.',r:[
+    {f:'tinh_tinh',v:'Dễ cáu gắt',w:3},{f:'tinh_tinh',v:'Dễ bực bội',w:2},
+    {f:'dau_hong',v:'Đau đầu vùng trán',w:2},{f:'dau_hong',v:'Đau nửa đầu',w:2},
+    {f:'cam_giac_mieng',v:'Đắng',w:3},{f:'cam_giac_mieng',v:'Khô miệng',w:1},
+    {f:'thoi_quen',v:'Uống rượu / bia nhiều',w:2},{f:'thoi_quen',v:'Hay ăn cay nóng',w:2},
+    {f:'reu_luoi',v:'Rêu vàng',w:2},{f:'chat_luoi',v:'Lưỡi đỏ (đỏ hơn bình thường)',w:2},
+    {f:'mo',v:'Mơ sợ hãi / ác mộng',w:1},
+  ]},
+  {n:'Bàng Quang Thấp Nhiệt',p:'Thanh nhiệt lợi thấp, thông lâm',d:'Thấp nhiệt ứ bàng quang — tiểu buốt, tiểu vàng, tiểu gấp.',g:'Uống nhiều nước (> 2 lít/ngày). Rau má, mã đề, kim tiền thảo.',r:[
+    {f:'tieu_tien',v:'Tiểu buốt / rắt',w:4},{f:'tieu_tien',v:'Tiểu gấp',w:3},{f:'tieu_tien',v:'Tiểu nóng',w:3},{f:'tieu_tien',v:'Tiểu ra bọt',w:1},
+    {f:'mau_tieu',v:'Vàng đậm như nước chè',w:3},{f:'mau_tieu',v:'Hồng / có máu',w:2},
+    {f:'cam_nhan_co_the',v:'Sợ nóng',w:1},{f:'reu_luoi',v:'Rêu vàng',w:2},
+  ]},
+];
 
-function getFormData(form) {
-  const d = {};
-  // radio/select/text
-  new FormData(form).forEach((v,k) => { if(!d[k]) d[k]=v; });
-  // checkboxes
-  form.querySelectorAll('input[type=checkbox]:checked').forEach(cb => {
-    if(!Array.isArray(d[cb.name])) d[cb.name]=[];
-    if(!d[cb.name].includes(cb.value)) d[cb.name].push(cb.value);
+function getD(form){
+  const d={};
+  new FormData(form).forEach((v,k)=>{if(!d[k])d[k]=v;});
+  form.querySelectorAll('input[type=checkbox]:checked').forEach(cb=>{
+    if(!Array.isArray(d[cb.name]))d[cb.name]=[];
+    if(!d[cb.name].includes(cb.value))d[cb.name].push(cb.value);
   });
   return d;
 }
 
-function scoreP(p, d) {
+function sc(pat,d){
   let s=0,mx=0;
-  for(const r of p.rules){
-    mx+=r.w; const v=d[r.f];
-    if(!v) continue;
-    if(Array.isArray(v)&&v.includes(r.v)) s+=r.w;
-    else if(v===r.v) s+=r.w;
+  for(const r of pat.r){
+    mx+=r.w;const v=d[r.f];
+    if(!v)continue;
+    if(Array.isArray(v)&&v.includes(r.v))s+=r.w;
+    else if(v===r.v)s+=r.w;
   }
   return mx>0?s/mx:0;
 }
 
-function diagnose(d) {
-  return TCM_PATTERNS.map(p=>({...p,ratio:scoreP(p,d)}))
-    .filter(p=>p.ratio>=0.25).sort((a,b)=>b.ratio-a.ratio).slice(0,3);
+function diagnose(d){
+  return P.map(p=>({...p,ratio:sc(p,d)})).filter(p=>p.ratio>=0.22).sort((a,b)=>b.ratio-a.ratio).slice(0,3);
 }
 
-// ── File upload helpers ──
-const tongueFiles = [], labFiles = [];
-
-function setupUpload(inputId, areaId, previewId, store, imgOnly) {
-  const input = document.getElementById(inputId);
-  const area  = document.getElementById(areaId);
-  const prev  = document.getElementById(previewId);
-
-  area.addEventListener('dragover', e => { e.preventDefault(); area.classList.add('dragover'); });
-  area.addEventListener('dragleave', () => area.classList.remove('dragover'));
-  area.addEventListener('drop', e => {
-    e.preventDefault(); area.classList.remove('dragover');
-    handleFiles([...e.dataTransfer.files], store, prev, imgOnly);
-  });
-  input.addEventListener('change', () => {
-    handleFiles([...input.files], store, prev, imgOnly);
-    input.value = '';
-  });
+// ── File uploads ──
+const tongueFiles=[],labFiles=[];
+function setupUpload(inputId,areaId,previewId,store,imgOnly){
+  const inp=document.getElementById(inputId),area=document.getElementById(areaId),prev=document.getElementById(previewId);
+  area.addEventListener('dragover',e=>{e.preventDefault();area.classList.add('dragover');});
+  area.addEventListener('dragleave',()=>area.classList.remove('dragover'));
+  area.addEventListener('drop',e=>{e.preventDefault();area.classList.remove('dragover');handle([...e.dataTransfer.files],store,prev,imgOnly);});
+  inp.addEventListener('change',()=>{handle([...inp.files],store,prev,imgOnly);inp.value='';});
 }
-
-function handleFiles(files, store, prev, imgOnly) {
-  files.forEach(file => {
-    if(store.length >= (imgOnly ? 5 : 10)) return;
-    store.push(file);
-    renderPreview(store, prev, imgOnly);
-  });
+function handle(files,store,prev,imgOnly){
+  files.forEach(f=>{if(store.length>=(imgOnly?5:10))return;store.push(f);render(store,prev,imgOnly);});
 }
-
-function renderPreview(store, prev, imgOnly) {
-  if(store.length === 0) { prev.style.display='none'; prev.innerHTML=''; return; }
-  prev.style.display = imgOnly ? 'grid' : 'flex';
-  prev.innerHTML = '';
-  store.forEach((file, i) => {
-    if(imgOnly) {
-      const div = document.createElement('div');
-      div.className = 'preview-item';
-      const rm = document.createElement('button');
-      rm.className='rm'; rm.textContent='✕';
-      rm.onclick = () => { store.splice(i,1); renderPreview(store,prev,imgOnly); };
+function render(store,prev,imgOnly){
+  if(!store.length){prev.style.display='none';prev.innerHTML='';return;}
+  prev.style.display=imgOnly?'grid':'flex';prev.innerHTML='';
+  store.forEach((f,i)=>{
+    if(imgOnly){
+      const div=document.createElement('div');div.className='preview-item';
+      const rm=document.createElement('button');rm.className='rm';rm.textContent='✕';
+      rm.onclick=()=>{store.splice(i,1);render(store,prev,imgOnly);};
       div.appendChild(rm);
-      if(file.type.startsWith('image/')) {
-        const img = document.createElement('img');
-        img.src = URL.createObjectURL(file);
-        div.appendChild(img);
-      }
+      if(f.type.startsWith('image/')){const img=document.createElement('img');img.src=URL.createObjectURL(f);div.appendChild(img);}
       prev.appendChild(div);
-    } else {
-      const div = document.createElement('div');
-      div.className = 'preview-file';
-      div.innerHTML = `<span>📎</span><span>${file.name} (${(file.size/1024/1024).toFixed(1)} MB)</span>`;
-      const rm = document.createElement('button');
-      rm.className='rm'; rm.textContent='✕';
-      rm.onclick = () => { store.splice(i,1); renderPreview(store,prev,imgOnly); };
-      div.appendChild(rm);
-      prev.appendChild(div);
+    }else{
+      const div=document.createElement('div');div.className='preview-file';
+      div.innerHTML=`<span>📎</span><span>${f.name} (${(f.size/1024/1024).toFixed(1)} MB)</span>`;
+      const rm=document.createElement('button');rm.className='rm';rm.textContent='✕';
+      rm.onclick=()=>{store.splice(i,1);render(store,prev,imgOnly);};div.appendChild(rm);prev.appendChild(div);
     }
   });
 }
+setupUpload('tongue-files','tongue-upload-area','tongue-preview',tongueFiles,true);
+setupUpload('lab-files','lab-upload-area','lab-preview',labFiles,false);
 
-setupUpload('tongue-files','tongue-upload-area','tongue-preview', tongueFiles, true);
-setupUpload('lab-files','lab-upload-area','lab-preview', labFiles, false);
-
-// ── Kinh nguyệt field ──
-document.querySelector('[name=gioi_tinh]').addEventListener('change', e => {
-  document.getElementById('kinh-nguyet-field').style.display = e.target.value === 'Nữ' ? '' : 'none';
+// ── Phụ / Nam khoa toggle ──
+document.querySelector('[name=gioi_tinh]').addEventListener('change',function(){
+  const v=this.value;
+  document.getElementById('sec-phukoa').style.display=v==='Nữ'?'':'none';
+  document.getElementById('sec-namkhoa').style.display=v==='Nam'?'':'none';
 });
+// init
+document.getElementById('sec-phukoa').style.display='none';
+document.getElementById('sec-namkhoa').style.display='none';
 
 // ── Checkbox visual ──
-document.querySelectorAll('.cb-item').forEach(lbl => {
-  lbl.querySelector('input').addEventListener('change', e => {
-    lbl.classList.toggle('checked', e.target.checked);
-  });
+document.querySelectorAll('.cb-item').forEach(lbl=>{
+  lbl.querySelector('input').addEventListener('change',e=>{lbl.classList.toggle('checked',e.target.checked);});
 });
 
-// ── Email via EmailJS ──
-// ⚠️ Bác sĩ cần thay 3 giá trị sau sau khi lập tài khoản tại emailjs.com:
-const EMAILJS_SERVICE_ID  = 'service_woherl8';   // từ EmailJS dashboard
-const EMAILJS_TEMPLATE_ID = 'template_vo07rnx';  // template bạn tạo
-const EMAILJS_PUBLIC_KEY  = 'riU-0WblP_-h6Zfkl';    // Account > API Keys
+// ── EmailJS ──
+const EMAILJS_SERVICE_ID ='YOUR_SERVICE_ID';
+const EMAILJS_TEMPLATE_ID='YOUR_TEMPLATE_ID';
+const EMAILJS_PUBLIC_KEY  ='YOUR_PUBLIC_KEY';
 
-async function sendEmail(params) {
-  if(EMAILJS_SERVICE_ID === 'YOUR_SERVICE_ID') {
-    console.warn('EmailJS chưa được cấu hình — bỏ qua gửi email');
-    return {status:'skipped'};
-  }
-  const res = await fetch('https://api.emailjs.com/api/v1.0/email/send', {
-    method:'POST',
-    headers:{'Content-Type':'application/json'},
-    body: JSON.stringify({
-      service_id: EMAILJS_SERVICE_ID,
-      template_id: EMAILJS_TEMPLATE_ID,
-      user_id: EMAILJS_PUBLIC_KEY,
-      template_params: params
-    })
+async function sendEmail(params){
+  if(EMAILJS_SERVICE_ID==='YOUR_SERVICE_ID'){console.warn('EmailJS chưa cấu hình');return{status:'skipped'};}
+  const res=await fetch('https://api.emailjs.com/api/v1.0/email/send',{
+    method:'POST',headers:{'Content-Type':'application/json'},
+    body:JSON.stringify({service_id:EMAILJS_SERVICE_ID,template_id:EMAILJS_TEMPLATE_ID,user_id:EMAILJS_PUBLIC_KEY,template_params:params})
   });
-  return {status: res.ok ? 'ok' : 'error', code: res.status};
+  return{status:res.ok?'ok':'error'};
+}
+
+// ── Email body ──
+function arr(d,k){return Array.isArray(d[k])?d[k].join(', '):(d[k]||'—');}
+function buildBody(d,patterns){
+  return `PHIẾU KHAI BỆNH – YHCT TÂM ĐỨC
+Ngày: ${new Date().toLocaleString('vi-VN')}
+
+1. THÔNG TIN CÁ NHÂN
+Họ tên: ${d.ho_ten||'—'} | Tuổi: ${d.tuoi||'—'} | Giới: ${d.gioi_tinh||'—'}
+ĐT: ${d.dien_thoai||'—'} | Nghề: ${d.nghe_nghiep||'—'}
+Chủ chứng: ${d.ly_do_kham||'—'}
+Xuất hiện: ${d.xuat_hien||'—'} | Thời gian: ${d.thoi_gian_keo_dai||'—'}
+Làm nặng: ${arr(d,'yeu_to_nang')}
+Làm giảm: ${arr(d,'yeu_to_giam')}
+Tiền sử: ${d.tien_su||'—'}
+Gia đình: ${d.gia_dinh||'—'}
+
+2. ĂN UỐNG & KHẨU VỊ
+Uống nước: ${arr(d,'uong_nuoc')} | Thích uống: ${arr(d,'thich_uong')}
+Cảm giác miệng: ${arr(d,'cam_giac_mieng')}
+Cảm giác ăn: ${arr(d,'cam_giac_an')}
+Thích vị: ${arr(d,'thich_vi')}
+
+3. ĐẠI TIỆN
+Tần suất: ${arr(d,'dai_tien_tan')}
+Chất phân: ${arr(d,'chat_phan')}
+Kèm theo: ${arr(d,'dai_tien_kem')}
+
+4. TIỂU TIỆN
+Triệu chứng: ${arr(d,'tieu_tien')}
+Màu nước tiểu: ${arr(d,'mau_tieu')}
+
+5. GIẤC NGỦ & CẢM XÚC
+Vào giấc: ${arr(d,'vao_giac')} | Chất lượng: ${arr(d,'chat_luong_ngu')}
+Mơ: ${arr(d,'mo')} | Tỉnh giữa đêm: ${arr(d,'dem_tinh')}
+Tính tình: ${arr(d,'tinh_tinh')}
+
+6. CẢM GIÁC CƠ THỂ
+Nhiệt độ: ${arr(d,'cam_nhan_co_the')}
+Chân tay: ${arr(d,'chan_tay')}
+Mồ hôi: ${arr(d,'mo_hoi_detail')}
+
+7. ĐẦU HỌNG NGỰC BỤNG
+Đầu/họng: ${arr(d,'dau_hong')}
+Ho/đờm: ${arr(d,'ho_dom')}
+Ngực/bụng: ${arr(d,'nguc_bung')}
+
+8. LƯỠI
+Chất lưỡi: ${d.chat_luoi||'—'} | Rêu lưỡi: ${d.reu_luoi||'—'}
+Ảnh lưỡi: ${tongueFiles.length} ảnh | File đính kèm: ${labFiles.length} file
+
+9. THÓI QUEN: ${arr(d,'thoi_quen')}
+
+10. PHỤ / NAM KHOA
+${d.gioi_tinh==='Nữ'?`Kinh nguyệt: ${arr(d,'luong_mau_kinh')} | Kỳ kinh: ${d.ky_kinh||'—'}
+Triệu chứng kinh: ${arr(d,'trieu_chung_kinh')} | Khí hư: ${arr(d,'khi_hu')}`:''}
+${d.gioi_tinh==='Nam'?`Nam khoa: ${arr(d,'nam_cam_giac')} | Sau QH: ${arr(d,'sau_quan_he')}`:''}
+
+11. MÔ TẢ THÊM: ${d.mo_ta_them||'(không có)'}
+
+==== GỢI Ý SƠ BỘ THỂ BỆNH ====
+${patterns.length?patterns.map((p,i)=>`${i+1}. ${p.n} (${Math.round(p.ratio*100)}%) — Pháp trị: ${p.p}`).join('\n'):'Chưa đủ thông tin'}`.trim();
 }
 
 // ── Render results ──
-function renderResults(patterns, data) {
-  const rc = document.getElementById('result-content');
-  if(!patterns.length) {
-    rc.innerHTML = '<div class="no-pattern"><div style="font-size:2rem">🤔</div><p style="margin-top:8px">Chưa đủ thông tin để gợi ý thể bệnh.<br>Vui lòng điền thêm triệu chứng hoặc đến khám trực tiếp.</p></div>';
-    return;
+function renderRes(patterns){
+  const rc=document.getElementById('result-content');
+  if(!patterns.length){
+    rc.innerHTML='<div class="no-pattern"><div style="font-size:2rem">🤔</div><p style="margin-top:8px">Chưa đủ thông tin để gợi ý thể bệnh.<br>Vui lòng điền thêm triệu chứng hoặc đến khám trực tiếp.</p></div>';return;
   }
-  rc.innerHTML = patterns.map((p, i) => `
+  rc.innerHTML=patterns.map((p,i)=>`
     <div class="pattern-card">
       <div class="pattern-rank">${i===0?'Ưu tiên chính':'Gợi ý thêm'}</div>
       <div class="pattern-bar"><div class="pattern-bar-fill" style="width:${Math.round(p.ratio*100)}%"></div></div>
-      <div class="pattern-name">${p.name} <span style="font-size:.78rem;color:var(--s400);font-weight:400">(phù hợp ${Math.round(p.ratio*100)}%)</span></div>
-      <div class="pattern-phap">⚕️ Pháp trị: ${p.phap}</div>
-      <div class="pattern-desc">${p.mo_ta}</div>
-      <div class="pattern-guide">💡 Sinh hoạt & ăn uống: ${p.huong_dan}</div>
+      <div class="pattern-name">${p.n} <span style="font-size:.75rem;color:var(--s400);font-weight:400">(phù hợp ${Math.round(p.ratio*100)}%)</span></div>
+      <div class="pattern-phap">⚕️ Pháp trị: ${p.p}</div>
+      <div class="pattern-desc">${p.d}</div>
+      <div class="pattern-guide">💡 Sinh hoạt & ăn uống: ${p.g}</div>
     </div>`).join('');
 }
 
-// ── Build email body text ──
-function buildEmailBody(data, patterns) {
-  const cb = (k) => Array.isArray(data[k]) ? data[k].join(', ') : (data[k]||'—');
-  return `
-PHIẾU KHAI THÔNG TIN BỆNH LÝ – YHCT TÂM ĐỨC
-==========================================
-Ngày gửi: ${new Date().toLocaleString('vi-VN')}
-
-1. THÔNG TIN CÁ NHÂN
-Họ tên : ${data.ho_ten||'—'}
-Tuổi   : ${data.tuoi||'—'} — Giới tính: ${data.gioi_tinh||'—'}
-Điện thoại : ${data.dien_thoai||'—'}
-Nghề nghiệp: ${data.nghe_nghiep||'—'}
-Lý do khám: ${data.ly_do_kham||'—'}
-Kinh nguyệt: ${data.kinh_nguyet||'—'}
-
-2. TOÀN TRẠNG
-Giấc ngủ : ${data.ngu||'—'}
-Ăn uống  : ${data.an_uong||'—'}
-Đại tiện : ${data.dai_tien||'—'}
-Tiểu tiện: ${data.tieu_tien||'—'}
-Hàn nhiệt: ${cb('han_nhiet')}
-Mồ hôi  : ${cb('mo_hoi')}
-
-3. ĐAU
-Vị trí : ${cb('vi_tri_dau')}
-Tính chất: ${cb('tinh_chat_dau')}
-
-4. TẠNG PHỦ
-Tâm  : ${cb('tam')}
-Phế  : ${cb('phe')}
-Tỳ Vị: ${cb('ty_vi')}
-Can  : ${cb('can')}
-Thận : ${cb('than')}
-
-5. LƯỠI
-Chất lưỡi: ${data.chat_luoi||'—'}
-Rêu lưỡi : ${data.reu_luoi||'—'}
-Ảnh lưỡi : ${tongueFiles.length} ảnh
-
-6. FILE ĐÍNH KÈM: ${labFiles.length} file
-
-7. MÔ TẢ THÊM
-${data.mo_ta_them||'(không có)'}
-
-==========================================
-GỢI Ý SƠ BỘ THỂ BỆNH YHCT:
-${patterns.length ? patterns.map((p,i)=>`${i+1}. ${p.name} (${Math.round(p.ratio*100)}%) — Pháp trị: ${p.phap}`).join('\n') : 'Không đủ thông tin để gợi ý'}
-==========================================
-  `.trim();
-}
-
 // ── Submit ──
-document.getElementById('intake-form').addEventListener('submit', async e => {
+document.getElementById('intake-form').addEventListener('submit',async e=>{
   e.preventDefault();
-  const form = e.target;
-  const btn  = document.getElementById('submit-btn');
-
-  // validate
-  if(!form.ho_ten.value.trim() || !form.tuoi.value || !form.ly_do_kham.value.trim()) {
-    alert('Vui lòng điền đầy đủ: Họ tên, Tuổi và Lý do khám.');
-    return;
+  const form=e.target,btn=document.getElementById('submit-btn');
+  if(!form.ho_ten.value.trim()||!form.tuoi.value||!form.ly_do_kham.value.trim()){
+    alert('Vui lòng điền: Họ tên, Tuổi và Chủ chứng.');return;
   }
-
-  btn.classList.add('loading'); btn.disabled = true;
-
-  const data = getFormData(form);
-  const patterns = diagnose(data);
-
-  // show results
-  renderResults(patterns, data);
-  const rs = document.getElementById('result-section');
+  btn.classList.add('loading');btn.disabled=true;
+  const d=getD(form),patterns=diagnose(d);
+  renderRes(patterns);
+  const rs=document.getElementById('result-section');
   rs.classList.add('show');
-  setTimeout(() => rs.scrollIntoView({behavior:'smooth', block:'start'}), 100);
-
-  // send email
-  const body = buildEmailBody(data, patterns);
-  const emailResult = await sendEmail({
-    to_name: 'BS. Nguyễn Đức Tâm',
-    from_name: data.ho_ten || 'Bệnh nhân',
-    patient_phone: data.dien_thoai || '—',
-    patient_age: data.tuoi || '—',
-    ly_do: data.ly_do_kham || '—',
-    diagnosis_hint: patterns.length ? patterns.map(p=>p.name).join(', ') : 'Không xác định',
-    full_body: body,
-    reply_to: 'noreply@yhct-tamduc.com'
-  });
-
-  const ms = document.getElementById('mail-status');
-  if(emailResult.status === 'ok') {
-    ms.textContent = '✅ Thông tin đã được gửi đến bác sĩ. Bác sĩ sẽ liên hệ lại với bạn qua số điện thoại đã cung cấp.';
-    ms.style.color = 'var(--g700)';
-  } else if(emailResult.status === 'skipped') {
-    ms.textContent = '📋 Thông tin đã được phân tích. Liên hệ 0973 710 237 hoặc Zalo để đặt lịch.';
-    ms.style.color = 'var(--s500)';
-  } else {
-    ms.textContent = '⚠️ Không gửi được email tự động. Vui lòng liên hệ 0973 710 237 để đặt lịch.';
-    ms.style.color = 'var(--a600)';
-  }
-
-  btn.classList.remove('loading'); btn.disabled = false;
+  setTimeout(()=>rs.scrollIntoView({behavior:'smooth',block:'start'}),100);
+  const body=buildBody(d,patterns);
+  const r=await sendEmail({to_name:'BS. Nguyễn Đức Tâm',from_name:d.ho_ten||'Bệnh nhân',patient_phone:d.dien_thoai||'—',patient_age:d.tuoi||'—',ly_do:d.ly_do_kham||'—',diagnosis_hint:patterns.length?patterns.map(p=>p.n).join(', '):'Không xác định',full_body:body,reply_to:'noreply@yhct-tamduc.com'});
+  const ms=document.getElementById('mail-status');
+  if(r.status==='ok'){ms.textContent='✅ Thông tin đã được gửi đến bác sĩ.';ms.style.color='var(--g700)';}
+  else if(r.status==='skipped'){ms.textContent='📋 Thông tin đã phân tích. Liên hệ 0973 710 237 để đặt lịch.';ms.style.color='var(--s500)';}
+  else{ms.textContent='⚠️ Không gửi được email. Vui lòng gọi 0973 710 237.';ms.style.color='var(--a600)';}
+  btn.classList.remove('loading');btn.disabled=false;
 });
 </script>
 </body>
