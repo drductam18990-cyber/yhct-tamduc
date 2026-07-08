@@ -542,32 +542,27 @@ document.querySelectorAll('.cb-item').forEach(lbl=>{
 
 // ── EmailJS ──
 // ── Cấu hình email ──────────────────────────────────────────────────────
-// Bước 1: Vào web3forms.com → nhập email drductam18990@gmail.com → lấy Access Key
-// Bước 2: Thay 'YOUR_WEB3FORMS_KEY' bên dưới bằng key vừa nhận (dạng xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx)
-const WEB3FORMS_KEY = 'YOUR_WEB3FORMS_KEY';
-const DOCTOR_EMAIL  = 'drductam18990@gmail.com';
+const DOCTOR_EMAIL = 'drductam18990@gmail.com';
 // ────────────────────────────────────────────────────────────────────────
 
 async function sendEmail(subject, body, patientData) {
-  // Phương án 1: Web3Forms – tự động gửi không cần mở app email
-  if (WEB3FORMS_KEY !== 'YOUR_WEB3FORMS_KEY') {
-    try {
-      const res = await fetch('https://api.web3forms.com/submit', {
-        method: 'POST',
-        headers: {'Content-Type':'application/json','Accept':'application/json'},
-        body: JSON.stringify({
-          access_key: WEB3FORMS_KEY,
-          subject: subject,
-          from_name: patientData.ho_ten || 'Bệnh nhân',
-          email: DOCTOR_EMAIL,
-          message: body
-        })
-      });
-      const result = await res.json();
-      return {status: result.success ? 'ok' : 'error'};
-    } catch(e) { return {status: 'error'}; }
-  }
-  // Phương án 2 (fallback): Trả về link mailto để hiển thị nút bấm
+  // Phương án 1: Formsubmit.co – không cần đăng ký, không cần key
+  try {
+    const res = await fetch(`https://formsubmit.co/ajax/${DOCTOR_EMAIL}`, {
+      method: 'POST',
+      headers: {'Content-Type':'application/json','Accept':'application/json'},
+      body: JSON.stringify({
+        _subject: subject,
+        name: patientData.ho_ten || 'Bệnh nhân',
+        phone: patientData.dien_thoai || '—',
+        message: body,
+        _template: 'table'
+      })
+    });
+    const result = await res.json();
+    if (result.success === 'true' || result.success === true) return {status: 'ok'};
+  } catch(e) {}
+  // Phương án 2 (fallback): Nút mailto để bệnh nhân tự gửi
   const shortBody = body.substring(0, 1800);
   const url = `mailto:${DOCTOR_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(shortBody)}`;
   return {status: 'mailto', url};
