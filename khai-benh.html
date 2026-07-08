@@ -564,14 +564,13 @@ async function sendEmail(subject, body, patientData) {
         })
       });
       const result = await res.json();
-      return result.success ? 'ok' : 'error';
-    } catch(e) { return 'error'; }
+      return {status: result.success ? 'ok' : 'error'};
+    } catch(e) { return {status: 'error'}; }
   }
-  // Phương án 2 (fallback): Mở ứng dụng email của bệnh nhân với nội dung đã điền sẵn
+  // Phương án 2 (fallback): Trả về link mailto để hiển thị nút bấm
   const shortBody = body.substring(0, 1800);
   const url = `mailto:${DOCTOR_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(shortBody)}`;
-  window.open(url);
-  return 'mailto';
+  return {status: 'mailto', url};
 }
 
 // ── Email body ──
@@ -669,14 +668,18 @@ document.getElementById('intake-form').addEventListener('submit',async e=>{
   setTimeout(()=>rs.scrollIntoView({behavior:'smooth',block:'start'}),100);
   const body=buildBody(d,patterns);
   const subject=`[Khai bệnh] ${d.ho_ten||'Bệnh nhân'} – SĐT: ${d.dien_thoai||'—'} – ${patterns.length?patterns[0].n:'Chưa xác định'}`;
-  const status=await sendEmail(subject, body, d);
+  const result=await sendEmail(subject, body, d);
   const ms=document.getElementById('mail-status');
-  if(status==='ok'){
+  if(result.status==='ok'){
     ms.innerHTML='✅ Thông tin đã được gửi tự động đến bác sĩ. Bác sĩ sẽ liên hệ lại qua số điện thoại bạn đã cung cấp.';
     ms.style.color='var(--g700)';
-  } else if(status==='mailto'){
-    ms.innerHTML='📧 Ứng dụng email đã mở với thông tin điền sẵn — vui lòng <strong>bấm Gửi</strong> trong ứng dụng email để hoàn thành.';
-    ms.style.color='var(--a600)';
+  } else if(result.status==='mailto'){
+    ms.innerHTML=`<div style="margin-top:8px;padding:12px;background:#fff7ed;border-radius:12px;border:1px solid #fed7aa">
+      <div style="font-weight:700;margin-bottom:6px">📨 Bước cuối: Gửi thông tin đến bác sĩ</div>
+      <div style="font-size:.85rem;margin-bottom:10px">Bấm nút bên dưới để mở ứng dụng email — thông tin đã được điền sẵn, chỉ cần bấm <strong>Gửi</strong>.</div>
+      <a href="${result.url}" style="display:inline-block;padding:10px 24px;background:#ea580c;color:#fff;border-radius:999px;font-weight:700;font-size:.9rem;text-decoration:none">📧 Gửi email đến bác sĩ</a>
+    </div>`;
+    ms.style.color='inherit';
   } else {
     ms.innerHTML='⚠️ Không gửi được email tự động. Vui lòng liên hệ trực tiếp: <strong>0973 710 237</strong> hoặc Zalo.';
     ms.style.color='var(--s500)';
@@ -686,3 +689,4 @@ document.getElementById('intake-form').addEventListener('submit',async e=>{
 </script>
 </body>
 </html>
+
