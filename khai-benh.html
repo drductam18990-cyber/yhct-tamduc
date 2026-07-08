@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
   <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet"/>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
   <style>
   *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
   html{scroll-behavior:smooth;-webkit-font-smoothing:antialiased}
@@ -540,28 +541,38 @@ document.querySelectorAll('.cb-item').forEach(lbl=>{
   lbl.querySelector('input').addEventListener('change',e=>{lbl.classList.toggle('checked',e.target.checked);});
 });
 
-// ── EmailJS ──
-// ── Cấu hình email ──────────────────────────────────────────────────────
-const DOCTOR_EMAIL = 'drductam18990@gmail.com';
-// ────────────────────────────────────────────────────────────────────────
+// ── EmailJS ──────────────────────────────────────────────────────────────
+// Hướng dẫn cài đặt: xem cuối file
+const EMAILJS_PUBLIC_KEY  = 'YOUR_PUBLIC_KEY';   // Account → General → Public Key
+const EMAILJS_SERVICE_ID  = 'YOUR_SERVICE_ID';   // Email Services → Service ID
+const EMAILJS_TEMPLATE_ID = 'YOUR_TEMPLATE_ID';  // Email Templates → Template ID
+const DOCTOR_EMAIL        = 'drductam18990@gmail.com';
+// ─────────────────────────────────────────────────────────────────────────
+
+if (EMAILJS_PUBLIC_KEY !== 'YOUR_PUBLIC_KEY') {
+  emailjs.init({publicKey: EMAILJS_PUBLIC_KEY});
+}
 
 async function sendEmail(subject, body, patientData) {
-  // Phương án 1: Formsubmit.co – không cần đăng ký, không cần key
-  try {
-    const res = await fetch(`https://formsubmit.co/ajax/${DOCTOR_EMAIL}`, {
-      method: 'POST',
-      headers: {'Content-Type':'application/json','Accept':'application/json'},
-      body: JSON.stringify({
-        _subject: subject,
-        name: patientData.ho_ten || 'Bệnh nhân',
-        phone: patientData.dien_thoai || '—',
-        message: body,
-        _template: 'table'
-      })
-    });
-    const result = await res.json();
-    if (result.success === 'true' || result.success === true) return {status: 'ok'};
-  } catch(e) {}
+  // Phương án 1: EmailJS – tự động gửi vào Gmail bác sĩ
+  if (EMAILJS_PUBLIC_KEY !== 'YOUR_PUBLIC_KEY') {
+    try {
+      const res = await emailjs.send(
+        EMAILJS_SERVICE_ID,
+        EMAILJS_TEMPLATE_ID,
+        {
+          to_email:   DOCTOR_EMAIL,
+          from_name:  patientData.ho_ten    || 'Bệnh nhân',
+          from_phone: patientData.dien_thoai || '—',
+          subject:    subject,
+          message:    body
+        }
+      );
+      return {status: res.status === 200 ? 'ok' : 'error'};
+    } catch(e) {
+      console.error('EmailJS error:', e);
+    }
+  }
   // Phương án 2 (fallback): Nút mailto để bệnh nhân tự gửi
   const shortBody = body.substring(0, 1800);
   const url = `mailto:${DOCTOR_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(shortBody)}`;
