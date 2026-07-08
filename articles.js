@@ -5,6 +5,60 @@
 
 const ARTICLES = [
 {
+    id: 80,
+    slug: "nhi-cham-giam-stress-cang-thang",
+    date: "2026-07-08",
+    category: "khong-thuoc",
+    categoryLabel: "Không dùng thuốc",
+    icon: "🧘",
+    gradient: "g-herb",
+    title: "Nhĩ châm giảm stress và căng thẳng: Phương pháp không dùng thuốc theo Y học cổ truyền",
+    excerpt: "Nhĩ châm — châm cứu vùng tai — là kỹ thuật không dùng thuốc giúp giảm stress, lo âu và mất ngủ hiệu quả. Loa tai phản chiếu toàn bộ cơ thể, kích thích đúng điểm nhĩ huyệt giúp cân bằng thần kinh và điều hòa nội tiết tố theo Y học cổ truyền.",
+    readTime: 5,
+    content: `
+<h2>Tổng quan về nhĩ châm theo Y học cổ truyền</h2>
+<p>Nhĩ châm (耳鍼, ear acupuncture) là phương pháp kích thích các huyệt vị trên loa tai để điều trị bệnh toàn thân. Theo Y học cổ truyền, loa tai là nơi hội tụ của nhiều đường kinh lạc: kinh Túc thiếu dương đởm, kinh Thủ dương minh đại tràng, kinh Túc thái dương bàng quang đều liên hệ trực tiếp đến tai. Sách <em>Linh Khu</em> ghi: "Nhĩ giả, tông mạch chi sở tụ dã" — tai là nơi hội tụ của các tông mạch.</p>
+<p>Trong y học hiện đại, bản đồ nhĩ huyệt được bác sĩ người Pháp Paul Nogier hệ thống hóa từ năm 1957, chỉ ra rằng loa tai có hình dạng tương tự thai nhi lộn ngược, mỗi vùng tai tương ứng với một bộ phận cơ thể. Khi cơ thể căng thẳng, lo âu, mất ngủ, các điểm nhĩ huyệt tương ứng sẽ xuất hiện phản ứng đặc hiệu — nhạy đau, đỏ hoặc có vảy — giúp thầy thuốc định vị và điều trị chính xác.</p>
+
+<h2>Cơ chế giảm stress của nhĩ châm theo YHCT và y học hiện đại</h2>
+<ul>
+  <li><strong>Theo YHCT:</strong> Stress, lo âu thuộc chứng <em>Uất chứng</em> và <em>Thất miên</em>, nguyên nhân do Can khí uất kết, Tâm thần thất dưỡng. Nhĩ châm kích thích điểm Tâm, Thần môn nhĩ và Dưới vỏ não giúp sơ can giải uất, dưỡng tâm an thần, trực tiếp điều hòa khí huyết và ổn định thần kinh.</li>
+  <li><strong>Theo y học hiện đại:</strong> Kích thích loa tai hoạt hóa nhánh tai của dây thần kinh phế vị (auricular branch of vagus nerve), làm tăng trương lực phó giao cảm, giảm cortisol huyết tương, kích thích não tiết beta-endorphin và serotonin — các chất dẫn truyền thần kinh liên quan đến cảm giác thư giãn và hạnh phúc.</li>
+</ul>
+
+<h2>Các nhĩ huyệt quan trọng điều trị stress và lo âu</h2>
+<p>Thầy thuốc YHCT thường phối hợp các nhĩ huyệt sau trong phác đồ chống stress:</p>
+<ul>
+  <li><strong>Thần môn nhĩ (Ear Shen Men — MA-TF1):</strong> Điểm quan trọng nhất trong điều trị lo âu, mất ngủ, bồn chồn. Nằm ở phần tam giác gờ tai (fossa triangularis). Tác dụng an thần, trấn tĩnh mạnh.</li>
+  <li><strong>Điểm Tâm (Heart — MA-IC):</strong> Tương ứng với tạng Tâm — chủ trì thần kinh và tâm lý. Kích thích giúp dưỡng tâm, ổn định nhịp tim, giảm hồi hộp lo âu.</li>
+  <li><strong>Dưới vỏ não (Subcortex — MA-AT):</strong> Nằm ở mặt trong bình tai (antitragus). Điều hòa hoạt động vỏ não, giảm căng thẳng tinh thần, cải thiện giấc ngủ.</li>
+  <li><strong>Điểm Nội tiết (Endocrine — MA-IC3):</strong> Cân bằng hệ nội tiết, giảm cortisol, đặc biệt hữu ích cho stress mạn tính ảnh hưởng đến nội tiết tố.</li>
+  <li><strong>Điểm Đởm (Gallbladder — MA-SC):</strong> Theo YHCT, Can Đởm liên quan đến cảm xúc lo âu, sợ hãi, phiền muộn. Kích thích điểm Đởm giúp sơ can giải uất, giảm lo âu tâm lý.</li>
+  <li><strong>Điểm Thận (Kidney — MA-SC):</strong> Thận tàng chí, bổ thận giúp tăng cường ý chí, giảm suy nhược thần kinh và mệt mỏi do stress kéo dài.</li>
+</ul>
+
+<h2>Kỹ thuật thực hiện nhĩ châm</h2>
+<p>Có hai hình thức nhĩ châm phổ biến tại phòng khám YHCT:</p>
+<ul>
+  <li><strong>Châm kim nhĩ huyệt:</strong> Dùng kim nhĩ châm chuyên dụng (kim ngắn 0,5–1 cm) châm vào nhĩ huyệt, lưu kim 20–30 phút mỗi buổi. Hiệu quả nhanh, phù hợp điều trị cơn stress cấp tính.</li>
+  <li><strong>Dán hạt từ (Seeds/Magnets):</strong> Dán hạt đậu Vương bất lưu hành (Vaccaria seeds) hoặc hạt từ nhỏ lên nhĩ huyệt, dán băng dính y tế cố định 3–5 ngày. Bệnh nhân tự bấm nhẹ 3–4 lần/ngày, mỗi lần 1–2 phút — phương pháp này tiện lợi, không đau, phù hợp duy trì điều trị tại nhà.</li>
+</ul>
+
+<h2>Tự thực hành bấm nhĩ huyệt tại nhà giảm stress</h2>
+<ul>
+  <li>Xác định điểm Thần môn nhĩ ở đỉnh tam giác gờ tai (hõm tam giác phía trên), dùng ngón tay cái và ngón trỏ bấm nhẹ nhàng cả hai tai cùng lúc, giữ 30–60 giây, lặp lại 3–5 lần khi cảm thấy căng thẳng.</li>
+  <li>Xoa toàn bộ loa tai từ trên xuống dưới 50–100 lần mỗi buổi tối trước khi ngủ: kích thích toàn diện các nhĩ huyệt, tăng tuần hoàn, an thần hiệu quả.</li>
+  <li>Bấm mạnh nhẹ nhịp nhàng vào dái tai (ear lobe) 1–2 phút — vùng này tương ứng với mặt và não bộ trong bản đồ nhĩ huyệt, giúp tỉnh táo và thư giãn.</li>
+  <li>Phối hợp nhĩ châm với hít thở sâu bụng 4–7–8 (hít vào 4 nhịp, nín 7 nhịp, thở ra 8 nhịp) để tăng cường tác dụng kích hoạt phó giao cảm.</li>
+  <li>Kiên trì thực hành mỗi ngày 2 lần (sáng và tối) trong 2–4 tuần để thấy rõ kết quả giảm stress và cải thiện giấc ngủ.</li>
+</ul>
+
+<div class="art-cta-box">
+  <p>Nhĩ châm là liệu pháp đơn giản, an toàn nhưng cần được biện chứng đúng thể bệnh để chọn nhĩ huyệt phù hợp. Nếu bạn đang bị stress kéo dài, lo âu, mất ngủ hoặc mệt mỏi thần kinh, hãy đến <strong>Phòng Khám YHCT Tâm Đức</strong> để được <strong>BS. Nguyễn Đức Tâm</strong> thăm khám và thực hiện nhĩ châm kết hợp bấm huyệt an thần. Phòng khám làm việc từ <strong>18:00–22:00 hàng ngày</strong> tại <strong>Hà Đông, Hà Nội</strong>. Đặt lịch: <strong>0973 710 237</strong>.</p>
+</div>
+  `
+},
+{
     id: 74,
     slug: "suy-nhuoc-than-kinh-theo-yhct",
     date: "2026-07-07",
