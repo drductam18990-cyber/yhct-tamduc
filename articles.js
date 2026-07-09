@@ -5,6 +5,54 @@
 
 const ARTICLES = [
 {
+    id: 81,
+    slug: "duong-quy-vi-thuoc-duong-huyet-dieu-kinh",
+    date: "2026-07-09",
+    category: "thuoc-yhct",
+    categoryLabel: "Thuốc YHCT",
+    icon: "🌿",
+    gradient: "g-fire",
+    title: "Đương quy — Vị thuốc dưỡng huyết, điều kinh kinh điển của Y học cổ truyền",
+    excerpt: "Đương quy (Angelica sinensis) là vị thuốc hàng đầu trong dưỡng huyết và điều kinh của Y học cổ truyền. Từ hơn 2.000 năm, đương quy được dùng để trị huyết hư, đau bụng kinh, tê bì tay chân và phục hồi khí huyết sau sinh với hiệu quả lâu bền.",
+    readTime: 6,
+    content: `
+<h2>Tổng quan về đương quy theo Y học cổ truyền</h2>
+<p>Đương quy (<em>Angelica sinensis</em> (Oliv.) Diels), còn gọi là Tần quy, Vân quy, thuộc họ Hoa tán (Apiaceae). Rễ đương quy được dùng làm thuốc, thu hoạch vào mùa thu khi cây 3 tuổi, phơi hoặc sấy khô. Trong Y học cổ truyền (YHCT), đây là một trong <em>"tứ đại thuốc bổ"</em> gồm nhân sâm, hoàng kỳ, đương quy và thục địa, được gọi là "thuốc số một về huyết".</p>
+<p>Theo <em>Thần Nông Bản Thảo Kinh</em> và <em>Bản Thảo Cương Mục</em>, đương quy vị ngọt, cay, tính ôn, quy vào các kinh Can, Tâm, Tỳ. Có ba tác dụng chính: <strong>bổ huyết</strong> (tạo thêm huyết dịch cho cơ thể thiếu huyết), <strong>hoạt huyết</strong> (lưu thông khí huyết, phá ứ trệ), <strong>nhuận tràng</strong> (giúp đại tiện thông suốt do huyết hư tân dịch thiếu). Đặc biệt, phần thân rễ (qui thân) có tác dụng bổ huyết mạnh hơn, còn phần đầu rễ (qui đầu) và đuôi rễ (qui vĩ) có tác dụng hoạt huyết, phá ứ tốt hơn.</p>
+
+<h2>Phân thể bệnh và chỉ định của đương quy theo YHCT</h2>
+<ul>
+  <li><strong>Huyết hư — chỉ định cốt lõi:</strong> Biểu hiện da xanh xao, môi nhợt, hoa mắt chóng mặt, hồi hộp, mất ngủ, tay chân tê bì, phụ nữ kinh nguyệt ít hoặc chậm kinh, lưỡi nhạt, mạch tế nhược. Đương quy là vị thuốc không thể thiếu trong mọi bài thuốc bổ huyết.</li>
+  <li><strong>Huyết ứ — đau bụng kinh, bế kinh:</strong> Phụ nữ đau bụng kinh (thống kinh) do huyết ứ, bế kinh, khối u tử cung, sau sinh loét sản. Đương quy kết hợp hoạt huyết để thông kinh, giảm đau.</li>
+  <li><strong>Phong hàn thấp tý — đau nhức xương khớp:</strong> Đau nhức cơ khớp do huyết hư không nuôi dưỡng gân cốt, hoặc phong hàn thấp xâm nhập. Đương quy bổ huyết đồng thời tán hàn thông lạc.</li>
+  <li><strong>Huyết hư táo bón:</strong> Người cao tuổi, sau bệnh dài ngày, phụ nữ sau sinh táo bón do huyết hư không đủ tân dịch nhuận tràng. Dùng đương quy ôn nhuận thông đại tiện.</li>
+  <li><strong>Mụn nhọt lâu lành — ngoại khoa YHCT:</strong> Mụn nhọt, vết thương lâu lành miệng do khí huyết hư. Đương quy bổ huyết sinh cơ, hỗ trợ tái tạo mô.</li>
+</ul>
+
+<h2>Các bài thuốc kinh điển chứa đương quy</h2>
+<p>Đương quy xuất hiện trong rất nhiều bài thuốc cổ phương kinh điển:</p>
+<ul>
+  <li><strong>Tứ vật thang (Si Wu Tang):</strong> Bài bổ huyết cơ bản gồm Đương quy 12g + Thục địa 12g + Bạch thược 12g + Xuyên khung 8g. Là nền tảng của hầu hết bài thuốc điều kinh, dưỡng huyết.</li>
+  <li><strong>Đương quy bổ huyết thang:</strong> Chỉ hai vị: Hoàng kỳ 30g + Đương quy 6g (tỷ lệ 5:1). Bổ khí sinh huyết, dùng sau mất máu nhiều hoặc khí hư huyết nhược.</li>
+  <li><strong>Bát trân thang (Ba Zhen Tang):</strong> Kết hợp Tứ quân (bổ khí) + Tứ vật (bổ huyết), trong đó đương quy đóng vai trò dẫn thuốc vào huyết phần và dưỡng huyết toàn diện.</li>
+  <li><strong>Quy tỳ thang:</strong> Đương quy kết hợp long nhãn nhục, toan táo nhân, viễn chí để dưỡng tâm an thần cho chứng tâm tỳ lưỡng hư.</li>
+</ul>
+
+<h2>Tự thực hành tại nhà với đương quy</h2>
+<ul>
+  <li><strong>Trà đương quy:</strong> Lấy 6–10g đương quy thái lát, sắc với 500ml nước trong 20 phút, uống 2 lần/ngày sau bữa ăn. Phù hợp cho phụ nữ huyết hư, kinh nguyệt ít.</li>
+  <li><strong>Cháo đương quy táo đỏ:</strong> Đương quy 10g sắc lấy nước, nấu cháo với gạo tẻ 60g, táo đỏ 5 quả, thêm đường phèn vừa đủ. Ăn buổi sáng, bổ huyết dưỡng nhan.</li>
+  <li><strong>Rượu thuốc đương quy:</strong> Ngâm đương quy 50g + thục địa 50g + long nhãn nhục 30g với 500ml rượu 35–40 độ trong 30 ngày. Uống 20–30ml trước bữa tối, bổ khí huyết.</li>
+  <li><strong>Ngâm chân đương quy:</strong> Sắc đương quy 20g + gừng tươi 3 lát + ngải cứu 15g với 2 lít nước, đổ vào chậu ngâm chân 20 phút trước khi ngủ. Giúp lưu thông khí huyết, ấm chân, cải thiện giấc ngủ.</li>
+  <li><strong>Lưu ý quan trọng:</strong> Không dùng đương quy cho người đang tiêu chảy, thấp nhiệt nặng, phụ nữ mang thai 3 tháng đầu hoặc đang có thai mà không có chỉ định của bác sĩ. Liều dùng thông thường 6–12g/ngày dạng sắc.</li>
+</ul>
+
+<div class="art-cta-box">
+  <p>Đương quy tuy là vị thuốc quen thuộc nhưng cần biện chứng đúng thể bệnh để dùng đúng liều lượng và kết hợp thuốc phù hợp — dùng sai có thể gây trướng bụng, tiêu chảy hoặc tương tác thuốc. Nếu bạn có các chứng huyết hư, kinh nguyệt không đều, suy nhược sau bệnh hoặc cần bổ huyết dưỡng nhan, hãy đến <strong>Phòng Khám YHCT Tâm Đức</strong> để được <strong>BS. Nguyễn Đức Tâm</strong> thăm khám và tư vấn bài thuốc phù hợp. Phòng khám làm việc <strong>18:00–22:00 hàng ngày</strong> tại <strong>Hà Đông, Hà Nội</strong>. Đặt lịch: <strong>0973 710 237</strong>.</p>
+</div>
+  `
+},
+{
     id: 80,
     slug: "nhi-cham-giam-stress-cang-thang",
     date: "2026-07-08",
