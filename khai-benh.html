@@ -49,10 +49,10 @@
   .nav-hamburger svg{width:22px;height:22px}
 
   .page-hero{padding:110px 0 36px;background:linear-gradient(160deg,var(--g50) 0%,#fff 55%,var(--a100) 100%);position:relative;overflow:hidden}
-  .page-hero::before{content:\'\';position:absolute;top:-80px;right:-80px;width:420px;height:420px;border-radius:50%;background:radial-gradient(circle,rgba(74,222,128,.12) 0%,transparent 65%)}
+  .page-hero::before{content:'';position:absolute;top:-80px;right:-80px;width:420px;height:420px;border-radius:50%;background:radial-gradient(circle,rgba(74,222,128,.12) 0%,transparent 65%)}
   .hero-inner{position:relative;z-index:1}
   .tag{display:inline-flex;align-items:center;gap:6px;background:var(--g100);color:var(--g700);font-size:.72rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:5px 13px;border-radius:999px;margin-bottom:12px}
-  .page-hero h1{font-family:\'Playfair Display\',serif;font-size:clamp(1.6rem,4vw,2.2rem);line-height:1.22;color:var(--s900);margin-bottom:10px}
+  .page-hero h1{font-family:'Playfair Display',serif;font-size:clamp(1.6rem,4vw,2.2rem);line-height:1.22;color:var(--s900);margin-bottom:10px}
   .page-hero p{font-size:.9rem;color:var(--s500);max-width:560px;line-height:1.75}
 
   .form-wrap{padding:0 0 70px}
@@ -111,7 +111,7 @@
   .result-section{background:#fff;border-radius:var(--r-xl);border:1px solid rgba(0,0,0,.06);box-shadow:var(--sh-md);margin-top:20px;overflow:hidden;display:none}
   .result-section.show{display:block}
   .result-head{background:linear-gradient(140deg,#0a3d1f,#166534);padding:24px;color:#fff}
-  .result-head h2{font-family:\'Playfair Display\',serif;font-size:1.3rem;margin-bottom:5px}
+  .result-head h2{font-family:'Playfair Display',serif;font-size:1.3rem;margin-bottom:5px}
   .result-head p{font-size:.83rem;opacity:.8}
   .result-body{padding:24px}
   .pattern-card{border:1px solid var(--s200);border-radius:var(--r-md);padding:18px;margin-bottom:12px;position:relative}
@@ -458,21 +458,21 @@
 <script>
 // ══ TCM ENGINE ══════════════════════════════════════════════════
 const P=[
-  {n:\'Tâm Huyết Hư\',p:\'Bổ Tâm dưỡng huyết, an thần\',d:\'Huyết không nuôi dưỡng Tâm thần — mất ngủ, hồi hộp, hay quên.\',g:\'Ngủ đủ giấc, ăn táo đỏ, long nhãn, vừng đen. Hạn chế thức khuya.\',r:[{f:\'tinh_tinh\',v:\'Hay lo âu, suy nghĩ nhiều\',w:3},{f:\'tinh_tinh\',v:\'Hay quên\',w:2},{f:\'vao_giac\',v:\'Trằn trọc khó ngủ\',w:3},{f:\'chat_luong_ngu\',v:\'Ngủ không sâu, dễ tỉnh\',w:2},{f:\'chat_luong_ngu\',v:\'Mất ngủ nhiều năm\',w:3},{f:\'nguc_bung\',v:\'Hồi hộp đánh trống ngực\',w:3},{f:\'mo\',v:\'Mơ nhiều\',w:1},{f:\'mo_hoi_detail\',v:\'Ra mồ hôi trộm ban đêm\',w:2},{f:\'chat_luoi\',v:\'Lưỡi hồng nhạt\',w:2}]},
-  {n:\'Tâm Hỏa Vượng\',p:\'Thanh Tâm tả hỏa, an thần\',d:\'Hỏa nhiệt bốc lên Tâm — bứt rứt, mất ngủ, khát nước, nước tiểu vàng.\',g:\'Kiêng cay nóng, rượu bia. Uống rau má, khổ qua, hoa cúc.\',r:[{f:\'chat_luong_ngu\',v:\'Mất ngủ nhiều năm\',w:2},{f:\'vao_giac\',v:\'Trằn trọc khó ngủ\',w:2},{f:\'tinh_tinh\',v:\'Dễ bực bội\',w:2},{f:\'cam_nhan_co_the\',v:\'Sợ nóng\',w:2},{f:\'cam_giac_mieng\',v:\'Đắng\',w:3},{f:\'cam_giac_mieng\',v:\'Khô miệng\',w:2},{f:\'thich_uong\',v:\'Nước lạnh / nước đá\',w:2},{f:\'mau_tieu\',v:\'Vàng đậm như nước chè\',w:2},{f:\'mo\',v:\'Mơ sợ hãi / ác mộng\',w:2},{f:\'chat_luoi\',v:\'Lưỡi đỏ (đỏ hơn bình thường)\',w:2}]},
-  {n:\'Tỳ Vị Hư Hàn\',p:\'Ôn trung kiện Tỳ, tán hàn\',d:\'Tỳ Vị dương hư — tiêu hóa kém, mệt mỏi, sợ lạnh, tay chân lạnh.\',g:\'Ăn đồ ấm, tránh lạnh sống. Gừng, trà gừng mật ong, ý dĩ rang.\',r:[{f:\'cam_nhan_co_the\',v:\'Sợ lạnh\',w:2},{f:\'chan_tay\',v:\'Tay chân lạnh\',w:3},{f:\'dai_tien_tan\',v:\'Phân nát lâu năm\',w:2},{f:\'chat_phan\',v:\'Nát không thành hình\',w:3},{f:\'chat_phan\',v:\'Lỏng / toàn nước\',w:3},{f:\'cam_giac_an\',v:\'Chán ăn / ăn kém\',w:2},{f:\'chat_luong_ngu\',v:\'Ăn xong buồn ngủ\',w:1},{f:\'chat_luoi\',v:\'Lưỡi nhợt màu\',w:2}]},
-  {n:\'Tỳ Vị Thấp Nhiệt\',p:\'Thanh nhiệt táo thấp, kiện Tỳ\',d:\'Thấp nhiệt ứ trệ Tỳ Vị — đầy bụng, ợ chua, rêu vàng dày.\',g:\'Kiêng chiên xào béo ngọt. Ý dĩ sống, bí đỏ, đậu đỏ, uống đủ nước.\',r:[{f:\'cam_giac_an\',v:\'Đầy bụng sau ăn\',w:3},{f:\'cam_giac_an\',v:\'Ợ chua\',w:2},{f:\'cam_giac_mieng\',v:\'Dính miệng\',w:2},{f:\'cam_giac_mieng\',v:\'Hôi miệng\',w:2},{f:\'reu_luoi\',v:\'Rêu vàng\',w:3},{f:\'reu_luoi\',v:\'Rêu dày nhớt\',w:4},{f:\'mau_tieu\',v:\'Vàng đậm như nước chè\',w:1}]},
-  {n:\'Can Khí Uất Kết\',p:\'Sơ Can lý khí, giải uất\',d:\'Khí cơ tắc trở — đau tức sườn, dễ cáu, ức chế cảm xúc.\',g:\'Thư giãn, tránh stress. Yoga, đi bộ, trà hoa cúc / trần bì / hoa hồng.\',r:[{f:\'tinh_tinh\',v:\'Dễ cáu gắt\',w:3},{f:\'tinh_tinh\',v:\'Dễ bực bội\',w:2},{f:\'tinh_tinh\',v:\'Uất ức, ức chế\',w:3},{f:\'tinh_tinh\',v:\'Hay thở dài\',w:2},{f:\'nguc_bung\',v:\'Đau tức sườn\',w:3},{f:\'nguc_bung\',v:\'Tức ngực / bí ngực\',w:2},{f:\'yeu_to_nang\',v:\'Khi căng thẳng\',w:2}]},
-  {n:\'Can Thận Âm Hư\',p:\'Tư bổ Can Thận, dưỡng âm\',d:\'Âm dịch suy — hoa mắt, ù tai, đau lưng mỏi gối, ngủ ít, mồ hôi trộm.\',g:\'Tránh thức khuya. Vừng đen, kỷ tử, dâu tằm, mật ong.\',r:[{f:\'dau_hong\',v:\'Chóng mặt\',w:2},{f:\'cam_nhan_co_the\',v:\'Sốt về chiều\',w:3},{f:\'chan_tay\',v:\'Lòng bàn tay chân nóng (Ngũ tâm phiền nhiệt)\',w:3},{f:\'mo_hoi_detail\',v:\'Ra mồ hôi trộm ban đêm\',w:3},{f:\'chat_luong_ngu\',v:\'Ngủ không sâu, dễ tỉnh\',w:2},{f:\'chat_luoi\',v:\'Lưỡi đỏ (đỏ hơn bình thường)\',w:2},{f:\'reu_luoi\',v:\'Ít rêu / không rêu\',w:3}]},
-  {n:\'Thận Dương Hư\',p:\'Ôn bổ Thận dương\',d:\'Thận dương suy — lưng lạnh, tiểu đêm nhiều, sợ lạnh, tay chân lạnh.\',g:\'Giữ ấm thắt lưng. Thịt dê, tôm, hạt óc chó, quế. Tránh bơi nước lạnh.\',r:[{f:\'cam_nhan_co_the\',v:\'Sợ lạnh\',w:3},{f:\'chan_tay\',v:\'Tay chân lạnh\',w:2},{f:\'tieu_tien\',v:\'Tiểu đêm nhiều lần\',w:4},{f:\'tieu_tien\',v:\'Tiểu đêm 1 lần\',w:2},{f:\'mau_tieu\',v:\'Trắng trong\',w:2},{f:\'chat_luoi\',v:\'Lưỡi nhợt màu\',w:2},{f:\'yeu_to_nang\',v:\'Khi gặp lạnh\',w:2}]},
-  {n:\'Phế Khí Hư\',p:\'Bổ Phế ích khí, chỉ khái\',d:\'Phế khí bất túc — ho kéo dài, giọng yếu, dễ ra mồ hôi, hay mệt.\',g:\'Tránh lạnh gió. Tập thở bụng mỗi sáng. Bạch mộc nhĩ, yến, táo tàu.\',r:[{f:\'ho_dom\',v:\'Ho khan\',w:3},{f:\'ho_dom\',v:\'Ho có đờm ít\',w:2},{f:\'ho_dom\',v:\'Đờm trắng loãng\',w:2},{f:\'nguc_bung\',v:\'Thở ngắn nông / hụt hơi\',w:3},{f:\'mo_hoi_detail\',v:\'Tự ra mồ hôi ban ngày (Tự hãn)\',w:3},{f:\'chat_luoi\',v:\'Lưỡi hồng nhạt\',w:1}]},
-  {n:\'Khí Huyết Lưỡng Hư\',p:\'Bổ khí dưỡng huyết\',d:\'Cả khí lẫn huyết suy — mệt mỏi, chán ăn, hoa mắt, hay quên.\',g:\'Ngủ đủ, ăn đủ chất. Đại táo, long nhãn, hoàng kỳ, đương quy.\',r:[{f:\'cam_giac_an\',v:\'Chán ăn / ăn kém\',w:2},{f:\'tinh_tinh\',v:\'Hay quên\',w:2},{f:\'chat_luong_ngu\',v:\'Ngủ không sâu, dễ tỉnh\',w:1},{f:\'dau_hong\',v:\'Chóng mặt\',w:2},{f:\'chan_tay\',v:\'Tứ chi vô lực\',w:2},{f:\'chat_luoi\',v:\'Lưỡi hồng nhạt\',w:3}]},
-  {n:\'Đàm Thấp Trở Trệ\',p:\'Kiện Tỳ trừ thấp, hóa đàm\',d:\'Tỳ vận hóa kém sinh đàm thấp — nặng đầu, buồn ngủ, người nặng nề.\',g:\'Vận động mỗi ngày. Ý dĩ, bạch linh, trần bì. Kiêng béo ngọt.\',r:[{f:\'cam_giac_an\',v:\'Đầy bụng sau ăn\',w:2},{f:\'chat_luong_ngu\',v:\'Ăn xong buồn ngủ\',w:3},{f:\'chat_luong_ngu\',v:\'Buồn ngủ ban ngày\',w:2},{f:\'dau_hong\',v:\'Nặng đầu\',w:2},{f:\'ho_dom\',v:\'Ho có đờm nhiều\',w:2},{f:\'chat_phan\',v:\'Nát không thành hình\',w:2},{f:\'reu_luoi\',v:\'Rêu dày nhớt\',w:4},{f:\'cam_giac_mieng\',v:\'Dính miệng\',w:2}]},
-  {n:\'Can Hỏa Vượng\',p:\'Thanh Can tả hỏa\',d:\'Can Hỏa bốc mạnh — đau đầu hai bên, mắt đỏ, dễ cáu, huyết áp cao.\',g:\'Kiêng rượu bia, cay nóng. Trà hoa cúc, hạ khô thảo. Nghỉ ngơi đầy đủ.\',r:[{f:\'tinh_tinh\',v:\'Dễ cáu gắt\',w:3},{f:\'tinh_tinh\',v:\'Dễ bực bội\',w:2},{f:\'dau_hong\',v:\'Đau nửa đầu\',w:2},{f:\'cam_giac_mieng\',v:\'Đắng\',w:3},{f:\'thoi_quen\',v:\'Uống rượu / bia nhiều\',w:2},{f:\'thoi_quen\',v:\'Hay ăn cay nóng\',w:2},{f:\'reu_luoi\',v:\'Rêu vàng\',w:2},{f:\'chat_luoi\',v:\'Lưỡi đỏ (đỏ hơn bình thường)\',w:2}]},
-  {n:\'Bàng Quang Thấp Nhiệt\',p:\'Thanh nhiệt lợi thấp, thông lâm\',d:\'Thấp nhiệt ứ bàng quang — tiểu buốt, tiểu vàng, tiểu gấp.\',g:\'Uống nhiều nước (> 2 lít/ngày). Rau má, mã đề, kim tiền thảo.\',r:[{f:\'tieu_tien\',v:\'Tiểu buốt / rắt\',w:4},{f:\'tieu_tien\',v:\'Tiểu gấp\',w:3},{f:\'tieu_tien\',v:\'Tiểu nóng\',w:3},{f:\'mau_tieu\',v:\'Vàng đậm như nước chè\',w:3},{f:\'mau_tieu\',v:\'Hồng / có máu\',w:2},{f:\'reu_luoi\',v:\'Rêu vàng\',w:2}]},
+  {n:'Tâm Huyết Hư',p:'Bổ Tâm dưỡng huyết, an thần',d:'Huyết không nuôi dưỡng Tâm thần — mất ngủ, hồi hộp, hay quên.',g:'Ngủ đủ giấc, ăn táo đỏ, long nhãn, vừng đen. Hạn chế thức khuya.',r:[{f:'tinh_tinh',v:'Hay lo âu, suy nghĩ nhiều',w:3},{f:'tinh_tinh',v:'Hay quên',w:2},{f:'vao_giac',v:'Trằn trọc khó ngủ',w:3},{f:'chat_luong_ngu',v:'Ngủ không sâu, dễ tỉnh',w:2},{f:'chat_luong_ngu',v:'Mất ngủ nhiều năm',w:3},{f:'nguc_bung',v:'Hồi hộp đánh trống ngực',w:3},{f:'mo',v:'Mơ nhiều',w:1},{f:'mo_hoi_detail',v:'Ra mồ hôi trộm ban đêm',w:2},{f:'chat_luoi',v:'Lưỡi hồng nhạt',w:2}]},
+  {n:'Tâm Hỏa Vượng',p:'Thanh Tâm tả hỏa, an thần',d:'Hỏa nhiệt bốc lên Tâm — bứt rứt, mất ngủ, khát nước, nước tiểu vàng.',g:'Kiêng cay nóng, rượu bia. Uống rau má, khổ qua, hoa cúc.',r:[{f:'chat_luong_ngu',v:'Mất ngủ nhiều năm',w:2},{f:'vao_giac',v:'Trằn trọc khó ngủ',w:2},{f:'tinh_tinh',v:'Dễ bực bội',w:2},{f:'cam_nhan_co_the',v:'Sợ nóng',w:2},{f:'cam_giac_mieng',v:'Đắng',w:3},{f:'cam_giac_mieng',v:'Khô miệng',w:2},{f:'thich_uong',v:'Nước lạnh / nước đá',w:2},{f:'mau_tieu',v:'Vàng đậm như nước chè',w:2},{f:'mo',v:'Mơ sợ hãi / ác mộng',w:2},{f:'chat_luoi',v:'Lưỡi đỏ (đỏ hơn bình thường)',w:2}]},
+  {n:'Tỳ Vị Hư Hàn',p:'Ôn trung kiện Tỳ, tán hàn',d:'Tỳ Vị dương hư — tiêu hóa kém, mệt mỏi, sợ lạnh, tay chân lạnh.',g:'Ăn đồ ấm, tránh lạnh sống. Gừng, trà gừng mật ong, ý dĩ rang.',r:[{f:'cam_nhan_co_the',v:'Sợ lạnh',w:2},{f:'chan_tay',v:'Tay chân lạnh',w:3},{f:'dai_tien_tan',v:'Phân nát lâu năm',w:2},{f:'chat_phan',v:'Nát không thành hình',w:3},{f:'chat_phan',v:'Lỏng / toàn nước',w:3},{f:'cam_giac_an',v:'Chán ăn / ăn kém',w:2},{f:'chat_luong_ngu',v:'Ăn xong buồn ngủ',w:1},{f:'chat_luoi',v:'Lưỡi nhợt màu',w:2}]},
+  {n:'Tỳ Vị Thấp Nhiệt',p:'Thanh nhiệt táo thấp, kiện Tỳ',d:'Thấp nhiệt ứ trệ Tỳ Vị — đầy bụng, ợ chua, rêu vàng dày.',g:'Kiêng chiên xào béo ngọt. Ý dĩ sống, bí đỏ, đậu đỏ, uống đủ nước.',r:[{f:'cam_giac_an',v:'Đầy bụng sau ăn',w:3},{f:'cam_giac_an',v:'Ợ chua',w:2},{f:'cam_giac_mieng',v:'Dính miệng',w:2},{f:'cam_giac_mieng',v:'Hôi miệng',w:2},{f:'reu_luoi',v:'Rêu vàng',w:3},{f:'reu_luoi',v:'Rêu dày nhớt',w:4},{f:'mau_tieu',v:'Vàng đậm như nước chè',w:1}]},
+  {n:'Can Khí Uất Kết',p:'Sơ Can lý khí, giải uất',d:'Khí cơ tắc trở — đau tức sườn, dễ cáu, ức chế cảm xúc.',g:'Thư giãn, tránh stress. Yoga, đi bộ, trà hoa cúc / trần bì / hoa hồng.',r:[{f:'tinh_tinh',v:'Dễ cáu gắt',w:3},{f:'tinh_tinh',v:'Dễ bực bội',w:2},{f:'tinh_tinh',v:'Uất ức, ức chế',w:3},{f:'tinh_tinh',v:'Hay thở dài',w:2},{f:'nguc_bung',v:'Đau tức sườn',w:3},{f:'nguc_bung',v:'Tức ngực / bí ngực',w:2},{f:'yeu_to_nang',v:'Khi căng thẳng',w:2}]},
+  {n:'Can Thận Âm Hư',p:'Tư bổ Can Thận, dưỡng âm',d:'Âm dịch suy — hoa mắt, ù tai, đau lưng mỏi gối, ngủ ít, mồ hôi trộm.',g:'Tránh thức khuya. Vừng đen, kỷ tử, dâu tằm, mật ong.',r:[{f:'dau_hong',v:'Chóng mặt',w:2},{f:'cam_nhan_co_the',v:'Sốt về chiều',w:3},{f:'chan_tay',v:'Lòng bàn tay chân nóng (Ngũ tâm phiền nhiệt)',w:3},{f:'mo_hoi_detail',v:'Ra mồ hôi trộm ban đêm',w:3},{f:'chat_luong_ngu',v:'Ngủ không sâu, dễ tỉnh',w:2},{f:'chat_luoi',v:'Lưỡi đỏ (đỏ hơn bình thường)',w:2},{f:'reu_luoi',v:'Ít rêu / không rêu',w:3}]},
+  {n:'Thận Dương Hư',p:'Ôn bổ Thận dương',d:'Thận dương suy — lưng lạnh, tiểu đêm nhiều, sợ lạnh, tay chân lạnh.',g:'Giữ ấm thắt lưng. Thịt dê, tôm, hạt óc chó, quế. Tránh bơi nước lạnh.',r:[{f:'cam_nhan_co_the',v:'Sợ lạnh',w:3},{f:'chan_tay',v:'Tay chân lạnh',w:2},{f:'tieu_tien',v:'Tiểu đêm nhiều lần',w:4},{f:'tieu_tien',v:'Tiểu đêm 1 lần',w:2},{f:'mau_tieu',v:'Trắng trong',w:2},{f:'chat_luoi',v:'Lưỡi nhợt màu',w:2},{f:'yeu_to_nang',v:'Khi gặp lạnh',w:2}]},
+  {n:'Phế Khí Hư',p:'Bổ Phế ích khí, chỉ khái',d:'Phế khí bất túc — ho kéo dài, giọng yếu, dễ ra mồ hôi, hay mệt.',g:'Tránh lạnh gió. Tập thở bụng mỗi sáng. Bạch mộc nhĩ, yến, táo tàu.',r:[{f:'ho_dom',v:'Ho khan',w:3},{f:'ho_dom',v:'Ho có đờm ít',w:2},{f:'ho_dom',v:'Đờm trắng loãng',w:2},{f:'nguc_bung',v:'Thở ngắn nông / hụt hơi',w:3},{f:'mo_hoi_detail',v:'Tự ra mồ hôi ban ngày (Tự hãn)',w:3},{f:'chat_luoi',v:'Lưỡi hồng nhạt',w:1}]},
+  {n:'Khí Huyết Lưỡng Hư',p:'Bổ khí dưỡng huyết',d:'Cả khí lẫn huyết suy — mệt mỏi, chán ăn, hoa mắt, hay quên.',g:'Ngủ đủ, ăn đủ chất. Đại táo, long nhãn, hoàng kỳ, đương quy.',r:[{f:'cam_giac_an',v:'Chán ăn / ăn kém',w:2},{f:'tinh_tinh',v:'Hay quên',w:2},{f:'chat_luong_ngu',v:'Ngủ không sâu, dễ tỉnh',w:1},{f:'dau_hong',v:'Chóng mặt',w:2},{f:'chan_tay',v:'Tứ chi vô lực',w:2},{f:'chat_luoi',v:'Lưỡi hồng nhạt',w:3}]},
+  {n:'Đàm Thấp Trở Trệ',p:'Kiện Tỳ trừ thấp, hóa đàm',d:'Tỳ vận hóa kém sinh đàm thấp — nặng đầu, buồn ngủ, người nặng nề.',g:'Vận động mỗi ngày. Ý dĩ, bạch linh, trần bì. Kiêng béo ngọt.',r:[{f:'cam_giac_an',v:'Đầy bụng sau ăn',w:2},{f:'chat_luong_ngu',v:'Ăn xong buồn ngủ',w:3},{f:'chat_luong_ngu',v:'Buồn ngủ ban ngày',w:2},{f:'dau_hong',v:'Nặng đầu',w:2},{f:'ho_dom',v:'Ho có đờm nhiều',w:2},{f:'chat_phan',v:'Nát không thành hình',w:2},{f:'reu_luoi',v:'Rêu dày nhớt',w:4},{f:'cam_giac_mieng',v:'Dính miệng',w:2}]},
+  {n:'Can Hỏa Vượng',p:'Thanh Can tả hỏa',d:'Can Hỏa bốc mạnh — đau đầu hai bên, mắt đỏ, dễ cáu, huyết áp cao.',g:'Kiêng rượu bia, cay nóng. Trà hoa cúc, hạ khô thảo. Nghỉ ngơi đầy đủ.',r:[{f:'tinh_tinh',v:'Dễ cáu gắt',w:3},{f:'tinh_tinh',v:'Dễ bực bội',w:2},{f:'dau_hong',v:'Đau nửa đầu',w:2},{f:'cam_giac_mieng',v:'Đắng',w:3},{f:'thoi_quen',v:'Uống rượu / bia nhiều',w:2},{f:'thoi_quen',v:'Hay ăn cay nóng',w:2},{f:'reu_luoi',v:'Rêu vàng',w:2},{f:'chat_luoi',v:'Lưỡi đỏ (đỏ hơn bình thường)',w:2}]},
+  {n:'Bàng Quang Thấp Nhiệt',p:'Thanh nhiệt lợi thấp, thông lâm',d:'Thấp nhiệt ứ bàng quang — tiểu buốt, tiểu vàng, tiểu gấp.',g:'Uống nhiều nước (> 2 lít/ngày). Rau má, mã đề, kim tiền thảo.',r:[{f:'tieu_tien',v:'Tiểu buốt / rắt',w:4},{f:'tieu_tien',v:'Tiểu gấp',w:3},{f:'tieu_tien',v:'Tiểu nóng',w:3},{f:'mau_tieu',v:'Vàng đậm như nước chè',w:3},{f:'mau_tieu',v:'Hồng / có máu',w:2},{f:'reu_luoi',v:'Rêu vàng',w:2}]},
 ];
 
-function getD(form){const d={};new FormData(form).forEach((v,k)=>{if(!d[k])d[k]=v;});form.querySelectorAll(\'input[type=checkbox]:checked\').forEach(cb=>{if(!Array.isArray(d[cb.name]))d[cb.name]=[];if(!d[cb.name].includes(cb.value))d[cb.name].push(cb.value);});return d;}
+function getD(form){const d={};new FormData(form).forEach((v,k)=>{if(!d[k])d[k]=v;});form.querySelectorAll('input[type=checkbox]:checked').forEach(cb=>{if(!Array.isArray(d[cb.name]))d[cb.name]=[];if(!d[cb.name].includes(cb.value))d[cb.name].push(cb.value);});return d;}
 function sc(pat,d){let s=0,mx=0;for(const r of pat.r){mx+=r.w;const v=d[r.f];if(!v)continue;if(Array.isArray(v)&&v.includes(r.v))s+=r.w;else if(v===r.v)s+=r.w;}return mx>0?s/mx:0;}
 function diagnose(d){return P.map(p=>({...p,ratio:sc(p,d)})).filter(p=>p.ratio>=0.22).sort((a,b)=>b.ratio-a.ratio).slice(0,3);}
 
@@ -480,114 +480,114 @@ function diagnose(d){return P.map(p=>({...p,ratio:sc(p,d)})).filter(p=>p.ratio>=
 const tongueFiles=[],labFiles=[];
 function setupUpload(inputId,areaId,previewId,store,imgOnly){
   const inp=document.getElementById(inputId),area=document.getElementById(areaId),prev=document.getElementById(previewId);
-  area.addEventListener(\'dragover\',e=>{e.preventDefault();area.classList.add(\'dragover\');});
-  area.addEventListener(\'dragleave\',()=>area.classList.remove(\'dragover\'));
-  area.addEventListener(\'drop\',e=>{e.preventDefault();area.classList.remove(\'dragover\');handle([...e.dataTransfer.files],store,prev,imgOnly);});
-  inp.addEventListener(\'change\',()=>{handle([...inp.files],store,prev,imgOnly);inp.value=\'\';});
+  area.addEventListener('dragover',e=>{e.preventDefault();area.classList.add('dragover');});
+  area.addEventListener('dragleave',()=>area.classList.remove('dragover'));
+  area.addEventListener('drop',e=>{e.preventDefault();area.classList.remove('dragover');handle([...e.dataTransfer.files],store,prev,imgOnly);});
+  inp.addEventListener('change',()=>{handle([...inp.files],store,prev,imgOnly);inp.value='';});
 }
 function handle(files,store,prev,imgOnly){files.forEach(f=>{if(store.length>=(imgOnly?5:10))return;store.push(f);renderFiles(store,prev,imgOnly);});}
 function renderFiles(store,prev,imgOnly){
-  if(!store.length){prev.style.display=\'none\';prev.innerHTML=\'\';return;}
-  prev.style.display=imgOnly?\'grid\':\'flex\';prev.innerHTML=\'\';
+  if(!store.length){prev.style.display='none';prev.innerHTML='';return;}
+  prev.style.display=imgOnly?'grid':'flex';prev.innerHTML='';
   store.forEach((f,i)=>{
-    if(imgOnly){const div=document.createElement(\'div\');div.className=\'preview-item\';const rm=document.createElement(\'button\');rm.className=\'rm\';rm.textContent=\'✕\';rm.onclick=()=>{store.splice(i,1);renderFiles(store,prev,imgOnly);};div.appendChild(rm);if(f.type.startsWith(\'image/\')){const img=document.createElement(\'img\');img.src=URL.createObjectURL(f);div.appendChild(img);}prev.appendChild(div);}
-    else{const div=document.createElement(\'div\');div.className=\'preview-file\';div.innerHTML=`<span>📎</span><span>${f.name} (${(f.size/1024/1024).toFixed(1)} MB)</span>`;const rm=document.createElement(\'button\');rm.className=\'rm\';rm.textContent=\'✕\';rm.onclick=()=>{store.splice(i,1);renderFiles(store,prev,imgOnly);};div.appendChild(rm);prev.appendChild(div);}
+    if(imgOnly){const div=document.createElement('div');div.className='preview-item';const rm=document.createElement('button');rm.className='rm';rm.textContent='✕';rm.onclick=()=>{store.splice(i,1);renderFiles(store,prev,imgOnly);};div.appendChild(rm);if(f.type.startsWith('image/')){const img=document.createElement('img');img.src=URL.createObjectURL(f);div.appendChild(img);}prev.appendChild(div);}
+    else{const div=document.createElement('div');div.className='preview-file';div.innerHTML=`<span>📎</span><span>${f.name} (${(f.size/1024/1024).toFixed(1)} MB)</span>`;const rm=document.createElement('button');rm.className='rm';rm.textContent='✕';rm.onclick=()=>{store.splice(i,1);renderFiles(store,prev,imgOnly);};div.appendChild(rm);prev.appendChild(div);}
   });
 }
-setupUpload(\'tongue-files\',\'tongue-upload-area\',\'tongue-preview\',tongueFiles,true);
-setupUpload(\'lab-files\',\'lab-upload-area\',\'lab-preview\',labFiles,false);
+setupUpload('tongue-files','tongue-upload-area','tongue-preview',tongueFiles,true);
+setupUpload('lab-files','lab-upload-area','lab-preview',labFiles,false);
 
 // ── Gender toggle ──
-document.querySelector(\'[name=gioi_tinh]\').addEventListener(\'change\',function(){
+document.querySelector('[name=gioi_tinh]').addEventListener('change',function(){
   const v=this.value;
-  document.getElementById(\'sec-phukoa\').style.display=v===\'Nữ\'?\'\' :\'none\';
-  document.getElementById(\'sec-namkhoa\').style.display=v===\'Nam\'?\'\' :\'none\';
+  document.getElementById('sec-phukoa').style.display=v==='Nữ'?'' :'none';
+  document.getElementById('sec-namkhoa').style.display=v==='Nam'?'' :'none';
 });
 
 // ── Checkbox visual ──
-document.querySelectorAll(\'.cb-item\').forEach(lbl=>{lbl.querySelector(\'input\').addEventListener(\'change\',e=>{lbl.classList.toggle(\'checked\',e.target.checked);});});
+document.querySelectorAll('.cb-item').forEach(lbl=>{lbl.querySelector('input').addEventListener('change',e=>{lbl.classList.toggle('checked',e.target.checked);});});
 
 // ══ EMAILJS ════════════════════════════════════════
-const EMAILJS_PUBLIC_KEY  = \'riU-0WblP_-h6Zfkl\';
-const EMAILJS_SERVICE_ID  = \'service_woherl8\';
-const EMAILJS_TEMPLATE_ID = \'template_vo07rnx\';
-const DOCTOR_EMAIL        = \'drductam18990@gmail.com\';
+const EMAILJS_PUBLIC_KEY  = 'riU-0WblP_-h6Zfkl';
+const EMAILJS_SERVICE_ID  = 'service_woherl8';
+const EMAILJS_TEMPLATE_ID = 'template_vo07rnx';
+const DOCTOR_EMAIL        = 'drductam18990@gmail.com';
 emailjs.init({publicKey: EMAILJS_PUBLIC_KEY});
 
 async function sendEmail(subject, body, patientData) {
   try {
     const res = await emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, {
-      to_email: DOCTOR_EMAIL, from_name: patientData.ho_ten||\'Bệnh nhân\',
-      from_phone: patientData.dien_thoai||\'—\', subject, message: body
+      to_email: DOCTOR_EMAIL, from_name: patientData.ho_ten||'Bệnh nhân',
+      from_phone: patientData.dien_thoai||'—', subject, message: body
     });
-    return {status: res.status===200?\'ok\':\'error\'};
-  } catch(e) { console.error(\'EmailJS:\',e); }
+    return {status: res.status===200?'ok':'error'};
+  } catch(e) { console.error('EmailJS:',e); }
   const shortBody=body.substring(0,1800);
   const url=`mailto:${DOCTOR_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(shortBody)}`;
-  return {status:\'mailto\',url};
+  return {status:'mailto',url};
 }
 
 // ── Email body ──
-function arr(d,k){return Array.isArray(d[k])?d[k].join(\', \'): (d[k]||\'—\');}
+function arr(d,k){return Array.isArray(d[k])?d[k].join(', '): (d[k]||'—');}
 function buildBody(d,patterns){
-  return `PHIẾU KHAI BỆNH – YHCT TÂM ĐỨC\nNgày: ${new Date().toLocaleString(\'vi-VN\')}\n\n1. THÔNG TIN CÁ NHÂN\nHọ tên: ${d.ho_ten||\'—\'} | Tuổi: ${d.tuoi||\'—\'} | Giới: ${d.gioi_tinh||\'—\'}\nĐT: ${d.dien_thoai||\'—\'} | Nghề: ${d.nghe_nghiep||\'—\'}\nChủ chứng: ${d.ly_do_kham||\'—\'}\nXuất hiện: ${d.xuat_hien||\'—\'} | Thời gian: ${d.thoi_gian_keo_dai||\'—\'}\nLàm nặng: ${arr(d,\'yeu_to_nang\')}\nLàm giảm: ${arr(d,\'yeu_to_giam\')}\nTiền sử: ${d.tien_su||\'—\'}\nGia đình: ${d.gia_dinh||\'—\'}\n\n2. ĂN UỐNG\nUống nước: ${arr(d,\'uong_nuoc\')} | Thích uống: ${arr(d,\'thich_uong\')}\nCảm giác miệng: ${arr(d,\'cam_giac_mieng\')}\nCảm giác ăn: ${arr(d,\'cam_giac_an\')}\nThích vị: ${arr(d,\'thich_vi\')}\n\n3. ĐẠI TIỆN\nTần suất: ${arr(d,\'dai_tien_tan\')} | Chất phân: ${arr(d,\'chat_phan\')}\nKèm theo: ${arr(d,\'dai_tien_kem\')}\n\n4. TIỂU TIỆN\nTriệu chứng: ${arr(d,\'tieu_tien\')} | Màu: ${arr(d,\'mau_tieu\')}\n\n5. GIẤC NGỦ & CẢM XÚC\nVào giấc: ${arr(d,\'vao_giac\')} | Chất lượng: ${arr(d,\'chat_luong_ngu\')}\nMơ: ${arr(d,\'mo\')} | Tỉnh đêm: ${arr(d,\'dem_tinh\')}\nTính tình: ${arr(d,\'tinh_tinh\')}\n\n6. CƠ THỂ\nNhiệt độ: ${arr(d,\'cam_nhan_co_the\')} | Chân tay: ${arr(d,\'chan_tay\')}\nMồ hôi: ${arr(d,\'mo_hoi_detail\')}\n\n7. ĐẦU HỌNG NGỰC BỤNG\nĐầu/họng: ${arr(d,\'dau_hong\')} | Ho/đờm: ${arr(d,\'ho_dom\')}\nNgực/bụng: ${arr(d,\'nguc_bung\')}\n\n8. LƯỠI\nChất lưỡi: ${d.chat_luoi||\'—\'} | Rêu: ${d.reu_luoi||\'—\'}\nẢnh lưỡi: ${tongueFiles.length} ảnh | File XT: ${labFiles.length}\n\n9. THÓI QUEN: ${arr(d,\'thoi_quen\')}\n\n10. PHỤ/NAM KHOA\n${d.gioi_tinh===\'Nữ\'?`Kinh: ${arr(d,\'luong_mau_kinh\')} | Kỳ: ${d.ky_kinh||\'—\'}\nTriệu chứng kinh: ${arr(d,\'trieu_chung_kinh\')} | Khí hư: ${arr(d,\'khi_hu\')}`:d.gioi_tinh===\'Nam\'?`Nam khoa: ${arr(d,\'nam_cam_giac\')} | Sau QH: ${arr(d,\'sau_quan_he\')}\nTần suất TD: ${arr(d,\'tan_suat_td\')}`:''  }\n\n11. MÔ TẢ THÊM: ${d.mo_ta_them||\'(không có)\'}\n\n==== GỢI Ý SƠ BỘ THỂ BỆNH ====\n${patterns.length?patterns.map((p,i)=>`${i+1}. ${p.n} (${Math.round(p.ratio*100)}%) — Pháp trị: ${p.p}`).join(\'\n\'):   \'Chưa đủ thông tin\'}`.trim();
+  return `PHIẾU KHAI BỆNH – YHCT TÂM ĐỨC\nNgày: ${new Date().toLocaleString('vi-VN')}\n\n1. THÔNG TIN CÁ NHÂN\nHọ tên: ${d.ho_ten||'—'} | Tuổi: ${d.tuoi||'—'} | Giới: ${d.gioi_tinh||'—'}\nĐT: ${d.dien_thoai||'—'} | Nghề: ${d.nghe_nghiep||'—'}\nChủ chứng: ${d.ly_do_kham||'—'}\nXuất hiện: ${d.xuat_hien||'—'} | Thời gian: ${d.thoi_gian_keo_dai||'—'}\nLàm nặng: ${arr(d,'yeu_to_nang')}\nLàm giảm: ${arr(d,'yeu_to_giam')}\nTiền sử: ${d.tien_su||'—'}\nGia đình: ${d.gia_dinh||'—'}\n\n2. ĂN UỐNG\nUống nước: ${arr(d,'uong_nuoc')} | Thích uống: ${arr(d,'thich_uong')}\nCảm giác miệng: ${arr(d,'cam_giac_mieng')}\nCảm giác ăn: ${arr(d,'cam_giac_an')}\nThích vị: ${arr(d,'thich_vi')}\n\n3. ĐẠI TIỆN\nTần suất: ${arr(d,'dai_tien_tan')} | Chất phân: ${arr(d,'chat_phan')}\nKèm theo: ${arr(d,'dai_tien_kem')}\n\n4. TIỂU TIỆN\nTriệu chứng: ${arr(d,'tieu_tien')} | Màu: ${arr(d,'mau_tieu')}\n\n5. GIẤC NGỦ & CẢM XÚC\nVào giấc: ${arr(d,'vao_giac')} | Chất lượng: ${arr(d,'chat_luong_ngu')}\nMơ: ${arr(d,'mo')} | Tỉnh đêm: ${arr(d,'dem_tinh')}\nTính tình: ${arr(d,'tinh_tinh')}\n\n6. CƠ THỂ\nNhiệt độ: ${arr(d,'cam_nhan_co_the')} | Chân tay: ${arr(d,'chan_tay')}\nMồ hôi: ${arr(d,'mo_hoi_detail')}\n\n7. ĐẦU HỌNG NGỰC BỤNG\nĐầu/họng: ${arr(d,'dau_hong')} | Ho/đờm: ${arr(d,'ho_dom')}\nNgực/bụng: ${arr(d,'nguc_bung')}\n\n8. LƯỠI\nChất lưỡi: ${d.chat_luoi||'—'} | Rêu: ${d.reu_luoi||'—'}\nẢnh lưỡi: ${tongueFiles.length} ảnh | File XT: ${labFiles.length}\n\n9. THÓI QUEN: ${arr(d,'thoi_quen')}\n\n10. PHỤ/NAM KHOA\n${d.gioi_tinh==='Nữ'?`Kinh: ${arr(d,'luong_mau_kinh')} | Kỳ: ${d.ky_kinh||'—'}\nTriệu chứng kinh: ${arr(d,'trieu_chung_kinh')} | Khí hư: ${arr(d,'khi_hu')}`:d.gioi_tinh==='Nam'?`Nam khoa: ${arr(d,'nam_cam_giac')} | Sau QH: ${arr(d,'sau_quan_he')}\nTần suất TD: ${arr(d,'tan_suat_td')}`:''  }\n\n11. MÔ TẢ THÊM: ${d.mo_ta_them||'(không có)'}\n\n==== GỢI Ý SƠ BỘ THỂ BỆNH ====\n${patterns.length?patterns.map((p,i)=>`${i+1}. ${p.n} (${Math.round(p.ratio*100)}%) — Pháp trị: ${p.p}`).join('\n'):   'Chưa đủ thông tin'}`.trim();
 }
 
 // ── Render results ──
 function renderRes(patterns){
-  const rc=document.getElementById(\'result-content\');
-  if(!patterns.length){rc.innerHTML=\'<div class="no-pattern"><div style="font-size:2rem">🤔</div><p style="margin-top:8px">Chưa đủ thông tin để gợi ý thể bệnh.<br>Vui lòng điền thêm triệu chứng hoặc đến khám trực tiếp.</p></div>\';return;}
-  rc.innerHTML=patterns.map((p,i)=>`<div class="pattern-card"><div class="pattern-rank">${i===0?\'Ưu tiên chính\':\'Gợi ý thêm\'}</div><div class="pattern-bar"><div class="pattern-bar-fill" style="width:${Math.round(p.ratio*100)}%"></div></div><div class="pattern-name">${p.n} <span style="font-size:.75rem;color:var(--s400);font-weight:400">(phù hợp ${Math.round(p.ratio*100)}%)</span></div><div class="pattern-phap">⚕️ Pháp trị: ${p.p}</div><div class="pattern-desc">${p.d}</div><div class="pattern-guide">💡 Sinh hoạt & ăn uống: ${p.g}</div></div>`).join(\'\');
+  const rc=document.getElementById('result-content');
+  if(!patterns.length){rc.innerHTML='<div class="no-pattern"><div style="font-size:2rem">🤔</div><p style="margin-top:8px">Chưa đủ thông tin để gợi ý thể bệnh.<br>Vui lòng điền thêm triệu chứng hoặc đến khám trực tiếp.</p></div>';return;}
+  rc.innerHTML=patterns.map((p,i)=>`<div class="pattern-card"><div class="pattern-rank">${i===0?'Ưu tiên chính':'Gợi ý thêm'}</div><div class="pattern-bar"><div class="pattern-bar-fill" style="width:${Math.round(p.ratio*100)}%"></div></div><div class="pattern-name">${p.n} <span style="font-size:.75rem;color:var(--s400);font-weight:400">(phù hợp ${Math.round(p.ratio*100)}%)</span></div><div class="pattern-phap">⚕️ Pháp trị: ${p.p}</div><div class="pattern-desc">${p.d}</div><div class="pattern-guide">💡 Sinh hoạt & ăn uống: ${p.g}</div></div>`).join('');
 }
 
 // ══ MULTI-STEP ══════════════════════════════════════
 const TOTAL=5;
-const SNAMES=[\'\',\'Thông tin cá nhân\',\'Ăn uống & Tiêu hóa\',\'Giấc ngủ & Cơ thể\',\'Đầu - Lưỡi - Thói quen\',\'Thêm thông tin & Gửi\'];
+const SNAMES=['','Thông tin cá nhân','Ăn uống & Tiêu hóa','Giấc ngủ & Cơ thể','Đầu - Lưỡi - Thói quen','Thêm thông tin & Gửi'];
 let cur=1;
 
 function goStep(n,skipVal){
   if(n<1||n>TOTAL)return;
   if(!skipVal&&n>cur&&!validateStep(cur))return;
-  document.querySelector(\'.form-step.active\').classList.remove(\'active\');
-  document.querySelector(`.form-step[data-step="${n}"]`).classList.add(\'active\');
+  document.querySelector('.form-step.active').classList.remove('active');
+  document.querySelector(`.form-step[data-step="${n}"]`).classList.add('active');
   cur=n;updateProgress();
-  const pw=document.querySelector(\'.step-prog-wrap\');
-  window.scrollTo({top:Math.max(0,pw.getBoundingClientRect().top+window.scrollY-80),behavior:\'smooth\'});
+  const pw=document.querySelector('.step-prog-wrap');
+  window.scrollTo({top:Math.max(0,pw.getBoundingClientRect().top+window.scrollY-80),behavior:'smooth'});
 }
 
 function updateProgress(){
   const pct=Math.round((cur/TOTAL)*100);
-  document.getElementById(\'step-label\').textContent=`Bước ${cur}/${TOTAL} — ${SNAMES[cur]}`;
-  document.getElementById(\'step-pct\').textContent=pct+\'%\';
-  document.getElementById(\'step-fill\').style.width=pct+\'%\';
-  document.querySelectorAll(\'.dot\').forEach(d=>{
+  document.getElementById('step-label').textContent=`Bước ${cur}/${TOTAL} — ${SNAMES[cur]}`;
+  document.getElementById('step-pct').textContent=pct+'%';
+  document.getElementById('step-fill').style.width=pct+'%';
+  document.querySelectorAll('.dot').forEach(d=>{
     const n=+d.dataset.n;
-    d.classList.toggle(\'active\',n===cur);
-    d.classList.toggle(\'done\',n<cur);
-    d.textContent=n<cur?\'✓\':n;
+    d.classList.toggle('active',n===cur);
+    d.classList.toggle('done',n<cur);
+    d.textContent=n<cur?'✓':n;
   });
 }
 
 function validateStep(step){
-  const form=document.getElementById(\'intake-form\');
+  const form=document.getElementById('intake-form');
   if(step===1){
-    if(!form.ho_ten.value.trim()){alert(\'Vui lòng điền Họ tên.\');form.ho_ten.focus();return false;}
-    if(!form.tuoi.value){alert(\'Vui lòng điền Tuổi.\');form.tuoi.focus();return false;}
-    if(!form.ly_do_kham.value.trim()){alert(\'Vui lòng điền Chủ chứng / triệu chứng chính.\');form.ly_do_kham.focus();return false;}
+    if(!form.ho_ten.value.trim()){alert('Vui lòng điền Họ tên.');form.ho_ten.focus();return false;}
+    if(!form.tuoi.value){alert('Vui lòng điền Tuổi.');form.tuoi.focus();return false;}
+    if(!form.ly_do_kham.value.trim()){alert('Vui lòng điền Chủ chứng / triệu chứng chính.');form.ly_do_kham.focus();return false;}
   }
   return true;
 }
 
 // ══ AUTOSAVE ════════════════════════════════════════
-const DKEY=\'yhct-khai-benh-v1\';
+const DKEY='yhct-khai-benh-v1';
 let asTimer=null;
 
 function saveDraft(){
   clearTimeout(asTimer);
   asTimer=setTimeout(()=>{
-    const form=document.getElementById(\'intake-form\'),d={__step:cur};
-    form.querySelectorAll(\'input:not([type=checkbox]):not([type=file]),select,textarea\').forEach(el=>{if(el.name)d[el.name]=el.value;});
-    form.querySelectorAll(\'input[type=checkbox]\').forEach(cb=>{if(!cb.name)return;if(!d[cb.name])d[cb.name]=[];if(cb.checked&&!d[cb.name].includes(cb.value))d[cb.name].push(cb.value);});
+    const form=document.getElementById('intake-form'),d={__step:cur};
+    form.querySelectorAll('input:not([type=checkbox]):not([type=file]),select,textarea').forEach(el=>{if(el.name)d[el.name]=el.value;});
+    form.querySelectorAll('input[type=checkbox]').forEach(cb=>{if(!cb.name)return;if(!d[cb.name])d[cb.name]=[];if(cb.checked&&!d[cb.name].includes(cb.value))d[cb.name].push(cb.value);});
     localStorage.setItem(DKEY,JSON.stringify(d));
   },800);
 }
@@ -595,59 +595,59 @@ function saveDraft(){
 function applyDraft(){
   const raw=localStorage.getItem(DKEY);if(!raw)return;
   try{
-    const data=JSON.parse(raw),form=document.getElementById(\'intake-form\');
+    const data=JSON.parse(raw),form=document.getElementById('intake-form');
     Object.entries(data).forEach(([key,val])=>{
-      if(key===\'__step\')return;
+      if(key==='__step')return;
       if(Array.isArray(val)){
-        form.querySelectorAll(`[name="${key}"][type=checkbox]`).forEach(cb=>{cb.checked=val.includes(cb.value);cb.closest(\'.cb-item\')?.classList.toggle(\'checked\',cb.checked);});
+        form.querySelectorAll(`[name="${key}"][type=checkbox]`).forEach(cb=>{cb.checked=val.includes(cb.value);cb.closest('.cb-item')?.classList.toggle('checked',cb.checked);});
       }else{const el=form.querySelector(`[name="${key}"]`);if(el)el.value=val;}
     });
     if(data.__step>1)goStep(data.__step,true);
-    form.querySelector(\'[name=gioi_tinh]\').dispatchEvent(new Event(\'change\'));
+    form.querySelector('[name=gioi_tinh]').dispatchEvent(new Event('change'));
   }catch(e){}
-  document.getElementById(\'autosave-banner\').classList.remove(\'show\');
+  document.getElementById('autosave-banner').classList.remove('show');
 }
 
 function discardDraft(){
   localStorage.removeItem(DKEY);
-  document.getElementById(\'autosave-banner\').classList.remove(\'show\');
+  document.getElementById('autosave-banner').classList.remove('show');
 }
 
 (function checkDraft(){
   const raw=localStorage.getItem(DKEY);if(!raw)return;
-  try{const d=JSON.parse(raw);if(d.ho_ten||d.ly_do_kham)document.getElementById(\'autosave-banner\').classList.add(\'show\');}catch(e){}
+  try{const d=JSON.parse(raw);if(d.ho_ten||d.ly_do_kham)document.getElementById('autosave-banner').classList.add('show');}catch(e){}
 })();
 
-const form=document.getElementById(\'intake-form\');
-form.addEventListener(\'input\',saveDraft);
-form.addEventListener(\'change\',saveDraft);
+const form=document.getElementById('intake-form');
+form.addEventListener('input',saveDraft);
+form.addEventListener('change',saveDraft);
 
 // ══ SUBMIT ══════════════════════════════════════════
-form.addEventListener(\'submit\',async e=>{
+form.addEventListener('submit',async e=>{
   e.preventDefault();
-  if(!document.getElementById(\'consent-cb\').checked){alert(\'Vui lòng đồng ý với điều khoản bảo mật thông tin trước khi gửi.\');return;}
-  const btn=document.getElementById(\'submit-btn\');
-  btn.classList.add(\'loading\');btn.disabled=true;
+  if(!document.getElementById('consent-cb').checked){alert('Vui lòng đồng ý với điều khoản bảo mật thông tin trước khi gửi.');return;}
+  const btn=document.getElementById('submit-btn');
+  btn.classList.add('loading');btn.disabled=true;
   const d=getD(form),patterns=diagnose(d);
   renderRes(patterns);
-  const rs=document.getElementById(\'result-section\');rs.classList.add(\'show\');
-  setTimeout(()=>rs.scrollIntoView({behavior:\'smooth\',block:\'start\'}),100);
+  const rs=document.getElementById('result-section');rs.classList.add('show');
+  setTimeout(()=>rs.scrollIntoView({behavior:'smooth',block:'start'}),100);
   const body=buildBody(d,patterns);
-  const subject=`[Khai bệnh] ${d.ho_ten||\'Bệnh nhân\'} – SĐT: ${d.dien_thoai||\'—\'} – ${patterns.length?patterns[0].n:\'Chưa xác định\'}`;
+  const subject=`[Khai bệnh] ${d.ho_ten||'Bệnh nhân'} – SĐT: ${d.dien_thoai||'—'} – ${patterns.length?patterns[0].n:'Chưa xác định'}`;
   const result=await sendEmail(subject,body,d);
-  const ms=document.getElementById(\'mail-status\');
-  if(result.status===\'ok\'){
-    ms.innerHTML=\'✅ Thông tin đã được gửi tự động đến bác sĩ. Bác sĩ sẽ liên hệ lại qua số điện thoại bạn đã cung cấp.\';
-    ms.style.color=\'var(--g700)\';
+  const ms=document.getElementById('mail-status');
+  if(result.status==='ok'){
+    ms.innerHTML='✅ Thông tin đã được gửi tự động đến bác sĩ. Bác sĩ sẽ liên hệ lại qua số điện thoại bạn đã cung cấp.';
+    ms.style.color='var(--g700)';
     localStorage.removeItem(DKEY);
-  }else if(result.status===\'mailto\'){
+  }else if(result.status==='mailto'){
     ms.innerHTML=`<div style="margin-top:8px;padding:12px;background:#fff7ed;border-radius:12px;border:1px solid #fed7aa"><div style="font-weight:700;margin-bottom:6px">📨 Bước cuối: Gửi thông tin đến bác sĩ</div><div style="font-size:.85rem;margin-bottom:10px">Bấm nút bên dưới — thông tin đã điền sẵn, chỉ cần bấm <strong>Gửi</strong>.</div><a href="${result.url}" style="display:inline-block;padding:10px 24px;background:#ea580c;color:#fff;border-radius:999px;font-weight:700;font-size:.9rem;text-decoration:none">📧 Gửi email đến bác sĩ</a></div>`;
-    ms.style.color=\'inherit\';
+    ms.style.color='inherit';
   }else{
-    ms.innerHTML=\'⚠️ Không gửi được email tự động. Vui lòng liên hệ trực tiếp: <strong>0973 710 237</strong> hoặc Zalo.\';
-    ms.style.color=\'var(--s500)\';
+    ms.innerHTML='⚠️ Không gửi được email tự động. Vui lòng liên hệ trực tiếp: <strong>0973 710 237</strong> hoặc Zalo.';
+    ms.style.color='var(--s500)';
   }
-  btn.classList.remove(\'loading\');btn.disabled=false;
+  btn.classList.remove('loading');btn.disabled=false;
 });
 </script>
 </body>
