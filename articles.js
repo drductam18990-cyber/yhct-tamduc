@@ -5,6 +5,52 @@
 
 const ARTICLES = [
 {
+    id: 82,
+    slug: "thanh-loc-co-the-theo-yhct",
+    date: "2026-07-10",
+    category: "phong-benh",
+    categoryLabel: "Phòng bệnh",
+    icon: "🛡️",
+    gradient: "g-amber",
+    title: "Thanh lọc cơ thể theo Y học cổ truyền: Phương pháp giải độc an toàn từ thiên nhiên",
+    excerpt: "Y học cổ truyền có hệ thống lý luận riêng về thanh lọc cơ thể, không dùng hóa chất mà qua điều chỉnh chức năng Can, Tỳ, Thận — tam tạng chủ giải độc. Bài viết hướng dẫn phương pháp giải độc theo mùa, bài thuốc và thực phẩm hỗ trợ an toàn cho người Việt.",
+    readTime: 6,
+    content: `
+<h2>Tổng quan về thanh lọc cơ thể theo Y học cổ truyền</h2>
+<p>Trong Y học cổ truyền (YHCT), khái niệm "thanh lọc cơ thể" không phải là thuật ngữ đơn lẻ mà là kết quả của quá trình <em>điều hòa tam tạng giải độc</em> gồm <strong>Can, Tỳ và Thận</strong>. Theo lý luận YHCT, cơ thể tích tụ "độc tố" — còn gọi là <em>Tà khí</em>, <em>Thấp trọc</em>, <em>Đàm ẩm</em> hoặc <em>Huyết ứ</em> — từ hai nguồn chính: ngoại nhân (ô nhiễm môi trường, thức ăn không sạch, khí hậu thay đổi) và nội nhân (tình chí không ổn, ăn uống thất thường, thức khuya mệt mỏi).</p>
+<p>Can tàng huyết và chủ sơ tiết — điều phối lưu thông khí huyết, giải trừ uất kết. Tỳ vận hóa thủy thấp — biến đổi đồ ăn thức uống thành tinh vi và bài thải thấp trọc. Thận chủ thủy — lọc tạp chất qua đường tiểu tiện. Khi ba tạng này hoạt động hài hòa, cơ thể tự có năng lực <em>trừ tà ngoại xuất</em> — loại bỏ chất có hại ra ngoài theo nhiều đường: mồ hôi, đại tiện, tiểu tiện và hơi thở.</p>
+
+<h2>Dấu hiệu cơ thể cần thanh lọc theo YHCT</h2>
+<ul>
+  <li><strong>Can khí uất kết, Can nhiệt:</strong> Hay cáu gắt, miệng đắng, đầu nặng, ngủ khó, nước tiểu vàng sậm, mắt đỏ, táo bón, lưỡi đỏ rêu vàng. Biểu hiện Can đang ứ độc, cần sơ can giải uất, thanh Can.</li>
+  <li><strong>Tỳ hư thấp trọc:</strong> Bụng đầy, chướng hơi, phân lỏng hoặc nát, người mệt mỏi nặng nề, da dầu, mụn nhọt nhiều, rêu lưỡi dày nhờn. Tỳ yếu không vận hóa thủy thấp, cần kiện tỳ hóa thấp.</li>
+  <li><strong>Thận hư thủy độc tích:</strong> Phù nhẹ ở mắt và bàn chân buổi sáng, nước tiểu ít, lưng mỏi, tóc rụng, sức đề kháng giảm. Thận suy giảm chức năng lọc, cần bổ thận lợi thủy.</li>
+  <li><strong>Huyết ứ trọc:</strong> Da sạm tối, xuất hiện nám, mảng thâm, lưỡi tím hoặc có điểm ứ huyết, kinh nguyệt có cục máu đông. Cần hoạt huyết hóa ứ.</li>
+</ul>
+
+<h2>Phương pháp thanh lọc cơ thể theo YHCT</h2>
+<p>YHCT không dùng liệu pháp thanh lọc cực đoan mà chú trọng <em>từ từ, bền vững</em>, hỗ trợ chức năng tự đào thải của cơ thể. Ba hướng chính bao gồm:</p>
+<ul>
+  <li><strong>Thanh Can giải độc:</strong> Dùng các vị thuốc và thực phẩm có tính mát, vào kinh Can như nhân trần (Herba Artemisiae Scopariae), chi tử (Fructus Gardeniae), rau má, cà rốt, nghệ vàng (Curcuma longa). Châm cứu tại Thái xung (LR3), Kỳ môn (LR14), Dương lăng tuyền (GB34) để sơ tiết Can khí.</li>
+  <li><strong>Kiện Tỳ hóa thấp:</strong> Bài thuốc Sâm linh bạch truật tán (Nhân sâm, Phục linh, Bạch truật, Ý dĩ nhân, Hoài sơn) kiện tỳ thẩm thấp. Thực phẩm hỗ trợ: ý dĩ nấu cháo, hoài sơn hấp, bí đỏ. Huyệt Tỳ du (BL20), Túc tam lý (ST36), Âm lăng tuyền (SP9) để tăng cường vận hóa.</li>
+  <li><strong>Bổ Thận lợi thủy:</strong> Các vị trạch tả (Alisma orientale), xa tiền tử (Plantago asiatica), kim tiền thảo (Desmodium styracifolium) hỗ trợ Thận lọc và bài xuất thủy thấp. Huyệt Thận du (BL23), Quan nguyên (CV4), Tam âm giao (SP6) để bổ thận, thông lợi đường tiểu.</li>
+</ul>
+
+<h2>Tự thực hành thanh lọc tại nhà theo mùa</h2>
+<ul>
+  <li><strong>Trà thanh lọc mùa hè (thanh nhiệt lợi thấp):</strong> Nhân trần 10g + Ý dĩ 15g + Rễ tranh 10g sắc với 800ml nước, uống thay trà trong ngày. Thích hợp khi người nóng bức, mụn nhiều, nước tiểu vàng.</li>
+  <li><strong>Cháo kiện tỳ giải thấp (quanh năm):</strong> Ý dĩ nhân 30g + Hoài sơn 20g + Phục linh 15g + Gạo tẻ 50g nấu cháo, ăn sáng 3–4 lần/tuần. Giúp Tỳ vận hóa tốt, giảm phù thũng và chướng bụng.</li>
+  <li><strong>Nước detox YHCT buổi sáng:</strong> Pha 1 thìa mật ong + vài lát gừng tươi + nước ấm 40°C, uống khi thức dậy trước khi ăn 30 phút. Ôn Tỳ Vị, khởi động tiêu hóa, hỗ trợ đào thải qua đại tiện.</li>
+  <li><strong>Ngâm chân thanh lọc:</strong> Ngải cứu 20g + Muối biển 1 muỗng + Gừng tươi 5 lát sắc với 2 lít nước, ngâm chân 20–25 phút trước ngủ. Mở tấu lý, khai thông kinh lạc, hỗ trợ đào thải qua mồ hôi chân.</li>
+  <li><strong>Lưu ý quan trọng:</strong> Thanh lọc không đồng nghĩa với nhịn ăn hay thụt rửa. Không tự dùng các thuốc lợi tiểu, nhuận tràng mạnh khi chưa có chỉ định. Người mang thai, bệnh thận mạn, sỏi mật cần hỏi thầy thuốc trước.</li>
+</ul>
+
+<div class="art-cta-box">
+  <p>Thanh lọc cơ thể đúng cách theo YHCT cần xác định đúng thể trạng — người hàn hay nhiệt, hư hay thực — để chọn đúng phương pháp, tránh làm suy yếu chính khí. Nếu bạn thường xuyên mệt mỏi, da xỉn, tiêu hóa kém hoặc muốn thực hiện liệu trình thanh lọc định kỳ theo mùa, hãy đến <strong>Phòng Khám YHCT Tâm Đức</strong> để <strong>BS. Nguyễn Đức Tâm</strong> thăm mạch, biện chứng và xây dựng phác đồ cá nhân hóa. Phòng khám làm việc <strong>18:00–22:00 hàng ngày</strong> tại <strong>Hà Đông, Hà Nội</strong>. Đặt lịch: <strong>0973 710 237</strong>.</p>
+</div>
+  `
+},
+{
     id: 81,
     slug: "duong-quy-vi-thuoc-duong-huyet-dieu-kinh",
     date: "2026-07-09",
