@@ -357,6 +357,16 @@
     .art-modal-content,.art-modal-meta,.art-modal-footer{padding-left:22px;padding-right:22px}
     .art-modal-title{font-size:1.2rem}
   }
+  
+  /* ── MOBILE NAV ──────────────────────────────── */
+  .nav-mobile{display:none;position:fixed;top:66px;left:0;right:0;z-index:99;background:#fff;box-shadow:0 8px 32px rgba(0,0,0,.18);padding:8px 0 16px;border-top:1px solid var(--s100,#f1f5f9)}
+  .nav-mobile.open{display:block}
+  .nav-mobile a{display:block;padding:13px 24px;font-size:.95rem;font-weight:500;color:#334155;border-bottom:1px solid #f8fafc;text-decoration:none}
+  .nav-mobile a:hover,.nav-mobile a.active{background:#f0fdf4;color:#15803d}
+  .nav-mobile .nm-btn{display:block;margin:14px 20px 0;padding:13px 24px;background:#16a34a;color:#fff;border-radius:999px;text-align:center;font-weight:700;font-size:.92rem;border-bottom:none}
+  .nav-mobile .nm-btn:hover{background:#15803d}
+  .nav-overlay{display:none;position:fixed;inset:0;top:66px;background:rgba(0,0,0,.38);z-index:98}
+  .nav-overlay.open{display:block}
   </style>
 </head>
 <body>
@@ -389,6 +399,16 @@
     </nav>
   </div>
 </header>
+<div class="nav-mobile" id="navMobile">
+  <a href="index.html#dich-vu">Dịch vụ</a>
+  <a href="index.html#bac-si">Bác sĩ</a>
+  <a href="kien-thuc.html" class="active">Kiến thức</a>
+  <a href="bai-tap.html">Bài tập</a>
+  <a href="khai-benh.html">Khai bệnh</a>
+  <a href="index.html#lien-he">Liên hệ</a>
+  <a href="index.html#dat-lich" class="nm-btn">Đặt lịch khám</a>
+</div>
+<div class="nav-overlay" id="navOverlay" onclick="closeNavMenu()"></div>
 
 <!-- ════ PAGE HERO ════ -->
 <section class="page-hero">
