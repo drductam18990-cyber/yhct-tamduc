@@ -5,6 +5,56 @@
 
 const ARTICLES = [
 {
+  id: 89,
+  slug: "cuu-ngai-dieu-tri-lanh-bung-yhct",
+  date: "2026-07-13",
+  category: "khong-thuoc",
+  categoryLabel: "Không dùng thuốc",
+  icon: "🧘",
+  gradient: "g-herb",
+  title: "Cứu ngải điều trị lạnh bụng theo Y học cổ truyền: Kỹ thuật thực hành và huyệt vị tại nhà",
+  excerpt: "Cứu ngải (moxibustion) dùng nhiệt từ ngải cứu tác động lên huyệt vị để ôn trung tán hàn, điều trị đau bụng lạnh, đầy hơi và tiêu chảy do hàn — an toàn, hiệu quả, tự thực hành được tại nhà.",
+  readTime: 6,
+  content: `
+<h2>Tổng quan về cứu ngải theo Y học cổ truyền</h2>
+<p>Cứu ngải (灸法 — Cứu pháp) là phương pháp dùng sức nóng từ điếu ngải hoặc nụ ngải đốt cháy tác động lên huyệt vị và kinh lạc, nhằm <strong>ôn thông kinh mạch, tán hàn chỉ thống, hồi dương cứu nghịch</strong>. Ngải cứu (Folium Artemisiae Argyi — Ngải diệp) được xếp vào loại thuốc <em>ôn kinh tán hàn</em>, tính ấm vị đắng cay, quy kinh Tỳ – Thận – Can — phù hợp điều trị các chứng bệnh do hàn tà xâm nhập hoặc dương khí hư suy.</p>
+<p>Trong điều trị các chứng <strong>lạnh bụng, đau bụng do hàn</strong> (Trung hàn), cứu ngải được xem là phương pháp ưu tiên hàng đầu vì đặc tính nhiệt thấu sâu, ôn ấm Tỳ Vị, thúc đẩy dương khí lưu thông. Sách <em>Hoàng Đế Nội Kinh</em> ghi: "Hàn giả nhiệt chi" (Hàn thì dùng nhiệt trị) — nguyên tắc căn bản giải thích vì sao cứu ngải hiệu quả với lạnh bụng mà châm kim đơn thuần lại kém hiệu quả hơn.</p>
+
+<h2>Phân thể lạnh bụng theo Y học cổ truyền</h2>
+<ul>
+  <li><strong>Thể Tỳ Vị hư hàn:</strong> Đau bụng âm ỉ, thích ấm, thích chườm, đau giảm khi ăn ấm, ăn lạnh đau ngay. Kèm mệt mỏi, ăn kém, phân lỏng sệt hoặc tiêu chảy sáng sớm. Lưỡi nhợt bệu, rêu trắng mỏng, mạch trầm trì nhược. Pháp trị: <em>ôn trung kiện Tỳ, tán hàn chỉ thống</em>.</li>
+  <li><strong>Thể Thận dương hư (ngũ canh tả):</strong> Tiêu chảy mỗi sáng sớm 4–5 giờ (giờ Mão — Đại tràng vượng), kèm đau quặn bụng dưới, lưng lạnh mỏi, tay chân lạnh, tiểu nhiều đêm. Lưỡi nhợt, mạch trầm tế vô lực. Pháp trị: <em>ôn bổ Thận dương, ấm ấm Tỳ chỉ tả</em>.</li>
+  <li><strong>Thể hàn tà trực trúng:</strong> Đau bụng đột ngột dữ dội sau ăn lạnh, tắm lạnh hoặc tiếp xúc lạnh đột ngột. Đau co cứng, sợ lạnh, nôn nao buồn nôn. Lưỡi nhợt, rêu trắng dày, mạch khẩn. Pháp trị: <em>tán hàn ôn trung, lý khí chỉ thống</em>.</li>
+  <li><strong>Thể khí trệ kiêm hàn:</strong> Bụng đầy hơi, đau thắt từng cơn, xì hơi giảm đau, kèm người lạnh không muốn ăn. Lưỡi nhợt, rêu trắng nhờn, mạch huyền khẩn. Pháp trị: <em>hành khí tán hàn, ôn trung hóa trệ</em>.</li>
+</ul>
+
+<h2>Huyệt vị và kỹ thuật cứu ngải điều trị lạnh bụng</h2>
+<p>Các huyệt cứu ngải chính:</p>
+<ul>
+  <li><strong>Thần khuyết (CV8):</strong> Chính giữa rốn. Huyệt cấm châm kim nhưng được chỉ định đặc biệt cho cứu gián tiếp (qua muối, gừng hoặc tỏi). Ôn dương cứu nghịch, hồi dương cố thoát — huyệt hàng đầu cho lạnh bụng, tiêu chảy, đau quặn do hàn. Cứu gián tiếp qua lát gừng tươi 0,3cm dày 15–20 phút.</li>
+  <li><strong>Trung quản (CV12):</strong> Trên rốn 4 thốn, đường giữa bụng. Mộ huyệt của Vị, hội huyệt của các phủ. Ôn Vị kiện Tỳ, hóa thấp tiêu trệ. Cứu điếu ngải cách da 3–4cm trong 15–20 phút, ngày 1 lần.</li>
+  <li><strong>Khí hải (CV6):</strong> Dưới rốn 1,5 thốn. "Biển của Khí" — bổ nguyên khí, ôn dương tán hàn. Đặc biệt hiệu quả với đau bụng dưới, tiêu chảy Thận dương hư. Cứu điếu ngải 15 phút.</li>
+  <li><strong>Quan nguyên (CV4):</strong> Dưới rốn 3 thốn. Mộ huyệt Tiểu trường, giao hội Nhâm mạch với Túc tam âm. Ôn bổ Thận dương, bổ Tỳ cố thoát. Cứu ngải 20 phút, đặc trị thể Thận dương hư tiêu chảy sáng sớm.</li>
+  <li><strong>Túc tam lý (ST36):</strong> Dưới đầu gối bên ngoài 3 thốn, chếch 1 thốn về phía ngoài xương chày. Huyệt hội của Vị, kiện Tỳ ích Vị, phù chính khu tà, tăng miễn dịch. Cứu 15 phút mỗi bên — huyệt bổ khí số 1 trong YHCT.</li>
+  <li><strong>Công tôn (SP4):</strong> Bờ trong bàn chân, lõm phía sau đầu xương bàn chân ngón 1. Lạc huyệt của Tỳ, thông Xung mạch. Điều hòa Tỳ Vị, chỉ thống, chữa đau bụng, buồn nôn, tiêu chảy. Cứu 10–15 phút mỗi bên.</li>
+</ul>
+
+<h2>Tự thực hành cứu ngải tại nhà</h2>
+<ul>
+  <li><strong>Chuẩn bị:</strong> Mua điếu ngải thành phẩm tại các cơ sở YHCT hoặc hiệu thuốc đông y uy tín. Chuẩn bị gừng tươi thái lát mỏng 0,3cm để cứu gián tiếp tại Thần khuyết (CV8). Tư thế: nằm ngửa thoải mái, bụng để trần.</li>
+  <li><strong>Kỹ thuật cứu điếu (Ôn hòa cứu):</strong> Đốt đầu điếu ngải, giữ cách da 3–4cm trên huyệt, di chuyển xoay tròn nhẹ. Cảm giác ấm dễ chịu là đúng — nếu rát bỏng, giữ xa hơn. Mỗi huyệt 15–20 phút.</li>
+  <li><strong>Cứu gián tiếp qua gừng tại Thần khuyết (CV8):</strong> Đặt lát gừng lên rốn, đặt nụ ngải nhỏ lên trên, đốt. Khi cảm thấy nóng, thay lát gừng mới hoặc dừng. 3–5 nụ/lần. Rất hiệu quả với đau bụng lạnh cấp.</li>
+  <li><strong>Phác đồ tại nhà:</strong> Cứu bộ 4 huyệt Thần khuyết + Trung quản + Khí hải + Túc tam lý mỗi tối trước khi ngủ. Liệu trình: 10 ngày liên tiếp/đợt, nghỉ 5 ngày rồi lặp lại. 2–3 đợt cho thể hư hàn mạn tính.</li>
+  <li><strong>Chống chỉ định tuyệt đối:</strong> Không cứu khi sốt cao, viêm cấp tính (viêm ruột thừa, viêm đại tràng cấp), bụng đau không rõ nguyên nhân. Phụ nữ có thai không cứu vùng bụng.</li>
+  <li><strong>Hỗ trợ thêm:</strong> Uống trà gừng tươi + đường đen ấm sau cứu tăng hiệu quả ôn trung tán hàn. Tránh ăn lạnh, uống đá trong và sau đợt điều trị.</li>
+</ul>
+
+<div class="art-cta-box">
+  <p>Lạnh bụng tái phát nhiều lần, đau không dứt dù đã giữ ấm là dấu hiệu Tỳ Vị hay Thận dương hư cần điều trị chuyên sâu. Tại <strong>Phòng Khám YHCT Tâm Đức</strong>, <strong>BS. Nguyễn Đức Tâm</strong> sẽ biện chứng phân thể và thực hiện cứu ngải chuyên nghiệp kết hợp châm cứu, giúp ôn dương từ gốc, không tái phát. Phòng khám mở cửa <strong>18:00–22:00 hàng ngày</strong> tại <strong>Hà Đông, Hà Nội</strong>. Đặt lịch: <strong>0973 710 237</strong>.</p>
+</div>
+  `
+},
+{
   id: 83,
   slug: "viem-mui-di-ung-yhct",
   date: "2026-07-10",
