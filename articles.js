@@ -5,6 +5,53 @@
 
 const ARTICLES = [
 {
+  id: 90,
+  slug: "tam-that-bo-huyet-cam-mau-yhct",
+  date: "2026-07-14",
+  category: "thuoc-yhct",
+  categoryLabel: "Thuốc YHCT",
+  icon: "🌿",
+  gradient: "g-fire",
+  title: "Tam thất — Vị thuốc bổ huyết, cầm máu và hoạt huyết toàn diện của Y học cổ truyền",
+  excerpt: "Tam thất (Panax notoginseng) được mệnh danh 'Kim bất hoán' — vàng không đổi được. Vừa cầm máu, vừa bổ huyết, vừa hoạt huyết hóa ứ: ba công dụng nghịch chiều trong một vị thuốc quý hiếm bậc nhất YHCT.",
+  readTime: 6,
+  content: `
+<h2>Tổng quan về Tam thất theo Y học cổ truyền</h2>
+<p>Tam thất (田七 — Điền thất) — tên khoa học <em>Panax notoginseng</em> (Burk.) F.H.Chen, họ Nhân sâm (Araliaceae) — là vị thuốc quý bậc nhất trong YHCT về lĩnh vực điều trị bệnh huyết. Sách <em>Bản thảo cương mục thập di</em> ghi: "Tam thất vừa có thể cầm máu vừa có thể hóa ứ huyết — nhất vị thuốc mà hai dụng tương phản." Đây là đặc tính độc đáo mà rất ít vị thuốc nào trong kho dược liệu YHCT sở hữu.</p>
+<p>Theo YHCT, Tam thất có vị ngọt hơi đắng, tính ấm; quy vào kinh <strong>Can</strong> và <strong>Vị</strong>. Tác dụng chính: <em>hóa ứ chỉ huyết, hoạt huyết giảm đau</em>. Cơ chế theo YHCT: Tam thất kích thích huyết hành (hoạt huyết), tiêu tan huyết ứ, đồng thời thu liễm cầm máu khi xuất huyết — phù hợp nguyên tắc <strong>"khứ ứ sinh tân"</strong> (loại bỏ máu cũ sinh huyết mới). Người Trung Hoa cổ đại gọi Tam thất là <em>"Kim bất hoán"</em> — vàng không đổi được — nhấn mạnh giá trị vô song của vị thuốc này.</p>
+
+<h2>Các ứng dụng điều trị Tam thất theo YHCT</h2>
+<ul>
+  <li><strong>Chứng xuất huyết các loại:</strong> Tam thất cầm máu hiệu quả trong xuất huyết tiêu hóa, chảy máu cam, tiểu ra máu, rong kinh, chấn thương chảy máu. Đặc điểm nổi bật: cầm máu mà không gây đọng máu — tránh hậu quả ứ trệ như các vị cầm máu thông thường.</li>
+  <li><strong>Chứng huyết ứ — đau do ứ huyết:</strong> Đau ngực kiểu nhói (tâm mạch ứ trở), đau bụng kinh do huyết ứ (thống kinh thể ứ huyết), đau bầm tím sau chấn thương. Tam thất hoạt huyết tiêu ứ, thông lạc chỉ thống — đặc trị mọi chứng đau do ứ huyết.</li>
+  <li><strong>Bổ huyết tăng sức phục hồi:</strong> Sau phẫu thuật, mất máu nhiều, cơ thể suy nhược. Tam thất (dạng thục — đã bào chế) bổ khí huyết, tăng sức đề kháng. Thường kết hợp với Đương quy, Hoàng kỳ.</li>
+  <li><strong>Hỗ trợ tim mạch:</strong> Tam thất ích khí thông mạch, giảm huyết ứ trong tâm mạch — hỗ trợ phòng ngừa và phục hồi sau nhồi máu cơ tim, tai biến (giai đoạn hồi phục).</li>
+</ul>
+
+<h2>Bài thuốc và cách dùng Tam thất trong YHCT</h2>
+<p>Tam thất có hai dạng bào chế với tác dụng khác nhau, kết hợp huyệt vị để tăng hiệu quả:</p>
+<ul>
+  <li><strong>Sinh Tam thất (dùng sống):</strong> Tán mịn 3–6g bột Tam thất sống hòa nước ấm uống trực tiếp. Tác dụng hoạt huyết hóa ứ, cầm máu mạnh nhất. Dùng cho chấn thương, bầm tím, kinh nguyệt ứ trệ, xuất huyết cấp.</li>
+  <li><strong>Thục Tam thất (đã bào chế):</strong> Tam thất ngâm dầu mè rồi sao vàng. Tính ấm hơn, chuyên về bổ huyết, ít tác dụng hoạt huyết mạnh. Phù hợp người huyết hư, sau mất máu, phụ nữ sau sinh cần bổ.</li>
+  <li><strong>Bài Tam thất hoạt huyết thông mạch:</strong> Tam thất 6g + Đan sâm 15g + Xuyên khung 9g + Đương quy 12g sắc uống ngày 1 thang. Hoạt huyết hóa ứ, thông lạc chỉ thống — điều trị đau ngực thể ứ huyết.</li>
+  <li><strong>Bài Tam thất cầm huyết:</strong> Bột Tam thất sống 3g + Hoa hòe sao 10g + Địa du sao 15g sắc uống, uống bột Tam thất kèm theo. Chỉ định: xuất huyết tiêu hóa, rong kinh thể ứ huyết kèm xuất huyết.</li>
+  <li><strong>Huyệt vị kết hợp điều trị tim mạch:</strong> Khi dùng Tam thất hỗ trợ tim mạch, kết hợp châm cứu huyệt <strong>Nội quan (PC6)</strong>, <strong>Tâm du (BL15)</strong>, <strong>Cách du (BL17)</strong> — hội huyệt của huyết — và <strong>Huyết hải (SP10)</strong> để tăng cường hoạt huyết thông mạch.</li>
+</ul>
+
+<h2>Tự thực hành tại nhà với Tam thất</h2>
+<ul>
+  <li><strong>Trà Tam thất dưỡng sinh hàng ngày:</strong> 2–3g bột Tam thất sống + 1 muỗng mật ong nguyên chất + nước ấm 50–60°C (không dùng nước sôi sẽ phá hoạt chất). Khuấy đều uống buổi sáng lúc đói. Hỗ trợ tuần hoàn, giảm mệt mỏi, phòng ngừa ứ huyết.</li>
+  <li><strong>Cháo Tam thất bổ huyết:</strong> Nấu cháo gạo lứt, thêm 5g bột Tam thất chín (thục) + kỷ tử 10 hạt + táo đỏ 3 quả vào cuối. Ăn bữa sáng. Bổ khí huyết, phù hợp người thiếu máu, sau phẫu thuật, phụ nữ sau sinh.</li>
+  <li><strong>Liều dùng an toàn:</strong> Người lớn 3–9g/ngày (bột hoặc sắc). Không dùng quá 10g/ngày liên tục dài hạn.</li>
+  <li><strong>Chống chỉ định:</strong> Phụ nữ có thai <em>không dùng Tam thất sống</em> — hoạt huyết mạnh có thể gây co tử cung. Sau sinh chỉ dùng Tam thất chín. Người đang dùng thuốc chống đông máu (warfarin, aspirin liều cao) cần hỏi bác sĩ trước khi dùng.</li>
+</ul>
+
+<div class="art-cta-box">
+  <p>Tam thất là vị thuốc quý nhưng cần biện chứng đúng để dùng đúng — sinh hay thục, đơn độc hay phối hợp đều ảnh hưởng đến hiệu quả và an toàn. Tại <strong>Phòng Khám YHCT Tâm Đức</strong>, <strong>BS. Nguyễn Đức Tâm</strong> sẽ thăm khám, phân thể và kê phác đồ phù hợp thể trạng từng bệnh nhân. Phòng khám mở cửa <strong>18:00–22:00 hàng ngày</strong> tại <strong>Hà Đông, Hà Nội</strong>. Đặt lịch: <strong>0973 710 237</strong>.</p>
+</div>
+  `
+},
+{
   id: 89,
   slug: "cuu-ngai-dieu-tri-lanh-bung-yhct",
   date: "2026-07-13",
