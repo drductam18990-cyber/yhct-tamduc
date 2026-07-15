@@ -5,6 +5,58 @@
 
 const ARTICLES = [
   {
+    id: 97,
+    slug: "phan-xa-ban-chan-yhct-cham-soc-toan-than",
+    date: "2026-07-15",
+    category: "khong-thuoc",
+    categoryLabel: "Không dùng thuốc",
+    icon: "🧘",
+    gradient: "g-herb",
+    title: "Phản xạ học bàn chân theo Y học cổ truyền: Chăm sóc toàn thân không dùng thuốc",
+    excerpt: "Bàn chân là bản đồ thu nhỏ của cơ thể — xoa bóp đúng vùng phản xạ có thể kích thích tạng phủ, cân bằng khí huyết và phòng ngừa bệnh tật theo nguyên lý Y học cổ truyền. Phương pháp hoàn toàn không dùng thuốc, an toàn cho mọi lứa tuổi.",
+    readTime: 6,
+    content: `
+<h2>Tổng quan theo Y học cổ truyền</h2>
+<p>Trong Y học cổ truyền (YHCT), bàn chân có vị trí đặc biệt quan trọng vì đây là nơi hội tụ của nhiều đường kinh lạc đi qua: <strong>Thận kinh (KI)</strong>, <strong>Bàng quang kinh (BL)</strong>, <strong>Can kinh (LR)</strong>, <strong>Tỳ kinh (SP)</strong> và <strong>Vị kinh (ST)</strong>. Đặc biệt, <strong>Dũng tuyền (KI1)</strong> — huyệt khởi đầu của Thận kinh — nằm ở lòng bàn chân và được coi là nơi khí của cơ thể "giao tiếp" với đất, mang năng lượng dương địa vào nuôi dưỡng thận tạng.</p>
+<p>Phản xạ học bàn chân (túc tâm phản xạ liệu pháp) là phương pháp tác động lên các vùng phản xạ ở lòng và mặt bàn chân để điều chỉnh chức năng tạng phủ và hệ thần kinh tự chủ. YHCT lý giải điều này thông qua lý thuyết kinh lạc: tác động đúng điểm trên kinh → kích thích tạng phủ mà kinh lạc đó chủ quản → cân bằng âm dương và khí huyết toàn thân. Phương pháp này hoàn toàn không xâm lấn, an toàn và có thể tự thực hành tại nhà.</p>
+
+<h2>Phân thể / Nguyên nhân theo YHCT</h2>
+<p>Xoa bóp phản xạ bàn chân được chỉ định rộng rãi, phù hợp với nhiều thể bệnh khác nhau:</p>
+<ul>
+  <li><strong>Thể Thận hư (âm hư hoặc dương hư):</strong> Biểu hiện đau mỏi lưng, tai ù, mất ngủ, tiểu đêm nhiều, hay hoa mắt chóng mặt. Tập trung vào vùng phản xạ thận và tuyến thượng thận ở giữa lòng bàn chân.</li>
+  <li><strong>Thể Tỳ Vị hư yếu:</strong> Biểu hiện tiêu hóa kém, ăn uống không ngon, bụng đầy hơi, phân lỏng. Tập trung vào vùng phản xạ dạ dày, ruột non và tỳ ở cung bàn chân (arch).</li>
+  <li><strong>Thể Can khí uất kết:</strong> Biểu hiện căng thẳng, hay cáu gắt, ngủ khó, đau tức mạng sườn. Tập trung vào vùng phản xạ gan và túi mật ở nửa dưới bàn chân phải.</li>
+  <li><strong>Thể Tâm Thận bất giao:</strong> Biểu hiện hồi hộp, mất ngủ kéo dài, hay lo âu, mơ nhiều. Tập trung vào vùng phản xạ tim (bàn chân trái) và thận (cả hai chân).</li>
+  <li><strong>Thể Phế khí hư:</strong> Biểu hiện hay cảm lạnh, ho kéo dài, thở ngắn, da khô. Tập trung vào vùng phản xạ phổi và phế quản ở nền các ngón chân (đặc biệt ngón 2, 3, 4).</li>
+</ul>
+
+<h2>Phương pháp điều trị — Huyệt vị và kỹ thuật xoa bóp</h2>
+<p>Các huyệt chính trên bàn chân cần kích thích và cách thực hiện:</p>
+<ul>
+  <li><strong>Dũng tuyền (KI1):</strong> Nằm ở 1/3 trước lòng bàn chân, hõm giữa ngón chân thứ 2 và 3. Dùng ngón cái bấm và xoa tròn 2–3 phút mỗi chân. Tác dụng: bổ thận tinh, an thần, hạ hỏa hư. Đặc biệt tốt cho người mất ngủ, căng thẳng và cao huyết áp thể thận âm hư.</li>
+  <li><strong>Thái khê (KI3):</strong> Nằm trong mắt cá chân trong, hõm giữa đỉnh mắt cá và gân gót. Bấm và giữ áp lực 30–60 giây mỗi chân. Tác dụng: bổ thận âm, kiện thận dương, giảm đau lưng, điều kinh.</li>
+  <li><strong>Chiếu hải (KI6):</strong> Nằm dưới đỉnh mắt cá trong 1 thốn. Bấm nhẹ theo vòng tròn. Tác dụng: an thần, dưỡng âm, điều hòa kinh nguyệt, cải thiện giấc ngủ.</li>
+  <li><strong>Công tôn (SP4):</strong> Nằm ở mặt trong bàn chân, dưới đầu xương bàn chân thứ nhất. Bấm và ấn theo chiều dọc 60 lần. Tác dụng: kiện tỳ hòa vị, hỗ trợ tiêu hóa, giảm đầy hơi.</li>
+  <li><strong>Thái xung (LR3):</strong> Nằm trên mu bàn chân, trong kẽ ngón 1 và 2, khoảng 2 thốn tính từ kẽ ngón. Bấm mạnh và giữ 30 giây. Tác dụng: sơ can giải uất, hạ huyết áp, giảm stress.</li>
+</ul>
+<p><strong>Quy trình xoa bóp vùng phản xạ:</strong> Dùng ngón cái lăn nhấn từng vùng với lực vừa phải (cảm giác tức nhẹ, không đau rát), thực hiện theo chiều ngón chân → gót chân. Mỗi vùng xoa 1–2 phút. Tổng thời gian 20–30 phút mỗi buổi. Ngâm chân nước ấm 10 phút trước khi xoa để tăng hiệu quả.</p>
+
+<h2>Tự thực hành tại nhà</h2>
+<ul>
+  <li>Thời điểm tốt nhất: buổi tối trước khi ngủ hoặc sau khi tắm nước ấm. Không thực hiện ngay sau ăn no hoặc khi bụng đói.</li>
+  <li>Chuẩn bị: ngâm chân nước ấm 40–42°C trong 10 phút (có thể thêm một nhúm muối và vài lát gừng tươi để tăng tác dụng ôn thông kinh lạc).</li>
+  <li>Tư thế: ngồi thoải mái trên ghế, gác chân lên đùi đối diện để tiếp cận dễ lòng bàn chân. Thư giãn hoàn toàn, thở sâu đều trong suốt quá trình xoa bóp.</li>
+  <li>Thứ tự huyệt: Dũng tuyền (KI1) → Thái khê (KI3) → Chiếu hải (KI6) → Công tôn (SP4) → Thái xung (LR3). Thực hiện lần lượt từng chân.</li>
+  <li>Tần suất: duy trì 4–5 buổi/tuần; cải thiện rõ rệt sau 2–3 tuần thực hành đều đặn.</li>
+  <li>Chống chỉ định: không thực hiện khi có vết thương hở, viêm da nhiễm trùng ở bàn chân, gãy xương chưa lành, hoặc trong 3 tháng đầu thai kỳ.</li>
+</ul>
+
+<div class="art-cta-box">
+  <p>Xoa bóp phản xạ bàn chân là phương pháp tự chăm sóc hiệu quả tại nhà, nhưng để được đánh giá thể trạng đúng và hướng dẫn kỹ thuật trực tiếp, hãy đến thăm khám tại <strong>Phòng Khám Y học Cổ truyền Tâm Đức</strong>. BS. Nguyễn Đức Tâm sẽ xác định thể bệnh và xây dựng liệu trình xoa bóp bấm huyệt toàn diện phù hợp với tình trạng sức khỏe của bạn. Liên hệ: <strong>0973 710 237</strong> — giờ khám từ <strong>18:00 đến 22:00 hàng ngày</strong> tại <strong>Hà Đông, Hà Nội</strong>.</p>
+</div>
+    `
+  },
+  {
     id: 91,
     slug: "soi-than-tiet-nieu-yhct-phan-the-phac-do",
     date: "2026-07-14",
