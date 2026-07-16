@@ -5,6 +5,66 @@
 
 const ARTICLES = [
   {
+    id: 98,
+    slug: "luc-vi-dia-hoang-hoan-bo-than-am",
+    date: "2026-07-16",
+    category: "thuoc-yhct",
+    categoryLabel: "Thuốc YHCT",
+    icon: "🌿",
+    gradient: "g-fire",
+    title: "Lục vị địa hoàng hoàn — Bài thuốc bổ thận âm kinh điển của Y học cổ truyền",
+    excerpt: "Lục vị địa hoàng hoàn là bài thuốc bổ thận âm kinh điển, được dùng hơn nghìn năm để điều trị thận âm hư: mỏi lưng, tai ù, mất ngủ, đổ mồ hôi trộm. Tìm hiểu thành phần, cơ chế và cách dùng đúng bài thuốc quý này.",
+    readTime: 6,
+    content: `
+<h2>Tổng quan theo Y học cổ truyền</h2>
+<p>Lục vị địa hoàng hoàn (六味地黄丸) là một trong những bài thuốc cổ phương nổi tiếng nhất trong Y học cổ truyền (YHCT), được ghi chép lần đầu trong <em>Tiểu nhi dược chứng trực quyết</em> (thế kỷ XI) của danh y Tiền Ất. Ban đầu bài thuốc được dùng để điều trị trẻ em phát dục chậm do thận tinh bất túc, về sau được mở rộng ứng dụng rộng rãi cho người lớn với chứng <strong>thận âm hư</strong> — một trong những thể bệnh phổ biến nhất trong thực hành lâm sàng YHCT hiện đại.</p>
+<p>Theo lý thuyết YHCT, <strong>thận tàng tinh, chủ cốt tủy, khai khiếu ở nhĩ và nhị âm</strong>. Khi thận âm bị hao tổn do tuổi tác, lao lực, bệnh mạn tính, hay tinh thần căng thẳng kéo dài, cơ thể sẽ xuất hiện nhiều triệu chứng đặc trưng: đau mỏi thắt lưng và gối, ù tai, hoa mắt chóng mặt, ra mồ hôi trộm, lòng bàn tay và chân nóng, miệng khô, mất ngủ hay mơ, di tinh ở nam giới và kinh nguyệt không đều ở nữ giới. Lục vị địa hoàng hoàn được bào chế để <strong>tư bổ thận âm, điền tinh ích tủy</strong>, giải quyết căn nguyên gốc rễ của những triệu chứng này.</p>
+
+<h2>Phân thể / Nguyên nhân theo YHCT</h2>
+<ul>
+  <li><strong>Thể Thận âm hư điển hình:</strong> Đau mỏi lưng gối âm ỉ, ù tai, hoa mắt, họng khô miệng khát về đêm, lưỡi đỏ ít rêu, mạch tế sác. Đây là chứng chỉ định cốt lõi của Lục vị địa hoàng hoàn. Pháp điều trị: tư âm bổ thận, điền tinh ích tủy.</li>
+  <li><strong>Thể Thận âm hư kèm hư nhiệt (âm hư hỏa vượng):</strong> Ngoài các triệu chứng thận âm hư, còn có cảm giác nóng bừng trong xương (cốt chưng triều nhiệt), ra nhiều mồ hôi trộm, lòng bàn tay bàn chân nóng bứt rứt, di tinh. Pháp điều trị: tư âm thanh nhiệt, thường phối hợp thêm tri mẫu và hoàng bá (bài Tri bá địa hoàng hoàn).</li>
+  <li><strong>Thể Thận âm hư kèm Can âm hư:</strong> Mắt khô, nhìn mờ, hay chóng mặt, đau đầu đỉnh, dễ nổi nóng cáu gắt, co giật cơ nhỏ. Pháp điều trị: tư bổ can thận, thường phối hợp thêm kỷ tử và cúc hoa (bài Kỷ cúc địa hoàng hoàn).</li>
+  <li><strong>Thể Thận âm hư kèm Tâm âm hư:</strong> Mất ngủ, hay hoảng hốt giật mình, hồi hộp, ra mồ hôi trộm nhiều, hay quên. Pháp điều trị: tư thận dưỡng tâm, thường phối hợp thêm các vị an thần như toan táo nhân, bá tử nhân.</li>
+  <li><strong>Thể Thận âm hư kèm Phế âm hư:</strong> Ho khan ít đờm, họng khô, tiếng khàn, ra mồ hôi trộm. Pháp điều trị: tư âm bổ phế thận, thường phối hợp thêm mạch môn và ngũ vị tử (bài Bát tiên trường thọ hoàn).</li>
+</ul>
+
+<h2>Thành phần và phương pháp điều trị</h2>
+<p>Lục vị địa hoàng hoàn gồm <strong>6 vị thuốc</strong> được phân thành hai nhóm "tam bổ" và "tam tả" tạo nên sự cân bằng âm dương tinh tế:</p>
+<ul>
+  <li><strong>Tam bổ (ba vị bổ):</strong>
+    <ul>
+      <li><em>Thục địa hoàng</em> (32g — quân dược): Đại bổ thận âm, điền tinh ích tủy. Vị ngọt, tính ôn, quy kinh Tâm — Can — Thận.</li>
+      <li><em>Sơn thù du</em> (16g — thần dược): Bổ can thận, cố sáp tinh khí, chống thoát hư. Vị chua, tính vi ôn, quy kinh Can — Thận.</li>
+      <li><em>Hoài sơn</em> (16g — thần dược): Bổ tỳ thận, cố tinh chỉ tả. Vị ngọt, tính bình, quy kinh Tỳ — Phế — Thận.</li>
+    </ul>
+  </li>
+  <li><strong>Tam tả (ba vị tả — phụ trợ):</strong>
+    <ul>
+      <li><em>Trạch tả</em> (12g — tá dược): Lợi thủy thẩm thấp, phòng thục địa quá nê trệ. Vị ngọt nhạt, tính hàn.</li>
+      <li><em>Phục linh</em> (12g — tá dược): Kiện tỳ thẩm thấp, điều hòa tỳ vị. Vị ngọt nhạt, tính bình.</li>
+      <li><em>Đơn bì</em> (12g — tá dược): Thanh can nhiệt, lương huyết, phòng sơn thù du quá ôn táo. Vị đắng cay, tính hàn.</li>
+    </ul>
+  </li>
+</ul>
+<p>Sự kết hợp "tam bổ tam tả" tạo nên đặc điểm nổi bật của bài thuốc: <strong>bổ mà không trệ, tả mà không thương chính</strong> — bổ thận âm mạnh nhưng không gây ứ trệ đàm thấp, không làm suy yếu tỳ vị.</p>
+<p><strong>Liều dùng thông thường:</strong> Dạng hoàn mật: 8–12g/lần × 2 lần/ngày sau bữa ăn. Dạng thang sắc: sắc uống ngày 1 thang chia 2–3 lần. Liệu trình tối thiểu 4–8 tuần để thấy rõ hiệu quả.</p>
+
+<h2>Tự thực hành tại nhà</h2>
+<ul>
+  <li>Dùng kết hợp với thay đổi lối sống: ngủ đủ giấc trước 23 giờ (thận phục hồi từ 23:00–01:00), tránh thức khuya và làm việc quá sức là nguyên nhân hàng đầu gây thận âm hư.</li>
+  <li>Chế độ ăn bổ thận âm: bổ sung thực phẩm màu đen như đậu đen, vừng đen, táo đen (kỷ tử), hải sản, trứng, thịt lợn đen; kiêng đồ cay nóng, rượu bia và đồ chiên rán.</li>
+  <li>Bấm huyệt hỗ trợ tại nhà: Thái khê (KI3) — hõm giữa mắt cá trong và gân gót, bấm 60 lần mỗi chân; Thận du (BL23) — huyệt lưng ngang thắt lưng, xoa ấm bằng lòng bàn tay 5 phút mỗi ngày.</li>
+  <li>Lưu ý chống chỉ định: Không dùng khi đang bị cảm cúm, sốt, tiêu chảy cấp; thận trọng với người tỳ vị hư hàn (tiêu hóa yếu, hay lạnh bụng) — cần giảm liều hoặc thêm vị kiện tỳ như bạch truật, sa nhân.</li>
+  <li>Phụ nữ có thai: tham khảo ý kiến bác sĩ YHCT trước khi dùng.</li>
+</ul>
+
+<div class="art-cta-box">
+  <p>Lục vị địa hoàng hoàn là bài thuốc bổ thận âm kinh điển, nhưng hiệu quả phụ thuộc vào việc chẩn đoán đúng thể bệnh. Để được thăm khám tứ chẩn (vọng, văn, vấn, thiết) xác định đúng thể thận âm hư và tư vấn liều dùng phù hợp, hãy đến <strong>Phòng Khám Y học Cổ truyền Tâm Đức</strong>. BS. Nguyễn Đức Tâm sẽ phân thể chính xác và điều chỉnh bài thuốc phù hợp với từng người. Liên hệ: <strong>0973 710 237</strong> — giờ khám từ <strong>18:00 đến 22:00 hàng ngày</strong> tại <strong>Hà Đông, Hà Nội</strong>.</p>
+</div>
+    `
+  },
+  {
     id: 97,
     slug: "phan-xa-ban-chan-yhct-cham-soc-toan-than",
     date: "2026-07-15",
