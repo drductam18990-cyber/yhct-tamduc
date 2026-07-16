@@ -189,13 +189,13 @@
   }
   
   /* ── MOBILE NAV ──────────────────────────────── */
-  .nav-mobile{display:none;position:fixed;top:66px;left:0;right:0;z-index:99;background:#fff;box-shadow:0 8px 32px rgba(0,0,0,.18);padding:8px 0 16px;border-top:1px solid var(--s100,#f1f5f9)}
+  .nav-mobile{display:none;position:fixed;top:66px;left:0;right:0;z-index:200;background:#fff;box-shadow:0 8px 32px rgba(0,0,0,.18);max-height:calc(100vh - 66px);overflow-y:auto;border-top:2px solid var(--g200,#bbf7d0)}
   .nav-mobile.open{display:block}
-  .nav-mobile a{display:block;padding:13px 24px;font-size:.95rem;font-weight:500;color:#334155;border-bottom:1px solid #f8fafc;text-decoration:none}
-  .nav-mobile a:hover,.nav-mobile a.active{background:#f0fdf4;color:#15803d}
-  .nav-mobile .nm-btn{display:block;margin:14px 20px 0;padding:13px 24px;background:#16a34a;color:#fff;border-radius:999px;text-align:center;font-weight:700;font-size:.92rem;border-bottom:none}
+  .nav-mobile a{display:block;padding:14px 24px;font-size:.95rem;font-weight:500;color:#334155;border-bottom:1px solid #f1f5f9;text-decoration:none;transition:background .15s}
+  .nav-mobile a:hover,.nav-mobile a.active{background:#f0fdf4;color:#15803d;font-weight:700}
+  .nav-mobile .nm-btn{display:block;margin:14px 18px 18px;padding:14px 24px;background:#16a34a;color:#fff;border-radius:999px;text-align:center;font-weight:700;font-size:.92rem;border-bottom:none;box-shadow:0 4px 16px rgba(22,163,74,.3)}
   .nav-mobile .nm-btn:hover{background:#15803d}
-  .nav-overlay{display:none;position:fixed;inset:0;top:66px;background:rgba(0,0,0,.38);z-index:98}
+  .nav-overlay{display:none;position:fixed;inset:0;top:66px;background:rgba(0,0,0,.45);z-index:199}
   .nav-overlay.open{display:block}
   </style>
 </head>
@@ -232,7 +232,7 @@
   <a href="index.html#lien-he">Liên hệ</a>
   <a href="index.html#dat-lich" class="nm-btn">Đặt lịch khám</a>
 </div>
-<div class="nav-overlay" id="navOverlay" onclick="closeNavMenu()"></div>
+<div class="nav-overlay" id="navOverlay"></div>
 
 <section class="page-hero">
   <div class="container hero-inner">
@@ -476,6 +476,41 @@
 </div>
 
 <script>
+// ── Mobile nav menu ─────────────────────────────────────────────
+(function(){
+  var btn = document.querySelector('.nav-hamburger');
+  var menu = document.getElementById('navMobile');
+  var overlay = document.getElementById('navOverlay');
+  if (!btn || !menu) return;
+  btn.addEventListener('click', function(e){
+    e.stopPropagation();
+    var open = menu.classList.toggle('open');
+    overlay.classList.toggle('open', open);
+    btn.setAttribute('aria-expanded', open);
+  });
+  menu.querySelectorAll('a').forEach(function(a){
+    a.addEventListener('click', closeNavMenu);
+  });
+  document.addEventListener('click', function(e){
+    if (menu.classList.contains('open') &&
+        !menu.contains(e.target) && !btn.contains(e.target)) {
+      closeNavMenu();
+    }
+  });
+  document.addEventListener('keydown', function(e){
+    if (e.key === 'Escape') closeNavMenu();
+  });
+})();
+function closeNavMenu(){
+  var m = document.getElementById('navMobile');
+  var o = document.getElementById('navOverlay');
+  if (m) m.classList.remove('open');
+  if (o) o.classList.remove('open');
+  var btn = document.querySelector('.nav-hamburger');
+  if (btn) btn.setAttribute('aria-expanded','false');
+}
+// ─────────────────────────────────────────────────────────────────
+
 // ══ TCM ENGINE ══════════════════════════════════════════════════
 const P=[
   {n:'Tâm Huyết Hư',p:'Bổ Tâm dưỡng huyết, an thần',d:'Huyết không nuôi dưỡng Tâm thần — mất ngủ, hồi hộp, hay quên.',g:'Ngủ đủ giấc, ăn táo đỏ, long nhãn, vừng đen. Hạn chế thức khuya.',r:[{f:'tinh_tinh',v:'Hay lo âu, suy nghĩ nhiều',w:3},{f:'tinh_tinh',v:'Hay quên',w:2},{f:'vao_giac',v:'Trằn trọc khó ngủ',w:3},{f:'chat_luong_ngu',v:'Ngủ không sâu, dễ tỉnh',w:2},{f:'chat_luong_ngu',v:'Mất ngủ nhiều năm',w:3},{f:'nguc_bung',v:'Hồi hộp đánh trống ngực',w:3},{f:'mo',v:'Mơ nhiều',w:1},{f:'mo_hoi_detail',v:'Ra mồ hôi trộm ban đêm',w:2},{f:'chat_luoi',v:'Lưỡi hồng nhạt',w:2}]},
