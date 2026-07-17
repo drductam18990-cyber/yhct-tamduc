@@ -5,6 +5,60 @@
 
 const ARTICLES = [
   {
+    id: 105,
+    slug: "ngam-chan-thao-duoc-buoi-toi-duong-than-on-kinh-lac",
+    date: "2026-07-17",
+    category: "khong-thuoc",
+    categoryLabel: "Không dùng thuốc",
+    icon: "🧘",
+    gradient: "g-herb",
+    title: "Ngâm chân thảo dược buổi tối: Phương pháp dưỡng Thận ôn kinh lạc không dùng thuốc",
+    excerpt: "Ngâm chân thảo dược buổi tối là liệu pháp không dùng thuốc đơn giản, hiệu quả — ôn thông kinh lạc, dưỡng Thận, cải thiện giấc ngủ và tuần hoàn máu theo nguyên lý Y học cổ truyền.",
+    readTime: 5,
+    content: `
+<h2>Tổng quan theo Y học cổ truyền</h2>
+<p>Ngâm chân thảo dược buổi tối là một trong những liệu pháp dưỡng sinh đơn giản mà hiệu quả nhất của Y học cổ truyền (YHCT). Theo lý luận kinh lạc, <strong>bàn chân là nơi hội tụ của sáu đường kinh âm và dương</strong> — bao gồm kinh Thận, kinh Can, kinh Tỳ, kinh Bàng quang, kinh Đởm và kinh Vị. Vùng gan bàn chân chứa nhiều huyệt vị quan trọng, đặc biệt là <strong>Dũng tuyền (KI1)</strong> — huyệt đầu kinh Thận, là cửa ngõ để bổ Thận, tư âm và dẫn hỏa hạ hành.</p>
+<p>Nguyên lý YHCT giải thích: người hiện đại thường có xu hướng <em>"thượng thực hạ hư"</em> (khí hỏa bốc lên trên, phần dưới cơ thể lại hàn lạnh). Ngâm chân nước ấm có thảo dược giúp <strong>ôn thông kinh lạc từ dưới lên</strong>, dẫn khí huyết lưu thông về chi dưới, từ đó kéo hỏa khí đang vượng ở trên xuống thấp — giúp Tâm hỏa bình ổn, Thần yên, giấc ngủ sâu hơn.</p>
+
+<h2>Phân thể / Nguyên nhân theo YHCT</h2>
+<ul>
+  <li><strong>Thể Thận dương hư — chân lạnh, hay mệt:</strong> Biểu hiện: bàn chân lạnh quanh năm, tiểu đêm nhiều, lưng gối mỏi, ngại vận động, sắc mặt xanh tái. Phương hướng: Ôn bổ Thận dương bằng nước ngâm chân từ gừng, ngải cứu, quế chi.</li>
+  <li><strong>Thể Can Thận âm hư — nóng bừng, khó ngủ:</strong> Biểu hiện: lòng bàn tay chân nóng, miệng khô, khó ngủ, hay mơ, chóng mặt, tai ù. Phương hướng: Tư âm giáng hỏa bằng nước ngâm chân từ kỷ tử, sinh địa, nhục thung dung.</li>
+  <li><strong>Thể khí huyết hư — tuần hoàn kém:</strong> Biểu hiện: chân tay tê mỏi, da chân khô ráp, chuột rút về đêm, mặt xanh nhợt. Phương hướng: Bổ khí hoạt huyết bằng đương quy, hồng hoa, ngải cứu.</li>
+  <li><strong>Thể phong hàn thấp — đau nhức khớp chân:</strong> Biểu hiện: đau khớp bàn chân, cổ chân; đau tăng khi trời lạnh hoặc ẩm. Phương hướng: Khu phong tán hàn trừ thấp bằng gừng, tía tô, lá lốt, muối thô.</li>
+</ul>
+
+<h2>Phương pháp thực hành — Công thức thảo dược và huyệt vị</h2>
+<p>Sau khi ngâm chân, kết hợp bấm huyệt nhẹ nhàng để tăng tác dụng. Các huyệt quan trọng cần lưu ý:</p>
+<ul>
+  <li><strong>Dũng tuyền (KI1):</strong> Ở lòng bàn chân, chỗ lõm giữa 1/3 trên gan bàn chân. Bổ Thận, an thần, hạ huyết áp. Xoa tròn 100–200 vòng mỗi bên.</li>
+  <li><strong>Thái khê (KI3):</strong> Hõm giữa mắt cá trong và gân Achilles. Tư bổ Thận âm, điều kinh nguyệt, cải thiện giấc ngủ.</li>
+  <li><strong>Tam âm giao (SP6):</strong> Trên mắt cá trong 3 thốn, sau xương chày. Hội của ba kinh âm (Tỳ, Can, Thận) — bổ ba kinh cùng lúc, dưỡng huyết, an thần.</li>
+  <li><strong>Côn lôn (BL60):</strong> Hõm giữa mắt cá ngoài và gân Achilles. Thông Bàng quang kinh, giảm đau lưng, cải thiện tuần hoàn chi dưới.</li>
+</ul>
+<p><strong>Công thức ngâm chân phổ biến theo thể:</strong></p>
+<ul>
+  <li><em>Bổ thận ôn dương:</em> 30g gừng tươi đập dập + 20g ngải cứu khô + 10g quế chi. Đun sôi 15 phút, pha loãng nước ấm 40–42°C.</li>
+  <li><em>Tư âm giáng hỏa, an thần:</em> 20g kỷ tử + 15g lá vông nem + 10g hoa tam thất. Sắc nhỏ lửa 20 phút.</li>
+  <li><em>Hoạt huyết giảm đau:</em> 30g lá lốt + 20g muối thô + 15g gừng. Đun sôi, ngâm 20 phút.</li>
+</ul>
+
+<h2>Tự thực hành tại nhà</h2>
+<ul>
+  <li>Thời điểm tốt nhất: <strong>trước khi ngủ 30–60 phút</strong> (khoảng 21:00–22:00) — khi khí huyết của kinh Thận đang vận hành mạnh nhất theo đồng hồ sinh học YHCT.</li>
+  <li>Nhiệt độ nước: <strong>40–43°C</strong>, điều chỉnh tăng dần khi cơ thể quen. Không dùng nước quá nóng (trên 45°C) để tránh bỏng da và tổn thương thần kinh.</li>
+  <li>Thời gian ngâm: <strong>15–25 phút</strong>. Nên bổ sung nước nóng giữa chừng để duy trì nhiệt độ ổn định.</li>
+  <li>Sau ngâm: lau khô chân ngay, mang tất ấm, tránh để chân chạm nền lạnh — giữ nhiệt ôn dương vừa đạt được.</li>
+  <li><strong>Chống chỉ định:</strong> Không ngâm chân khi có vết thương hở, viêm da, phụ nữ mang thai (tránh huyệt SP6 và BL60), người suy tim nặng, hạ huyết áp đang điều trị.</li>
+  <li>Thực hiện đều đặn 4–6 tuần để thấy rõ cải thiện về giấc ngủ, sức ấm chi dưới và năng lượng ban ngày.</li>
+</ul>
+
+<div class="art-cta-box">
+  <p>Ngâm chân thảo dược là liệu pháp bổ trợ tuyệt vời, nhưng để lựa chọn đúng công thức phù hợp với thể trạng cá nhân và kết hợp với các phương pháp điều trị toàn diện, bạn nên được thăm khám trực tiếp. Tại <strong>Phòng Khám YHCT Tâm Đức</strong>, <strong>BS. Nguyễn Đức Tâm</strong> sẽ biện chứng thể bệnh, tư vấn liệu pháp không dùng thuốc phù hợp nhất và kết hợp châm cứu, dưỡng sinh cá nhân hóa. Đặt lịch khám: <strong>0973 710 237</strong>, giờ khám <strong>18:00–22:00 hàng ngày</strong>, tại <strong>Hà Đông, Hà Nội</strong>.</p>
+</div>
+    `
+  },
+  {
     id: 99,
     slug: "hen-phe-quan-yhct-phan-the-phac-do-dieu-tri",
     date: "2026-07-16",
