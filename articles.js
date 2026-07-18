@@ -5,6 +5,377 @@
 
 const ARTICLES = [
   {
+    id: 107,
+    slug: "kinh-nguyet-khong-deu-yhct-phan-the-dieu-tri",
+    date: "2026-07-18",
+    category: "mat-benh",
+    categoryLabel: "Mặt bệnh",
+    icon: "🩺",
+    gradient: "g-navy",
+    title: "Kinh nguyệt không đều theo Y học cổ truyền: Phân thể và phác đồ điều trị",
+    excerpt: "Kinh nguyệt không đều là tình trạng phổ biến ảnh hưởng đến chất lượng sống của phụ nữ. Y học cổ truyền phân tích nguyên nhân sâu xa từ tạng phủ và can thiệp điều trị toàn diện.",
+    readTime: 7,
+    content: `
+<h2>Kinh nguyệt không đều theo quan điểm Y học cổ truyền</h2>
+<p>Kinh nguyệt không đều (nguyệt kinh thất điều) là thuật ngữ Y học cổ truyền (YHCT) chỉ tình trạng chu kỳ kinh nguyệt thay đổi bất thường về thời gian, lượng kinh, màu sắc và chất lượng huyết kinh. Theo lý luận YHCT, kinh nguyệt là sản phẩm của Thiên quý — nguồn tinh khí bẩm sinh từ Thận — kết hợp với huyết được Tỳ vị hóa sinh từ thủy cốc và được Can dự trữ, điều tiết.</p>
+<p>Khi Can, Tỳ, Thận hoạt động hài hòa, Xung mạch và Nhâm mạch thông suốt, kinh nguyệt sẽ đến đúng kỳ, đủ lượng, màu đỏ tươi. Khi một trong các tạng này bị rối loạn — do ngoại tà xâm phạm, nội thương tình chí, ăn uống không điều độ hoặc lao lực quá mức — Xung Nhâm mạch sẽ mất điều hòa và kinh nguyệt không đều xuất hiện.</p>
+
+<h2>Nguyên nhân và cơ chế bệnh sinh</h2>
+<p>YHCT xác định các nguyên nhân chính dẫn đến kinh nguyệt không đều bao gồm:</p>
+<ul>
+  <li><strong>Tình chí uất kết:</strong> Stress, lo âu, tức giận kéo dài làm Can khí uất trệ, huyết không lưu thông, gây kinh sớm, trễ hoặc không đều kèm đau bụng kinh.</li>
+  <li><strong>Ăn uống không điều độ:</strong> Ăn quá nhiều đồ lạnh, sống làm Tỳ Dương tổn thương; ăn quá cay nóng làm huyết nhiệt, đều ảnh hưởng đến kinh kỳ.</li>
+  <li><strong>Lao lực, thiếu ngủ:</strong> Tiêu hao khí huyết, làm Tỳ Thận suy yếu.</li>
+  <li><strong>Thể chất bẩm sinh yếu:</strong> Thận khí bất túc, Xung Nhâm mạch kém làm cho kinh nguyệt không đều từ khi bắt đầu dậy thì.</li>
+</ul>
+
+<h2>Phân thể bệnh theo Y học cổ truyền</h2>
+<p>YHCT chia kinh nguyệt không đều thành 5 thể bệnh chính, mỗi thể có đặc trưng lâm sàng và phương pháp điều trị riêng biệt:</p>
+
+<p><strong>Thể 1 — Khí uất huyết trệ (Can khí uất kết):</strong> Kinh nguyệt trễ hoặc không đều, lượng ít, màu sậm có cục máu đông, đau bụng trước và trong kinh, tức ngực, vú căng, dễ cáu gắt. Mạch huyền, rêu lưỡi trắng mỏng. Pháp điều trị: Sơ can giải uất, hoạt huyết điều kinh. Phương dược: Tiêu dao tán gia Hương phụ, Ích mẫu thảo. Huyệt vị: Thái xung (LV3), Hành gian (LV2), Huyết hải (SP10), Tam âm giao (SP6), Nội quan (PC6).</p>
+
+<p><strong>Thể 2 — Khí huyết hư nhược (Tỳ hư huyết thiếu):</strong> Kinh nguyệt sớm hoặc trễ, lượng ít, màu nhạt loãng, mệt mỏi, da xanh xao, hồi hộp, chóng mặt, ăn kém. Chất lưỡi nhợt, mạch tế nhược. Pháp điều trị: Bổ khí dưỡng huyết điều kinh. Phương dược: Tứ vật thang gia Đảng sâm, Bạch truật. Huyệt vị: Túc tam lý (ST36), Tam âm giao (SP6), Quan nguyên (RN4), Tỳ du (BL20), Khí hải (RN6).</p>
+
+<p><strong>Thể 3 — Thận hư:</strong> Kinh nguyệt không đều, có thể sớm hoặc trễ, lượng ít màu nhạt, đau lưng mỏi gối, tai ù, tiểu đêm nhiều. Nếu Thận Dương hư thêm: sợ lạnh, tay chân lạnh, lưỡi nhợt trắng. Nếu Thận Âm hư thêm: bốc hỏa, đổ mồ hôi trộm, miệng khô, lưỡi đỏ ít rêu. Pháp điều trị: Bổ Thận điều kinh, phân biệt âm dương để ôn bổ hoặc tư âm. Phương dược: Hữu quy hoàn (Thận Dương hư) hoặc Tả quy hoàn (Thận Âm hư). Huyệt vị: Thận du (BL23), Thái khê (KI3), Quan nguyên (RN4), Tam âm giao (SP6).</p>
+
+<p><strong>Thể 4 — Tỳ hư không nhiếp huyết:</strong> Kinh nguyệt sớm, lượng nhiều, màu nhạt loãng như nước, mệt mỏi, đại tiện lỏng, ăn kém, bụng đầy trướng sau khi ăn. Lưỡi nhợt bệu, mạch hoãn nhược. Pháp điều trị: Kiện Tỳ ích khí, thống huyết điều kinh. Phương dược: Bổ trung ích khí thang gia Ngải diệp, Phụ tử (nếu có Dương hư). Huyệt vị: Tỳ du (BL20), Vị du (BL21), Ẩn bạch (SP1), Túc tam lý (ST36), Quan nguyên (RN4).</p>
+
+<p><strong>Thể 5 — Huyết nhiệt:</strong> Kinh nguyệt sớm trước kỳ, lượng nhiều, màu đỏ tươi hoặc đỏ sậm, người bứt rứt, miệng khô khát nước, nước tiểu vàng. Lưỡi đỏ rêu vàng, mạch sác. Pháp điều trị: Thanh nhiệt lương huyết, điều kinh. Phương dược: Thanh kinh tán hoặc Lưỡng địa thang. Huyệt vị: Huyết hải (SP10), Tam âm giao (SP6), Đại đôn (LV1), Thái khê (KI3), Nội đình (ST44).</p>
+
+<h2>Phác đồ điều trị tổng hợp tại phòng khám</h2>
+<p>Tại Phòng Khám YHCT Tâm Đức, thầy thuốc kết hợp đa phương pháp để điều trị kinh nguyệt không đều một cách toàn diện:</p>
+<ul>
+  <li><strong>Châm cứu:</strong> Khai thông Xung Nhâm mạch, điều khí huyết, thực hiện 2-3 lần/tuần trong liệu trình 2-4 tuần.</li>
+  <li><strong>Thảo dược:</strong> Bài thuốc sắc hoặc hoàn tán được gia giảm theo từng thể bệnh cụ thể, dùng liên tục 2-3 chu kỳ kinh.</li>
+  <li><strong>Xoa bóp bấm huyệt:</strong> Tập trung vùng bụng dưới và thắt lưng, kết hợp cứu ngải huyệt Quan nguyên và Tam âm giao trong trường hợp hàn.</li>
+  <li><strong>Dưỡng sinh và chế độ sinh hoạt:</strong> Tránh lạnh, quản lý căng thẳng, nghỉ ngơi đủ giấc — yếu tố không thể thiếu để điều trị có kết quả lâu dài.</li>
+</ul>
+
+<h2>Lưu ý quan trọng trong điều trị</h2>
+<p>Kinh nguyệt không đều có thể là biểu hiện của nhiều bệnh lý phụ khoa khác nhau (u xơ tử cung, buồng trứng đa nang, rối loạn nội tiết...). Do đó, trước khi điều trị bằng YHCT, cần thăm khám toàn diện để loại trừ các nguyên nhân thực thể. YHCT đặc biệt hiệu quả với các trường hợp rối loạn chức năng, điều chỉnh nội tiết và nâng cao thể trạng toàn diện.</p>
+
+<div class="art-cta-box"><p>Kinh nguyệt không đều ảnh hưởng đến sức khỏe và khả năng sinh sản của phụ nữ. <strong>Phòng Khám YHCT Tâm Đức</strong> — BS. Nguyễn Đức Tâm — cung cấp phác đồ điều trị cá nhân hóa kết hợp châm cứu, thảo dược và dưỡng sinh. Liên hệ <strong>0973 710 237</strong>, khám từ <strong>18:00–22:00 hàng ngày</strong> tại <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 108,
+    slug: "phuc-hoi-chuc-nang-sau-phau-thuat-yhct",
+    date: "2026-07-18",
+    category: "khong-thuoc",
+    categoryLabel: "Không dùng thuốc",
+    icon: "🧘",
+    gradient: "g-herb",
+    title: "Phục hồi chức năng sau phẫu thuật bằng Y học cổ truyền: Phương pháp hỗ trợ không dùng thuốc",
+    excerpt: "Châm cứu, xoa bóp bấm huyệt và dưỡng sinh YHCT giúp rút ngắn thời gian hồi phục, giảm đau sau phẫu thuật và khôi phục chức năng vận động mà không cần thuốc uống.",
+    readTime: 6,
+    content: `
+<h2>Vai trò của Y học cổ truyền trong phục hồi chức năng sau phẫu thuật</h2>
+<p>Phẫu thuật, dù là phẫu thuật xương khớp, bụng, ngực hay thần kinh, đều gây ra tổn thương tổ chức kèm theo đau, phù nề, xơ dính và suy giảm chức năng vận động. Y học cổ truyền (YHCT) lý giải các hậu quả này là do khí huyết ứ trệ tại chỗ (huyết ứ tắc kinh lạc), tổn hao chính khí (khí huyết suy nhược) và mất cân bằng âm dương của cơ thể sau sang chấn.</p>
+<p>Các phương pháp YHCT không dùng thuốc — châm cứu, xoa bóp bấm huyệt, cứu ngải, dưỡng sinh khí công — tác động trực tiếp vào các cơ chế này, hỗ trợ hiệu quả quá trình phục hồi sau phẫu thuật mà không gây thêm gánh nặng cho cơ thể.</p>
+
+<h2>Các phương pháp YHCT không dùng thuốc trong phục hồi chức năng</h2>
+<p><strong>1. Châm cứu (Acupuncture):</strong> Là phương pháp hiệu quả nhất trong giai đoạn đầu sau phẫu thuật. Châm cứu kích thích giải phóng endorphin nội sinh, giảm đau hiệu quả, cải thiện vi tuần hoàn tại vùng phẫu thuật, giảm phù nề và thúc đẩy lành sẹo. Theo YHCT, châm cứu thông kinh hoạt lạc, làm cho khí huyết lưu thông trơn tru, loại bỏ huyết ứ — nguyên nhân gây đau và chậm hồi phục.</p>
+<p><strong>2. Xoa bóp bấm huyệt:</strong> Phù hợp từ ngày thứ 3-5 sau phẫu thuật vùng chi. Xoa bóp giúp giảm tê bì, cải thiện lưu thông bạch huyết, ngăn ngừa teo cơ và co cứng khớp, đặc biệt quan trọng sau các phẫu thuật xương khớp và thần kinh.</p>
+<p><strong>3. Cứu ngải (Moxibustion):</strong> Nhiệt từ ngải cứu ôn thông kinh lạc, thúc đẩy lưu thông máu đến vùng phẫu thuật, giúp tăng tốc độ lành tổ chức. Đặc biệt hữu ích với bệnh nhân thể hàn, người cao tuổi hoặc sau phẫu thuật vùng bụng và chi dưới.</p>
+<p><strong>4. Dưỡng sinh khí công:</strong> Các bài tập nhẹ nhàng như Bát đoạn cẩm cải tiến, thở bụng sâu, và các động tác vươn giãn có kiểm soát giúp phục hồi sức mạnh cơ bắp, cải thiện linh hoạt khớp và nâng cao sức đề kháng toàn thân mà không gây áp lực lên vùng phẫu thuật.</p>
+<p><strong>5. Ngâm chân/tắm thảo dược:</strong> Dùng các vị thuốc YHCT như Ngải cứu, Lá lốt, Quế chi, Sinh khương ngâm chân hoặc tắm toàn thân nhẹ nhàng cải thiện tuần hoàn, giảm phù nề chi dưới và giúp ngủ ngon — yếu tố quan trọng nhất để phục hồi.</p>
+
+<h2>Lộ trình phục hồi theo các giai đoạn</h2>
+<p>YHCT phân chia quá trình hồi phục sau phẫu thuật thành các giai đoạn với phương pháp can thiệp phù hợp:</p>
+<ul>
+  <li><strong>Giai đoạn 1 (Tuần 1-2 — Hậu phẫu cấp tính):</strong> Ưu tiên bổ khí dưỡng huyết qua thực phẩm (cháo bổ, nước hầm xương, táo đỏ, kỷ tử). Có thể châm cứu nhẹ nhàng các huyệt xa vị trí phẫu thuật để giảm đau toàn thân. Thở bụng sâu 10-15 phút 2 lần/ngày để cải thiện oxy hóa và ngăn ngừa huyết khối.</li>
+  <li><strong>Giai đoạn 2 (Tuần 3-6 — Phục hồi tích cực):</strong> Bắt đầu châm cứu trực tiếp gần vùng phẫu thuật (sau khi vết thương liền), kết hợp xoa bóp bấm huyệt và cứu ngải. Dưỡng sinh vận động nhẹ nhàng có kiểm soát.</li>
+  <li><strong>Giai đoạn 3 (Tháng 2-3 — Phục hồi chức năng):</strong> Tăng cường bài tập khí công, châm cứu 2-3 lần/tuần tập trung vào phục hồi chức năng vận động và giảm xơ dính. Có thể dùng thảo dược bổ trợ (Bổ dương hoàn ngũ thang, Độc hoạt ký sinh thang tùy thể bệnh).</li>
+  <li><strong>Giai đoạn 4 (Tháng 3+ — Củng cố):</strong> Duy trì lối sống dưỡng sinh, châm cứu định kỳ 1-2 lần/tháng để ngăn ngừa tái phát và duy trì chức năng đã đạt được.</li>
+</ul>
+
+<h2>Ứng dụng theo từng loại phẫu thuật</h2>
+<ul>
+  <li><strong>Phẫu thuật xương khớp (thay khớp, nội soi khớp):</strong> Châm cứu và xoa bóp giúp giảm đau, phục hồi tầm vận động khớp nhanh hơn. Cứu ngải huyệt Túc tam lý, Dương lăng tuyền, Nội tất nhãn đặc biệt hiệu quả.</li>
+  <li><strong>Phẫu thuật bụng (ruột thừa, dạ dày, tử cung):</strong> Châm cứu giúp khôi phục nhu động ruột sớm, giảm đầy hơi chướng bụng sau mổ. Huyệt Túc tam lý, Thiên khu, Trung quản là trọng tâm.</li>
+  <li><strong>Phẫu thuật thần kinh (thoát vị đĩa đệm, u não lành tính):</strong> Kết hợp châm cứu với xoa bóp kích thích thần kinh phục hồi cảm giác và vận động, đặc biệt quan trọng trong 6 tháng đầu — giai đoạn vàng của phục hồi thần kinh.</li>
+  <li><strong>Phẫu thuật tim mạch:</strong> Thở bụng sâu và dưỡng sinh nhẹ nhàng hỗ trợ phục hồi chức năng tim phổi. Luôn phối hợp với bác sĩ tim mạch trước khi áp dụng bất kỳ phương pháp nào.</li>
+</ul>
+
+<h2>Những điều cần lưu ý khi áp dụng YHCT sau phẫu thuật</h2>
+<ul>
+  <li>Luôn thông báo cho bác sĩ phẫu thuật về kế hoạch sử dụng YHCT để tránh tương tác bất lợi.</li>
+  <li>Không châm cứu trực tiếp vào vết thương chưa lành, khu vực còn sưng đỏ hoặc có dấu hiệu nhiễm trùng.</li>
+  <li>Theo dõi sát các dấu hiệu bất thường: đau tăng, sốt, chảy máu — cần ngừng điều trị YHCT và báo bác sĩ ngay.</li>
+  <li>Bệnh nhân đang dùng thuốc chống đông máu cần thận trọng đặc biệt với châm cứu và các liệu pháp có thể gây bầm tím.</li>
+</ul>
+
+<div class="art-cta-box"><p>Phục hồi sau phẫu thuật cần một lộ trình bài bản và chuyên sâu. <strong>Phòng Khám YHCT Tâm Đức</strong> — BS. Nguyễn Đức Tâm — tư vấn và xây dựng phác đồ phục hồi chức năng cá nhân hóa bằng châm cứu, xoa bóp và dưỡng sinh. Liên hệ <strong>0973 710 237</strong>, khám từ <strong>18:00–22:00 hàng ngày</strong> tại <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 109,
+    slug: "huong-sa-luc-quan-tu-thang-yhct",
+    date: "2026-07-18",
+    category: "thuoc-yhct",
+    categoryLabel: "Thuốc YHCT",
+    icon: "🌿",
+    gradient: "g-fire",
+    title: "Hương sa lục quân tử thang — Bài thuốc kiện tỳ, hành khí, tiêu thực kinh điển của Y học cổ truyền",
+    excerpt: "Hương sa lục quân tử thang là sự kết hợp hoàn hảo giữa bổ khí kiện tỳ và hành khí hóa đàm, đặc biệt hiệu quả với các chứng rối loạn tiêu hóa mạn tính do Tỳ hư khí trệ.",
+    readTime: 6,
+    content: `
+<h2>Nguồn gốc và lịch sử của Hương sa lục quân tử thang</h2>
+<p>Hương sa lục quân tử thang (Xiang Sha Liu Jun Zi Tang — 香砂六君子湯) là bài thuốc cổ phương được ghi chép trong "Cổ Kim Danh Y Phương Luận" (thời nhà Thanh, thế kỷ 17-18). Bài thuốc này được xây dựng trên nền tảng của Lục quân tử thang — bài thuốc bổ khí kiện tỳ nổi tiếng — với việc bổ sung thêm hai vị Mộc hương và Sa nhân để tăng cường tác dụng hành khí tiêu trướng, hóa đàm tiêu thực.</p>
+<p>Lục quân tử thang vốn có nguồn gốc từ Tứ quân tử thang (bài thuốc bổ khí cơ bản) được gia thêm Trần bì và Bán hạ. Hương sa lục quân tử thang là sự phát triển tiếp theo, phù hợp với những bệnh nhân không chỉ có Tỳ Vị hư mà còn kèm theo khí trệ, đàm thấp và các triệu chứng tiêu hóa rõ rệt hơn.</p>
+
+<h2>Thành phần và vai trò của từng vị thuốc</h2>
+<p>Bài thuốc gồm 8 vị, được phân loại theo nguyên tắc quân-thần-tá-sứ:</p>
+<ul>
+  <li><strong>Đảng sâm (12g) — Quân dược:</strong> Bổ trung ích khí, kiện Tỳ dưỡng Vị. Là vị chủ lực bổ nguồn khí gốc của Tỳ Vị, giúp tăng cường chức năng vận hóa thủy cốc.</li>
+  <li><strong>Bạch truật (10g) — Thần dược:</strong> Kiện Tỳ ích khí, táo thấp lợi thủy. Phối hợp với Đảng sâm tăng cường tác dụng bổ Tỳ, đồng thời trừ thấp — nguyên nhân gây đầy bụng, nặng nề.</li>
+  <li><strong>Phục linh (10g) — Thần dược:</strong> Kiện Tỳ thẩm thấp, ninh tâm an thần. Dẫn thấp tà ra theo đường tiểu tiện, phối hợp với Bạch truật táo-thẩm kép để trừ thấp triệt để.</li>
+  <li><strong>Trần bì (6g) — Tá dược:</strong> Lý khí hóa đàm, táo thấp kiện Tỳ. Điều hòa khí cơ trong Tỳ Vị, làm cho khí lưu thông, đàm tan giải, hết trướng bụng và buồn nôn.</li>
+  <li><strong>Bán hạ chế (9g) — Tá dược:</strong> Táo thấp hóa đàm, giáng nghịch chỉ ẩu. Giảm buồn nôn, nôn mửa; phối với Trần bì tạo thành cặp đôi "Nhị trần" kinh điển để hóa đàm thấp.</li>
+  <li><strong>Mộc hương (6g) — Tá dược:</strong> Hành khí chỉ thống, kiện Tỳ tiêu thực. Khai thông khí uất trong Tỳ Vị, giảm đau bụng co thắt, trướng đầy, ăn không tiêu.</li>
+  <li><strong>Sa nhân (6g) — Tá dược:</strong> Hóa thấp khai Vị, hành khí tiêu thực, ôn trung chỉ tả. Kết hợp với Mộc hương tạo nên cặp "Hương sa" — tăng mạnh khả năng hành khí, ôn Tỳ và kích thích tiêu hóa.</li>
+  <li><strong>Chích thảo (3g) — Sứ dược:</strong> Ích khí hòa trung, điều hòa các vị thuốc. Bảo vệ Vị khí, tránh tác dụng phụ của các vị táo, hành.</li>
+</ul>
+
+<h2>Chỉ định lâm sàng — Khi nào dùng Hương sa lục quân tử thang?</h2>
+<p>Bài thuốc được chỉ định trong các trường hợp Tỳ Vị khí hư kết hợp với khí trệ đàm thấp, biểu hiện bởi:</p>
+<ul>
+  <li>Đầy hơi chướng bụng, ậm ạch khó chịu sau ăn, ăn chậm tiêu.</li>
+  <li>Buồn nôn, nôn mửa, đặc biệt sau khi ăn đồ lạnh hoặc dầu mỡ.</li>
+  <li>Nấc cụt, ợ hơi, ợ chua liên tục.</li>
+  <li>Đại tiện lỏng, phân nát, có thể kèm theo chất nhầy.</li>
+  <li>Kém ăn, chán ăn, cảm giác không đói, miệng nhạt vô vị.</li>
+  <li>Mệt mỏi, thiếu sức lực, người nặng nề uể oải.</li>
+  <li>Ốm nghén (thai nghén nôn mửa) — dùng thận trọng với liều điều chỉnh.</li>
+  <li>Sau bệnh nặng, hóa trị liệu gây suy giảm chức năng tiêu hóa.</li>
+</ul>
+<p>Trên lâm sàng hiện đại, bài thuốc được ứng dụng hỗ trợ điều trị viêm loét dạ dày mạn, hội chứng ruột kích thích thể Tỳ hư, viêm đại tràng mạn, chứng khó tiêu chức năng và hỗ trợ hóa trị trong điều trị ung thư.</p>
+
+<h2>Chống chỉ định và thận trọng</h2>
+<ul>
+  <li><strong>Âm hư nội nhiệt:</strong> Bệnh nhân có biểu hiện bốc hỏa, miệng khô họng ráo, lưỡi đỏ ít rêu, mạch tế sác — không dùng vì Mộc hương, Sa nhân tính ôn táo dễ làm hao Âm thêm.</li>
+  <li><strong>Nhiệt tà thực chứng:</strong> Đau dạ dày do viêm cấp, đại tiện táo bón do nhiệt, không dùng vì bài thuốc có tính ôn.</li>
+  <li><strong>Thai phụ:</strong> Dùng với liều thấp hơn và dưới sự giám sát chặt chẽ của thầy thuốc, đặc biệt với Bán hạ chế (tuy đã bào chế nhưng vẫn cần cẩn thận).</li>
+  <li>Không tự ý dùng kéo dài mà không có sự theo dõi của thầy thuốc YHCT.</li>
+</ul>
+
+<h2>Cách dùng và kinh nghiệm lâm sàng</h2>
+<p>Liều dùng thông thường: Sắc 1 thang/ngày với 600ml nước, chia 2-3 lần uống trước bữa ăn 30 phút hoặc sau ăn 1 tiếng tùy tình trạng. Liệu trình cơ bản: 14-28 ngày, đánh giá lại sau mỗi 2 tuần. Trong thực hành lâm sàng, bài thuốc thường được gia giảm: thêm Hoắc hương, Bội lan khi có đàm thấp nặng; thêm Thần khúc, Sơn tra khi ăn không tiêu nặng; thêm Phụ tử, Can khương khi Tỳ Dương hư nặng với bụng lạnh, tiêu lỏng.</p>
+
+<div class="art-cta-box"><p>Rối loạn tiêu hóa mạn tính do Tỳ hư khí trệ cần được chẩn đoán và điều trị đúng thể. <strong>Phòng Khám YHCT Tâm Đức</strong> — BS. Nguyễn Đức Tâm — kê đơn thảo dược theo biện chứng cá nhân hóa, không áp dụng một phác đồ chung cho tất cả. Liên hệ <strong>0973 710 237</strong>, khám từ <strong>18:00–22:00 hàng ngày</strong> tại <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 110,
+    slug: "phong-benh-cho-tre-em-yhct",
+    date: "2026-07-18",
+    category: "phong-benh",
+    categoryLabel: "Phòng bệnh",
+    icon: "🛡️",
+    gradient: "g-amber",
+    title: "Phòng bệnh cho trẻ em theo Y học cổ truyền: Tăng cường chính khí từ nhỏ",
+    excerpt: "Y học cổ truyền có hệ thống lý luận và thực hành phòng bệnh cho trẻ em từ hàng nghìn năm, tập trung vào củng cố Tỳ Vị, bảo vệ Phế khí và nuôi dưỡng Thận tinh để trẻ ít ốm, phát triển toàn diện.",
+    readTime: 6,
+    content: `
+<h2>Đặc điểm sinh lý của trẻ em theo Y học cổ truyền</h2>
+<p>Theo Y học cổ truyền (YHCT), cơ thể trẻ em có những đặc điểm sinh lý riêng biệt tạo ra cả điểm mạnh lẫn điểm yếu về sức đề kháng. Cổ nhân đúc kết: "Tiểu nhi thuần dương — trẻ con thuần dương", nghĩa là trẻ có Dương khí dồi dào, sinh lực mạnh mẽ, khả năng phục hồi nhanh khi ốm. Tuy nhiên, chính vì Âm chưa đủ vững, các tạng phủ chưa hoàn thiện, trẻ cũng rất dễ bị tổn thương.</p>
+<p>Ba hệ thống tạng phủ quan trọng nhất trong phòng bệnh cho trẻ em là:</p>
+<ul>
+  <li><strong>Tỳ Vị (hệ tiêu hóa):</strong> Còn non yếu, dễ bị tổn thương bởi ăn uống không điều độ, thức ăn lạnh, béo ngọt quá mức → sinh đàm thấp, tích trệ → sinh bệnh.</li>
+  <li><strong>Phế (hệ hô hấp và miễn dịch):</strong> Chủ vệ khí (miễn dịch bề mặt), nhưng Phế của trẻ còn yếu ớt, dễ bị ngoại tà (virus, vi khuẩn) xâm nhập → cảm cúm, viêm phế quản, hen phế quản.</li>
+  <li><strong>Thận (nguồn tinh khí bẩm sinh):</strong> Thận tinh từ bố mẹ truyền lại, quyết định thể chất cơ bản. Trẻ Thận tinh đủ: xương cứng, tóc đen, thông minh. Thận tinh thiếu: chậm phát triển, hay ốm, mọc răng chậm.</li>
+</ul>
+
+<h2>Nguyên tắc phòng bệnh qua thực phẩm</h2>
+<p>YHCT coi thực phẩm là liều thuốc phòng bệnh đầu tiên và quan trọng nhất. Nguyên tắc ăn uống cho trẻ theo YHCT:</p>
+<ul>
+  <li><strong>Bổ Tỳ Vị:</strong> Cháo gạo tẻ (dễ tiêu, bổ Vị khí); Khoai lang (kiện Tỳ, nhuận tràng); Táo đỏ (Đại táo — bổ khí dưỡng huyết); Hạt sen (Liên tử — bổ Tỳ an thần); Ý dĩ (Coix — kiện Tỳ thẩm thấp, đặc biệt cho trẻ hay tiêu lỏng).</li>
+  <li><strong>Bổ Phế và tăng đề kháng:</strong> Lê (nhuận Phế, trị ho khan); Bạch mộc nhĩ (Tremella — bổ Phế Âm, tăng miễn dịch); Củ cải trắng (thanh Phế hóa đàm); Mật ong (chỉ dùng cho trẻ trên 1 tuổi — bổ Phế nhuận tràng).</li>
+  <li><strong>Thực phẩm cần hạn chế:</strong> Đồ lạnh (kem, đá lạnh — làm lạnh Tỳ Vị, sinh đàm); Thức ăn quá ngọt, béo (làm tích trệ, hại Tỳ); Thức ăn cay nóng (kích thích Phế Vị, gây nhiệt); Thức ăn chế biến sẵn, nhiều phụ gia.</li>
+</ul>
+<p>Nguyên tắc quan trọng: Cho trẻ ăn đúng bữa, đúng lượng, không ép ăn khi trẻ không đói. Tỳ Vị cần có thời gian nghỉ ngơi giữa các bữa ăn để phục hồi chức năng vận hóa.</p>
+
+<h2>Xoa bóp bấm huyệt phòng bệnh cho trẻ</h2>
+<p>Xoa bóp trẻ em (Tiểu nhi thôi nã) là hệ thống kỹ thuật đặc biệt trong YHCT, khác hoàn toàn với xoa bóp người lớn. Cha mẹ có thể thực hiện tại nhà mỗi ngày 5-10 phút để tăng cường sức đề kháng cho trẻ:</p>
+<ul>
+  <li><strong>Bổ Tỳ kinh:</strong> Xoa mặt trong ngón cái từ đầu ngón đến gốc ngón, 100-300 lần. Tác dụng: Kiện Tỳ ích khí, cải thiện tiêu hóa, tăng hấp thu dinh dưỡng. Phù hợp cho trẻ hay biếng ăn, tiêu lỏng.</li>
+  <li><strong>Bổ Phế kinh:</strong> Xoa mặt trong ngón áp út từ đầu ngón đến gốc ngón, 100-200 lần. Tác dụng: Bổ Phế khí, tăng sức đề kháng, phòng cảm cúm. Làm thường xuyên vào mùa lạnh.</li>
+  <li><strong>Án huyệt Túc tam lý (ST36):</strong> Bấm nhẹ huyệt dưới mắt gối 3 thốn, mỗi bên 1-2 phút. Tác dụng: Bổ khí huyết toàn thân, kiện Tỳ Vị, tăng miễn dịch tổng thể.</li>
+  <li><strong>Khai thiên môn:</strong> Dùng hai ngón cái xoa từ điểm giữa hai lông mày lên đến chân tóc, 30-50 lần. Tác dụng: Khai khiếu, an thần, giúp trẻ ngủ ngon và giảm quấy khóc.</li>
+  <li><strong>Xoa vùng bụng theo chiều kim đồng hồ:</strong> Nhẹ nhàng xoa bụng 50-100 vòng sau mỗi bữa ăn khoảng 30 phút. Tác dụng: Thúc đẩy nhu động ruột, phòng táo bón và tích trệ thức ăn.</li>
+</ul>
+
+<h2>Dưỡng sinh theo mùa — Phòng bệnh chủ động</h2>
+<p>YHCT nhấn mạnh nguyên tắc "Ứng thời điều dưỡng" — chăm sóc sức khỏe phải phù hợp với từng mùa:</p>
+<ul>
+  <li><strong>Mùa xuân (Can mộc vượng):</strong> Mặc đủ ấm, không cởi áo ấm quá sớm dù trời đã đỡ lạnh. Cho trẻ ăn rau xanh, dưa leo, cà chua để hỗ trợ Can Khí thư giãn. Tránh ăn quá chua.</li>
+  <li><strong>Mùa hè (Tâm hỏa vượng):</strong> Tránh nắng nóng gay gắt, giữ mát cho trẻ nhưng không cho ngồi quạt hay điều hòa quá lạnh. Cho uống nước đậu xanh, nước mía, dưa hấu để thanh nhiệt. Không ăn quá nhiều đồ lạnh.</li>
+  <li><strong>Mùa thu (Phế kim vượng):</strong> Bổ Phế nhuận táo là ưu tiên. Cho trẻ ăn lê, bạch mộc nhĩ, khoai lang, uống nước ép lê nấu với đường phèn. Dưỡng ẩm da và niêm mạc mũi họng.</li>
+  <li><strong>Mùa đông (Thận thủy vượng):</strong> Ưu tiên bổ Thận và giữ ấm. Cho trẻ ăn hạt óc chó, đậu đen, thịt dê (ăn vừa phải). Mặc đủ ấm đặc biệt vùng bụng và lưng thấp. Tăng thời gian ngủ.</li>
+</ul>
+
+<h2>Các bài thuốc YHCT phòng bệnh cho trẻ theo thể chất</h2>
+<ul>
+  <li><strong>Trẻ hay cảm cúm, đề kháng kém (Phế Vị khí hư):</strong> Ngọc bình phong tán gia giảm (Hoàng kỳ, Bạch truật, Phòng phong) — liều thấp hơn người lớn, dùng 10-14 ngày trước mùa dịch.</li>
+  <li><strong>Trẻ biếng ăn, tiêu hóa kém, chậm lớn (Tỳ Vị hư):</strong> Tứ quân tử thang gia Sa nhân, Mạch nha — giúp kích thích tiêu hóa, cải thiện hấp thu.</li>
+  <li><strong>Trẻ hay lo lắng, ngủ không ngon, quấy khóc đêm (Tâm Tỳ hư):</strong> Nước sắc Liên tử, Long nhãn, Toan táo nhân — an thần nhẹ nhàng, hoàn toàn an toàn cho trẻ em.</li>
+</ul>
+<p><em>Lưu ý: Mọi bài thuốc YHCT cho trẻ em cần được thầy thuốc có chuyên môn kê đơn và điều chỉnh liều theo độ tuổi, cân nặng và tình trạng cụ thể. Tuyệt đối không tự ý dùng thuốc YHCT người lớn cho trẻ.</em></p>
+
+<div class="art-cta-box"><p>Xây dựng sức đề kháng vững chắc cho trẻ từ nhỏ là đầu tư tốt nhất cho sức khỏe tương lai. <strong>Phòng Khám YHCT Tâm Đức</strong> — BS. Nguyễn Đức Tâm — tư vấn chế độ ăn, xoa bóp và bài thuốc YHCT phòng bệnh phù hợp với từng độ tuổi và thể chất của trẻ. Liên hệ <strong>0973 710 237</strong>, khám từ <strong>18:00–22:00 hàng ngày</strong> tại <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 111,
+    slug: "phuong-huyet-dieu-tri-liet-nua-nguoi-tai-bien",
+    date: "2026-07-18",
+    category: "phuong-huyet",
+    categoryLabel: "Phương huyệt",
+    icon: "📍",
+    gradient: "g-huyet",
+    title: "Phương huyệt điều trị liệt nửa người (di chứng tai biến mạch máu não) theo Y học cổ truyền",
+    excerpt: "Châm cứu huyệt vị đặc hiệu là phương pháp có bằng chứng lâm sàng cao trong phục hồi vận động cho bệnh nhân liệt nửa người sau tai biến, giúp thông kinh hoạt lạc và kích thích thần kinh tái tạo.",
+    readTime: 7,
+    content: `
+<h2>Cơ sở lý luận Y học cổ truyền về liệt nửa người</h2>
+<p>Liệt nửa người (thiên thân bất toại) là di chứng thường gặp nhất của tai biến mạch máu não (trúng phong). Trong Y học cổ truyền (YHCT), trúng phong được phân thành hai loại chính: Trúng kinh lạc (mức độ nhẹ, ý thức còn tỉnh táo) và Trúng tạng phủ (nặng hơn, mất ý thức). Di chứng liệt nửa người thường là hậu quả của giai đoạn cấp đã được cứu chữa.</p>
+<p>Cơ chế bệnh sinh theo YHCT: Sau khi tai biến, đàm ứ và huyết ứ tắc nghẽn kinh lạc, khí huyết không lưu thông được đến tứ chi → cơ nhục mất nuôi dưỡng → liệt, teo cơ, co cứng. Mặt khác, bệnh nhân hậu tai biến thường có chính khí suy yếu (khí hư huyết ứ) — đây là thể bệnh phổ biến nhất.</p>
+<p><strong>Pháp điều trị tổng quát:</strong> Thông kinh hoạt lạc, hành khí hoạt huyết, bổ ích khí huyết, tức phong hóa đàm. Liệu trình châm cứu nên bắt đầu sớm nhất có thể trong 6 tháng đầu sau tai biến — giai đoạn vàng của phục hồi thần kinh.</p>
+
+<h2>Huyệt vị chủ yếu điều trị liệt nửa người</h2>
+
+<p><strong>1. Bách hội (GV20 — Đốc mạch):</strong></p>
+<ul>
+  <li><em>Vị trí:</em> Điểm giữa đỉnh đầu, trên đường chính giữa đầu, giao điểm với đường nối thẳng từ đỉnh hai vành tai lên.</li>
+  <li><em>Tác dụng:</em> Khai khiếu tỉnh thần, thăng Dương cử hãm, ích não thông lạc. Là huyệt hội của các kinh Dương, châm cứu huyệt này kích hoạt toàn bộ Dương khí của cơ thể, thúc đẩy khí huyết lên nuôi dưỡng não.</li>
+  <li><em>Chỉ định:</em> Liệt nửa người, hôn mê, giảm nhận thức sau tai biến, đau đầu do thiếu máu não. Thường dùng cứu ngải hoặc châm nhẹ.</li>
+</ul>
+
+<p><strong>2. Khúc trì (LI11 — Đại trường kinh):</strong></p>
+<ul>
+  <li><em>Vị trí:</em> Gấp khuỷu tay 90 độ, huyệt nằm ở đầu ngoài của nếp lằn khuỷu tay, giữa đường thẳng nối mỏm trên lồi cầu ngoài và huyệt Xích trạch.</li>
+  <li><em>Tác dụng:</em> Thư cân hoạt lạc, thanh nhiệt khu phong, thông kinh chỉ thống. Là huyệt Hợp của Đại trường kinh, điều trị toàn bộ bệnh vùng chi trên và vai cổ.</li>
+  <li><em>Chỉ định:</em> Liệt và tê bì chi trên, co cứng khuỷu tay, yếu cơ cánh tay sau tai biến. Là huyệt quan trọng nhất trong liệt chi trên.</li>
+</ul>
+
+<p><strong>3. Ngoại quan (SJ5 — Tam tiêu kinh):</strong></p>
+<ul>
+  <li><em>Vị trí:</em> Mặt sau cẳng tay, cách trung điểm khe cổ tay 2 thốn (khoảng 3,5cm), nằm giữa xương quay và xương trụ.</li>
+  <li><em>Tác dụng:</em> Thông Dương duy mạch, khu phong giải biểu, thông kinh hoạt lạc. Là huyệt Lạc của Tam tiêu kinh và là huyệt giao hội của Dương duy mạch.</li>
+  <li><em>Chỉ định:</em> Liệt tay, tê bì toàn chi trên, run tay, giảm linh hoạt ngón tay sau tai biến.</li>
+</ul>
+
+<p><strong>4. Hoàn khiêu (GB30 — Đởm kinh):</strong></p>
+<ul>
+  <li><em>Vị trí:</em> Nằm ở vùng mông, tại giao điểm 1/3 ngoài và 2/3 trong của đường nối đỉnh xương cùng cụt (os sacrum) với mấu chuyển lớn xương đùi (greater trochanter). Khi bệnh nhân nằm nghiêng gấp háng và gối.</li>
+  <li><em>Tác dụng:</em> Khu phong tán hàn, thông kinh hoạt lạc, lợi khớp háng, trị liệt chi dưới toàn diện. Là một trong những huyệt quan trọng nhất của Đởm kinh.</li>
+  <li><em>Chỉ định:</em> Liệt chi dưới, đau thần kinh tọa, yếu cơ mông và đùi sau tai biến. Cần châm sâu đúng kỹ thuật để đạt đắc khí.</li>
+</ul>
+
+<p><strong>5. Dương lăng tuyền (GB34 — Đởm kinh):</strong></p>
+<ul>
+  <li><em>Vị trí:</em> Phía trước và dưới đầu xương mác (fibula head), trong chỗ lõm giữa đầu xương mác và xương chày.</li>
+  <li><em>Tác dụng:</em> Khu phong lợi thấp, thư cân hoạt lạc, kiện gân cốt. Là huyệt Hội của gân (Cân hội), đặc biệt quan trọng trong điều trị các bệnh liên quan đến gân cơ và khớp.</li>
+  <li><em>Chỉ định:</em> Co cứng cơ chi dưới, liệt cơ duỗi bàn chân, đau cứng khớp gối sau tai biến. Phối hợp với Túc tam lý cho hiệu quả tốt nhất.</li>
+</ul>
+
+<p><strong>6. Túc tam lý (ST36 — Vị kinh):</strong></p>
+<ul>
+  <li><em>Vị trí:</em> Dưới mắt gối ngoài (huyệt Tất nhãn) 3 thốn (khoảng 5cm), cách bờ ngoài xương chày 1 thốn về phía ngoài.</li>
+  <li><em>Tác dụng:</em> Bổ ích khí huyết, kiện Tỳ Vị, phù chính khu tà, cường tráng toàn thân. Là một trong những huyệt quan trọng nhất của toàn cơ thể, được mệnh danh là "huyệt trường thọ".</li>
+  <li><em>Chỉ định:</em> Tăng cường thể lực tổng thể cho bệnh nhân suy nhược sau tai biến, cải thiện dinh dưỡng cơ và thần kinh, ngăn ngừa teo cơ. Thường kết hợp cứu ngải.</li>
+</ul>
+
+<p><strong>7. Tam âm giao (SP6 — Tỳ kinh):</strong></p>
+<ul>
+  <li><em>Vị trí:</em> Trên mỏm trên của mắt cá trong (medial malleolus) 3 thốn (khoảng 5cm), sát mặt sau bờ trong xương chày.</li>
+  <li><em>Tác dụng:</em> Bổ Tỳ ích Thận, dưỡng Can huyết, hoạt huyết thông lạc. Là huyệt giao hội của ba kinh Âm ở chân (Tỳ, Gan, Thận), tác động toàn diện lên hệ thống Âm và Huyết.</li>
+  <li><em>Chỉ định:</em> Liệt và tê bì chi dưới, bổ toàn thân cho bệnh nhân sau tai biến có thể chất suy yếu. Chống chỉ định trong thai kỳ.</li>
+</ul>
+
+<h2>Huyệt vị bổ sung theo vị trí liệt và triệu chứng kèm theo</h2>
+<ul>
+  <li><strong>Liệt chi trên:</strong> Kiên ngung (LI15), Kiên trinh (SI9), Thủ tam lý (LI10), Hợp cốc (LI4), Bát tà (Baxie — các khe ngón tay).</li>
+  <li><strong>Liệt chi dưới:</strong> Hoàn khiêu (GB30), Phong thị (GB31), Uỷ trung (BL40), Thừa sơn (BL57), Giải khê (ST41), Côn lôn (BL60).</li>
+  <li><strong>Méo miệng, nói khó:</strong> Địa thương (ST4), Giáp xa (ST6), Nhân trung (GV26), Thừa tương (RN24), Liêm tuyền (RN23).</li>
+  <li><strong>Nuốt khó:</strong> Thiên đột (RN22), Liêm tuyền (RN23), Phong trì (GB20).</li>
+  <li><strong>Tiểu tiện không tự chủ:</strong> Quan nguyên (RN4), Trung cực (RN3), Thứ liêu (BL32).</li>
+  <li><strong>Đau vai do liệt chi trên:</strong> A thị huyệt (điểm đau nhất), Kiên ngung (LI15), Kiên trinh (SI9).</li>
+</ul>
+
+<h2>Lịch châm cứu và kỳ vọng điều trị</h2>
+<p>Liệu trình tiêu chuẩn: Châm cứu mỗi ngày hoặc cách ngày, mỗi đợt 10-15 buổi, nghỉ 5-7 ngày rồi tiếp tục đợt mới. Đánh giá tiến triển sau mỗi đợt bằng thang điểm Fugl-Meyer hoặc Barthel Index.</p>
+<p>Kết quả mong đợi: Phần lớn bệnh nhân cảm nhận cải thiện rõ rệt sau 2-4 tuần châm cứu liên tục: giảm co cứng cơ, cải thiện tầm vận động khớp, tăng sức mạnh cơ và cải thiện cảm giác. Hiệu quả tốt nhất khi bắt đầu trong vòng 3 tháng đầu sau tai biến và kết hợp với tập luyện vật lý trị liệu.</p>
+
+<div class="art-cta-box"><p>Giai đoạn vàng phục hồi sau tai biến chỉ kéo dài 6 tháng — đừng để bỏ lỡ. <strong>Phòng Khám YHCT Tâm Đức</strong> — BS. Nguyễn Đức Tâm — có kinh nghiệm xây dựng phác đồ châm cứu phục hồi liệt nửa người toàn diện và cá nhân hóa. Liên hệ <strong>0973 710 237</strong>, khám từ <strong>18:00–22:00 hàng ngày</strong> tại <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 112,
+    slug: "tri-seo-tham-seo-loi-yhct",
+    date: "2026-07-18",
+    category: "lam-dep",
+    categoryLabel: "Làm đẹp",
+    icon: "🌸",
+    gradient: "g-rose",
+    title: "Trị sẹo thâm và sẹo lồi theo Y học cổ truyền: Hoạt huyết hóa ứ để da phục hồi từ gốc",
+    excerpt: "Y học cổ truyền nhìn sẹo thâm và sẹo lồi là biểu hiện của huyết ứ, khí trệ và đàm kết dưới da — điều trị từ gốc bằng hoạt huyết, dưỡng Can Phế kết hợp thảo dược bôi ngoài và châm cứu vi kim.",
+    readTime: 6,
+    content: `
+<h2>Sẹo thâm và sẹo lồi qua lăng kính Y học cổ truyền</h2>
+<p>Sẹo là kết quả tự nhiên của quá trình lành vết thương, nhưng khi cơ thể phản ứng quá mức hoặc không đủ nguồn lực để tái tạo bình thường, sẹo sẽ trở thành vấn đề thẩm mỹ và đôi khi gây khó chịu về mặt cơ năng.</p>
+<p>Y học cổ truyền (YHCT) phân biệt hai loại sẹo bất thường:</p>
+<ul>
+  <li><strong>Sẹo thâm (Post-inflammatory Hyperpigmentation):</strong> Vùng da sậm màu còn lại sau khi mụn, vết thương hay viêm da lành. YHCT lý giải đây là biểu hiện của <em>huyết ứ</em> (ứ trệ tuần hoàn vi mạch) kết hợp với <em>Can khí uất kết</em> — Can chủ huyết, khi Can khí không thư thông, huyết không lưu hành trơn tru, sắc tố tích tụ dưới da.</li>
+  <li><strong>Sẹo lồi / sẹo phì đại (Keloid / Hypertrophic Scar):</strong> Mô sẹo phát triển quá mức, gồ cao, cứng, có thể ngứa hoặc đau. YHCT xếp vào loại <em>đàm ứ kết tụ</em> — Phế chủ bì phu (da lông), khi Phế khí suy, tân dịch không vận hóa được → ngưng tụ thành đàm; kết hợp với huyết ứ tạo nên khối cứng dưới da.</li>
+</ul>
+<p>Mối liên hệ tạng phủ: Can → điều tiết huyết và giải độc; Phế → chủ da lông và tân dịch; Tỳ → hóa sinh tân dịch và vận chuyển dinh dưỡng đến da; Thận → tinh khí nền tảng quyết định khả năng tái tạo tế bào da.</p>
+
+<h2>Điều trị từ bên trong — Thảo dược hoạt huyết hóa ứ</h2>
+<p>Đối với sẹo thâm do huyết ứ, pháp điều trị nội là <strong>hoạt huyết hóa ứ, sơ can lý khí</strong>. Các vị thuốc quan trọng:</p>
+<ul>
+  <li><strong>Đào nhân (Peach Kernel):</strong> Hoạt huyết hóa ứ mạnh, trừ tàn dư viêm nhiễm dưới da.</li>
+  <li><strong>Hồng hoa (Safflower):</strong> Kích hoạt tuần hoàn vi mạch, làm mờ sắc tố do ứ huyết.</li>
+  <li><strong>Xuyên khung (Ligusticum):</strong> Hành khí hoạt huyết, dẫn thuốc lên vùng đầu mặt và da.</li>
+  <li><strong>Đương quy (Angelica sinensis):</strong> Bổ huyết hoạt huyết, nuôi dưỡng da từ bên trong.</li>
+  <li><strong>Tam thất (Panax notoginseng):</strong> Vừa cầm máu vừa hóa ứ — đặc biệt hiệu quả trong giai đoạn sẹo đang hình thành.</li>
+  <li><strong>Bạch phục linh (White Poria):</strong> Kiện Tỳ, dưỡng ẩm da, ức chế men tyrosinase có tác dụng làm trắng da có cơ sở khoa học.</li>
+</ul>
+<p>Bài thuốc tham khảo: <em>Huyết phủ trục ứ thang</em> gia giảm (Đào nhân, Hồng hoa, Đương quy, Xuyên khung, Bạch thược, Sinh địa, Cát cánh, Sài hồ, Chỉ xác, Ngưu tất, Cam thảo) — bài thuốc hoạt huyết kinh điển được ứng dụng cho sẹo thâm kèm khí uất.</p>
+<p>Đối với sẹo lồi, bổ sung thêm các vị hóa đàm tán kết: Côn bố (Kelp), Hải tảo (Seaweed), Pháp bán hạ, Trần bì.</p>
+
+<h2>Điều trị bên ngoài — Châm cứu vi kim và đắp thảo dược</h2>
+<p><strong>Châm cứu bao vây sẹo (Vây châm / 围针法):</strong> Kỹ thuật đặt 4-8 kim châm bao quanh rìa sẹo, mũi kim hướng vào trung tâm sẹo ở góc 15-30 độ. Tác dụng: Cải thiện vi tuần hoàn xung quanh vùng sẹo, phá vỡ cơ chế giữ sắc tố và mô xơ hóa, kích thích tái tạo tế bào bình thường. Được thực hiện 1-2 lần/tuần, 10 buổi/liệu trình.</p>
+<p><strong>Điện châm hoặc vi kim kết hợp huyết thanh thảo dược:</strong> Sử dụng dụng cụ vi kim (microneedle) tạo các kênh nhỏ trên bề mặt sẹo, sau đó bôi huyết thanh chứa chiết xuất Tam thất, Lô hội, Bạch phục linh. Kỹ thuật này tăng hấp thu hoạt chất qua da lên đến 80% so với bôi thông thường.</p>
+<p><strong>Cứu ngải (Moxibustion) hỗ trợ:</strong> Dùng điếu ngải cứu nhỏ hơ gần sẹo từ khoảng cách 3-5cm, 10-15 phút/ngày. Nhiệt ôn thông kinh lạc, cải thiện tuần hoàn, giúp sẹo mềm dần — đặc biệt hiệu quả với sẹo lồi cứng và sẹo co rút do bỏng.</p>
+<p><strong>Đắp mặt nạ thảo dược:</strong></p>
+<ul>
+  <li><em>Bột Nghệ vàng + mật ong + bột Bạch phục linh:</em> Kháng viêm, làm mờ sẹo thâm, dưỡng ẩm. Đắp 20 phút, 3-4 lần/tuần.</li>
+  <li><em>Bột Tam thất + nước vo gạo:</em> Hoạt huyết, giảm sắc tố tối. Phù hợp cho sẹo thâm sau mụn.</li>
+  <li><em>Lô hội tươi + tinh dầu tràm trà:</em> Kháng khuẩn, dịu da, thúc đẩy tái tạo — dùng cho sẹo mới hình thành.</li>
+</ul>
+
+<h2>Huyệt vị châm cứu toàn thân hỗ trợ trị sẹo</h2>
+<ul>
+  <li><strong>Huyết hải (SP10):</strong> Hoạt huyết hóa ứ, lương huyết thanh nhiệt — huyệt quan trọng nhất để điều trị mọi vấn đề huyết ứ gây ra trên da.</li>
+  <li><strong>Cách du (BL17):</strong> Huyệt Hội của Huyết — hoạt huyết toàn thân, điều hòa tất cả các vấn đề liên quan đến huyết.</li>
+  <li><strong>Phế du (BL13):</strong> Bổ Phế khí, cải thiện chức năng nuôi dưỡng và bảo vệ da.</li>
+  <li><strong>Can du (BL18):</strong> Sơ can lý khí, điều hòa chức năng Can chủ huyết — quan trọng với sẹo thâm do stress, lo âu.</li>
+  <li><strong>Túc tam lý (ST36):</strong> Bổ toàn thân, tăng cường Tỳ Vị hóa sinh tân dịch nuôi dưỡng da.</li>
+</ul>
+
+<h2>Chế độ ăn và lối sống hỗ trợ tái tạo da</h2>
+<ul>
+  <li><strong>Thực phẩm nên ăn:</strong> Rau củ đỏ-tím (cà tím, dâu tằm, nho đỏ — chứa anthocyanin hoạt huyết); Nghệ, gừng (chứa curcumin — kháng viêm mạnh); Đậu đỏ (bổ huyết hoạt huyết); Các loại cá giàu omega-3 (hỗ trợ tái tạo màng tế bào da).</li>
+  <li><strong>Thực phẩm nên tránh:</strong> Rượu bia (tăng nhiệt huyết, làm sẹo thâm sậm hơn); Đồ ăn cay nóng (gia tăng phản ứng viêm); Hải sản vỏ cứng như tôm cua (dễ gây dị ứng, kích thích sẹo lồi phát triển); Thực phẩm nhiều đường tinh luyện (gây viêm mạn tính).</li>
+  <li><strong>Quản lý căng thẳng:</strong> Stress làm tăng cortisol, ức chế tái tạo tế bào và làm sẹo thâm lâu mờ hơn. Thực hành thiền định, thở bụng 10-15 phút/ngày.</li>
+  <li><strong>Bảo vệ da khỏi tia UV:</strong> Sẹo thâm đặc biệt nhạy cảm với ánh nắng. Luôn dùng kem chống nắng SPF 30+ khi ra ngoài.</li>
+</ul>
+
+<div class="art-cta-box"><p>Sẹo thâm và sẹo lồi cần điều trị kiên nhẫn và đúng phương pháp. <strong>Phòng Khám YHCT Tâm Đức</strong> — BS. Nguyễn Đức Tâm — cung cấp phác đồ điều trị sẹo toàn diện kết hợp châm cứu, thảo dược trong và ngoài, từ căn nguyên tạng phủ để mang lại hiệu quả bền vững. Liên hệ <strong>0973 710 237</strong>, khám từ <strong>18:00–22:00 hàng ngày</strong> tại <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
     id: 106,
     slug: "tu-quan-tu-thang-bo-khi-kien-ty-vi",
     date: "2026-07-18",
