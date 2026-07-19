@@ -5,6 +5,394 @@
 
 const ARTICLES = [
   {
+    id: 114,
+    slug: "zona-than-kinh-yhct-phan-the-phac-do-dieu-tri",
+    date: "2026-07-19",
+    category: "mat-benh",
+    categoryLabel: "Mặt bệnh",
+    icon: "🩺",
+    gradient: "g-navy",
+    title: "Zona thần kinh theo Y học cổ truyền: Phân thể và phác đồ điều trị",
+    excerpt: "Zona thần kinh (Đới trạng bào chẩn) là bệnh do virus Varicella-Zoster tái hoạt động, gây mụn nước dọc theo dây thần kinh kèm đau rát dữ dội. Y học cổ truyền phân chia 3 thể bệnh và có phác đồ châm cứu, bài thuốc đặc hiệu cho từng thể.",
+    readTime: 6,
+    content: `
+<h2>Zona thần kinh là gì? Quan điểm Y học cổ truyền</h2>
+<p>Trong Y học cổ truyền (YHCT), zona thần kinh được gọi là <strong>Đới trạng bào chẩn</strong> (帶狀皰疹) hay <strong>Xà đơn</strong> (蛇丹), ý chỉ mụn nước xếp thành dải như con rắn bò dọc theo sườn hoặc thân mình. Bệnh phát sinh khi <strong>thấp nhiệt độc tà</strong> uất kết ở kinh Can, Đởm, Tỳ Vị, làm khí huyết vận hành bị trở trệ, da thịt bị tổn thương.</p>
+<p>Cơ chế bệnh sinh chủ yếu gồm: <em>Can Đởm nhiệt độc</em> bùng phát ra bì phu; hoặc <em>Tỳ hư thấp trệ</em> sinh ra thấp nhiệt uất kết; hoặc sau khi mụn lành, <em>khí trệ huyết ứ</em> gây đau dai dẳng kéo dài — gọi là hội chứng đau sau zona.</p>
+
+<h2>Phân thể lâm sàng và biểu hiện đặc trưng</h2>
+
+<h3>Thể 1 — Nhiệt độc uất Can (Can Đởm hỏa thịnh)</h3>
+<p>Đây là thể thường gặp nhất, chiếm đa số các trường hợp cấp tính:</p>
+<ul>
+  <li>Mụn nước màu đỏ sẫm, tập trung nhiều, dịch trong hoặc hơi đục</li>
+  <li>Đau bỏng rát dữ dội, đau như dao cắt hoặc điện giật dọc theo dây thần kinh</li>
+  <li>Người bứt rứt, khát nước, miệng đắng, tiểu tiện vàng đỏ, đại tiện táo</li>
+  <li>Lưỡi đỏ, rêu vàng khô; mạch huyền sác</li>
+  <li><strong>Phương pháp điều trị:</strong> Thanh Can tả hỏa, lương huyết giải độc — dùng Long đởm tả Can thang gia giảm; châm tả Hành gian, Nội đình, Huyết hải, Khúc trì, A thị huyệt</li>
+</ul>
+
+<h3>Thể 2 — Tỳ hư thấp uất (Thấp nhiệt trở lạc)</h3>
+<ul>
+  <li>Mụn nước màu vàng nhạt hoặc trắng đục, ít mụn hơn thể nhiệt độc</li>
+  <li>Đau âm ỉ, nặng nề, cảm giác căng tức hơn là bỏng rát</li>
+  <li>Người mệt mỏi, kém ăn, bụng đầy trướng, tiêu lỏng hoặc phân nát</li>
+  <li>Lưỡi nhạt bệu, rêu trắng dày hoặc rêu trắng nhờn; mạch hoãn nhu</li>
+  <li><strong>Phương pháp điều trị:</strong> Kiện Tỳ trừ thấp, hóa trọc giải độc — dùng Trừ thấp vị linh thang gia giảm; châm Âm lăng tuyền, Túc tam lý, Tỳ du, Vị du</li>
+</ul>
+
+<h3>Thể 3 — Khí trệ huyết ứ (Đau sau zona — hậu kỳ)</h3>
+<ul>
+  <li>Mụn nước đã khô đóng vảy hoặc để lại vết thâm trên da, nhưng đau vẫn tồn tại dai dẳng</li>
+  <li>Đau như kim châm, dao cắt, hoặc đau buốt từng cơn theo đường dây thần kinh</li>
+  <li>Da vùng bệnh thay đổi màu sắc (thâm sẫm hoặc đỏ tím), tê bì, dị cảm</li>
+  <li>Lưỡi tím hoặc có điểm ứ huyết; mạch sáp hoặc huyền tế</li>
+  <li><strong>Phương pháp điều trị:</strong> Hành khí hoạt huyết, thông lạc chỉ thống — dùng Huyết phủ trục ứ thang gia giảm; châm Cách du, Huyết hải, Tam âm giao, A thị huyệt kết hợp cứu ấm</li>
+</ul>
+
+<h2>Phác đồ châm cứu tổng hợp</h2>
+<p>Phác đồ châm cứu điều trị zona được tiến hành hằng ngày trong giai đoạn cấp, sau đó cách ngày trong giai đoạn hậu kỳ:</p>
+<ul>
+  <li><strong>Huyệt tại chỗ (A thị huyệt):</strong> Châm quanh vùng tổn thương, dùng kỹ thuật "vây hãn" — châm 4–6 kim quanh vùng mụn, mũi kim chếch 15–30° hướng vào trung tâm tổn thương</li>
+  <li><strong>Hành gian (LR2):</strong> Thanh Can tả hỏa, giảm đau bỏng rát</li>
+  <li><strong>Huyết hải (SP10):</strong> Lương huyết hoạt huyết, giải độc da</li>
+  <li><strong>Khúc trì (LI11):</strong> Thanh nhiệt giải độc, chống viêm</li>
+  <li><strong>Nội quan (PC6):</strong> Dưỡng tâm an thần, giảm lo lắng và đau</li>
+  <li><strong>Túc tam lý (ST36):</strong> Bổ chính khí, tăng sức đề kháng</li>
+</ul>
+<p>Kết hợp laser châm hoặc điện châm tần số thấp trên các huyệt vị giúp tăng hiệu quả giảm đau và rút ngắn thời gian lành bệnh.</p>
+
+<h2>Lưu ý điều trị và phòng ngừa tái phát</h2>
+<ul>
+  <li>Tránh gãi, chọc vỡ mụn nước để hạn chế bội nhiễm vi khuẩn và để lại sẹo</li>
+  <li>Ăn nhạt, kiêng đồ cay nóng, rượu bia, hải sản trong thời gian điều trị</li>
+  <li>Nghỉ ngơi đầy đủ, tránh stress và mệt mỏi vì sức đề kháng giảm là nguyên nhân chính khiến virus tái hoạt động</li>
+  <li>Bệnh nhân cao tuổi, tiểu đường, hoặc suy giảm miễn dịch cần kết hợp với điều trị Tây y song song</li>
+  <li>Điều trị sớm trong 72 giờ đầu mang lại hiệu quả tốt nhất, giảm nguy cơ đau thần kinh sau zona</li>
+</ul>
+
+<div class="art-cta-box"><p>Zona thần kinh cần được điều trị sớm và đúng phác đồ để tránh biến chứng đau dai dẳng sau zona. Phòng Khám Y học Cổ truyền <strong>Tâm Đức</strong> — BS. Nguyễn Đức Tâm — kết hợp châm cứu, điện châm, bài thuốc YHCT cá nhân hóa theo phân thể bệnh, giúp rút ngắn thời gian lành mụn và kiểm soát đau hiệu quả. Liên hệ: <strong>0973 710 237</strong> — Giờ khám: <strong>18:00–22:00 hàng ngày</strong> — Địa chỉ: Hà Đông, Hà Nội.</p></div>
+    `
+  },
+  {
+    id: 115,
+    slug: "boi-loi-va-yhct-mon-the-thao-duong-sinh-tang-cuong-phe-ty",
+    date: "2026-07-19",
+    category: "khong-thuoc",
+    categoryLabel: "Không dùng thuốc",
+    icon: "🧘",
+    gradient: "g-herb",
+    title: "Bơi lội và Y học cổ truyền: Môn thể thao dưỡng sinh tăng cường Phế và Tỳ",
+    excerpt: "Bơi lội là môn vận động toàn thân được Y học cổ truyền đánh giá cao trong việc tăng cường Phế khí, kiện Tỳ dưỡng Thận và thông điều khí huyết toàn thân mà không gây áp lực lên xương khớp.",
+    readTime: 5,
+    content: `
+<h2>Vì sao Y học cổ truyền đánh giá cao bơi lội?</h2>
+<p>Theo quan điểm Y học cổ truyền (YHCT), vận động là phương tiện <strong>điều khí huyết, thông kinh lạc</strong> và tăng cường chính khí. Bơi lội đặc biệt được chú ý vì đây là hình thức vận động trong nước — môi trường mát, tác động đồng đều lên toàn thân, đồng thời kích thích <strong>Phế khí</strong> (qua hô hấp sâu đều), <strong>Tỳ vị</strong> (qua hoạt động cơ bắp toàn thân) và <strong>Thận khí</strong> (qua ổn định thân nhiệt và điều tiết nội môi).</p>
+<p>So với nhiều hình thức tập luyện khác, bơi lội không gây tải trọng lên cột sống và khớp gối — do đó rất phù hợp với người cao tuổi, người mắc thoái hóa xương khớp, bệnh nhân thừa cân béo phì, và người đang phục hồi sau chấn thương.</p>
+
+<h2>Tác dụng của bơi lội theo lý luận YHCT</h2>
+<ul>
+  <li><strong>Bổ Phế, thông phế khiếu:</strong> Hô hấp sâu, nhịp nhàng khi bơi giúp mở rộng phế nang, tăng dung tích phổi, cải thiện chức năng tuyên phát túc giáng của Phế — từ đó da dẻ hồng hào, khí lực dồi dào hơn</li>
+  <li><strong>Kiện Tỳ, hóa thấp:</strong> Vận động cơ bắp đều đặn kích thích Tỳ Vị vận hóa, giúp tiêu hóa tốt hơn, hóa được thấp trọc, giảm cảm giác đầy bụng, mệt mỏi, nặng nề</li>
+  <li><strong>Thông hoạt kinh lạc:</strong> Áp lực nước đều khắp bề mặt cơ thể tương tự tác dụng của xoa bóp nhẹ, giúp khí huyết lưu thông, giảm trướng bí, tê bì</li>
+  <li><strong>Dưỡng Tâm, an thần:</strong> Bơi lội trong trạng thái thư giãn giúp hạ nhịp tim, giảm cortisol — tương ứng với tác dụng <em>dưỡng Tâm huyết, định thần</em> trong YHCT, cải thiện giấc ngủ và giảm lo âu</li>
+  <li><strong>Ôn bổ Thận dương:</strong> Sau khi bơi (nhất là nước mát), cơ thể phản ứng tăng nhiệt qua cơ chế của Thận dương — giúp củng cố nội nhiệt, nâng cao sức đề kháng nếu tập luyện đều đặn</li>
+</ul>
+
+<h2>Nhóm bệnh nhân YHCT được khuyến nghị bơi lội</h2>
+<ul>
+  <li><strong>Thoái hóa khớp gối, cột sống:</strong> Nước giảm trọng tải, giúp vận động khớp không đau mà vẫn dưỡng gân cốt</li>
+  <li><strong>Hen phế quản thể hư:</strong> Tăng dung tích phổi, kiện Phế khí, giảm tần suất cơn hen theo thời gian</li>
+  <li><strong>Đái tháo đường type 2:</strong> Cải thiện chuyển hóa đường, giảm đờm thấp, kiện Tỳ vị hóa thấp trọc</li>
+  <li><strong>Mất ngủ, lo âu:</strong> Dưỡng Tâm an thần, điều hòa khí huyết, giảm Can khí uất kết</li>
+  <li><strong>Người cao tuổi suy giảm thể lực:</strong> Duy trì vận động an toàn, phòng ngã té, bổ Thận dưỡng cốt</li>
+</ul>
+
+<h2>Hướng dẫn bơi lội theo quan điểm dưỡng sinh YHCT</h2>
+<ul>
+  <li><strong>Thời điểm tốt nhất:</strong> Sáng sớm sau khi mặt trời mọc (7–9 giờ) hoặc chiều tối (16–18 giờ). Tránh bơi khi dạ dày no (sau ăn 2 tiếng) hoặc đang đói</li>
+  <li><strong>Nhiệt độ nước:</strong> Nước ấm 28–32°C phù hợp với người cao tuổi và bệnh nhân mạn tính. Tránh bơi nước lạnh dưới 25°C với người hư hàn, dương hư</li>
+  <li><strong>Thời lượng:</strong> Khởi đầu 20–30 phút/lần, 3–4 lần/tuần; tiến dần lên 45–60 phút khi thể trạng cải thiện</li>
+  <li><strong>Kiểu bơi phù hợp:</strong> Ếch nhái (breaststroke) — nhẹ nhàng, dưỡng Phế; bơi ngửa — thư giãn cột sống; tránh bơi bướm cường độ cao nếu có bệnh lý khớp vai</li>
+  <li><strong>Khởi động và hồi phục:</strong> Khởi động kỹ 10 phút trước khi xuống nước; sau bơi ngâm mình trong nước ấm nhẹ 5 phút, tránh để cơ thể bị lạnh đột ngột (tà phong lạnh xâm nhập)</li>
+  <li><strong>Không bơi khi:</strong> Đang trong cơn cấp tính của bệnh (viêm khớp cấp, zona cấp, cảm cúm), đang hành kinh, mệt mỏi quá mức</li>
+</ul>
+
+<h2>Kết hợp bơi lội với liệu pháp YHCT</h2>
+<p>Để tối ưu hiệu quả dưỡng sinh, bơi lội nên kết hợp với:</p>
+<ul>
+  <li>Bấm huyệt <strong>Túc tam lý (ST36)</strong> và <strong>Khí hải (CV6)</strong> trước khi tập để tăng khí lực</li>
+  <li>Uống trà gừng hoặc trà hồng trà ấm sau khi bơi để ôn Vị, tránh hàn tà xâm phạm</li>
+  <li>Châm cứu định kỳ 1–2 lần/tuần để hỗ trợ các bệnh mạn tính song song với tập luyện</li>
+</ul>
+
+<div class="art-cta-box"><p>Nếu bạn đang có bệnh mạn tính và muốn biết bơi lội có phù hợp với thể trạng YHCT của mình không, hãy đến thăm khám tại Phòng Khám Y học Cổ truyền <strong>Tâm Đức</strong>. BS. Nguyễn Đức Tâm sẽ tư vấn phác đồ vận động dưỡng sinh cá nhân hóa theo thể bệnh. Liên hệ: <strong>0973 710 237</strong> — Giờ khám: <strong>18:00–22:00 hàng ngày</strong> — Địa chỉ: Hà Đông, Hà Nội.</p></div>
+    `
+  },
+  {
+    id: 116,
+    slug: "bach-ho-thang-bai-thuoc-thanh-nhiet-ta-hoa-kinh-dien",
+    date: "2026-07-19",
+    category: "thuoc-yhct",
+    categoryLabel: "Thuốc YHCT",
+    icon: "🌿",
+    gradient: "g-fire",
+    title: "Bạch hổ thang — Bài thuốc thanh nhiệt tả hỏa kinh điển của Y học cổ truyền",
+    excerpt: "Bạch hổ thang là bài thuốc nổi tiếng trong Thương hàn luận của Trương Trọng Cảnh, chuyên trị chứng Dương minh kinh nhiệt với các triệu chứng: đại nhiệt, đại hãn, đại khát, đại phiền.",
+    readTime: 6,
+    content: `
+<h2>Nguồn gốc và ý nghĩa tên gọi</h2>
+<p><strong>Bạch hổ thang</strong> (白虎湯) xuất phát từ <em>Thương hàn luận</em> (傷寒論) của đại y gia Trương Trọng Cảnh, được viết vào thế kỷ thứ 2. Tên "Bạch hổ" (Hổ trắng) trong ngũ hành ứng với phương Tây, mùa thu — biểu tượng của <strong>kim khí túc sát</strong>, tức khả năng bình định và dẹp tan hỏa nhiệt mãnh liệt. Cũng có thuyết cho rằng Bạch hổ tượng trưng cho <em>Thạch cao</em> — vị thuốc chủ dược màu trắng, có tác dụng thanh nhiệt mạnh như hổ gào lửa tắt.</p>
+<p>Bài thuốc được đặt ra để điều trị chứng <strong>Dương minh kinh chứng</strong> — khi tà nhiệt từ ngoại cảm lan vào kinh Dương minh, gây ra bốn triệu chứng kinh điển: đại nhiệt (sốt cao), đại hãn (mồ hôi nhiều), đại khát (khát uống nhiều nước mát), đại phiền (bứt rứt, hồi hộp).</p>
+
+<h2>Thành phần và vai trò của từng vị thuốc</h2>
+<ul>
+  <li><strong>Thạch cao (石膏) — Quân dược: 30–60g</strong><br>Vị ngọt, cay, tính đại hàn. Thanh nhiệt tả hỏa, trừ phiền chỉ khát. Là vị thuốc chủ lực, tác dụng hạ nhiệt mạnh và nhanh, trực tiếp thanh nhiệt ở Vị và Phế</li>
+  <li><strong>Tri mẫu (知母) — Thần dược: 9–12g</strong><br>Vị đắng, tính hàn. Tư âm thanh nhiệt, nhuận táo chỉ khát. Hỗ trợ Thạch cao thanh nhiệt, đồng thời nuôi dưỡng Thận âm, tránh tổn thương tân dịch do nhiệt</li>
+  <li><strong>Ngạnh mễ (粳米 — gạo tẻ) — Tá dược: 15–30g</strong><br>Vị ngọt, tính bình. Ích Vị sinh tân, hòa trung. Bảo vệ Vị khí, tránh để hai vị hàn lạnh làm tổn thương dạ dày; đồng thời giúp sắc thuốc đặc hơn, dễ uống</li>
+  <li><strong>Cam thảo chích (炙甘草) — Sứ dược: 6g</strong><br>Vị ngọt, tính ôn. Điều hòa các vị thuốc trong bài, bổ ích Tỳ Vị, giảm tính hàn lạnh của Thạch cao và Tri mẫu</li>
+</ul>
+
+<h2>Chỉ định lâm sàng</h2>
+<p>Bạch hổ thang được chỉ định khi có đủ hoặc phần lớn bộ tứ chứng kinh điển:</p>
+<ul>
+  <li><strong>Đại nhiệt:</strong> Sốt cao 38–40°C, người nóng ran, sợ nóng hơn sợ lạnh</li>
+  <li><strong>Đại hãn:</strong> Mồ hôi ra nhiều, tự nhiên, không cần kích thích</li>
+  <li><strong>Đại khát:</strong> Khát uống nhiều nước, thích uống nước lạnh</li>
+  <li><strong>Đại phiền:</strong> Bứt rứt, hồi hộp, không yên, mặt đỏ, mắt đỏ</li>
+  <li>Lưỡi đỏ, rêu vàng khô; mạch hồng đại hữu lực (hoặc hoạt sác)</li>
+</ul>
+<p>Ngoài ra, bài thuốc được ứng dụng trong nhiều bệnh hiện đại như: sốt do viêm phổi, viêm màng não, bệnh tay chân miệng nặng, viêm khớp dạng thấp thể hoạt động có sốt, đái tháo đường thể Vị nhiệt (tiêu cốc thiện cơ, khát nhiều uống nhiều).</p>
+
+<h2>Các biến thể của Bạch hổ thang</h2>
+<ul>
+  <li><strong>Bạch hổ gia Nhân sâm thang:</strong> Thêm Nhân sâm 10g — dùng khi nhiệt thịnh kèm khí âm lưỡng hư, mạch hồng đại mà vô lực, người mệt lả</li>
+  <li><strong>Bạch hổ gia Quế chi thang:</strong> Thêm Quế chi 9g — dùng khi nhiệt tà kèm phong tà, viêm khớp thể phong nhiệt, sưng đau khớp, sốt cao</li>
+  <li><strong>Bạch hổ gia Thương truật thang:</strong> Thêm Thương truật 9g — dùng khi nhiệt thấp lưỡng thịnh, người nặng nề, đau khớp nhiều, rêu lưỡi vàng nhờn</li>
+</ul>
+
+<h2>Chống chỉ định và lưu ý khi sử dụng</h2>
+<ul>
+  <li><strong>Không dùng cho:</strong> Người hư hàn, dương hư (lạnh tay chân, mạch trầm trì), Tỳ Vị hư nhược (tiêu lỏng, kém ăn mạn tính)</li>
+  <li><strong>Không dùng khi:</strong> Sốt do biểu chứng chưa giải (còn sợ lạnh, không có mồ hôi hoặc mồ hôi ít)</li>
+  <li><strong>Không dùng khi:</strong> Huyết hư phát nhiệt (sốt âm hư, ra mồ hôi trộm buổi đêm)</li>
+  <li><strong>Phụ nữ có thai:</strong> Thận trọng, cần dưới sự giám sát của thầy thuốc vì Thạch cao tính đại hàn</li>
+  <li><strong>Trẻ em dưới 5 tuổi:</strong> Giảm liều theo cân nặng, không tự ý dùng</li>
+  <li>Sắc thuốc cho đến khi gạo chín thì bỏ gạo, lấy nước uống — đây là điểm đặc biệt trong cách bào chế</li>
+</ul>
+
+<div class="art-cta-box"><p>Bạch hổ thang là bài thuốc mạnh, cần được thầy thuốc YHCT có chuyên môn chẩn đoán phân thể trước khi kê đơn. Phòng Khám Y học Cổ truyền <strong>Tâm Đức</strong> — BS. Nguyễn Đức Tâm — thực hiện tứ chẩn, phân thể bệnh và bốc thuốc thang cá nhân hóa cho từng bệnh nhân. Liên hệ: <strong>0973 710 237</strong> — Giờ khám: <strong>18:00–22:00 hàng ngày</strong> — Địa chỉ: Hà Đông, Hà Nội.</p></div>
+    `
+  },
+  {
+    id: 117,
+    slug: "che-do-dinh-duong-phong-benh-tim-mach-yhct-duong-tam-tu-thuc-pham",
+    date: "2026-07-19",
+    category: "phong-benh",
+    categoryLabel: "Phòng bệnh",
+    icon: "🛡️",
+    gradient: "g-amber",
+    title: "Chế độ dinh dưỡng phòng bệnh tim mạch theo Y học cổ truyền: Dưỡng tâm từ thực phẩm",
+    excerpt: "Y học cổ truyền cho rằng bệnh tim mạch xuất phát từ sự mất cân bằng của Tâm — Tỳ — Can — Thận. Một chế độ ăn uống đúng theo nguyên tắc YHCT có thể bổ dưỡng các tạng này và phòng ngừa bệnh tim mạch từ gốc rễ.",
+    readTime: 6,
+    content: `
+<h2>Bệnh tim mạch qua lăng kính Y học cổ truyền</h2>
+<p>Trong Y học cổ truyền (YHCT), chức năng của <strong>Tâm</strong> (心) bao gồm: chủ huyết mạch (điều khiển sự lưu thông máu), chủ thần chí (điều phối tâm trí, cảm xúc). Bệnh tim mạch hình thành khi <strong>Tâm khí hư</strong>, <strong>Tâm huyết bất túc</strong>, hoặc <strong>đàm trọc ứ trở tâm mạch</strong> — tức là hệ thống mạch máu bị tắc nghẽn do đàm thấp, ứ huyết tích tụ lâu ngày.</p>
+<p>Các yếu tố nguy cơ từ góc độ YHCT gồm: ăn nhiều đồ béo ngọt (sinh đàm trọc), ít vận động (khí huyết ứ trệ), stress kéo dài (Can khí uất hóa hỏa, thương Tâm), tuổi cao (Thận dương hư suy, không ôn ấm được Tâm dương). Chính vì vậy, <strong>dinh dưỡng đúng nguyên tắc</strong> là nền tảng phòng ngừa hiệu quả.</p>
+
+<h2>Nguyên tắc ăn uống dưỡng Tâm theo YHCT</h2>
+<ul>
+  <li><strong>Ăn nhạt — kiêng mặn:</strong> Mặn nhập Thận, quá mặn hại Thận dương và làm tích nước, tăng tải cho Tâm. Giảm muối xuống dưới 5g/ngày là biện pháp đơn giản nhất</li>
+  <li><strong>Hạn chế đồ béo, ngọt:</strong> Đồ béo ngọt sinh đàm trọc — tương đương tích lũy cholesterol, triglyceride trong huyết mạch theo quan điểm hiện đại. Kiêng thịt mỡ, da gia cầm, lòng đỏ trứng nhiều, đồ chiên rán</li>
+  <li><strong>Ăn đủ màu sắc — ứng với ngũ tạng:</strong> Đỏ (Tâm) — thực phẩm đỏ như cà chua, dâu tây, gấc, táo đỏ dưỡng Tâm huyết; Xanh (Can) — rau xanh đậm như cải bó xôi, bông cải xanh sơ can giải uất; Trắng (Phế) — hạt sen, bạch mộc nhĩ, củ năng dưỡng Phế âm</li>
+  <li><strong>Ăn ấm — tránh lạnh:</strong> Đồ ăn lạnh hại Tỳ dương, sinh đàm thấp. Ưu tiên thức ăn nấu chín ấm, hạn chế đồ sống lạnh, nước đá</li>
+</ul>
+
+<h2>Thực phẩm dưỡng Tâm được YHCT khuyên dùng</h2>
+<ul>
+  <li><strong>Hạt sen (Liên tử):</strong> Bổ Tâm, an thần, kiện Tỳ. Nấu cháo hạt sen, chè sen đường phèn uống 3–4 lần/tuần</li>
+  <li><strong>Táo đỏ (Đại táo):</strong> Bổ khí huyết, dưỡng Tâm an thần. Hầm với thịt nạc hoặc uống trà táo đỏ kỷ tử</li>
+  <li><strong>Kỷ tử (Câu kỷ):</strong> Bổ Can Thận, dưỡng huyết, cải thiện chức năng mạch máu. Pha trà hoặc nấu chung súp mỗi ngày</li>
+  <li><strong>Nghệ vàng (Khương hoàng):</strong> Hoạt huyết, phá ứ, kháng viêm mạnh. Dùng nghệ trong nấu ăn hàng ngày hoặc pha sữa nghệ</li>
+  <li><strong>Tỏi (Đại toán):</strong> Ôn thông mạch lạc, giảm đàm trọc, kháng khuẩn. Ăn sống 1–2 nhánh/ngày hoặc nấu ăn thường xuyên</li>
+  <li><strong>Đậu đỏ (Xích tiểu đậu):</strong> Lợi thủy trừ thấp, bổ Tâm khí. Nấu cháo đậu đỏ 2–3 lần/tuần</li>
+  <li><strong>Bạch mộc nhĩ (Ngân nhĩ):</strong> Nhuận Phế, dưỡng âm, giảm đàm, mềm hóa mạch máu. Nấu chè bạch mộc nhĩ hạt sen</li>
+  <li><strong>Cá hồi, cá thu, cá trích:</strong> Giàu omega-3 — theo YHCT là loại thực phẩm nhuận mạch, hoạt huyết tự nhiên; ăn 2–3 lần/tuần</li>
+</ul>
+
+<h2>Thực đơn mẫu một ngày dưỡng Tâm theo YHCT</h2>
+<ul>
+  <li><strong>Sáng:</strong> Cháo yến mạch với táo đỏ, kỷ tử, hạt sen — bổ Tâm khí, ổn định huyết áp buổi sáng</li>
+  <li><strong>Trưa:</strong> Cơm gạo lứt; canh rau cải nấu đậu phụ; cá kho nghệ — bổ khí, hoạt huyết, trừ đàm</li>
+  <li><strong>Chiều (bữa phụ):</strong> Trà xanh nhạt hoặc trà hoa cúc kỷ tử — thanh Can nhiệt, dưỡng huyết</li>
+  <li><strong>Tối:</strong> Súp bí đỏ, khoai lang, cà rốt — kiện Tỳ vận hóa, giảm đàm trọc; tránh ăn quá no</li>
+  <li><strong>Trước ngủ:</strong> Sữa ấm nhạt hoặc trà tâm sen — an Tâm, dưỡng thần, cải thiện giấc ngủ</li>
+</ul>
+
+<h2>Lối sống kết hợp để phòng bệnh tim mạch toàn diện</h2>
+<ul>
+  <li>Duy trì vận động nhẹ nhàng đều đặn: đi bộ 30 phút/ngày, bơi lội, thái cực quyền, dưỡng sinh khí công</li>
+  <li>Quản lý cảm xúc — tránh stress kéo dài, Can khí uất kết làm hại Tâm: thiền định, hít thở sâu, đọc sách</li>
+  <li>Ngủ đủ giấc trước 23 giờ — giờ Tý (23h–1h) là giờ Đởm phục hồi, sau đó là giờ Can, đây là thời điểm tạng phủ được tái tạo</li>
+  <li>Kiểm tra huyết áp và lipid máu định kỳ; kết hợp châm cứu tại phòng khám YHCT 1–2 lần/tháng để duy trì cân bằng nội môi</li>
+</ul>
+
+<div class="art-cta-box"><p>Phòng ngừa bệnh tim mạch bằng dinh dưỡng và lối sống YHCT là con đường an toàn, bền vững và không tác dụng phụ. Phòng Khám Y học Cổ truyền <strong>Tâm Đức</strong> — BS. Nguyễn Đức Tâm — tư vấn chế độ ăn uống, dưỡng sinh cá nhân hóa và kết hợp châm cứu để hỗ trợ phòng bệnh tim mạch hiệu quả. Liên hệ: <strong>0973 710 237</strong> — Giờ khám: <strong>18:00–22:00 hàng ngày</strong> — Địa chỉ: Hà Đông, Hà Nội.</p></div>
+    `
+  },
+  {
+    id: 118,
+    slug: "phuong-huyet-dieu-tri-dai-dam-o-tre-em-yhct",
+    date: "2026-07-19",
+    category: "phuong-huyet",
+    categoryLabel: "Phương huyệt",
+    icon: "📍",
+    gradient: "g-huyet",
+    title: "Phương huyệt điều trị đái dầm ở trẻ em theo Y học cổ truyền",
+    excerpt: "Đái dầm ở trẻ em (Di niệu) trong Y học cổ truyền chủ yếu do Thận khí bất cố, Bàng quang mất chức năng khí hóa. Châm cứu kết hợp cứu ngải trên các huyệt đặc hiệu giúp cải thiện rõ rệt sau 3–4 tuần điều trị.",
+    readTime: 5,
+    content: `
+<h2>Cơ sở lý luận Y học cổ truyền về đái dầm</h2>
+<p>Đái dầm (di niệu — 遺尿) được Y học cổ truyền (YHCT) định nghĩa là hiện tượng tiểu tiện không tự chủ trong khi ngủ, xảy ra ở trẻ trên 5 tuổi. Cơ chế bệnh sinh chủ yếu liên quan đến:</p>
+<ul>
+  <li><strong>Thận khí bất cố:</strong> Thận chủ thủy, chủ nhị tiện (đại tiện và tiểu tiện). Khi Thận khí hư yếu, không đủ khả năng khống chế Bàng quang, niệu đạo — khiến nước tiểu thoát ra ngoài ý muốn</li>
+  <li><strong>Phế Tỳ khí hư:</strong> Phế thông điều thủy đạo, Tỳ vận hóa thủy thấp. Khi cả hai tạng này suy yếu, công năng khí hóa toàn bộ hệ thống thủy dịch bị rối loạn</li>
+  <li><strong>Can kinh uất nhiệt:</strong> Ít gặp hơn — ở trẻ có tính tình nóng nảy, stress, lo lắng, Can hỏa khuấy động khiến Bàng quang không kiểm soát</li>
+</ul>
+<p>Điều trị châm cứu theo YHCT tập trung vào <strong>bổ Thận cố tinh, ôn dương lợi tiểu</strong> và <strong>kiện Tỳ ích Phế</strong> để phục hồi chức năng kiểm soát tiểu tiện một cách tự nhiên.</p>
+
+<h2>Các huyệt vị chính trong phác đồ điều trị</h2>
+
+<h3>1. Quan nguyên (關元 — CV4)</h3>
+<ul>
+  <li><strong>Vị trí:</strong> Trên đường giữa bụng, 3 thốn dưới rốn</li>
+  <li><strong>Tác dụng:</strong> Bổ Thận cố tinh, ôn dương trợ khí, tăng cường khả năng kiểm soát Bàng quang. Đây là huyệt giao hội của 3 kinh âm (Túc Tam âm) và kinh Nhâm mạch — huyệt bổ Thận dương quan trọng nhất</li>
+  <li><strong>Kỹ thuật:</strong> Châm thẳng 1–1,5 thốn; kết hợp cứu ngải 15–20 phút mỗi buổi</li>
+</ul>
+
+<h3>2. Trung cực (中極 — CV3)</h3>
+<ul>
+  <li><strong>Vị trí:</strong> Trên đường giữa bụng, 4 thốn dưới rốn (ngay trên khớp mu)</li>
+  <li><strong>Tác dụng:</strong> Mộ huyệt của Bàng quang kinh — tác động trực tiếp lên chức năng Bàng quang, cố tinh thu liễm, điều tiết cơ vòng niệu đạo</li>
+  <li><strong>Kỹ thuật:</strong> Châm thẳng 0,8–1 thốn; cứu ngải 10–15 phút</li>
+</ul>
+
+<h3>3. Thận du (腎俞 — BL23)</h3>
+<ul>
+  <li><strong>Vị trí:</strong> Bối du huyệt, ngang mức khoảng liên đốt sống thắt lưng L2, cách đường giữa 1,5 thốn (hai bên)</li>
+  <li><strong>Tác dụng:</strong> Du huyệt của Thận kinh — bổ Thận dương, ích Thận khí, cường thắt lưng kiện cốt. Là huyệt nền tảng trong mọi phác đồ điều trị bệnh liên quan đến Thận</li>
+  <li><strong>Kỹ thuật:</strong> Châm chếch vào cột sống 0,5–1 thốn; cứu ngải cực tốt</li>
+</ul>
+
+<h3>4. Bàng quang du (膀胱俞 — BL28)</h3>
+<ul>
+  <li><strong>Vị trí:</strong> Vùng xương cùng, ngang mức lỗ cùng 2 (S2), cách đường giữa 1,5 thốn (hai bên)</li>
+  <li><strong>Tác dụng:</strong> Du huyệt của Bàng quang kinh — trực tiếp điều tiết chức năng khí hóa của Bàng quang, giúp kiểm soát việc đóng mở cơ vòng</li>
+  <li><strong>Kỹ thuật:</strong> Châm thẳng 0,8–1,2 thốn; cứu ngải 10 phút</li>
+</ul>
+
+<h3>5. Túc tam lý (足三里 — ST36)</h3>
+<ul>
+  <li><strong>Vị trí:</strong> Mặt trước cẳng chân, 3 thốn dưới tất nhãn (lõm dưới đầu gối ngoài), ngoài mào chày 1 thốn</li>
+  <li><strong>Tác dụng:</strong> Hợp huyệt của Vị kinh — kiện Tỳ ích Khí, bổ hậu thiên, tăng cường thể lực chung. Trẻ em suy nhược thể lực cần bổ sung Tỳ Vị trước khi bổ Thận</li>
+  <li><strong>Kỹ thuật:</strong> Châm thẳng 1–1,5 thốn; bổ pháp; có thể cứu ngải nhẹ</li>
+</ul>
+
+<h3>6. Tam âm giao (三陰交 — SP6)</h3>
+<ul>
+  <li><strong>Vị trí:</strong> Mặt trong cẳng chân, 3 thốn trên đỉnh mắt cá trong, bờ sau xương chày</li>
+  <li><strong>Tác dụng:</strong> Giao điểm của 3 kinh âm (Tỳ, Can, Thận) — bổ Tỳ, bổ Thận, điều Can; tăng cường khí hóa Bàng quang, an thần cho trẻ lo lắng</li>
+  <li><strong>Kỹ thuật:</strong> Châm thẳng 1 thốn; bổ pháp nhẹ nhàng</li>
+</ul>
+
+<h3>7. Khí hải (氣海 — CV6)</h3>
+<ul>
+  <li><strong>Vị trí:</strong> Trên đường giữa bụng, 1,5 thốn dưới rốn</li>
+  <li><strong>Tác dụng:</strong> Ôn bổ hạ nguyên, cố thận nạp khí, tăng cường nguyên khí. Phối hợp với Quan nguyên tạo thành cặp huyệt dưỡng Thận kinh điển</li>
+  <li><strong>Kỹ thuật:</strong> Châm thẳng 1–1,5 thốn; cứu ngải 15 phút</li>
+</ul>
+
+<h2>Phác đồ điều trị và liệu trình</h2>
+<ul>
+  <li>Mỗi buổi châm: 5–7 huyệt trong tổng số trên, thay đổi luân phiên</li>
+  <li>Tần suất: Châm 3 lần/tuần; cứu ngải tại nhà huyệt Quan nguyên + Khí hải hàng ngày 10–15 phút trước khi ngủ</li>
+  <li>Liệu trình: 4 tuần/liệu trình; đánh giá sau 4 tuần và tiếp tục nếu cần</li>
+  <li>Kết quả thường thấy: Giảm tần suất rõ rệt sau 2–3 tuần; khỏi hoàn toàn sau 2–3 liệu trình đối với thể Thận dương hư</li>
+</ul>
+
+<div class="art-cta-box"><p>Đái dầm ở trẻ ảnh hưởng đến tâm lý và sinh hoạt của cả gia đình. Phòng Khám Y học Cổ truyền <strong>Tâm Đức</strong> — BS. Nguyễn Đức Tâm — điều trị đái dầm bằng châm cứu và cứu ngải nhẹ nhàng, không đau, phù hợp với trẻ em. Phác đồ cá nhân hóa theo thể trạng cho hiệu quả bền vững. Liên hệ: <strong>0973 710 237</strong> — Giờ khám: <strong>18:00–22:00 hàng ngày</strong> — Địa chỉ: Hà Đông, Hà Nội.</p></div>
+    `
+  },
+  {
+    id: 119,
+    slug: "khi-cong-duong-nhan-hang-ngay-yhct-bai-tap-lam-dep-tu-ben-trong",
+    date: "2026-07-19",
+    category: "lam-dep",
+    categoryLabel: "Làm đẹp",
+    icon: "🌸",
+    gradient: "g-rose",
+    title: "Khí công dưỡng nhan hàng ngày theo Y học cổ truyền: Bài tập làm đẹp từ bên trong",
+    excerpt: "Y học cổ truyền cho rằng vẻ đẹp của da và dung nhan phản ánh sức khỏe của tạng phủ bên trong. Khí công dưỡng nhan là bộ bài tập kết hợp hơi thở, vận động nhẹ và bấm huyệt mặt, giúp điều tiết khí huyết, sáng da và làm chậm lão hóa tự nhiên.",
+    readTime: 5,
+    content: `
+<h2>Quan điểm YHCT: Vẻ đẹp bắt nguồn từ tạng phủ</h2>
+<p>Trong Y học cổ truyền (YHCT), da mặt và sắc nhan không phải chỉ là vấn đề bề ngoài mà là <strong>gương phản chiếu của nội tạng</strong>. Người xưa nói: <em>"Nhan sắc là hoa của khí huyết"</em> — nghĩa là khi khí huyết đủ đầy và lưu thông thông suốt, da tự nhiên hồng hào, mịn màng, căng bóng. Ngược lại, da xỉn màu, nám, nhăn nheo, chảy xệ là dấu hiệu của Can huyết bất túc, Tỳ khí hư, Phế âm thiếu hụt hoặc Thận tinh suy giảm.</p>
+<p><strong>Khí công dưỡng nhan</strong> (氣功養顏) là bộ bài tập tổng hợp gồm: hơi thở điều khí, vận động nhẹ thông kinh lạc, bấm huyệt khai mạch mặt và tự xoa bóp dưỡng nhan. Tất cả nhằm điều hòa khí huyết đến mặt, nuôi dưỡng các tạng liên quan đến sắc đẹp.</p>
+
+<h2>Bốn tạng nền tảng của sắc đẹp theo YHCT</h2>
+<ul>
+  <li><strong>Tỳ:</strong> Chủ vận hóa — đưa tinh chất thức ăn lên nuôi dưỡng da mặt. Tỳ khỏe → da căng, sắc tươi; Tỳ hư → da vàng nhạt, mí mắt sụp, cơ mặt chảy xệ</li>
+  <li><strong>Can:</strong> Tàng huyết — cung cấp huyết để nuôi da. Can huyết đủ → da hồng nhuận; Can huyết hư → da xanh xao, thâm quầng mắt, móng tay vàng nhợt</li>
+  <li><strong>Phế:</strong> Chủ bì phu (da lông) — cai quản lớp da ngoài cùng. Phế âm đủ → da ẩm mịn, lỗ chân lông nhỏ; Phế hư → da khô ráp, dễ nổi mụn viêm</li>
+  <li><strong>Thận:</strong> Chủ tinh, ứng với tóc — "tóc là thứ lộ ra ngoài của Thận". Thận tinh đủ → da dày, đàn hồi tốt, tóc đen mượt; Thận hư → nám sẫm vùng dưới mắt, tóc bạc rụng sớm</li>
+</ul>
+
+<h2>Bộ bài tập khí công dưỡng nhan hàng ngày (15–20 phút)</h2>
+
+<h3>Bước 1 — Điều tức khai khí (3–5 phút)</h3>
+<p>Ngồi thẳng lưng, hai tay đặt lên đùi, mắt nhắm nhẹ:</p>
+<ul>
+  <li>Hít vào chậm qua mũi trong 4 giây — tưởng tượng khí trong lành từ đỉnh đầu chảy xuống mặt</li>
+  <li>Nín thở 2 giây — cảm nhận khí ấm áp trải đều trên da mặt</li>
+  <li>Thở ra qua miệng nhẹ nhàng trong 6 giây — thải bỏ khí trọc, hơi nóng ra ngoài</li>
+  <li>Lặp 8–10 lần; tác dụng: tăng cường khí Phế, đưa khí thanh lên dưỡng nhan</li>
+</ul>
+
+<h3>Bước 2 — Ôn nhan bát pháp (massage mặt 8 thủ pháp — 5 phút)</h3>
+<ul>
+  <li><strong>Xát trán (1):</strong> Hai ngón trỏ xát ngang từ giữa trán ra thái dương, 10 lần — thông kinh Đốc mạch, sáng não</li>
+  <li><strong>Ấn Ấn đường (2):</strong> Dùng ngón trỏ ấn nhẹ huyệt Ấn đường (giữa hai lông mày) theo vòng tròn 20 lần — giảm căng thẳng, sáng vùng trán</li>
+  <li><strong>Day Thái dương (3):</strong> Hai ngón cái day huyệt Thái dương theo chiều kim đồng hồ 20 lần — thông kinh Đởm, giảm nếp nhăn đuôi mắt</li>
+  <li><strong>Vỗ nhẹ gò má (4):</strong> Dùng đầu ngón tay vỗ nhẹ nhịp nhàng lên gò má từ ngoài vào trong 20 lần — kích thích lưu thông huyết, hồng da</li>
+  <li><strong>Xoa Nghinh hương (5):</strong> Hai ngón trỏ xoa tròn huyệt Nghinh hương (cạnh cánh mũi) 20 lần — thông Phế khiếu, giảm mụn vùng má</li>
+  <li><strong>Ấn Địa thương (6):</strong> Ngón trỏ ấn huyệt Địa thương (góc miệng) nhẹ nhàng 10 lần — kéo nâng góc miệng, giảm nhăn</li>
+  <li><strong>Vuốt cổ (7):</strong> Hai lòng bàn tay xen kẽ vuốt nhẹ từ cằm xuống cổ 20 lần — kích thích lưu thông bạch huyết, thon cổ</li>
+  <li><strong>Vê tai (8):</strong> Dùng ngón cái và trỏ vê nhẹ toàn bộ vành tai từ trên xuống dưới 20 lần — nhĩ châm toàn thân, kích hoạt các tạng qua phản xạ vành tai</li>
+</ul>
+
+<h3>Bước 3 — Huyệt dưỡng nhan trên cơ thể (5 phút)</h3>
+<ul>
+  <li><strong>Túc tam lý (ST36):</strong> Ấn day 1 phút mỗi bên — kiện Tỳ, bổ khí huyết toàn thân</li>
+  <li><strong>Huyết hải (SP10):</strong> Ấn day 1 phút mỗi bên — dưỡng huyết nhuận sắc, giảm thâm sạm</li>
+  <li><strong>Tam âm giao (SP6):</strong> Ấn day 1 phút mỗi bên — điều Tỳ Can Thận, hòa huyết dưỡng nhan</li>
+  <li><strong>Hợp cốc (LI4):</strong> Ấn day 30 giây mỗi bên — thông khí Can mạch lên mặt, giảm đỏ viêm</li>
+</ul>
+
+<h3>Bước 4 — Thư giãn hoàn tức (3 phút)</h3>
+<p>Nằm hoặc ngồi thoải mái, thở nhẹ nhàng, tưởng tượng khí huyết ấm áp đang nuôi dưỡng từng tế bào da mặt, da đang trở nên hồng hào và mịn màng hơn từng ngày.</p>
+
+<h2>Lưu ý để đạt hiệu quả tối ưu</h2>
+<ul>
+  <li>Thực hiện đều đặn mỗi sáng sau khi thức dậy hoặc trước khi ngủ — hiệu quả tích lũy sau 4–6 tuần thực hành liên tục</li>
+  <li>Rửa tay sạch trước khi thực hiện; nếu da mặt đang có vết thương hoặc mụn viêm nặng, bỏ qua bước massage mặt</li>
+  <li>Kết hợp uống đủ nước (1,5–2 lít/ngày), ngủ trước 23 giờ, hạn chế rượu bia và đồ cay nóng</li>
+  <li>Phối hợp với châm cứu dưỡng nhan tại phòng khám YHCT 1–2 lần/tháng để tăng cường hiệu quả</li>
+</ul>
+
+<div class="art-cta-box"><p>Muốn sở hữu làn da khỏe mạnh, tươi trẻ bền lâu theo con đường YHCT? Phòng Khám Y học Cổ truyền <strong>Tâm Đức</strong> — BS. Nguyễn Đức Tâm — cung cấp liệu trình châm cứu dưỡng nhan, tư vấn chế độ ăn uống và bài tập khí công cá nhân hóa phù hợp với thể trạng của từng người. Liên hệ: <strong>0973 710 237</strong> — Giờ khám: <strong>18:00–22:00 hàng ngày</strong> — Địa chỉ: Hà Đông, Hà Nội.</p></div>
+    `
+  },
+  {
     id: 113,
     slug: "bam-huyet-cai-thien-suc-khoe-mat-giam-moi-mat",
     date: "2026-07-19",
