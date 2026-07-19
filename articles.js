@@ -5,6 +5,66 @@
 
 const ARTICLES = [
   {
+    id: 113,
+    slug: "bam-huyet-cai-thien-suc-khoe-mat-giam-moi-mat",
+    date: "2026-07-19",
+    category: "khong-thuoc",
+    categoryLabel: "Không dùng thuốc",
+    icon: "🧘",
+    gradient: "g-herb",
+    title: "Bấm huyệt cải thiện sức khỏe mắt và giảm mỏi mắt theo Y học cổ truyền",
+    excerpt: "Huyệt vị quanh mắt theo YHCT giúp giảm mỏi mắt, cải thiện thị lực và ngăn ngừa khô mắt hiệu quả — phương pháp đơn giản thực hành mỗi ngày mà không cần dùng thuốc.",
+    readTime: 5,
+    content: `
+<h2>Tổng quan theo Y học cổ truyền</h2>
+<p>Trong Y học cổ truyền (YHCT), mắt là "quan khiếu của Can" — Can khai khiếu ở mục. Thị lực và sức khỏe của mắt phụ thuộc trực tiếp vào sự đầy đủ của <strong>Can huyết</strong> và <strong>Thận tinh</strong>. Kinh điển y học ghi: "Can huyết sung túc thì mắt trông rõ; Can huyết bất túc thì mắt mờ, khô, mỏi." Đồng thời, Thận tinh là nguồn gốc của tất cả âm dịch, bao gồm cả thủy dịch nuôi dưỡng nhãn cầu.</p>
+<p>Ở thời đại số, mắt phải làm việc liên tục trước màn hình, ánh sáng xanh và thiếu ngủ khiến Can huyết hao tổn nhanh chóng. Bấm huyệt — phương pháp không dùng thuốc của YHCT — kích thích các huyệt đặc hiệu giúp điều hòa khí huyết đến mắt, giảm mỏi, giảm khô và cải thiện thị lực một cách an toàn, có thể thực hành ngay tại nhà.</p>
+
+<h2>Phân thể / Nguyên nhân theo YHCT</h2>
+<ul>
+  <li><strong>Thể Can huyết hư:</strong> Mắt mỏi sau khi đọc sách hoặc nhìn màn hình, mờ mắt khi chiều tối, hoa mắt, chóng mặt nhẹ, da xanh xao, dễ mất ngủ. Nguyên nhân: lao lực mắt, thức khuya, thiếu dinh dưỡng làm Can huyết hao tổn.</li>
+  <li><strong>Thể Thận tinh hư:</strong> Thị lực suy giảm dần theo tuổi, mắt mờ nhìn xa, đau âm ỉ sau nhãn cầu, tai ù, đau lưng mỏi gối, tiểu đêm. Phổ biến ở người trung niên và cao tuổi.</li>
+  <li><strong>Thể Can hỏa thịnh:</strong> Mắt đỏ, cộm, khô rát, nhạy cảm với ánh sáng, đau đầu vùng thái dương, bứt rứt cáu gắt. Thường gặp ở người căng thẳng, tức giận nhiều, nghiện màn hình điện tử.</li>
+  <li><strong>Thể Khí huyết ứ trệ (tại kinh mạch vùng mắt):</strong> Mỏi mắt kèm cảm giác nặng, tức quanh hốc mắt, thâm quầng, giảm sau khi xoa ấn. Nguyên nhân: thiếu vận động, ngồi lâu, tư thế xấu làm kinh lạc vùng đầu cổ kém thông suốt.</li>
+</ul>
+
+<h2>Phương pháp điều trị — Huyệt vị bấm huyệt cho mắt</h2>
+<p>Các huyệt vị chính được sử dụng trong bấm huyệt cải thiện sức khỏe mắt bao gồm huyệt tại chỗ và huyệt xa:</p>
+<p><strong>Nhóm huyệt tại chỗ (quanh mắt):</strong></p>
+<ul>
+  <li><strong>Tinh minh (BL1):</strong> Nằm ở góc trong mắt, cạnh sống mũi. Huyệt quan trọng nhất để sáng mắt, giảm mỏi, cải thiện thị lực. Ấn nhẹ nhàng bằng ngón trỏ, không ấn mạnh.</li>
+  <li><strong>Toản trúc (BL2):</strong> Đầu trong của lông mày. Giảm đau đầu vùng trán, giảm mỏi mắt, chảy nước mắt sống.</li>
+  <li><strong>Ngư yêu (EX-HN4):</strong> Điểm giữa lông mày (huyệt ngoài kinh). Giảm mỏi mắt nhanh, thích hợp sau giờ làm việc với máy tính.</li>
+  <li><strong>Ty trúc không (SJ23):</strong> Đầu ngoài lông mày. Giảm đau đầu bên thái dương, mắt đỏ, mỏi.</li>
+  <li><strong>Đồng tử liêu (GB1):</strong> Ngoài khóe mắt ngoài 0,5 thốn. Trị mắt đỏ, sưng, giảm nếp nhăn đuôi mắt, cải thiện thị lực.</li>
+  <li><strong>Thừa khấp (ST1):</strong> Ngay dưới con ngươi, trên bờ dưới hốc mắt. Giảm khô mắt, co giật mí mắt. Ấn rất nhẹ, tránh ấn vào nhãn cầu.</li>
+  <li><strong>Thái dương (EX-HN5):</strong> Vùng thái dương, hõm ngoài đuôi mắt và đuôi lông mày. Giảm đau đầu, mỏi mắt nhanh — huyệt thường dùng trong bấm huyệt tự chăm sóc.</li>
+</ul>
+<p><strong>Nhóm huyệt xa (tăng cường hiệu quả toàn thân):</strong></p>
+<ul>
+  <li><strong>Hợp cốc (LI4):</strong> Mu bàn tay, giữa ngón cái và ngón trỏ. Thông kinh hoạt lạc vùng đầu mặt, giảm viêm, giảm đau đầu đi kèm mỏi mắt.</li>
+  <li><strong>Thái xung (LV3):</strong> Mu bàn chân, giữa ngón cái và ngón trỏ. Sơ Can giải uất, dưỡng Can huyết — huyệt căn bản nhất bổ trợ cho mắt. Kết hợp Hợp cốc (LI4) và Thái xung (LV3) gọi là "Tứ quan" — cặp huyệt kinh điển thông điều toàn thân.</li>
+  <li><strong>Quang minh (GB37):</strong> Cẳng chân, phía ngoài, trên mắt cá ngoài 5 thốn. Tên nghĩa là "quang minh sáng tỏ" — huyệt lạc túc thiếu dương, đặc trị các bệnh về mắt, cải thiện thị lực.</li>
+  <li><strong>Thái khê (KI3):</strong> Giữa mắt cá trong và gân gót chân. Bổ Thận âm, dưỡng tinh, cải thiện mắt mờ do Thận hư ở người cao tuổi.</li>
+  <li><strong>Túc tam lý (ST36):</strong> Dưới đầu gối ngoài 3 thốn. Bổ khí huyết toàn thân, tăng cường dinh dưỡng nuôi dưỡng mắt.</li>
+</ul>
+
+<h2>Tự thực hành tại nhà</h2>
+<ul>
+  <li><strong>Thời điểm:</strong> Buổi sáng sau khi thức dậy và buổi tối trước khi ngủ, hoặc sau mỗi 1-2 giờ làm việc với màn hình.</li>
+  <li><strong>Cách bấm huyệt tại chỗ:</strong> Nhắm mắt, dùng hai ngón trỏ ấn đồng thời lên các huyệt quanh mắt (Tinh minh → Toản trúc → Ngư yêu → Ty trúc không → Đồng tử liêu → Thái dương → Thừa khấp). Mỗi huyệt ấn nhẹ theo vòng tròn 30 giây, áp lực vừa phải, cảm giác tê tức là đúng.</li>
+  <li><strong>Cách bấm huyệt xa:</strong> Dùng ngón cái ấn Hợp cốc (LI4), Thái xung (LV3), Quang minh (GB37) mỗi bên 1-2 phút. Đây là bước bổ sung sau khi đã thực hành huyệt tại chỗ.</li>
+  <li><strong>Kết hợp chườm ấm:</strong> Sau khi bấm huyệt, úp lòng bàn tay (đã chà xát cho ấm) lên hai mắt nhắm 30-60 giây — nhiệt từ lòng bàn tay ôn thông kinh lạc quanh mắt, tăng cường hiệu quả.</li>
+  <li><strong>Liệu trình:</strong> Thực hành đều đặn 10-15 phút mỗi ngày trong 4 tuần để thấy cải thiện rõ rệt về độ mỏi mắt và khô mắt.</li>
+  <li><strong>Lưu ý quan trọng:</strong> Không ấn trực tiếp vào nhãn cầu, không ấn huyệt Hợp cốc (LI4) khi mang thai. Mắt đỏ cấp tính do nhiễm trùng cần khám bác sĩ nhãn khoa trước.</li>
+</ul>
+
+<div class="art-cta-box">
+  <p>Mỏi mắt, khô mắt, thị lực giảm dai dẳng có thể là dấu hiệu Can huyết hoặc Thận tinh suy yếu cần được điều trị bài bản. <strong>Phòng Khám YHCT Tâm Đức</strong> — BS. Nguyễn Đức Tâm — kết hợp châm cứu, bấm huyệt và thảo dược để phục hồi sức khỏe mắt từ gốc. Liên hệ <strong>0973 710 237</strong>, khám từ <strong>18:00–22:00 hàng ngày</strong> tại <strong>Hà Đông, Hà Nội</strong>.</p>
+</div>
+    `
+  },
+  {
     id: 107,
     slug: "kinh-nguyet-khong-deu-yhct-phan-the-dieu-tri",
     date: "2026-07-18",
