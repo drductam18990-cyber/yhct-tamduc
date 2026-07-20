@@ -5,6 +5,55 @@
 
 const ARTICLES = [
   {
+    id: 120,
+    slug: "duong-sinh-van-phong-giai-toa-co-vai-lung-khong-dung-thuoc",
+    date: "2026-07-20",
+    category: "khong-thuoc",
+    categoryLabel: "Không dùng thuốc",
+    icon: "🧘",
+    gradient: "g-herb",
+    title: "Dưỡng sinh cho người làm việc văn phòng: Giải tỏa căng thẳng cổ vai lưng không dùng thuốc theo Y học cổ truyền",
+    excerpt: "Ngồi bàn giấy nhiều giờ mỗi ngày khiến khí huyết ứ trệ, cổ vai lưng đau mỏi. Y học cổ truyền có bộ bài tập dưỡng sinh đơn giản, hiệu quả để thông kinh lạc và giải tỏa ngay tại văn phòng.",
+    readTime: 6,
+    content: `
+<h2>Tổng quan theo Y học cổ truyền</h2>
+<p>Trong Y học cổ truyền (YHCT), làm việc tĩnh lặng trong thời gian dài được xem là nguyên nhân gây ra tình trạng <strong>khí huyết ứ trệ, kinh lạc bất thông</strong>. Người ngồi bàn giấy nhiều giờ thường tổn hao <em>Tỳ khí</em> (do ngồi nhiều hại Tỳ), <em>Thận khí</em> (do ngồi lâu không vận động), và khiến kinh mạch vùng cổ gáy, vai, lưng co cứng, khí huyết không lưu thông.</p>
+<p>YHCT quan niệm: <em>"Thông tắc bất thống, thống tắc bất thông"</em> — nơi nào thông suốt thì không đau, nơi nào tắc nghẽn thì đau nhức. Bài tập dưỡng sinh đúng cách giúp <strong>thông khí, hoạt huyết, kiện Tỳ, bổ Thận</strong> — giải quyết tận gốc các chứng đau mỏi do ngồi làm việc nhiều.</p>
+
+<h2>Phân thể / Nguyên nhân theo YHCT</h2>
+<ul>
+  <li><strong>Thể khí trệ huyết ứ:</strong> Ngồi sai tư thế, cúi đầu nhìn màn hình lâu khiến khí huyết ở kinh Thái dương Bàng quang và Đốc mạch bị ứ trệ. Biểu hiện: đau cứng cổ gáy, đau theo từng đốt sống cổ, đầu nặng, khó xoay cổ.</li>
+  <li><strong>Thể phong hàn thấp tý:</strong> Ngồi nơi điều hòa lạnh, gió lùa trực tiếp vào cổ vai. Biểu hiện: đau mỏi tăng khi gặp lạnh, cảm giác nặng nề tê bì, co cứng vai vào buổi sáng.</li>
+  <li><strong>Thể Thận hư cân cốt suy:</strong> Làm việc căng thẳng kéo dài, thiếu ngủ làm hao Thận tinh. Biểu hiện: đau âm ỉ vùng thắt lưng, mỏi gối, dễ mệt, đau tăng khi ngồi lâu, giảm khi nằm nghỉ.</li>
+  <li><strong>Thể Tỳ hư thấp trở:</strong> Ít vận động, ăn uống không điều độ làm Tỳ vị suy, sinh thấp trọc. Biểu hiện: cơ thể nặng nề, bụng đầy trướng, tứ chi mỏi mệt, đặc biệt nặng hơn vào buổi chiều.</li>
+</ul>
+
+<h2>Phương pháp dưỡng sinh và huyệt vị hỗ trợ</h2>
+<p>Bộ bài tập dưỡng sinh YHCT dành cho người văn phòng tập trung vào <strong>thông Đốc mạch, Nhâm mạch và kinh Thái dương</strong> — các đường kinh chính chạy dọc cột sống và vai gáy:</p>
+<ul>
+  <li><strong>Xoay cổ 8 hướng:</strong> Cúi — ngửa — nghiêng trái — nghiêng phải — xoay tròn thuận chiều và ngược chiều kim đồng hồ (mỗi chiều 8 lần). Thông kinh Bàng quang, giải phóng khí ứ cổ gáy. Kết hợp bấm <strong>Phong trì (GB20)</strong> và <strong>Đại chùy (GV14)</strong> sau khi xoay.</li>
+  <li><strong>Căng vươn vai kiểu "Đại bàng trải cánh":</strong> Đứng thẳng, hai tay dang ngang, hít vào sâu — thở ra từ từ ép vai ra sau, mở ngực. Lặp 10 lần. Tác dụng: thông Tâm kinh và Phế kinh, giảm đè ép vùng ngực — vai.</li>
+  <li><strong>Bài tập Lắc cột sống:</strong> Ngồi thẳng, hai tay đặt lên đùi, xoay thân từ phải sang trái nhịp nhàng (không vặn cột sống cổ), mỗi chiều 10 lần. Kích thích kinh Đốc mạch, thông khí dọc cột sống.</li>
+  <li><strong>Bấm huyệt Hợp cốc (LI4):</strong> Huyệt nằm ở vùng thịt mu bàn tay (ngón cái và ngón trỏ). Bấm mạnh 30 giây mỗi bên, dùng ngón cái bên kia ấn — giúp giảm đau đầu, giải căng thẳng tức thì.</li>
+  <li><strong>Bấm huyệt Kiên tỉnh (GB21):</strong> Huyệt ở điểm giữa đường nối vai và cột sống cổ (đỉnh cơ thang). Bấm và day nhẹ 1–2 phút mỗi bên, giải phóng căng cứng vùng vai gáy hiệu quả.</li>
+  <li><strong>Bấm huyệt Túc tam lý (ST36):</strong> Huyệt nằm dưới đầu gối 3 thốn, bên ngoài xương chày. Xoa bóp 1–2 phút mỗi bên — bổ Tỳ khí, chống mệt mỏi, tăng năng lượng sau buổi làm việc dài.</li>
+</ul>
+
+<h2>Tự thực hành tại nhà và tại văn phòng</h2>
+<ul>
+  <li><strong>Quy tắc 30-3:</strong> Cứ mỗi 30 phút ngồi làm việc, đứng dậy vận động 3 phút — đi bộ tại chỗ, vươn tay, xoay cổ. Đây là thực hành đơn giản nhất để phòng ngừa khí huyết ứ trệ.</li>
+  <li><strong>Buổi sáng trước khi làm việc:</strong> Thực hiện toàn bộ bài tập dưỡng sinh 10–15 phút — giúp khai thông kinh lạc trước khi vào ca làm việc.</li>
+  <li><strong>Buổi tối trước khi ngủ:</strong> Ngâm chân nước ấm pha muối hồng 15 phút kết hợp bấm huyệt <strong>Dũng tuyền (KD1)</strong> (lòng bàn chân, điểm 1/3 trên) — bổ Thận âm, an thần, cải thiện giấc ngủ.</li>
+  <li><strong>Tư thế ngồi đúng:</strong> Lưng thẳng, vai thư giãn, màn hình ngang tầm mắt. Điều chỉnh ghế để đùi song song sàn nhà. Sử dụng gối tựa lưng nếu cần — đây là biện pháp phòng ngừa chủ động theo tinh thần "phòng bệnh hơn chữa bệnh" của YHCT.</li>
+  <li><strong>Chế độ ăn hỗ trợ:</strong> Uống đủ nước ấm, ăn thêm các thực phẩm bổ Tỳ (khoai lang, hạt sen, ý dĩ), bổ Thận (đỗ đen, hạt óc chó), giảm đồ lạnh và ngọt nhiều — hạn chế sinh thấp trọc gây nặng nề cơ thể.</li>
+</ul>
+
+<div class="art-cta-box">
+  <p>Đau cổ vai lưng do ngồi làm việc lâu có thể cải thiện rõ rệt bằng dưỡng sinh và bấm huyệt đúng cách. Nếu tình trạng đau mỏi kéo dài hoặc tái phát thường xuyên, hãy đến khám tại <strong>Phòng Khám Y học Cổ truyền Tâm Đức</strong> — BS. Nguyễn Đức Tâm sẽ thăm khám, phân thể bệnh và xây dựng phác đồ châm cứu, xoa bóp cá nhân hóa phù hợp. Liên hệ: <strong>0973 710 237</strong> — Giờ khám: <strong>18:00–22:00 hàng ngày</strong> — Địa chỉ: Hà Đông, Hà Nội.</p>
+</div>
+    `
+  },
+  {
     id: 114,
     slug: "zona-than-kinh-yhct-phan-the-phac-do-dieu-tri",
     date: "2026-07-19",
