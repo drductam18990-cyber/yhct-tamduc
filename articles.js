@@ -5,6 +5,54 @@
 
 const ARTICLES = [
   {
+    id: 127,
+    slug: "xong-hoi-thao-duoc-giai-cam-thu-gian-yhct",
+    date: "2026-07-21",
+    category: "khong-thuoc",
+    categoryLabel: "Không dùng thuốc",
+    icon: "🧘",
+    gradient: "g-herb",
+    title: "Xông hơi thảo dược theo Y học cổ truyền: Giải cảm, thư giãn và thanh lọc cơ thể",
+    excerpt: "Xông hơi thảo dược là phương pháp không dùng thuốc được YHCT ứng dụng hàng nghìn năm, giúp khai thông tấu lý, giải biểu tán hàn và thanh lọc cơ thể hiệu quả ngay tại nhà.",
+    readTime: 5,
+    content: `
+<h2>Tổng quan theo Y học cổ truyền</h2>
+<p>Xông hơi thảo dược, còn gọi là <strong>Hãn pháp</strong> (phép phát hãn — làm ra mồ hôi), thuộc nhóm <em>Bát pháp</em> — tám phương pháp điều trị cơ bản của Y học cổ truyền (YHCT). Nguyên lý cốt lõi là dùng hơi nước nóng chứa tinh chất thảo dược để <strong>khai thông tấu lý</strong> (lỗ chân lông và cơ trên da), giúp tà khí (phong, hàn, thấp, nhiệt) thoát ra ngoài qua đường mồ hôi, phục hồi sự lưu thông của khí huyết trong kinh lạc.</p>
+<p>Theo Nội Kinh — bộ sách kinh điển của YHCT — "Tấu lý khai tắc, hãn xuất tà khứ" (khi tấu lý thông, mồ hôi ra, tà khí lui). Vì vậy, xông hơi không chỉ là liệu pháp giải cảm mà còn hỗ trợ giảm đau cơ xương khớp, thư giãn thần kinh và tăng cường lưu thông khí huyết toàn thân.</p>
+
+<h2>Chỉ định và phân thể theo YHCT</h2>
+<ul>
+  <li><strong>Thể Phong hàn biểu chứng:</strong> Cảm lạnh, sợ gió sợ lạnh, không ra mồ hôi, đau đầu, đau mình mẩy, nghẹt mũi chảy nước trong. Xông hơi thảo dược ôn ấm (gừng, tía tô, sả, kinh giới) giải biểu tán hàn rất hiệu quả.</li>
+  <li><strong>Thể Phong thấp tý chứng:</strong> Đau nhức cơ khớp do phong thấp, cơ bắp co cứng, vận động khó khăn. Xông hơi giúp thông kinh hoạt lạc, khu phong trừ thấp, giảm đau và tăng biên độ vận động.</li>
+  <li><strong>Thể Khí trệ, Huyết ứ nhẹ:</strong> Mệt mỏi, căng thẳng, vai gáy cứng, cơ bắp căng sau ngày dài làm việc. Hơi nóng thảo dược giãn mạch, thúc đẩy khí huyết lưu hành, giải trừ uất trệ.</li>
+  <li><strong>Chú ý chống chỉ định:</strong> Không xông hơi khi có sốt cao, ra nhiều mồ hôi, người suy nhược nặng, phụ nữ có thai, bệnh tim mạch nặng hoặc vừa ăn no.</li>
+</ul>
+
+<h2>Bài thuốc thảo dược xông hơi và cách thực hành</h2>
+<p>Lựa chọn thảo dược theo thể trạng là yếu tố quan trọng:</p>
+<ul>
+  <li><strong>Công thức giải cảm phong hàn:</strong> Lá tía tô, gừng tươi, sả, lá chanh, lá bưởi, kinh giới, bạch chỉ. Đun sôi 10–15 phút, xông 10–15 phút. Sau xông lau khô người ngay, mặc ấm.</li>
+  <li><strong>Công thức thư giãn, giảm đau khớp:</strong> Ngải cứu, lá lốt, đinh lăng, bạch chỉ, gừng khô. Đun sôi, xông 15–20 phút, kết hợp hít hơi thở sâu để tinh dầu thảo mộc thấm qua đường hô hấp.</li>
+  <li><strong>Công thức dưỡng da, thanh lọc:</strong> Lá tre, bạc hà, sả, hoa cúc, lá dâu. Tác dụng kháng khuẩn nhẹ, thông thoáng lỗ chân lông, làm sạch da.</li>
+</ul>
+<p>Các huyệt được kích hoạt gián tiếp trong quá trình xông hơi: <strong>Đại chùy (GV14)</strong> — huyệt hội tụ dương khí, <strong>Phong trì (GB20)</strong> — khu phong giải biểu, <strong>Hợp cốc (LI4)</strong> — khai thông kinh Phế và Đại trường, <strong>Túc tam lý (ST36)</strong> — kiện tỳ tăng cường chính khí.</p>
+
+<h2>Tự thực hành xông hơi an toàn tại nhà</h2>
+<ul>
+  <li>Chuẩn bị nồi nước lớn (3–5 lít), đun sôi thảo dược đã chọn 10–15 phút.</li>
+  <li>Đặt nồi ở vị trí an toàn, ngồi cách nồi 40–50 cm, dùng chăn hoặc tấm vải che phủ tạo lều hơi.</li>
+  <li>Xông 10–20 phút tùy mục đích; chú ý hít thở đều, sâu để hấp thu tinh dầu thảo dược qua đường hô hấp.</li>
+  <li>Sau xông: lau khô mồ hôi ngay, uống 1 ly nước ấm bổ sung nước và điện giải, nghỉ ngơi 30 phút.</li>
+  <li>Tần suất: 2–3 lần/tuần khi phòng bệnh, mỗi ngày 1 lần trong 3–5 ngày khi đang cảm cúm nhẹ (không sốt cao).</li>
+  <li>Trẻ em dưới 10 tuổi và người cao tuổi chỉ xông tay chân, không xông toàn thân.</li>
+</ul>
+
+<div class="art-cta-box">
+  <p>Xông hơi thảo dược đúng cách mang lại hiệu quả rõ rệt, nhưng lựa chọn bài thuốc phù hợp với thể trạng mỗi người là điều không thể bỏ qua. Để được tư vấn cá thể hóa và phối hợp điều trị toàn diện, hãy đến khám tại <strong>Phòng Khám Y học cổ truyền Tâm Đức</strong> — <strong>BS. Nguyễn Đức Tâm</strong>. Hotline: <strong>0973 710 237</strong>. Giờ khám: <strong>18:00–22:00 hàng ngày</strong>. Địa chỉ: <strong>Hà Đông, Hà Nội</strong>.</p>
+</div>
+    `
+  },
+  {
     id: 121,
     slug: "vo-sinh-nam-nu-yhct-phan-the-dieu-tri",
     date: "2026-07-20",
