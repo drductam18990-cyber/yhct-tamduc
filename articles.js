@@ -5,6 +5,399 @@
 
 const ARTICLES = [
   {
+    id: 129,
+    slug: "benh-parkinson-giai-doan-som-yhct-phan-the-phac-do-dieu-tri",
+    date: "2026-07-22",
+    category: "mat-benh",
+    categoryLabel: "Mặt bệnh",
+    icon: "🩺",
+    gradient: "g-navy",
+    title: "Bệnh Parkinson giai đoạn sớm theo Y học cổ truyền: Phân thể và phác đồ điều trị",
+    excerpt: "Y học cổ truyền gọi bệnh Parkinson là \"Chấn điên\" hoặc \"Hàn chiến\", bắt nguồn từ Can Thận suy hư, Khí huyết bất túc khiến kinh mạch mất dưỡng và Can phong nội động. Phát hiện và điều trị sớm bằng YHCT giúp làm chậm tiến triển bệnh, nâng cao chất lượng cuộc sống.",
+    readTime: 7,
+    content: `
+<h2>Đại cương: Bệnh Parkinson theo quan điểm Y học cổ truyền</h2>
+<p>Bệnh Parkinson là bệnh thoái hóa thần kinh tiến triển chậm, đặc trưng bởi run tay (run khi nghỉ), cứng cơ, vận động chậm chạp và mất ổn định tư thế. Trong Y học cổ truyền (YHCT), bệnh được mô tả trong phạm trù <strong>Chấn điên</strong> (rung giật), <strong>Hàn chiến</strong> (run vì lạnh bên trong) hoặc <strong>Chư phong điệu miên</strong> (các chứng run do phong). Cơ chế bệnh sinh theo YHCT tập trung vào ba luận điểm chính:</p>
+<ul>
+  <li><strong>Can Thận hư tổn:</strong> Can chủ cân, Thận chủ cốt và tủy. Tuổi cao hoặc bệnh mạn tính khiến Can Thận âm hư, cân cơ mất nhu dưỡng, sinh phong nội động.</li>
+  <li><strong>Khí huyết bất túc:</strong> Tỳ Vị hư yếu không sản sinh đủ huyết dịch, gân cơ và não tủy thiếu nhu dưỡng, dẫn đến run rẩy và vận động trì trệ.</li>
+  <li><strong>Đàm ứ trở lạc:</strong> Đàm thấp và huyết ứ cản trở kinh mạch, Can phong theo đó bùng phát, tạo nên vòng bệnh lý phức tạp.</li>
+</ul>
+<p>Điều trị bằng YHCT trong giai đoạn sớm không thay thế thuốc Tây y chuyên biệt, nhưng có thể hỗ trợ làm chậm tiến triển, giảm liều thuốc cần dùng, cải thiện chức năng vận động và giảm các triệu chứng đi kèm như mất ngủ, táo bón, trầm cảm.</p>
+
+<h2>Phân thể lâm sàng theo Y học cổ truyền</h2>
+
+<h3>1. Thể Can Thận âm hư — phong dương nội động</h3>
+<p><strong>Triệu chứng:</strong> Run tay chân, cứng cơ, vận động chậm, kèm hoa mắt chóng mặt, ù tai, lưng gối đau mỏi, miệng khô họng ráo, mất ngủ, lưỡi đỏ ít rêu, mạch huyền tế sác.</p>
+<p><strong>Pháp điều trị:</strong> Tư âm bổ thận, bình can tức phong, dưỡng huyết nhu cân.</p>
+<p><strong>Bài thuốc tham khảo:</strong> Tả quy hoàn gia giảm (Thục địa, Kỷ tử, Sơn thù, Hoài sơn, Quy bản giao) phối hợp Thiên ma câu đằng ẩm (Thiên ma, Câu đằng, Thạch quyết minh).</p>
+
+<h3>2. Thể Khí huyết lưỡng hư — phong thấp nội nhàm</h3>
+<p><strong>Triệu chứng:</strong> Run rẩy, sắc mặt trắng bệch hoặc vàng nhợt, mệt mỏi vô lực, ăn kém, đại tiện phân nát, lưỡi nhợt bệu, mạch tế nhược.</p>
+<p><strong>Pháp điều trị:</strong> Bổ khí dưỡng huyết, khu phong trấn kinh.</p>
+<p><strong>Bài thuốc tham khảo:</strong> Bát trân thang gia giảm (Nhân sâm, Bạch truật, Phục linh, Cam thảo, Đương quy, Bạch thược, Xuyên khung, Thục địa) kết hợp Thiên ma, Toàn yết.</p>
+
+<h3>3. Thể Đàm nhiệt động phong</h3>
+<p><strong>Triệu chứng:</strong> Run cứng toàn thân, đầu não căng tức, ngực bụng đầy trướng, miệng đắng, khạc đàm vàng, đại tiện táo, tiểu vàng sẫm, lưỡi đỏ rêu vàng nhớt, mạch huyền hoạt sác.</p>
+<p><strong>Pháp điều trị:</strong> Thanh nhiệt hóa đàm, tức phong trấn kinh.</p>
+<p><strong>Bài thuốc tham khảo:</strong> Hoàng liên ôn đởm thang gia giảm (Hoàng liên, Trần bì, Bán hạ, Phục linh, Chỉ thực, Trúc như) phối hợp Thiên trúc hoàng, Câu đằng.</p>
+
+<h3>4. Thể Khí trệ huyết ứ — kinh lạc tắc trở</h3>
+<p><strong>Triệu chứng:</strong> Vận động cứng nhắc nặng nề, tư thế gù vẹo cố định, đau nhức khu trú, sắc mặt tối sạm, lưỡi có điểm ứ huyết hoặc đốm tím, mạch sáp.</p>
+<p><strong>Pháp điều trị:</strong> Hành khí hoạt huyết, thông lạc tức phong.</p>
+<p><strong>Bài thuốc tham khảo:</strong> Bổ dương hoàn ngũ thang gia giảm (Hoàng kỳ, Đương quy, Đào nhân, Hồng hoa, Xuyên khung, Địa long) kết hợp Toàn yết, Ngô công.</p>
+
+<h2>Phương pháp châm cứu và không dùng thuốc</h2>
+<p>Châm cứu đóng vai trò quan trọng trong hỗ trợ điều trị Parkinson giai đoạn sớm, đặc biệt để cải thiện run, cứng cơ và chứng mất ngủ kèm theo:</p>
+<ul>
+  <li><strong>Đầu châm (Châm cứu vùng đầu):</strong> Vùng vận động đối bên (Motor area), vùng cân bằng (Balance area) theo phân vùng đầu châm — thích hợp cho thể run và rối loạn tư thế.</li>
+  <li><strong>Huyệt toàn thân:</strong> Phong trì (GB20), Bách hội (GV20), Thái xung (LR3), Thái khê (KI3), Túc tam lý (ST36), Dương lăng tuyền (GB34), Hợp cốc (LI4), Nội quan (PC6).</li>
+  <li><strong>Nhĩ châm:</strong> Điểm thần môn nhĩ, điểm Giao cảm, điểm Não (subcortex) giúp giảm run và cải thiện giấc ngủ.</li>
+  <li><strong>Khí công dưỡng sinh:</strong> Bài Bát đoạn cẩm và Thái cực quyền đã được nghiên cứu lâm sàng giúp cải thiện cân bằng và giảm nguy cơ té ngã.</li>
+</ul>
+
+<h2>Nguyên tắc dưỡng sinh và sinh hoạt hàng ngày</h2>
+<ul>
+  <li><strong>Chế độ ăn:</strong> Bổ sung thực phẩm dưỡng Can Thận: hà thủ ô chế, kỷ tử, đen vừng (hắc chi ma), đậu đen, óc heo. Tránh đồ cay nóng, rượu bia, cà phê kích thích phong dương.</li>
+  <li><strong>Vận động:</strong> Tập thể dục nhẹ nhàng hàng ngày 30–45 phút: đi bộ, thái cực quyền, bơi lội. Tránh ngã té bằng cách luyện tập thăng bằng có hướng dẫn.</li>
+  <li><strong>Giấc ngủ:</strong> Đi ngủ trước 23h, nằm phòng yên tĩnh, tránh xem điện thoại trước ngủ. Châm cứu và bấm huyệt Nội quan, Tam âm giao giúp cải thiện giấc ngủ.</li>
+  <li><strong>Tinh thần:</strong> Duy trì lạc quan, tham gia các hoạt động xã hội, tránh lo âu kéo dài vì tâm lý tiêu cực làm nặng thêm Can khí uất kết và phong dương.</li>
+</ul>
+
+<h2>Khi nào cần thăm khám bác sĩ chuyên khoa?</h2>
+<p>Nếu bạn hoặc người thân có các dấu hiệu: run tay một bên khi nghỉ ngơi, chữ viết ngày càng nhỏ dần (chứng "tiểu tự"), dáng đi chậm và bước ngắn, sắc mặt ít biểu cảm — hãy thăm khám chuyên khoa thần kinh để chẩn đoán xác định, đồng thời kết hợp YHCT để có phác đồ toàn diện nhất.</p>
+
+<div class="art-cta-box"><p>Phòng Khám Y học cổ truyền <strong>YHCT Tâm Đức</strong> — BS. Nguyễn Đức Tâm — có kinh nghiệm hỗ trợ điều trị các bệnh lý thoái hóa thần kinh bằng châm cứu, thuốc YHCT và dưỡng sinh toàn diện. Liên hệ đặt lịch: <strong>0973 710 237</strong> — Giờ khám: <strong>18:00–22:00 hàng ngày</strong> — Địa chỉ: <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 130,
+    slug: "bo-sung-omega-3-thuc-pham-tu-nhien-duong-nao-bo-than-yhct",
+    date: "2026-07-22",
+    category: "khong-thuoc",
+    categoryLabel: "Không dùng thuốc",
+    icon: "🧘",
+    gradient: "g-herb",
+    title: "Bổ sung omega-3 từ thực phẩm tự nhiên: Dưỡng não, bổ Thận theo Y học cổ truyền không dùng thuốc",
+    excerpt: "Thay vì dùng viên uống omega-3 tổng hợp, Y học cổ truyền hướng dẫn bổ sung acid béo thiết yếu qua thực phẩm tự nhiên phù hợp thể trạng — vừa dưỡng não, vừa bổ Thận tinh và an tâm thần một cách hài hòa, bền vững.",
+    readTime: 5,
+    content: `
+<h2>Omega-3 và quan điểm của Y học cổ truyền</h2>
+<p>Y học cổ truyền không có khái niệm "omega-3" theo hóa học hiện đại, nhưng có một hệ thống dưỡng sinh thực phẩm phong phú nhắm đến tác dụng tương đương: <strong>dưỡng não bổ tủy, tư âm ích thận, hoạt huyết thông mạch</strong>. Não theo YHCT là "biển của tủy" (Tủy hải), được Thận tinh nuôi dưỡng. Khi Thận tinh đầy đủ, tủy não sung mãn, trí tuệ minh mẫn và tinh thần ổn định.</p>
+<p>Các thực phẩm giàu omega-3 trong tự nhiên — như cá béo, hạt lanh, hạt chia, óc heo — đều được YHCT phân loại vào nhóm <strong>tư âm bổ tinh, hoạt huyết trừ ứ</strong>, phù hợp với cơ chế tác dụng của omega-3 trên hệ tim mạch, thần kinh và chống viêm mà y học hiện đại đã chứng minh.</p>
+
+<h2>Các thực phẩm giàu omega-3 theo góc nhìn YHCT</h2>
+<ul>
+  <li><strong>Cá hồi, cá thu, cá mòi (cá béo):</strong> YHCT xếp vào nhóm <em>bổ thận ích tinh, dưỡng huyết nhu cân</em>. Đặc biệt tốt cho người thể Can Thận âm hư, hay đau đầu, mắt mờ, khó ngủ. Ăn 2–3 lần/tuần, chế biến hấp hoặc nướng, tránh chiên rán nhiều dầu.</li>
+  <li><strong>Hạt lanh (Hà ma nhân — 火麻仁):</strong> Trong YHCT gọi là <em>Hỏa ma nhân</em>, có tác dụng <em>nhuận trường thông tiện, dưỡng huyết sinh tân</em>. Giàu ALA (alpha-linolenic acid) — tiền chất omega-3. Phù hợp người âm hư táo nhiệt, táo bón.</li>
+  <li><strong>Óc heo (Zhu nao — 豬腦):</strong> YHCT có câu <em>"Dĩ hình bổ hình"</em> — lấy tạng bổ tạng. Óc heo bổ não tủy, ích thận tinh. Dùng hầm với Kỷ tử, Hoài sơn giúp tăng tác dụng bổ thận dưỡng não.</li>
+  <li><strong>Hạt chia (Salvia hispanica):</strong> Tuy không có tên trong kinh điển YHCT cổ đại, nhưng theo tính vị có thể phân loại là <em>hàn tính, vị ngọt nhạt</em>, tác dụng <em>sinh tân, trừ nhiệt, ích âm</em>. Phù hợp người nhiệt thể, miệng khô, táo bón, cao huyết áp.</li>
+  <li><strong>Quả óc chó (Hồ đào nhân — 胡桃仁):</strong> Kinh điển YHCT ghi: <em>Hồ đào nhân bổ thận dưỡng huyết, nhuận phế định suyễn, nhuận trường thông tiện</em>. Vỏ ngoài quả óc chó hình dạng giống não, là thực phẩm bổ não tư thận hàng đầu. Mỗi ngày ăn 3–5 quả sau bữa sáng.</li>
+  <li><strong>Đậu nành và sản phẩm từ đậu nành:</strong> Đậu nành trong YHCT <em>bổ tỳ ích khí, lợi thấp nhuận táo</em>. Giàu ALA và các chất chống oxy hóa, hỗ trợ dưỡng não và bảo vệ mạch máu.</li>
+  <li><strong>Hà thủ ô (Polygonum multiflorum):</strong> Vị thuốc YHCT cổ điển <em>bổ thận tinh, dưỡng can huyết, ô tu phát</em>. Giàu stilbenes và các chất chống oxy hóa, kết hợp tốt với thực phẩm omega-3 để dưỡng não và đen tóc.</li>
+</ul>
+
+<h2>Cách sử dụng đúng theo thể trạng YHCT</h2>
+<p>YHCT nhấn mạnh nguyên tắc <strong>"biện chứng luận thực"</strong> — ăn uống phải phù hợp với thể trạng cá nhân:</p>
+<ul>
+  <li><strong>Thể âm hư hỏa vượng</strong> (hay nóng trong, miệng khô, mất ngủ): Ưu tiên cá hồi hấp, hạt chia ngâm nước, đậu hũ mềm. Tránh chiên xào nhiều dầu.</li>
+  <li><strong>Thể dương hư hàn thể</strong> (hay lạnh tay chân, mệt mỏi): Kết hợp cá thu hầm gừng, óc heo hầm với đương quy và kỷ tử để vừa bổ não vừa ôn dương.</li>
+  <li><strong>Thể đàm thấp béo phì</strong> (người béo, lưỡi bệu rêu trắng nhớt): Ưu tiên cá béo, quả óc chó, hạt lanh. Tránh óc heo do có nhiều cholesterol.</li>
+  <li><strong>Người cao tuổi Can Thận suy hư:</strong> Món hầm tổng hợp: cá hồi + quả óc chó + kỷ tử + hoài sơn là lựa chọn lý tưởng để vừa bổ omega-3 vừa dưỡng thận ích não.</li>
+</ul>
+
+<h2>Bài ăn dưỡng sinh bổ não theo YHCT</h2>
+<ul>
+  <li><strong>Cháo óc heo kỷ tử:</strong> Óc heo 1/2 bộ, gạo tẻ 60g, kỷ tử 15g, đương quy 6g. Hầm nhừ, ăn sáng. Bổ thận ích não, dưỡng huyết an thần.</li>
+  <li><strong>Cháo hạt lanh quả óc chó:</strong> Hạt lanh rang 20g, quả óc chó 30g, gạo lứt 60g, mật ong vừa đủ. Ăn sáng. Tư âm nhuận táo, dưỡng não trừ phong.</li>
+  <li><strong>Canh cá thu đậu hũ:</strong> Cá thu 200g, đậu hũ 100g, gừng tươi 3 lát, hành lá, gia vị vừa đủ. Ăn trưa hoặc tối. Bổ khí dưỡng huyết, dưỡng não hoạt mạch.</li>
+</ul>
+
+<h2>Lưu ý quan trọng</h2>
+<ul>
+  <li>Không thay thế omega-3 thực phẩm bằng viên uống tổng hợp nếu không có chỉ định bác sĩ — liều cao từ viên uống có thể gây chảy máu ở người dùng thuốc chống đông.</li>
+  <li>Người bị bệnh gout nên hạn chế cá béo (purin cao) — thay thế bằng hạt lanh, hạt chia và quả óc chó.</li>
+  <li>Thực phẩm omega-3 cần chế biến đúng cách — tránh chiên rán nhiệt độ cao làm biến dạng cấu trúc acid béo thành dạng có hại.</li>
+</ul>
+
+<div class="art-cta-box"><p>Để được tư vấn chế độ dinh dưỡng dưỡng sinh phù hợp thể trạng YHCT của bạn, hãy đến thăm khám tại <strong>Phòng Khám YHCT Tâm Đức</strong> — BS. Nguyễn Đức Tâm — <strong>0973 710 237</strong> — Giờ khám: <strong>18:00–22:00 hàng ngày</strong> — Địa chỉ: <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 131,
+    slug: "ta-quy-hoan-bai-thuoc-tu-bo-than-am-dien-tinh-bo-tuy-yhct",
+    date: "2026-07-22",
+    category: "thuoc-yhct",
+    categoryLabel: "Thuốc YHCT",
+    icon: "🌿",
+    gradient: "g-fire",
+    title: "Tả quy hoàn — Bài thuốc tư bổ thận âm, điền tinh bổ tủy kinh điển của Y học cổ truyền",
+    excerpt: "Tả quy hoàn là bài thuốc nổi tiếng của danh y Trương Cảnh Nhạc (thế kỷ XVII), chuyên dùng để bổ sung Thận âm và Thận tinh sâu sắc, điều trị các chứng âm hư tủy hao như đau lưng mỏi gối, ù tai, di tinh, mồ hôi trộm và suy giảm trí nhớ.",
+    readTime: 6,
+    content: `
+<h2>Nguồn gốc và ý nghĩa tên bài thuốc</h2>
+<p>Tả quy hoàn (左歸丸) xuất xứ từ bộ <em>Cảnh Nhạc Toàn Thư</em> (景岳全書) của danh y <strong>Trương Cảnh Nhạc</strong> (張景岳, 1563–1640), một trong những đại danh y quan trọng nhất của Trung Y đời Minh. Bài thuốc được tạo ra như một cặp đối với <em>Hữu quy hoàn</em> (bổ thận dương) — trong khi "Hữu quy" (phải) ôn bổ thận dương, thì "Tả quy" (trái) tư dưỡng thận âm.</p>
+<p>Tên "Tả quy" mang ý nghĩa: <em>Tả</em> (trái) tương ứng với âm, thủy, Can Thận âm; <em>Quy</em> (về) nghĩa là quy về căn bản — tức là phục hồi thận âm và tinh tủy về trạng thái đầy đủ ban đầu. Đây là bài thuốc <strong>thuần bổ</strong>, không công phạt tà khí, chuyên dùng khi thận âm tinh tủy suy hư nặng.</p>
+
+<h2>Thành phần và vai trò từng vị thuốc</h2>
+<ul>
+  <li><strong>Thục địa hoàng (熟地黄) — 24g:</strong> Quân dược. Tư âm bổ huyết, ích tinh điền tủy. Là vị chủ lực nuôi dưỡng Thận âm và can huyết.</li>
+  <li><strong>Kỷ tử (枸杞子) — 12g:</strong> Thần dược. Bổ thận ích tinh, dưỡng can minh mục. Cường hóa tác dụng bổ tinh tủy của thục địa.</li>
+  <li><strong>Sơn thù du (山茱萸) — 12g:</strong> Thần dược. Bổ can thận, sáp tinh chỉ hãn. Ngăn tinh khí thất thoát và ổn định thận khí.</li>
+  <li><strong>Hoài sơn (淮山藥) — 12g:</strong> Tá dược. Kiện tỳ bổ thận, cố tinh chỉ đới. Bổ Tỳ để hậu thiên sinh hóa tinh khí nuôi bổ tiên thiên.</li>
+  <li><strong>Ngưu tất (牛膝) — 9g:</strong> Tá dược. Bổ can thận, mạnh gân cốt, dẫn thuốc đi xuống thận. Tác dụng dẫn kinh đặc biệt quan trọng để thuốc đi đến Thận kinh.</li>
+  <li><strong>Thỏ ty tử (菟絲子) — 12g:</strong> Tá dược. Bổ thận ích tinh, dưỡng can minh mục. Phối hợp với Kỷ tử tăng cường bổ thận ích tinh, cải thiện thị lực và chức năng sinh dục.</li>
+  <li><strong>Lộc giác giao (鹿角膠) — 12g:</strong> Thần dược. Ôn bổ thận dương, ích tinh bổ huyết. Trong bài Tả quy hoàn, lộc giác giao được dùng để <em>"bổ dương trong âm"</em> — lấy dương để sinh âm theo nguyên lý "âm dương hỗ căn".</li>
+  <li><strong>Quy bản giao (龜板膠) — 12g:</strong> Thần dược. Tư âm tiềm dương, bổ thận ích tinh. Tăng cường mạnh mẽ tác dụng tư âm của bài thuốc, đặc biệt khi có chứng âm hư dương vượng (hoa mắt, bốc hỏa, mồ hôi trộm).</li>
+</ul>
+<p><em>Ghi chú: Lộc giác giao và Quy bản giao là hai vị thuốc từ động vật, có thể thay bằng dạng cao hoặc viên bào chế sẵn tùy điều kiện.</em></p>
+
+<h2>Cơ chế tác dụng theo lý luận YHCT</h2>
+<p>Bài thuốc tác động theo cơ chế <strong>"tư âm điền tinh, âm dương song bổ"</strong>:</p>
+<ul>
+  <li>Thục địa + Quy bản giao → Tư bổ thận âm, điền tinh bổ tủy (cốt lõi bài thuốc)</li>
+  <li>Lộc giác giao + Thỏ ty tử → Bổ dương để sinh âm, ôn hóa tinh khí</li>
+  <li>Sơn thù + Kỷ tử → Bổ Can Thận, sáp tinh, tránh tinh khí thất thoát</li>
+  <li>Hoài sơn → Kiện Tỳ hậu thiên để nuôi dưỡng thận tiên thiên</li>
+  <li>Ngưu tất → Dẫn thuốc vào Thận kinh, mạnh gân cốt</li>
+</ul>
+<p>Điểm đặc biệt của Tả quy hoàn so với Lục vị địa hoàng hoàn (bài bổ thận âm nền tảng): Tả quy hoàn <strong>thuần bổ</strong> hơn, không dùng Trạch tả và Phục linh (thẩm thấp lợi thủy) — phù hợp khi âm tinh tổn thương nặng cần bổ sâu mà không bị tản thoát qua con đường lợi niệu.</p>
+
+<h2>Chỉ định lâm sàng</h2>
+<p>Tả quy hoàn được chỉ định cho các chứng <strong>Thận âm bất túc, tinh tủy hư hao</strong> biểu hiện qua:</p>
+<ul>
+  <li>Đau lưng mỏi gối kéo dài, không có dấu hiệu viêm</li>
+  <li>Hoa mắt chóng mặt, ù tai, thị lực giảm</li>
+  <li>Di tinh, hoạt tinh, xuất tinh sớm do Thận không sáp tinh</li>
+  <li>Mồ hôi trộm về đêm, bốc hỏa, miệng khô họng ráo</li>
+  <li>Suy giảm trí nhớ, kém tập trung ở người cao tuổi</li>
+  <li>Chậm lớn, thóp chậm liền ở trẻ em do bẩm sinh thận tinh bất túc</li>
+  <li>Phụ nữ tiền mãn kinh: bốc hỏa, khô âm đạo, loãng xương sớm</li>
+  <li>Di chứng lao phổi, bệnh mạn tính kéo dài làm hao tổn âm tinh</li>
+</ul>
+
+<h2>Chống chỉ định và lưu ý khi sử dụng</h2>
+<ul>
+  <li><strong>Không dùng</strong> khi có ngoại tà (cảm cúm, sốt nhiễm trùng) — bài thuốc thuần bổ sẽ "giữ tà" lại bên trong.</li>
+  <li><strong>Không dùng</strong> khi có đàm thấp, tiêu hóa kém, đầy bụng, tiêu phân lỏng — vì bài nhiều vị tư nhuận gây trệ tỳ.</li>
+  <li><strong>Thận trọng</strong> ở người Tỳ hư đàm thấp: cần gia giảm bằng cách thêm Bạch truật, Sa nhân, Trần bì để kiện tỳ hóa đàm.</li>
+  <li>Sử dụng theo chỉ định và điều chỉnh liều lượng của thầy thuốc YHCT — không tự ý dùng kéo dài mà không theo dõi.</li>
+  <li>Phụ nữ có thai tham khảo ý kiến bác sĩ trước khi dùng.</li>
+</ul>
+
+<div class="art-cta-box"><p>Tả quy hoàn được bào chế và ứng dụng linh hoạt tại <strong>Phòng Khám YHCT Tâm Đức</strong> — BS. Nguyễn Đức Tâm sẽ tư vấn thể trạng và gia giảm bài thuốc phù hợp từng bệnh nhân. Liên hệ: <strong>0973 710 237</strong> — Giờ khám: <strong>18:00–22:00 hàng ngày</strong> — Địa chỉ: <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 132,
+    slug: "phong-ngua-viem-gan-man-tinh-duong-can-ty-yhct",
+    date: "2026-07-22",
+    category: "phong-benh",
+    categoryLabel: "Phòng bệnh",
+    icon: "🛡️",
+    gradient: "g-amber",
+    title: "Phòng ngừa viêm gan mạn tính theo Y học cổ truyền: Dưỡng Can Tỳ để phòng bệnh từ gốc",
+    excerpt: "Y học cổ truyền xem viêm gan mạn là hệ quả của Can khí uất kết, Tỳ hư thấp thịnh và nhiệt độc tích tụ. Phòng ngừa hiệu quả đòi hỏi điều hòa cảm xúc, cải thiện chế độ ăn uống và sử dụng thực phẩm, thảo dược bảo vệ tạng Can từ sớm.",
+    readTime: 5,
+    content: `
+<h2>Viêm gan mạn tính nhìn từ góc độ Y học cổ truyền</h2>
+<p>Viêm gan mạn tính (chủ yếu do virus viêm gan B, C hoặc do rượu) trong Y học cổ truyền được quy vào các phạm trù <strong>胁痛 (Hiếp thống — đau mạn sườn)</strong>, <strong>黄疸 (Hoàng đản)</strong> hoặc <strong>积聚 (Tích tụ)</strong> trong giai đoạn tiến triển. Nguyên nhân theo YHCT gồm:</p>
+<ul>
+  <li><strong>Thấp nhiệt tà khí xâm nhập:</strong> Vi rút viêm gan được xếp vào loại "thấp nhiệt tà độc" xâm nhập qua cơ thể, bào phục ở Can Đởm, gây Can khí uất kết và Can Đởm thấp nhiệt.</li>
+  <li><strong>Tỳ Vị hư nhược:</strong> Tỳ hư không vận hóa thủy thấp, thấp khí đình tụ sinh nhiệt, nhiệt thấp nung nấu gây tổn thương Can tế bào.</li>
+  <li><strong>Tình chí uất kết:</strong> Lo âu, căng thẳng kéo dài làm Can khí uất kết, khí trệ sinh huyết ứ, ứ huyết cản trở chức năng sơ tiết của Can.</li>
+  <li><strong>Ẩm thực bất tiết:</strong> Ăn nhiều mỡ động vật, rượu bia, đồ cay nóng làm Tỳ Vị tổn thương, thấp nhiệt nội sinh, gây hại tạng Can.</li>
+</ul>
+
+<h2>Chế độ ăn uống phòng ngừa theo YHCT</h2>
+<p>Nguyên tắc ăn uống theo YHCT để bảo vệ Can Tỳ:</p>
+<ul>
+  <li><strong>Nên ăn:</strong>
+    <ul>
+      <li>Các thực phẩm <em>thanh nhiệt lợi thấp, bảo vệ Can</em>: rau diếp cá, rau má, atisô, nấm linh chi, nghệ vàng, cà rốt, bí đỏ, đậu xanh.</li>
+      <li>Thực phẩm <em>kiện tỳ ích khí</em>: gạo lứt, khoai lang, đậu đỏ, hạt sen, ý dĩ nhân (bo bo).</li>
+      <li>Trái cây <em>thanh nhiệt sinh tân</em>: bưởi, cam, chanh (giàu vitamin C hỗ trợ giải độc gan), dâu tây, việt quất.</li>
+    </ul>
+  </li>
+  <li><strong>Nên hạn chế hoặc tránh:</strong>
+    <ul>
+      <li>Rượu bia và đồ uống có cồn — "mật chủ sơ tiết, rượu nhập gây thấp nhiệt" làm tổn thương tế bào gan nặng nề.</li>
+      <li>Thức ăn nhiều dầu mỡ, chiên rán: đồ nướng, thức ăn nhanh — gây đàm thấp nội sinh, tăng gánh nặng cho Can Tỳ.</li>
+      <li>Đồ cay nóng kích thích: ớt, tiêu, mù tạt — sinh nội nhiệt, kích thích Can hỏa bùng phát.</li>
+      <li>Thực phẩm chứa aflatoxin: đậu phộng mốc, ngũ cốc bảo quản kém — "nhiệt độc" trực tiếp gây hại tế bào gan.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2>Bài ăn dưỡng sinh bảo vệ Can theo YHCT</h2>
+<ul>
+  <li><strong>Canh atisô hầm sườn non:</strong> Atisô 1 cây, sườn non 300g, gừng 3 lát. Hầm 45 phút. Thanh nhiệt lợi mật, bảo vệ tế bào gan, lợi tiểu giải độc.</li>
+  <li><strong>Cháo ý dĩ đậu đỏ:</strong> Ý dĩ nhân 30g, đậu đỏ 30g, gạo lứt 60g, đường phèn vừa đủ. Kiện tỳ hóa thấp, thanh nhiệt giải độc.</li>
+  <li><strong>Trà nấm linh chi mật ong:</strong> Nấm linh chi thái lát 10g, sắc 20 phút lấy nước, thêm mật ong. Uống sáng hàng ngày. Bổ can thận, tăng cường miễn dịch, bảo vệ gan.</li>
+  <li><strong>Nước ép cà rốt nghệ tươi:</strong> Cà rốt 1 củ, nghệ tươi 10g, chanh 1/2 quả. Ép lấy nước. Thanh nhiệt giải độc, hoạt huyết bảo gan, chống viêm.</li>
+</ul>
+
+<h2>Lối sống và điều hòa tình chí</h2>
+<p>YHCT đặc biệt nhấn mạnh vai trò của <strong>tình chí (cảm xúc)</strong> trong bệnh lý Can Tỳ:</p>
+<ul>
+  <li><strong>Tránh giận dữ và căng thẳng kéo dài:</strong> Giận hại Can (怒伤肝) — cơn giận làm Can khí nghịch thượng, huyết ứ tại Can Đởm. Học thiền định, thở bụng sâu 10 phút mỗi sáng.</li>
+  <li><strong>Ngủ trước 23h và ngủ đủ giấc:</strong> Can huyết hồi về Can từ 23h–1h. Thức khuya thường xuyên làm Can huyết hao tổn, gan không được tái tạo đầy đủ.</li>
+  <li><strong>Vận động điều độ:</strong> Đi bộ 30 phút/ngày, tập khí công, thái cực quyền. Tránh tập thể lực quá sức làm tổn thương Can khí.</li>
+  <li><strong>Tiêm phòng viêm gan B:</strong> Vaccine viêm gan B là biện pháp y tế dự phòng quan trọng nhất — YHCT coi đây là phương pháp <em>"trị vị bệnh"</em> (điều trị trước khi bệnh phát sinh).</li>
+</ul>
+
+<h2>Thảo dược hỗ trợ bảo vệ Can theo YHCT</h2>
+<ul>
+  <li><strong>Nhân trần hao (Artemisia capillaris):</strong> Thanh nhiệt lợi thấp, lui vàng da, bảo vệ tế bào gan. Uống dưới dạng trà 10–15g/ngày.</li>
+  <li><strong>Diệp hạ châu (Phyllanthus urinaria):</strong> Thanh nhiệt giải độc, lợi thủy thông lâm. Nghiên cứu hiện đại cho thấy có tác dụng ức chế virus viêm gan B.</li>
+  <li><strong>Ngũ vị tử (Schisandra chinensis):</strong> Bổ thận sáp tinh, dưỡng can an thần. Hỗ trợ hạ men gan và bảo vệ tế bào gan trong viêm gan mạn.</li>
+  <li><strong>Bạch hoa xà thiệt thảo:</strong> Thanh nhiệt giải độc, tiêu viêm tán ứ. Dùng phối hợp trong các bài thuốc điều trị viêm gan mạn thể thấp nhiệt.</li>
+</ul>
+
+<div class="art-cta-box"><p>Phòng ngừa và hỗ trợ điều trị viêm gan mạn tính toàn diện theo YHCT — BS. Nguyễn Đức Tâm tại <strong>Phòng Khám YHCT Tâm Đức</strong> sẽ thăm khám và tư vấn phác đồ phù hợp. Liên hệ: <strong>0973 710 237</strong> — Giờ khám: <strong>18:00–22:00 hàng ngày</strong> — Địa chỉ: <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 133,
+    slug: "phuong-huyet-dieu-tri-dau-that-lung-cap-man-tinh-yhct",
+    date: "2026-07-22",
+    category: "phuong-huyet",
+    categoryLabel: "Phương huyệt",
+    icon: "📍",
+    gradient: "g-huyet",
+    title: "Phương huyệt điều trị đau thắt lưng cấp và mạn tính theo Y học cổ truyền",
+    excerpt: "Đau thắt lưng là một trong những chứng bệnh phổ biến nhất, chiếm tỷ lệ cao trong thực hành châm cứu YHCT. Bài viết trình bày phương huyệt chủ đạo gồm 7 huyệt đặc hiệu, phác đồ phối huyệt theo thể bệnh cấp và mạn, giúp giảm đau nhanh và phục hồi vận động cột sống thắt lưng.",
+    readTime: 6,
+    content: `
+<h2>Bệnh lý đau thắt lưng theo Y học cổ truyền</h2>
+<p>Đau thắt lưng (腰痛 — Yêu thống) trong YHCT được chia thành hai nhóm nguyên nhân chính:</p>
+<ul>
+  <li><strong>Ngoại nhân:</strong> Phong hàn thấp tà xâm nhập kinh lạc vùng thắt lưng → khí huyết ngưng trệ → gây đau. Thường biểu hiện cấp tính sau khi nhiễm lạnh, làm việc nặng trong thời tiết ẩm.</li>
+  <li><strong>Nội nhân:</strong> Thận hư (thận tinh bất túc) không nuôi dưỡng cột sống và cân cốt → đau âm ỉ mạn tính, tăng khi mệt mỏi, giảm khi nghỉ ngơi.</li>
+  <li><strong>Chấn thương:</strong> Té ngã, bưng bê nặng sai tư thế → huyết ứ kinh lạc → đau cố định, ấn đau chói.</li>
+</ul>
+<p>Cột sống thắt lưng thuộc đường kinh Bàng quang (Túc Thái dương) và Đốc mạch chạy qua, đồng thời là vùng "phủ của Thận" (腎之府). Do đó phương huyệt điều trị phải kết hợp thông Bàng quang kinh, thông Đốc mạch và bổ Thận.</p>
+
+<h2>Bảy huyệt chủ đạo điều trị đau thắt lưng</h2>
+
+<h3>1. Thận du (腎俞 — BL23)</h3>
+<p><strong>Vị trí:</strong> Ngang mức khe đốt sống L2–L3, cách đường giữa lưng 1,5 thốn (khoảng 3–4 cm) về hai phía.</p>
+<p><strong>Tác dụng:</strong> Bổ thận ích tinh, cường thắt lưng tráng cốt. Huyệt bối du của Thận — điểm phản chiếu công năng thận trên lưng. Đây là huyệt <strong>không thể thiếu</strong> trong mọi phác đồ đau thắt lưng mạn tính do thận hư.</p>
+<p><strong>Châm:</strong> Thẳng đứng 0,8–1 thốn. Cứu ngải ấm ấp đặc biệt tốt cho thể thận dương hư.</p>
+
+<h3>2. Đại trường du (大腸俞 — BL25)</h3>
+<p><strong>Vị trí:</strong> Ngang mức khe đốt sống L4–L5, cách đường giữa 1,5 thốn hai bên.</p>
+<p><strong>Tác dụng:</strong> Thông điều khí của vùng thắt lưng dưới và vùng chậu, giảm đau cấp do thắt cơ, đặc biệt hiệu quả trong đau thắt lưng do thoát vị đĩa đệm L4–L5.</p>
+<p><strong>Châm:</strong> Thẳng đứng 1–1,5 thốn, cảm giác tê lan xuống mông và chân.</p>
+
+<h3>3. Yêu dương quan (腰陽關 — GV3)</h3>
+<p><strong>Vị trí:</strong> Trên đường giữa lưng, nằm tại khe đốt sống L4–L5 (điểm nối hai mào chậu).</p>
+<p><strong>Tác dụng:</strong> Thông Đốc mạch, ôn dương tán hàn, khu phong trừ thấp. Đặc biệt hiệu quả trong đau thắt lưng do hàn thấp — người đau tăng khi thời tiết lạnh ẩm, giảm khi chườm nóng.</p>
+<p><strong>Châm + Cứu:</strong> Châm xiên lên 0,8–1 thốn, kết hợp cứu mồi ngải 5–7 tráng mang lại hiệu quả rõ rệt.</p>
+
+<h3>4. Uỷ trung (委中 — BL40)</h3>
+<p><strong>Vị trí:</strong> Giữa nếp gấp sau khớp gối (hõm khoeo).</p>
+<p><strong>Tác dụng:</strong> Huyệt hợp của kinh Bàng quang — <em>"Yêu bối uỷ trung cầu"</em> (đau lưng hỏi huyệt Uỷ trung) là câu kinh điển trong châm cứu. Thông điều kinh khí toàn bộ kinh Bàng quang ở vùng lưng, giảm đau cấp tính hiệu quả cao.</p>
+<p><strong>Châm:</strong> Thẳng đứng 0,5–1 thốn hoặc chích nặn máu (điểm thích xuất huyết) trong đau cấp do huyết ứ.</p>
+
+<h3>5. Thái khê (太溪 — KI3)</h3>
+<p><strong>Vị trí:</strong> Hõm giữa mắt cá trong và gân Achilles, ngang mức điểm cao nhất của mắt cá trong.</p>
+<p><strong>Tác dụng:</strong> Huyệt nguyên của Thận kinh — bổ thận ích tinh, cường cân cốt. Là huyệt thiết yếu trong đau thắt lưng mạn tính thể thận hư, giảm đau âm ỉ và tăng cường thể trạng.</p>
+<p><strong>Châm:</strong> Thẳng đứng 0,3–0,5 thốn, kết hợp cứu ôn cứu.</p>
+
+<h3>6. Côn lôn (崑崙 — BL60)</h3>
+<p><strong>Vị trí:</strong> Hõm giữa mắt cá ngoài và gân Achilles, ngang mức đỉnh mắt cá ngoài.</p>
+<p><strong>Tác dụng:</strong> Huyệt kinh của kinh Bàng quang — thông kinh hoạt lạc, giảm đau toàn bộ cột sống từ cổ đến thắt lưng. Đặc biệt tốt khi đau thắt lưng lan xuống mặt sau chân (triệu chứng thần kinh tọa kèm theo).</p>
+<p><strong>Châm:</strong> Thẳng đứng 0,5–0,8 thốn. <em>Chú ý: Không dùng cho phụ nữ mang thai vì có tác dụng hạ thai.</em></p>
+
+<h3>7. Hậu khê (後谿 — SI3)</h3>
+<p><strong>Vị trí:</strong> Mặt sau bàn tay, trong hõm phía sau khớp bàn-đốt ngón 5, khi nắm tay lỏng hõm da xuất hiện rõ.</p>
+<p><strong>Tác dụng:</strong> Huyệt giao hội với Đốc mạch — thông Đốc mạch toàn bộ cột sống. Đặc biệt hiệu quả trong đau cấp tính cột sống, cứng vận động. Châm huyệt Hậu khê trong khi bệnh nhân cử động thắt lưng nhẹ nhàng có tác dụng giảm đau ngay lập tức.</p>
+<p><strong>Châm:</strong> Thẳng đứng 0,5–0,8 thốn. Yêu cầu bệnh nhân cử động vùng đau nhẹ trong khi giữ kim — kỹ thuật "vận động châm" hiệu quả cao.</p>
+
+<h2>Phác đồ phối huyệt theo thể bệnh</h2>
+<ul>
+  <li><strong>Đau cấp do hàn thấp:</strong> Yêu dương quan + Uỷ trung (chích nặn máu) + Đại trường du. Cứu ngải tại Yêu dương quan và Thận du.</li>
+  <li><strong>Đau mạn do thận hư:</strong> Thận du + Thái khê + Hậu khê + Côn lôn. Kết hợp cứu ôn cứu tại Thận du và Mệnh môn (GV4).</li>
+  <li><strong>Đau do huyết ứ (sau chấn thương):</strong> Uỷ trung (điểm thích xuất huyết) + Hậu khê + Huyết hải (SP10) + A thị huyệt (điểm đau nhất). Không cứu.</li>
+  <li><strong>Đau lan xuống chân (thần kinh tọa kèm):</strong> Bổ sung Hoàn khiêu (GB30) + Thừa phù (BL36) + Dương lăng tuyền (GB34) + Tuyệt cốt (GB39).</li>
+</ul>
+
+<h2>Liệu trình và theo dõi</h2>
+<p>Châm cứu mỗi ngày hoặc cách ngày, mỗi đợt 10–15 lần. Đau cấp thường cải thiện sau 3–5 lần. Đau mạn tính cần 2–3 đợt điều trị liên tiếp. Kết hợp xoa bóp bấm huyệt, dán cao ngải cứu và bài tập vật lý trị liệu tại nhà để tăng hiệu quả và phòng tái phát.</p>
+
+<div class="art-cta-box"><p>Điều trị đau thắt lưng bằng châm cứu và thuốc YHCT tại <strong>Phòng Khám YHCT Tâm Đức</strong> — BS. Nguyễn Đức Tâm — giàu kinh nghiệm điều trị các bệnh cơ xương khớp. Liên hệ: <strong>0973 710 237</strong> — Giờ khám: <strong>18:00–22:00 hàng ngày</strong> — Địa chỉ: <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 134,
+    slug: "dieu-tri-toc-bac-som-yhct-bo-than-duong-huyet-toc-den-bong",
+    date: "2026-07-22",
+    category: "lam-dep",
+    categoryLabel: "Làm đẹp",
+    icon: "🌸",
+    gradient: "g-rose",
+    title: "Điều trị tóc bạc sớm theo Y học cổ truyền: Bổ thận dưỡng huyết để tóc đen bóng, dày",
+    excerpt: "Y học cổ truyền giải thích tóc bạc sớm bằng sự suy yếu của Thận tinh và Can huyết — hai nguồn nuôi dưỡng chân tóc. Điều trị toàn diện từ bên trong bằng thuốc thảo mộc, kết hợp bên ngoài bằng châm cứu da đầu và xoa bóp huyệt vị giúp phục hồi màu tóc tự nhiên và ngăn tóc tiếp tục bạc.",
+    readTime: 6,
+    content: `
+<h2>Tóc bạc sớm nhìn từ góc độ Y học cổ truyền</h2>
+<p>Trong Y học cổ truyền, tóc (发 — Phát) được gọi là <strong>"huyết chi dư"</strong> (血之餘 — phần thừa của huyết) và phản ánh trực tiếp sức khỏe của <strong>Thận tinh</strong> và <strong>Can huyết</strong>. Hai yếu tố này nuôi dưỡng chân tóc từ bên trong:</p>
+<ul>
+  <li><strong>Thận tinh:</strong> Thận tàng tinh, tinh sinh tủy, tủy sinh huyết. Khi Thận tinh sung mãn, tóc đen dày bóng. Khi Thận tinh suy hao — do tuổi tác, thức khuya, quan hệ tình dục quá mức, bệnh mạn tính kéo dài — tóc sẽ sớm bạc và rụng.</li>
+  <li><strong>Can huyết:</strong> Can tàng huyết. Khi Can huyết đầy đủ, huyết dịch nuôi chân tóc tốt, tóc đen bóng. Khi Can huyết hư — do ăn uống thiếu dinh dưỡng, căng thẳng kéo dài, mất máu — tóc mất đi sắc đen tự nhiên.</li>
+</ul>
+<p>Ngoài ra, <strong>huyết nhiệt</strong> (nhiệt trong huyết) cũng là nguyên nhân gây tóc bạc sớm ở người trẻ — khi tâm hỏa vượng hoặc ăn quá nhiều đồ cay nóng, huyết nhiệt bức huyết ở trên, sắc tố melanin tóc bị phá hủy sớm.</p>
+
+<h2>Phân biệt nguyên nhân tóc bạc sớm theo YHCT</h2>
+<ul>
+  <li><strong>Thận tinh bất túc:</strong> Tóc bạc từ vùng đỉnh đầu và hai bên thái dương, kèm lưng gối mỏi, ù tai, hay quên, di tinh hoặc kinh nguyệt ít. Lưỡi nhợt hoặc đỏ ít rêu, mạch tế.</li>
+  <li><strong>Can huyết hư:</strong> Tóc bạc rải rác, tóc khô xơ dễ gãy, da đầu khô ngứa, kèm hoa mắt chóng mặt, móng tay nhợt giòn, mặt trắng vàng nhợt. Mạch tế nhược.</li>
+  <li><strong>Huyết nhiệt:</strong> Tóc bạc xuất hiện đột ngột hoặc tiến triển nhanh ở người trẻ, kèm mặt đỏ bốc hỏa, miệng đắng khô, tính tình nóng nảy, mất ngủ. Lưỡi đỏ, mạch sác.</li>
+  <li><strong>Tỳ hư đàm thấp:</strong> Tóc bạc kèm tóc nhờn, gàu nhiều, béo phì, lưỡi bệu rêu nhớt. Ít gặp nhưng cần phân biệt vì phương pháp điều trị khác hẳn.</li>
+</ul>
+
+<h2>Điều trị nội — Thuốc và thực phẩm YHCT</h2>
+<p>Điều trị từ bên trong là nền tảng quan trọng nhất để phục hồi màu tóc:</p>
+<ul>
+  <li><strong>Hà thủ ô chế (制何首烏 — Polygonum multiflorum):</strong> Vị thuốc kinh điển nhất trị tóc bạc sớm theo YHCT. Tác dụng <em>bổ thận tinh, dưỡng can huyết, ô tu phát</em> (làm đen tóc). Dùng dạng sắc uống 12–15g/ngày hoặc hoàn viên. <em>Lưu ý: Chỉ dùng Hà thủ ô đã bào chế (chế) — không dùng sống vì có thể gây hại gan.</em></li>
+  <li><strong>Hắc chi ma (黑芝麻 — Vừng đen):</strong> Bổ Thận ích Can, dưỡng huyết sinh tân, ô phát cường cốt. Ăn hàng ngày 15–20g dạng rang xay thêm vào cháo, sữa, sinh tố. Thực phẩm tốt nhất phòng và trị tóc bạc.</li>
+  <li><strong>Thục địa hoàng:</strong> Tư âm bổ huyết, ích tinh tủy. Dùng trong bài thuốc hợp phương để tăng cường nguồn huyết nuôi chân tóc.</li>
+  <li><strong>Nữ trinh tử (女貞子 — Ligustrum lucidum):</strong> Bổ Can Thận, dưỡng âm minh mục, ô phát. Thường phối hợp với Hà thủ ô và Hắc chi ma trong bài <em>Nhị chí hoàn</em> để trị tóc bạc thể Can Thận hư.</li>
+  <li><strong>Đương quy:</strong> Bổ huyết dưỡng can, hành huyết thông mạch. Giúp huyết lưu thông đến chân tóc tốt hơn, kết hợp với Hà thủ ô và Thục địa cho tóc đen bóng.</li>
+</ul>
+<p><strong>Bài thuốc cơ bản trị tóc bạc sớm (Tham khảo — cần điều chỉnh theo thể bệnh):</strong></p>
+<p><em>Hà thủ ô chế 15g, Nữ trinh tử 12g, Hắc chi ma 12g, Thục địa 12g, Đương quy 10g, Kỷ tử 12g, Sơn thù du 10g. Sắc uống ngày 1 thang, chia 2 lần sáng-tối. Liệu trình 1–3 tháng.</em></p>
+
+<h2>Điều trị ngoại — Châm cứu da đầu và xoa bóp huyệt vị</h2>
+<p>Song song với điều trị nội, các phương pháp tác động từ bên ngoài giúp kích thích tuần hoàn da đầu và hoạt hóa chân tóc:</p>
+<ul>
+  <li><strong>Châm cứu da đầu (Đầu châm):</strong> Châm vùng thùy đỉnh (Bách hội — GV20 và vùng xung quanh), kích thích tuần hoàn nuôi dưỡng chân tóc. Liệu trình 2–3 lần/tuần trong 1–2 tháng.</li>
+  <li><strong>Bấm huyệt kết hợp xoa đầu:</strong>
+    <ul>
+      <li><strong>Bách hội (GV20):</strong> Đỉnh đầu, giao điểm đường giữa và đường nối hai tai. Bổ dương khí, dưỡng não ích tủy.</li>
+      <li><strong>Thượng tinh (GV23):</strong> Đường giữa đầu, cách chân tóc trán 1 thốn. Thông đốc mạch, dưỡng não.</li>
+      <li><strong>Phong trì (GB20):</strong> Hõm hai bên gáy dưới xương chẩm. Cải thiện lưu thông máu lên đầu.</li>
+      <li><strong>Thái khê (KI3):</strong> Bổ thận ích tinh từ gốc.</li>
+    </ul>
+  </li>
+  <li><strong>Xoa bóp da đầu hàng ngày:</strong> Dùng 10 ngón tay gõ nhẹ và xoa tròn toàn bộ da đầu 5 phút mỗi sáng và tối. Kích thích lưu thông khí huyết, nuôi dưỡng chân tóc và giảm rụng tóc.</li>
+  <li><strong>Dầu gội thảo dược:</strong> Gội đầu bằng nước sắc hà thủ ô + sinh địa + đương quy (mỗi vị 15g sắc 30 phút) giúp dưỡng chân tóc từ bên ngoài, làm đen và bóng tóc.</li>
+</ul>
+
+<h2>Chế độ sinh hoạt hỗ trợ phục hồi màu tóc</h2>
+<ul>
+  <li><strong>Ngủ đủ giấc, đúng giờ:</strong> Thức khuya sau 23h làm Thận tinh hao tổn nhanh — nguyên nhân hàng đầu của tóc bạc sớm ở người trẻ.</li>
+  <li><strong>Giảm căng thẳng:</strong> Lo âu, suy nghĩ quá mức làm hao Can huyết và Tâm huyết — kết hợp thiền định 10 phút/ngày.</li>
+  <li><strong>Chế độ ăn bổ huyết dưỡng thận:</strong> Bổ sung vừng đen, đậu đen, hà thủ ô, rong biển, hải sản biển (giàu iốt và khoáng chất), gan động vật (dưỡng huyết), trứng, sữa chua.</li>
+  <li><strong>Tránh:</strong> Thuốc lá (sinh huyết nhiệt), rượu bia (hao thận tổn can), đồ cay nóng (kích thích huyết nhiệt). Hạn chế uốn, nhuộm, sấy tóc nhiệt độ cao gây tổn thương chân tóc.</li>
+  <li><strong>Kiên trì điều trị:</strong> Tóc bạc sớm điều trị YHCT cần ít nhất 3–6 tháng mới thấy hiệu quả rõ — đây là quá trình phục hồi từ gốc, không thể nhanh hơn chu kỳ phát triển tự nhiên của tóc.</li>
+</ul>
+
+<div class="art-cta-box"><p>Điều trị tóc bạc sớm toàn diện theo YHCT tại <strong>Phòng Khám YHCT Tâm Đức</strong> — BS. Nguyễn Đức Tâm — kết hợp thuốc bổ thận dưỡng huyết và châm cứu da đầu giúp phục hồi màu tóc tự nhiên từ gốc. Liên hệ: <strong>0973 710 237</strong> — Giờ khám: <strong>18:00–22:00 hàng ngày</strong> — Địa chỉ: <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
     id: 128,
     slug: "hoang-ky-vi-thuoc-bo-khi-nang-cao-chinh-khi-yhct",
     date: "2026-07-22",
