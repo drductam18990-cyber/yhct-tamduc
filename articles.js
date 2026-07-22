@@ -5,6 +5,55 @@
 
 const ARTICLES = [
   {
+    id: 128,
+    slug: "hoang-ky-vi-thuoc-bo-khi-nang-cao-chinh-khi-yhct",
+    date: "2026-07-22",
+    category: "thuoc-yhct",
+    categoryLabel: "Thuốc YHCT",
+    icon: "🌿",
+    gradient: "g-fire",
+    title: "Hoàng kỳ — Vị thuốc bổ khí, nâng cao chính khí hàng đầu của Y học cổ truyền",
+    excerpt: "Hoàng kỳ (Astragalus membranaceus) là vị thuốc bổ khí số một trong YHCT, được ứng dụng hàng nghìn năm để tăng cường chính khí, củng cố vệ biểu, kiện tỳ ích phế và hỗ trợ hồi phục sức khỏe toàn diện.",
+    readTime: 6,
+    content: `
+<h2>Tổng quan về Hoàng kỳ theo Y học cổ truyền</h2>
+<p>Hoàng kỳ (黃芪), tên khoa học <em>Astragalus membranaceus</em> (Fisch.) Bunge, là một trong những vị thuốc bổ khí quan trọng nhất của Y học cổ truyền (YHCT), được ghi chép từ thời <em>Thần Nông Bản Thảo Kinh</em> và xếp vào hạng <strong>thượng phẩm</strong> — thuốc có thể dùng lâu dài mà không độc hại.</p>
+<p>Theo YHCT, Hoàng kỳ có vị ngọt, tính hơi ấm, quy vào hai kinh <strong>Tỳ và Phế</strong>. Công năng chủ yếu gồm: <strong>bổ khí thăng dương</strong> — nâng khí dương đang hạ hãm; <strong>ích vệ cố biểu</strong> — củng cố vệ khí bảo vệ bề mặt cơ thể, phòng chống tà khí xâm nhập; <strong>thác độc sinh cơ</strong> — trợ chính khí để đẩy độc tố ra ngoài và tái sinh cơ thịt; <strong>lợi thủy tiêu thũng</strong> — tăng bài tiết nước, giảm phù nề. Đây là vị không thể thiếu trong các bài thuốc bổ ích sức khỏe lâu dài của YHCT.</p>
+
+<h2>Phân thể bệnh thường dùng Hoàng kỳ theo YHCT</h2>
+<ul>
+  <li><strong>Thể Tỳ khí hư:</strong> Mệt mỏi, ăn kém, bụng trướng sau ăn, phân lỏng, cơ bắp nhão yếu. Hoàng kỳ kiện tỳ bổ trung, tăng cường chức năng tiêu hóa hấp thu. Dùng trong bài <em>Bổ trung ích khí thang</em>.</li>
+  <li><strong>Thể Phế khí hư:</strong> Hay cảm cúm, sợ gió sợ lạnh, ra mồ hôi tự nhiên khi không vận động (đạo hãn), ho yếu không có lực, tiếng nói nhỏ. Hoàng kỳ ích vệ cố biểu, tăng sức đề kháng. Dùng trong bài <em>Ngọc bình phong tán</em>.</li>
+  <li><strong>Thể Khí hư hạ hãm:</strong> Sa tạng phủ (sa dạ dày, sa tử cung, sa hậu môn), cảm giác nặng hạ vị, tiêu chảy kéo dài. Hoàng kỳ thăng dương cử hãm, nâng đỡ các tạng phủ về đúng vị trí. Dùng phối hợp Thăng ma, Sài hồ.</li>
+  <li><strong>Thể Khí huyết lưỡng hư sau bệnh nặng hoặc phẫu thuật:</strong> Người xanh xao, kiệt sức, vết thương lâu lành, lở loét khó kéo da. Hoàng kỳ thác độc sinh cơ, kích thích tái tạo mô và tăng tốc lành thương.</li>
+  <li><strong>Thể Khí hư thủy thũng:</strong> Phù nhẹ chi dưới, tiểu ít, mệt mỏi. Hoàng kỳ lợi thủy tiêu thũng thông qua bổ khí, tăng cường vận hóa của Tỳ.</li>
+</ul>
+
+<h2>Các bài thuốc kinh điển và cách dùng Hoàng kỳ</h2>
+<p>Hoàng kỳ thường được phối hợp với các vị khác để tăng hiệu quả điều trị:</p>
+<ul>
+  <li><strong>Ngọc bình phong tán (玉屏風散):</strong> Hoàng kỳ 30g + Bạch truật 15g + Phòng phong 10g. Bài thuốc nền tảng phòng cảm cúm, tăng đề kháng — tựa như "bức bình phong ngọc" che chắn tà khí. Uống dạng thang hoặc hoàn.</li>
+  <li><strong>Bổ trung ích khí thang (補中益氣湯):</strong> Hoàng kỳ 30g phối hợp Đảng sâm, Bạch truật, Đương quy, Sài hồ, Thăng ma, Trần bì, Cam thảo. Điều trị Tỳ Vị khí hư, sa tạng phủ, mệt mỏi kinh niên.</li>
+  <li><strong>Hoàng kỳ kiến trung thang:</strong> Hoàng kỳ phối Cao lương khương, Bạch thược, Can khương, Quế chi, Đại táo, Cam thảo, Mạch nha. Ôn trung bổ khí, điều trị đau bụng do Tỳ Vị hư hàn.</li>
+  <li><strong>Trà Hoàng kỳ hàng ngày:</strong> Hoàng kỳ thái lát 15–20g hãm với nước sôi 15 phút. Uống thay trà buổi sáng. Thích hợp người hay mệt mỏi, hay ốm vặt, sức đề kháng kém. Có thể kết hợp thêm Kỷ tử (Câu kỷ tử) 10g và Đại táo 3–5 quả để tăng bổ huyết dưỡng Can.</li>
+</ul>
+<p>Liều thường dùng trong thang thuốc: 15–60g/ngày tùy bệnh cảnh. Dạng bào chế: thuốc thang sắc, viên hoàn, cao đặc, trà hãm.</p>
+
+<h2>Tự thực hành tại nhà với Hoàng kỳ</h2>
+<ul>
+  <li>Mua Hoàng kỳ thái lát ở các hiệu thuốc YHCT uy tín; ưu tiên loại rễ dày, màu vàng nhạt, mùi thơm nhẹ, vị ngọt.</li>
+  <li><strong>Cháo Hoàng kỳ bổ khí:</strong> Hoàng kỳ 30g sắc lấy nước, nấu cháo gạo tẻ cùng Hạt sen 20g và Đại táo 5 quả. Ăn buổi sáng, thích hợp cho người mệt mỏi, tiêu hóa kém, sức đề kháng yếu.</li>
+  <li><strong>Ngâm rượu Hoàng kỳ:</strong> Hoàng kỳ 100g + Đẳng sâm 50g + Câu kỷ tử 50g ngâm 500ml rượu gạo 40° trong 30 ngày. Uống 20–30ml/tối trước khi ngủ để dưỡng khí huyết và tăng sinh lực.</li>
+  <li>Không dùng Hoàng kỳ khi đang có cảm nhiệt (sốt, họng đỏ đau, đờm vàng), hoặc người có âm hư hỏa vượng (nóng trong, miệng khô). Nên hỏi ý kiến thầy thuốc trước khi dùng lâu dài.</li>
+  <li>Kết hợp ấn huyệt <strong>Túc tam lý (ST36)</strong> — huyệt bổ khí huyết số một, và <strong>Khí hải (CV6)</strong> — tập trung nguyên khí của cơ thể, mỗi ngày 3–5 phút để tăng cường hiệu quả bổ khí.</li>
+</ul>
+
+<div class="art-cta-box">
+  <p>Hoàng kỳ là vị thuốc bổ khí quý giá nhưng cần dùng đúng thể trạng và đúng liều lượng mới phát huy tối đa hiệu quả. Để được thầy thuốc YHCT tư vấn phác đồ bổ khí cá thể hóa — phối hợp Hoàng kỳ và các vị thuốc phù hợp với thể tạng của bạn — hãy đến khám tại <strong>Phòng Khám Y học cổ truyền Tâm Đức</strong> — <strong>BS. Nguyễn Đức Tâm</strong>. Hotline: <strong>0973 710 237</strong>. Giờ khám: <strong>18:00–22:00 hàng ngày</strong>. Địa chỉ: <strong>Hà Đông, Hà Nội</strong>.</p>
+</div>
+    `
+  },
+  {
     id: 127,
     slug: "xong-hoi-thao-duoc-giai-cam-thu-gian-yhct",
     date: "2026-07-21",
