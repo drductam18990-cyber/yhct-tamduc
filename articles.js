@@ -5,6 +5,58 @@
 
 const ARTICLES = [
   {
+    id: 135,
+    slug: "bam-huyet-ho-tro-dieu-tri-mat-ngu-tai-nha-yhct",
+    date: "2026-07-23",
+    category: "khong-thuoc",
+    categoryLabel: "Không dùng thuốc",
+    icon: "🧘",
+    gradient: "g-herb",
+    title: "Bấm huyệt hỗ trợ điều trị mất ngủ tại nhà: Liệu pháp không dùng thuốc theo Y học cổ truyền",
+    excerpt: "Mất ngủ mạn tính gây suy giảm trí nhớ, mệt mỏi kéo dài và ảnh hưởng toàn diện đến sức khỏe. Y học cổ truyền điều trị mất ngủ bằng bấm huyệt an thần, tác động lên Tâm, Can, Tỳ và Thận — không cần thuốc, an toàn thực hành tại nhà.",
+    readTime: 6,
+    content: `
+<h2>Tổng quan theo Y học cổ truyền</h2>
+<p>Mất ngủ trong Y học cổ truyền (YHCT) thuộc phạm trù <strong>Thất miên</strong> (mất giấc ngủ) hoặc <strong>Bất đắc miên</strong> (không đạt được giấc ngủ). Theo lý luận YHCT, giấc ngủ chịu sự điều tiết của <em>Tâm thần</em> — khi Tâm thần yên định thì ngủ dễ và sâu, khi Tâm thần bất an thì khó vào giấc, ngủ chập chờn, thức giữa đêm hoặc không ngủ được. Ngoài Tâm, các tạng <strong>Can</strong> (điều sơ khí cơ), <strong>Tỳ</strong> (nguồn hóa sinh huyết dịch nuôi Tâm) và <strong>Thận</strong> (nước — âm — cần giao tiếp với Tâm — hỏa) đều tham gia vào cơ chế bệnh sinh của mất ngủ.</p>
+<p>Bấm huyệt là phương pháp dùng lực ngón tay tác động lên các huyệt vị đặc hiệu nhằm điều hòa khí huyết, an định thần kinh và cân bằng âm dương. Phương pháp này không xâm lấn, không dùng thuốc, có thể tự thực hành trước khi ngủ và mang lại hiệu quả rõ rệt sau 2–4 tuần kiên trì.</p>
+
+<h2>Phân thể nguyên nhân theo Y học cổ truyền</h2>
+<ul>
+  <li><strong>Tâm Tỳ lưỡng hư:</strong> Khó vào giấc, ngủ chập chờn, hay mơ, mệt mỏi ban ngày, ăn kém, sắc mặt nhợt nhạt. Gặp nhiều ở người lao tâm quá mức, lo nghĩ nhiều, phụ nữ sau sinh.</li>
+  <li><strong>Tâm Thận bất giao:</strong> Mất ngủ kèm hồi hộp đánh trống ngực, ù tai, lưng gối mỏi, miệng khô, ra mồ hôi trộm. Âm của Thận không lên nuôi được Tâm hỏa khiến Tâm bất an.</li>
+  <li><strong>Can Hỏa nhiễu Tâm:</strong> Khó ngủ, bực bội cáu gắt, đầu căng tức, miệng đắng, mắt đỏ. Căng thẳng, áp lực công việc là nguyên nhân chính gây Can khí uất kết hóa hỏa bốc lên nhiễu loạn Tâm thần.</li>
+  <li><strong>Đàm nhiệt ưu Tâm:</strong> Ngủ không yên, hay nằm mơ, người nặng nề, ngực bụng đầy trướng. Đàm thấp tích tụ lâu ngày sinh nhiệt, nhiệt theo Đàm bốc lên quấy rối Tâm thần.</li>
+</ul>
+
+<h2>Huyệt vị và kỹ thuật bấm huyệt điều trị mất ngủ</h2>
+<p>Các huyệt dưới đây tạo thành bộ an thần cốt lõi trong YHCT. Bấm mỗi huyệt 1–2 phút, lực vừa phải (cảm giác tê tức dễ chịu), thực hiện theo thứ tự từ trên xuống trước khi đi ngủ 30 phút:</p>
+<ul>
+  <li><strong>Bách hội (GV20):</strong> Đỉnh đầu, giao điểm đường nối hai đỉnh vành tai. Tác dụng: thanh thần tỉnh não, an định Tâm thần — huyệt chủ của mọi thể mất ngủ.</li>
+  <li><strong>Thần đình (GV24):</strong> Trên đường giữa đầu, cách chân tóc trán 0,5 thốn. Tác dụng: trấn Tâm an thần, trị mất ngủ và hay giật mình khi ngủ.</li>
+  <li><strong>Nội quan (PC6):</strong> Mặt trong cổ tay, giữa hai gân cơ gấp cổ tay, cách nếp cổ tay 2 thốn. Tác dụng: an Tâm định chí, hòa Vị giáng nghịch — đặc biệt hiệu quả khi mất ngủ kèm hồi hộp hoặc khó tiêu.</li>
+  <li><strong>Thần môn (HT7):</strong> Mặt trong cổ tay, đầu trong nếp cổ tay, cạnh trong gân cơ gấp cổ tay trụ. Tác dụng: dưỡng Tâm an thần — huyệt nguyên của kinh Tâm, tác động trực tiếp vào nguồn gốc bệnh.</li>
+  <li><strong>Tam âm giao (SP6):</strong> Mặt trong cẳng chân, cách đỉnh mắt cá trong 3 thốn, sát bờ sau xương chày. Tác dụng: kiện Tỳ dưỡng huyết, tư bổ Can Thận — phù hợp thể Tâm Tỳ hư và Tâm Thận bất giao.</li>
+  <li><strong>Thái xung (LR3):</strong> Mu bàn chân, kẽ giữa ngón 1 và ngón 2, lùi về phía mu chân khoảng 2 thốn. Tác dụng: sơ Can giải uất, bình can tức phong — thích hợp thể Can Hỏa nhiễu Tâm.</li>
+  <li><strong>Thái khê (KI3):</strong> Giữa đỉnh mắt cá trong và gân gót chân (gân Achilles). Tác dụng: tư bổ Thận âm, điều Can Thận — huyệt chính cho thể Tâm Thận bất giao.</li>
+  <li><strong>An miên (EX-HN22):</strong> Huyệt ngoại kỳ, nằm giữa điểm Phong trì (GB20) và điểm Ế phong (TE17), phía sau tai. Tác dụng: an thần định chí — huyệt đặc hiệu điều trị mất ngủ, được dùng phổ biến trong châm cứu hiện đại.</li>
+</ul>
+
+<h2>Tự thực hành tại nhà</h2>
+<ul>
+  <li><strong>Thời điểm:</strong> Thực hiện 30–45 phút trước khi ngủ, trong không gian yên tĩnh, ánh sáng dịu, nhiệt độ phòng mát mẻ.</li>
+  <li><strong>Kỹ thuật:</strong> Dùng đầu ngón cái hoặc ngón trỏ ấn xoay tròn nhẹ nhàng, lực vừa đủ tạo cảm giác tê tức dễ chịu. Mỗi huyệt bấm 1–2 phút, thở đều và sâu trong khi bấm.</li>
+  <li><strong>Thứ tự ưu tiên:</strong> Bách hội (GV20) → Thần môn (HT7) → Nội quan (PC6) → Tam âm giao (SP6). Thêm Thái xung (LR3) nếu hay bực bội cáu gắt; thêm Thái khê (KI3) nếu kèm đau lưng, ù tai.</li>
+  <li><strong>Hỗ trợ thêm:</strong> Kết hợp ngâm chân nước ấm (40–42°C) có gừng và muối trong 15–20 phút trước bấm huyệt để tăng hiệu quả ôn thông kinh lạc.</li>
+  <li><strong>Kiên trì:</strong> Thực hành đều đặn hàng ngày ít nhất 2–4 tuần để thấy cải thiện bền vững. Mất ngủ mạn tính có thể cần 1–2 tháng điều trị hệ thống.</li>
+  <li><strong>Lối sống:</strong> Tránh xem màn hình điện thoại sau 21h, ăn tối nhẹ trước 19h, giữ giờ ngủ cố định, tránh cà phê và rượu bia sau 15h.</li>
+</ul>
+
+<div class="art-cta-box">
+  <p>Nếu mất ngủ kéo dài trên 1 tháng, kèm lo âu, hồi hộp hoặc không cải thiện khi tự bấm huyệt, hãy đến thăm khám để được chẩn đoán phân thể và điều trị chuyên sâu bằng châm cứu kết hợp thuốc YHCT. <strong>Phòng Khám Y học cổ truyền Tâm Đức — BS. Nguyễn Đức Tâm</strong>, hotline: <strong>0973 710 237</strong>, giờ khám: <strong>18:00–22:00 hàng ngày</strong>, địa chỉ: <strong>Hà Đông, Hà Nội</strong>.</p>
+</div>
+    `
+  },
+  {
     id: 129,
     slug: "benh-parkinson-giai-doan-som-yhct-phan-the-phac-do-dieu-tri",
     date: "2026-07-22",
