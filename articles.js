@@ -5,6 +5,55 @@
 
 const ARTICLES = [
   {
+    id: 136,
+    slug: "duong-quy-vi-thuoc-duong-huyet-hoat-huyet-yhct",
+    date: "2026-07-24",
+    category: "thuoc-yhct",
+    categoryLabel: "Thuốc YHCT",
+    icon: "🌿",
+    gradient: "g-fire",
+    title: "Đương quy — Vị thuốc dưỡng huyết, hoạt huyết hàng đầu của Y học cổ truyền",
+    excerpt: "Đương quy là vị thuốc quý trong Y học cổ truyền, được mệnh danh là \"Vua của các thuốc bổ huyết\". Vị thuốc này có tác dụng dưỡng huyết, hoạt huyết, điều kinh, giảm đau — không thể thiếu trong điều trị các bệnh do huyết hư, huyết ứ ở phụ nữ và người cao tuổi.",
+    readTime: 6,
+    content: `
+<h2>Tổng quan về Đương quy theo Y học cổ truyền</h2>
+<p>Đương quy (<em>Angelica sinensis</em>) là rễ phơi hoặc sấy khô của cây Đương quy, thuộc họ Hoa tán (Apiaceae). Trong Y học cổ truyền (YHCT), Đương quy được xếp vào nhóm thuốc <strong>bổ huyết</strong> hàng đầu và được mệnh danh là <em>"Vua của các thuốc bổ huyết"</em> hay <em>"Nữ thần của thuốc phụ khoa"</em>. Vị thuốc này xuất hiện trong hàng trăm bài thuốc kinh điển của YHCT Trung Quốc và Việt Nam.</p>
+<p>Theo lý luận YHCT, Đương quy có vị ngọt cay, tính ôn, quy vào các kinh <strong>Tâm, Can và Tỳ</strong>. Các tác dụng chính bao gồm: bổ huyết, hoạt huyết, điều kinh, giảm đau, nhuận trường thông tiện. Bộ phận dùng khác nhau cho tác dụng khác nhau: thân rễ (Đương quy đầu) thiên về bổ huyết; thân (Đương quy thân) vừa bổ vừa hoạt; đuôi rễ (Đương quy vĩ) thiên về hoạt huyết phá ứ; toàn rễ (Toàn Đương quy) dùng khi cần cả hai tác dụng.</p>
+
+<h2>Phân loại tác dụng theo Y học cổ truyền</h2>
+<ul>
+  <li><strong>Bổ huyết, dưỡng huyết:</strong> Điều trị các chứng huyết hư như da xanh xao, môi nhợt, hoa mắt chóng mặt, tim đập hồi hộp, mất ngủ, kinh nguyệt ít và nhạt màu. Đây là tác dụng cốt lõi, làm nền cho mọi bài thuốc bổ huyết cổ điển.</li>
+  <li><strong>Hoạt huyết, giảm đau:</strong> Lưu thông khí huyết ứ trệ, điều trị đau bụng kinh, bế kinh, đau do chấn thương, đau khớp mạn tính, đau đầu do huyết ứ. Đặc biệt hiệu quả với các chứng đau có tính chất cố định, đau như kim châm.</li>
+  <li><strong>Điều kinh:</strong> Thông và điều hòa chu kỳ kinh nguyệt, điều trị kinh nguyệt không đều (sớm, muộn, vô kinh, đau bụng kinh), băng huyết rong kinh do huyết hư huyết ứ. Là vị không thể thiếu trong hầu hết bài thuốc phụ khoa YHCT.</li>
+  <li><strong>Nhuận trường:</strong> Do tính ôn nhuận, Đương quy giúp điều trị táo bón ở người cao tuổi, người huyết hư thiếu tân dịch, tránh tình trạng thông tiện quá mạnh gây hại.</li>
+  <li><strong>Tiêu ung, giảm viêm:</strong> Kết hợp với các vị khác để điều trị các chứng ung nhọt, viêm tấy trong giai đoạn đầu hoặc giai đoạn lâu không liền miệng.</li>
+</ul>
+
+<h2>Các bài thuốc kinh điển có Đương quy</h2>
+<p>Đương quy xuất hiện trong nhiều bài thuốc nổi tiếng, mỗi bài phù hợp với một chứng bệnh cụ thể:</p>
+<ul>
+  <li><strong>Tứ vật thang</strong> (Đương quy, Thục địa, Bạch thược, Xuyên khung): Bài thuốc bổ huyết điều kinh kinh điển nhất, điều trị huyết hư, kinh nguyệt không đều. Là nền tảng của hàng chục bài thuốc phụ khoa.</li>
+  <li><strong>Đương quy bổ huyết thang</strong> (Hoàng kỳ 30g, Đương quy 6g theo tỉ lệ 5:1): Bổ khí sinh huyết, điều trị huyết hư do khí hư không sinh được huyết, đặc biệt dùng sau mất máu hoặc sau sinh.</li>
+  <li><strong>Bát trân thang</strong> (Tứ quân + Tứ vật): Bổ khí huyết song điều, điều trị khí huyết lưỡng hư, mệt mỏi kéo dài, phục hồi sau bệnh nặng.</li>
+  <li><strong>Đương quy tứ nghịch thang</strong> (Đương quy, Bạch thược, Quế chi, Tế tân, Thông thảo, Đại táo, Cam thảo): Ôn kinh tán hàn, dưỡng huyết thông mạch — điều trị tay chân lạnh giá do huyết hư hàn ngưng.</li>
+  <li><strong>Tiêu dao tán</strong> (Đương quy, Bạch thược, Bạch truật, Phục linh, Sài hồ, Cam thảo, Bạc hà, Gừng): Sơ can giải uất, dưỡng huyết kiện tỳ — điều trị Can Tỳ bất hòa, căng thẳng, rối loạn tiêu hóa, kinh nguyệt không đều do stress.</li>
+</ul>
+
+<h2>Tự thực hành tại nhà</h2>
+<ul>
+  <li><strong>Trà Đương quy đơn giản:</strong> Lấy 10–15g Đương quy thái lát, thêm 3–5 quả Táo đỏ (Đại táo), sắc với 500ml nước trong 20 phút, uống thay trà hàng ngày. Phù hợp phụ nữ huyết hư, kinh nguyệt ít, da xanh nhợt. Uống sau bữa ăn, tránh uống lúc đói.</li>
+  <li><strong>Cháo Đương quy bổ huyết:</strong> Nấu 100g gạo tẻ với 15g Đương quy (đã sắc lấy nước), thêm 10 quả Táo đỏ và 30g Long nhãn khô. Ăn buổi sáng, bổ huyết dưỡng tâm, tốt cho người mất ngủ, hay quên.</li>
+  <li><strong>Rượu Đương quy bổ huyết:</strong> Ngâm 100g Đương quy + 50g Kỷ tử + 50g Long nhãn trong 1 lít rượu gạo 40 độ, sau 30 ngày uống mỗi ngày 1 chén nhỏ (15–20ml) trước bữa tối. Không dùng cho người huyết áp cao, viêm gan.</li>
+  <li><strong>Liều dùng thông thường:</strong> Trong thang sắc: 6–15g/ngày. Không tự ý tăng liều vì Đương quy liều cao có thể gây đau bụng, tiêu chảy.</li>
+  <li><strong>Lưu ý quan trọng:</strong> Không dùng khi đang hành kinh nhiều, xuất huyết cấp, tiêu chảy phân lỏng, phụ nữ mang thai 3 tháng đầu. Người đang uống thuốc chống đông máu (warfarin, aspirin liều cao) cần hỏi ý kiến bác sĩ trước khi dùng.</li>
+</ul>
+
+<div class="art-cta-box">
+  <p>Đương quy là vị thuốc quý nhưng cần dùng đúng thể bệnh, đúng liều lượng và phối hợp hợp lý với các vị khác mới phát huy tối đa hiệu quả. Để được tư vấn bài thuốc bổ huyết điều kinh phù hợp với tình trạng sức khỏe cụ thể, hãy đến thăm khám tại <strong>Phòng Khám Y học cổ truyền Tâm Đức — BS. Nguyễn Đức Tâm</strong>, hotline: <strong>0973 710 237</strong>, giờ khám: <strong>18:00–22:00 hàng ngày</strong>, địa chỉ: <strong>Hà Đông, Hà Nội</strong>.</p>
+</div>
+    `
+  },
+  {
     id: 135,
     slug: "bam-huyet-ho-tro-dieu-tri-mat-ngu-tai-nha-yhct",
     date: "2026-07-23",
