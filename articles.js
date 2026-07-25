@@ -5,6 +5,445 @@
 
 const ARTICLES = [
   {
+    id: 144,
+    slug: "roi-loan-tien-dinh-yhct-phan-the-phac-do-dieu-tri",
+    date: "2026-07-25",
+    category: "mat-benh",
+    categoryLabel: "Mặt bệnh",
+    icon: "🩺",
+    gradient: "g-navy",
+    title: "Rối loạn tiền đình theo Y học cổ truyền: Phân thể và phác đồ điều trị toàn diện",
+    excerpt: "Rối loạn tiền đình (chóng mặt, mất thăng bằng) được Y học cổ truyền gọi là \"huyễn vựng\", có căn nguyên từ đàm thấp, can dương, khí huyết hư hoặc thận tinh hư — mỗi thể bệnh cần phác đồ điều trị riêng biệt.",
+    readTime: 6,
+    content: `
+<h2>Rối loạn tiền đình là gì? Góc nhìn từ Y học cổ truyền</h2>
+<p>Rối loạn tiền đình là hội chứng lâm sàng đặc trưng bởi chóng mặt, cảm giác quay cuồng, mất thăng bằng, buồn nôn hoặc nôn, đôi khi kèm ù tai và giảm thính lực. Trong Y học cổ truyền (YHCT), hội chứng này thuộc phạm trù <strong>"huyễn vựng" (眩暈)</strong> — trong đó "huyễn" chỉ trạng thái hoa mắt, "vựng" chỉ trạng thái chóng mặt.</p>
+<p>Theo các y văn cổ điển như <em>Hoàng đế nội kinh</em> và <em>Kim quỹ yếu lược</em>, huyễn vựng có thể do nhiều nguyên nhân: <strong>"Chư phong điệu huyễn, giai thuộc ư can"</strong> (mọi chứng chóng mặt do phong đều liên quan đến Can); <strong>"Vô đàm bất tác huyễn"</strong> (không có đàm thì không gây huyễn vựng); <strong>"Huyễn vựng giả, trung khí hư dã"</strong> (huyễn vựng do trung khí hư). Ba nhận định kinh điển này chỉ ra ba nhóm cơ chế bệnh sinh chính, được bổ sung thêm bởi nhóm thận tinh hư.</p>
+
+<h2>Phân thể lâm sàng và biểu hiện đặc trưng</h2>
+
+<h3>Thể 1: Đàm thấp trở trung (Phong đàm nội trở)</h3>
+<p>Đây là thể phổ biến nhất, thường gặp ở người thừa cân, hay ăn thức ăn béo ngọt, tỳ vị kém. Đàm thấp tích tụ, trở ngại thanh dương thăng lên não.</p>
+<ul>
+  <li><strong>Biểu hiện:</strong> Chóng mặt nặng nề, đầu như bị vấn vải, buồn nôn, nôn ra đàm dãi, ngực tức bụng đầy, ăn kém, miệng nhạt.</li>
+  <li><strong>Lưỡi:</strong> Rêu lưỡi trắng nhờn hoặc vàng nhờn, chất lưỡi bệu.</li>
+  <li><strong>Mạch:</strong> Hoạt — huyền.</li>
+  <li><strong>Pháp trị:</strong> Táo thấp hóa đàm, kiện tỳ hòa vị.</li>
+  <li><strong>Bài thuốc tham khảo:</strong> Bán hạ bạch truật thiên ma thang gia giảm.</li>
+</ul>
+
+<h3>Thể 2: Can dương thượng kháng (Phong dương nhiễu não)</h3>
+<p>Thường gặp ở người tăng huyết áp, căng thẳng kéo dài, can âm hư khiến can dương bốc lên.</p>
+<ul>
+  <li><strong>Biểu hiện:</strong> Chóng mặt dữ dội khi xúc động hoặc tức giận, đau đầu vùng đỉnh và thái dương, mặt đỏ bừng, ù tai, mắt đỏ, tính tình cáu kỉnh, miệng đắng.</li>
+  <li><strong>Lưỡi:</strong> Chất lưỡi đỏ, rêu vàng.</li>
+  <li><strong>Mạch:</strong> Huyền — sác.</li>
+  <li><strong>Pháp trị:</strong> Bình can tiềm dương, tư âm giáng hỏa.</li>
+  <li><strong>Bài thuốc tham khảo:</strong> Thiên ma câu đằng ẩm gia giảm.</li>
+</ul>
+
+<h3>Thể 3: Khí huyết lưỡng hư (Trung khí hư, thanh dương bất thăng)</h3>
+<p>Gặp ở người thiếu máu, phụ nữ sau sinh, người mới ốm dậy, người lao động quá mức.</p>
+<ul>
+  <li><strong>Biểu hiện:</strong> Chóng mặt khi đứng dậy đột ngột, người mệt mỏi vô lực, sắc mặt nhợt nhạt, tim hồi hộp, ăn kém, ngủ không sâu.</li>
+  <li><strong>Lưỡi:</strong> Chất lưỡi nhạt, rêu mỏng trắng.</li>
+  <li><strong>Mạch:</strong> Tế — nhược.</li>
+  <li><strong>Pháp trị:</strong> Bổ khí dưỡng huyết, ích khí thăng dương.</li>
+  <li><strong>Bài thuốc tham khảo:</strong> Bát trân thang hoặc Quy tỳ thang gia giảm.</li>
+</ul>
+
+<h3>Thể 4: Thận tinh hư (Tủy hải bất túc)</h3>
+<p>Gặp ở người cao tuổi, người lao tâm lao lực, người có tiền sử bệnh mạn tính tiêu hao thận tinh.</p>
+<ul>
+  <li><strong>Biểu hiện:</strong> Chóng mặt âm ỉ kéo dài, ù tai, hay quên, lưng gối đau mỏi, tóc rụng, răng lung lay, ngủ ít.</li>
+  <li><strong>Phân biệt thận âm hư và thận dương hư:</strong> Thận âm hư thêm bứt rứt, họng khô, ra mồ hôi trộm; thận dương hư thêm sợ lạnh, tiểu nhiều, tay chân lạnh.</li>
+  <li><strong>Lưỡi:</strong> Thận âm hư: lưỡi đỏ khô, ít rêu; Thận dương hư: lưỡi nhạt bệu, rêu trắng.</li>
+  <li><strong>Mạch:</strong> Trầm — tế.</li>
+  <li><strong>Pháp trị:</strong> Bổ thận ích tinh, điền tủy dưỡng não.</li>
+  <li><strong>Bài thuốc tham khảo:</strong> Lục vị địa hoàng hoàn (âm hư) hoặc Thận khí hoàn (dương hư).</li>
+</ul>
+
+<h3>Thể 5: Huyết ứ trở lạc (Ứ huyết nội trở)</h3>
+<p>Gặp sau chấn thương đầu cổ, hoặc bệnh mạn tính làm khí trệ huyết ứ.</p>
+<ul>
+  <li><strong>Biểu hiện:</strong> Chóng mặt kèm đau đầu cố định như kim châm, tím môi đầu ngón tay, da khô.</li>
+  <li><strong>Lưỡi:</strong> Chất lưỡi tím hoặc có điểm ứ huyết, rêu trắng mỏng.</li>
+  <li><strong>Mạch:</strong> Sáp — huyền.</li>
+  <li><strong>Pháp trị:</strong> Hoạt huyết hóa ứ, thông lạc khai khiếu.</li>
+</ul>
+
+<h2>Phác đồ châm cứu và huyệt vị chính</h2>
+<p>Châm cứu được chỉ định cho hầu hết các thể huyễn vựng. Phương huyệt cơ bản bao gồm:</p>
+<ul>
+  <li><strong>Bách hội (GV20):</strong> Thăng dương khai khiếu, điều thần.</li>
+  <li><strong>Phong trì (GB20):</strong> Sơ phong thanh đầu, thông kinh lạc vùng đầu cổ.</li>
+  <li><strong>Nội quan (PC6):</strong> Hòa vị giáng nghịch, an thần.</li>
+  <li><strong>Túc tam lý (ST36):</strong> Kiện tỳ ích khí, bổ hậu thiên.</li>
+  <li><strong>Thái xung (LR3):</strong> Bình can tiềm dương (dùng cho thể can dương).</li>
+  <li><strong>Phong long (ST40):</strong> Hóa đàm thông lạc (dùng cho thể đàm thấp).</li>
+  <li><strong>Thận du (BL23) — Thái khê (KD3):</strong> Bổ thận ích tinh (dùng cho thể thận hư).</li>
+</ul>
+
+<h2>Lời khuyên chăm sóc và phòng ngừa tái phát</h2>
+<ul>
+  <li>Tránh thay đổi tư thế đột ngột, đặc biệt khi ngồi dậy hoặc quay đầu nhanh.</li>
+  <li>Hạn chế muối, chất béo, đường — tránh thực phẩm sinh đàm thấp.</li>
+  <li>Ngủ đủ giấc, không thức khuya; giữ tâm trạng bình ổn, tránh căng thẳng.</li>
+  <li>Tập dưỡng sinh nhẹ nhàng như đi bộ, khí công — tránh vận động mạnh khi đang chóng mặt.</li>
+  <li>Kiểm soát huyết áp, đường huyết, lipid máu định kỳ.</li>
+</ul>
+
+<div class="art-cta-box"><p>Nếu bạn đang chịu đựng chứng chóng mặt, mất thăng bằng kéo dài hoặc tái phát nhiều lần, hãy đến <strong>Phòng Khám Y học cổ truyền Tâm Đức</strong> để được <strong>BS. Nguyễn Đức Tâm</strong> thăm khám, biện chứng phân thể và xây dựng phác đồ điều trị cá nhân hóa bằng châm cứu, thuốc YHCT. Liên hệ: <strong>0973 710 237</strong> — Giờ khám: <strong>18:00–22:00 hàng ngày</strong> — Địa chỉ: <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 145,
+    slug: "dien-cham-chau-cuu-xung-dien-khong-dung-thuoc-yhct",
+    date: "2026-07-25",
+    category: "khong-thuoc",
+    categoryLabel: "Không dùng thuốc",
+    icon: "🧘",
+    gradient: "g-herb",
+    title: "Điện châm trong Y học cổ truyền: Châm cứu kết hợp xung điện — liệu pháp không dùng thuốc hiệu quả cao",
+    excerpt: "Điện châm là phương pháp kết hợp kim châm truyền thống với dòng điện xung tần số thấp, tăng cường kích thích huyệt vị, thúc đẩy lưu thông khí huyết và giảm đau hiệu quả mà không cần dùng thuốc.",
+    readTime: 5,
+    content: `
+<h2>Điện châm là gì? Cơ sở lý luận từ Y học cổ truyền và hiện đại</h2>
+<p>Điện châm (電針 — electroacupuncture) là phương pháp châm cứu hiện đại trong đó sau khi kim đã đặt vào huyệt và đạt cảm giác "đắc khí" (tê, căng, tức, lan truyền theo đường kinh), người thầy thuốc gắn thêm điện cực để dẫn dòng điện xung tần số thấp qua kim, duy trì và tăng cường kích thích huyệt vị một cách liên tục và có kiểm soát.</p>
+<p>Về lý luận YHCT, điện châm tác động theo cùng cơ chế như châm cứu truyền thống: <strong>điều hòa khí huyết, thông kinh hoạt lạc, bình hư bổ thực</strong>. Dòng điện xung đóng vai trò duy trì và khuếch đại hiệu quả kích thích huyệt, giúp duy trì cảm giác đắc khí liên tục mà không cần thầy thuốc vê kim liên tục — một lợi thế lớn trong điều trị kéo dài hoặc khi cần kích thích mạnh.</p>
+<p>Về cơ chế khoa học hiện đại, điện châm được chứng minh: kích thích giải phóng endorphin, enkephalin và serotonin (giảm đau tự nhiên); ức chế dẫn truyền thần kinh đau qua cơ chế "cổng kiểm soát" (gate control); cải thiện vi tuần hoàn; giảm viêm thông qua điều chỉnh phản ứng miễn dịch tại chỗ và toàn thân.</p>
+
+<h2>Ưu điểm vượt trội so với châm cứu truyền thống</h2>
+<ul>
+  <li><strong>Kích thích đồng đều và liên tục:</strong> Dòng điện duy trì cảm giác đắc khí suốt buổi điều trị 20–30 phút mà không cần thầy thuốc can thiệp liên tục.</li>
+  <li><strong>Kiểm soát được cường độ:</strong> Có thể điều chỉnh tần số (Hz) và biên độ điện áp phù hợp với từng tình trạng bệnh — tần số thấp (2–4 Hz) tác dụng bổ, tần số cao (80–100 Hz) tác dụng tả giảm đau cấp.</li>
+  <li><strong>Hiệu quả vượt trội trong đau mạn tính:</strong> Nghiên cứu lâm sàng cho thấy điện châm hiệu quả hơn châm cứu thủ công trong điều trị đau thần kinh, đau cơ xương khớp mạn tính.</li>
+  <li><strong>An toàn, không xâm lấn hóa chất:</strong> Hoàn toàn không dùng thuốc, phù hợp bệnh nhân dị ứng thuốc, suy gan thận, không muốn dùng thuốc giảm đau lâu dài.</li>
+</ul>
+
+<h2>Chỉ định lâm sàng của điện châm</h2>
+<p>Điện châm đặc biệt hiệu quả trong các chỉ định sau:</p>
+<ul>
+  <li><strong>Đau cơ xương khớp:</strong> Thoái hóa cột sống cổ/thắt lưng, thoát vị đĩa đệm, viêm khớp, đau vai gáy, đau thần kinh tọa.</li>
+  <li><strong>Liệt vận động:</strong> Di chứng tai biến mạch máu não (liệt nửa người, liệt mặt), liệt thần kinh ngoại biên.</li>
+  <li><strong>Đau thần kinh:</strong> Đau thần kinh liên sườn, đau dây thần kinh sinh ba, đau sau zona.</li>
+  <li><strong>Rối loạn chức năng:</strong> Rối loạn tiền đình, mất ngủ mạn tính, đau đầu căng cơ, liệt dây VII ngoại biên.</li>
+  <li><strong>Hỗ trợ phục hồi chức năng:</strong> Sau phẫu thuật cột sống, khớp; teo cơ do bất động lâu ngày.</li>
+  <li><strong>Hỗ trợ điều trị nội khoa:</strong> Tăng huyết áp, đái tháo đường (kiểm soát biến chứng), rối loạn kinh nguyệt.</li>
+</ul>
+
+<h2>Chống chỉ định và lưu ý an toàn</h2>
+<ul>
+  <li><strong>Tuyệt đối không dùng</strong> cho bệnh nhân mang máy tạo nhịp tim (pacemaker) hoặc các thiết bị điện tử cấy ghép trong người.</li>
+  <li>Không đặt điện cực qua vùng tim, trực tiếp lên đầu hoặc tủy sống.</li>
+  <li>Thận trọng với phụ nữ mang thai (tránh vùng bụng, thắt lưng và các huyệt cấm châm khi mang thai).</li>
+  <li>Không dùng cho vùng da có vết thương hở, viêm nhiễm cấp tính.</li>
+  <li>Người bệnh lần đầu điều trị cần được thăm khám kỹ, giải thích về cảm giác điện trước khi bắt đầu.</li>
+</ul>
+
+<h2>Quy trình một buổi điện châm tại phòng khám YHCT</h2>
+<ul>
+  <li><strong>Bước 1 — Thăm khám và biện chứng:</strong> Thầy thuốc xác định thể bệnh, lập phương huyệt phù hợp.</li>
+  <li><strong>Bước 2 — Châm kim:</strong> Tiến hành châm kim theo kỹ thuật chuẩn, tìm cảm giác đắc khí tại từng huyệt.</li>
+  <li><strong>Bước 3 — Kết nối điện:</strong> Gắn kẹp điện cực theo từng cặp huyệt, điều chỉnh tần số và cường độ phù hợp (thường bắt đầu nhỏ, tăng dần đến mức bệnh nhân cảm thấy tê rung nhẹ, không đau).</li>
+  <li><strong>Bước 4 — Lưu kim:</strong> Giữ nguyên 20–30 phút, theo dõi bệnh nhân.</li>
+  <li><strong>Bước 5 — Rút kim:</strong> Tắt máy trước khi rút kim, kiểm tra da vùng huyệt.</li>
+  <li><strong>Liệu trình:</strong> Thông thường 10–15 buổi/liệu trình, 1 buổi/ngày hoặc cách ngày tùy tình trạng.</li>
+</ul>
+
+<div class="art-cta-box"><p>Phòng Khám YHCT Tâm Đức trang bị máy điện châm hiện đại, áp dụng kỹ thuật điện châm theo chuẩn YHCT dưới sự trực tiếp thực hiện của <strong>BS. Nguyễn Đức Tâm</strong>. Điện châm đặc biệt phù hợp cho người đau mạn tính, liệt vận động hoặc không muốn dùng thuốc lâu dài. Đặt lịch: <strong>0973 710 237</strong> — Giờ khám: <strong>18:00–22:00 hàng ngày</strong> — <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 146,
+    slug: "tu-vat-thang-duong-huyet-dieu-kinh-kinh-dien-yhct",
+    date: "2026-07-25",
+    category: "thuoc-yhct",
+    categoryLabel: "Thuốc YHCT",
+    icon: "🌿",
+    gradient: "g-fire",
+    title: "Tứ vật thang — Bài thuốc dưỡng huyết, điều kinh kinh điển của Y học cổ truyền",
+    excerpt: "Tứ vật thang (四物湯) là bài thuốc nền tảng dưỡng huyết điều kinh trong Y học cổ truyền, được mệnh danh \"bài thuốc của phụ khoa\", ứng dụng rộng rãi trong điều trị huyết hư, kinh nguyệt không đều và nhiều bệnh lý phụ khoa mạn tính.",
+    readTime: 6,
+    content: `
+<h2>Nguồn gốc và vị trí của Tứ vật thang trong Y học cổ truyền</h2>
+<p>Tứ vật thang (四物湯) có xuất xứ từ cuốn <em>"Tiên thụ lý thương tục đoạn bí phương"</em> (仙授理傷續斷秘方) thời Đường, sau được hệ thống hóa và phổ biến rộng rãi trong <em>"Thái bình huệ dân hòa tễ cục phương"</em> (太平惠民和劑局方) thời Tống. Đây là bài thuốc <strong>bổ huyết hoạt huyết nền tảng</strong> của Y học cổ truyền, là cơ sở để biến hóa ra hàng trăm bài thuốc phụ khoa khác.</p>
+<p>Tứ vật thang được mệnh danh là <strong>"phụ khoa chi bổ tể"</strong> (bài thuốc bổ của phụ khoa), được ứng dụng liên tục suốt hơn 1.000 năm trong điều trị các chứng bệnh liên quan đến huyết hư, kinh nguyệt không đều và nhiều bệnh lý phụ nữ khác. Bài thuốc thể hiện nguyên tắc cốt lõi của YHCT trong điều trị huyết bệnh: <strong>"huyết hư thì bổ, huyết trệ thì hành, huyết nhiệt thì lương, huyết hàn thì ôn"</strong> — và Tứ vật thang chủ yếu thực hiện hai tác động đầu tiên.</p>
+
+<h2>Thành phần và vai trò của từng vị thuốc</h2>
+<p>Bài thuốc gồm 4 vị — mỗi vị giữ một vai trò riêng biệt, tạo nên sự cân bằng tinh tế:</p>
+<ul>
+  <li><strong>Thục địa hoàng (熟地黃) — Quân dược:</strong> Liều 12–16g. Bổ huyết dưỡng âm, điền tinh bổ tủy. Đây là vị chủ lực bổ huyết, tác động trực tiếp vào Can và Thận. Thục địa vị ngọt, tính ấm, là vị thuốc "bổ huyết số một" trong YHCT.</li>
+  <li><strong>Đương quy (當歸) — Thần dược:</strong> Liều 10–12g. Bổ huyết hoạt huyết, điều kinh giảm đau. Đương quy vừa bổ huyết vừa hành huyết, tránh được tình trạng bổ huyết mà huyết ngưng trệ. Có tác dụng đặc biệt trên tử cung, điều hòa kinh nguyệt.</li>
+  <li><strong>Bạch thược (白芍) — Thần dược:</strong> Liều 10–12g. Dưỡng huyết nhu can, liễm âm chỉ thống. Bạch thược bổ huyết và "giữ" huyết trong mạch, đồng thời nhu dưỡng can âm để can không can thương âm huyết. Có tác dụng giảm co thắt, giảm đau.</li>
+  <li><strong>Xuyên khung (川芎) — Tá sứ dược:</strong> Liều 6–8g. Hoạt huyết hành khí, khu phong chỉ thống. Xuyên khung là vị "động" trong bài, tránh để bài thuốc bổ quá nê trệ. "Huyết trung chi khí dược" — vị thuốc điều khí trong huyết, giúp bổ mà không trệ.</li>
+</ul>
+<p><em>Nguyên tắc phối ngũ: Thục địa — Bạch thược (tĩnh, bổ âm huyết) kết hợp Đương quy — Xuyên khung (động, hành huyết khí). Sự kết hợp "động — tĩnh" này tạo ra hiệu quả bổ huyết mà không gây trệ khí, hành huyết mà không tổn huyết.</em></p>
+
+<h2>Chỉ định lâm sàng và ứng dụng thực tế</h2>
+<p>Tứ vật thang được chỉ định khi có hội chứng <strong>Can huyết hư</strong> với biểu hiện:</p>
+<ul>
+  <li>Kinh nguyệt không đều: kinh ít, màu nhạt, muộn kinh, hoặc kinh bế (vô kinh do huyết hư).</li>
+  <li>Đau bụng kinh — đau âm ỉ, giảm sau khi có kinh hoặc khi chườm ấm, sắc kinh nhạt.</li>
+  <li>Thiếu máu nhẹ đến trung bình: da xanh tái, móng tay nhợt, chóng mặt, tim hồi hộp, ngủ kém.</li>
+  <li>Sắc mặt vàng ủ, môi nhạt, tóc khô dễ gãy, rụng tóc.</li>
+  <li>Phụ nữ sau sinh thiếu huyết, hồi phục chậm.</li>
+  <li>Hỗ trợ điều trị vô sinh do huyết hư, buồng trứng kém hoạt động.</li>
+</ul>
+
+<h2>Biến phương phổ biến từ Tứ vật thang</h2>
+<ul>
+  <li><strong>Đào hồng tứ vật thang:</strong> Thêm Đào nhân + Hồng hoa — hoạt huyết hóa ứ mạnh hơn, dùng cho kinh nguyệt ứ trệ, đau bụng kinh nặng, màu kinh tím đen có cục.</li>
+  <li><strong>Bát trân thang:</strong> Thêm Tứ quân tử thang (Nhân sâm, Bạch truật, Phục linh, Cam thảo) — bổ cả khí lẫn huyết, dùng cho khí huyết lưỡng hư.</li>
+  <li><strong>Thập toàn đại bổ thang:</strong> Bát trân thang thêm Hoàng kỳ + Nhục quế — bổ khí huyết và ôn dương, dùng cho hư hàn nặng.</li>
+  <li><strong>Thánh dũ thang:</strong> Gia giảm dùng trong thời kỳ mang thai để an thai dưỡng huyết.</li>
+</ul>
+
+<h2>Chống chỉ định và thận trọng</h2>
+<ul>
+  <li>Không dùng cho người huyết nhiệt (kinh nguyệt màu đỏ tươi, nhiều, sớm kỳ, người có sốt).</li>
+  <li>Thận trọng với người tỳ vị hư hàn, tiêu chảy — vì Thục địa tính nê trệ.</li>
+  <li>Không dùng khi đang có kinh nguyệt lượng nhiều (Xuyên khung và Đương quy có tính hoạt huyết).</li>
+  <li>Phụ nữ mang thai chỉ dùng dưới chỉ định của thầy thuốc YHCT.</li>
+  <li>Không tự ý mua dùng — cần thầy thuốc biện chứng và điều chỉnh liều lượng theo thể trạng.</li>
+</ul>
+
+<div class="art-cta-box"><p>Tứ vật thang và các biến phương phụ khoa của nó cần được bác sĩ YHCT biện chứng kỹ lưỡng trước khi sử dụng. Tại <strong>Phòng Khám YHCT Tâm Đức</strong>, <strong>BS. Nguyễn Đức Tâm</strong> sẽ tư vấn và gia giảm bài thuốc phù hợp với thể trạng từng bệnh nhân, kết hợp châm cứu để nâng cao hiệu quả điều trị các vấn đề phụ khoa. Liên hệ: <strong>0973 710 237</strong> — Giờ khám: <strong>18:00–22:00 hàng ngày</strong> — <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 147,
+    slug: "phong-ngua-suy-giam-tri-nho-sa-sut-tri-tue-yhct",
+    date: "2026-07-25",
+    category: "phong-benh",
+    categoryLabel: "Phòng bệnh",
+    icon: "🛡️",
+    gradient: "g-amber",
+    title: "Phòng ngừa suy giảm trí nhớ và sa sút trí tuệ theo Y học cổ truyền: Dưỡng não, bổ thận, ích tủy từ sớm",
+    excerpt: "Y học cổ truyền nhìn nhận não là \"tủy hải\" — biển tủy do Thận chủ, và suy giảm trí nhớ bắt nguồn từ Thận tinh suy giảm, Tâm thần thất dưỡng hoặc đàm ứ bế lạc — có thể phòng ngừa hiệu quả từ độ tuổi trung niên.",
+    readTime: 5,
+    content: `
+<h2>Góc nhìn của Y học cổ truyền về não bộ và trí nhớ</h2>
+<p>Trong Y học cổ truyền (YHCT), não được gọi là <strong>"Tủy hải" (髓海)</strong> — biển tủy, nơi tập trung tinh tủy của toàn cơ thể. <em>Linh khu</em> viết: <strong>"Não là bể của tủy"</strong>, và <strong>"Thận chủ cốt sinh tủy, tủy thông lên não"</strong>. Vì vậy, sức khỏe não bộ và khả năng trí tuệ, trí nhớ phụ thuộc trực tiếp vào <strong>Thận tinh</strong> có đầy đủ hay không.</p>
+<p>Khi Thận tinh sung mãn, tủy hải đầy đủ, não được nuôi dưỡng tốt, con người minh mẫn, trí nhớ tốt, phản ứng nhanh nhạy. Ngược lại, Thận tinh suy giảm (do tuổi tác, lao tâm, bệnh mạn tính) khiến tủy hải không đầy, não thiếu dưỡng, biểu hiện: hay quên, phản xạ chậm, khó tập trung, chóng mặt, ù tai.</p>
+<p>Ngoài Thận tinh, YHCT còn chú trọng đến: <strong>Tâm thần</strong> (Tâm chủ thần minh — não điều phối qua Tâm); <strong>Tỳ vị</strong> (hóa sinh khí huyết nuôi não); và <strong>đàm ứ bế lạc</strong> (đàm thấp, huyết ứ ngăn cản dòng khí huyết lên não).</p>
+
+<h2>Các yếu tố nguy cơ theo YHCT và Y học hiện đại</h2>
+<ul>
+  <li><strong>Lao tâm quá độ:</strong> YHCT cho rằng "tư lự hại tỳ, quá tư thương thận" — suy nghĩ nhiều làm hao tổn Tỳ và Thận, dẫn đến thiếu huyết nuôi não.</li>
+  <li><strong>Thức khuya, mất ngủ mạn tính:</strong> Can tàng huyết ban đêm; thức khuya làm can huyết không được phục hồi, não thiếu dưỡng.</li>
+  <li><strong>Ăn uống không điều độ:</strong> Thức ăn béo ngọt gây đàm thấp nội sinh, cản trở thanh dương thăng lên não.</li>
+  <li><strong>Ít vận động:</strong> Khí trệ huyết ứ, tuần hoàn lên não kém.</li>
+  <li><strong>Tăng huyết áp, đái tháo đường, mỡ máu cao:</strong> Các bệnh này trong YHCT đều có cơ chế đàm ứ bế trở, tổn thương mạch máu não.</li>
+  <li><strong>Căng thẳng, lo âu mạn tính:</strong> Can khí uất kết, ảnh hưởng tuần hoàn và chức năng thần kinh.</li>
+</ul>
+
+<h2>Chiến lược phòng ngừa theo YHCT: Dưỡng não từ nhiều hướng</h2>
+
+<h3>1. Bổ thận ích tủy — nền tảng dưỡng não lâu dài</h3>
+<ul>
+  <li><strong>Thực phẩm bổ thận:</strong> Hạt óc chó (hình dáng giống não, bổ não theo thuyết tương hình), hạt đen (vừng đen, đậu đen), hải sản (tôm, cua, cá biển), thịt dê, trứng, sữa.</li>
+  <li><strong>Vị thuốc bổ thận ích tủy:</strong> Thục địa hoàng, Kỷ tử, Hà thủ ô đỏ, Sơn thù du, Nữ trinh tử (tư âm bổ thận); Nhục thung dung, Ba kích, Đỗ trọng (ôn thận dương).</li>
+  <li><strong>Tránh tiêu hao thận tinh:</strong> Không lạm dụng sinh hoạt tình dục, tránh thức khuya thường xuyên, không lao tâm quá sức.</li>
+</ul>
+
+<h3>2. Dưỡng tâm an thần — Tâm chủ thần minh</h3>
+<ul>
+  <li>Giữ tâm trạng bình ổn, tập thiền định, thở sâu để dưỡng Tâm.</li>
+  <li>Ngủ đủ giấc (22:00–6:00) — thời gian Can và Đởm tự phục hồi theo đồng hồ sinh học YHCT.</li>
+  <li>Vị thuốc dưỡng tâm: Táo nhân, Viễn chí, Bá tử nhân, Long nhãn.</li>
+</ul>
+
+<h3>3. Kiện tỳ hóa đàm — ngăn đàm ứ lên não</h3>
+<ul>
+  <li>Hạn chế thức ăn béo ngọt, đồ chiên rán, rượu bia — đây là nguồn sinh đàm thấp.</li>
+  <li>Tăng cường rau xanh, ngũ cốc nguyên hạt, thực phẩm kiện tỳ: khoai sọ, ý dĩ, hoài sơn.</li>
+  <li>Vị thuốc hóa đàm thông lạc: Xương bồ, Uất kim, Đan sâm — hóa đàm khai khiếu, hoạt huyết dưỡng não.</li>
+</ul>
+
+<h3>4. Vận động dưỡng sinh — thúc đẩy tuần hoàn não</h3>
+<ul>
+  <li>Đi bộ 30 phút/ngày, thái cực quyền, khí công — tăng cường vận hành khí huyết, cải thiện vi tuần hoàn não.</li>
+  <li>Bài tập trí não: đọc sách, học ngoại ngữ, chơi cờ, viết tay — kích thích thần kinh não bộ theo quan điểm YHCT là "dụng thần ích tâm".</li>
+  <li>Xoa bóp huyệt Bách hội (đỉnh đầu), Thái dương, Phong trì, Thận du hàng ngày để dưỡng não và bổ thận.</li>
+</ul>
+
+<h2>Thời điểm vàng để phòng ngừa: Bắt đầu từ tuổi 40</h2>
+<p>YHCT nhấn mạnh: <strong>"Phòng bệnh hơn chữa bệnh — thượng công trị vị bệnh"</strong>. Thận tinh bắt đầu suy giảm từ sau tuổi 40 (theo <em>Hoàng đế nội kinh</em>: "Ngũ thập tuế, Can khí thủy suy… lục thập tuế, Tâm khí thủy suy"). Vì vậy, bắt đầu các biện pháp dưỡng não từ 40–50 tuổi là thời điểm lý tưởng — khi tổn thương chưa quá nặng và hoàn toàn có thể phục hồi, duy trì.</p>
+<ul>
+  <li>Khám sức khỏe định kỳ 6 tháng/lần sau 45 tuổi: kiểm soát huyết áp, đường huyết, mỡ máu.</li>
+  <li>Bổ sung các vị thuốc bổ thận dưỡng não theo tư vấn thầy thuốc YHCT.</li>
+  <li>Châm cứu định kỳ (1–2 lần/tháng) tại các huyệt dưỡng não, bổ thận sau tuổi 50.</li>
+</ul>
+
+<div class="art-cta-box"><p>Để xây dựng kế hoạch dưỡng não, phòng ngừa suy giảm trí nhớ phù hợp với thể trạng và độ tuổi của bạn theo YHCT, hãy đến <strong>Phòng Khám YHCT Tâm Đức</strong>. <strong>BS. Nguyễn Đức Tâm</strong> sẽ tư vấn phác đồ dưỡng sinh, bài thuốc bổ thận ích tủy và châm cứu dưỡng não cá nhân hóa. Liên hệ: <strong>0973 710 237</strong> — Giờ khám: <strong>18:00–22:00 hàng ngày</strong> — <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 148,
+    slug: "phuong-huyet-dieu-tri-dau-bung-kinh-thong-kinh-yhct",
+    date: "2026-07-25",
+    category: "phuong-huyet",
+    categoryLabel: "Phương huyệt",
+    icon: "📍",
+    gradient: "g-huyet",
+    title: "Phương huyệt điều trị đau bụng kinh (thống kinh) theo Y học cổ truyền",
+    excerpt: "Châm cứu điều trị đau bụng kinh (thống kinh) đạt hiệu quả cao nhờ tác động trực tiếp vào các huyệt đặc hiệu điều hòa khí huyết xung nhâm, giảm co thắt tử cung và cân bằng nội tiết — không có tác dụng phụ như thuốc giảm đau tây y.",
+    readTime: 5,
+    content: `
+<h2>Cơ sở lý luận YHCT về đau bụng kinh (thống kinh)</h2>
+<p>Đau bụng kinh (thống kinh — 痛經) là tình trạng đau vùng bụng dưới trong hoặc trước kỳ kinh nguyệt. Trong Y học cổ truyền, nguyên nhân được quy về hai nhóm chính: <strong>bất thông tắc thống</strong> (không thông tắc đau — khí trệ huyết ứ, hàn ngưng huyết ứ) và <strong>bất vinh tắc thống</strong> (không đủ nuôi dưỡng gây đau — khí huyết hư nhược, thận hư).</p>
+<p>Mạch Xung và mạch Nhâm là hai mạch kỳ kinh liên quan trực tiếp đến kinh nguyệt và tử cung. Khi khí huyết trong hai mạch này vận hành không thuận, kinh huyết khó lưu thông gây đau. Châm cứu tác động vào các huyệt đặc hiệu trên đường Xung mạch, Nhâm mạch và các kinh Túc quyết âm Can, Túc thái âm Tỳ để điều hòa khí huyết, giảm co thắt và thông kinh chỉ thống.</p>
+
+<h2>Phương huyệt chính điều trị thống kinh</h2>
+
+<h3>1. Quan nguyên (CV4 — Nhâm mạch)</h3>
+<ul>
+  <li><strong>Vị trí:</strong> Trên đường giữa bụng, dưới rốn 3 thốn (khoảng 9 cm dưới rốn).</li>
+  <li><strong>Tác dụng:</strong> Bổ thận ôn dương, ôn thông xung nhâm, hành khí chỉ thống. Là huyệt cốt lõi nhất để điều trị thống kinh do hàn ngưng và thận hư. Cứu ngải tại huyệt này đặc biệt hiệu quả trong thể hàn.</li>
+</ul>
+
+<h3>2. Khí hải (CV6 — Nhâm mạch)</h3>
+<ul>
+  <li><strong>Vị trí:</strong> Trên đường giữa bụng, dưới rốn 1,5 thốn (khoảng 4,5 cm dưới rốn).</li>
+  <li><strong>Tác dụng:</strong> Bổ nguyên khí, ích khí hoạt huyết, hành khí giải uất. Kết hợp với Quan nguyên để tăng tác dụng bổ xung dưỡng nhâm.</li>
+</ul>
+
+<h3>3. Trung cực (CV3 — Nhâm mạch)</h3>
+<ul>
+  <li><strong>Vị trí:</strong> Trên đường giữa bụng, dưới rốn 4 thốn (khoảng 12 cm dưới rốn, trên xương mu 1 thốn).</li>
+  <li><strong>Tác dụng:</strong> Hội tụ điểm của Nhâm mạch với 3 kinh âm (Can, Tỳ, Thận). Điều hòa kinh nguyệt, hoạt huyết thông kinh, giảm đau trực tiếp tử cung. Huyệt đặc hiệu cho vùng sinh dục, chỉ định hàng đầu trong thống kinh.</li>
+</ul>
+
+<h3>4. Tam âm giao (SP6 — Kinh Tỳ)</h3>
+<ul>
+  <li><strong>Vị trí:</strong> Mặt trong cẳng chân, trên đỉnh mắt cá trong 3 thốn (khoảng 9 cm), sát bờ sau xương chày.</li>
+  <li><strong>Tác dụng:</strong> Hội tụ của 3 kinh âm (Tỳ, Can, Thận) ở chân. Bổ tỳ thận, dưỡng huyết điều kinh, hoạt huyết chỉ thống. Đây là huyệt quan trọng bậc nhất trong phụ khoa YHCT. Lưu ý: không châm hoặc châm nhẹ ở phụ nữ mang thai.</li>
+</ul>
+
+<h3>5. Huyết hải (SP10 — Kinh Tỳ)</h3>
+<ul>
+  <li><strong>Vị trí:</strong> Mặt trước trong đùi, trên góc trong xương bánh chè 2 thốn, trên cơ rộng trong đùi.</li>
+  <li><strong>Tác dụng:</strong> Hoạt huyết hóa ứ, điều kinh chỉ thống. Huyệt chuyên dùng cho các chứng huyết bệnh, đặc biệt hiệu quả khi kinh nguyệt màu tím đen, có cục máu đông — dấu hiệu của ứ huyết.</li>
+</ul>
+
+<h3>6. Thái xung (LR3 — Kinh Can)</h3>
+<ul>
+  <li><strong>Vị trí:</strong> Mu bàn chân, trong khe giữa xương đốt bàn ngón 1 và 2, phía sau điểm nối xương bàn chân khoảng 2 thốn.</li>
+  <li><strong>Tác dụng:</strong> Sơ can giải uất, hoạt huyết điều kinh, giảm co thắt. Đặc biệt hiệu quả trong thống kinh do can khí uất kết (kinh nguyệt kèm căng tức ngực, bụng, hay cáu kỉnh trước kỳ kinh).</li>
+</ul>
+
+<h3>7. Địa cơ (SP8 — Kinh Tỳ, huyệt khích)</h3>
+<ul>
+  <li><strong>Vị trí:</strong> Mặt trong cẳng chân, trên Tam âm giao 3 thốn, sát bờ sau xương chày.</li>
+  <li><strong>Tác dụng:</strong> Huyệt khích (郄穴) của kinh Tỳ — huyệt chuyên dùng để giảm đau cấp. Hoạt huyết hóa ứ, điều kinh chỉ thống cấp tính. Đây là huyệt được lựa chọn đầu tiên khi bệnh nhân đang đau bụng kinh cấp tính.</li>
+</ul>
+
+<h2>Phối huyệt theo thể bệnh</h2>
+<ul>
+  <li><strong>Thể hàn ngưng (đau khi gặp lạnh, giảm khi chườm nóng):</strong> Quan nguyên + Khí hải + Tam âm giao + Địa cơ. Kết hợp cứu ngải tại Quan nguyên và Khí hải trước kỳ kinh 3–5 ngày.</li>
+  <li><strong>Thể khí trệ huyết ứ (đau trước kỳ kinh, kinh tím đen, có cục):</strong> Trung cực + Huyết hải + Thái xung + Địa cơ. Tả pháp, không cứu.</li>
+  <li><strong>Thể khí huyết hư (đau âm ỉ trong và sau kỳ kinh, sắc kinh nhạt):</strong> Quan nguyên + Tam âm giao + Túc tam lý + Khí hải. Bổ pháp, có thể kết hợp cứu.</li>
+  <li><strong>Thể thận hư (đau lưng nhiều, kinh ít, sắc nhạt, kèm mỏi lưng gối):</strong> Quan nguyên + Thận du + Tam âm giao + Thái khê. Bổ pháp và cứu.</li>
+</ul>
+
+<h2>Thời điểm và liệu trình điều trị</h2>
+<ul>
+  <li>Bắt đầu châm cứu <strong>5–7 ngày trước kỳ kinh</strong> dự kiến để đạt hiệu quả phòng ngừa tốt nhất.</li>
+  <li>Tiếp tục trong suốt kỳ kinh nếu còn đau.</li>
+  <li>Một liệu trình đầy đủ: 3 chu kỳ kinh liên tiếp — hầu hết bệnh nhân cải thiện rõ rệt sau 2–3 liệu trình.</li>
+  <li>Tần suất: 2–3 buổi/tuần trong giai đoạn trước và trong kỳ kinh.</li>
+</ul>
+
+<div class="art-cta-box"><p>Đau bụng kinh ảnh hưởng nghiêm trọng đến chất lượng cuộc sống mỗi tháng có thể được điều trị hiệu quả và lâu dài bằng châm cứu tại <strong>Phòng Khám YHCT Tâm Đức</strong>. <strong>BS. Nguyễn Đức Tâm</strong> sẽ biện chứng phân thể và xây dựng phác đồ huyệt vị phù hợp. Liên hệ: <strong>0973 710 237</strong> — Giờ khám: <strong>18:00–22:00 hàng ngày</strong> — <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 149,
+    slug: "tri-da-dau-lo-chan-long-to-mun-dau-den-yhct",
+    date: "2026-07-25",
+    category: "lam-dep",
+    categoryLabel: "Làm đẹp",
+    icon: "🌸",
+    gradient: "g-rose",
+    title: "Điều trị da dầu, lỗ chân lông to và mụn đầu đen theo Y học cổ truyền: Thanh nhiệt giải độc, điều hòa Phế Vị",
+    excerpt: "Da dầu, lỗ chân lông to và mụn đầu đen theo YHCT bắt nguồn từ Phế Vị nhiệt thịnh hoặc Tỳ hư đàm thấp, cần điều trị từ bên trong bằng thuốc YHCT kết hợp châm cứu và chăm sóc da bên ngoài để đạt hiệu quả bền vững.",
+    readTime: 5,
+    content: `
+<h2>Da dầu và mụn đầu đen nhìn từ góc độ Y học cổ truyền</h2>
+<p>Trong Y học cổ truyền (YHCT), làn da phản chiếu trạng thái của tạng phủ bên trong. Da dầu, lỗ chân lông to và mụn đầu đen không đơn thuần là vấn đề da liễu bề mặt mà là biểu hiện của <strong>rối loạn chức năng Phế, Vị, Tỳ</strong> — ba tạng phủ liên quan trực tiếp đến da và cơ nhục.</p>
+<p>YHCT nhận định: <strong>"Phế chủ bì mao"</strong> (Phế quản lý da lông) và <strong>"Vị chủ cơ nhục"</strong> (Vị quản lý cơ thịt). Khi Phế có nhiệt hoặc Vị nhiệt thịnh, nhiệt tà sẽ bốc lên mặt, kích thích tuyến bã nhờn tiết nhiều, làm lỗ chân lông giãn to, bã nhờn tích tụ trong lỗ chân lông oxy hóa thành mụn đầu đen (bạch đầu, hắc đầu — thể nhẹ của bệnh trứng cá).</p>
+<p>Có hai thể bệnh chính cần phân biệt để điều trị đúng hướng:</p>
+
+<h2>Phân biệt hai thể bệnh chính</h2>
+
+<h3>Thể 1: Phế Vị nhiệt thịnh (thể thực nhiệt)</h3>
+<ul>
+  <li><strong>Biểu hiện da:</strong> Da bóng dầu nhiều, lỗ chân lông to rõ, mụn đầu đen tập trung vùng chữ T (trán, mũi, cằm), da đỏ ửng dễ nổi mụn viêm.</li>
+  <li><strong>Biểu hiện toàn thân:</strong> Hay táo bón, miệng khô miệng hôi, dễ nóng người, thích ăn cay nóng, dầu mỡ, uống ít nước.</li>
+  <li><strong>Lưỡi:</strong> Đỏ, rêu vàng nhờn hoặc khô vàng.</li>
+  <li><strong>Mạch:</strong> Hoạt sác hoặc huyền sác.</li>
+  <li><strong>Pháp trị:</strong> Thanh nhiệt giải độc, tả Phế Vị nhiệt, lợi thấp.</li>
+</ul>
+
+<h3>Thể 2: Tỳ hư đàm thấp (thể hư thực lẫn lộn)</h3>
+<ul>
+  <li><strong>Biểu hiện da:</strong> Da dầu nhưng không đỏ nhiều, lỗ chân lông to, da có xu hướng nhờn và xỉn màu, mụn đầu đen nhiều nhưng ít viêm.</li>
+  <li><strong>Biểu hiện toàn thân:</strong> Ăn kém, bụng đầy, phân nát, người nặng nề, dễ mệt, hay ăn thức ăn béo ngọt.</li>
+  <li><strong>Lưỡi:</strong> Bệu, rêu trắng nhờn.</li>
+  <li><strong>Mạch:</strong> Hoạt hoặc nhu hoãn.</li>
+  <li><strong>Pháp trị:</strong> Kiện tỳ hóa đàm, lợi thấp thanh nhiệt.</li>
+</ul>
+
+<h2>Điều trị từ bên trong: Thuốc YHCT và thực phẩm dưỡng da</h2>
+
+<h3>Thể Phế Vị nhiệt — Thanh nhiệt tả hỏa</h3>
+<ul>
+  <li><strong>Bài thuốc tham khảo:</strong> Tả bạch tán gia giảm (Bạch tì bà diệp, Tang bạch bì, Địa cốt bì); Thanh vị tán (Thăng ma, Mẫu đơn bì, Sinh địa, Đương quy, Hoàng liên).</li>
+  <li><strong>Vị thuốc đơn lẻ hỗ trợ:</strong> Kim ngân hoa, Liên kiều, Bồ công anh, Chi tử (thanh nhiệt giải độc); Đại hoàng (thông tiện tả nhiệt — dùng nhẹ liều).</li>
+  <li><strong>Thực phẩm nên dùng:</strong> Dưa leo, bí đao, đậu xanh, rau má, cải xanh, hoa cúc (trà hoa cúc), nước ép lô hội.</li>
+  <li><strong>Thực phẩm cần tránh:</strong> Đồ cay nóng, chiên rán, sô-cô-la, sữa nguyên béo, rượu bia.</li>
+</ul>
+
+<h3>Thể Tỳ hư đàm thấp — Kiện tỳ hóa thấp</h3>
+<ul>
+  <li><strong>Bài thuốc tham khảo:</strong> Sâm linh bạch truật tán gia giảm (Nhân sâm/Đảng sâm, Phục linh, Bạch truật, Ý dĩ, Hoài sơn, Bạch biển đậu, Cát cánh, Sa nhân, Cam thảo); thêm Thương truật, Hoàng bá để táo thấp thanh nhiệt.</li>
+  <li><strong>Thực phẩm nên dùng:</strong> Ý dĩ (nấu cháo, nấu nước uống), hoài sơn, đậu đỏ, bí đỏ, nấm, rau lá xanh đậm.</li>
+  <li><strong>Thực phẩm cần tránh:</strong> Thức ăn béo ngọt, đồ uống có đường, sữa béo, thức ăn nhanh.</li>
+</ul>
+
+<h2>Điều trị từ bên ngoài: Châm cứu và chăm sóc da</h2>
+
+<h3>Huyệt vị châm cứu điều trị da dầu và mụn đầu đen</h3>
+<ul>
+  <li><strong>Hợp cốc (LI4):</strong> Thanh nhiệt giải biểu, điều trị các bệnh vùng mặt — huyệt quan trọng nhất để điều trị da mặt theo lý luận "diện mục khẩu tỵ giai thuộc Hợp cốc".</li>
+  <li><strong>Khúc trì (LI11):</strong> Thanh nhiệt lợi thấp, giải độc — huyệt đặc hiệu để thanh nhiệt trong huyết phân, điều trị bệnh da.</li>
+  <li><strong>Túc tam lý (ST36):</strong> Kiện tỳ ích vị, hóa sinh khí huyết — điều trị từ gốc rễ Tỳ Vị.</li>
+  <li><strong>Phong long (ST40):</strong> Hóa đàm thấp — dùng cho thể đàm thấp.</li>
+  <li><strong>Âm lăng tuyền (SP9):</strong> Kiện tỳ lợi thấp — tăng thải trừ đàm thấp qua đường tiểu.</li>
+  <li><strong>Đại chùy (GV14):</strong> Thanh nhiệt giải độc toàn thân — huyệt hội của các kinh dương, thanh nhiệt mạnh.</li>
+</ul>
+
+<h3>Chăm sóc da bên ngoài theo YHCT</h3>
+<ul>
+  <li><strong>Nước rửa mặt thảo dược:</strong> Nấu nước lá trà xanh (Camellia sinensis) hoặc kim ngân hoa để nguội dùng rửa mặt — có tác dụng thanh nhiệt, se lỗ chân lông, kháng khuẩn tự nhiên.</li>
+  <li><strong>Đắp mặt nạ bột bạch linh:</strong> Trộn bột Phục linh (bạch linh) với mật ong nguyên chất, đắp 15–20 phút — kiện tỳ lợi thấp, dưỡng ẩm se da.</li>
+  <li><strong>Tẩy tế bào chết tự nhiên:</strong> Bột đậu xanh kết hợp tinh bột gạo — làm sạch sâu lỗ chân lông, loại bỏ mụn đầu đen nhẹ nhàng.</li>
+  <li><strong>Không ép mụn:</strong> YHCT khuyến cáo không nặn mụn thô bạo vì làm tổn thương kinh lạc da, gây tạo sẹo và lan rộng vi khuẩn.</li>
+</ul>
+
+<h2>Lối sống và điều chỉnh thói quen sinh hoạt</h2>
+<ul>
+  <li>Uống đủ 1,5–2 lít nước/ngày để thanh lọc cơ thể và duy trì độ ẩm da từ bên trong.</li>
+  <li>Ngủ trước 23:00 — giờ Tý (23:00–1:00) và Sửu (1:00–3:00) là thời gian Can và Đởm giải độc tự nhiên.</li>
+  <li>Giảm căng thẳng, vì Can khí uất kết làm tăng tiết bã nhờn.</li>
+  <li>Vệ sinh gối, khăn mặt thường xuyên để tránh vi khuẩn tích tụ.</li>
+</ul>
+
+<div class="art-cta-box"><p>Da dầu, lỗ chân lông to và mụn đầu đen dai dẳng cần được điều trị toàn diện từ bên trong lẫn bên ngoài theo YHCT. <strong>Phòng Khám YHCT Tâm Đức</strong> với <strong>BS. Nguyễn Đức Tâm</strong> sẽ biện chứng xác định thể bệnh, kê thuốc YHCT và châm cứu để điều trị tận gốc, phục hồi làn da khỏe mạnh, tươi sáng. Liên hệ: <strong>0973 710 237</strong> — Giờ khám: <strong>18:00–22:00 hàng ngày</strong> — <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
     id: 143,
     slug: "thai-cuc-quyen-duong-sinh-luyen-khi-dieu-than-yhct",
     date: "2026-07-25",
