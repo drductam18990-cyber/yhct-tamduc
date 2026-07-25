@@ -5,6 +5,56 @@
 
 const ARTICLES = [
   {
+    id: 143,
+    slug: "thai-cuc-quyen-duong-sinh-luyen-khi-dieu-than-yhct",
+    date: "2026-07-25",
+    category: "khong-thuoc",
+    categoryLabel: "Không dùng thuốc",
+    icon: "🧘",
+    gradient: "g-herb",
+    title: "Thái cực quyền trong Y học cổ truyền: Phương pháp dưỡng sinh luyện khí, điều thân không dùng thuốc",
+    excerpt: "Thái cực quyền là bộ môn dưỡng sinh kết hợp vận động chậm rãi, hơi thở có ý thức và điều khiển ý niệm theo học thuyết khí hóa YHCT, giúp lưu thông kinh lạc, bổ thận ích tỳ và an định thần minh.",
+    readTime: 6,
+    content: `
+<h2>Tổng quan về Thái cực quyền theo Y học cổ truyền</h2>
+<p>Thái cực quyền (太極拳) là môn võ thuật và dưỡng sinh cổ truyền Trung Hoa, hình thành từ triết lý <strong>Thái cực — âm dương tương sinh tương khắc</strong>. Trong Y học cổ truyền (YHCT), Thái cực quyền được coi là phương pháp <strong>luyện khí điều thân</strong> toàn diện: mỗi động tác chậm, liên hoàn, kết hợp hơi thở và ý niệm (tâm — khí — hình hợp nhất) nhằm thúc đẩy vận hành khí huyết qua 12 kinh chính và 8 mạch kỳ kinh.</p>
+<p>Không giống các bài tập thể dục thông thường, Thái cực quyền vận dụng nguyên tắc <strong>"dĩ tĩnh chế động, dĩ nhu khắc cương"</strong> — lấy tĩnh chế động, lấy mềm thắng cứng. Qua đó, người tập không chỉ cải thiện thể lực mà còn bổ dưỡng tạng phủ từ bên trong, đặc biệt thích hợp cho người trung cao tuổi, người có bệnh mạn tính hoặc đang hồi phục sau bệnh.</p>
+
+<h2>Cơ chế tác động theo học thuyết Y học cổ truyền</h2>
+<ul>
+  <li><strong>Thúc đẩy vận hành khí huyết:</strong> Các động tác xoay chuyển liên tục theo đường vòng cung kích thích dòng khí lưu thông qua kinh Đốc mạch, Nhâm mạch và các kinh dương minh, thái dương, thiếu dương. Khí thông thì huyết hành, giảm tình trạng khí trệ huyết ứ.</li>
+  <li><strong>Bổ thận cường tinh:</strong> Động tác hạ trọng tâm và chuyển khu vùng eo — hông kích hoạt <em>Mệnh môn hỏa</em> và bổ Thận khí. YHCT cho rằng "Thận chủ cốt sinh tủy", nên luyện tập đều đặn giúp xương khớp chắc khỏe, phòng thoái hóa.</li>
+  <li><strong>Kiện tỳ ích vị:</strong> Hơi thở bụng (thở điền đan điền) trong Thái cực quyền massage nhẹ tỳ vị, tăng cường chức năng tiêu hóa, hóa sinh khí huyết hậu thiên.</li>
+  <li><strong>Dưỡng tâm an thần:</strong> Trạng thái thiền động — ý niệm đặt vào đan điền và từng động tác — giúp Can khí điều đạt, Tâm thần an định, giảm lo âu và cải thiện giấc ngủ.</li>
+  <li><strong>Sơ thông kinh lạc toàn thân:</strong> 108 thức truyền thống (hoặc 24 thức đơn giản hóa) bao phủ toàn bộ đường kinh từ đầu đến chân, đặc biệt khai thông Đới mạch ở thắt lưng và các huyệt vùng bàn tay, bàn chân.</li>
+</ul>
+
+<h2>Phương pháp thực hành và các huyệt vị trọng tâm</h2>
+<p>Người mới bắt đầu nên học <strong>Thái cực quyền 24 thức (Giản hóa thái cực quyền)</strong> — bộ tiêu chuẩn hóa gồm 24 động tác cơ bản, hoàn thành trong 6–8 phút. Nguyên tắc nền tảng:</p>
+<ul>
+  <li><strong>Hư linh đỉnh kính:</strong> Đỉnh đầu nhẹ nhàng hướng lên — thông suốt đường Đốc mạch từ Trường cường (GV1) đến Bách hội (GV20)</li>
+  <li><strong>Hàm hung bạt bối:</strong> Ngực hơi hóp, lưng căng nhẹ — giải phóng áp lực vùng ngực, thông Nhâm mạch</li>
+  <li><strong>Tùng yêu:</strong> Thả lỏng vùng eo — kích hoạt Mệnh môn (GV4), Thận du (BL23) và Đại trường du (BL25)</li>
+  <li><strong>Trầm kiên chùy trửu:</strong> Vai thả xuống, khuỷu tay hướng đất — thư giãn kinh Tâm bao và Tam tiêu</li>
+  <li><strong>Hô hấp đan điền:</strong> Hít vào bụng phình (nạp khí vào Khí hải CV6), thở ra bụng xẹp — bổ Thận nạp khí</li>
+</ul>
+<p>Trong mỗi buổi tập, tập trung ý niệm vào <strong>huyệt Dũng tuyền (KD1)</strong> ở lòng bàn chân — "cắm rễ" xuống mặt đất — để ổn định trung tâm trọng lực và tăng kết nối Tâm — Thận.</p>
+
+<h2>Tự thực hành tại nhà</h2>
+<ul>
+  <li><strong>Thời điểm lý tưởng:</strong> Buổi sáng sớm (6:00–8:00, giờ Mão — Thìn, kinh Đại trường và Vị vượng) hoặc chiều tối (17:00–19:00, giờ Dậu — kinh Thận vượng). Tránh tập ngay sau ăn no.</li>
+  <li><strong>Khởi động:</strong> 3–5 phút xoa bóp nhẹ huyệt Túc tam lý (ST36), Tam âm giao (SP6) và Dũng tuyền (KD1) để khai thông kinh lạc trước khi vào bài.</li>
+  <li><strong>Thời lượng:</strong> Người mới bắt đầu 15–20 phút/ngày; sau 4 tuần tăng dần lên 30–45 phút. Tập 5–6 ngày/tuần để có hiệu quả tích lũy.</li>
+  <li><strong>Dưỡng khí sau tập:</strong> Đứng thư giãn (Trạm trang) 3–5 phút, hai tay ôm trước Đan điền (dưới rốn 3 đốt ngón tay), hít thở sâu để thu liễm khí vào Đan điền.</li>
+  <li><strong>Theo dõi tiến bộ:</strong> Sau 4 tuần luyện đều đặn, các dấu hiệu cải thiện điển hình gồm: ngủ sâu hơn, tiêu hóa tốt hơn, giảm đau lưng và cải thiện thăng bằng.</li>
+</ul>
+
+<div class="art-cta-box">
+  <p>Thái cực quyền phát huy tối đa tác dụng khi được kết hợp với biện chứng thể trạng cá nhân. Nếu bạn có bệnh nền như đau khớp, cao huyết áp, hoặc suy nhược, hãy đến thăm khám tại <strong>Phòng Khám YHCT Tâm Đức</strong> để được <strong>BS. Nguyễn Đức Tâm</strong> tư vấn bài tập phù hợp thể trạng, kết hợp châm cứu và dưỡng sinh có hướng dẫn. Đặt lịch: <strong>0973 710 237</strong> — Giờ khám: <strong>18:00–22:00 hàng ngày</strong> — Địa chỉ: <strong>Hà Đông, Hà Nội</strong>.</p>
+</div>
+    `
+  },
+  {
     id: 137,
     slug: "tieu-duong-bien-chung-than-kinh-ngoai-vi-yhct",
     date: "2026-07-24",
