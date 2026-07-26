@@ -5,6 +5,68 @@
 
 const ARTICLES = [
   {
+    id: 150,
+    slug: "bam-huyet-xoa-bop-ho-tro-dieu-tri-cao-huyet-ap-khong-dung-thuoc",
+    date: "2026-07-26",
+    category: "khong-thuoc",
+    categoryLabel: "Không dùng thuốc",
+    icon: "🧘",
+    gradient: "g-herb",
+    title: "Bấm huyệt và xoa bóp hỗ trợ điều trị cao huyết áp: Liệu pháp không dùng thuốc theo Y học cổ truyền",
+    excerpt: "Cao huyết áp (tăng huyết áp) theo YHCT thuộc chứng \"huyễn vựng\", \"đầu thống\". Bấm huyệt và xoa bóp đúng cách giúp bình can tiềm dương, thông kinh hoạt lạc, hỗ trợ hạ áp hiệu quả không cần thuốc.",
+    readTime: 6,
+    content: `
+<h2>Tổng quan theo Y học cổ truyền</h2>
+<p>Cao huyết áp (tăng huyết áp nguyên phát) trong Y học cổ truyền (YHCT) không có danh từ bệnh lý tương ứng trực tiếp, nhưng các biểu hiện lâm sàng — đau đầu, chóng mặt, ù tai, bừng mặt, cáu kỉnh — được quy vào chứng <strong>"huyễn vựng" (眩暈)</strong> và <strong>"đầu thống" (頭痛)</strong>.</p>
+<p>Theo lý luận YHCT, cơ chế sinh bệnh của cao huyết áp thường xoay quanh hai nhóm chính: <strong>Can dương thượng kháng</strong> (can âm hư khiến dương khí bốc lên) và <strong>Đàm thấp nội trở</strong> (đàm thấp che lấp thanh dương). Ngoài ra, thể <strong>Thận âm hư</strong> (thủy hỏa mất cân bằng) và <strong>Khí huyết hư</strong> (mạch không được nuôi dưỡng đủ) cũng thường gặp, đặc biệt ở người cao tuổi và người mắc bệnh mạn tính.</p>
+<p>Bấm huyệt và xoa bóp là liệu pháp không dùng thuốc được ứng dụng rộng rãi trong hỗ trợ điều trị cao huyết áp, đặc biệt hiệu quả ở giai đoạn tiền tăng huyết áp và tăng huyết áp độ 1, hoặc kết hợp với thuốc Tây y để tăng hiệu quả kiểm soát huyết áp.</p>
+
+<h2>Phân thể / Nguyên nhân theo YHCT</h2>
+<ul>
+  <li><strong>Thể Can dương thượng kháng:</strong> Đau đầu vùng đỉnh — thái dương dữ dội, mặt đỏ bừng, ù tai, tính khí cáu kỉnh, mắt đỏ, miệng đắng. Thường gặp ở người căng thẳng, tức giận nhiều. Lưỡi đỏ, rêu vàng; mạch huyền — sác. <em>Pháp trị: Bình can tiềm dương, tả hỏa thanh nhiệt.</em></li>
+  <li><strong>Thể Đàm thấp nội trở:</strong> Đầu nặng nề như bị vấn vải, chóng mặt kèm buồn nôn, ngực tức, ăn kém, người béo. Lưỡi bệu, rêu trắng nhờn; mạch hoạt. <em>Pháp trị: Táo thấp hóa đàm, kiện tỳ hòa vị.</em></li>
+  <li><strong>Thể Thận âm hư:</strong> Huyết áp tăng âm ỉ, ù tai, hay quên, lưng gối mỏi, bứt rứt khó ngủ, miệng khô. Lưỡi đỏ khô ít rêu; mạch trầm tế. <em>Pháp trị: Tư âm bổ thận, giáng hỏa tiềm dương.</em></li>
+  <li><strong>Thể Khí huyết hư:</strong> Huyết áp không ổn định, chóng mặt khi thay đổi tư thế, mệt mỏi, sắc mặt nhợt, tim hồi hộp. Lưỡi nhạt, rêu trắng mỏng; mạch tế nhược. <em>Pháp trị: Bổ khí dưỡng huyết, ích khí thăng dương.</em></li>
+</ul>
+
+<h2>Phương pháp bấm huyệt và xoa bóp điều trị</h2>
+<p>Bấm huyệt tác dụng theo nguyên lý <strong>thông kinh hoạt lạc, điều hòa âm dương</strong>. Dưới đây là các huyệt vị quan trọng được ứng dụng:</p>
+<ul>
+  <li><strong>Phong trì (GB20):</strong> Nằm ở chỗ lõm giữa cơ thang và cơ ức đòn chũm, dưới xương chẩm. Bấm — day ấn 2–3 phút mỗi bên, giúp sơ phong thanh đầu, giảm đau đầu, hạ áp. Đây là huyệt cốt lõi trong điều trị cao huyết áp thể can dương.</li>
+  <li><strong>Bách hội (GV20):</strong> Điểm giao của đường nối hai đỉnh tai và đường giữa đầu. Day ấn nhẹ — xoa tròn 2–3 phút, thăng dương khai khiếu, điều thần, giúp giảm đau đầu đỉnh và ổn định huyết áp.</li>
+  <li><strong>Thái xung (LR3):</strong> Mặt mu bàn chân, giữa xương ngón 1 và ngón 2, cách kẽ ngón 2 cm. Bấm — ấn mạnh 2–3 phút mỗi bên, tác dụng bình can tiềm dương, tả can hỏa — huyệt quan trọng nhất để hạ áp thể can dương.</li>
+  <li><strong>Hợp cốc (LI4):</strong> Mặt mu bàn tay, giữa xương ngón 1 và ngón 2. Bấm ấn 1–2 phút mỗi bên, tác dụng thông kinh hoạt lạc, giảm đau đầu, phối hợp với Thái xung tạo thành phương huyệt "Tứ quan" — hiệu quả đặc biệt trong hạ áp cấp.</li>
+  <li><strong>Túc tam lý (ST36):</strong> Dưới xương bánh chè 3 thốn, cách mào xương chày 1 thốn về phía ngoài. Day ấn 2–3 phút mỗi bên, tác dụng kiện tỳ ích khí, điều hòa khí huyết, cân bằng huyết áp lâu dài.</li>
+  <li><strong>Thần môn (HT7):</strong> Mặt trong cổ tay, nếp gấp cổ tay, phía trong gân cơ gấp cổ tay trụ. Bấm nhẹ 1–2 phút, tác dụng an thần định tâm — đặc biệt hữu ích khi huyết áp tăng do căng thẳng, lo âu.</li>
+  <li><strong>Nội quan (PC6):</strong> Mặt trong cẳng tay, cách nếp gấp cổ tay 2 thốn, giữa hai gân. Bấm 1–2 phút, hòa vị an thần, điều hòa tim mạch, giảm hồi hộp.</li>
+  <li><strong>Thận du (BL23):</strong> Lưng, ngang với đốt thắt lưng 2 (L2), cách cột sống 1,5 thốn. Xoa bóp ấm ấp vùng thận du, tác dụng bổ thận ích tinh, đặc biệt phù hợp thể thận âm hư.</li>
+</ul>
+
+<h2>Kỹ thuật xoa bóp vùng đầu cổ hỗ trợ hạ áp</h2>
+<p>Ngoài bấm huyệt đơn thuần, xoa bóp vùng đầu cổ theo trình tự sau giúp thư giãn hệ thần kinh giao cảm, giảm co mạch và hỗ trợ hạ huyết áp:</p>
+<ul>
+  <li><strong>Xoa vùng thái dương:</strong> Dùng ngón giữa xoa tròn vùng thái dương 30 lần theo chiều kim đồng hồ.</li>
+  <li><strong>Day ấn Phong trì (GB20):</strong> Hai ngón cái đặt vào GB20 hai bên, ấn sâu từ từ và giữ 10 giây, thả ra, lặp lại 10 lần.</li>
+  <li><strong>Gõ nhẹ vùng đỉnh đầu:</strong> 10 ngón tay gõ nhẹ như mưa rào từ trán lên đỉnh ra sau gáy, 2–3 phút.</li>
+  <li><strong>Xoa ấm vùng gáy — cổ:</strong> Lòng bàn tay xoa ấm vùng gáy từ dưới lên trên 30–50 lần, giúp thư giãn cơ và tăng lưu thông máu vùng cổ.</li>
+  <li><strong>Day ấn Thái xung (LR3) và Hợp cốc (LI4):</strong> Kết hợp bấm hai huyệt này cùng lúc trong 2–3 phút.</li>
+</ul>
+
+<h2>Tự thực hành tại nhà</h2>
+<ul>
+  <li><strong>Thực hành hàng ngày:</strong> Buổi sáng sau thức dậy và buổi tối trước khi ngủ, thực hiện bấm huyệt Phong trì, Bách hội, Thái xung, Túc tam lý — mỗi huyệt 2–3 phút.</li>
+  <li><strong>Ngâm chân ấm:</strong> Ngâm chân với nước ấm 38–40°C trong 15–20 phút trước khi ngủ giúp dẫn khí huyết xuống chân, giảm áp lực lên vùng đầu, hỗ trợ hạ huyết áp buổi tối.</li>
+  <li><strong>Kiểm tra huyết áp:</strong> Đo huyết áp đều đặn 2 lần/ngày (sáng và tối). Nếu huyết áp vượt 160/100 mmHg, cần kết hợp thuốc Tây y theo chỉ định bác sĩ — không thay thế hoàn toàn bằng bấm huyệt.</li>
+  <li><strong>Chế độ sinh hoạt:</strong> Ngủ đủ 7–8 tiếng; hạn chế muối (&lt;5g/ngày), rượu bia; kiểm soát cân nặng; tập dưỡng sinh nhẹ nhàng (đi bộ, thái cực quyền) 30 phút mỗi ngày.</li>
+  <li><strong>Điều hòa cảm xúc:</strong> YHCT nhấn mạnh "tức giận hại can" — hãy thực hành hít thở sâu, thiền định hoặc khí công để duy trì tâm lý bình ổn, tránh tăng huyết áp đột ngột do cảm xúc.</li>
+</ul>
+
+<div class="art-cta-box">
+  <p>Cao huyết áp là bệnh mạn tính cần được theo dõi và điều trị lâu dài. Bấm huyệt, xoa bóp là liệu pháp hỗ trợ hiệu quả, nhưng cần được thực hiện đúng kỹ thuật và kết hợp với phác đồ điều trị tổng thể. Hãy đến <strong>Phòng Khám Y học cổ truyền Tâm Đức</strong> để <strong>BS. Nguyễn Đức Tâm</strong> thăm khám, biện chứng thể bệnh và xây dựng phác đồ cá nhân hóa kết hợp châm cứu, bấm huyệt và thuốc YHCT phù hợp. Liên hệ: <strong>0973 710 237</strong> — Giờ khám: <strong>18:00–22:00 hàng ngày</strong> — Địa chỉ: <strong>Hà Đông, Hà Nội</strong>.</p>
+</div>
+    `
+  },
+  {
     id: 144,
     slug: "roi-loan-tien-dinh-yhct-phan-the-phac-do-dieu-tri",
     date: "2026-07-25",
