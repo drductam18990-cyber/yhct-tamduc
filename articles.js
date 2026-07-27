@@ -5,6 +5,59 @@
 
 const ARTICLES = [
   {
+    id: 157,
+    slug: "bam-huyet-xoa-bop-tri-te-bi-tay-chan",
+    date: "2026-07-27",
+    category: "khong-thuoc",
+    categoryLabel: "Không dùng thuốc",
+    icon: "🧘",
+    gradient: "g-herb",
+    title: "Bấm huyệt và xoa bóp hỗ trợ điều trị tê bì tay chân theo Y học cổ truyền",
+    excerpt: "Tê bì tay chân do khí huyết ứ trệ, kinh mạch tắc nghẽn có thể được cải thiện hiệu quả bằng kỹ thuật bấm huyệt và xoa bóp theo Y học cổ truyền, giúp thông kinh hoạt lạc, phục hồi cảm giác mà không cần dùng thuốc.",
+    readTime: 6,
+    content: `
+<h2>Tổng quan về tê bì tay chân theo Y học cổ truyền</h2>
+<p>Tê bì tay chân là cảm giác kim châm, kiến bò, mất cảm giác hoặc giảm cảm giác ở bàn tay, ngón tay, bàn chân và ngón chân — một triệu chứng rất phổ biến, ảnh hưởng đến chất lượng sinh hoạt hàng ngày. Tây y lý giải đây là rối loạn thần kinh ngoại vi, thiếu máu cục bộ hoặc chèn ép thần kinh.</p>
+<p>Y học cổ truyền (YHCT) gọi chứng này là <strong>"Ma mộc"</strong> (麻木) — tê là mất cảm giác, mộc là bì cứng không linh hoạt. Theo lý luận YHCT, tê bì phát sinh do <strong>khí huyết hư, kinh mạch không được nuôi dưỡng</strong> hoặc do <strong>phong hàn thấp tà</strong> xâm nhập kinh lạc, khiến khí huyết ứ trệ, không lưu thông được đến chi mạt (đầu ngón tay, ngón chân). Bấm huyệt và xoa bóp tác động trực tiếp lên kinh lạc, thúc đẩy khí huyết lưu thông, khai thông tắc nghẽn, phục hồi cảm giác mà không cần dùng thuốc.</p>
+
+<h2>Nguyên nhân và phân thể theo Y học cổ truyền</h2>
+<ul>
+  <li><strong>Thể Khí huyết hư suy:</strong> Tê bì lúc nghỉ ngơi hoặc khi nằm lâu một tư thế, sắc mặt nhợt nhạt, mệt mỏi, tim hồi hộp. Lưỡi nhạt, mạch tế nhược. Pháp trị: Bổ khí dưỡng huyết, thông lạc.</li>
+  <li><strong>Thể Phong hàn trở lạc:</strong> Tê bì tăng khi gặp lạnh, trời mưa; tay chân lạnh, đau nhức kèm theo. Lưỡi nhạt, rêu trắng mỏng, mạch phù khẩn. Pháp trị: Khu phong tán hàn, thông kinh hoạt lạc.</li>
+  <li><strong>Thể Huyết ứ kinh lạc:</strong> Tê bì có tính cố định, kèm đau nhức như kim châm, da vùng tê hơi tối. Lưỡi tím tối hoặc có điểm ứ huyết, mạch sáp. Pháp trị: Hoạt huyết hóa ứ, thông lạc chỉ thống.</li>
+  <li><strong>Thể Đàm thấp trở trệ:</strong> Tê bì kèm cảm giác nặng nề, phù nhẹ, người béo bệu, ăn kém, rêu lưỡi dày nhờn, mạch hoạt. Pháp trị: Kiện tỳ trừ đàm, lợi thấp thông lạc.</li>
+</ul>
+
+<h2>Huyệt vị và kỹ thuật bấm huyệt</h2>
+<p>Để đạt hiệu quả, cần tác động đúng huyệt vị theo nguyên tắc <em>cục bộ — lân cận — toàn thân</em>. Mỗi huyệt bấm ấn nhẹ rồi tăng dần áp lực, giữ 30–60 giây, thực hiện 2–3 lần mỗi bên:</p>
+<ul>
+  <li><strong>Hợp cốc (LI4):</strong> Mu bàn tay, giữa đốt 1 và 2 ngón trỏ và ngón cái. Huyệt tổng trị vùng tay, thông khí hoạt huyết, giảm tê bì toàn bộ chi trên.</li>
+  <li><strong>Nội quan (PC6):</strong> Mặt trong cổ tay, cách nếp cổ tay 2 thốn, giữa hai gân. Điều hòa khí huyết, an thần, thông lạc chi trên.</li>
+  <li><strong>Khúc trì (LI11):</strong> Ngoài nếp gấp khuỷu tay khi co cánh tay. Khu phong thanh nhiệt, thông kinh hoạt lạc chi trên, đặc biệt hiệu quả với tê bì do phong nhiệt.</li>
+  <li><strong>Túc tam lý (ST36):</strong> Dưới xương bánh chè 3 thốn, ngoài mào chày 1 thốn. Huyệt bổ khí toàn thân hàng đầu, dưỡng huyết nuôi kinh lạc, cải thiện tê bì chi dưới.</li>
+  <li><strong>Tam âm giao (SP6):</strong> Mặt trong cẳng chân, trên mắt cá trong 3 thốn. Bổ khí huyết, dưỡng âm thông lạc, đặc biệt với tê bì do khí huyết hư hoặc huyết ứ.</li>
+  <li><strong>Dương lăng tuyền (GB34):</strong> Phía trước và dưới đầu trên xương mác. Thư cân hoạt lạc, khu phong trừ thấp, hiệu quả với tê bì do phong hàn thấp trở.</li>
+  <li><strong>Ủy trung (BL40):</strong> Trung điểm nếp gấp khoeo. Thông kinh hoạt lạc chi dưới, giảm tê bì và đau nhức vùng đùi, cẳng chân.</li>
+  <li><strong>Bát phong (EX-LE10):</strong> 8 huyệt trên mu bàn chân, giữa khe các ngón. Thông lạc cục bộ, phục hồi cảm giác ngón chân.</li>
+  <li><strong>Bát tà (EX-UE9):</strong> 8 huyệt trên mu bàn tay, giữa khe các ngón. Thông lạc cục bộ, phục hồi cảm giác ngón tay.</li>
+</ul>
+
+<h2>Tự thực hành tại nhà</h2>
+<ul>
+  <li><strong>Xoa bóp bàn tay:</strong> Dùng ngón cái bàn tay kia xoa tròn lòng bàn tay 2 phút, chú trọng vùng gốc ngón cái (huyệt ngư tế — LU10) và huyệt Lao cung (PC8) ở tâm lòng bàn tay.</li>
+  <li><strong>Vuốt kinh lạc chi trên:</strong> Dùng lòng bàn tay kia vuốt dọc từ vai xuống đến ngón tay, 10–15 lần mỗi bên, mỗi sáng và tối.</li>
+  <li><strong>Xoa bóp bàn chân:</strong> Sau khi ngâm chân nước ấm 15 phút, dùng ngón cái bấm và xoa dọc lòng bàn chân từ gót đến các ngón, 2–3 phút mỗi bên.</li>
+  <li><strong>Vuốt kinh lạc chi dưới:</strong> Dùng hai tay vuốt dọc từ đùi xuống đến ngón chân, 10–15 lần, tập trung mặt trước và sau cẳng chân.</li>
+  <li><strong>Tập cử động ngón:</strong> Co duỗi mạnh các ngón tay, ngón chân 20–30 lần mỗi buổi để kích thích tuần hoàn chi mạt.</li>
+  <li><strong>Tránh ngồi/nằm đè lên chi quá lâu:</strong> Thay đổi tư thế mỗi 30–45 phút để không gây chèn ép kinh mạch.</li>
+</ul>
+
+<div class="art-cta-box">
+  <p>Tê bì tay chân kéo dài có thể là dấu hiệu của nhiều bệnh lý cần chẩn đoán chuyên sâu như đái tháo đường, thiếu vitamin B12, hội chứng ống cổ tay hoặc bệnh lý cột sống. Hãy đến <strong>Phòng Khám YHCT Tâm Đức</strong> để BS. <strong>Nguyễn Đức Tâm</strong> biện chứng, tìm nguyên nhân và xây dựng phác đồ bấm huyệt, châm cứu kết hợp điều trị nguyên nhân phù hợp. Hotline: <strong>0973 710 237</strong> — Giờ khám: <strong>18:00–22:00 hàng ngày</strong> — Địa chỉ: <strong>Hà Đông, Hà Nội</strong>.</p>
+</div>
+    `
+  },
+  {
     id: 151,
     slug: "suy-than-man-giai-doan-som-yhct",
     date: "2026-07-26",
