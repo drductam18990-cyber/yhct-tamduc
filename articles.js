@@ -5,6 +5,398 @@
 
 const ARTICLES = [
   {
+    id: 158,
+    slug: "dai-dam-o-tre-em-yhct",
+    date: "2026-07-27",
+    category: "mat-benh",
+    categoryLabel: "Mặt bệnh",
+    icon: "🩺",
+    gradient: "g-navy",
+    title: "Đái dầm ở trẻ em theo Y học cổ truyền: Phân thể và phác đồ điều trị toàn diện",
+    excerpt: "Đái dầm là vấn đề phổ biến ở trẻ em, gây ảnh hưởng tâm lý và chất lượng cuộc sống. Y học cổ truyền tiếp cận từ gốc rễ, điều chỉnh chức năng thận bàng quang và củng cố chính khí cho trẻ.",
+    readTime: 6,
+    content: `
+<h2>Đái dầm ở trẻ em nhìn từ góc độ Y học cổ truyền</h2>
+<p>Đái dầm (di niệu) là tình trạng trẻ em tiểu không tự chủ trong khi ngủ, thường gặp ở trẻ trên 5 tuổi. Theo Tây y, đây có thể do sự chậm trưởng thành của hệ thần kinh điều phối bàng quang. Tuy nhiên, Y học cổ truyền (YHCT) nhìn nhận vấn đề này từ góc độ tạng phủ và khí hóa sâu sắc hơn.</p>
+<p>Trong YHCT, Thận chủ thủy, Bàng quang là phủ tương ứng với Thận. Chức năng khí hóa của Thận–Bàng quang quyết định khả năng kiểm soát tiểu tiện. Khi Thận khí suy yếu hoặc Phế Tỳ không đủ chính khí để khống chế thủy đạo hạ tiêu, trẻ sẽ không thể tự chủ tiểu tiện khi ngủ say.</p>
+<p>Các yếu tố tâm lý như sợ hãi, stress, thay đổi môi trường sống cũng tác động đến Tâm, gián tiếp ảnh hưởng đến chức năng kiểm soát tiểu tiện theo YHCT.</p>
+
+<h2>Nguyên nhân theo Y học cổ truyền</h2>
+<p>YHCT xác định các nguyên nhân chính gây đái dầm ở trẻ bao gồm:</p>
+<ul>
+<li><strong>Thận khí bất cố:</strong> Thận khí suy, khí hóa bàng quang kém, tiểu tiện không kiểm soát được. Đây là nguyên nhân phổ biến nhất, thường do bẩm thụ không đủ hoặc trẻ phát triển muộn.</li>
+<li><strong>Tỳ Phế khí hư:</strong> Phế chủ thông điều thủy đạo, Tỳ chủ vận hóa. Khi hai tạng này hư, không đủ khí để thăng thanh giáng trọc, dẫn đến mất kiểm soát tiểu tiện.</li>
+<li><strong>Can kinh uất nhiệt:</strong> Can uất hóa nhiệt, nhiệt bức xuống Bàng quang, gây tiểu không tự chủ. Thường gặp ở trẻ căng thẳng, lo âu.</li>
+<li><strong>Hạ tiêu hư hàn:</strong> Hàn tà xâm phạm hạ tiêu, bàng quang mất khả năng ước thúc, tiểu nhiều và không tự chủ.</li>
+</ul>
+
+<h2>Phân thể lâm sàng và phác đồ điều trị</h2>
+<p>Dựa trên biện chứng luận trị, YHCT phân đái dầm ở trẻ thành các thể chính sau:</p>
+<p><strong>Thể Thận khí bất cố:</strong> Đái dầm thường xuyên, mỗi đêm 1–2 lần hoặc nhiều hơn, nước tiểu trong, lượng nhiều, trẻ ngủ say khó đánh thức, sắc mặt nhợt nhạt, tay chân lạnh, lưng gối yếu mỏi, mạch Trầm Nhược. Phép điều trị: Bổ Thận cố tinh, ôn dương súc niệu. Phương dược: Kim tỏa cố tinh hoàn gia giảm, Thỏ ti tử, Sơn dược, Phúc bồn tử, Ích trí nhân. Châm cứu: Quan nguyên (RN4), Thận du (BL23), Bàng quang du (BL28), Tam âm giao (SP6), Thái khê (KI3).</p>
+<p><strong>Thể Tỳ Phế khí hư:</strong> Đái dầm kèm mệt mỏi, ăn kém, hay cảm cúm, sắc mặt vàng nhợt, lưỡi nhạt, mạch Nhu Hoãn. Phép điều trị: Bổ Phế kiện Tỳ, ích khí súc niệu. Phương dược: Bổ trung ích khí thang gia giảm với Ích trí nhân, Tang phiêu tiêu, Thỏ ti tử. Châm cứu: Túc tam lý (ST36), Phế du (BL13), Tỳ du (BL20), Khí hải (RN6), Quan nguyên (RN4).</p>
+<p><strong>Thể Can uất hóa nhiệt:</strong> Đái dầm kèm nước tiểu vàng, mùi khai, trẻ dễ cáu, ngủ không ngon, mơ nhiều, mạch Huyền Sác. Phép điều trị: Sơ Can thanh nhiệt, thanh lợi Bàng quang. Phương dược: Long đởm tả can thang gia giảm. Châm cứu: Thái xung (LR3), Hành gian (LR2), Trung cực (RN3), Âm lăng tuyền (SP9).</p>
+<p><strong>Thể Hạ tiêu hư hàn:</strong> Đái dầm, nước tiểu trong dài, lạnh bụng, lưng lạnh, chân tay lạnh, mạch Trầm Trì. Phép điều trị: Ôn bổ hạ tiêu, súc niệu chỉ di. Phương dược: Thỏ ti tử hoàn gia giảm, Phụ tử lý trung thang. Châm cứu: Quan nguyên (RN4), Thận du (BL23), Mệnh môn (GV4) — cứu ngải, Tam âm giao (SP6).</p>
+
+<h2>Các liệu pháp không dùng thuốc hỗ trợ</h2>
+<ul>
+<li><strong>Cứu ngải:</strong> Cứu huyệt Quan nguyên, Khí hải, Mệnh môn 15–20 phút mỗi tối trước khi ngủ, giúp ôn ấm hạ tiêu, cố thận súc niệu.</li>
+<li><strong>Xoa bóp bấm huyệt:</strong> Phụ huynh có thể học cách bấm huyệt Thận du, Tam âm giao, Túc tam lý cho trẻ hàng ngày.</li>
+<li><strong>Chế độ ăn uống:</strong> Hạn chế đồ uống buổi tối, tăng cường thực phẩm bổ Thận như óc quả, hạt sen, hoài sơn, thịt dê.</li>
+<li><strong>Điều chỉnh sinh hoạt:</strong> Đánh thức trẻ đi vệ sinh vào giờ cố định, giảm áp lực tâm lý, tạo môi trường ngủ thoải mái.</li>
+<li><strong>Ngâm chân thảo dược:</strong> Ngâm chân bằng nước ấm có gừng và muối trước khi ngủ, giúp ôn kinh tán hàn.</li>
+</ul>
+
+<h2>Tiên lượng và theo dõi điều trị</h2>
+<p>Đái dầm ở trẻ em theo YHCT thường có tiên lượng tốt khi được điều trị đúng thể và kiên trì. Thông thường, sau 1–2 liệu trình (mỗi liệu trình 10–15 ngày châm cứu), nhiều trẻ đã có sự cải thiện rõ rệt. Cần loại trừ các nguyên nhân thực thể như nhiễm trùng tiết niệu, dị tật bẩm sinh trước khi điều trị YHCT. Điều trị phải kiên trì, không bỏ giữa chừng, kết hợp điều chỉnh tâm lý và theo dõi định kỳ để đánh giá hiệu quả.</p>
+
+<div class="art-cta-box"><p>Nếu con bạn đang gặp phải tình trạng đái dầm kéo dài và chưa tìm được giải pháp hiệu quả, hãy đến thăm khám tại <strong>Phòng Khám Y Học Cổ Truyền Tâm Đức</strong>. <strong>BS. Nguyễn Đức Tâm</strong> — với nhiều năm kinh nghiệm điều trị nhi khoa bằng YHCT — sẽ trực tiếp thăm khám, biện chứng và xây dựng phác đồ điều trị phù hợp cho từng trẻ. Liên hệ <strong>0973 710 237</strong> để đặt lịch khám, phòng khám mở cửa từ <strong>18:00–22:00 hàng ngày</strong>, tại <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 159,
+    slug: "on-cham-cham-cuu-ket-hop-ngai-cuu",
+    date: "2026-07-27",
+    category: "khong-thuoc",
+    categoryLabel: "Không dùng thuốc",
+    icon: "🧘",
+    gradient: "g-herb",
+    title: "Ôn châm — Châm cứu kết hợp ngải cứu: Liệu pháp ôn thông kinh lạc hiệu quả không dùng thuốc",
+    excerpt: "Ôn châm là kỹ thuật kết hợp châm kim và đốt ngải cứu trực tiếp trên cán kim, vừa có tác dụng châm vừa có tác dụng cứu, tạo hiệu quả ôn thông kinh lạc vượt trội so với từng phương pháp đơn lẻ.",
+    readTime: 5,
+    content: `
+<h2>Ôn châm là gì?</h2>
+<p>Ôn châm (còn gọi là châm ngải, warm needling acupuncture) là một kỹ thuật đặc biệt trong Y học cổ truyền, kết hợp đồng thời hai phương pháp: <strong>châm kim</strong> vào huyệt và <strong>đốt ngải cứu</strong> trên cán kim đang cắm trong huyệt. Nhờ sự kết hợp này, nhiệt năng từ ngải cứu truyền dọc theo thân kim đến đầu kim trong huyệt, tạo ra tác dụng ôn thông kinh lạc sâu và toàn diện hơn cứu ngải thông thường.</p>
+<p>Ôn châm được ghi chép trong các y thư cổ điển như Nội Kinh, Thương Hàn Luận và nhiều tài liệu YHCT khác. Đây là liệu pháp không dùng thuốc, không để lại sẹo và mang lại cảm giác ấm dễ chịu, được bệnh nhân dung nạp rất tốt.</p>
+
+<h2>Cơ chế tác dụng của ôn châm</h2>
+<p>Theo lý luận YHCT, ôn châm có tác dụng qua nhiều cơ chế:</p>
+<ul>
+<li><strong>Ôn thông kinh lạc:</strong> Nhiệt từ ngải cứu kết hợp kích thích huyệt vị giúp thúc đẩy khí huyết lưu thông trong kinh lạc, đặc biệt hiệu quả trong các chứng hàn ngưng, khí trệ, huyết ứ.</li>
+<li><strong>Khu hàn tán thấp:</strong> Nhiệt ôn làm tan hàn tà ẩn sâu trong cơ, khớp — điều mà cứu ngải bề mặt khó đạt được. Đặc biệt hữu ích trong phong thấp tý chứng (đau khớp do phong hàn thấp).</li>
+<li><strong>Bổ khí trợ dương:</strong> Ôn châm tại các huyệt bổ dương như Quan nguyên, Thận du, Mệnh môn giúp tăng cường dương khí, cải thiện chức năng tạng phủ.</li>
+<li><strong>Thư cân hoạt lạc:</strong> Nhiệt độ từ ôn châm làm giãn cơ, gân, giảm co cứng cơ và đau nhức hiệu quả.</li>
+</ul>
+<p>Theo y học hiện đại, ôn châm có tác dụng tăng cường tuần hoàn máu cục bộ, giảm viêm, kích thích giải phóng endorphin và điều hòa hệ thần kinh thực vật.</p>
+
+<h2>Chỉ định và chống chỉ định của ôn châm</h2>
+<p><strong>Chỉ định phù hợp:</strong></p>
+<ul>
+<li>Đau khớp do phong hàn thấp tý: Đau vai gáy, đau lưng, đau khớp gối, đau khớp háng.</li>
+<li>Liệt nửa người, liệt mặt do hàn tà hoặc do đàm trở kinh lạc.</li>
+<li>Đau bụng hàn, đau bụng kinh do hàn ngưng huyết ứ.</li>
+<li>Suy nhược cơ thể do dương hư, khí hư.</li>
+<li>Viêm khớp dạng thấp giai đoạn mạn tính thể hàn.</li>
+<li>Hội chứng ruột kích thích thể hàn, tiêu chảy mạn tính.</li>
+</ul>
+<p><strong>Chống chỉ định:</strong></p>
+<ul>
+<li>Các chứng nhiệt thực: Sốt cao, viêm cấp tính với sưng nóng đỏ đau rõ.</li>
+<li>Phụ nữ có thai (đặc biệt vùng bụng, thắt lưng).</li>
+<li>Da vùng châm có tổn thương, nhiễm trùng, sẹo lồi.</li>
+<li>Rối loạn đông máu, đang dùng thuốc chống đông.</li>
+<li>Trẻ em dưới 5 tuổi, người cao tuổi yếu thần kinh không chịu được nhiệt.</li>
+</ul>
+
+<h2>Quy trình thực hiện ôn châm chuẩn</h2>
+<p>Ôn châm được thực hiện tại phòng khám YHCT bởi thầy thuốc có chuyên môn. Quy trình gồm các bước:</p>
+<ul>
+<li><strong>Bước 1:</strong> Thăm khám, biện chứng, chọn công thức huyệt phù hợp với chứng bệnh.</li>
+<li><strong>Bước 2:</strong> Bệnh nhân nằm ở tư thế thoải mái, vùng huyệt được vệ sinh sạch.</li>
+<li><strong>Bước 3:</strong> Châm kim vào huyệt theo đúng kỹ thuật, đạt đắc khí (cảm giác tê, căng, nặng).</li>
+<li><strong>Bước 4:</strong> Cắt một đoạn ngải nhung khoảng 2–3 cm, cắm vào cán kim. Đốt đầu trên của đoạn ngải.</li>
+<li><strong>Bước 5:</strong> Để ngải cháy từ từ, nhiệt truyền xuống kim. Bệnh nhân sẽ cảm thấy ấm dễ chịu tại huyệt.</li>
+<li><strong>Bước 6:</strong> Sau khi ngải tàn (khoảng 10–15 phút), tháo kim, ấn nhẹ huyệt, hoàn tất.</li>
+</ul>
+<p>Mỗi liệu trình thường gồm 10–15 buổi, mỗi buổi cách nhau 1–2 ngày. Sau mỗi buổi ôn châm, bệnh nhân nên nghỉ ngơi ít nhất 30 phút, tránh tiếp xúc gió lạnh và không tắm trong vòng 2 giờ.</p>
+
+<h2>Hiệu quả lâm sàng và lưu ý khi sử dụng</h2>
+<p>Ôn châm đã được nhiều nghiên cứu lâm sàng chứng minh hiệu quả trong điều trị:</p>
+<ul>
+<li><strong>Đau khớp gối do thoái hóa:</strong> Ôn châm giảm đau và cải thiện chức năng vận động tốt hơn châm cứu thông thường.</li>
+<li><strong>Đau thắt lưng mạn:</strong> Ôn châm tại Thận du, Mệnh môn, Giáp tích lưng cải thiện rõ rệt mức độ đau và khả năng vận động.</li>
+<li><strong>Hội chứng vai gáy:</strong> Ôn châm giúp giải phóng co cứng cơ, cải thiện tầm vận động cổ nhanh hơn nhiều liệu pháp khác.</li>
+<li><strong>Đau thần kinh ngoại vi:</strong> Ôn châm có tác dụng bảo vệ thần kinh, giảm đau theo cơ chế điều hòa dẫn truyền thần kinh.</li>
+</ul>
+<p>Sau điều trị ôn châm, da vùng huyệt có thể hơi đỏ và ấm — đây là phản ứng bình thường, không cần lo lắng. Nếu xuất hiện mụn nước hoặc bỏng nhẹ, cần thông báo ngay cho thầy thuốc.</p>
+
+<div class="art-cta-box"><p>Để được tư vấn và điều trị bằng <strong>ôn châm</strong> đúng kỹ thuật, an toàn và hiệu quả, quý khách hãy liên hệ <strong>Phòng Khám Y Học Cổ Truyền Tâm Đức</strong>. <strong>BS. Nguyễn Đức Tâm</strong> sẽ thăm khám, biện chứng và chỉ định phác đồ ôn châm phù hợp nhất cho tình trạng của bạn. Gọi <strong>0973 710 237</strong> để đặt lịch, phòng khám mở cửa từ <strong>18:00–22:00 hàng ngày</strong> tại <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 160,
+    slug: "huyet-phu-truc-u-tang-hoat-huyet-hoa-u",
+    date: "2026-07-27",
+    category: "thuoc-yhct",
+    categoryLabel: "Thuốc YHCT",
+    icon: "🌿",
+    gradient: "g-fire",
+    title: "Huyết phủ trục ứ thang — Bài thuốc hoạt huyết hóa ứ kinh điển của Y học cổ truyền",
+    excerpt: "Huyết phủ trục ứ thang là bài thuốc nổi tiếng của danh y Vương Thanh Nhiệm, chuyên trị các chứng huyết ứ ở vùng ngực và cơ hoành, với tác dụng hoạt huyết hóa ứ, hành khí chỉ thống toàn diện.",
+    readTime: 6,
+    content: `
+<h2>Nguồn gốc và lịch sử của Huyết phủ trục ứ thang</h2>
+<p>Huyết phủ trục ứ thang (血府逐瘀湯) là bài thuốc kinh điển của danh y Vương Thanh Nhiệm (王清任, 1768–1831), được ghi chép trong tác phẩm "Y Lâm Cải Thác" (醫林改錯) — một trong những công trình y học đột phá nhất của Y học cổ truyền Trung Quốc thế kỷ 19.</p>
+<p>Vương Thanh Nhiệm là người tiên phong nghiên cứu giải phẫu học và đặc biệt chú trọng học thuyết huyết ứ trong bệnh lý. Ông nhận thấy rằng nhiều bệnh nan y, mạn tính đều có căn nguyên từ huyết ứ ở "huyết phủ" — tức vùng ngực và cơ hoành. Từ đó, ông sáng tạo ra năm bài thuốc trục ứ nổi tiếng, trong đó Huyết phủ trục ứ thang là bài thuốc đứng đầu, được dùng rộng rãi nhất cho đến ngày nay trong điều trị các chứng huyết ứ khắp cơ thể.</p>
+
+<h2>Thành phần bài thuốc và vai trò từng vị</h2>
+<p>Huyết phủ trục ứ thang gồm 11 vị dược liệu với sự kết hợp hài hòa giữa hoạt huyết, hành khí và dưỡng huyết:</p>
+<ul>
+<li><strong>Đào nhân (12g) — Quân dược:</strong> Hoạt huyết hóa ứ mạnh, phá huyết thông kinh, nhuận tràng thông tiện.</li>
+<li><strong>Hồng hoa (9g) — Quân dược:</strong> Hoạt huyết thông kinh, khứ ứ chỉ thống, kết hợp Đào nhân tăng cường hóa ứ.</li>
+<li><strong>Xuyên khung (4,5g) — Thần dược:</strong> Hành khí hoạt huyết, khứ phong chỉ thống, dẫn thuốc vào huyết phận.</li>
+<li><strong>Xích thược (6g) — Thần dược:</strong> Hoạt huyết hóa ứ, thanh nhiệt lương huyết, chỉ thống.</li>
+<li><strong>Đương quy (9g) — Thần dược:</strong> Bổ huyết hoạt huyết, điều kinh chỉ thống, ngăn ngừa phá huyết quá mức.</li>
+<li><strong>Sinh địa (9g) — Thần dược:</strong> Dưỡng âm thanh nhiệt, lương huyết, bảo vệ âm huyết trong khi hóa ứ.</li>
+<li><strong>Sài hồ (3g) — Tá dược:</strong> Sơ can giải uất, thăng dương, dẫn thuốc vào kinh Can và Thiếu dương.</li>
+<li><strong>Chỉ xác (6g) — Tá dược:</strong> Hành khí khai hung, phá khí trệ ở ngực.</li>
+<li><strong>Cát cánh (4,5g) — Tá dược:</strong> Tuyên Phế thông hung, khai phế khí, dẫn thuốc lên ngực.</li>
+<li><strong>Ngưu tất (9g) — Tá sứ dược:</strong> Hoạt huyết thông kinh, dẫn huyết hạ hành, tránh huyết ứ bốc lên.</li>
+<li><strong>Cam thảo (6g) — Sứ dược:</strong> Điều hòa các vị thuốc, bổ khí, giảm tác dụng phụ.</li>
+</ul>
+
+<h2>Cơ chế tác dụng và ứng dụng lâm sàng</h2>
+<p>Bài thuốc hoạt động theo nguyên tắc: <strong>Hoạt huyết hóa ứ + Hành khí chỉ thống + Dưỡng huyết bảo âm</strong>. Sự kết hợp độc đáo giữa các vị hoạt huyết và hành khí giúp khí huyết lưu thông đồng thời, tránh tình trạng hóa ứ quá mạnh gây tổn thương chính khí.</p>
+<p>Huyết phủ trục ứ thang được chỉ định trong các chứng:</p>
+<ul>
+<li>Đau ngực mạn tính, đau như đâm kim, đau cố định không di chuyển (hung tý do huyết ứ).</li>
+<li>Đau đầu mạn tính do huyết ứ, đặc biệt đau đầu một bên không đáp ứng thuốc thông thường.</li>
+<li>Mất ngủ, bồn chồn, hồi hộp do huyết ứ tâm lạc.</li>
+<li>Suy nhược thần kinh, lo âu mạn tính kèm các triệu chứng ứ huyết.</li>
+<li>Kinh nguyệt không đều, đau bụng kinh, rối loạn kinh nguyệt do huyết ứ.</li>
+<li>Di chứng tai biến mạch máu não, liệt nửa người giai đoạn phục hồi.</li>
+<li>Tăng lipid máu, xơ vữa động mạch giai đoạn sớm theo quan điểm YHCT.</li>
+</ul>
+
+<h2>Chống chỉ định và thận trọng khi sử dụng</h2>
+<p>Huyết phủ trục ứ thang là bài thuốc có tính phá ứ mạnh, cần thận trọng trong các trường hợp:</p>
+<ul>
+<li><strong>Tuyệt đối không dùng:</strong> Phụ nữ có thai — bài thuốc có thể gây sảy thai do tác dụng hoạt huyết mạnh.</li>
+<li><strong>Thận trọng:</strong> Phụ nữ đang hành kinh với lượng kinh nhiều — cần giảm liều hoặc ngừng trong kỳ kinh.</li>
+<li><strong>Không dùng kéo dài:</strong> Với người khí huyết lưỡng hư, sau khi hóa ứ cần chuyển sang bổ ích.</li>
+<li><strong>Không phù hợp:</strong> Các chứng hư hàn không có ứ huyết — dùng sai thể có thể hao tổn chính khí.</li>
+<li>Người đang dùng thuốc chống đông (warfarin, aspirin liều cao) cần tham khảo bác sĩ trước khi dùng.</li>
+</ul>
+
+<h2>Gia giảm bài thuốc theo chứng bệnh</h2>
+<p>Trên lâm sàng, Huyết phủ trục ứ thang thường được gia giảm linh hoạt theo từng bệnh nhân:</p>
+<ul>
+<li><strong>Đau ngực nhiều:</strong> Gia Tua rua, Uất kim, Diên hồ sách để tăng hành khí chỉ thống.</li>
+<li><strong>Mất ngủ, bồn chồn nhiều:</strong> Gia Toan táo nhân, Bá tử nhân, Viễn chí để an thần dưỡng tâm.</li>
+<li><strong>Di chứng tai biến:</strong> Gia Địa long, Toàn yết, Ngô công để thông lạc, khu phong.</li>
+<li><strong>Kinh nguyệt bế tắc:</strong> Gia Ích mẫu thảo, tăng liều Ngưu tất để thông kinh hoạt huyết.</li>
+<li><strong>Kèm khí hư:</strong> Gia Hoàng kỳ, Đảng sâm để bổ khí hoạt huyết, không hao tổn chính khí.</li>
+</ul>
+
+<h2>Nghiên cứu hiện đại về Huyết phủ trục ứ thang</h2>
+<p>Nhiều nghiên cứu dược lý hiện đại đã chứng minh bài thuốc có các tác dụng sinh học rõ rệt:</p>
+<ul>
+<li>Ức chế kết tập tiểu cầu và ngăn ngừa hình thành huyết khối.</li>
+<li>Giãn mạch, cải thiện vi tuần hoàn — đặc biệt hiệu quả trong bệnh tim mạch và mạch máu não.</li>
+<li>Chống viêm, điều hòa miễn dịch.</li>
+<li>Bảo vệ tế bào thần kinh, hỗ trợ phục hồi chức năng sau đột quỵ.</li>
+</ul>
+
+<div class="art-cta-box"><p>Huyết phủ trục ứ thang là bài thuốc mạnh, cần được kê đơn và gia giảm bởi thầy thuốc YHCT có chuyên môn. Để được thăm khám và sử dụng bài thuốc này an toàn, hiệu quả, quý khách hãy đến <strong>Phòng Khám Y Học Cổ Truyền Tâm Đức</strong>. <strong>BS. Nguyễn Đức Tâm</strong> sẽ biện chứng luận trị và kê đơn phù hợp với thể trạng của bạn. Liên hệ đặt lịch: <strong>0973 710 237</strong> — phòng khám mở cửa <strong>18:00–22:00 hàng ngày</strong> tại <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 161,
+    slug: "phong-ngua-tao-bon-man-tinh-yhct",
+    date: "2026-07-27",
+    category: "phong-benh",
+    categoryLabel: "Phòng bệnh",
+    icon: "🛡️",
+    gradient: "g-amber",
+    title: "Phòng ngừa táo bón mạn tính theo Y học cổ truyền: Điều hòa Đại trường, dưỡng tân nhuận táo từ gốc",
+    excerpt: "Táo bón mạn tính không chỉ ảnh hưởng đến chất lượng cuộc sống mà còn liên quan đến nhiều bệnh lý tiêu hóa nghiêm trọng. Y học cổ truyền có nhiều biện pháp phòng ngừa toàn diện từ ăn uống, lối sống đến dưỡng sinh.",
+    readTime: 5,
+    content: `
+<h2>Hiểu táo bón từ góc độ Y học cổ truyền</h2>
+<p>Táo bón mạn tính (Đại tiện bí kết, Tiện bí) là tình trạng phân cứng, khó đi, tần suất đại tiện ít hơn 3 lần/tuần, kéo dài trên 6 tháng. Đây là vấn đề tiêu hóa phổ biến ảnh hưởng đến 15–20% dân số và tăng dần theo tuổi.</p>
+<p>Theo Y học cổ truyền, chức năng đại tiện bình thường phụ thuộc vào sự phối hợp của nhiều tạng phủ: <strong>Đại trường</strong> truyền hóa phế vật là chủ yếu; <strong>Phế</strong> với Đại trường là biểu lý tương quan — Phế khí túc giáng mới giúp Đại trường vận động bình thường; <strong>Tỳ Vị</strong> vận hóa thủy cốc, cung cấp tân dịch cho Đại trường; <strong>Thận</strong> âm tư nhuận Đại trường, Thận dương thúc đẩy vận hành phế vật — Thận hư ảnh hưởng lớn đến táo bón người cao tuổi; <strong>Can</strong> khí uất trệ gây khí cơ không thông, Đại trường mất động lực truyền hóa.</p>
+
+<h2>Các yếu tố nguy cơ gây táo bón cần phòng tránh</h2>
+<ul>
+<li><strong>Ăn uống thiếu tân dịch:</strong> Ăn quá nhiều thức ăn khô, cay nóng, ít uống nước, ít rau củ → nhiệt tích Đại trường, tân dịch khô kiệt.</li>
+<li><strong>Ít vận động:</strong> Khí cơ không thông, Đại trường thiếu động lực truyền hóa.</li>
+<li><strong>Căng thẳng, uất muộn:</strong> Can khí uất trệ → Đại trường mất động lực → táo bón thể khí uất.</li>
+<li><strong>Lạm dụng thuốc:</strong> Nhiều loại thuốc Tây gây khô kiệt tân dịch, ảnh hưởng đến nhu động ruột.</li>
+<li><strong>Tuổi già:</strong> Khí huyết suy, Thận âm khuy tổn → tân dịch khô, Đại trường mất nhuận.</li>
+<li><strong>Phụ nữ sau sinh:</strong> Huyết hư tân thương → Đại trường mất dưỡng nhuận.</li>
+</ul>
+
+<h2>Chế độ ăn uống phòng ngừa táo bón theo YHCT</h2>
+<p>Thực phẩm nên dùng thường xuyên:</p>
+<ul>
+<li><strong>Vừng đen (Hắc chi ma):</strong> Bổ Thận âm, nhuận tràng — thêm vào cháo, sữa hàng ngày.</li>
+<li><strong>Mật ong:</strong> Nhuận tràng, bổ trung ích khí — pha với nước ấm uống buổi sáng.</li>
+<li><strong>Khoai lang:</strong> Kiện Tỳ ích khí, nhuận tràng — ăn khoai lang luộc thường xuyên.</li>
+<li><strong>Hạt lanh (Hoa ma nhân):</strong> Nhuận tràng mạnh, bổ âm — có thể dùng làm trà hàng ngày.</li>
+<li><strong>Chuối tiêu:</strong> Thanh nhiệt, nhuận tràng — nên ăn khi chín hoàn toàn.</li>
+<li><strong>Củ dền, bí đỏ, súp lơ:</strong> Giàu chất xơ, nhuận trường theo YHCT.</li>
+<li><strong>Cháo gạo lứt, yến mạch:</strong> Kiện Tỳ, cung cấp chất xơ hòa tan hỗ trợ nhu động ruột.</li>
+</ul>
+<p>Thực phẩm nên hạn chế: thức ăn cay nóng, rán chiên nhiều dầu mỡ; thịt đỏ nhiều ít rau xanh; cà phê, rượu bia gây hao tổn tân dịch.</p>
+
+<h2>Bài tập và lối sống phòng ngừa táo bón</h2>
+<ul>
+<li><strong>Xoa bụng theo chiều kim đồng hồ:</strong> Xoa bụng 50–100 vòng mỗi sáng khi thức dậy, kích thích nhu động ruột. Đây là phương pháp đơn giản và hiệu quả nhất của YHCT.</li>
+<li><strong>Bài tập thở bụng:</strong> Phúc thức hô hấp (thở cơ hoành) kích thích massage nội tạng, thúc đẩy nhu động ruột.</li>
+<li><strong>Đi bộ sau bữa ăn:</strong> Đi bộ nhẹ nhàng 15–20 phút sau khi ăn, giúp khí cơ vận hành.</li>
+<li><strong>Thiết lập thói quen đại tiện:</strong> Cố gắng đại tiện vào một giờ cố định mỗi ngày, tốt nhất vào buổi sáng sau khi thức dậy.</li>
+<li><strong>Uống nước ấm buổi sáng:</strong> Uống 1–2 ly nước ấm (có thể thêm mật ong) ngay sau khi thức dậy — giúp tân dịch lưu thông, kích thích ruột.</li>
+<li><strong>Giảm stress:</strong> Thực hành thiền định, dưỡng sinh để can khí thư thái, tránh uất trệ.</li>
+</ul>
+
+<h2>Huyệt vị hỗ trợ phòng ngừa và điều trị táo bón</h2>
+<p>Bấm huyệt và châm cứu thường xuyên giúp phòng ngừa táo bón hiệu quả:</p>
+<ul>
+<li><strong>Thiên khu (ST25):</strong> Ngang rốn, ngoài 2 thốn — huyệt mộ của Đại trường, điều hòa chức năng Đại trường.</li>
+<li><strong>Túc tam lý (ST36):</strong> Kiện Tỳ ích khí, thúc đẩy vận hóa và truyền hóa toàn bộ đường tiêu hóa.</li>
+<li><strong>Đại trường du (BL25):</strong> Huyệt du của Đại trường — bấm huyệt ngày 2 lần, mỗi lần 1–2 phút.</li>
+<li><strong>Chi câu (TE6):</strong> Điều hòa tam tiêu, thông tiện — đặc hiệu với táo bón thể khí trệ.</li>
+<li><strong>Thượng cự hư (ST37):</strong> Hợp huyệt của Đại trường — thúc đẩy chức năng truyền hóa Đại trường.</li>
+</ul>
+
+<div class="art-cta-box"><p>Nếu bạn đang gặp tình trạng <strong>táo bón mạn tính</strong> và muốn điều trị dứt điểm bằng Y học cổ truyền, hãy đến thăm khám tại <strong>Phòng Khám Y Học Cổ Truyền Tâm Đức</strong>. <strong>BS. Nguyễn Đức Tâm</strong> sẽ biện chứng, xác định thể bệnh và tư vấn phác đồ điều trị kết hợp châm cứu, thuốc thang và điều chỉnh lối sống phù hợp. Đặt lịch: <strong>0973 710 237</strong> — mở cửa <strong>18:00–22:00 hàng ngày</strong> tại <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 162,
+    slug: "phuong-huyet-dieu-tri-viem-khop-dang-thap",
+    date: "2026-07-27",
+    category: "phuong-huyet",
+    categoryLabel: "Phương huyệt",
+    icon: "📍",
+    gradient: "g-huyet",
+    title: "Phương huyệt điều trị viêm khớp dạng thấp theo Y học cổ truyền",
+    excerpt: "Viêm khớp dạng thấp là bệnh tự miễn mạn tính gây đau, sưng và phá hủy khớp. Y học cổ truyền sử dụng phương huyệt đặc hiệu để giảm viêm, chỉ thống, điều hòa miễn dịch và ngăn ngừa biến chứng.",
+    readTime: 6,
+    content: `
+<h2>Viêm khớp dạng thấp trong lý luận Y học cổ truyền</h2>
+<p>Viêm khớp dạng thấp (Rheumatoid Arthritis) được YHCT xếp vào phạm vi "Tý chứng" (痺證), đặc biệt là "Lịch tiết phong" hoặc "Thống phong lịch tiết" do phong hàn thấp tà xâm nhập kinh lạc, kết hợp với chính khí suy yếu, tà khí lưu trú lâu ngày hóa nhiệt, gây đàm ứ trở lạc.</p>
+<p>Bệnh lý hình thành theo chuỗi: Chính khí hư → Tấu lý không chặt → Phong Hàn Thấp tà xâm nhập → Khí huyết ứ trệ → Lâu ngày sinh đàm → Đàm ứ trở lạc → Khớp sưng, biến dạng. Điều trị không chỉ chú trọng giảm đau tức thời mà cần kết hợp khu tà và phù chính để đạt hiệu quả lâu dài.</p>
+
+<h2>Huyệt vị toàn thân điều trị gốc bệnh</h2>
+<p>Công thức huyệt cơ bản áp dụng cho mọi thể viêm khớp dạng thấp:</p>
+<ul>
+<li><strong>Túc tam lý (ST36):</strong> Nằm dưới bờ dưới xương bánh chè 3 thốn, ngoài mào chày 1 thốn. Kiện Tỳ ích khí, hóa đàm thấp, tăng cường chính khí, điều hòa miễn dịch — huyệt thiết yếu trong mọi phác đồ tý chứng.</li>
+<li><strong>Tam âm giao (SP6):</strong> Mặt trong cẳng chân, trên mắt cá trong 3 thốn. Kiện Tỳ hóa thấp, hoạt huyết thông lạc, bổ Thận tư âm.</li>
+<li><strong>Huyết hải (SP10):</strong> Trên bờ trên xương bánh chè 2 thốn, mặt trong đùi. Hoạt huyết hóa ứ, lương huyết, tiêu sưng — đặc biệt quan trọng khi khớp sưng nóng.</li>
+<li><strong>Âm lăng tuyền (SP9):</strong> Dưới bờ trong đầu trên xương chày. Kiện Tỳ lợi thấp, thông lợi quan tiết — khu thấp tà ra khỏi khớp.</li>
+<li><strong>Đại trùy (GV14):</strong> Dưới mỏm gai đốt sống cổ 7. Thanh nhiệt, khu phong, giải biểu — quan trọng khi bệnh có yếu tố nhiệt hoặc phong.</li>
+<li><strong>Khúc trì (LI11):</strong> Tận cùng nếp gấp khuỷu, phía ngoài. Thanh nhiệt, khu phong thấp, giảm viêm toàn thân.</li>
+</ul>
+
+<h2>Huyệt cục bộ theo vị trí khớp bệnh</h2>
+<ul>
+<li><strong>Khớp tay (ngón, cổ tay, khuỷu):</strong> Hợp cốc (LI4), Ngoại quan (TE5), Dương trì (TE4), Bát tà (EX-UE9) — khu phong thấp ở chi trên, chỉ thống, cải thiện tầm vận động ngón tay.</li>
+<li><strong>Khớp gối:</strong> Độc tỵ (ST35), Âm lăng tuyền (SP9), Huyết hải (SP10), Lương khâu (ST34) — tiêu sưng chỉ thống tại gối.</li>
+<li><strong>Khớp háng:</strong> Hoàn khiêu (GB30), Phong thị (GB31), Cư liêu (GB29) — thông lợi quan tiết hông.</li>
+<li><strong>Khớp bàn chân, ngón chân:</strong> Bát phong (EX-LE10), Thái xung (LR3), Thân mạch (BL62) — khu phong thấp hạ tiêu.</li>
+<li><strong>Khớp cột sống cổ:</strong> Phong trì (GB20), Thiên trụ (BL10), Giáp tích cổ (EX-B2) — thông lợi cổ vai, giải cơ cứng.</li>
+<li><strong>Khớp vai:</strong> Kiên ngung (LI15), Kiên trinh (SI9), Thiên tông (SI11) — thông kinh hoạt lạc vùng vai.</li>
+</ul>
+
+<h2>Điều chỉnh huyệt theo phân thể lâm sàng</h2>
+<ul>
+<li><strong>Thể Phong thấp nhiệt tý (khớp sưng nóng đỏ đau, sốt nhẹ):</strong> Thêm Đại trùy (GV14), Khúc trì (LI11), Huyết hải (SP10) với kỹ thuật tả pháp để thanh nhiệt lương huyết.</li>
+<li><strong>Thể Phong hàn thấp tý (đau tăng khi lạnh, giảm khi ấm):</strong> Dùng cứu ngải hoặc ôn châm tại Quan nguyên (RN4), Mệnh môn (GV4), Thận du (BL23) để ôn kinh tán hàn khu thấp.</li>
+<li><strong>Thể Đàm ứ trở lạc (khớp biến dạng, u cục, đau cố định):</strong> Thêm Phong long (ST40), Cách du (BL17), Huyết hải (SP10) để hóa đàm hoạt huyết.</li>
+<li><strong>Thể Can Thận lưỡng hư (giai đoạn muộn, khớp cứng, teo cơ):</strong> Thêm Thận du (BL23), Can du (BL18), Thái khê (KI3), Tuyệt cốt (GB39) để bổ Can Thận, cường cân cốt.</li>
+</ul>
+
+<h2>Liệu trình châm cứu và biện pháp hỗ trợ</h2>
+<p>Phác đồ châm cứu điều trị viêm khớp dạng thấp:</p>
+<ul>
+<li><strong>Tần suất:</strong> Giai đoạn cấp: châm hàng ngày hoặc cách ngày. Giai đoạn mạn: châm 2–3 lần/tuần.</li>
+<li><strong>Liệu trình:</strong> Mỗi liệu trình 10–15 buổi. Cần 3–6 liệu trình tùy mức độ bệnh.</li>
+<li><strong>Điện châm:</strong> Kết hợp điện châm (electroacupuncture) để tăng cường kích thích, đặc biệt hiệu quả trong giảm đau mạn tính.</li>
+<li><strong>Cứu ngải:</strong> Áp dụng khi thể hàn, sau mỗi buổi châm để duy trì tác dụng ôn thông.</li>
+</ul>
+<p>Biện pháp hỗ trợ tại nhà:</p>
+<ul>
+<li>Chườm ấm khớp bị đau khi thể hàn; chườm mát khi thể nhiệt, khớp sưng nóng.</li>
+<li>Tập vận động khớp nhẹ nhàng hàng ngày, không để khớp cứng do bất động.</li>
+<li>Chế độ ăn chống viêm: Tăng rau xanh, omega-3; hạn chế thịt đỏ, đồ ăn cay nóng.</li>
+<li>Tránh tiếp xúc với lạnh ẩm — yếu tố kích hoạt đợt bùng phát bệnh.</li>
+<li>Bấm huyệt Hợp cốc (LI4), Túc tam lý (ST36), Tam âm giao (SP6) tại nhà ngày 2 lần.</li>
+</ul>
+
+<div class="art-cta-box"><p>Viêm khớp dạng thấp cần được điều trị sớm và kiên trì để tránh biến dạng khớp vĩnh viễn. Tại <strong>Phòng Khám Y Học Cổ Truyền Tâm Đức</strong>, <strong>BS. Nguyễn Đức Tâm</strong> sẽ thăm khám, biện chứng và xây dựng phác đồ huyệt vị kết hợp châm cứu, điện châm và thuốc YHCT phù hợp với từng giai đoạn bệnh. Liên hệ <strong>0973 710 237</strong> để đặt lịch — phòng khám mở cửa <strong>18:00–22:00 hàng ngày</strong> tại <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 163,
+    slug: "tri-vay-nen-psoriasis-yhct",
+    date: "2026-07-27",
+    category: "lam-dep",
+    categoryLabel: "Làm đẹp",
+    icon: "🌸",
+    gradient: "g-rose",
+    title: "Trị vảy nến (Psoriasis) theo Y học cổ truyền: Dưỡng huyết nhuận táo, thanh nhiệt giải độc từ gốc",
+    excerpt: "Vảy nến là bệnh da mạn tính tự miễn gây mất thẩm mỹ nghiêm trọng. Y học cổ truyền tiếp cận từ bên trong — điều hòa Can Phế, dưỡng huyết nhuận táo và thanh nhiệt giải độc để phục hồi làn da bền vững.",
+    readTime: 6,
+    content: `
+<h2>Vảy nến nhìn từ góc độ Y học cổ truyền và làm đẹp</h2>
+<p>Vảy nến (Psoriasis, còn gọi là ngân tiết bệnh — 銀屑病) là bệnh da mạn tính đặc trưng bởi các mảng da đỏ, dày, phủ vảy trắng bạc, gây ngứa ngáy và ảnh hưởng nghiêm trọng đến ngoại hình và tự tin của người bệnh. Bệnh thường gặp ở vùng khuỷu tay, đầu gối, da đầu và lưng.</p>
+<p>Theo Y học cổ truyền, da là "phế chi hợp" — vẻ đẹp và sức khỏe của da phản ánh trực tiếp trạng thái của Phế và các tạng phủ liên quan. Vảy nến xảy ra khi:</p>
+<ul>
+<li><strong>Huyết nhiệt độc thịnh:</strong> Nhiệt độc ẩn sâu trong huyết phận, bùng phát ra ngoài da — gây đỏ, bong vảy giai đoạn cấp.</li>
+<li><strong>Huyết hư phong táo:</strong> Bệnh kéo dài, huyết hư không dưỡng được bì phu, da mất nhuận — gây da khô, vảy dày, ngứa mạn tính.</li>
+<li><strong>Huyết ứ trở lạc:</strong> Khí huyết ứ trệ, da không được nuôi dưỡng — gây mảng da dày cứng, màu tím thâm.</li>
+</ul>
+
+<h2>Phân thể lâm sàng và nguyên tắc điều trị</h2>
+<p>YHCT phân vảy nến thành ba thể chính để điều trị đặc hiệu:</p>
+<ul>
+<li><strong>Thể Huyết nhiệt (giai đoạn tiến triển):</strong> Tổn thương da đỏ tươi, vảy dày, ngứa nhiều, bong vảy khi cạo thấy rỉ máu (dấu hiệu Auspitz). Lưỡi đỏ, mạch Huyền Sác. Pháp trị: Thanh nhiệt lương huyết, giải độc.</li>
+<li><strong>Thể Huyết hư phong táo (giai đoạn ổn định, mạn tính):</strong> Mảng da màu hồng nhạt, vảy mỏng, da khô, ngứa về đêm, sắc mặt nhợt. Lưỡi nhạt, mạch Tế. Pháp trị: Dưỡng huyết nhuận táo, khu phong chỉ ngứa.</li>
+<li><strong>Thể Huyết ứ (lâu năm, da dày cứng):</strong> Mảng tổn thương dày, màu thâm tím, ít bong vảy, ít ngứa nhưng cứng và khó điều trị. Mạch Sáp. Pháp trị: Hoạt huyết hóa ứ, nhuyễn kiên tán kết.</li>
+</ul>
+
+<h2>Điều trị nội khoa bằng dược liệu YHCT</h2>
+<p>Theo từng thể bệnh, thầy thuốc sẽ kê các bài thuốc phù hợp:</p>
+<ul>
+<li><strong>Thể Huyết nhiệt:</strong> Sinh địa hoàng (30g), Đan bì (10g), Xích thược (10g), Tử thảo (10g), Bạch mao căn (30g), Thổ phục linh (30g), Kim ngân hoa (15g), Bồ công anh (15g) — Thanh nhiệt lương huyết, giải độc trừ ban.</li>
+<li><strong>Thể Huyết hư phong táo:</strong> Đương quy (15g), Sinh địa (20g), Hà thủ ô (15g), Kê huyết đằng (20g), Phòng phong (10g), Kinh giới (10g), Bạch tiên bì (15g), Địa phu tử (15g) — Dưỡng huyết nhuận táo, khu phong chỉ ngứa.</li>
+<li><strong>Thể Huyết ứ:</strong> Huyết phủ trục ứ thang gia giảm với Tam lăng, Nga truật, Nhũ hương, Một dược, Thổ phục linh — Hoạt huyết hóa ứ, nhuyễn kiên.</li>
+</ul>
+<p>Các vị dược liệu đặc trị vảy nến trong YHCT:</p>
+<ul>
+<li><strong>Thổ phục linh:</strong> Giải độc trừ thấp, kháng khuẩn kháng viêm — đặc trị các bệnh da do nhiệt độc.</li>
+<li><strong>Bạch tiên bì:</strong> Khu phong giải độc, trừ thấp chỉ ngứa — vị thuốc quan trọng nhất trong trị bệnh da dị ứng.</li>
+<li><strong>Tử thảo:</strong> Lương huyết giải độc, hoạt huyết — dùng cả trong và ngoài.</li>
+</ul>
+
+<h2>Điều trị ngoại dụng (bôi ngoài) theo YHCT</h2>
+<p>Song song với điều trị nội khoa, YHCT có nhiều biện pháp bôi ngoài hiệu quả:</p>
+<ul>
+<li><strong>Dầu Tử thảo bôi ngoài:</strong> Tử thảo chiết xuất trong dầu vừng hoặc dầu dừa, bôi trực tiếp lên tổn thương — làm mềm vảy, giảm viêm, thúc đẩy tái tạo da.</li>
+<li><strong>Ngâm tắm thảo dược:</strong> Pha nước tắm với Xà sàng tử, Địa phu tử, Bồ công anh, Khổ sâm — ngâm 15–20 phút, giảm viêm và ngứa toàn thân.</li>
+<li><strong>Cao dán thảo dược:</strong> Các bài thuốc dạng cao dán bao gồm Nhũ hương, Bạch chỉ, Khổ sâm bôi trực tiếp lên mảng vảy nến để mềm vảy và tiêu viêm.</li>
+</ul>
+
+<h2>Châm cứu và liệu pháp bổ sung trong điều trị vảy nến</h2>
+<p>Châm cứu giúp điều hòa hệ miễn dịch, giảm viêm và cải thiện tuần hoàn da:</p>
+<ul>
+<li><strong>Huyệt chính:</strong> Huyết hải (SP10) — hoạt huyết lương huyết; Khúc trì (LI11) — thanh nhiệt khu phong; Túc tam lý (ST36) — tăng cường chính khí; Tam âm giao (SP6) — dưỡng huyết nhuận táo; Phong trì (GB20) — khu phong giải độc.</li>
+<li><strong>Vây châm cục bộ:</strong> Châm xung quanh tổn thương để tăng cường tuần hoàn da tại chỗ, thúc đẩy tái tạo da.</li>
+<li><strong>Nhĩ châm:</strong> Huyệt tai Phế, Thần môn, Nội tiết — điều hòa phản ứng miễn dịch tự miễn.</li>
+</ul>
+<p>Chế độ sinh hoạt quan trọng trong quản lý vảy nến:</p>
+<ul>
+<li>Tránh stress — yếu tố khởi phát bùng phát bệnh hàng đầu theo cả YHCT và Tây y.</li>
+<li>Tránh cạy gãi tổn thương, tránh tiếp xúc xà phòng mạnh, chất tẩy rửa.</li>
+<li>Dưỡng ẩm da thường xuyên bằng dầu dừa, dầu ô liu tự nhiên sau tắm.</li>
+<li>Chế độ ăn lành mạnh: Tăng omega-3, rau xanh; giảm thịt đỏ, rượu bia, thức ăn cay nóng.</li>
+<li>Phơi nắng nhẹ (tắm nắng sáng sớm) khoảng 15–20 phút/ngày — ánh nắng tự nhiên giúp cải thiện vảy nến.</li>
+</ul>
+
+<div class="art-cta-box"><p>Vảy nến là bệnh da mạn tính cần điều trị kiên trì và đúng thể. Tại <strong>Phòng Khám Y Học Cổ Truyền Tâm Đức</strong>, <strong>BS. Nguyễn Đức Tâm</strong> sẽ thăm khám toàn diện, xác định thể bệnh và xây dựng phác đồ điều trị kết hợp thuốc thang, châm cứu và liệu pháp ngoại dụng để phục hồi làn da khỏe đẹp từ bên trong. Đặt lịch ngay: <strong>0973 710 237</strong> — phòng khám mở cửa <strong>18:00–22:00 hàng ngày</strong> tại <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
     id: 157,
     slug: "bam-huyet-xoa-bop-tri-te-bi-tay-chan",
     date: "2026-07-27",
