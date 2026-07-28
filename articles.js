@@ -5,6 +5,57 @@
 
 const ARTICLES = [
   {
+    id: 164,
+    slug: "bam-huyet-ho-tro-cai-thuoc-la-yhct",
+    date: "2026-07-28",
+    category: "khong-thuoc",
+    categoryLabel: "Không dùng thuốc",
+    icon: "🧘",
+    gradient: "g-herb",
+    title: "Bấm huyệt hỗ trợ cai thuốc lá theo Y học cổ truyền: Giảm cơn thèm và vượt qua hội chứng cai",
+    excerpt: "Bấm huyệt theo Y học cổ truyền là phương pháp không dùng thuốc giúp giảm cơn thèm thuốc lá, cân bằng thần kinh thực vật và tăng cường ý chí cai thuốc một cách tự nhiên, an toàn.",
+    readTime: 5,
+    content: `
+<h2>Tổng quan theo Y học cổ truyền</h2>
+<p>Nghiện thuốc lá theo Y học cổ truyền (YHCT) không chỉ là thói quen hành vi mà còn phản ánh sự mất cân bằng tạng phủ sâu xa. Khói thuốc lá thuộc tà nhiệt, xâm phạm Phế, đốt tổn Phế âm theo thời gian. Đồng thời, nicotine kích thích Tâm hoả, gây hưng phấn ảo và tạo chu kỳ lệ thuộc. Khi người bệnh ngừng hút, hội chứng cai (bồn chồn, lo âu, khó chịu, thèm thuốc) chính là biểu hiện của Tâm thần bất ổn, khí trệ, và âm hư nội nhiệt do Phế–Thận bị tổn thương lâu ngày.</p>
+<p>Bấm huyệt (án ma huyệt vị) là liệu pháp kích thích huyệt vị bằng ngón tay, không cần kim, không dùng thuốc, an toàn và có thể tự thực hành hàng ngày. Các nghiên cứu hiện đại cho thấy kích thích huyệt vị giải phóng endorphin, điều hòa hệ thần kinh thực vật, làm dịu cơn thèm và giảm lo âu trong quá trình cai thuốc.</p>
+
+<h2>Phân thể / Nguyên nhân theo YHCT</h2>
+<ul>
+  <li><strong>Thể Phế âm hư:</strong> Ho khan, khô họng, miệng khô, bứt rứt khi không có thuốc, lưỡi đỏ ít rêu, mạch Tế Sác. Hướng điều trị: Dưỡng Phế âm, thanh nhiệt, an thần.</li>
+  <li><strong>Thể Tâm hoả vượng:</strong> Bồn chồn, khó ngủ, tim hồi hộp, miệng đắng, cáu gắt khi thiếu thuốc, lưỡi đỏ rêu vàng, mạch Sác. Hướng điều trị: Thanh Tâm hoả, trọng trấn an thần.</li>
+  <li><strong>Thể Khí trệ — Can uất:</strong> Căng thẳng, ngực tức, thở nông, dễ cáu giận, hút thuốc như một cách giải stress, mạch Huyền. Hướng điều trị: Sơ Can giải uất, hành khí thư kết.</li>
+  <li><strong>Thể Tỳ hư đàm thấp:</strong> Ăn kém, mệt mỏi, hay tìm thuốc sau bữa ăn, miệng nhớt, lưỡi bệu có rêu trắng dày, mạch Hoạt Nhu. Hướng điều trị: Kiện Tỳ hóa đàm, ích khí trừ thấp.</li>
+</ul>
+
+<h2>Phương pháp điều trị — Huyệt vị chính</h2>
+<p>Các huyệt sau được sử dụng phổ biến trong hỗ trợ cai thuốc lá, kết hợp nhĩ châm và bấm huyệt toàn thân:</p>
+<p><strong>Nhĩ huyệt (huyệt trên loa tai):</strong> Đây là nền tảng của liệu pháp cai thuốc không dùng thuốc. Các nhĩ huyệt chính bao gồm: Nhĩ điểm Phế (Lung point — nằm ở phần giữa loa tai), Nhĩ điểm Thần môn (Shen Men), Nhĩ điểm Thận (Kidney point), Nhĩ điểm Giao cảm (Sympathetic point). Kích thích các điểm này 2–3 lần/ngày, mỗi lần 1–2 phút, đặc biệt khi có cơn thèm thuốc.</p>
+<p><strong>Huyệt thân thể:</strong></p>
+<ul>
+  <li><strong>Liệt khuyết (LU7):</strong> Huyệt lạc của kinh Phế, nằm trên cổ tay phía ngón cái, cách nếp gấp cổ tay 1,5 thốn. Bấm mạnh vào đây giúp thanh Phế, giảm cơn ho và thèm thuốc.</li>
+  <li><strong>Hợp cốc (LI4):</strong> Huyệt nổi tiếng trên kẽ ngón cái–trỏ bàn tay. Bấm giúp giải uất, giảm lo âu và căng thẳng — nguyên nhân thường gặp khiến người cai thuốc bị "tái nghiện".</li>
+  <li><strong>Thần môn (HT7):</strong> Huyệt du của kinh Tâm, nằm ở nếp gấp cổ tay phía ngón út. Bấm huyệt này an thần, giảm bồn chồn và cải thiện giấc ngủ trong giai đoạn cai thuốc.</li>
+  <li><strong>Nội quan (PC6):</strong> Huyệt lạc của kinh Tâm bào, cách nếp gấp cổ tay 2 thốn. Tác dụng điều hòa Tâm, giảm hồi hộp, buồn nôn — triệu chứng thường gặp khi cai nicotine.</li>
+  <li><strong>Túc tam lý (ST36):</strong> Huyệt hội của Vị kinh, cách đầu gối 3 thốn, ngoài xương chày 1 thốn. Kiện Tỳ ích khí, tăng cường thể lực và ý chí.</li>
+  <li><strong>Thái xung (LR3):</strong> Huyệt du của kinh Can, nằm ở mu bàn chân kẽ ngón 1–2. Sơ Can giải uất, bình Can tiềm dương — giảm bực bội và cáu gắt khi cai thuốc.</li>
+</ul>
+
+<h2>Tự thực hành tại nhà</h2>
+<ul>
+  <li><strong>Kỹ thuật bấm huyệt:</strong> Dùng đầu ngón cái hoặc ngón trỏ bấm ấn vào huyệt, lực vừa đủ gây cảm giác tức nặng nhẹ (cảm giác đắc khí), xoay tròn 30–60 lần, nghỉ, làm 3 lần. Thực hiện 2–3 lần/ngày, đặc biệt khi nảy sinh cơn thèm thuốc.</li>
+  <li><strong>Bộ huyệt nhanh chặn cơn thèm:</strong> Ngay khi xuất hiện cơn thèm, bấm lần lượt: Hợp cốc (LI4) → Nội quan (PC6) → Thần môn (HT7), mỗi huyệt 60 giây. Thực hiện cả hai tay. Cơn thèm thường qua sau 3–5 phút.</li>
+  <li><strong>Thở bụng kết hợp:</strong> Trong khi bấm huyệt, thở sâu bằng bụng: hít vào 4 giây, giữ 4 giây, thở ra 6 giây. Phương pháp này kết hợp điều khí (điều chỉnh hơi thở) giúp dưỡng Phế và an Tâm, tăng hiệu quả.</li>
+  <li><strong>Hỗ trợ bằng thực phẩm dưỡng Phế:</strong> Nước ép lê–bạch mộc nhĩ, trà hoa cúc–bách hợp giúp dưỡng Phế âm, thanh nhiệt, bổ trợ cho quá trình cai.</li>
+  <li><strong>Nhật ký cơn thèm:</strong> Ghi lại thời điểm, hoàn cảnh và kết quả sau bấm huyệt để nhận biết quy luật và tăng cường hiệu quả theo thời gian.</li>
+</ul>
+
+<div class="art-cta-box">
+  <p>Cai thuốc lá bằng ý chí đơn thuần thất bại đến 95% sau một năm. Kết hợp bấm huyệt và điều chỉnh thể chất theo YHCT sẽ nâng cao đáng kể tỉ lệ thành công. Để được đánh giá thể trạng và xây dựng phác đồ hỗ trợ cai thuốc cá nhân hóa, hãy đến thăm khám tại <strong>Phòng Khám Y Học Cổ Truyền Tâm Đức</strong>. <strong>BS. Nguyễn Đức Tâm</strong> sẽ tư vấn phác đồ phù hợp nhất cho bạn. Liên hệ <strong>hotline 0973 710 237</strong> — giờ khám <strong>18:00–22:00 hàng ngày</strong> tại <strong>Hà Đông, Hà Nội</strong>.</p>
+</div>
+    `
+  },
+  {
     id: 158,
     slug: "dai-dam-o-tre-em-yhct",
     date: "2026-07-27",
