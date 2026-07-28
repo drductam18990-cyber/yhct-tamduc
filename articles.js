@@ -5,6 +5,346 @@
 
 const ARTICLES = [
   {
+    id: 165,
+    slug: "dau-day-than-kinh-lien-suon-yhct-phan-the-dieu-tri",
+    date: "2026-07-28",
+    category: "mat-benh",
+    categoryLabel: "Mặt bệnh",
+    icon: "🩺",
+    gradient: "g-navy",
+    title: "Đau dây thần kinh liên sườn theo Y học cổ truyền: Phân thể và phác đồ điều trị toàn diện",
+    excerpt: "Đau dây thần kinh liên sườn là tình trạng đau buốt, rát dọc theo các khoang liên sườn, ảnh hưởng nghiêm trọng đến sinh hoạt. Y học cổ truyền biện chứng luận trị theo từng thể bệnh, kết hợp châm cứu và bài thuốc để giảm đau và phục hồi chức năng kinh lạc.",
+    readTime: 6,
+    content: `
+<h2>Tổng quan về đau dây thần kinh liên sườn</h2>
+<p>Đau dây thần kinh liên sườn (intercostal neuralgia) là hội chứng đau xuất phát từ dây thần kinh chạy dọc khoang liên sườn, biểu hiện bằng cảm giác đau buốt, rát bỏng, châm chích hoặc tê tức lan theo chiều dài xương sườn. Cơn đau thường tăng lên khi hít thở sâu, ho, hắt hơi hoặc vận động xoay người.</p>
+<p>Trong Y học cổ truyền (YHCT), đau dây thần kinh liên sườn thuộc phạm trù <strong>"Hiếp thống"</strong> (đau vùng hông sườn) và <strong>"Hung thống"</strong> (đau ngực). Bệnh liên quan chủ yếu đến kinh túc Quyết âm Can và kinh túc Thiếu dương Đởm — hai kinh đi qua vùng sườn ngực. Nguyên nhân theo YHCT gồm Can khí uất kết, huyết ứ kinh lạc, phong hàn hoặc phong nhiệt xâm phạm, hay Can Thận âm hư.</p>
+
+<h2>Nguyên nhân và cơ chế bệnh sinh theo Y học cổ truyền</h2>
+<p>YHCT xác định các nguyên nhân chính gây đau dây thần kinh liên sườn gồm:</p>
+<ul>
+  <li><strong>Can khí uất kết:</strong> Stress kéo dài, tức giận, lo lắng làm Can mất khả năng sơ tiết, khí cơ trở trệ, uất kết tại kinh Can-Đởm vùng sườn ngực gây đau tức, đầy trướng.</li>
+  <li><strong>Huyết ứ kinh lạc:</strong> Chấn thương, viêm nhiễm vùng sườn ngực làm khí trệ huyết ứ, kinh lạc tắc nghẽn gây đau nhói, đau cố định, không thể ấn vào.</li>
+  <li><strong>Phong hàn hoặc phong nhiệt xâm phạm:</strong> Phong hàn hay phong nhiệt tà khí xâm nhập vào kinh lạc vùng sườn (như trong bệnh Zona thần kinh), gây đau buốt, rát bỏng, kèm các triệu chứng bên ngoài.</li>
+  <li><strong>Can Thận âm hư:</strong> Người cao tuổi, bệnh mạn tính làm Can Thận âm suy, kinh lạc mất dinh dưỡng, gây đau âm ỉ kéo dài, tái phát nhiều lần.</li>
+</ul>
+
+<h2>Phân thể lâm sàng và biện chứng luận trị</h2>
+<p>Dựa trên biểu hiện lâm sàng, YHCT phân đau dây thần kinh liên sườn thành 4 thể chính:</p>
+<ul>
+  <li><strong>Thể Can khí uất kết:</strong> Đau tức vùng sườn ngực, đau lan lên vai hoặc xuống bụng, đau tăng khi stress hoặc tức giận, kèm thở dài, ngực đầy, ợ hơi. Lưỡi nhạt rêu trắng mỏng, mạch huyền. <em>Phép trị: Sơ Can giải uất, lý khí chỉ thống.</em> Dùng Tiêu dao tán, Sài hồ sơ can tán gia giảm.</li>
+  <li><strong>Thể huyết ứ kinh lạc:</strong> Đau nhói cố định, tăng khi ấn vào hoặc vận động, đau như dao đâm, có thể xuất hiện sau chấn thương hay sau Zona. Lưỡi tía hoặc có điểm ứ huyết, mạch sáp hoặc huyền sáp. <em>Phép trị: Hoạt huyết hóa ứ, thông lạc chỉ thống.</em> Dùng Huyết phủ trục ứ thang gia giảm.</li>
+  <li><strong>Thể phong nhiệt xâm phạm (Zona hoặc cảm nhiễm):</strong> Đau rát bỏng, châm chích dọc khoang liên sườn, có thể kèm mụn nước, sốt nhẹ, miệng đắng, nước tiểu vàng. Lưỡi đỏ rêu vàng, mạch huyền sác. <em>Phép trị: Thanh nhiệt giải độc, sơ Can lợi thấp.</em> Dùng Long đởm tả can thang gia giảm.</li>
+  <li><strong>Thể Can Thận âm hư:</strong> Đau âm ỉ kéo dài, tái phát nhiều lần, kèm hoa mắt chóng mặt, lưng gối mỏi, miệng khô, ngủ kém. Lưỡi đỏ ít rêu, mạch tế sác. <em>Phép trị: Tư âm dưỡng Can, thông lạc chỉ thống.</em> Dùng Nhất quán tiễn gia giảm.</li>
+</ul>
+
+<h2>Phác đồ châm cứu điều trị</h2>
+<p>Châm cứu là phương pháp quan trọng trong điều trị đau dây thần kinh liên sườn. Các huyệt thường dùng gồm:</p>
+<ul>
+  <li><strong>Huyệt cục bộ:</strong> Kỳ môn (Can mộ huyệt), Nhật nguyệt (Đởm mộ huyệt), Khoản tức du (BL17), Giản sử (PC5) — kích thích trực tiếp kinh lạc vùng bệnh.</li>
+  <li><strong>Huyệt xa châm:</strong> Nội quan (PC6), Chi câu (SJ6), Dương lăng tuyền (GB34), Túc lâm khấp (GB41) — sơ thông khí cơ kinh Can-Đởm.</li>
+  <li><strong>Huyệt theo thể bệnh:</strong> Can khí uất: thêm Thái xung (LR3), Hành gian (LR2); Huyết ứ: thêm Huyết hải (SP10), Tam âm giao (SP6); Phong nhiệt: thêm Khúc trì (LI11), Đại đôn (LR1); Âm hư: thêm Thái khê (KI3), Phục lưu (KI7).</li>
+  <li><strong>A thị huyệt:</strong> Châm thêm các điểm đau nhất trên khoang liên sườn bị ảnh hưởng để giảm đau trực tiếp.</li>
+</ul>
+<p>Phác đồ điều trị thường áp dụng <strong>10–15 buổi/liệu trình</strong>, mỗi buổi lưu kim 20–30 phút, kết hợp điện châm tần số thấp (2–4 Hz) giúp giảm đau và kháng viêm hiệu quả hơn.</p>
+
+<h2>Xoa bóp bấm huyệt và các liệu pháp hỗ trợ</h2>
+<p>Song song với châm cứu, xoa bóp bấm huyệt vùng liên sườn theo chiều đường kinh, kết hợp kéo căng nhẹ nhàng vùng ngực sườn, giúp thư giãn cơ liên sườn và cải thiện tuần hoàn cục bộ. Chườm ấm ngải cứu (ôn châm) tại vùng đau 15–20 phút/ngày đặc biệt hiệu quả với thể hàn và huyết ứ.</p>
+<p>Các bài tập thở bụng sâu kết hợp xoay người nhẹ nhàng theo chỉ dẫn của thầy thuốc giúp duy trì vận động kinh lạc vùng sườn ngực, hỗ trợ phục hồi nhanh hơn.</p>
+
+<h2>Lưu ý trong điều trị và phòng ngừa tái phát</h2>
+<p>Bệnh nhân cần được chẩn đoán phân biệt với các bệnh lý nội tạng nghiêm trọng như nhồi máu cơ tim, viêm màng phổi, hay bệnh đường mật. Sau khi loại trừ các nguyên nhân nguy hiểm, YHCT có thể điều trị rất hiệu quả.</p>
+<p>Phòng ngừa tái phát bằng cách: kiểm soát stress, giữ ấm vùng ngực sườn, tránh vận động mạnh đột ngột, và duy trì lối sống điều độ theo nguyên tắc YHCT.</p>
+
+<div class="art-cta-box"><p>Nếu bạn đang chịu đựng những cơn đau buốt vùng liên sườn kéo dài và muốn điều trị bằng phương pháp Y học cổ truyền an toàn, hiệu quả, hãy đến thăm khám tại <strong>Phòng Khám YHCT Tâm Đức</strong>. <strong>BS. Nguyễn Đức Tâm</strong> sẽ trực tiếp biện chứng và xây dựng phác đồ điều trị phù hợp cho từng bệnh nhân. Liên hệ: <strong>0973 710 237</strong> — Giờ khám: <strong>18:00–22:00 hàng ngày</strong> tại <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 166,
+    slug: "xoa-bop-ban-tay-phan-xa-hoc-ngon-tay-yhct",
+    date: "2026-07-28",
+    category: "khong-thuoc",
+    categoryLabel: "Không dùng thuốc",
+    icon: "🧘",
+    gradient: "g-herb",
+    title: "Xoa bóp bàn tay và phản xạ học ngón tay theo Y học cổ truyền: Liệu pháp đơn giản tại nhà",
+    excerpt: "Bàn tay chứa hàng trăm huyệt vị và vùng phản xạ tương ứng với các tạng phủ trong cơ thể. Xoa bóp đúng kỹ thuật theo Y học cổ truyền giúp điều hòa khí huyết, kích thích tạng phủ và phòng ngừa bệnh tật mà không cần dùng thuốc.",
+    readTime: 5,
+    content: `
+<h2>Cơ sở lý luận của phản xạ học bàn tay theo Y học cổ truyền</h2>
+<p>Trong Y học cổ truyền (YHCT), bàn tay là nơi hội tụ của nhiều kinh mạch quan trọng: kinh Thủ thái âm Phế, kinh Thủ dương minh Đại tràng, kinh Thủ thiếu âm Tâm, kinh Thủ thái dương Tiểu tràng, kinh Thủ quyết âm Tâm bào và kinh Thủ thiếu dương Tam tiêu. Sáu kinh mạch này bắt đầu hoặc kết thúc ở các đầu ngón tay, tạo nên mạng lưới kết nối chặt chẽ giữa bàn tay với toàn bộ tạng phủ.</p>
+<p>Học thuyết phản xạ học (reflexology) hiện đại xác nhận rằng bàn tay là "bản đồ thu nhỏ" của cơ thể, trong đó mỗi vùng phản xạ trên lòng bàn tay và ngón tay tương ứng với một cơ quan nội tạng cụ thể. Kích thích các vùng phản xạ này bằng xoa bóp, ấn huyệt giúp thông thông kinh lạc, điều hòa khí huyết và tăng cường chức năng tạng phủ.</p>
+
+<h2>Bản đồ phản xạ bàn tay và các vùng tương ứng</h2>
+<p>Hiểu đúng bản đồ phản xạ bàn tay giúp bạn xoa bóp đúng vùng, đúng mục đích:</p>
+<ul>
+  <li><strong>Ngón cái:</strong> Tương ứng với vùng đầu, não bộ và tuyến yên. Xoa bóp ngón cái hỗ trợ cải thiện đau đầu, mất ngủ, suy giảm trí nhớ.</li>
+  <li><strong>Ngón trỏ:</strong> Liên hệ với vùng xoang, mắt và tai. Bấm nhẹ từ gốc đến ngọn ngón trỏ giúp giảm viêm xoang, mỏi mắt và ù tai.</li>
+  <li><strong>Ngón giữa:</strong> Tương ứng với tim, mạch máu và vai. Xoa bóp ngón giữa hỗ trợ điều hòa tim mạch và thư giãn vùng vai cổ.</li>
+  <li><strong>Ngón áp út:</strong> Liên quan đến gan, mật và hệ miễn dịch. Kích thích ngón áp út giúp giải độc gan, cải thiện chức năng miễn dịch.</li>
+  <li><strong>Ngón út:</strong> Liên hệ với tim nhỏ (theo YHCT là Tâm), thận và ruột non. Xoa bóp ngón út hỗ trợ điều hòa nhịp tim và tăng cường Thận khí.</li>
+  <li><strong>Lòng bàn tay:</strong> Vùng trung tâm lòng bàn tay (huyệt Lao cung — PC8) tương ứng với tim và Tâm bào, là điểm quan trọng để an thần, giảm stress.</li>
+  <li><strong>Mu bàn tay:</strong> Huyệt Hợp cốc (LI4) nằm trên mu bàn tay giữa ngón cái và ngón trỏ là đại huyệt giảm đau toàn thân, khai khiếu, điều trị đau đầu và tăng cường miễn dịch.</li>
+</ul>
+
+<h2>Kỹ thuật xoa bóp bàn tay cơ bản</h2>
+<p>Thực hiện xoa bóp bàn tay theo các bước sau, mỗi lần 10–15 phút, sáng và tối mỗi ngày:</p>
+<ul>
+  <li><strong>Bước 1 — Khởi động:</strong> Xoa hai bàn tay vào nhau 30–50 lần theo chiều thuận cho đến khi bàn tay ấm nóng. Đây là bước kích hoạt khí huyết lưu thông qua 6 kinh thủ.</li>
+  <li><strong>Bước 2 — Kéo căng ngón tay:</strong> Dùng tay đối diện kéo nhẹ từng ngón tay từ gốc ra ngọn, giữ 3–5 giây mỗi ngón. Lặp lại 3 lần mỗi ngón. Kỹ thuật này giúp khơi thông khí ở đầu kinh mạch.</li>
+  <li><strong>Bước 3 — Bấm ngọn ngón tay:</strong> Dùng ngón cái và ngón trỏ của tay đối diện bấm nhẹ xoay tròn tại đầu từng ngón tay 1–2 phút. Theo YHCT, đầu ngón tay chứa các huyệt Thập tuyên — điểm khai khiếu cấp cứu và kích thích thần kinh hiệu quả.</li>
+  <li><strong>Bước 4 — Xoa lòng bàn tay:</strong> Dùng ngón cái tay đối diện miết mạnh theo vòng tròn trên lòng bàn tay, tập trung vào huyệt Lao cung và vùng gò ngón cái (tương ứng phổi). Xoa 2–3 phút mỗi bên.</li>
+  <li><strong>Bước 5 — Bấm huyệt Hợp cốc:</strong> Dùng ngón cái bấm sâu vào huyệt Hợp cốc (điểm giữa xương ngón cái và ngón trỏ trên mu bàn tay) theo chiều thẳng đứng, giữ 30 giây rồi thả, lặp lại 5–7 lần mỗi bên. Đây là kỹ thuật quan trọng nhất trong xoa bóp bàn tay.</li>
+</ul>
+
+<h2>Ứng dụng điều trị các triệu chứng phổ biến</h2>
+<p>Tùy theo vấn đề sức khỏe, bạn có thể tập trung vào vùng phản xạ tương ứng:</p>
+<ul>
+  <li><strong>Đau đầu, mất ngủ:</strong> Tập trung xoa bóp ngón cái, bấm huyệt Lao cung (PC8) và Thần môn (HT7 — mặt trong cổ tay) 5–10 phút trước khi ngủ.</li>
+  <li><strong>Mệt mỏi, suy nhược:</strong> Xoa bóp toàn bộ lòng bàn tay, bấm huyệt Hợp cốc (LI4) và Nội quan (PC6) — 2 cm trên cổ tay mặt trong.</li>
+  <li><strong>Đau vai gáy:</strong> Kéo căng và xoa bóp ngón giữa và vùng mu bàn tay phía ngón trỏ-giữa (vùng phản xạ cột sống cổ).</li>
+  <li><strong>Tiêu hóa kém, đầy bụng:</strong> Bấm huyệt Hợp cốc (LI4) kết hợp xoa vùng gò dưới ngón út (phản xạ ruột) theo chiều kim đồng hồ 3–5 phút.</li>
+</ul>
+
+<h2>Lưu ý khi thực hiện và chống chỉ định</h2>
+<p>Xoa bóp bàn tay là liệu pháp an toàn, phù hợp cho mọi lứa tuổi. Tuy nhiên cần lưu ý:</p>
+<ul>
+  <li>Không thực hiện trên vùng da bị viêm nhiễm, tổn thương hoặc có nốt mụn.</li>
+  <li>Phụ nữ mang thai tránh bấm huyệt Hợp cốc (LI4) mạnh vì có thể kích thích co tử cung.</li>
+  <li>Người bị gãy xương bàn tay, viêm khớp cấp tính không nên thực hiện kéo căng ngón tay.</li>
+  <li>Áp lực khi bấm huyệt vừa phải, cảm giác tức, nặng nhẹ là bình thường; tránh bấm quá mạnh gây đau hoặc bầm tím.</li>
+</ul>
+
+<div class="art-cta-box"><p>Để được hướng dẫn kỹ thuật xoa bóp bàn tay đúng chuẩn YHCT và tích hợp vào phác đồ điều trị không dùng thuốc cá nhân hóa, hãy đến thăm khám tại <strong>Phòng Khám YHCT Tâm Đức</strong>. <strong>BS. Nguyễn Đức Tâm</strong> sẽ tư vấn và hướng dẫn trực tiếp. Liên hệ: <strong>0973 710 237</strong> — Giờ khám: <strong>18:00–22:00 hàng ngày</strong> tại <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 167,
+    slug: "on-dom-thang-bai-thuoc-hoa-dam-thanh-nhiet-ly-khi",
+    date: "2026-07-28",
+    category: "thuoc-yhct",
+    categoryLabel: "Thuốc YHCT",
+    icon: "🌿",
+    gradient: "g-fire",
+    title: "Ôn đởm thang — Bài thuốc hóa đàm thanh nhiệt, lý khí hòa vị kinh điển của Y học cổ truyền",
+    excerpt: "Ôn đởm thang là danh phương cổ điển có lịch sử hơn 800 năm, chuyên điều trị các chứng đàm nhiệt nội ưu gây mất ngủ, lo âu, hồi hộp, chóng mặt và buồn nôn. Bài thuốc hoạt động bằng cách hòa giải Đởm Vị, hóa đàm thanh nhiệt và an thần định chí.",
+    readTime: 6,
+    content: `
+<h2>Xuất xứ và lịch sử của Ôn đởm thang</h2>
+<p>Ôn đởm thang (溫膽湯 — Wēn Dǎn Tāng, nghĩa đen là "Ôn ấm Đởm") là một trong những danh phương kinh điển của Y học cổ truyền phương Đông. Bài thuốc được ghi chép lần đầu trong <em>"Bị cấp thiên kim yếu phương"</em> (thế kỷ 7, đời Đường) của Tôn Tư Mạc, nhưng dạng hoàn chỉnh phổ biến hiện nay xuất phát từ <em>"Tam nhân cực nhất bệnh chứng phương luận"</em> (thế kỷ 13, đời Tống) của Trần Ngôn.</p>
+<p>Tên "Ôn đởm" không có nghĩa là làm ấm Đởm về mặt nhiệt độ, mà có nghĩa là "điều hòa, an hòa Đởm khí" — đưa Đởm trở về trạng thái trung hòa, không thiên lệch hàn nhiệt. Bài thuốc này được dùng rộng rãi trong điều trị các rối loạn tâm thần-thần kinh chức năng, rối loạn giấc ngủ và hội chứng chuyển hóa theo góc nhìn YHCT.</p>
+
+<h2>Thành phần và vai trò của từng vị thuốc</h2>
+<p>Bài thuốc Ôn đởm thang gồm 8 vị chính:</p>
+<ul>
+  <li><strong>Bán hạ (Pinellia ternata) — 6g:</strong> Quân dược. Vị đắng, cay, tính ôn. Tác dụng táo thấp hóa đàm, hòa vị giáng nghịch, chỉ nôn. Là vị thuốc chủ lực hóa đàm trọng trọng tâm của bài.</li>
+  <li><strong>Trúc nhự (Phyllostachys nigra) — 6g:</strong> Thần dược. Vị ngọt, tính hơi hàn. Thanh nhiệt hóa đàm, trừ phiền chỉ nôn, an thần. Cân bằng tính ôn của Bán hạ, hướng bài thuốc về đàm nhiệt.</li>
+  <li><strong>Chỉ thực (Citrus aurantium — quả non) — 6g:</strong> Tá dược. Vị đắng cay, tính hơi hàn. Lý khí tiêu trệ, hóa đàm giảm đau. Giúp phá tán đàm ẩm tích tụ ở trung tiêu.</li>
+  <li><strong>Trần bì (Citrus reticulata — vỏ quít) — 9g:</strong> Tá dược. Vị cay đắng, tính ôn. Lý khí kiện tỳ, táo thấp hóa đàm. Điều hòa khí cơ Tỳ Vị, hỗ trợ Bán hạ hóa đàm.</li>
+  <li><strong>Phục linh (Poria cocos) — 9g:</strong> Tá dược. Vị ngọt nhạt, tính bình. Kiện tỳ lợi thấp, an thần định chí. Vừa giúp hóa thấp sinh đàm tại gốc, vừa an thần.</li>
+  <li><strong>Chích cam thảo (Glycyrrhiza uralensis — nướng mật) — 3g:</strong> Sứ dược. Vị ngọt, tính bình. Điều hòa các vị thuốc, kiện tỳ ích khí, hoà trung.</li>
+  <li><strong>Sinh khương (gừng tươi) — 3 lát:</strong> Tá-Sứ. Ôn trung hóa đàm, hòa vị giáng nghịch, tăng cường tác dụng của Bán hạ.</li>
+  <li><strong>Đại táo (táo đỏ) — 2 quả:</strong> Tá-Sứ. Dưỡng huyết an thần, kiện tỳ hòa vị, điều hòa tính dược.</li>
+</ul>
+<p><em>Một số gia giảm phổ biến:</em> Thêm Nhân sâm hoặc Đảng sâm khi khí hư rõ; thêm Hoàng liên, Sơn chi khi nhiệt nặng; thêm Viễn chí, Toan táo nhân khi mất ngủ nặng; thêm Thiên trúc hoàng khi đàm nhiệt gây kinh giản.</p>
+
+<h2>Cơ chế tác dụng và chỉ định lâm sàng</h2>
+<p>Ôn đởm thang tác động theo cơ chế <strong>hòa giải Đởm Vị, hóa đàm thanh nhiệt</strong>. Theo YHCT, khi Đởm Vị bất hòa, đàm nhiệt nội ưu sinh ra, quấy nhiễu tâm thần gây ra các chứng:</p>
+<ul>
+  <li><strong>Mất ngủ, ngủ không sâu:</strong> Đàm nhiệt quấy Tâm thần, gây khó ngủ, nhiều mộng, hay giật mình thức giấc.</li>
+  <li><strong>Lo âu, hồi hộp, dễ hoảng sợ:</strong> Đởm khí hư, đàm nhiệt ưu phiền khiến tâm thần bất an, dễ kinh sợ.</li>
+  <li><strong>Chóng mặt, buồn nôn, miệng đắng:</strong> Đàm thấp trở trung tiêu, Vị khí không giáng, Đởm nhiệt lên trên.</li>
+  <li><strong>Ngực tức, sườn đầy:</strong> Đàm khí uất kết ở trung-thượng tiêu.</li>
+  <li><strong>Động kinh nhẹ, cơn hoảng loạn:</strong> Đàm nhiệt nội động can nhiễu não thần.</li>
+  <li><strong>Rối loạn tiền đình chức năng:</strong> Đàm nhiệt che lấp thanh khiếu gây chóng mặt, ù tai.</li>
+</ul>
+<p>Bài thuốc này đặc biệt phù hợp với người có thể trạng đàm nhiệt (béo, lưỡi đỏ rêu vàng nhờn, mạch huyền hoạt hay huyền sác).</p>
+
+<h2>Chống chỉ định và thận trọng khi sử dụng</h2>
+<p>Ôn đởm thang không phải bài thuốc phổ quát cho mọi trường hợp. Cần thận trọng hoặc tránh dùng khi:</p>
+<ul>
+  <li><strong>Tâm Tỳ lưỡng hư (hư chứng):</strong> Mất ngủ do khí huyết hư nhược, mặt nhợt nhạt, mệt mỏi nhiều — cần dùng Quy tỳ thang thay thế.</li>
+  <li><strong>Thận âm hư nội nhiệt:</strong> Lưỡi đỏ không rêu, miệng khô họng ráo — cần tư âm an thần, không hóa đàm.</li>
+  <li><strong>Phụ nữ mang thai:</strong> Bán hạ sống (Bán hạ chưa bào chế kỹ) có thể gây kích thích. Cần dùng loại đã bào chế (Chế bán hạ) và có sự giám sát của thầy thuốc.</li>
+  <li><strong>Người tỳ vị hư hàn nặng:</strong> Trúc nhự và Chỉ thực tính hàn có thể làm tổn thương tỳ vị hư hàn.</li>
+</ul>
+
+<h2>Nghiên cứu hiện đại và ứng dụng lâm sàng</h2>
+<p>Nhiều nghiên cứu dược lý hiện đại đã xác nhận tác dụng của Ôn đởm thang, bao gồm: tác dụng an thần, giảm lo âu thông qua điều chỉnh GABA và serotonin; tác dụng chống viêm và điều hòa lipid máu; hỗ trợ điều trị hội chứng chuyển hóa, rối loạn mỡ máu; và cải thiện chức năng nhận thức trong chứng hay quên.</p>
+<p>Tại Việt Nam, Ôn đởm thang được ứng dụng rộng rãi trong điều trị mất ngủ mạn tính, lo âu chức năng, chóng mặt do rối loạn tiền đình và rối loạn tiêu hóa chức năng. Thầy thuốc thường gia giảm linh hoạt tùy theo biện chứng cụ thể của từng bệnh nhân.</p>
+
+<div class="art-cta-box"><p>Nếu bạn đang gặp các vấn đề về mất ngủ, lo âu, chóng mặt hoặc rối loạn tiêu hóa và muốn điều trị bằng bài thuốc YHCT phù hợp thể trạng, hãy đến <strong>Phòng Khám YHCT Tâm Đức</strong>. <strong>BS. Nguyễn Đức Tâm</strong> sẽ biện chứng và bốc thuốc gia giảm tối ưu cho từng bệnh nhân. Liên hệ: <strong>0973 710 237</strong> — Giờ khám: <strong>18:00–22:00 hàng ngày</strong> tại <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 168,
+    slug: "phong-ngua-viem-xoang-man-tinh-yhct-bao-phe-thong-khieu",
+    date: "2026-07-28",
+    category: "phong-benh",
+    categoryLabel: "Phòng bệnh",
+    icon: "🛡️",
+    gradient: "g-amber",
+    title: "Phòng ngừa viêm xoang mạn tính theo Y học cổ truyền: Bảo Phế thông khiếu để hô hấp thông suốt",
+    excerpt: "Viêm xoang mạn tính theo Y học cổ truyền liên quan đến Phế khí hư nhược và đàm thấp trở khiếu. Phòng ngừa bằng cách bảo Phế, tăng chính khí, điều chỉnh ăn uống và luyện tập đúng phép giúp giảm tần suất tái phát và cải thiện chất lượng hô hấp lâu dài.",
+    readTime: 5,
+    content: `
+<h2>Viêm xoang mạn tính nhìn từ góc độ Y học cổ truyền</h2>
+<p>Viêm xoang mạn tính (chronic sinusitis) là tình trạng viêm niêm mạc xoang kéo dài hơn 12 tuần, biểu hiện bằng ngạt mũi, chảy nước mũi đặc, đau nặng đầu và giảm khứu giác. Bệnh tái phát nhiều lần, ảnh hưởng nghiêm trọng đến chất lượng cuộc sống.</p>
+<p>Trong Y học cổ truyền (YHCT), viêm xoang mạn tính thuộc phạm trù <strong>"Tỵ uyên"</strong> (mũi chảy nước đặc kéo dài) và <strong>"Tỵ tắc"</strong> (nghẹt mũi mạn tính). Nguyên nhân cơ bản là <strong>Phế khí hư nhược</strong>, mất khả năng tuyên phát và túc giáng, khiến tà khí dễ xâm nhập và đàm thấp tích tụ tại mũi xoang. Bên cạnh đó, Tỳ hư sinh thấp, Can nhiệt hun đốt Phế cũng góp phần duy trì tình trạng mạn tính.</p>
+
+<h2>Yếu tố nguy cơ và tác nhân kích phát cần phòng tránh</h2>
+<p>Phòng ngừa viêm xoang mạn tính hiệu quả đòi hỏi nhận biết và tránh các yếu tố nguy cơ:</p>
+<ul>
+  <li><strong>Tiếp xúc với gió lạnh và nhiệt độ thay đổi đột ngột:</strong> Theo YHCT, phong hàn là tà khí dễ xâm phạm Phế và mũi. Cần giữ ấm vùng cổ ngực khi thời tiết thay đổi, đặc biệt giao mùa thu-đông và xuân-hè.</li>
+  <li><strong>Ô nhiễm không khí và khói bụi:</strong> Phế khai khiếu ở mũi; không khí bẩn trực tiếp tổn thương Phế. Đeo khẩu trang, sử dụng máy lọc không khí trong nhà và tránh tiếp xúc với khói thuốc lá.</li>
+  <li><strong>Ăn nhiều đồ lạnh, sống và đồ tanh:</strong> Tổn thương Tỳ Vị, sinh thấp trọc. Thấp trọc theo kinh lên trên tích tụ ở mũi xoang, làm nặng thêm bệnh.</li>
+  <li><strong>Cảm cúm không điều trị triệt để:</strong> Mỗi lần cảm phong hàn hoặc phong nhiệt để kéo dài mà không dứt điểm là một lần tàn phá thêm chính khí Phế và để lại tà ẩn náu ở xoang.</li>
+  <li><strong>Thức khuya, lao lực:</strong> Làm hao tổn chính khí toàn thân, Phế Vệ suy yếu, dễ cảm nhiễm.</li>
+</ul>
+
+<h2>Chế độ ăn uống phòng bệnh theo YHCT</h2>
+<p>Nguyên tắc ăn uống phòng viêm xoang mạn tính theo YHCT:</p>
+<ul>
+  <li><strong>Thực phẩm bổ Phế, tăng sức đề kháng:</strong> Bạch mộc nhĩ (nấm tuyết), hạt hạnh nhân, lê, mật ong, củ cải trắng, cá hồi — đều có tác dụng nhuận Phế, tăng tân dịch, cải thiện chức năng hô hấp.</li>
+  <li><strong>Tỏi và hành tây:</strong> Tính ôn, tân, vào kinh Phế Vị. Có tác dụng thông khiếu, kháng khuẩn tự nhiên, phòng ngừa nhiễm trùng đường hô hấp.</li>
+  <li><strong>Gừng tươi và quế:</strong> Ôn Phế tán hàn, trừ đàm thấp. Nước gừng mật ong uống buổi sáng là biện pháp phòng bệnh đơn giản, hiệu quả.</li>
+  <li><strong>Hạn chế:</strong> Đồ lạnh, kem, nước đá; thức ăn tanh mặn (tôm cua sống, cá gỏi); đồ ngọt quá mức và đồ chiên rán — đều sinh đàm thấp, làm nặng bệnh.</li>
+  <li><strong>Uống nước ấm đủ lượng:</strong> Giữ niêm mạc mũi xoang ẩm, giúp dịch nhầy lưu thông tốt. Trà hoa cúc và trà nhân sâm ôn uống hàng ngày có tác dụng bổ Phế, tăng miễn dịch.</li>
+</ul>
+
+<h2>Luyện tập và dưỡng sinh phòng viêm xoang</h2>
+<p>YHCT đặc biệt coi trọng luyện tập để tăng cường chính khí Phế:</p>
+<ul>
+  <li><strong>Thở bụng (phúc thức hô hấp):</strong> Thực hành 10–15 phút mỗi sáng giúp tăng dung tích phổi, tăng cường Phế khí và cải thiện tuần hoàn mũi xoang.</li>
+  <li><strong>Bài tập xoa mũi và bấm huyệt phòng bệnh:</strong> Dùng hai ngón trỏ xoa dọc hai bên sống mũi 30–50 lần mỗi sáng (thủ pháp "Tẩu mã thông quan"), sau đó bấm huyệt Nghinh hương (cạnh cánh mũi), Ấn đường (giữa hai lông mày) và Hợp cốc (LI4) mỗi huyệt 1–2 phút. Phương pháp đơn giản này giúp thông thoáng mũi xoang, tăng tuần hoàn tại chỗ.</li>
+  <li><strong>Khí công nhẹ nhàng và đi bộ ngoài trời:</strong> Vận động vừa phải tăng cường vệ khí, giúp Phế tuyên phát tốt. Tránh vận động quá mức làm hao tán khí.</li>
+  <li><strong>Rửa mũi bằng nước muối sinh lý:</strong> Thực hành mỗi buổi sáng giúp làm sạch dịch nhầy và vi khuẩn tích tụ qua đêm — biện pháp vệ sinh đơn giản nhưng hiệu quả cao.</li>
+</ul>
+
+<h2>Bài thuốc hỗ trợ phòng ngừa và điều trị theo mùa</h2>
+<p>Dùng thêm các bài thuốc YHCT nhẹ theo mùa để tăng cường phòng bệnh:</p>
+<ul>
+  <li><strong>Mùa lạnh (Thu-Đông):</strong> Trà Ngọc bình phong tán (Hoàng kỳ 9g + Bạch truật 9g + Phòng phong 6g) — bổ Phế vệ, tăng đề kháng mùa lạnh. Uống mỗi ngày trong 1–2 tháng.</li>
+  <li><strong>Phòng bệnh sau cảm:</strong> Sau khi khỏi cảm, uống Bạch chỉ 6g + Tân di hoa 9g + Thương nhĩ tử 9g sắc uống 7–10 ngày để thông xoang và phục hồi chức năng Phế.</li>
+  <li><strong>Người có thể Tỳ hư đàm thấp:</strong> Thêm Trần bì 6g + Phục linh 9g + Bán hạ chế 6g vào chế độ dưỡng sinh mùa hè-thu để kiện Tỳ, trừ đàm từ gốc.</li>
+</ul>
+<p>Phòng ngừa viêm xoang mạn tính là quá trình lâu dài, đòi hỏi kiên trì và nhất quán. Kết hợp lối sống lành mạnh, ăn uống phù hợp thể trạng và luyện tập đều đặn là chìa khóa thành công.</p>
+
+<div class="art-cta-box"><p>Để được tư vấn phác đồ phòng ngừa và điều trị viêm xoang mạn tính theo Y học cổ truyền phù hợp với thể trạng cụ thể của bạn, hãy liên hệ <strong>Phòng Khám YHCT Tâm Đức</strong>. <strong>BS. Nguyễn Đức Tâm</strong> sẽ thăm khám và tư vấn trực tiếp. Liên hệ: <strong>0973 710 237</strong> — Giờ khám: <strong>18:00–22:00 hàng ngày</strong> tại <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 169,
+    slug: "phuong-huyet-dieu-tri-lo-au-tram-cam-yhct",
+    date: "2026-07-28",
+    category: "phuong-huyet",
+    categoryLabel: "Phương huyệt",
+    icon: "📍",
+    gradient: "g-huyet",
+    title: "Phương huyệt điều trị lo âu và trầm cảm theo Y học cổ truyền: An tâm, giải uất từ châm cứu",
+    excerpt: "Lo âu và trầm cảm theo Y học cổ truyền thuộc chứng Uất và Tâm thần bất an, do Can khí uất kết hoặc Tâm Tỳ lưỡng hư. Phương huyệt châm cứu giúp sơ Can giải uất, dưỡng tâm an thần, mang lại cân bằng tâm-thể từ bên trong.",
+    readTime: 6,
+    content: `
+<h2>Lo âu và trầm cảm theo quan điểm Y học cổ truyền</h2>
+<p>Lo âu và trầm cảm là hai rối loạn tâm thần phổ biến nhất thế giới hiện đại. Trong Y học cổ truyền (YHCT), hai trạng thái này không phải bệnh độc lập mà là biểu hiện của các chứng <strong>Uất chứng</strong> (khí uất, huyết ứ, đàm uất, hỏa uất), <strong>Bách hợp bệnh</strong>, <strong>Tạng táo</strong> và <strong>Tâm thần bất ổn</strong>. Các chứng này đều có chung đặc điểm là khí cơ trở trệ, tâm thần bị quấy nhiễu hoặc mất dinh dưỡng.</p>
+<p>Theo YHCT, xúc cảm và tạng phủ có quan hệ chặt chẽ: <em>Tâm chủ thần minh</em> (điều khiển tâm trí và ý thức); <em>Can chủ sơ tiết</em> (điều hòa lưu thông khí cơ và xúc cảm); <em>Tỳ chủ tư</em> (suy nghĩ lo lắng); <em>Phế chủ bi</em> (buồn bã); <em>Thận chủ chí</em> (ý chí và nghị lực). Khi bất kỳ tạng nào mất quân bình, xúc cảm sẽ bị ảnh hưởng, biểu hiện qua lo âu, trầm buồn, mất động lực.</p>
+
+<h2>Phân thể lâm sàng và huyệt vị chủ yếu</h2>
+<p>Phác đồ huyệt vị cho lo âu và trầm cảm được xây dựng theo từng thể bệnh:</p>
+<ul>
+  <li><strong>Thể Can khí uất kết:</strong> Lo lắng căng thẳng, dễ cáu gắt, ngực tức sườn đầy, thở dài, ngủ kém. Huyệt chủ yếu: <em>Thái xung (LR3)</em>, <em>Hành gian (LR2)</em>, <em>Nội quan (PC6)</em>, <em>Đản trung (CV17)</em>, <em>Kỳ môn (LR14)</em>. Phép châm: tả pháp, lưu kim 25 phút.</li>
+  <li><strong>Thể Tâm Tỳ lưỡng hư:</strong> Trầm buồn, mệt mỏi, lo lắng vô cớ, hồi hộp tim đập nhanh, ngủ khó, ăn kém, sắc mặt nhợt. Huyệt chủ yếu: <em>Tâm du (BL15)</em>, <em>Tỳ du (BL20)</em>, <em>Thần môn (HT7)</em>, <em>Tam âm giao (SP6)</em>, <em>Túc tam lý (ST36)</em>. Phép châm: bổ pháp, kết hợp cứu ngải.</li>
+  <li><strong>Thể Âm hư hỏa vượng:</strong> Lo âu bồn chồn, miệng khô họng ráo, nóng lòng bàn tay chân, mồ hôi trộm, mất ngủ về đêm. Huyệt chủ yếu: <em>Thái khê (KI3)</em>, <em>Phục lưu (KI7)</em>, <em>Thần môn (HT7)</em>, <em>Âm khích (HT6)</em>, <em>Tam âm giao (SP6)</em>. Phép châm: bình bổ bình tả, tránh cứu ngải.</li>
+  <li><strong>Thể đàm nhiệt ưu tâm:</strong> Lo âu, hồi hộp, đờm nhiều, ngực tức, nôn buồn, mất ngủ nhiều mộng. Huyệt chủ yếu: <em>Phong long (ST40)</em>, <em>Nội quan (PC6)</em>, <em>Đại lăng (PC7)</em>, <em>Trung quản (CV12)</em>, <em>Ấn đường (EX-HN3)</em>. Phép châm: tả pháp, châm điện tần số trung.</li>
+</ul>
+
+<h2>Bảy huyệt vị cốt lõi và vị trí chính xác</h2>
+<p>Dưới đây là 7 huyệt vị được sử dụng thường xuyên nhất trong điều trị lo âu và trầm cảm, có thể phối hợp trong nhiều thể bệnh:</p>
+<ul>
+  <li><strong>Thần môn (HT7 — Cửa thần):</strong> Vị trí: mặt trong cổ tay, ngay rãnh cổ tay, phía ngoài gân cơ gấp cổ tay trụ. Tác dụng: dưỡng tâm an thần, trấn tĩnh, điều trị mất ngủ, lo âu, hồi hộp. Đây là huyệt nguyên của kinh Tâm, tác dụng an thần mạnh nhất trong YHCT.</li>
+  <li><strong>Nội quan (PC6 — Cửa bên trong):</strong> Vị trí: mặt trong cẳng tay, 3 cm trên cổ tay, giữa hai gân. Tác dụng: an thần định chí, hòa Vị giảm buồn nôn, thông lạc chỉ thống, là huyệt lạc của kinh Tâm bào. Huyệt quan trọng bậc nhất điều trị mọi dạng lo âu và trầm cảm.</li>
+  <li><strong>Thái xung (LR3 — Thái xung):</strong> Vị trí: mu bàn chân, giữa khe ngón 1 và 2, cách mép khe 2 cm về phía mu chân. Tác dụng: sơ Can giải uất, hạ Can dương, bình can tức phong. Phối hợp với Hợp cốc (LI4) thành "Tứ quan huyệt" — phương pháp giải uất, giảm stress nổi tiếng trong YHCT.</li>
+  <li><strong>Tam âm giao (SP6 — Giao hội ba âm):</strong> Vị trí: mặt trong cẳng chân, 3 thốn trên đỉnh mắt cá chân trong, sau bờ xương chày. Tác dụng: kiện Tỳ dưỡng huyết, dưỡng Can thận âm, an thần. Hội huyệt của 3 kinh âm chân (Can, Tỳ, Thận) — điều trị được cả 3 tạng liên quan đến tâm thần.</li>
+  <li><strong>Ấn đường (EX-HN3 — Điểm giữa mi):</strong> Vị trí: điểm giữa hai đầu trong lông mày (trung điểm giữa hai lông mày). Tác dụng: an thần định trí, thông mũi, khai khiếu. Đây là huyệt ngoài kinh nhưng tác dụng an thần rất nhanh và mạnh, thường được dùng đầu tiên trong cơn lo âu cấp.</li>
+  <li><strong>Bách hội (GV20 — Trăm hội):</strong> Vị trí: đỉnh đầu, giao điểm đường nối hai đỉnh tai và đường giữa đầu. Tác dụng: thăng dương khai khiếu, an thần, trị suy nhược, trầm cảm nặng. Hội điểm của chư dương — dùng bổ pháp, cứu ngải giúp nâng cao dương khí, cải thiện trầm cảm thể dương hư và khí hư rõ rệt.</li>
+  <li><strong>Túc tam lý (ST36 — Ba dặm chân):</strong> Vị trí: mặt ngoài xương chày, 4 ngón tay dưới đầu gối, cạnh bờ ngoài xương chày 1 ngón tay. Tác dụng: bổ Tỳ Vị, ích khí huyết, an thần. Tuy là huyệt hợp của kinh Vị, nhưng thông qua bổ hậu thiên (Tỳ Vị) giúp dưỡng Tâm và cải thiện trầm cảm thể hư chứng rõ rệt.</li>
+</ul>
+
+<h2>Phác đồ điều trị tổng hợp và liệu trình</h2>
+<p>Liệu trình châm cứu điều trị lo âu và trầm cảm thường bao gồm:</p>
+<ul>
+  <li><strong>Giai đoạn tấn công (tuần 1–4):</strong> Châm 3 lần/tuần, mỗi buổi 30 phút. Phối huyệt theo thể bệnh, ưu tiên Nội quan (PC6), Thần môn (HT7), Tam âm giao (SP6) và huyệt thể bệnh đặc hiệu.</li>
+  <li><strong>Giai đoạn củng cố (tuần 5–8):</strong> Châm 2 lần/tuần, duy trì các huyệt cốt lõi, thêm nhĩ châm (châm điểm phản xạ tai: Tâm, Thần môn nhĩ, Giao cảm) để tăng cường hiệu quả.</li>
+  <li><strong>Giai đoạn duy trì:</strong> Châm 1–2 lần/tháng, kết hợp hướng dẫn bệnh nhân tự bấm huyệt tại nhà (Nội quan, Thần môn, Ấn đường) và các bài tập thở, thiền định theo YHCT.</li>
+</ul>
+<p>Nghiên cứu lâm sàng cho thấy châm cứu có hiệu quả tương đương thuốc chống lo âu nhẹ-trung bình trong nhiều trường hợp, với ưu điểm không gây phụ thuộc và ít tác dụng phụ. Kết hợp châm cứu với tâm lý trị liệu và thay đổi lối sống mang lại kết quả tốt nhất.</p>
+
+<div class="art-cta-box"><p>Nếu bạn đang chịu đựng lo âu mạn tính, trầm cảm nhẹ-trung bình hoặc mất ngủ kéo dài và muốn điều trị bằng châm cứu YHCT không dùng thuốc, hãy đến <strong>Phòng Khám YHCT Tâm Đức</strong>. <strong>BS. Nguyễn Đức Tâm</strong> sẽ biện chứng và xây dựng phác đồ huyệt vị cá nhân hóa. Liên hệ: <strong>0973 710 237</strong> — Giờ khám: <strong>18:00–22:00 hàng ngày</strong> tại <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 170,
+    slug: "duong-da-mua-he-phong-ngua-ton-thuong-nang-yhct",
+    date: "2026-07-28",
+    category: "lam-dep",
+    categoryLabel: "Làm đẹp",
+    icon: "🌸",
+    gradient: "g-rose",
+    title: "Dưỡng da mùa hè và phòng ngừa tổn thương do nắng theo Y học cổ truyền: Thanh nhiệt, dưỡng âm để da sáng mịn",
+    excerpt: "Mùa hè nắng nóng theo Y học cổ truyền làm hao tổn Tâm hỏa và Phế âm, khiến da sạm, nám và khô ráp. Dưỡng da đúng mùa bằng thảo dược thanh nhiệt, dưỡng âm kết hợp chăm sóc ngoài giúp bảo vệ làn da từ bên trong lẫn bên ngoài.",
+    readTime: 5,
+    content: `
+<h2>Mùa hè ảnh hưởng đến da như thế nào theo Y học cổ truyền</h2>
+<p>Trong Y học cổ truyền (YHCT), mùa hè ứng với hành Hỏa và tạng Tâm. Khí hậu nắng nóng, nhiệt khí thịnh vượng gây ra nhiều biến đổi trong cơ thể và trên bề mặt da:</p>
+<ul>
+  <li><strong>Thương tân dịch:</strong> Mồ hôi ra nhiều làm hao tổn tân dịch — dịch cơ thể nuôi dưỡng da và niêm mạc. Da mất ẩm, trở nên khô, ráp, bong tróc và dễ nhạy cảm.</li>
+  <li><strong>Nhiệt tà xâm phạm Phế Vệ:</strong> Phế chủ bì mao (kiểm soát lỗ chân lông và bề mặt da). Nhiệt tà làm Phế mất chức năng tuyên giáng, lỗ chân lông giãn mở, da dễ bị tổn thương bởi tia UV và vi khuẩn.</li>
+  <li><strong>Tâm Hỏa thịnh:</strong> Nhiệt mùa hè kích động Tâm hỏa, Tâm chủ huyết mạch — huyết nhiệt bốc lên mặt gây đỏ da, nám, tàn nhang tăng đậm màu và da dễ đổ dầu.</li>
+  <li><strong>Thấp nhiệt tích tụ:</strong> Mùa hè nóng ẩm tạo điều kiện sinh thấp nhiệt tại da, biểu hiện qua da nhờn, lỗ chân lông to, mụn viêm và rôm sảy.</li>
+</ul>
+<p>Do đó, nguyên tắc dưỡng da mùa hè theo YHCT là: <strong>thanh nhiệt — dưỡng âm — lợi thấp — bảo Phế</strong>.</p>
+
+<h2>Chế độ ăn uống dưỡng da từ bên trong mùa hè</h2>
+<p>Dưỡng da mùa hè bắt đầu từ bàn ăn. Các thực phẩm YHCT khuyến nghị:</p>
+<ul>
+  <li><strong>Thanh nhiệt, dưỡng tân:</strong> Mướp đắng (khổ qua) — thanh nhiệt giải độc, mát huyết; Dưa hấu — thanh Tâm nhiệt, sinh tân dịch; Bí xanh — lợi thủy tiêu phù, thanh nhiệt; Đậu xanh — giải độc, thanh nhiệt thấp. Những thực phẩm này giúp hạ nhiệt từ bên trong, giảm viêm da và rôm sảy mùa hè.</li>
+  <li><strong>Dưỡng âm, nhuận bì:</strong> Bạch mộc nhĩ (nấm tuyết) — dưỡng Phế âm, nhuận da, tăng collagen tự nhiên; Hạt sen — bổ Tâm an thần, giảm da đỏ do Tâm hỏa; Lê tươi — nhuận Phế, sinh tân dịch, làm da ẩm mịn; Mật ong — nhuận da, bổ trung ích khí.</li>
+  <li><strong>Thực phẩm giàu chất chống oxy hóa:</strong> Theo YHCT tương ứng với "thanh hư nhiệt, bổ Can Thận âm" — việt quất, dâu tằm (tang thầm), hà thủ ô tươi, câu kỷ tử. Những thực phẩm này bảo vệ da khỏi tổn thương oxy hóa do tia UV.</li>
+  <li><strong>Hạn chế:</strong> Thức ăn cay nóng (ớt, tiêu nhiều, thức ăn nướng rán); rượu bia — tăng Vị nhiệt, làm đỏ da và mở rộng mạch máu dưới da; đồ ngọt thái quá — sinh thấp nhiệt, kích thích tiết dầu.</li>
+</ul>
+
+<h2>Liệu pháp thảo dược bên ngoài bảo vệ và dưỡng da mùa hè</h2>
+<p>YHCT có nhiều phương pháp chăm sóc da từ bên ngoài đặc biệt phù hợp mùa hè:</p>
+<ul>
+  <li><strong>Mặt nạ dưa leo và lô hội (nha đam):</strong> Dưa leo tính hàn, thanh nhiệt giảm viêm; lô hội dưỡng ẩm, làm dịu da. Giã nhuyễn dưa leo tươi và gel lô hội, đắp lên mặt 15–20 phút sau khi tiếp xúc nắng. Phương pháp đơn giản, hiệu quả cao trong làm dịu và cấp ẩm tức thì.</li>
+  <li><strong>Nước rửa mặt đậu xanh:</strong> Nghiền mịn đậu xanh sống thành bột, pha với nước sạch làm sữa rửa mặt. Đậu xanh thanh nhiệt giải độc, sát khuẩn nhẹ, phù hợp cho da dầu và da mụn mùa hè.</li>
+  <li><strong>Tắm nước lá bạc hà và sả:</strong> Nấu lá bạc hà và sả, pha vào nước tắm. Thanh nhiệt, khử khuẩn, khử mùi hiệu quả. Tinh dầu bạc hà còn có tác dụng làm mát da tức thì sau khi tắm xong.</li>
+  <li><strong>Bôi dầu hoa hồng hoặc dầu jojoba:</strong> Theo YHCT, hoa hồng (tường vi) có tính bình, bổ huyết dưỡng da. Dầu hoa hồng là chất dưỡng ẩm nhẹ nhàng, không gây bít lỗ chân lông, phù hợp dùng sau khi ra nắng.</li>
+  <li><strong>Xịt khoáng trà xanh (lục trà):</strong> Trà xanh tính hơi hàn, thanh nhiệt giải độc, giàu EGCG chống oxy hóa. Pha trà xanh loãng để nguội, đổ vào bình xịt, xịt lên mặt khi nóng. Đây là phương pháp làm mát và bảo vệ da đơn giản, hiệu quả theo cả YHCT lẫn da liễu hiện đại.</li>
+</ul>
+
+<h2>Châm cứu và bấm huyệt dưỡng da mùa hè</h2>
+<p>Châm cứu theo mùa hè tập trung vào thanh Tâm hỏa và bổ Phế âm để cải thiện da từ bên trong:</p>
+<ul>
+  <li><strong>Huyệt Lao cung (PC8):</strong> Lòng bàn tay, vị trí đầu ngón giữa khi gập tay. Bấm mạnh 1–2 phút mỗi bên — tác dụng thanh Tâm hỏa, giảm da đỏ và cảm giác nóng bừng mặt mùa hè.</li>
+  <li><strong>Huyệt Khúc trì (LI11):</strong> Tận cùng ngoài nếp gấp khuỷu tay. Thanh nhiệt giải độc, trị da mẩn đỏ, dị ứng nhiệt, rôm sảy và mụn nhọt mùa hè.</li>
+  <li><strong>Huyệt Huyết hải (SP10):</strong> Mặt trong đùi, 2 ngón tay trên xương bánh chè. Bổ huyết lương huyết, làm đẹp da từ bên trong — huyệt quan trọng nhất trong dưỡng da và điều trị các bệnh da liên quan đến huyết nhiệt.</li>
+  <li><strong>Huyệt Phế du (BL13):</strong> Lưng, ngang với khoảng liên đốt sống ngực 3-4, cách đường giữa 1,5 thốn. Bổ Phế âm, tăng cường chức năng Phế bảo vệ bì mao — đặc biệt quan trọng dưỡng da mùa hè.</li>
+</ul>
+
+<h2>Lời khuyên bảo vệ da dưới nắng hè từ YHCT</h2>
+<p>YHCT không có khái niệm "kem chống nắng" nhưng có những nguyên tắc bảo vệ da khỏi nhiệt tà tương đương:</p>
+<ul>
+  <li>Tránh ra nắng trong giờ cao điểm 10:00–14:00 khi dương khí thiên nhiên cực thịnh — đây là nguyên tắc <strong>"tránh dương thịnh"</strong> của YHCT.</li>
+  <li>Uống đủ nước và nước thanh nhiệt (nước mướp đắng, nước đậu xanh, trà hoa cúc) để bổ sung tân dịch mất đi qua mồ hôi.</li>
+  <li>Bổ sung vitamin C tự nhiên từ ổi, bưởi, cam, kiwi — hỗ trợ tổng hợp collagen và chống oxy hóa, tương đương tác dụng "dưỡng huyết bổ Can" trong YHCT.</li>
+  <li>Ngủ đủ giấc: mùa hè ngủ sớm dậy sớm theo đồng hồ sinh học YHCT giúp Tâm Phế phục hồi, da tái tạo tế bào hiệu quả nhất vào ban đêm.</li>
+</ul>
+
+<div class="art-cta-box"><p>Để được tư vấn phác đồ dưỡng da mùa hè cá nhân hóa theo thể trạng YHCT, kết hợp châm cứu dưỡng nhan và thảo dược phù hợp, hãy đến thăm khám tại <strong>Phòng Khám YHCT Tâm Đức</strong>. <strong>BS. Nguyễn Đức Tâm</strong> sẽ tư vấn và điều trị trực tiếp. Liên hệ: <strong>0973 710 237</strong> — Giờ khám: <strong>18:00–22:00 hàng ngày</strong> tại <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
     id: 164,
     slug: "bam-huyet-ho-tro-cai-thuoc-la-yhct",
     date: "2026-07-28",
