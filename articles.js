@@ -5,6 +5,379 @@
 
 const ARTICLES = [
   {
+    id: 172,
+    slug: "thoai-hoa-cot-song-co-yhct-phan-the-dieu-tri",
+    date: "2026-07-29",
+    category: "mat-benh",
+    categoryLabel: "Mặt bệnh",
+    icon: "🩺",
+    gradient: "g-navy",
+    title: "Thoái hóa cột sống cổ theo Y học cổ truyền: Phân thể và phác đồ điều trị toàn diện",
+    excerpt: "Thoái hóa cột sống cổ là bệnh lý mạn tính gây đau cổ, tê tay và chóng mặt, rất phổ biến ở người trung niên và cao tuổi. Y học cổ truyền phân thể rõ ràng và có phương pháp điều trị hiệu quả, không phụ thuộc vào thuốc tây.",
+    readTime: 7,
+    content: `
+<h2>Thoái hóa cột sống cổ là gì? Nhìn từ góc độ Y học cổ truyền</h2>
+<p>Thoái hóa cột sống cổ (còn gọi là thoái hóa đốt sống cổ, cervical spondylosis) là tình trạng lão hóa và hao mòn của đĩa đệm, thân đốt sống và các khớp mặt nhỏ vùng cổ, gây đau cổ vai gáy, tê bì tay và đôi khi chóng mặt, đau đầu. Đây là bệnh lý cơ xương khớp cực kỳ phổ biến, đặc biệt ở người từ 40 tuổi trở lên hoặc những người làm việc văn phòng, cúi cổ nhiều.</p>
+<p>Trong Y học cổ truyền (YHCT), thoái hóa cột sống cổ được xếp vào phạm trù <strong>Tý chứng</strong> (痹证 – Hội chứng tắc trở đau nhức), <strong>Cảnh kiên thống</strong> (頸肩痛 – Đau cổ vai) hoặc <strong>Đầu thống</strong> khi có biểu hiện đau đầu, chóng mặt. Nguyên nhân cơ bản theo YHCT là sự suy giảm của <em>Can</em> và <em>Thận</em> theo tuổi tác (Can chủ cân, Thận chủ cốt), kết hợp với sự xâm nhập của <em>Phong – Hàn – Thấp</em> hoặc tình trạng <em>Huyết ứ khí trệ</em> do chấn thương, tư thế xấu kéo dài.</p>
+
+<h2>Nguyên nhân và cơ chế bệnh sinh theo Y học cổ truyền</h2>
+<p>YHCT cho rằng cột sống cổ hoạt động bình thường khi kinh khí lưu thông thông suốt qua các kinh mạch vùng cổ, đặc biệt là <em>Thái dương kinh</em> (Bàng quang – Tiểu trường), <em>Thiếu dương kinh</em> (Đởm – Tam tiêu) và <em>Dương minh kinh</em>. Khi các yếu tố dưới đây xuất hiện, kinh khí bị trở tắc, gây đau và rối loạn chức năng:</p>
+<ul>
+  <li><strong>Tuổi tác và Can Thận suy yếu:</strong> Người lớn tuổi, Can huyết và Thận tinh suy giảm, gân cơ thiếu dinh dưỡng, xương cốt kém bền chắc.</li>
+  <li><strong>Phong Hàn Thấp xâm nhập:</strong> Làm việc trong môi trường lạnh, bị gió lạnh thổi vào cổ gáy, mưa ẩm kéo dài khiến kinh khí ngưng trệ.</li>
+  <li><strong>Huyết ứ từ chấn thương hoặc tư thế xấu:</strong> Cúi cổ liên tục, ngủ gối cao, chấn thương cũ... gây huyết ứ, khí trệ tại cục bộ.</li>
+  <li><strong>Đàm thấp tích tụ:</strong> Người béo phì, ăn nhiều thức ăn béo ngọt, Tỳ vị yếu sinh đàm thấp, ứ đọng kinh lạc.</li>
+</ul>
+
+<h2>Phân thể lâm sàng theo Y học cổ truyền</h2>
+<p>Thoái hóa cột sống cổ được phân thành 5 thể chính, mỗi thể có biểu hiện và phương pháp điều trị riêng:</p>
+<ul>
+  <li><strong>Thể 1 – Phong hàn thấp trở:</strong> Đau cổ gáy nặng hơn khi trời lạnh, ẩm, giảm khi chườm nóng. Cổ cứng, khó xoay. Mạch phù hoặc khẩn. Pháp trị: Khu phong tán hàn, trừ thấp thông lạc. Phương: Quyên tý thang, Độc hoạt ký sinh thang gia giảm. Châm: Phong trì, Đại chùy, Kiên tỉnh, A thị huyệt (điểm đau cục bộ).</li>
+  <li><strong>Thể 2 – Can Thận hư tổn:</strong> Đau âm ỉ, mỏi cổ vai, nặng hơn khi mệt mỏi và giảm khi nghỉ ngơi. Kèm đau lưng gối, ù tai, ngủ kém. Mạch trầm tế. Pháp trị: Bổ Can Thận, kiện cốt cường cân. Phương: Lục vị địa hoàng hoàn gia vị, Độc hoạt ký sinh thang. Châm bổ pháp: Thận du, Can du, Huyền chung, Thái khê.</li>
+  <li><strong>Thể 3 – Huyết ứ khí trệ:</strong> Đau nhói, vị trí cố định, tăng về đêm hoặc sau chấn thương. Cổ cứng, khó cúi ngửa. Lưỡi có điểm ứ, mạch sáp. Pháp trị: Hoạt huyết hóa ứ, hành khí chỉ thống. Phương: Huyết phủ trục ứ thang gia giảm. Châm: Huyết hải, Cách du, A thị huyệt; có thể kết hợp giác hơi.</li>
+  <li><strong>Thể 4 – Đàm thấp trở trệ:</strong> Chóng mặt nặng đầu, buồn nôn, cổ vai tê nặng. Thường gặp ở người béo. Lưỡi bệu, rêu trắng nhờn, mạch hoạt. Pháp trị: Hóa đàm trừ thấp, thông lạc chỉ thống. Phương: Ôn đởm thang gia vị. Châm: Phong long, Nội quan, Đầu duy, Trung quản.</li>
+  <li><strong>Thể 5 – Khí huyết hư nhược:</strong> Tê bì tay chân, cơ lực yếu, đau mỏi lan rộng. Mặt nhợt nhạt, mệt mỏi, tim hồi hộp. Mạch tế nhược. Pháp trị: Bổ khí dưỡng huyết, thông kinh hoạt lạc. Phương: Bát trân thang gia vị. Châm: Khí hải, Túc tam lý, Huyết hải, Ngoại quan.</li>
+</ul>
+
+<h2>Phương pháp điều trị tổng hợp theo Y học cổ truyền</h2>
+<p>Tại Phòng Khám YHCT Tâm Đức, thoái hóa cột sống cổ được điều trị theo phác đồ phối hợp đa phương thức:</p>
+<ul>
+  <li><strong>Châm cứu:</strong> Sử dụng hào châm hoặc điện châm tại huyệt vị vùng cổ, kết hợp huyệt toàn thân theo thể bệnh. Mỗi liệu trình 10–15 buổi, cách ngày, cho kết quả rõ rệt về giảm đau và cải thiện tầm vận động.</li>
+  <li><strong>Xoa bóp bấm huyệt:</strong> Thủ thuật an ma, nhu pháp, điểm pháp vùng cổ vai gáy giúp thư giãn cơ, cải thiện tuần hoàn cục bộ.</li>
+  <li><strong>Thuốc YHCT:</strong> Uống thuốc thang hoặc thuốc cốm bổ thận, khu phong trừ thấp; đắp thuốc hoặc ngâm tắm thảo dược tại chỗ.</li>
+  <li><strong>Kéo giãn cột sống cổ và bài tập dưỡng sinh:</strong> Bài tập cổ nhẹ nhàng kết hợp khí công giúp duy trì kết quả điều trị và phòng tái phát.</li>
+</ul>
+
+<h2>Lời khuyên phòng ngừa và chăm sóc tại nhà</h2>
+<ul>
+  <li>Không cúi cổ liên tục quá 30 phút khi dùng điện thoại, máy tính – nghỉ giải lao, tập xoay cổ nhẹ.</li>
+  <li>Chọn gối ngủ đúng độ cao: ngang vai, không quá cao hoặc quá thấp.</li>
+  <li>Chườm nóng vùng cổ gáy mỗi tối 15–20 phút bằng túi muối rang hoặc túi ngải cứu.</li>
+  <li>Bơi lội, đặc biệt bơi ngửa, là môn thể thao lý tưởng hỗ trợ sức khỏe cột sống cổ.</li>
+  <li>Ăn thực phẩm bổ Can Thận: hạt mè đen, quả óc chó, cá hồi, đỗ đen.</li>
+</ul>
+
+<div class="art-cta-box"><p>Nếu bạn đang chịu đựng đau cổ vai gáy, tê bì tay, chóng mặt do thoái hóa cột sống cổ, hãy đến thăm khám tại <strong>Phòng Khám Y học Cổ Truyền Tâm Đức</strong>. <strong>BS. Nguyễn Đức Tâm</strong> sẽ trực tiếp thăm khám, biện chứng phân thể và xây dựng phác đồ điều trị phù hợp. Liên hệ đặt lịch: <strong>0973 710 237</strong> | Giờ khám: <strong>18:00–22:00 hàng ngày</strong> | Địa chỉ: <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 173,
+    slug: "bam-huyet-tu-thuc-hanh-tai-nha-khong-dung-thuoc",
+    date: "2026-07-29",
+    category: "khong-thuoc",
+    categoryLabel: "Không dùng thuốc",
+    icon: "🧘",
+    gradient: "g-herb",
+    title: "Bấm huyệt tự thực hành tại nhà: Kỹ thuật xoa bóp không dùng thuốc theo Y học cổ truyền",
+    excerpt: "Bấm huyệt tự thực hành (tự án ma) là phương pháp ai cũng có thể học và áp dụng mỗi ngày tại nhà để giảm đau, tăng năng lượng và phòng bệnh mà không cần dùng thuốc. Y học cổ truyền đã hướng dẫn kỹ thuật này hàng nghìn năm qua.",
+    readTime: 5,
+    content: `
+<h2>Bấm huyệt tự thực hành là gì?</h2>
+<p>Bấm huyệt tự thực hành, còn gọi là <strong>Tự án ma</strong> (自按摩) hoặc <strong>Tự bấm huyệt</strong>, là phương pháp dùng ngón tay, lòng bàn tay hoặc nắm đấm để tác động lên các huyệt vị và vùng phản xạ trên cơ thể mình. Đây là một trong những phương pháp điều dưỡng cơ bản của Y học cổ truyền (YHCT), được ghi chép từ thời Hoàng Đế Nội Kinh, phổ biến trong các gia đình Đông Á suốt hàng nghìn năm.</p>
+<p>Không giống châm cứu cần thầy thuốc thực hiện, bấm huyệt tự thực hành có thể thực hiện bất cứ lúc nào, bất cứ nơi đâu – tại nhà, nơi làm việc, trên xe buýt. Khi thực hiện đúng, phương pháp này giúp thông kinh hoạt lạc, điều hòa khí huyết, giảm đau và tăng cường miễn dịch.</p>
+
+<h2>Nguyên tắc cơ bản khi tự bấm huyệt</h2>
+<ul>
+  <li><strong>Lực vừa phải:</strong> Ấn từ từ, tăng dần lực đến khi cảm thấy căng tức nhẹ (cảm giác "đắc khí"), không ấn quá mạnh gây đau dữ dội.</li>
+  <li><strong>Thời gian mỗi huyệt:</strong> Giữ ấn 30–60 giây, hoặc xoay vòng tròn 30–50 lần theo chiều kim đồng hồ (bổ) hoặc ngược chiều (tả).</li>
+  <li><strong>Hít thở phối hợp:</strong> Thở sâu đều, thư giãn toàn thân trong khi bấm huyệt.</li>
+  <li><strong>Không bấm khi:</strong> Da tổn thương, viêm nhiễm cục bộ, vừa ăn no, phụ nữ mang thai (tránh huyệt vùng bụng và một số huyệt cấm).</li>
+  <li><strong>Kiên trì thực hành:</strong> Bấm huyệt phòng bệnh cần thực hiện đều đặn mỗi ngày, mỗi lần 10–20 phút.</li>
+</ul>
+
+<h2>Bài bấm huyệt buổi sáng — Khởi động khí huyết</h2>
+<p>Thực hiện ngay sau khi thức dậy, trước khi rời khỏi giường, khoảng 5–10 phút:</p>
+<ul>
+  <li><strong>Xoa hai lòng bàn tay vào nhau</strong> 36 lần cho ấm, rồi áp lên mặt xoa nhẹ từ trán xuống cằm, từ trong ra ngoài – dưỡng nhan, kích thích tuần hoàn mặt.</li>
+  <li><strong>Ấn huyệt Bách hội</strong> (đỉnh đầu, giao điểm đường nối hai tai và đường giữa đầu) – 30 lần xoay tròn – giúp tỉnh táo, nâng dương khí.</li>
+  <li><strong>Xoa gáy và bấm huyệt Phong trì</strong> (sau tai, chỗ lõm giữa gân cơ ức đòn chũm và cơ thang) – giảm đau đầu, cổ cứng, hỗ trợ tuần hoàn não.</li>
+  <li><strong>Xoa vùng thắt lưng – Thận du</strong> (hai bên cột sống ngang huyệt Mệnh môn, L2) – xoa mạnh đến khi ấm nóng – bổ thận, tăng sinh lực.</li>
+  <li><strong>Ấn huyệt Túc tam lý</strong> (dưới đầu gối ngoài 3 thốn) – huyệt "vạn năng" bổ khí, tăng đề kháng, hỗ trợ tiêu hóa.</li>
+</ul>
+
+<h2>Bài bấm huyệt giảm đau và căng thẳng trong ngày</h2>
+<p>Khi căng thẳng, đau đầu, mỏi mắt hoặc đau vai gáy sau giờ làm việc, thực hiện nhanh trong 3–5 phút:</p>
+<ul>
+  <li><strong>Hợp cốc</strong> (mu bàn tay, giữa ngón cái và ngón trỏ) – ấn mạnh 1–2 phút mỗi bên – giảm đau đầu, đau răng, giảm stress.</li>
+  <li><strong>Thái xung</strong> (mu bàn chân, giữa ngón cái và ngón trỏ) – ấn 1 phút mỗi bên – bình Can, giải uất, giảm căng thẳng.</li>
+  <li><strong>Nội quan</strong> (mặt trong cổ tay, 2 thốn trên nếp cổ tay) – ấn nhẹ nhàng – giảm buồn nôn, tim hồi hộp, lo âu.</li>
+  <li><strong>Ấn điểm Ấn đường</strong> (giữa hai lông mày) – xoay nhẹ 30 lần – giảm đau đầu, thanh tâm.</li>
+</ul>
+
+<h2>Lưu ý và khi nào cần gặp thầy thuốc</h2>
+<p>Bấm huyệt tự thực hành là phương pháp bổ trợ và phòng ngừa bệnh, rất an toàn nếu thực hiện đúng. Tuy nhiên, phương pháp này <em>không thay thế</em> điều trị y tế khi có bệnh nặng, cấp tính hoặc có dấu hiệu bất thường. Hãy đến gặp thầy thuốc khi:</p>
+<ul>
+  <li>Đau kéo dài hoặc tăng dần sau khi tự bấm huyệt.</li>
+  <li>Có triệu chứng mới xuất hiện hoặc bất thường.</li>
+  <li>Bạn muốn được hướng dẫn phác đồ bấm huyệt cá nhân hóa theo thể trạng và bệnh lý cụ thể.</li>
+</ul>
+
+<div class="art-cta-box"><p>Để được hướng dẫn kỹ thuật bấm huyệt tự thực hành phù hợp với thể trạng và bệnh lý cá nhân, hãy liên hệ <strong>Phòng Khám Y học Cổ Truyền Tâm Đức</strong>. <strong>BS. Nguyễn Đức Tâm</strong> sẽ thăm khám và hướng dẫn bài bấm huyệt tùy chỉnh cho từng bệnh nhân. Đặt lịch: <strong>0973 710 237</strong> | Giờ khám: <strong>18:00–22:00 hàng ngày</strong> | <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 174,
+    slug: "tao-nhan-thang-duong-tam-an-than-tri-mat-ngu",
+    date: "2026-07-29",
+    category: "thuoc-yhct",
+    categoryLabel: "Thuốc YHCT",
+    icon: "🌿",
+    gradient: "g-fire",
+    title: "Táo nhân thang — Bài thuốc dưỡng tâm, an thần, trị mất ngủ kinh điển của Y học cổ truyền",
+    excerpt: "Táo nhân thang là bài thuốc cổ phương xuất phát từ sách Kim Quỹ Yếu Lược, được dùng hàng nghìn năm để điều trị mất ngủ, hồi hộp, lo âu do Tâm – Can âm huyết hư. Đây là một trong những bài thuốc an thần kinh điển và an toàn nhất của Y học cổ truyền.",
+    readTime: 6,
+    content: `
+<h2>Nguồn gốc và lịch sử Táo nhân thang</h2>
+<p><strong>Táo nhân thang</strong> (酸棗仁湯, Suān Zǎo Rén Tāng – còn gọi là Toan táo nhân thang) là bài thuốc cổ phương do danh y <strong>Trương Trọng Cảnh</strong> (张仲景, 150–219 sau CN) sáng lập, được ghi chép trong bộ sách y học kinh điển <em>Kim Quỹ Yếu Lược</em> (金匱要略 – Yếu lược những điều cần thiết trong chiếc hộp vàng). Bài thuốc được đặc biệt ghi nhận trong chương "Hư lao bệnh mạch chứng và trị pháp" với chỉ định: <em>"Hư lao, hư phiền bất đắc miên" (虚劳虚烦不得眠)</em> – tức mất ngủ do hư lao, tâm thần phiền nhiễu.</p>
+<p>Trải qua hơn 1.800 năm lịch sử, Táo nhân thang vẫn là bài thuốc được dùng rộng rãi trong y học cổ truyền Trung Quốc, Nhật Bản, Hàn Quốc và Việt Nam để điều trị chứng mất ngủ, lo âu, tim hồi hộp do âm hư – huyết hư của Tâm và Can.</p>
+
+<h2>Thành phần và vai trò từng vị thuốc</h2>
+<ul>
+  <li><strong>Táo nhân (酸棗仁 – Semen Ziziphi Spinosae):</strong> 15–30g – Vị quân (chủ dược). Vị chua, ngọt; tính bình. Dưỡng Tâm âm, bổ Can huyết, định thần an miên. Thực nghiệm hiện đại cho thấy hoạt chất jujuboside A/B có tác dụng ức chế thần kinh trung ương, giảm lo âu.</li>
+  <li><strong>Phục linh (茯苓 – Poria cocos):</strong> 6g – Vị thần (hỗ trợ). Vị nhạt; tính bình. Kiện Tỳ, ninh Tâm, thẩm thấp. Tăng cường tác dụng an thần của Táo nhân, giảm trạng thái hồi hộp, lo âu.</li>
+  <li><strong>Tri mẫu (知母 – Rhizoma Anemarrhenae):</strong> 6g – Vị thần. Vị đắng; tính hàn. Thanh nhiệt dưỡng âm, tả hỏa trừ phiền. Trị trạng thái phiền nhiệt do âm hư sinh nội nhiệt, giảm mồ hôi đêm.</li>
+  <li><strong>Xuyên khung (川芎 – Radix Chuanxiong):</strong> 6g – Vị tá (phụ trợ). Vị cay; tính ôn. Hoạt huyết hành khí. Tuy là vị động dược nhưng trong bài dùng lượng nhỏ để điều khí giúp an thần; tránh tình trạng dưỡng mà không thông.</li>
+  <li><strong>Cam thảo (甘草 – Radix Glycyrrhizae):</strong> 3g – Vị sứ (hoa giải). Vị ngọt; tính bình. Điều hòa các vị thuốc, bổ khí trung tiêu, hoãn đau.</li>
+</ul>
+<p><em>Cách dùng truyền thống:</em> Sắc với 1 lít nước, còn 300ml, chia 2–3 lần uống ấm sau bữa ăn tối và trước khi ngủ.</p>
+
+<h2>Cơ chế tác dụng theo Y học cổ truyền</h2>
+<p>Theo biện chứng YHCT, mất ngủ do <strong>Tâm – Can âm huyết hư</strong> xảy ra khi Tâm thần mất nơi nương tựa (vì thiếu huyết âm), Can không tàng huyết đủ để liễm thần vào ban đêm. Táo nhân thang tác động theo cơ chế:</p>
+<ul>
+  <li>Bổ Can huyết → Can tàng hồn → hồn ổn định khi ngủ.</li>
+  <li>Dưỡng Tâm âm → Tâm thần có chỗ nương tựa → an miên.</li>
+  <li>Thanh hư nhiệt → giảm phiền nhiễu, mồ hôi trộm do âm hư hỏa vượng.</li>
+  <li>Lưu thông huyết khí nhẹ nhàng → tránh ứ trệ khi bổ dưỡng.</li>
+</ul>
+
+<h2>Chỉ định lâm sàng</h2>
+<p>Táo nhân thang phù hợp điều trị các chứng sau:</p>
+<ul>
+  <li>Mất ngủ khó vào giấc hoặc ngủ chập chờn, hay tỉnh giấc giữa đêm.</li>
+  <li>Tim hồi hộp, đánh trống ngực kèm lo âu.</li>
+  <li>Mồ hôi trộm, miệng khô, chóng mặt nhẹ do âm hư.</li>
+  <li>Trạng thái suy nhược sau bệnh nặng, phụ nữ sau sinh, người cao tuổi có âm huyết suy giảm.</li>
+  <li>Đặc biệt hiệu quả với thể <em>Tâm Can âm huyết hư</em> (lưỡi đỏ ít rêu, mạch tế sác hoặc tế huyền).</li>
+</ul>
+
+<h2>Chống chỉ định và lưu ý khi dùng</h2>
+<ul>
+  <li><strong>Không dùng</strong> cho thể mất ngủ do Đàm nhiệt (lưỡi bệu, rêu vàng nhờn, mạch hoạt sác) – cần bài thuốc hóa đàm thanh nhiệt như Ôn đởm thang.</li>
+  <li><strong>Không dùng</strong> khi có Can khí uất kết nặng với biểu hiện tức ngực, sườn đau – cần kết hợp sơ can.</li>
+  <li><strong>Thận trọng</strong> với phụ nữ mang thai – cần ý kiến thầy thuốc.</li>
+  <li>Táo nhân cần sao qua (sao toan táo nhân) để tăng tác dụng an thần; dùng sống hiệu quả kém hơn và có thể gây tiêu chảy.</li>
+  <li>Liều lượng Táo nhân cần đủ lớn (15–30g) mới phát huy tác dụng; dùng liều thấp thường không hiệu quả.</li>
+</ul>
+
+<div class="art-cta-box"><p>Mất ngủ mạn tính ảnh hưởng nghiêm trọng đến chất lượng cuộc sống và sức khỏe lâu dài. Nếu bạn đang gặp phải vấn đề này, hãy đến thăm khám tại <strong>Phòng Khám Y học Cổ Truyền Tâm Đức</strong>. <strong>BS. Nguyễn Đức Tâm</strong> sẽ biện chứng phân thể và kê bài thuốc phù hợp – có thể là Táo nhân thang hoặc bài thuốc khác tùy theo thể bệnh. Liên hệ: <strong>0973 710 237</strong> | <strong>18:00–22:00 hàng ngày</strong> | <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 175,
+    slug: "phong-ngua-viem-dai-trang-man-tinh-yhct",
+    date: "2026-07-29",
+    category: "phong-benh",
+    categoryLabel: "Phòng bệnh",
+    icon: "🛡️",
+    gradient: "g-amber",
+    title: "Phòng ngừa viêm đại tràng mạn tính theo Y học cổ truyền: Kiện Tỳ vị, điều hòa Đại trường từ sớm",
+    excerpt: "Viêm đại tràng mạn tính là bệnh lý tiêu hóa dai dẳng, dễ tái phát và ảnh hưởng lớn đến sinh hoạt hằng ngày. Y học cổ truyền có cách tiếp cận phòng bệnh từ gốc thông qua điều chỉnh Tỳ vị, chế độ ăn uống và lối sống lành mạnh.",
+    readTime: 5,
+    content: `
+<h2>Viêm đại tràng mạn tính theo nhãn quan Y học cổ truyền</h2>
+<p>Viêm đại tràng mạn tính (chronic colitis) là tình trạng viêm lớp niêm mạc đại tràng kéo dài, biểu hiện bằng đau bụng mạn tính, tiêu chảy – táo bón xen kẽ, phân lỏng hoặc có nhầy, và cảm giác mắc rặn. Trong Y học cổ truyền (YHCT), bệnh thuộc phạm trù <strong>Tiết tả</strong> (泄瀉), <strong>Hư lao tiết tả</strong> hoặc <strong>Trưởng tiết</strong> (腸泄) tuỳ biểu hiện.</p>
+<p>YHCT xác định căn nguyên cơ bản là <strong>Tỳ Vị hư nhược</strong> – Tỳ mất kiện vận, không thể phân thanh giáng trọc bình thường, dẫn đến thủy thấp tụ tập ở đại tràng gây tiêu lỏng. Các yếu tố thuận chiều như ăn uống không điều độ, căng thẳng tâm lý (Can khí phạm Tỳ) và hàn thấp xâm phạm làm bệnh dai dẳng và khó khỏi hẳn.</p>
+
+<h2>Yếu tố nguy cơ cần chú ý theo Y học cổ truyền</h2>
+<ul>
+  <li><strong>Ăn uống lạnh, sống, tái:</strong> Đồ lạnh, kem, nước đá, rau sống quá nhiều – làm tổn thương Tỳ Dương, hàn thấp ứ đọng đại tràng.</li>
+  <li><strong>Ăn nhiều thức ăn béo, ngọt, cay:</strong> Sinh thấp nhiệt ở đại tràng, gây viêm tái phát.</li>
+  <li><strong>Stress, căng thẳng kéo dài:</strong> Can uất phạm Tỳ Vị là nguyên nhân phổ biến nhất của tiêu chảy do stress (Can Tỳ bất hòa).</li>
+  <li><strong>Dùng kháng sinh kéo dài:</strong> Theo YHCT, thuốc đắng hàn hại Tỳ Vị; theo y học hiện đại, kháng sinh phá vỡ hệ vi khuẩn đường ruột.</li>
+  <li><strong>Thiếu ngủ và làm việc quá sức:</strong> Hư lao thương Tỳ, giảm khả năng phục hồi niêm mạc đại tràng.</li>
+</ul>
+
+<h2>Chiến lược phòng ngừa từ Y học cổ truyền</h2>
+<p><strong>1. Bảo vệ Tỳ Vị qua chế độ ăn uống</strong></p>
+<ul>
+  <li>Ăn chín uống sôi, hạn chế đồ lạnh và sống, tái.</li>
+  <li>Ăn chậm nhai kỹ, ăn đúng giờ, không bỏ bữa sáng.</li>
+  <li>Thực phẩm tốt cho Tỳ Vị: cháo gạo tẻ, khoai lang, bí đỏ, củ mài (hoài sơn), đỗ đen, hạt sen, táo đỏ.</li>
+  <li>Hạn chế rượu bia, cà phê mạnh, thức ăn cay nóng quá mức.</li>
+</ul>
+<p><strong>2. Điều tiết cảm xúc – Sơ Can Lý Khí</strong></p>
+<ul>
+  <li>Thực hành thiền định, thở bụng 10–15 phút mỗi ngày để bình Can, giảm stress.</li>
+  <li>Tập Thái cực quyền hoặc khí công nhẹ nhàng giúp Can khí sơ thông, Tỳ Vị hoạt động trơn tru.</li>
+  <li>Tránh ăn khi đang căng thẳng, tức giận vì Can khí phạm Tỳ gây co thắt và tiêu chảy ngay sau ăn.</li>
+</ul>
+<p><strong>3. Bổ Tỳ Vị bằng thảo dược hỗ trợ</strong></p>
+<ul>
+  <li>Trà gừng mật ong mỗi sáng (khi Tỳ Dương hư, sợ lạnh): ấm Tỳ Vị, chống nôn và tiêu chảy hàn.</li>
+  <li>Cháo hoài sơn – khiếm thực – bạch biển đậu: bài ăn bổ Tỳ, chỉ tả kinh điển, dùng vài lần/tuần.</li>
+  <li>Hạt sen – liên tử: an thần kiện Tỳ, đặc biệt tốt khi mất ngủ kèm tiêu chảy mạn.</li>
+</ul>
+<p><strong>4. Bấm huyệt phòng bệnh mỗi ngày</strong></p>
+<ul>
+  <li><strong>Túc tam lý (ST36):</strong> Dưới đầu gối ngoài 3 thốn – bổ Tỳ Vị, tăng đề kháng – bấm 2–3 phút mỗi ngày.</li>
+  <li><strong>Thiên khu (ST25):</strong> Ngang rốn 2 thốn mỗi bên – huyệt mộ của Đại trường – điều hòa chức năng đại tràng.</li>
+  <li><strong>Hợp cốc (LI4) + Thái xung (LR3):</strong> Cặp huyệt "Tứ quan" – sơ can lý khí, giảm đau bụng do Can Tỳ bất hòa.</li>
+</ul>
+
+<h2>Dấu hiệu cần đi khám sớm</h2>
+<p>Dù phòng ngừa tốt, nếu xuất hiện các dấu hiệu sau, cần đến cơ sở y tế ngay:</p>
+<ul>
+  <li>Tiêu ra máu hoặc phân đen.</li>
+  <li>Sụt cân nhanh không rõ nguyên nhân.</li>
+  <li>Đau bụng dữ dội, liên tục không giảm sau 24 giờ.</li>
+  <li>Sốt cao kèm tiêu chảy nhiều lần trong ngày.</li>
+</ul>
+
+<div class="art-cta-box"><p>Nếu bạn có tiền sử viêm đại tràng mạn hoặc đang có triệu chứng đường tiêu hóa dai dẳng, hãy đến thăm khám tại <strong>Phòng Khám Y học Cổ Truyền Tâm Đức</strong>. <strong>BS. Nguyễn Đức Tâm</strong> sẽ biện chứng, xây dựng phác đồ điều trị và kế hoạch phòng ngừa tái phát phù hợp. Liên hệ: <strong>0973 710 237</strong> | <strong>18:00–22:00 hàng ngày</strong> | <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 176,
+    slug: "phuong-huyet-dieu-tri-thoai-hoa-cot-song-co",
+    date: "2026-07-29",
+    category: "phuong-huyet",
+    categoryLabel: "Phương huyệt",
+    icon: "📍",
+    gradient: "g-huyet",
+    title: "Phương huyệt điều trị thoái hóa cột sống cổ theo Y học cổ truyền: Huyệt vị và kỹ thuật trị liệu",
+    excerpt: "Châm cứu với phương huyệt đặc hiệu là phương pháp điều trị thoái hóa cột sống cổ an toàn, hiệu quả cao, không tác dụng phụ. Bài viết trình bày chi tiết 7 huyệt vị quan trọng cùng vị trí, tác dụng và kỹ thuật châm trong điều trị bệnh lý cột sống cổ.",
+    readTime: 6,
+    content: `
+<h2>Cơ sở lý luận của phương huyệt điều trị thoái hóa cột sống cổ</h2>
+<p>Thoái hóa cột sống cổ trong Y học cổ truyền (YHCT) thuộc phạm trù <em>Tý chứng</em> – hội chứng tắc trở kinh lạc gây đau nhức. Các kinh mạch chạy qua vùng cổ gáy bao gồm: <strong>Thái dương Bàng quang kinh</strong> (chạy dọc cột sống), <strong>Thái dương Tiểu trường kinh</strong> (cổ vai), <strong>Thiếu dương Đởm kinh</strong> và <strong>Tam tiêu kinh</strong> (vùng bên cổ), <strong>Dương minh Đại trường kinh</strong> (vai trước). Khi kinh khí bị trở tắc tại đây, xuất hiện đau, cứng và tê bì.</p>
+<p>Phương huyệt được thiết kế theo nguyên tắc: kết hợp huyệt <em>tại chỗ</em> (cục bộ), huyệt <em>lân cận</em> và huyệt <em>toàn thân</em> theo kinh biện chứng – nhằm thông kinh lạc, hoạt huyết, giảm đau và phục hồi tầm vận động cổ.</p>
+
+<h2>7 Huyệt vị quan trọng trong điều trị thoái hóa cột sống cổ</h2>
+<ul>
+  <li>
+    <strong>1. Phong trì (GB20 – 風池):</strong>
+    <em>Vị trí:</em> Mặt sau đầu, trong hõm giữa cơ ức đòn chũm và cơ thang, ngang với phần lồi ra của xương chẩm (occiput), cách đường giữa khoảng 2,5–3cm.
+    <em>Tác dụng:</em> Khu phong tán hàn, thông kinh hoạt lạc, cải thiện tuần hoàn não, giảm đau đầu và cổ cứng. Đây là huyệt quan trọng nhất trong điều trị các bệnh vùng đầu cổ, rất hiệu quả với chóng mặt do thoái hóa.
+    <em>Kỹ thuật:</em> Châm xiên về phía mũi, sâu 1–1,5 thốn.
+  </li>
+  <li>
+    <strong>2. Đại chùy (GV14 – 大椎):</strong>
+    <em>Vị trí:</em> Trên đường giữa cột sống, trong hõm dưới mỏm gai của đốt sống cổ 7 (C7) – xác định bằng cách cúi đầu, điểm lồi nhất sau gáy là C7.
+    <em>Tác dụng:</em> Thanh nhiệt giải biểu, thông dương, trừ phong. Huyệt hội tụ của các kinh dương – giúp tăng cường dương khí toàn thân, giảm cứng cổ, phù hợp thể phong hàn.
+    <em>Kỹ thuật:</em> Châm thẳng hoặc xiên lên, sâu 0,5–1 thốn; có thể kết hợp cứu ngải.
+  </li>
+  <li>
+    <strong>3. Kiên tỉnh (GB21 – 肩井):</strong>
+    <em>Vị trí:</em> Điểm giữa đường nối mỏm gai C7 và điểm cao nhất của mỏm vai (acromion), tức giữa cơ thang vùng vai.
+    <em>Tác dụng:</em> Thông lạc hành khí, giảm đau vai gáy, giải co thắt cơ thang. Huyệt cục bộ quan trọng nhất cho đau vai gáy.
+    <em>Kỹ thuật:</em> Châm thẳng 0,5–0,8 thốn. <em>Lưu ý: cấm châm sâu do nguy cơ tràn khí màng phổi. Không dùng cho phụ nữ mang thai.</em>
+  </li>
+  <li>
+    <strong>4. Hậu khê (SI3 – 後谿):</strong>
+    <em>Vị trí:</em> Mặt trụ (ulnar) bàn tay, khi nắm lỏng nắm đấm, trong hõm ở đầu ngoài nếp gấp gan tay nằm giữa xương bàn tay 4 và 5.
+    <em>Tác dụng:</em> Thông Đốc mạch, sơ thái dương kinh, chỉ thống. Huyệt khai mở Đốc mạch – mạch chủ quản cột sống; rất hiệu quả với đau cổ và lưng cấp. Đây là huyệt xa quan trọng cho thoái hóa cột sống cổ.
+    <em>Kỹ thuật:</em> Châm thẳng 0,5–0,8 thốn.
+  </li>
+  <li>
+    <strong>5. Liệt khuyết (LU7 – 列缺):</strong>
+    <em>Vị trí:</em> Mặt quay (radial) cổ tay, trên nếp cổ tay 1,5 thốn, trong hõm nhỏ giữa gân cơ ngắn duỗi ngón cái và gân cơ dài giạng ngón cái.
+    <em>Tác dụng:</em> Khai Nhâm mạch, thông kinh hoạt lạc, trừ phong. Kết hợp với Hậu khê (khai Đốc mạch) tạo thành cặp huyệt kinh điển điều trị bệnh cột sống cổ. Đặc biệt hiệu quả với cứng cổ, đau đầu sau gáy.
+    <em>Kỹ thuật:</em> Châm xiên theo hướng lên trên, sâu 0,5–0,8 thốn.
+  </li>
+  <li>
+    <strong>6. Ngoại quan (SJ5 – 外關):</strong>
+    <em>Vị trí:</em> Mặt sau cẳng tay, trên nếp cổ tay 2 thốn, giữa xương quay và xương trụ.
+    <em>Tác dụng:</em> Thông Dương duy mạch, hành khí chỉ thống, giảm tê bì tay. Huyệt lạc của Tam tiêu kinh – kinh chạy qua vai cổ, rất hữu ích khi thoái hóa cột sống cổ gây tê tay, đau vai.
+    <em>Kỹ thuật:</em> Châm thẳng 0,8–1,2 thốn.
+  </li>
+  <li>
+    <strong>7. Thận du (BL23 – 腎俞):</strong>
+    <em>Vị trí:</em> Lưng, ngang mỏm gai L2, cách đường giữa cột sống 1,5 thốn mỗi bên.
+    <em>Tác dụng:</em> Bổ thận cường cốt, dưỡng Can kiện tủy. Huyệt bối du của Thận – tác dụng toàn thân bổ Can Thận, giúp phục hồi sức mạnh xương cốt, đặc biệt quan trọng trong thể Can Thận hư.
+    <em>Kỹ thuật:</em> Châm thẳng 0,8–1,2 thốn; có thể kết hợp cứu ngải hoặc ôn châm.
+  </li>
+</ul>
+
+<h2>Phương huyệt cơ bản và gia giảm theo thể bệnh</h2>
+<p><strong>Phương huyệt cơ bản:</strong> Phong trì + Đại chùy + Kiên tỉnh (bên đau) + Hậu khê + Liệt khuyết (bên đối diện).</p>
+<ul>
+  <li><strong>Thể Phong hàn thấp:</strong> Thêm Phong môn (BL12), A thị huyệt; kết hợp cứu ngải, giác hơi.</li>
+  <li><strong>Thể Can Thận hư:</strong> Thêm Thận du, Huyền chung (GB39), Thái khê (KI3); dùng bổ pháp.</li>
+  <li><strong>Thể Huyết ứ:</strong> Thêm Huyết hải (SP10), Cách du (BL17), A thị huyệt; có thể kết hợp tam lăng châm điểm ứ huyết.</li>
+  <li><strong>Khi có tê bì tay:</strong> Thêm Ngoại quan + Hợp cốc (LI4) + Bát tà (EX-UE9).</li>
+  <li><strong>Khi có chóng mặt:</strong> Thêm Bách hội (GV20), Nội quan (PC6), Phong long (ST40).</li>
+</ul>
+
+<h2>Liệu trình điều trị và kỳ vọng</h2>
+<p>Mỗi liệu trình điều trị thoái hóa cột sống cổ bằng châm cứu thường gồm 10–15 buổi, cách ngày. Sau 1 liệu trình, hầu hết bệnh nhân cảm nhận giảm đau 60–80%, cải thiện tầm vận động cổ và giảm tê bì tay. Với thể bệnh nặng hoặc mạn tính lâu ngày, cần 2–3 liệu trình và kết hợp thuốc YHCT uống.</p>
+
+<div class="art-cta-box"><p>Để được điều trị thoái hóa cột sống cổ bằng phương huyệt châm cứu chuyên nghiệp, hãy đến <strong>Phòng Khám Y học Cổ Truyền Tâm Đức</strong>. <strong>BS. Nguyễn Đức Tâm</strong> sẽ thăm khám, chọn phương huyệt phù hợp và áp dụng kỹ thuật châm an toàn, chính xác. Liên hệ: <strong>0973 710 237</strong> | <strong>18:00–22:00 hàng ngày</strong> | <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 177,
+    slug: "tri-nut-got-chan-da-kho-yhct-duong-than-huyet",
+    date: "2026-07-29",
+    category: "lam-dep",
+    categoryLabel: "Làm đẹp",
+    icon: "🌸",
+    gradient: "g-rose",
+    title: "Điều trị nứt gót chân và da khô theo Y học cổ truyền: Dưỡng Thận – Huyết để da ẩm mịn từ bên trong",
+    excerpt: "Nứt gót chân và da khô không chỉ là vấn đề thẩm mỹ mà còn phản ánh sự suy giảm của Thận tinh và Huyết dịch trong cơ thể. Y học cổ truyền điều trị từ gốc bằng cách bổ Thận dưỡng Huyết, nhuận táo, kết hợp liệu pháp ngoại trị để da hồi phục từ bên trong.",
+    readTime: 5,
+    content: `
+<h2>Nứt gót chân – Tín hiệu sức khỏe từ Y học cổ truyền</h2>
+<p>Nứt gót chân (fissured heels) và da khô toàn thân là tình trạng phổ biến, đặc biệt vào mùa đông hoặc ở người cao tuổi, phụ nữ sau sinh. Dù có vẻ là vấn đề ngoài da đơn thuần, Y học cổ truyền (YHCT) nhìn nhận đây là biểu hiện bên ngoài của mất cân bằng nội tạng, đặc biệt liên quan đến <strong>Thận</strong> và <strong>Huyết</strong>.</p>
+<p>Theo YHCT: <em>"Da – lông – móng là sự biểu hiện của tinh huyết nội tạng"</em>. Cụ thể:</p>
+<ul>
+  <li><strong>Thận chủ cốt, sinh tủy, tàng tinh:</strong> Thận tinh đầy đủ thì gót chân (vùng phản xạ Thận) mềm mại, không nứt.</li>
+  <li><strong>Huyết nhuận bì mao:</strong> Huyết dịch dồi dào nuôi dưỡng da toàn thân; Huyết hư thì da khô, bong tróc, gót nứt.</li>
+  <li><strong>Phế chủ bì mao:</strong> Phế khí vận hành tân dịch đến da; Phế âm hư sinh táo, da thiếu ẩm.</li>
+</ul>
+
+<h2>Phân thể lâm sàng và chẩn đoán phân biệt</h2>
+<ul>
+  <li><strong>Thể 1 – Huyết hư sinh phong táo:</strong> Da khô, gót nứt sâu, môi nhợt, chóng mặt, kinh nguyệt ít, ngủ kém. Lưỡi nhợt, mạch tế. Phổ biến ở phụ nữ, người ăn uống kém.
+    <em>Pháp trị:</em> Dưỡng huyết nhuận táo, khu phong dưỡng bì. Phương: Tứ vật thang gia thêm Hà thủ ô đỏ, Bạch tật lê, Kinh giới.</li>
+  <li><strong>Thể 2 – Thận âm hư táo:</strong> Gót khô nứt, da sần mất đàn hồi, đau lưng gối, ù tai, miệng khô, ra mồ hôi trộm. Lưỡi đỏ ít rêu, mạch tế sác.
+    <em>Pháp trị:</em> Bổ Thận âm, nhuận táo dưỡng bì. Phương: Lục vị địa hoàng hoàn gia Nữ trinh tử, Mạch môn đông, Ngọc trúc.</li>
+  <li><strong>Thể 3 – Tỳ hư thấp nhiệt:</strong> Gót nứt kèm ngứa, da dày sừng hóa, có mùi, chân hay đổ mồ hôi. Lưỡi bệu rêu vàng nhờn, mạch hoạt.
+    <em>Pháp trị:</em> Kiện Tỳ trừ thấp, thanh nhiệt giải độc. Phương: Tứ diệu tán gia Khổ sâm, Kim ngân hoa.</li>
+</ul>
+
+<h2>Điều trị nội trị – Bổ dưỡng từ bên trong</h2>
+<p>Bên cạnh thuốc thang, YHCT khuyến nghị các thực phẩm dưỡng bì và nhuận táo hàng ngày:</p>
+<ul>
+  <li><strong>Hà thủ ô đỏ (Polygonum multiflorum):</strong> Bổ Can Thận, dưỡng huyết nhuận táo – đặc biệt tốt cho da khô và tóc bạc sớm.</li>
+  <li><strong>Vừng đen (Hắc chi ma):</strong> Bổ Thận tinh, nhuận trường dưỡng bì – ăn mỗi ngày 20–30g giúp da ẩm mịn từ bên trong.</li>
+  <li><strong>Hạt óc chó (Hồ đào nhục):</strong> Bổ Thận não, nhuận da – ăn 3–5 hạt mỗi ngày.</li>
+  <li><strong>Nước ép lô hội (Aloe vera) uống trong:</strong> Dưỡng âm thanh nhiệt, nhuận táo.</li>
+  <li><strong>Đông qua bì (vỏ bí xanh):</strong> Lợi thủy tiêu thũng, dưỡng da – dùng trong canh hàng ngày.</li>
+  <li><strong>Cháo vừng đen – táo đỏ – kỷ tử:</strong> Bài ăn dưỡng huyết bổ thận, dùng 3–4 lần/tuần để cải thiện da khô mạn tính.</li>
+</ul>
+
+<h2>Liệu pháp ngoại trị – Chăm sóc tại chỗ theo Y học cổ truyền</h2>
+<p>YHCT kết hợp điều trị nội – ngoại song song để đạt hiệu quả nhanh hơn:</p>
+<ul>
+  <li><strong>Ngâm chân thảo dược:</strong> Đun sôi hỗn hợp ngải cứu 30g + địa liền 20g + muối biển 10g trong 1 lít nước. Ngâm chân 20–30 phút ở nhiệt độ 40–42°C mỗi tối. Giúp ôn thông kinh lạc vùng gót, mềm da, giảm nứt nẻ.</li>
+  <li><strong>Đắp mặt nạ gót chân thảo dược:</strong> Nghiền nhuyễn khoai tây luộc + mật ong + dầu mè (vừng) thành hỗn hợp, đắp lên gót 20 phút rồi rửa sạch – dưỡng ẩm tự nhiên, nhuận da hiệu quả.</li>
+  <li><strong>Dầu dừa + tinh dầu oải hương:</strong> Thoa vào gót sau khi ngâm chân, massage nhẹ nhàng – giữ ẩm và hỗ trợ liền da nứt.</li>
+  <li><strong>Châm cứu và bấm huyệt:</strong> Châm huyệt Thái khê (KI3 – hõm sau mắt cá trong), Thái bạch (SP3), Tam âm giao (SP6) để bổ Thận âm và Tỳ Huyết từ bên trong, hỗ trợ phục hồi da.</li>
+</ul>
+
+<h2>Phòng ngừa tái phát và chăm sóc lâu dài</h2>
+<ul>
+  <li>Uống đủ nước (1,5–2 lít/ngày) để duy trì độ ẩm từ bên trong.</li>
+  <li>Mang giày phù hợp, không đi chân trần trên sàn lạnh hoặc cứng kéo dài.</li>
+  <li>Tẩy da chết vùng gót 1 lần/tuần bằng đá bọt khi ngâm chân.</li>
+  <li>Thoa kem dưỡng ẩm gốc thiên nhiên (urea, bơ shea, dầu mè) mỗi tối sau tắm.</li>
+  <li>Hạn chế dầu mỡ, cay nóng và rượu bia – tránh sinh thấp nhiệt làm nặng thêm.</li>
+</ul>
+
+<div class="art-cta-box"><p>Nứt gót chân và da khô mạn tính là dấu hiệu cơ thể cần được bổ dưỡng từ bên trong. Hãy đến thăm khám tại <strong>Phòng Khám Y học Cổ Truyền Tâm Đức</strong> để được <strong>BS. Nguyễn Đức Tâm</strong> biện chứng phân thể và tư vấn phác đồ điều trị kết hợp nội – ngoại trị phù hợp. Liên hệ: <strong>0973 710 237</strong> | <strong>18:00–22:00 hàng ngày</strong> | <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
     id: 171,
     slug: "ngam-chan-thao-duoc-bam-huyet-long-ban-chan-yhct",
     date: "2026-07-29",
