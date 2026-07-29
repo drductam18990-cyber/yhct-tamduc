@@ -5,6 +5,56 @@
 
 const ARTICLES = [
   {
+    id: 171,
+    slug: "ngam-chan-thao-duoc-bam-huyet-long-ban-chan-yhct",
+    date: "2026-07-29",
+    category: "khong-thuoc",
+    categoryLabel: "Không dùng thuốc",
+    icon: "🧘",
+    gradient: "g-herb",
+    title: "Ngâm chân thảo dược và bấm huyệt lòng bàn chân theo Y học cổ truyền: Liệu pháp dưỡng sinh tại nhà",
+    excerpt: "Ngâm chân thảo dược kết hợp bấm huyệt lòng bàn chân là liệu pháp dưỡng sinh đơn giản mà hiệu quả, giúp thông kinh hoạt lạc, bổ thận an thần và cải thiện tuần hoàn toàn thân mà không cần dùng thuốc.",
+    readTime: 6,
+    content: `
+<h2>Tổng quan theo Y học cổ truyền</h2>
+<p>Trong Y học cổ truyền (YHCT), bàn chân được xem là "rễ cây của cơ thể" — nơi hội tụ và khởi đầu của nhiều kinh mạch quan trọng. Ba kinh âm chạy từ lòng bàn chân lên là kinh Túc thái âm Tỳ, kinh Túc thiếu âm Thận và kinh Túc quyết âm Can; ba kinh dương kết thúc ở mu bàn chân và ngón chân gồm kinh Túc dương minh Vị, kinh Túc thái dương Bàng quang và kinh Túc thiếu dương Đởm. Chính vì vậy, kích thích đúng vùng phản xạ và huyệt vị ở lòng bàn chân có thể điều hòa hoạt động của tạng phủ và thông suốt toàn bộ hệ kinh lạc.</p>
+<p>Thảo dược ngâm chân tạo nhiệt và dược lực thấm qua da, mở rộng lỗ chân lông, tăng tuần hoàn máu cục bộ, giúp khí huyết lưu thông trong kinh lạc hiệu quả hơn. Kết hợp bấm huyệt ngay trong và sau khi ngâm cho tác dụng hiệp đồng mạnh mẽ.</p>
+
+<h2>Phân thể / Nguyên nhân theo YHCT</h2>
+<ul>
+  <li><strong>Thể Thận dương hư:</strong> Bàn chân lạnh, mỏi gối lưng, tiểu đêm nhiều, người mệt mỏi. Ngâm chân với gừng tươi, quế chi ôn thận tráng dương, kết hợp bấm huyệt Dũng tuyền (KI1) và Thái khê (KI3).</li>
+  <li><strong>Thể Can khí uất kết:</strong> Stress, căng thẳng, ngủ kém, đầu nặng, cổ vai cứng. Ngâm chân với ngải cứu, hương phụ sơ Can giải uất, bấm huyệt Thái xung (LR3) và Hành gian (LR2) để điều khí thư cân.</li>
+  <li><strong>Thể Tỳ hư thấp trệ:</strong> Phù chân nhẹ vào cuối ngày, tiêu hóa kém, chân nặng mỏi. Ngâm chân với hoàng kỳ, bạch truật kiện Tỳ lợi thấp, bấm huyệt Tam âm giao (SP6) và Âm lăng tuyền (SP9).</li>
+  <li><strong>Thể khí huyết hư:</strong> Chân tay tê lạnh, hoa mắt, mệt mỏi, da khô nhợt. Ngâm chân với đương quy, hồng hoa dưỡng huyết hoạt huyết, kết hợp bấm huyệt Huyết hải (SP10) và Túc tam lý (ST36).</li>
+</ul>
+
+<h2>Phương pháp điều trị — Công thức ngâm chân và huyệt vị</h2>
+<p><strong>Công thức ngâm chân cơ bản:</strong> Đun sôi 1,5–2 lít nước với một trong các loại thảo dược sau rồi để nguội đến 40–42°C: gừng tươi 50g + ngải cứu tươi 100g (thể hàn, mệt mỏi); hoặc muối biển 2 thìa + lá lốt 50g (đau nhức xương khớp); hoặc hương phụ 20g + táo nhân 20g (mất ngủ, stress). Ngâm 15–20 phút mỗi tối, nước ngập đến cổ chân hoặc bắp chân.</p>
+<p><strong>Huyệt vị bấm sau khi ngâm (khi chân còn ấm, dễ thấm huyệt):</strong></p>
+<ul>
+  <li><strong>Dũng tuyền (KI1):</strong> Trung tâm lòng bàn chân (điểm 1/3 trước lòng bàn chân, chỗ lõm khi co ngón). Đây là huyệt đầu của kinh Thận — bổ thận an thần, giảm bốc hỏa, trị mất ngủ. Dùng ngón cái ấn sâu xoay tròn 2 phút mỗi bên.</li>
+  <li><strong>Thái khê (KI3):</strong> Khe giữa mắt cá chân trong và gân gót. Nguyên huyệt kinh Thận — tư âm bổ thận, trị đau lưng gối, mất ngủ, tiểu đêm nhiều. Bấm 1–2 phút mỗi bên.</li>
+  <li><strong>Tam âm giao (SP6):</strong> Mặt trong cẳng chân, trên mắt cá chân trong 3 thốn (khoảng 4 ngón tay). Giao hội của ba kinh Tỳ-Can-Thận âm — điều hòa khí huyết, cải thiện tiêu hóa, giảm phù chân. Bấm 2 phút mỗi bên.</li>
+  <li><strong>Túc tam lý (ST36):</strong> Dưới đầu gối ngoài 3 thốn, sát mép ngoài xương chày. Đại huyệt bổ khí toàn thân — tăng miễn dịch, bổ tỳ vị, trị mệt mỏi. Bấm sâu 2–3 phút mỗi bên.</li>
+  <li><strong>Thái xung (LR3):</strong> Mu bàn chân, khe giữa ngón cái và ngón 2, lùi vào 2 thốn. Nguyên huyệt kinh Can — sơ Can giải uất, giảm stress, đau đầu do Can khí. Bấm 1–2 phút mỗi bên.</li>
+</ul>
+
+<h2>Tự thực hành tại nhà</h2>
+<ul>
+  <li>Thời điểm tốt nhất: 30–60 phút trước khi ngủ (19:00–21:00 theo YHCT là giờ Thận kinh vượng).</li>
+  <li>Chuẩn bị chậu gỗ hoặc nhựa đủ sâu (ngập bắp chân), nhiệt kế nước để kiểm soát nhiệt độ 40–42°C.</li>
+  <li>Trong lúc ngâm: xoa nhẹ hai bàn chân vào nhau, dùng ngón cái ấn nhẹ lòng bàn chân để tăng tuần hoàn.</li>
+  <li>Sau khi ngâm: lau khô, giữ ấm, tiến hành bấm huyệt theo thứ tự Dũng tuyền → Thái khê → Tam âm giao → Túc tam lý → Thái xung.</li>
+  <li>Thực hiện đều đặn 5–7 ngày/tuần trong ít nhất 4 tuần để thấy hiệu quả rõ rệt.</li>
+  <li>Chống chỉ định: không ngâm chân khi có vết thương hở, viêm da nặng, giãn tĩnh mạch độ 3 trở lên, hoặc phụ nữ mang thai (tránh bấm huyệt SP6, LR3).</li>
+</ul>
+
+<div class="art-cta-box">
+  <p>Ngâm chân thảo dược và bấm huyệt là liệu pháp dưỡng sinh hiệu quả khi thực hiện đúng cách. Nếu bạn muốn được tư vấn công thức ngâm chân phù hợp với thể trạng và tình trạng sức khỏe cụ thể, hãy đến thăm khám tại <strong>Phòng Khám YHCT Tâm Đức</strong>. <strong>BS. Nguyễn Đức Tâm</strong> sẽ biện chứng và hướng dẫn phác đồ dưỡng sinh cá nhân hóa. Liên hệ: <strong>0973 710 237</strong> — Giờ khám: <strong>18:00–22:00 hàng ngày</strong> tại <strong>Hà Đông, Hà Nội</strong>.</p>
+</div>
+    `
+  },
+  {
     id: 165,
     slug: "dau-day-than-kinh-lien-suon-yhct-phan-the-dieu-tri",
     date: "2026-07-28",
