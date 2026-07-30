@@ -5,6 +5,58 @@
 
 const ARTICLES = [
   {
+    id: 178,
+    slug: "nhi-cham-giam-stress-lo-au-yhct",
+    date: "2026-07-30",
+    category: "khong-thuoc",
+    categoryLabel: "Không dùng thuốc",
+    icon: "🧘",
+    gradient: "g-herb",
+    title: "Nhĩ châm giảm stress và lo âu: Liệu pháp châm điểm phản xạ tai không dùng thuốc theo Y học cổ truyền",
+    excerpt: "Nhĩ châm là liệu pháp kích thích các huyệt vị trên vành tai để điều hòa thần kinh, giảm stress và lo âu — không cần dùng thuốc, hiệu quả nhanh và an toàn theo Y học cổ truyền.",
+    readTime: 6,
+    content: `
+<h2>Tổng quan về Nhĩ châm theo Y học cổ truyền</h2>
+<p>Nhĩ châm (耳針 — Ear Acupuncture) là phương pháp châm cứu hoặc bấm huyệt tại các điểm phản xạ nằm trên vành tai, dựa trên học thuyết rằng toàn bộ cơ thể được phản chiếu lên tai theo hình một bào thai lộn ngược. Phương pháp này đã được ghi chép trong <em>Hoàng Đế Nội Kinh</em> từ hơn 2.000 năm trước, khi các y gia nhận thấy tai là nơi hội tụ của nhiều kinh mạch quan trọng, đặc biệt là <em>Túc Thiếu dương Đởm kinh</em>, <em>Thủ Thái dương Tiểu trường kinh</em> và <em>Túc Dương minh Vị kinh</em>.</p>
+<p>Theo lý luận YHCT, stress và lo âu mạn tính làm rối loạn sự lưu thông của <em>Tâm thần</em> (tâm trí), gây <em>Tâm hỏa vượng</em> hoặc <em>Can khí uất kết</em>. Nhĩ châm tác động lên các điểm phản xạ tai tương ứng giúp điều hòa thần kinh tự chủ, hạ thấp nồng độ cortisol, bình ổn nhịp tim và cải thiện giấc ngủ — tất cả mà không cần dùng bất kỳ loại thuốc nào.</p>
+<p>Tổ chức Y tế Thế giới (WHO) đã chuẩn hóa hệ thống huyệt nhĩ vào năm 1990, giúp nhĩ châm được ứng dụng rộng rãi trên toàn cầu trong điều trị stress, lo âu, mất ngủ, đau mạn tính và hỗ trợ cai nghiện.</p>
+
+<h2>Phân thể / Nguyên nhân stress – lo âu theo YHCT</h2>
+<ul>
+  <li><strong>Thể Can khí uất kết:</strong> Hay cáu giận, ngực tức khó chịu, thở dài, rối loạn kinh nguyệt ở phụ nữ. Do stress kéo dài làm Can mất khả năng sơ tiết. Hướng điều trị: Sơ Can lý khí, giải uất an thần.</li>
+  <li><strong>Thể Tâm Tỳ hư nhược:</strong> Lo lắng dai dẳng, tim hồi hộp, mệt mỏi, ăn kém, khó tập trung. Do Tỳ hư không sinh huyết nuôi Tâm. Hướng điều trị: Kiện Tỳ dưỡng Tâm, an thần định chí.</li>
+  <li><strong>Thể Tâm Thận bất giao:</strong> Bồn chồn, khó ngủ, hay quên, đau lưng mỏi gối, lòng bàn tay nóng. Do Thận âm suy không chế Tâm hỏa. Hướng điều trị: Tư âm giáng hỏa, giao thông Tâm Thận.</li>
+  <li><strong>Thể Đàm hỏa nhiễu Tâm:</strong> Lo âu kèm đầu nặng, ngực tức, buồn nôn, miệng đắng. Do đàm nhiệt bốc lên nhiễu loạn thần minh. Hướng điều trị: Hóa đàm thanh hỏa, trấn tĩnh an thần.</li>
+</ul>
+
+<h2>Huyệt vị Nhĩ châm chính điều trị stress và lo âu</h2>
+<p>Các huyệt tai sau đây là cốt lõi của phác đồ nhĩ châm điều trị stress, được sử dụng bởi BS. Nguyễn Đức Tâm tại Phòng Khám Tâm Đức:</p>
+<ul>
+  <li><strong>Thần môn nhĩ (TF4 — Shen Men):</strong> Huyệt quan trọng nhất, nằm ở hố tam giác. Tác dụng: an thần, giảm lo âu, chống stress mạnh nhất trong hệ thống nhĩ huyệt. Đây là huyệt nền tảng của mọi phác đồ nhĩ châm điều trị tâm thần.</li>
+  <li><strong>Tâm nhĩ (CO15 — Heart):</strong> Nằm ở xoắn tai giữa. Tác dụng: bình ổn Tâm thần, giảm hồi hộp, trị mất ngủ do Tâm hỏa vượng.</li>
+  <li><strong>Giao cảm (AH6a — Sympathetic):</strong> Nằm ở rễ đối bình. Tác dụng: điều hòa hệ thần kinh tự chủ, giảm phản ứng "chiến hay chạy" do stress, hạ huyết áp và nhịp tim.</li>
+  <li><strong>Vùng dưới vỏ não (AT4 — Subcortex):</strong> Nằm ở mặt trong bình tai. Tác dụng: điều chỉnh phản ứng stress của vỏ não, cải thiện tập trung và trí nhớ.</li>
+  <li><strong>Nội tiết (CO18 — Endocrine):</strong> Nằm ở chân cẳng chân bình tai. Tác dụng: điều hòa nội tiết tố, giảm cortisol, hỗ trợ chu kỳ kinh nguyệt rối loạn do stress.</li>
+  <li><strong>Thận nhĩ (CO10 — Kidney):</strong> Nằm ở xoắn tai trên. Tác dụng: bổ Thận âm, hỗ trợ các thể Tâm Thận bất giao, lo âu kèm mất ngủ và đau lưng.</li>
+  <li><strong>Can nhĩ (CO12 — Liver):</strong> Tác dụng: sơ Can giải uất, điều trị thể Can khí uất kết, giảm cáu giận và tức ngực.</li>
+</ul>
+
+<h2>Tự thực hành tại nhà — Bấm huyệt nhĩ giảm stress</h2>
+<ul>
+  <li><strong>Chuẩn bị:</strong> Ngồi thẳng lưng, thở sâu 3–5 lần. Dùng ngón trỏ và ngón cái sạch để bấm hoặc day huyệt tai.</li>
+  <li><strong>Tìm huyệt Thần môn nhĩ (TF4):</strong> Đặt ngón trỏ vào hố tam giác — vùng lõm tam giác ở phần trên vành tai trong. Day nhẹ huyệt này theo chiều kim đồng hồ 1–2 phút mỗi bên, cảm giác tê căng nhẹ là đúng huyệt.</li>
+  <li><strong>Day huyệt Giao cảm (AH6a):</strong> Bấm vào điểm nối giữa rễ đối bình và vành tai trong. Giữ áp lực vừa phải trong 30 giây, thở đều, cảm nhận nhịp tim chậm dần.</li>
+  <li><strong>Xoa vành tai toàn phần:</strong> Dùng hai ngón kéo và xoa toàn bộ vành tai từ dưới lên trên, mỗi bên 20–30 lần. Thủ thuật này kích hoạt nhiều huyệt cùng lúc, tăng tuần hoàn và thư giãn toàn thân.</li>
+  <li><strong>Tần suất:</strong> Thực hiện ngày 2 lần, sáng và tối trước khi ngủ. Mỗi buổi 5–10 phút. Kết hợp hít thở sâu bụng khi bấm huyệt để tăng hiệu quả.</li>
+  <li><strong>Lưu ý:</strong> Không thực hiện khi da tai có tổn thương, viêm, hoặc phụ nữ đang mang thai (tránh một số huyệt nhĩ có tác dụng kích thích co bóp tử cung).</li>
+</ul>
+
+<div class="art-cta-box">
+  <p>Nhĩ châm tự thực hành là bước đầu tốt, nhưng để đạt hiệu quả tối ưu trong điều trị stress mạn tính, lo âu và mất ngủ dai dẳng, cần được thầy thuốc thăm khám và biện chứng kỹ lưỡng. <strong>BS. Nguyễn Đức Tâm</strong> tại <strong>Phòng Khám Y học Cổ Truyền Tâm Đức</strong> sẽ tư vấn phác đồ nhĩ châm kết hợp châm cứu toàn thân và thuốc YHCT phù hợp với thể trạng của bạn. Đặt lịch qua hotline <strong>0973 710 237</strong> | Giờ khám: <strong>18:00–22:00 hàng ngày</strong> | <strong>Hà Đông, Hà Nội</strong>.</p>
+</div>
+    `
+  },
+  {
     id: 172,
     slug: "thoai-hoa-cot-song-co-yhct-phan-the-dieu-tri",
     date: "2026-07-29",
