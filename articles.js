@@ -5,6 +5,401 @@
 
 const ARTICLES = [
   {
+    id: 179,
+    slug: "viem-phe-quan-man-tinh-yhct",
+    date: "2026-07-30",
+    category: "mat-benh",
+    categoryLabel: "Mặt bệnh",
+    icon: "🩺",
+    gradient: "g-navy",
+    title: "Viêm phế quản mạn tính theo Y học cổ truyền: Phân thể và phác đồ điều trị toàn diện",
+    excerpt: "Viêm phế quản mạn tính là bệnh lý hô hấp phổ biến, theo Y học cổ truyền thuộc phạm trù \"khái thấu\", \"đàm ẩm\". Bài viết trình bày phân thể lâm sàng và phác đồ điều trị toàn diện bằng châm cứu và bài thuốc YHCT.",
+    readTime: 6,
+    content: `
+<h2>1. Đại cương về viêm phế quản mạn tính</h2>
+<p>Viêm phế quản mạn tính (VPQMT) là tình trạng viêm nhiễm kéo dài niêm mạc phế quản, biểu hiện bằng ho và khạc đàm ít nhất 3 tháng mỗi năm trong 2 năm liên tiếp. Đây là một trong những bệnh lý hô hấp mạn tính phổ biến nhất, ảnh hưởng đến chất lượng cuộc sống của người bệnh rất đáng kể.</p>
+<p>Trong Y học cổ truyền (YHCT), viêm phế quản mạn tính thuộc phạm trù <strong>\"khái thấu\" (ho), \"đàm ẩm\" (đàm thấp tích tụ)</strong> và đôi khi là <strong>\"háo chứng\" (hen suyễn mạn)</strong>. Bệnh liên quan mật thiết đến sự suy yếu của các tạng Phế, Tỳ và Thận — ba tạng giữ vai trò chủ yếu trong điều tiết và phân bố tân dịch, khí và đàm trong cơ thể.</p>
+<p>Nguyên nhân gây bệnh theo YHCT bao gồm:</p>
+<ul>
+  <li><strong>Ngoại tà xâm nhập:</strong> Phong hàn, phong nhiệt, táo tà xâm nhập Phế gây tổn thương Phế khí, mất tuyên giáng dẫn đến ho đàm kéo dài.</li>
+  <li><strong>Tỳ hư sinh đàm:</strong> Tỳ hư không vận hóa thủy thấp, thấp tụ thành đàm, đàm phục ở Phế gây ho đàm mạn tính.</li>
+  <li><strong>Thận hư mất nạp khí:</strong> Thận dương hư không ôn ấm Phế, Thận không nạp khí gây ho suyễn, đặc biệt nặng về mùa đông.</li>
+  <li><strong>Thất tình tổn thương:</strong> Lo lắng kéo dài làm hao Phế khí, buồn bực làm tổn Can gây khí uất hóa hỏa thương Phế.</li>
+</ul>
+
+<h2>2. Phân thể lâm sàng theo Y học cổ truyền</h2>
+<p>YHCT phân chia viêm phế quản mạn tính thành 5 thể chính, mỗi thể có biểu hiện lâm sàng và phương pháp điều trị riêng:</p>
+<ul>
+  <li><strong>Thể Phong hàn phạm Phế:</strong> Ho nhiều, đàm trắng loãng, sợ lạnh, không sốt hoặc sốt nhẹ, mũi nghẹt chảy nước trong, lưỡi nhạt rêu trắng mỏng, mạch phù khẩn. Pháp trị: Tuyên Phế tán hàn, hóa đàm chỉ khái. Bài thuốc tham khảo: <em>Tam ảo thang</em> gia giảm.</li>
+  <li><strong>Thể Đàm nhiệt uất Phế:</strong> Ho nhiều, đàm vàng đặc, khó khạc, họng đau, có thể sốt cao, miệng khô khát, lưỡi đỏ rêu vàng dày, mạch hoạt sác. Pháp trị: Thanh nhiệt tuyên Phế, hóa đàm chỉ khái. Bài thuốc: <em>Thanh kim hóa đàm thang</em>.</li>
+  <li><strong>Thể Đàm thấp trở Phế (Tỳ hư đàm thấp):</strong> Ho đàm nhiều, đàm trắng dính, ngực đầy tức, ăn kém, bụng trướng, mệt mỏi, lưỡi nhạt bệu rêu trắng nhờn, mạch hoạt hoặc nhu hoãn. Pháp trị: Kiện Tỳ táo thấp, hóa đàm giáng nghịch. Bài thuốc: <em>Nhị trần thang</em> kết hợp <em>Tam tử dưỡng thân thang</em>.</li>
+  <li><strong>Thể Phế Thận lưỡng hư:</strong> Ho đàm kéo dài, suyễn tức, hơi thở ngắn, khó thở khi gắng sức, lưng gối đau mỏi, tai ù, ra mồ hôi ban đêm hoặc tứ chi lạnh, lưỡi nhạt, mạch trầm tế. Pháp trị: Bổ Phế ích Thận, nạp khí bình suyễn. Bài thuốc: <em>Thận khí hoàn</em> gia Ngũ vị tử, Đông trùng hạ thảo.</li>
+  <li><strong>Thể Phế âm hư:</strong> Ho khan ít đàm hoặc đàm có dính máu, họng khô, miệng ráo, người gầy, ra mồ hôi đêm, lòng bàn tay bàn chân nóng, lưỡi đỏ ít rêu, mạch tế sác. Pháp trị: Dưỡng âm nhuận Phế, hóa đàm chỉ khái. Bài thuốc: <em>Bách hợp cố kim thang</em>.</li>
+</ul>
+
+<h2>3. Phác đồ châm cứu điều trị</h2>
+<p>Châm cứu đóng vai trò quan trọng trong điều trị và hỗ trợ viêm phế quản mạn tính, giúp tuyên thông Phế khí, hóa đàm bình suyễn và nâng cao chính khí.</p>
+<p><strong>Huyệt vị cơ bản (dùng cho tất cả các thể):</strong></p>
+<ul>
+  <li><strong>Phế du (BL13):</strong> Bối du huyệt của Phế, tuyên Phế lý khí, hóa đàm chỉ khái.</li>
+  <li><strong>Trung phủ (LU1):</strong> Mộ huyệt của Phế, điều Phế khí, chỉ ho suyễn.</li>
+  <li><strong>Định suyễn (EX-B1):</strong> Kinh ngoại kỳ huyệt, bình suyễn giáng nghịch — huyệt đặc hiệu trị ho và suyễn.</li>
+  <li><strong>Thiên đột (CV22):</strong> Tuyên Phế lợi hầu, giảm ho và đàm ở họng phế quản.</li>
+  <li><strong>Phong môn (BL12):</strong> Khu phong tán tà, bảo vệ Phế khỏi ngoại tà.</li>
+</ul>
+<p><strong>Huyệt gia giảm theo thể:</strong></p>
+<ul>
+  <li>Thể Phong hàn: Thêm Liệt khuyết (LU7), Hợp cốc (LI4) — cứu ngải hoặc ôn châm.</li>
+  <li>Thể Đàm nhiệt: Thêm Xích trạch (LU5), Phong long (ST40) — tả pháp.</li>
+  <li>Thể Tỳ hư đàm thấp: Thêm Túc tam lý (ST36), Tỳ du (BL20), Phong long (ST40).</li>
+  <li>Thể Phế Thận lưỡng hư: Thêm Thận du (BL23), Quan nguyên (CV4), Khí hải (CV6) — cứu bổ.</li>
+</ul>
+
+<h2>4. Liệu pháp không dùng thuốc hỗ trợ</h2>
+<p>Bên cạnh châm cứu và thuốc thang, người bệnh viêm phế quản mạn tính nên kết hợp các biện pháp dưỡng sinh:</p>
+<ul>
+  <li><strong>Khí công dưỡng Phế:</strong> Tập thở bụng (phúc thức hô hấp) mỗi sáng 15–20 phút, hít thở sâu để tăng dung tích Phế.</li>
+  <li><strong>Ngũ cầm hí — động tác Chim hạc:</strong> Bài tập khí công mô phỏng hạc trắng, giúp khai thông Phế khí, tăng cường hô hấp.</li>
+  <li><strong>Xông hơi thảo dược:</strong> Xông lá bạc hà, kinh giới, tía tô, hương nhu — khai Phế tán tà, thông mũi họng.</li>
+  <li><strong>Chế độ ăn uống:</strong> Tránh đồ lạnh, đồ sống, đồ béo ngọt gây sinh đàm. Ưu tiên thức ăn ấm, dễ tiêu: cháo hạt ý dĩ, bắp cải, gừng tươi, mật ong pha nước ấm.</li>
+  <li><strong>Tránh tác nhân kích thích:</strong> Khói thuốc lá, bụi, khói bếp, không khí ô nhiễm — yếu tố quan trọng nhất trong phòng ngừa tái phát.</li>
+</ul>
+
+<h2>5. Phòng ngừa và theo dõi lâu dài</h2>
+<p>Viêm phế quản mạn tính là bệnh cần quản lý lâu dài. Theo YHCT, phòng ngừa dựa trên nguyên tắc <strong>\"bổ chính khu tà\"</strong> — tăng cường chính khí để cơ thể đủ sức chống đỡ tà khí:</p>
+<ul>
+  <li>Châm cứu phòng ngừa vào mùa hè (cứu ba ngày Canh theo pháp \"Đông bệnh hạ trị\") giúp giảm số đợt cấp trong mùa đông.</li>
+  <li>Dùng bài thuốc <em>Ngọc bình phong tán</em> (Hoàng kỳ, Bạch truật, Phòng phong) mỗi đợt 1–3 tháng để bổ khí cố biểu, tăng đề kháng.</li>
+  <li>Tiêm phòng cúm hàng năm kết hợp dưỡng sinh theo mùa.</li>
+  <li>Tái khám định kỳ 1–2 tháng/lần để điều chỉnh phác đồ.</li>
+</ul>
+
+<div class="art-cta-box"><p>Viêm phế quản mạn tính cần được chẩn đoán phân thể chính xác và điều trị kiên trì. Tại <strong>Phòng Khám Y học Cổ Truyền Tâm Đức</strong>, <strong>Bác sĩ Nguyễn Đức Tâm</strong> trực tiếp thăm khám, biện chứng từng thể bệnh và xây dựng phác đồ kết hợp châm cứu — thuốc thang — dưỡng sinh phù hợp với từng người bệnh. Liên hệ: <strong>0973 710 237</strong> | Giờ khám: <strong>18:00–22:00 hàng ngày</strong> | Địa chỉ: <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 180,
+    slug: "tra-duong-sinh-yhct",
+    date: "2026-07-30",
+    category: "khong-thuoc",
+    categoryLabel: "Không dùng thuốc",
+    icon: "🧘",
+    gradient: "g-herb",
+    title: "Trà dưỡng sinh theo Y học cổ truyền: Uống trà đúng cách để tăng cường sức khỏe mỗi ngày",
+    excerpt: "Uống trà là một trong những liệu pháp dưỡng sinh không dùng thuốc quan trọng nhất của Y học cổ truyền. Chọn đúng loại trà theo thể trạng và thời điểm trong ngày mang lại lợi ích sức khỏe bền vững.",
+    readTime: 5,
+    content: `
+<h2>1. Vai trò của trà trong Y học cổ truyền</h2>
+<p>Trong Y học cổ truyền phương Đông, trà (茶 — Chá) không chỉ là thức uống thông thường mà là <strong>một vị thuốc dưỡng sinh quan trọng</strong>. Sách <em>Bản thảo cương mục</em> của Lý Thời Trân ghi rõ: \"Trà đắng mà hàn, hạ khí tiêu thực, thanh thần tỉnh mộng, giải nhiệt trừ khát, tiêu đàm lợi niệu, giải độc kiện vị.\"</p>
+<p>Tuy nhiên, không phải ai cũng nên uống cùng một loại trà. YHCT nhấn mạnh nguyên tắc <strong>\"nhân thể biện chứng, nhân thời uống trà\"</strong> — tức là chọn loại trà phù hợp với thể trạng (hàn/nhiệt/hư/thực), tình trạng sức khỏe và thời điểm trong ngày của từng người. Uống trà đúng cách là liệu pháp dưỡng sinh không dùng thuốc, an toàn và có thể thực hành hàng ngày tại nhà.</p>
+
+<h2>2. Phân loại trà theo tính vị trong Y học cổ truyền</h2>
+<p>Các loại trà phổ biến được YHCT phân loại theo tính (hàn – ôn) và vị (đắng – ngọt – chua – mặn) như sau:</p>
+<ul>
+  <li><strong>Trà xanh (Lục trà):</strong> Tính hàn lương, vị đắng ngọt. Tác dụng: Thanh nhiệt giải độc, sinh tân chỉ khát, trừ phiền tiêu thực. Phù hợp với người thể nhiệt, nóng trong người, miệng khô khát. <em>Không nên dùng</em> cho người hư hàn, lạnh bụng, hay tiêu chảy.</li>
+  <li><strong>Trà đen (Hồng trà):</strong> Tính ôn, vị ngọt đắng nhẹ. Tác dụng: Ôn trung tán hàn, giúp tiêu hóa, ấm bụng, lợi tiểu. Phù hợp với người tỳ vị hư hàn, hay lạnh bụng, ăn uống kém tiêu. Đặc biệt tốt vào mùa đông.</li>
+  <li><strong>Trà ô long (Thanh trà):</strong> Tính bình, tác dụng trung hòa giữa lục trà và hồng trà. Thích hợp với hầu hết thể trạng, hỗ trợ tiêu hóa, giảm béo và cân bằng âm dương.</li>
+  <li><strong>Trà pu-erh (Phổ nhĩ):</strong> Tính ôn, vị đắng hậu ngọt. Tác dụng: Hóa đàm tiêu thực, giảm mỡ máu, bổ Tỳ ích Vị. Rất tốt cho người thể đàm thấp, mỡ máu cao, ăn nhiều thịt.</li>
+  <li><strong>Trà trắng (Bạch trà):</strong> Tính hàn lương nhẹ hơn lục trà. Thanh nhiệt giải độc, tốt cho người có nội nhiệt nhẹ, ho khan, họng khô.</li>
+</ul>
+
+<h2>3. Các loại trà dưỡng sinh thảo dược không dùng chè</h2>
+<p>Ngoài các loại trà từ cây chè (Camellia sinensis), YHCT còn sử dụng rộng rãi các loại trà từ thảo dược để điều trị và phòng bệnh:</p>
+<ul>
+  <li><strong>Trà hoa cúc (Cúc hoa trà):</strong> Thanh nhiệt giải độc, minh mục (sáng mắt), hạ huyết áp, giảm căng thẳng. Tốt cho người hay đau đầu, mắt đỏ, huyết áp cao thể Can dương vượng.</li>
+  <li><strong>Trà gừng mật ong:</strong> Ôn trung tán hàn, chỉ nôn, tăng cường tiêu hóa. Tốt cho người hay đau bụng lạnh, buồn nôn, cảm hàn.</li>
+  <li><strong>Trà đỗ trọng:</strong> Bổ Thận mạnh gân cốt, hạ huyết áp, an thai. Tốt cho người đau lưng gối, huyết áp cao thể Thận hư.</li>
+  <li><strong>Trà táo đỏ – kỷ tử:</strong> Bổ huyết dưỡng Can, nâng cao miễn dịch. Tốt cho người huyết hư, mắt kém, mệt mỏi sau bệnh.</li>
+  <li><strong>Trà hoa nhài (Mạt lợi hoa):</strong> Sơ can giải uất, an thần, thơm miệng. Tốt cho người lo âu, căng thẳng, mất ngủ thể Can khí uất kết.</li>
+  <li><strong>Trà bạch hoa xà thiệt thảo:</strong> Thanh nhiệt giải độc, lợi thấp tiêu viêm. Hỗ trợ phòng ngừa u bướu, điều trị viêm nhiễm.</li>
+</ul>
+
+<h2>4. Cách uống trà đúng theo dưỡng sinh</h2>
+<p>YHCT đưa ra những nguyên tắc uống trà để tối đa hóa lợi ích và tránh tác hại:</p>
+<ul>
+  <li><strong>Thời điểm:</strong> Uống trà tốt nhất vào buổi sáng (sau bữa sáng 30 phút) và buổi chiều. <em>Tránh uống trà buổi tối</em> vì caffeine gây mất ngủ; tránh uống khi bụng đói gây kích ứng dạ dày.</li>
+  <li><strong>Nhiệt độ:</strong> Uống trà ấm vừa (50–60°C), không uống trà quá nóng (dễ tổn thương thực quản, dạ dày) hoặc quá lạnh (ảnh hưởng Tỳ Vị).</li>
+  <li><strong>Liều lượng:</strong> Mỗi ngày 2–3 tách nhỏ (200–300ml/tách) là đủ. Không nên uống quá 6 tách/ngày.</li>
+  <li><strong>Không pha trà đặc:</strong> Trà đặc chứa nhiều tanin, gây khó ngủ, ức chế hấp thụ sắt và khoáng chất.</li>
+  <li><strong>Không uống trà kèm thuốc:</strong> Tanin trong trà có thể làm giảm hấp thu của nhiều loại thuốc, cần cách nhau ít nhất 1–2 giờ.</li>
+  <li><strong>Phụ nữ có thai:</strong> Hạn chế hoặc tránh uống trà xanh đặc; trà gừng mật ong liều thấp có thể dùng khi có ý kiến bác sĩ.</li>
+</ul>
+
+<h2>5. Gợi ý lịch uống trà dưỡng sinh trong ngày</h2>
+<p>Để tối ưu hóa hiệu quả dưỡng sinh, có thể tham khảo lịch uống trà theo nhịp sinh học của cơ thể:</p>
+<ul>
+  <li><strong>7:00–9:00 sáng (giờ Thìn — Vị kinh):</strong> Uống 1 tách trà ô long hoặc trà đen ấm sau bữa sáng, giúp tiêu hóa và khởi động năng lượng.</li>
+  <li><strong>10:00–11:00 (buổi sáng muộn):</strong> Uống 1 tách trà xanh nhạt hoặc trà hoa cúc, thanh tâm tỉnh não, tăng tập trung.</li>
+  <li><strong>15:00–17:00 (giờ Thân — Bàng quang kinh):</strong> Uống 1 tách trà pu-erh hoặc trà táo đỏ kỷ tử, bổ khí huyết, hồi phục năng lượng chiều.</li>
+  <li><strong>Buổi tối (sau 19:00):</strong> Thay trà bằng trà thảo dược không caffeine: trà hoa nhài pha loãng, trà táo đỏ – long nhãn để an thần, chuẩn bị giấc ngủ.</li>
+</ul>
+
+<div class="art-cta-box"><p>Uống trà đúng cách theo thể trạng là một trong những liệu pháp dưỡng sinh không dùng thuốc hiệu quả và dễ thực hành nhất. Nếu bạn chưa biết thể trạng của mình là hàn hay nhiệt, hư hay thực, hãy đến thăm khám tại <strong>Phòng Khám Y học Cổ Truyền Tâm Đức</strong>. <strong>Bác sĩ Nguyễn Đức Tâm</strong> sẽ tứ chẩn (vọng, văn, vấn, thiết) và tư vấn loại trà, chế độ dưỡng sinh phù hợp nhất với bạn. Liên hệ: <strong>0973 710 237</strong> | Giờ khám: <strong>18:00–22:00 hàng ngày</strong> | Địa chỉ: <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 181,
+    slug: "ngoc-binh-phong-tan",
+    date: "2026-07-30",
+    category: "thuoc-yhct",
+    categoryLabel: "Thuốc YHCT",
+    icon: "🌿",
+    gradient: "g-fire",
+    title: "Ngọc bình phong tán — Bài thuốc bổ khí cố biểu, phòng cảm mạo kinh điển của Y học cổ truyền",
+    excerpt: "Ngọc bình phong tán là bài thuốc kinh điển chỉ gồm 3 vị nhưng có tác dụng bổ khí vệ, cố bì mao, phòng ngừa cảm mạo hiệu quả. Bài thuốc được ví như \"bức màn ngọc\" bảo vệ cơ thể trước ngoại tà.",
+    readTime: 5,
+    content: `
+<h2>1. Nguồn gốc và tên gọi</h2>
+<p>Ngọc bình phong tán (玉屏風散) là bài thuốc kinh điển của Y học cổ truyền, được ghi chép lần đầu trong sách <em>Đan khê tâm pháp</em> của Chu Đan Khê (đời Nguyên, thế kỷ XIII) và sau đó được phổ biến rộng rãi trong <em>Y phương tập giải</em>.</p>
+<p>Tên bài thuốc mang ý nghĩa sâu sắc: <strong>\"Ngọc bình phong\"</strong> — tức là <em>bức bình phong (tấm màn chắn) bằng ngọc</em>. Đây là hình ảnh ẩn dụ chỉ tác dụng của bài thuốc: tạo ra một lớp phòng thủ vững chắc như bức bình ngọc bảo vệ cơ thể khỏi ngoại tà (gió, lạnh, vi khuẩn, virus), giống như tấm bình phong che gió trong phòng.</p>
+<p>Trong thực hành lâm sàng hiện đại, Ngọc bình phong tán được nghiên cứu rộng rãi và chứng minh có tác dụng điều hòa miễn dịch, tăng cường phản ứng bảo vệ của cơ thể, giảm tần suất cảm cúm và các bệnh đường hô hấp trên.</p>
+
+<h2>2. Thành phần và vai trò từng vị thuốc</h2>
+<p>Ngọc bình phong tán chỉ gồm 3 vị thuốc đơn giản nhưng phối hợp tinh tế:</p>
+<ul>
+  <li><strong>Hoàng kỳ (Astragalus membranaceus) — 30g:</strong> Vị thuốc chủ dược (quân dược). Tính ôn, vị ngọt. Công năng: Bổ trung ích khí, thăng Dương cử hãm, ích vệ cố biểu, lợi thủy tiêu thũng, thác độc sinh cơ. Hoàng kỳ bổ Phế khí và Vệ khí — tầng bảo vệ ngoài cùng của cơ thể. Đây là vị thuốc số một trong bổ khí vệ.</li>
+  <li><strong>Bạch truật (Atractylodes macrocephala) — 60g:</strong> Thần dược (hỗ trợ chủ dược). Tính ôn, vị ngọt đắng. Công năng: Kiện Tỳ ích khí, táo thấp lợi thủy, chỉ hãn, an thai. Bạch truật kiện Tỳ — căn gốc của khí hậu thiên, giúp Tỳ hóa khí đủ để nuôi dưỡng Vệ khí. Tỳ mạnh thì Phế mạnh (Thổ sinh Kim), vệ khí đầy đủ.</li>
+  <li><strong>Phòng phong (Saposhnikovia divaricata) — 30g:</strong> Tá và sứ dược. Tính ôn, vị ngọt cay. Công năng: Khu phong giải biểu, thắng thấp chỉ đau, chỉ kinh, chỉ huyết. Phòng phong có tính năng động, đi ra biểu để khu phong tán tà; phối với Hoàng kỳ thì bổ mà không sợ để tà lưu, khu tà mà không hao chính khí.</li>
+</ul>
+<p><strong>Phối ngũ tinh tế:</strong> Hoàng kỳ + Bạch truật bổ khí vệ và kiện Tỳ (bổ chính); Phòng phong khu phong tán tà (khu tà). Ba vị tạo thế cân bằng: bổ chính khí không để tà lưu, khu ngoại tà không hao chính khí — đây là lý do bài thuốc có thể dùng dài ngày để phòng bệnh.</p>
+
+<h2>3. Cơ chế tác dụng theo Y học cổ truyền</h2>
+<p>Bài thuốc tác động theo cơ chế <strong>\"bổ Tỳ thực Phế, ích khí cố biểu\"</strong>:</p>
+<ul>
+  <li>Tỳ là căn bản của khí hậu thiên — kiện Tỳ để có nguồn sinh khí liên tục.</li>
+  <li>Phế chủ bì mao, chủ Vệ khí — Phế đủ thì Vệ khí sung mãn, da lông được nuôi dưỡng và bảo vệ tốt.</li>
+  <li>Vệ khí vận hành ở ngoại biểu (da, cơ nhục, tấu lý) — khi Vệ khí đủ mạnh thì tấu lý chặt chẽ, ngoại tà không dễ xâm nhập.</li>
+  <li>Phòng phong tiếp thêm tác dụng \"tuần tra\" ở biểu, khu đuổi phong tà trước khi chúng có cơ hội vào sâu bên trong.</li>
+</ul>
+
+<h2>4. Chỉ định lâm sàng</h2>
+<p>Ngọc bình phong tán được chỉ định trong các trường hợp:</p>
+<ul>
+  <li><strong>Biểu hư tự hãn:</strong> Người hay ra mồ hôi tự phát (tự hãn) khi không vận động, mồ hôi trộm (đạo hãn), mồ hôi nhiều khi hoạt động nhẹ — do Vệ khí hư, không cố nhiếp được tân dịch.</li>
+  <li><strong>Phòng ngừa cảm mạo tái phát:</strong> Người hay bị cảm cúm, viêm đường hô hấp trên nhiều lần trong năm, đặc biệt khi thời tiết thay đổi. Dùng như bài thuốc dự phòng trong các tháng giao mùa.</li>
+  <li><strong>Dị ứng hô hấp mạn tính:</strong> Viêm mũi dị ứng, hen phế quản thể dị ứng — hỗ trợ nâng cao sức đề kháng, giảm tần suất và mức độ lên cơn.</li>
+  <li><strong>Suy giảm miễn dịch:</strong> Người hậu COVID-19, sau điều trị ung thư, người cao tuổi sức đề kháng kém, hay ốm vặt.</li>
+  <li><strong>Trẻ em hay cảm vặt:</strong> Trẻ tỳ vị yếu, hay bị viêm họng, viêm phế quản tái phát — dùng liều thấp hơn người lớn.</li>
+</ul>
+
+<h2>5. Chống chỉ định và thận trọng</h2>
+<p>Mặc dù là bài thuốc tương đối an toàn, Ngọc bình phong tán cần lưu ý các trường hợp sau:</p>
+<ul>
+  <li><strong>Không dùng khi đang bị cảm mạo cấp:</strong> Bài thuốc bổ khí cố biểu, nếu dùng khi ngoại tà chưa được giải sẽ \"đóng cửa nhốt giặc\" — giữ tà bên trong, khiến bệnh nặng hơn. Cần chữa hết cảm cúm cấp rồi mới dùng bài phòng ngừa này.</li>
+  <li><strong>Âm hư có nội nhiệt:</strong> Người thể âm hư hỏa vượng, hay bốc hỏa, ra mồ hôi đêm nhiều kèm nóng trong người — không phù hợp vì Hoàng kỳ tính ôn có thể làm tăng nội nhiệt.</li>
+  <li><strong>Thấp nhiệt nội thịnh:</strong> Người béo phì, đàm nhiệt nhiều, rêu lưỡi vàng dày — không phù hợp.</li>
+  <li><strong>Phụ nữ có thai:</strong> Cần tham khảo ý kiến thầy thuốc trước khi dùng.</li>
+  <li><strong>Liều lượng và dạng bào chế:</strong> Có thể dùng dạng thang sắc, viên hoàn hoặc dạng chiết xuất chuẩn hóa. Thời gian điều trị thường 4–8 tuần, sau đó nghỉ và đánh giá lại.</li>
+</ul>
+
+<div class="art-cta-box"><p>Ngọc bình phong tán là bài thuốc dự phòng lý tưởng cho người hay cảm vặt, sức đề kháng kém, tự ra mồ hôi nhiều. Tuy nhiên, cần biện chứng đúng thể trạng trước khi sử dụng. Để được thăm khám và tư vấn liệu pháp phù hợp, hãy liên hệ <strong>Phòng Khám Y học Cổ Truyền Tâm Đức</strong> — <strong>Bác sĩ Nguyễn Đức Tâm</strong>. Điện thoại: <strong>0973 710 237</strong> | Giờ khám: <strong>18:00–22:00 hàng ngày</strong> | Địa chỉ: <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 182,
+    slug: "phong-ngua-benh-ly-tuyen-tien-liet-yhct",
+    date: "2026-07-30",
+    category: "phong-benh",
+    categoryLabel: "Phòng bệnh",
+    icon: "🛡️",
+    gradient: "g-amber",
+    title: "Phòng ngừa bệnh lý tuyến tiền liệt theo Y học cổ truyền: Bảo Thận dưỡng khí để giữ sức khỏe nam giới",
+    excerpt: "Phì đại lành tính và viêm tuyến tiền liệt ngày càng phổ biến ở nam giới trung niên. Y học cổ truyền nhìn nhận đây là hậu quả của Thận hư, khí trệ, huyết ứ và có nhiều biện pháp phòng ngừa hiệu quả từ lối sống đến thảo dược.",
+    readTime: 5,
+    content: `
+<h2>1. Tuyến tiền liệt trong quan điểm Y học cổ truyền</h2>
+<p>Tuyến tiền liệt là một tạng quan trọng đặc thù của nam giới, không có tên gọi riêng trong YHCT cổ điển nhưng được liên hệ chặt chẽ với tạng <strong>Thận</strong> và phủ <strong>Bàng quang</strong>. Theo YHCT, Thận tàng tinh, chủ sinh dục và tiết niệu; mọi rối loạn về nước tiểu, sinh lý và sinh sản ở nam giới đều liên quan đến Thận.</p>
+<p>Phì đại tuyến tiền liệt lành tính (BPH) và viêm tuyến tiền liệt mạn tính trong YHCT thuộc phạm trù <strong>\"long bế\" (bí tiểu), \"lâm chứng\" (tiểu buốt, tiểu rắt)</strong> và liên quan đến các bệnh cơ chế:</p>
+<ul>
+  <li><strong>Thận hư:</strong> Thận dương hư không khí hóa Bàng quang → tiểu nhiều lần, tiểu đêm, tiểu không hết, không có lực.</li>
+  <li><strong>Khí trệ huyết ứ:</strong> Khí không vận hành thông suốt vùng hạ tiêu, huyết ứ tích tụ → tuyến tiền liệt xơ hóa, phì đại.</li>
+  <li><strong>Thấp nhiệt hạ chú:</strong> Thấp nhiệt dồn xuống hạ tiêu → viêm tuyến tiền liệt cấp và mạn tính, tiểu buốt, tiểu rắt.</li>
+</ul>
+
+<h2>2. Yếu tố nguy cơ và thói quen gây hại</h2>
+<p>YHCT xác định nhiều yếu tố trong lối sống và thói quen sinh hoạt góp phần gây ra bệnh lý tuyến tiền liệt:</p>
+<ul>
+  <li><strong>Ngồi nhiều, ít vận động:</strong> Khí trệ huyết ứ vùng hạ tiêu và vùng chậu, cản trở lưu thông khí huyết đến tuyến tiền liệt.</li>
+  <li><strong>Quan hệ tình dục quá mức hoặc xuất tinh cưỡng ép:</strong> Hao tổn Thận tinh, dẫn đến Thận hư sớm.</li>
+  <li><strong>Nhịn tiểu kéo dài:</strong> Khí trệ Bàng quang, ứ đọng gây viêm nhiễm ngược dòng.</li>
+  <li><strong>Thức ăn cay nóng, rượu bia, thuốc lá:</strong> Sinh thấp nhiệt, dồn xuống hạ tiêu kích thích viêm tuyến tiền liệt.</li>
+  <li><strong>Căng thẳng mạn tính:</strong> Can khí uất kết → khí trệ vùng hạ tiêu, ảnh hưởng tiết niệu và sinh dục.</li>
+  <li><strong>Lạnh vùng thắt lưng hông:</strong> Hàn tà xâm nhập Thận và Bàng quang gây co thắt cơ sàn chậu.</li>
+</ul>
+
+<h2>3. Biện pháp phòng ngừa từ lối sống theo Y học cổ truyền</h2>
+<p>Phòng ngừa bệnh lý tuyến tiền liệt theo YHCT tập trung vào nguyên tắc <strong>\"bảo Thận, thông khí, tán ứ\"</strong>:</p>
+<ul>
+  <li><strong>Vận động thường xuyên:</strong> Đi bộ 30 phút/ngày, đặc biệt bài tập Kegel (co cơ sàn chậu) hỗ trợ lưu thông khí huyết vùng hạ tiêu, tăng cường cơ bàng quang.</li>
+  <li><strong>Ngồi đúng tư thế:</strong> Không ngồi liên tục quá 2 tiếng; đứng dậy đi lại 5–10 phút mỗi 1–2 tiếng để tránh khí trệ huyết ứ vùng chậu.</li>
+  <li><strong>Uống đủ nước:</strong> 1,5–2 lít nước mỗi ngày (giảm vào buổi tối để không tiểu đêm nhiều). Đủ nước giúp \"rửa\" đường tiết niệu, giảm nguy cơ viêm nhiễm.</li>
+  <li><strong>Không nhịn tiểu:</strong> Đi tiểu ngay khi có nhu cầu, không để bàng quang căng đầy quá lâu.</li>
+  <li><strong>Tránh lạnh vùng lưng hông:</strong> Mặc ấm mùa đông, không ngồi nơi ẩm ướt lạnh, tránh tắm nước lạnh đột ngột.</li>
+  <li><strong>Chế độ tình dục điều độ:</strong> Tránh thái quá hoặc ức chế hoàn toàn — cả hai đều có hại cho Thận khí và tuyến tiền liệt.</li>
+</ul>
+
+<h2>4. Chế độ ăn uống phòng ngừa</h2>
+<p>Thực phẩm có vai trò quan trọng trong phòng ngừa bệnh tuyến tiền liệt theo YHCT:</p>
+<ul>
+  <li><strong>Bổ Thận dương:</strong> Hạt dẻ, quả óc chó, hạt bí ngô (giàu kẽm, tốt cho tuyến tiền liệt), tôm, cua, thịt dê — ôn thận trợ dương.</li>
+  <li><strong>Bổ Thận âm và dưỡng tinh:</strong> Kỷ tử, hắc chi ma (vừng đen), địa hoàng, tang thầm (quả dâu tằm), trứng — tư bổ thận tinh.</li>
+  <li><strong>Thanh thấp nhiệt hạ tiêu:</strong> Đậu đỏ, ý dĩ (hạt bo bo), bí xanh, rau má — lợi thấp thanh nhiệt.</li>
+  <li><strong>Hoạt huyết hóa ứ:</strong> Cà chua (giàu lycopene), dầu ô liu, nghệ, nấm — thực phẩm chống oxy hóa, giảm viêm.</li>
+  <li><strong>Hạn chế:</strong> Rượu bia, cà phê, thức ăn cay nóng, đồ chiên rán, thức ăn chế biến sẵn — đều sinh thấp nhiệt và tăng viêm.</li>
+</ul>
+
+<h2>5. Bài tập dưỡng sinh và huyệt vị tự bấm phòng ngừa</h2>
+<p>Các bài tập và huyệt vị tự bấm tại nhà giúp phòng ngừa hiệu quả:</p>
+<ul>
+  <li><strong>Bài tập \"Dung gối đầu gối\":</strong> Nằm ngửa, co hai đầu gối lên bụng, ôm gối và lắc nhẹ trái phải 20–30 lần — kích thích khí huyết vùng hạ tiêu và vùng chậu.</li>
+  <li><strong>Xoa bụng dưới:</strong> Xoa tròn quanh rốn và hạ bụng 50–100 vòng mỗi sáng tối, giúp vận hành khí vùng Đan điền.</li>
+  <li><strong>Tự bấm huyệt Quan nguyên (CV4):</strong> Dưới rốn 3 thốn, bấm và day nhẹ 2–3 phút mỗi ngày — bổ Thận khí, điều tiết tiểu tiện.</li>
+  <li><strong>Tự bấm huyệt Tam âm giao (SP6):</strong> Trên mắt cá trong 3 thốn, bấm day 2–3 phút — bổ Tỳ Thận Can, thông tiểu tiện.</li>
+  <li><strong>Vươn người, xoay eo:</strong> Mỗi sáng xoay eo 50 vòng mỗi chiều — sơ thông khí huyết vùng hông, phòng khí trệ huyết ứ.</li>
+</ul>
+
+<div class="art-cta-box"><p>Bệnh lý tuyến tiền liệt hoàn toàn có thể phòng ngừa và làm chậm tiến triển bằng lối sống lành mạnh kết hợp dưỡng sinh YHCT từ sớm. Nếu bạn đã có triệu chứng tiểu đêm, tiểu rắt, tiểu không hết, hãy đến khám sớm tại <strong>Phòng Khám Y học Cổ Truyền Tâm Đức</strong>. <strong>Bác sĩ Nguyễn Đức Tâm</strong> sẽ thăm khám và tư vấn phác đồ phòng ngừa, điều trị phù hợp. Liên hệ: <strong>0973 710 237</strong> | Giờ khám: <strong>18:00–22:00 hàng ngày</strong> | Địa chỉ: <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 183,
+    slug: "phuong-huyet-dieu-tri-vo-sinh",
+    date: "2026-07-30",
+    category: "phuong-huyet",
+    categoryLabel: "Phương huyệt",
+    icon: "📍",
+    gradient: "g-huyet",
+    title: "Phương huyệt điều trị vô sinh nam và nữ theo Y học cổ truyền: Điều hòa Thận – Thiên quý để có con",
+    excerpt: "Châm cứu và phương huyệt điều trị vô sinh đã được ứng dụng trong Y học cổ truyền hàng ngàn năm với cơ sở lý luận vững chắc về Thận và Thiên quý. Bài viết trình bày các huyệt vị chính và phác đồ châm cứu hỗ trợ điều trị vô sinh nam và nữ.",
+    readTime: 6,
+    content: `
+<h2>1. Vô sinh nhìn từ lý luận Y học cổ truyền</h2>
+<p>Trong Y học cổ truyền, sinh sản được điều hành bởi <strong>Thận và Thiên quý</strong>. Sách <em>Tố vấn — Thượng cổ thiên chân luận</em> ghi rõ: ở nữ, Thiên quý đến khi 14 tuổi (2 × 7), Nhâm mạch thông, Thái xung mạch vượng thì có kinh và có thể có thai; ở nam, Thận khí sung mãn khi 16 tuổi (2 × 8), tinh khí tràn đầy, mới có thể sinh con.</p>
+<p>Vô sinh theo YHCT thường do các nguyên nhân:</p>
+<ul>
+  <li><strong>Thận hư:</strong> Thận âm hư (tinh huyết không đủ) hoặc Thận dương hư (không ôn dưỡng được tử cung, tinh dịch lạnh loãng).</li>
+  <li><strong>Khí huyết hư nhược:</strong> Khí huyết không đủ nuôi dưỡng tử cung, buồng trứng; tinh dịch loãng, số lượng tinh trùng thấp.</li>
+  <li><strong>Can khí uất kết:</strong> Căng thẳng, lo âu kéo dài làm Can khí uất kết, ảnh hưởng trứng rụng và chất lượng tinh trùng.</li>
+  <li><strong>Đàm thấp trở trệ:</strong> Đàm thấp ngăn cản trứng rụng, tắc vòi trứng; ở nam làm tinh hoàn không hoạt động tốt.</li>
+  <li><strong>Huyết ứ:</strong> Lạc mạch ứ trệ gây dính tử cung, lạc nội mạc tử cung; ở nam gây giãn tĩnh mạch thừng tinh.</li>
+</ul>
+
+<h2>2. Huyệt vị chính trong phác đồ điều trị vô sinh nữ</h2>
+<p>Phác đồ châm cứu điều trị vô sinh nữ tập trung vào điều hòa Thận, Xung mạch, Nhâm mạch và Can Tỳ:</p>
+<ul>
+  <li><strong>Quan nguyên (CV4 — Nhâm mạch):</strong> Vị trí: dưới rốn 3 thốn, đường giữa bụng. Công năng: Bổ Thận cố tinh, ôn dương tán hàn, điều Xung Nhâm. Đây là huyệt quan trọng nhất điều trị vô sinh nữ do Thận hư, tử cung lạnh. Kết hợp cứu ngải ôn ấm mạnh.</li>
+  <li><strong>Tử cung (EX-CA1 — Kinh ngoại kỳ huyệt):</strong> Vị trí: dưới rốn 4 thốn, cạnh đường giữa bụng 3 thốn (hai bên). Công năng: Đặc hiệu điều trị bệnh tử cung, điều kinh trợ thai, kích thích lưu thông khí huyết tử cung — buồng trứng.</li>
+  <li><strong>Tam âm giao (SP6 — Tỳ kinh):</strong> Vị trí: trên mắt cá chân trong 3 thốn, mép sau xương chày. Công năng: Giao điểm của Tỳ – Can – Thận kinh; bổ Tỳ Thận, dưỡng huyết điều kinh, thông tiểu tiện. Huyệt then chốt trong mọi phác đồ phụ khoa YHCT.</li>
+  <li><strong>Huyết hải (SP10 — Tỳ kinh):</strong> Vị trí: trên xương bánh chè 2 thốn phía trong đùi. Công năng: Hoạt huyết điều kinh, lương huyết hóa ứ — điều trị vô sinh do huyết ứ, lạc nội mạc tử cung.</li>
+  <li><strong>Thận du (BL23 — Bàng quang kinh):</strong> Vị trí: dưới mỏm gai đốt sống thắt lưng L2, cạnh đường giữa lưng 1,5 thốn. Công năng: Bối du huyệt của Thận, bổ Thận ích tinh, điều Xung Nhâm. Dùng thủ pháp bổ và cứu ôn châm.</li>
+  <li><strong>Túc tam lý (ST36 — Vị kinh):</strong> Vị trí: dưới mắt gối ngoài 3 thốn. Công năng: Bổ Tỳ Vị, ích khí huyết, điều Xung mạch — tăng cường nguồn sinh hóa khí huyết nuôi dưỡng tử cung.</li>
+  <li><strong>Thái xung (LR3 — Can kinh):</strong> Vị trí: khe giữa ngón chân I và II, sau khớp bàn ngón 2 thốn. Công năng: Sơ Can giải uất, điều kinh — trị vô sinh do Can khí uất kết, rối loạn trứng rụng.</li>
+</ul>
+
+<h2>3. Huyệt vị chính trong phác đồ điều trị vô sinh nam</h2>
+<p>Phác đồ châm cứu điều trị vô sinh nam tập trung bổ Thận tráng dương, ích tinh hoạt huyết:</p>
+<ul>
+  <li><strong>Quan nguyên (CV4):</strong> Bổ Thận cố tinh, ôn dương — huyệt hàng đầu cho cả vô sinh nam và nữ. Kết hợp cứu ngải mỗi liệu trình.</li>
+  <li><strong>Mệnh môn (GV4 — Đốc mạch):</strong> Vị trí: dưới mỏm gai đốt sống L2 (giữa hai Thận du). Công năng: Bổ Thận dương, ôn mệnh môn hỏa, tráng dương ích tinh. Huyệt đặc hiệu bổ Thận dương cho nam giới.</li>
+  <li><strong>Thận du (BL23):</strong> Bổ Thận ích tinh, tăng sản xuất tinh trùng chất lượng cao.</li>
+  <li><strong>Tam âm giao (SP6):</strong> Bổ Tỳ Thận, ích tinh huyết — huyệt quan trọng trong mọi phác đồ bổ Thận nam.</li>
+  <li><strong>Tinh cung (EX-B8 — Kinh ngoại kỳ):</strong> Vị trí: dưới mỏm gai L4, cạnh đường giữa lưng 3 thốn. Công năng: Điều trị đặc hiệu bệnh tinh dịch, tăng số lượng và chất lượng tinh trùng.</li>
+</ul>
+
+<h2>4. Kỹ thuật châm cứu và liệu trình</h2>
+<p>Phác đồ châm cứu vô sinh cần được thực hiện bởi bác sĩ YHCT có kinh nghiệm, với những lưu ý kỹ thuật quan trọng:</p>
+<ul>
+  <li><strong>Liệu trình:</strong> Thường 3–6 tháng liên tục. Với vô sinh nữ, châm cứu phối hợp theo chu kỳ kinh nguyệt: giai đoạn nang trứng (ngày 1–14) dùng huyệt bổ Thận dưỡng huyết; giai đoạn hoàng thể (ngày 14–28) dùng huyệt bổ Thận ôn dương, dưỡng thai.</li>
+  <li><strong>Tần suất:</strong> 3 lần/tuần trong giai đoạn điều trị tích cực; giảm còn 1–2 lần/tuần khi duy trì.</li>
+  <li><strong>Thủ pháp:</strong> Chủ yếu dùng bổ pháp (thủ pháp nhẹ, thời gian lưu kim 20–30 phút). Với thể huyết ứ, Can uất dùng tả hoặc bình bổ bình tả.</li>
+  <li><strong>Kết hợp cứu ngải:</strong> Cứu ôn châm tại Quan nguyên, Thận du, Mệnh môn — đặc biệt với thể Thận dương hư, tử cung lạnh.</li>
+</ul>
+
+<h2>5. Phối hợp bài thuốc YHCT trong điều trị vô sinh</h2>
+<p>Châm cứu thường được phối hợp với thuốc thang để tăng hiệu quả:</p>
+<ul>
+  <li><strong>Vô sinh nữ thể Thận hư:</strong> <em>Tả quy hoàn</em> (Thận âm hư) hoặc <em>Hữu quy hoàn</em> (Thận dương hư) — bổ Thận điền tinh, ôn dưỡng tử cung.</li>
+  <li><strong>Vô sinh nữ thể Can uất khí trệ:</strong> <em>Tiêu dao tán</em> gia Hương phụ, Ích mẫu thảo — sơ Can điều kinh.</li>
+  <li><strong>Vô sinh nam thể Thận dương hư:</strong> <em>Hữu quy hoàn</em> hoặc <em>Kim tỏa cố tinh hoàn</em> gia giảm — bổ Thận dương, ích tinh sinh tinh.</li>
+  <li><strong>Vô sinh nam thể Thận âm hư:</strong> <em>Lục vị địa hoàng hoàn</em> gia Ngũ vị tử, Câu kỷ tử — tư Thận âm dưỡng tinh.</li>
+</ul>
+
+<div class="art-cta-box"><p>Điều trị vô sinh theo Y học cổ truyền đòi hỏi biện chứng chính xác và kiên trì theo liệu trình. Tại <strong>Phòng Khám Y học Cổ Truyền Tâm Đức</strong>, <strong>Bác sĩ Nguyễn Đức Tâm</strong> có nhiều kinh nghiệm trong điều trị vô sinh nam và nữ bằng châm cứu kết hợp thuốc thang YHCT, hỗ trợ hệ sinh sản một cách toàn diện và tự nhiên. Liên hệ đặt lịch khám: <strong>0973 710 237</strong> | Giờ khám: <strong>18:00–22:00 hàng ngày</strong> | Địa chỉ: <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 184,
+    slug: "dieu-tri-phong-ngua-nep-nhan-yhct",
+    date: "2026-07-30",
+    category: "lam-dep",
+    categoryLabel: "Làm đẹp",
+    icon: "🌸",
+    gradient: "g-rose",
+    title: "Điều trị và phòng ngừa nếp nhăn theo Y học cổ truyền: Dưỡng Tỳ – Phế để da căng mịn từ bên trong",
+    excerpt: "Nếp nhăn không chỉ là dấu hiệu của lão hóa mà còn phản ánh tình trạng nội tạng theo Y học cổ truyền. Bài viết trình bày cách YHCT điều trị nếp nhăn từ gốc rễ — cả bên trong lẫn bên ngoài — để nhan sắc bền lâu.",
+    readTime: 5,
+    content: `
+<h2>1. Nếp nhăn nhìn từ lý luận Y học cổ truyền</h2>
+<p>Theo Y học cổ truyền (YHCT), làn da và nét đẹp dung nhan là biểu hiện bên ngoài của sức khỏe nội tạng. Sách <em>Linh khu</em> ghi: <strong>\"Phế hợp bì mao\"</strong> — Phế chủ về da và lông; <strong>\"Tỳ chủ cơ nhục\"</strong> — Tỳ vị nuôi dưỡng cơ, da và toàn thân; <strong>\"Can tàng huyết\"</strong> — Can dự trữ huyết dịch nuôi dưỡng da mặt.</p>
+<p>Nếp nhăn xuất hiện sớm hoặc nhiều là biểu hiện của các rối loạn nội tạng sau:</p>
+<ul>
+  <li><strong>Tỳ hư sinh đàm thấp:</strong> Tỳ hư không vận hóa thủy cốc, da thiếu chất nuôi dưỡng, mất đàn hồi, chảy xệ.</li>
+  <li><strong>Phế âm hư:</strong> Phế âm không đủ, da mất độ ẩm, khô ráo, bong tróc và nhăn sớm.</li>
+  <li><strong>Thận tinh hư:</strong> Thận là cơ sở của tiên thiên, Thận tinh hư → lão hóa sớm toàn thân, da nhăn nheo, tóc bạc, mắt mờ.</li>
+  <li><strong>Huyết hư Can uất:</strong> Huyết không đủ nuôi da mặt → da vàng xỉn, thiếu sắc, nhăn; Can uất → sắc mặt u ám, nếp nhăn vùng trán và giữa 2 lông mày.</li>
+  <li><strong>Khí trệ huyết ứ:</strong> Lưu thông khí huyết kém → da mặt thiếu oxy, tế bào da lão hóa nhanh, xuất hiện đốm nám và nếp nhăn sâu.</li>
+</ul>
+
+<h2>2. Đọc vị trí nếp nhăn theo tạng phủ</h2>
+<p>YHCT có hệ thống \"biện chứng da mặt\" — mỗi vùng trên khuôn mặt phản ánh một tạng phủ nhất định:</p>
+<ul>
+  <li><strong>Nếp nhăn vùng trán cao:</strong> Liên quan đến Tỳ Vị và ruột — ăn uống kém, tiêu hóa yếu.</li>
+  <li><strong>Nếp nhăn giữa 2 lông mày (nhân đường):</strong> Liên quan đến Can Đởm — căng thẳng, uất ức, nóng giận thường xuyên.</li>
+  <li><strong>Nếp nhăn đuôi mắt (chân chim):</strong> Liên quan đến Thận — Thận tinh huy, lão hóa toàn thân.</li>
+  <li><strong>Nếp nhăn rãnh mũi — má (rãnh mũi miệng):</strong> Liên quan đến Phế và Đại trường — táo bón, Phế khí hư, độ ẩm da kém.</li>
+  <li><strong>Nếp nhăn vùng miệng, môi:</strong> Liên quan đến Tỳ Vị — tiêu hóa hấp thu kém, dinh dưỡng thiếu.</li>
+  <li><strong>Nếp nhăn cổ:</strong> Liên quan đến Thận và toàn thân — lão hóa tổng thể, thiếu tân dịch.</li>
+</ul>
+
+<h2>3. Điều trị từ bên trong — Nội trị bằng thảo dược</h2>
+<p>YHCT chú trọng điều trị từ gốc rễ bên trong (nội trị) để làm đẹp bền vững:</p>
+<ul>
+  <li><strong>Bổ Phế dưỡng âm, nhuận da:</strong> Bài thuốc <em>Bách hợp cố kim thang</em> gia Ngọc trúc, Sa sâm — dưỡng Phế âm, tăng độ ẩm da từ bên trong. Vị thuốc Ngọc trúc (Polygonatum odoratum) đặc biệt tốt cho da khô nhăn do Phế âm hư.</li>
+  <li><strong>Bổ Tỳ ích khí, nuôi da:</strong> <em>Bổ trung ích khí thang</em> gia Bạch linh, Ý dĩ — kiện Tỳ sinh hóa khí huyết, da được nuôi dưỡng đầy đủ.</li>
+  <li><strong>Bổ Thận điền tinh, chống lão hóa:</strong> <em>Lục vị địa hoàng hoàn</em> gia Nữ trinh tử, Hà thủ ô — tư bổ Thận tinh, làm chậm lão hóa toàn thân và da.</li>
+  <li><strong>Dưỡng huyết hoạt huyết, nuôi da mặt:</strong> <em>Tứ vật thang</em> gia Đan sâm, Hồng hoa — dưỡng huyết, hoạt huyết đưa dinh dưỡng đến da mặt.</li>
+  <li><strong>Vị thuốc đơn hỗ trợ chống nhăn:</strong> Ngân nhĩ (nấm tuyết), Long nhãn nhục, Câu kỷ tử, Hạt ý dĩ — các vị thuốc này giàu collagen tự nhiên, polysaccharide và chất chống oxy hóa.</li>
+</ul>
+
+<h2>4. Điều trị từ bên ngoài — Ngoại trị và châm cứu mặt</h2>
+<p>Kết hợp các phương pháp tác động trực tiếp lên da mặt:</p>
+<ul>
+  <li><strong>Châm cứu trẻ hóa da mặt (Facial Acupuncture):</strong> Châm các huyệt tại chỗ trên nếp nhăn kết hợp huyệt toàn thân. Kích thích sản xuất collagen và elastin, cải thiện lưu thông vi tuần hoàn da mặt. Điều trị 10–15 buổi, mỗi tuần 2–3 lần.</li>
+  <li><strong>Xoa bóp mặt dưỡng nhan (Mặt nạ bấm huyệt):</strong> Xoa bóp nhẹ nhàng theo đường kinh lạc trên mặt mỗi tối 5–10 phút: Dương bạch, Thái dương, Nghinh hương, Giáp xa, Địa thương... kích thích tuần hoàn và phục hồi da.</li>
+  <li><strong>Đắp mặt nạ thảo dược:</strong>
+    <ul>
+      <li>Mặt nạ ngân nhĩ (nấm tuyết): Nấu chín, xay nhuyễn, đắp 15–20 phút/lần, 2–3 lần/tuần — cấp ẩm sâu, làm mờ nếp nhăn.</li>
+      <li>Mặt nạ mật ong + bột nghệ: Dưỡng ẩm, chống oxy hóa, sáng da.</li>
+      <li>Mặt nạ trà xanh: Chống viêm, chống oxy hóa, se khít lỗ chân lông.</li>
+    </ul>
+  </li>
+  <li><strong>Cạo gió nhẹ vùng mặt cổ:</strong> Dùng đá thạch anh hồng (Gua Sha mặt) cạo theo chiều đi lên và ra ngoài — thúc đẩy dẫn lưu bạch huyết, giảm phù nề và nếp nhăn do ứ dịch.</li>
+</ul>
+
+<h2>5. Lối sống dưỡng nhan theo Y học cổ truyền</h2>
+<p>Phòng ngừa nếp nhăn bền vững nhất là từ lối sống hàng ngày:</p>
+<ul>
+  <li><strong>Ngủ đủ giấc, ngủ đúng giờ:</strong> Giờ Tý (23:00–01:00) là Can huyết hồi phục — ngủ trước 23:00 giúp Can tàng huyết, da phục hồi tốt nhất ban đêm.</li>
+  <li><strong>Uống đủ nước và trà dưỡng sinh:</strong> 6–8 ly nước/ngày; trà ngân nhĩ táo đỏ kỷ tử uống hàng ngày giúp cấp ẩm từ bên trong.</li>
+  <li><strong>Bài tập khí công dưỡng nhan:</strong> Tập Ngũ cầm hí (bài tập hạc trắng) hoặc Bát đoạn cẩm mỗi sáng 15–20 phút để khí huyết lưu thông, da mặt hồng hào.</li>
+  <li><strong>Ăn thực phẩm dưỡng da:</strong> Cà rốt (bổ Can minh mục), hải sâm (bổ Thận dưỡng tinh), ngân nhĩ (tư âm nhuận da), đậu đen (bổ Thận), quả dâu tằm (dưỡng huyết).</li>
+  <li><strong>Quản lý cảm xúc:</strong> Can khí uất kết là nguyên nhân hàng đầu gây lão hóa sớm. Thực hành thiền định, dưỡng sinh tâm thần để Can khí sơ thông, da mặt tươi sáng tự nhiên.</li>
+</ul>
+
+<div class="art-cta-box"><p>Làm đẹp từ bên trong là triết lý cốt lõi của Y học cổ truyền — điều trị nếp nhăn bền vững phải dựa trên điều chỉnh tạng phủ, không chỉ can thiệp bề mặt. Tại <strong>Phòng Khám Y học Cổ Truyền Tâm Đức</strong>, <strong>Bác sĩ Nguyễn Đức Tâm</strong> biện chứng thể trạng và tạng phủ, từ đó xây dựng liệu trình châm cứu mặt kết hợp thuốc thang và dưỡng sinh cá nhân hóa. Liên hệ: <strong>0973 710 237</strong> | Giờ khám: <strong>18:00–22:00 hàng ngày</strong> | Địa chỉ: <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
     id: 178,
     slug: "nhi-cham-giam-stress-lo-au-yhct",
     date: "2026-07-30",
