@@ -5,6 +5,59 @@
 
 const ARTICLES = [
   {
+    id: 185,
+    slug: "bat-doan-cam-duong-sinh-khong-dung-thuoc",
+    date: "2026-07-31",
+    category: "khong-thuoc",
+    categoryLabel: "Không dùng thuốc",
+    icon: "🧘",
+    gradient: "g-herb",
+    title: "Bát đoạn cẩm — Bài tập dưỡng sinh cổ truyền: Tám động tác điều khí, kiện thân không dùng thuốc",
+    excerpt: "Bát đoạn cẩm là bộ bài tập khí công dưỡng sinh cổ truyền gồm 8 động tác, giúp điều hòa khí huyết, kiện Tỳ Vị, bổ Thận, tăng cường sức đề kháng toàn thân không cần dùng thuốc.",
+    readTime: 6,
+    content: `
+<h2>Tổng quan về Bát đoạn cẩm theo Y học cổ truyền</h2>
+<p>Bát đoạn cẩm (八段錦) — nghĩa đen là "tám tấm gấm quý" — là bộ bài tập khí công dưỡng sinh cổ điển của Y học cổ truyền Trung Hoa, ra đời từ thời nhà Tống (thế kỷ X–XIII). Tên gọi "gấm tám tấm" ám chỉ tám động tác hoàn chỉnh, mượt mà như gấm dệt, mỗi động tác nhắm đến một tạng phủ và kinh lạc cụ thể.</p>
+<p>Theo lý luận YHCT, bài tập vận động toàn thân theo nguyên tắc <strong>"điều thân — điều khí — điều tâm"</strong>: điều chỉnh tư thế cơ thể, hướng dẫn vận hành khí trong kinh lạc và tĩnh tâm tập trung. Thực hành đều đặn mỗi ngày giúp kiện Tỳ Vị, thông kinh hoạt lạc, bổ Thận nạp khí, khai thông Phế, và ổn định tâm thần — mang lại sức khỏe toàn diện mà không cần dùng thuốc.</p>
+<p>Bát đoạn cẩm phù hợp mọi lứa tuổi, đặc biệt hiệu quả cho người trung niên và cao tuổi, người mắc bệnh mạn tính, người ít vận động, hoặc đang trong giai đoạn hồi phục sau bệnh.</p>
+
+<h2>Phân tích 8 động tác và tạng phủ tương ứng</h2>
+<ul>
+  <li><strong>Động tác 1 — Lưỡng thủ đỡ thiên lý:</strong> Hai tay đẩy lên trời, kéo giãn cột sống. Tác dụng: điều hòa Tam tiêu, khai thông khí toàn thân, cải thiện tuần hoàn và tư thế gù lưng.</li>
+  <li><strong>Động tác 2 — Tả hữu khai cung tựa xạ điêu:</strong> Mô phỏng tư thế bắn cung sang hai bên. Tác dụng: tuyên Phế khai흉 (mở ngực), khai thông kinh Phế Đại trường, hỗ trợ hô hấp và tiêu hóa.</li>
+  <li><strong>Động tác 3 — Điều lý Tỳ Vị tu đơn cử:</strong> Một tay đẩy lên, một tay ấn xuống theo chiều đối lập. Tác dụng: kiện Tỳ hòa Vị, kích thích nhu động dạ dày ruột, cải thiện chứng kém ăn và đầy bụng.</li>
+  <li><strong>Động tác 4 — Ngũ lao thất thương vọng hậu tiêu:</strong> Đầu ngoái nhìn ra sau chậm rãi. Tác dụng: thư giãn Can khí, điều tiết thần kinh thực vật, giảm mệt mỏi do stress và căng thẳng công việc.</li>
+  <li><strong>Động tác 5 — Dao đầu bãi vĩ khử tâm hỏa:</strong> Lắc đầu — ngả người — vẫy "đuôi" nhịp nhàng. Tác dụng: thanh Tâm hỏa, an thần, giảm bồn chồn, mất ngủ do Tâm nhiệt.</li>
+  <li><strong>Động tác 6 — Lưỡng thủ bàn túc cố Thận yêu:</strong> Cúi người hai tay chạm chân. Tác dụng: bổ Thận cường yêu (khỏe thắt lưng), nuôi dưỡng tinh tủy, giảm đau lưng và mỏi gối.</li>
+  <li><strong>Động tác 7 — Toản quyền nộ mục tăng khí lực:</strong> Nắm đấm — mắt trợn — thở mạnh. Tác dụng: sơ Can giải uất, tăng cường khí lực, cải thiện khí huyết ứ trệ do ngồi nhiều.</li>
+  <li><strong>Động tác 8 — Bối hậu thất điên bách bệnh tiêu:</strong> Nhún chân gót (kiễng chân lên — hạ xuống 7 lần). Tác dụng: chấn động bàng quang, kích thích các kinh mạch bàn chân, điều hòa khí toàn thân, kết thúc bài tập.</li>
+</ul>
+
+<h2>Hướng dẫn thực hành và huyệt vị hỗ trợ</h2>
+<p>Mỗi buổi tập nên thực hiện theo trình tự sau để đạt hiệu quả tối ưu:</p>
+<ul>
+  <li><strong>Khởi động:</strong> Đứng thẳng, thở bụng sâu 5–10 nhịp. Ý thức dẫn khí về Đan điền (CV6 — Khí hải, dưới rốn 1,5 thốn) để tập trung tâm trí.</li>
+  <li><strong>Tư thế chuẩn:</strong> Hai chân rộng bằng vai, đầu gối hơi khuỵu, lưng thẳng tự nhiên, hậu môn khép nhẹ (co hội âm — huyệt Hội âm CV1 — để giữ tinh khí).</li>
+  <li><strong>Thực hiện 8 động tác:</strong> Mỗi động tác lặp 8 lần; chuyển động chậm, uyển chuyển, phối hợp nhịp thở. Thở ra khi gắng sức, thở vào khi thả lỏng.</li>
+  <li><strong>Kết thúc:</strong> Hai tay xoa ấm lòng bàn tay rồi day nhẹ Thận du (BL23 — hai bên cột sống ngang đốt sống thắt lưng 2) và Mệnh môn (GV4) để củng cố Thận khí sau tập.</li>
+</ul>
+<p>Thời gian lý tưởng: <strong>Buổi sáng sớm (6:00–8:00, giờ Thìn — Tỳ Vị vượng khí)</strong> hoặc buổi chiều tối. Mỗi buổi 20–30 phút. Không nên tập ngay sau ăn no.</p>
+
+<h2>Tự thực hành tại nhà</h2>
+<ul>
+  <li>Bắt đầu với 4 động tác đầu tiên (tuần 1–2), sau đó thêm dần đến đủ 8 động tác khi cơ thể quen.</li>
+  <li>Mặc trang phục thoải mái, rộng rãi; thực hành ở nơi thoáng đãng, nhiều cây xanh nếu có thể.</li>
+  <li>Trong khi tập, giữ tâm thái bình tĩnh, không để suy nghĩ lo lắng xen vào — đây là phần "điều tâm" quan trọng không kém điều thân và điều khí.</li>
+  <li>Người cao tuổi hoặc có bệnh xương khớp: thực hiện động tác nhẹ nhàng, biên độ nhỏ hơn và có thể tập ngồi một số động tác.</li>
+  <li>Kết hợp day bấm Túc tam lý (ST36 — dưới đầu gối ngoài 3 thốn) sau tập 2–3 phút để kiện Tỳ Vị và tăng năng lượng.</li>
+</ul>
+
+<div class="art-cta-box">
+  <p>Bát đoạn cẩm là liệu pháp dưỡng sinh an toàn, hiệu quả khi được hướng dẫn đúng kỹ thuật và phù hợp thể trạng. Nếu bạn muốn được hướng dẫn trực tiếp và kết hợp với châm cứu — bấm huyệt để tăng hiệu quả điều trị, hãy đến thăm khám tại <strong>Phòng Khám Y học Cổ Truyền Tâm Đức</strong>. <strong>Bác sĩ Nguyễn Đức Tâm</strong> sẽ tư vấn bài tập phù hợp từng thể trạng. Liên hệ: <strong>0973 710 237</strong> | Giờ khám: <strong>18:00–22:00 hàng ngày</strong> | Địa chỉ: <strong>Hà Đông, Hà Nội</strong>.</p>
+</div>
+    `
+  },
+  {
     id: 179,
     slug: "viem-phe-quan-man-tinh-yhct",
     date: "2026-07-30",
