@@ -5,6 +5,56 @@
 
 const ARTICLES = [
   {
+    id: 192,
+    slug: "bam-huyet-tang-cuong-de-khang-phong-benh-theo-mua",
+    date: "2026-08-01",
+    category: "khong-thuoc",
+    categoryLabel: "Không dùng thuốc",
+    icon: "🧘",
+    gradient: "g-herb",
+    title: "Bấm huyệt tăng cường sức đề kháng và phòng bệnh theo mùa: Liệu pháp không dùng thuốc theo Y học cổ truyền",
+    excerpt: "Bấm huyệt đúng huyệt vị mỗi ngày kích hoạt chính khí, điều hòa vệ khí và tăng cường miễn dịch theo Y học cổ truyền — giải pháp không dùng thuốc đơn giản, an toàn, ai cũng tự làm tại nhà.",
+    readTime: 6,
+    content: `
+<h2>Tổng quan theo Y học cổ truyền</h2>
+<p>Trong Y học cổ truyền (YHCT), sức đề kháng của cơ thể được gọi là <strong>chính khí</strong> — bao gồm <em>vệ khí</em> (bảo vệ cơ thể ở bề ngoài) và <em>tông khí</em> (dưỡng nuôi nội tạng). Khi chính khí sung mãn, tà khí (vi khuẩn, virus, gió lạnh, thấp nhiệt...) không thể xâm nhập gây bệnh. Ngược lại, khi chính khí suy yếu — do mệt mỏi, ngủ kém, ăn uống thất thường hoặc căng thẳng kéo dài — cơ thể dễ mắc cảm cúm, viêm đường hô hấp, rối loạn tiêu hóa và các bệnh theo mùa.</p>
+<p>Bấm huyệt (ấn chỉ liệu pháp) là phương pháp kích thích các huyệt đạo bằng ngón tay để thông kinh lạc, điều hòa khí huyết và tăng cường chính khí — không cần kim châm, không dùng thuốc, hoàn toàn có thể tự thực hành tại nhà mỗi ngày.</p>
+
+<h2>Phân thể / Nguyên nhân theo YHCT</h2>
+<ul>
+  <li><strong>Phế khí hư:</strong> Phế chủ vệ khí và bì mao (da lông). Phế khí suy yếu làm vệ khí bất cố, hay bị cảm lạnh, hắt hơi, mũi nghẹt, da dễ dị ứng.</li>
+  <li><strong>Tỳ vị hư:</strong> Tỳ là gốc của hậu thiên, hóa sinh khí huyết. Tỳ hư dẫn đến khí huyết bất túc, cơ thể mệt mỏi, ăn kém, sức đề kháng toàn thân giảm sút.</li>
+  <li><strong>Thận dương hư:</strong> Thận tàng tinh, là gốc tiên thiên. Thận dương suy làm cơ thể sợ lạnh, hay ốm vặt, khả năng phục hồi chậm sau bệnh.</li>
+  <li><strong>Tâm khí bất túc:</strong> Tâm chủ thần minh và huyết mạch. Căng thẳng kéo dài làm tiêu hao tâm khí, gián tiếp suy yếu chính khí toàn thân.</li>
+</ul>
+
+<h2>Phương pháp điều trị — Huyệt vị tăng cường đề kháng</h2>
+<p>Các huyệt vị dưới đây được phối hợp để <strong>bổ Phế — kiện Tỳ — ôn Thận</strong>, tăng cường vệ khí và phòng bệnh theo mùa. Bấm mỗi huyệt 1–2 phút, dùng ngón cái hoặc ngón giữa ấn tròn theo chiều kim đồng hồ (bổ pháp), lực vừa phải, mỗi ngày 1 lần.</p>
+<ul>
+  <li><strong>Túc tam lý (ST36):</strong> Huyệt tổng hợp số 1 để kiện Tỳ Vị, bổ khí huyết và tăng sức đề kháng. Vị trí: dưới xương bánh chè 3 thốn, ngoài mào chày 1 thốn. Đây là huyệt "trường thọ" được dùng trong dưỡng sinh suốt 2.000 năm qua.</li>
+  <li><strong>Phế du (BL13):</strong> Huyệt du của Phế trên kinh Bàng quang. Vị trí: lưng trên, ngang đốt sống ngực T3, cách đường giữa 1,5 thốn. Bổ Phế khí, tăng cường vệ khí, phòng cảm cúm và bệnh đường hô hấp.</li>
+  <li><strong>Quan nguyên (CV4):</strong> Huyệt giao hội của ba kinh âm ở bụng dưới. Vị trí: dưới rốn 3 thốn. Ôn bổ Thận dương, tăng nguyên khí — căn bản của chính khí toàn thân.</li>
+  <li><strong>Khí hải (CV6):</strong> Huyệt "biển khí". Vị trí: dưới rốn 1,5 thốn. Bổ nguyên khí, ích tinh, tăng sức bền và sức phục hồi sau bệnh.</li>
+  <li><strong>Hợp cốc (LI4):</strong> Nguyên huyệt của kinh Đại trường, đi vào Phế — Đại trường. Vị trí: kẽ ngón cái và ngón trỏ, mu bàn tay. Sơ phong giải biểu, tăng cường chức năng Phế phòng ngoại tà.</li>
+  <li><strong>Tam âm giao (SP6):</strong> Huyệt giao hội Tỳ — Can — Thận. Vị trí: trên mắt cá trong 3 thốn, sau bờ xương chày. Kiện Tỳ dưỡng huyết, điều hòa ba tạng âm, tăng chính khí từ bên trong.</li>
+  <li><strong>Đại chùy (GV14):</strong> Huyệt hội của các kinh dương. Vị trí: giữa đốt sống cổ C7 và ngực T1. Thanh nhiệt giải biểu, thông dương khí — hiệu quả phòng cảm cúm và bệnh nhiễm trùng đường hô hấp theo mùa.</li>
+</ul>
+
+<h2>Tự thực hành tại nhà</h2>
+<ul>
+  <li><strong>Buổi sáng (5–7 phút):</strong> Ngồi thoải mái, xoa ấm hai bàn tay. Lần lượt bấm Hợp cốc (LI4) → Túc tam lý (ST36) → Tam âm giao (SP6) mỗi huyệt 1 phút mỗi bên. Thở đều, thả lỏng vai cổ.</li>
+  <li><strong>Khi mệt mỏi / sắp ốm:</strong> Bổ sung bấm Quan nguyên (CV4) và Khí hải (CV6) mỗi huyệt 2 phút bằng cách day ấm tròn; kết hợp ôn châm (hơ ngải) nếu có thiết bị.</li>
+  <li><strong>Đầu mùa lạnh / chuyển mùa:</strong> Bấm thêm Đại chùy (GV14) bằng cách nhờ người thân day tròn 60–80 lần, sau đó chườm ấm vùng cổ gáy 10 phút để cố vệ khí.</li>
+  <li><strong>Lưu ý kỹ thuật:</strong> Bổ pháp dùng lực nhẹ-vừa, day tròn theo chiều kim đồng hồ, chậm rãi; không bấm khi no quá hoặc đói quá; phụ nữ có thai không bấm Hợp cốc (LI4) và Tam âm giao (SP6) mạnh.</li>
+  <li><strong>Kết hợp lối sống:</strong> Duy trì bấm huyệt hàng ngày kết hợp ngủ đủ giấc (22:00–6:00), ăn ấm tránh đồ lạnh, tập thể dục nhẹ buổi sáng để tối ưu hóa hiệu quả tăng đề kháng.</li>
+</ul>
+
+<div class="art-cta-box">
+  <p>Bấm huyệt tại nhà là bước khởi đầu tốt, nhưng để được đánh giá chính xác thể trạng và phác đồ bổ khí tăng đề kháng phù hợp nhất, hãy đến thăm khám trực tiếp tại <strong>Phòng Khám Y học Cổ truyền Tâm Đức</strong>. BS. Nguyễn Đức Tâm sẽ biện chứng và phối huyệt cá thể hóa kết hợp châm cứu, cứu ngải và thuốc YHCT cho bạn. Hotline tư vấn: <strong>0973 710 237</strong> — giờ khám <strong>18:00–22:00 hàng ngày</strong> tại <strong>Hà Đông, Hà Nội</strong>.</p>
+</div>
+    `
+  },
+  {
     id: 186,
     slug: "liet-mat-ngoai-bien-bell-palsy-yhct",
     date: "2026-07-31",
