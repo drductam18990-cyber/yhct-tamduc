@@ -5,6 +5,55 @@
 
 const ARTICLES = [
   {
+    id: 199,
+    slug: "dich-can-kinh-khi-cong-duong-sinh-kien-gan-co",
+    date: "2026-08-02",
+    category: "khong-thuoc",
+    categoryLabel: "Không dùng thuốc",
+    icon: "🧘",
+    gradient: "g-herb",
+    title: "Dịch cân kinh — Bài tập khí công dưỡng sinh kiện gân, cường cơ theo Y học cổ truyền",
+    excerpt: "Dịch cân kinh là bộ khí công cổ truyền gồm 12 thức kéo giãn gân cốt kết hợp điều tức, giúp kiện Tỳ bổ Thận dưỡng Can, thông kinh hoạt lạc và tăng cường thể lực không cần dùng thuốc.",
+    readTime: 6,
+    content: `
+<h2>Tổng quan về Dịch cân kinh theo Y học cổ truyền</h2>
+<p>Dịch cân kinh (易筋經 — Yì Jīn Jīng, nghĩa đen là "biến đổi gân cốt") là bộ bài tập khí công kinh điển tương truyền do Đạt Ma Tổ Sư sáng tạo tại chùa Thiếu Lâm vào thế kỷ VI. Bài tập gồm <strong>12 thức động tác</strong>, kết hợp hài hòa giữa kéo giãn gân cốt, điều tiết hô hấp và tập trung ý niệm, nhằm mục đích "biến gân cơ yếu mềm thành cứng rắn, khỏe mạnh" theo đúng nghĩa tên gọi.</p>
+<p>Theo Y học cổ truyền (YHCT), <strong>Can chủ cân</strong> (Can tạng nuôi dưỡng và điều tiết gân cơ) và <strong>Thận chủ cốt</strong> (Thận tạng nuôi dưỡng xương tủy). Dịch cân kinh tác động trực tiếp vào cả hai tạng này thông qua kéo giãn định hướng, đồng thời kích hoạt khí huyết lưu thông trong <strong>12 đường kinh lạc chính</strong>. Đây là phương pháp không dùng thuốc phù hợp với mọi lứa tuổi, đặc biệt người lao động trí óc, người cao tuổi và người hồi phục sau bệnh.</p>
+
+<h2>Phân thể / Đối tượng phù hợp theo YHCT</h2>
+<ul>
+  <li><strong>Can Thận âm hư:</strong> Gân cơ thiếu nuôi dưỡng, co cứng và mỏi yếu, lưng gối ê ẩm, khô mắt. Dịch cân kinh bổ Can Thận, dưỡng gân cốt từ bên trong.</li>
+  <li><strong>Khí huyết bất thông:</strong> Người ít vận động, kinh lạc trì trệ, tay chân tê nặng, mỏi mệt mạn tính. Bài tập khai thông kinh lạc, thúc đẩy khí huyết lưu hành toàn thân.</li>
+  <li><strong>Tỳ hư cơ nhục suy:</strong> Cơ bắp mềm yếu, thiếu sức lực, tiêu hóa kém. Dịch cân kinh kiện Tỳ ích khí, tăng trương lực cơ và cải thiện hấp thu dinh dưỡng.</li>
+  <li><strong>Phế khí hư:</strong> Hơi thở nông, hay cảm mạo, mệt mỏi sau gắng sức. Kỹ thuật điều tức trong Dịch cân kinh mở rộng dung tích phổi, tăng cường Phế khí.</li>
+</ul>
+
+<h2>12 Thức Dịch cân kinh và huyệt vị kích hoạt</h2>
+<p>Mỗi thức trong Dịch cân kinh kéo giãn một nhóm gân cơ và kích thích các đường kinh lạc tương ứng. Dưới đây là các thức tiêu biểu:</p>
+<ul>
+  <li><strong>Thức 1 — Vi chúc thiên (Chống tay lên trời):</strong> Giơ hai tay thẳng lên đầu, ngón tay đan nhau hướng lên, đứng trên mũi chân. Kéo giãn kinh Tâm, Phế và Tam tiêu; kích hoạt Lao cung (PC8) và Nội quan (PC6).</li>
+  <li><strong>Thức 3 — Chưởng thác thiên môn (Đẩy tay lên cổng trời):</strong> Một tay đẩy lên cao, một tay ấn xuống thấp. Kéo giãn kinh Can và Đởm dọc sườn; mở Chương môn (LR13) và Kỳ môn (LR14).</li>
+  <li><strong>Thức 5 — Đảo niễu hầu vỹ (Kéo đuôi khỉ):</strong> Cúi người, hai tay chạm đất, giữ gối thẳng. Kéo giãn Bàng quang kinh dọc cột sống; kích thích Ủy trung (BL40) và Thừa sơn (BL57).</li>
+  <li><strong>Thức 7 — Cửu quỷ bạt mã đao (Chín quỷ rút đao):</strong> Một tay đưa sau lưng, một tay vươn ra phía trước. Kéo giãn kinh Tâm bào và Tam tiêu; mở Khúc trạch (PC3) và Thiên tỉnh (TE10).</li>
+  <li><strong>Thức 12 — Hưng long giảo vĩ (Rồng ngẩng đầu đuổi đuôi):</strong> Nằm sấp, ưỡn ngực, đầu ngửa ra sau. Kéo giãn Nhâm mạch và kích hoạt toàn bộ hệ kinh dương mặt lưng; mở Mệnh môn (GV4) và Bách hội (GV20).</li>
+</ul>
+
+<h2>Tự thực hành tại nhà</h2>
+<ul>
+  <li><strong>Thời điểm lý tưởng:</strong> Mão thời (5:00–7:00) hoặc Dậu thời (17:00–19:00) theo giờ kinh lạc YHCT. Tránh tập ngay sau bữa ăn no hoặc khi cơ thể đang mệt.</li>
+  <li><strong>Tư thế cơ bản:</strong> Đứng thẳng, hai chân rộng bằng vai, đầu gối hơi cong, lưỡi chạm vòm miệng (tiếp thông Nhâm — Đốc mạch), mắt nhắm nhẹ hoặc nhìn xuống phía trước.</li>
+  <li><strong>Điều tức (hít thở):</strong> Hít vào chậm bằng mũi khi bắt đầu mỗi thức, thở ra hoàn toàn bằng miệng khi buông lỏng. Giữ hơi thở tự nhiên, không nín thở cưỡng ép.</li>
+  <li><strong>Thời lượng khởi đầu:</strong> Mỗi thức giữ 30–60 giây, thực hiện toàn bộ 12 thức trong 20–30 phút. Người mới bắt đầu có thể tập 6 thức cơ bản trước.</li>
+  <li><strong>Tần suất:</strong> Tập 5–7 ngày/tuần. Sau 4 tuần kiên trì sẽ nhận thấy gân cơ linh hoạt hơn, ngủ sâu hơn và tinh thần minh mẫn hơn.</li>
+  <li><strong>Lưu ý an toàn:</strong> Người có bệnh cột sống cấp, huyết áp cao chưa kiểm soát hoặc loãng xương nặng cần tham khảo ý kiến thầy thuốc YHCT trước khi tập.</li>
+</ul>
+
+<div class="art-cta-box">
+  <p>Bạn muốn được hướng dẫn thực hành Dịch cân kinh đúng kỹ thuật và kết hợp với liệu trình châm cứu, xoa bóp phù hợp với thể trạng? Hãy đến thăm khám tại <strong>Phòng Khám Y học Cổ truyền Tâm Đức</strong>. <strong>BS. Nguyễn Đức Tâm</strong> sẽ đánh giá thể tạng và tư vấn bài tập dưỡng sinh không dùng thuốc tối ưu cho bạn. Đặt lịch: <strong>0973 710 237</strong> — Giờ khám: <strong>18:00–22:00 hàng ngày</strong> — Địa chỉ: <strong>Hà Đông, Hà Nội</strong>.</p>
+</div>
+    `
+  },
+  {
     id: 193,
     slug: "viem-loet-da-day-ta-trang-yhct",
     date: "2026-08-01",
