@@ -5,6 +5,56 @@
 
 const ARTICLES = [
   {
+    id: 206,
+    slug: "xoa-bop-bam-huyet-chua-dau-co-vai-gay-yhct",
+    date: "2026-08-03",
+    category: "khong-thuoc",
+    categoryLabel: "Không dùng thuốc",
+    icon: "🧘",
+    gradient: "g-herb",
+    title: "Xoa bóp bấm huyệt chữa đau cổ vai gáy: Liệu pháp không dùng thuốc theo Y học cổ truyền",
+    excerpt: "Đau cổ vai gáy do ngồi sai tư thế, căng thẳng hay thoái hóa có thể giảm hiệu quả bằng xoa bóp và bấm huyệt theo Y học cổ truyền — không cần dùng thuốc, có thể tự thực hành tại nhà mỗi ngày để thông kinh lạc, giải co cứng cơ.",
+    readTime: 5,
+    content: `
+<h2>Tổng quan theo Y học cổ truyền</h2>
+<p>Đau cổ vai gáy (hạng bối thống) là một trong những chứng đau cơ xương khớp phổ biến nhất hiện nay, đặc biệt ở người làm việc văn phòng, sử dụng máy tính và điện thoại nhiều giờ mỗi ngày. Theo Y học cổ truyền (YHCT), vùng cổ gáy là nơi hội tụ của <strong>Thái dương kinh, Thiếu dương kinh và Đốc mạch</strong> — ba đường kinh lạc quan trọng điều phối dương khí toàn thân.</p>
+<p>Bệnh sinh theo YHCT bao gồm: <strong>Phong hàn thấp tà xâm nhập kinh lạc</strong> gây khí huyết ngưng trệ; <strong>Can Thận hư tổn</strong> không nuôi dưỡng được cân cơ và gân cốt; <strong>Khí trệ huyết ứ</strong> do ngồi lâu sai tư thế làm kinh khí không lưu thông; và <strong>Đàm thấp ứ trở</strong> ở người thừa cân, ít vận động. Nguyên tắc điều trị là <em>thông kinh hoạt lạc, hành khí hoạt huyết, giải co cứng cơ</em> từ bên ngoài bằng thủ thuật xoa bóp và kích thích huyệt vị.</p>
+
+<h2>Phân thể / Nguyên nhân theo YHCT</h2>
+<ul>
+  <li><strong>Thể Phong hàn:</strong> Cổ vai gáy đau cứng, tăng khi gặp gió lạnh hoặc điều hòa; sợ gió, tay chân lạnh, rêu lưỡi trắng mỏng. Hay gặp vào mùa đông hoặc sau khi ngủ phòng lạnh không đắp chăn cổ. Phép trị: ôn kinh tán hàn, thông lạc chỉ thống.</li>
+  <li><strong>Thể Khí trệ huyết ứ:</strong> Đau cổ vai âm ỉ hoặc nhói buốt, vị trí cố định, cứng khớp buổi sáng, giảm khi vận động nhẹ; lưỡi tím có điểm ứ, mạch sáp. Gặp ở người ngồi làm việc sai tư thế nhiều giờ. Phép trị: hành khí hoạt huyết, hóa ứ thông lạc.</li>
+  <li><strong>Thể Can Thận hư tổn:</strong> Đau mỏi cổ vai mạn tính, tay tê, chóng mặt, đau lưng mỏi gối, tai ù; lưỡi nhạt hoặc đỏ không rêu, mạch trầm tế. Gặp ở người trung niên, người lao lực kéo dài. Phép trị: bổ ích Can Thận, cường cân kiện cốt.</li>
+  <li><strong>Thể Đàm thấp ứ trở:</strong> Vùng cổ vai nặng nề, tê bì, cảm giác như đeo vật nặng, hay chóng mặt buồn nôn; lưỡi to nhợt rêu trắng nhớt, mạch hoạt. Gặp ở người béo phì, ít vận động, ăn nhiều đồ béo ngọt.</li>
+</ul>
+
+<h2>Phương pháp điều trị / Huyệt vị</h2>
+<p>Xoa bóp bấm huyệt vùng cổ vai gáy theo YHCT tác động lên các huyệt vị quan trọng sau (người thực hiện dùng ngón tay cái hoặc ngón trỏ ấn day theo vòng tròn, lực vừa phải, mỗi huyệt 1–2 phút):</p>
+<ul>
+  <li><strong>Phong Trì (GB20):</strong> Nằm trong hõm sau chân tóc, hai bên cơ thang lớn. Huyệt hội của Thái dương và Thiếu dương, có tác dụng sơ phong thanh nhiệt, thông não khai khiếu, giảm đau cổ gáy và đầu. Đây là huyệt ưu tiên số 1 cho đau cổ vai gáy.</li>
+  <li><strong>Phong Phủ (GV16):</strong> Nằm dưới ụ chẩm, ngay giữa gáy, chỗ lõm dưới chân tóc sau. Huyệt của Đốc mạch, tác dụng sơ phong thông lạc, giải co cứng vùng gáy trực tiếp.</li>
+  <li><strong>Thiên Trụ (BL10):</strong> Ngay cạnh cơ thang to, hai bên đốt sống cổ 1–2. Bổ não tủy, thông kinh lạc, giải co cứng cơ vùng gáy sâu.</li>
+  <li><strong>Kiên Tỉnh (GB21):</strong> Giữa đường nối vai và cổ, điểm cao nhất cơ thang. Thông lạc chỉ thống, đặc biệt hiệu quả cho đau vai, căng cơ thang và đau lan lên cổ xuống bả vai.</li>
+  <li><strong>Hợp Cốc (LI4):</strong> Khe giữa xương ngón 1 và 2 bàn tay. Huyệt nguyên Đại trường kinh, sơ phong giải biểu, giảm đau toàn thân theo nguyên lý "trên trị dưới" — Hợp cốc điều trị hiệu quả mọi đau vùng đầu cổ.</li>
+  <li><strong>Hậu Khê (SI3):</strong> Mép ngoài bàn tay, chỗ nếp gấp khi nắm tay, dưới khớp ngón út. Thông Đốc mạch, đặc biệt hiệu quả cho đau cứng cổ gáy do Đốc mạch bất thông.</li>
+</ul>
+<p><strong>Kỹ thuật xoa bóp bổ trợ:</strong> Dùng gan bàn tay xoa ấm vùng cổ gáy theo chiều dọc (từ dưới lên trên) 50 lần; dùng 4 ngón tay véo cơ thang từ cổ ra vai 3–5 lần mỗi bên; dùng cạnh bàn tay chặt nhẹ vùng vai 30–50 lần. Thực hiện 15–20 phút/buổi.</p>
+
+<h2>Tự thực hành tại nhà</h2>
+<ul>
+  <li><strong>Xoa bóp buổi sáng sau ngủ dậy:</strong> Xoa hai tay cho ấm, ấn day huyệt Phong Trì (2 phút) và Kiên Tỉnh (1 phút mỗi bên); xoa dọc cổ gáy 30 lần. Giúp khai thông kinh khí sau một đêm nằm im, giảm cứng khớp buổi sáng.</li>
+  <li><strong>Giãn cơ cổ chủ động:</strong> Ngồi thẳng, từ từ nghiêng đầu sang trái giữ 10 giây, đổi bên; gật đầu ra trước và ngửa ra sau mỗi tư thế 10 giây; xoay cổ chậm theo vòng tròn 5 vòng mỗi chiều. Thực hiện 2–3 lần/ngày, không giật cơ mạnh.</li>
+  <li><strong>Chườm nóng thảo dược:</strong> Đun nóng túi gạo muối hoặc dùng khăn thấm nước nóng ấm chườm vùng cổ gáy 10–15 phút trước khi xoa bóp. Hơi nóng ôn thông kinh lạc, giãn mạch máu, tăng hiệu quả xoa bóp.</li>
+  <li><strong>Điều chỉnh tư thế:</strong> Đặt màn hình ngang tầm mắt; đặt điện thoại ngang tầm ngực không cúi đầu; dùng gối không quá cao hoặc quá thấp (gối lý tưởng: cao 10–15 cm, hơi cứng). Sau mỗi 45 phút làm việc, đứng dậy đi bộ và xoay cổ 3–5 phút.</li>
+  <li><strong>Xoa bóp buổi tối trước khi ngủ:</strong> Ấn day huyệt Hợp Cốc và Hậu Khê 2 phút mỗi bên; xoa vùng cổ vai 5 phút với dầu gừng hoặc dầu tràm ấm. Giúp thư giãn cơ bắp, dẫn khí huyết về các tạng để hồi phục trong khi ngủ.</li>
+</ul>
+
+<div class="art-cta-box">
+  <p>Đau cổ vai gáy kéo dài, tê bì tay hoặc đau lan lên đầu cần được thăm khám chuyên khoa để loại trừ thoát vị đĩa đệm và thoái hóa cột sống cổ. <strong>Phòng Khám Y học Cổ truyền Tâm Đức</strong> điều trị đau cổ vai gáy bằng châm cứu, xoa bóp bấm huyệt và thuốc thảo dược — phác đồ cá nhân hóa theo thể bệnh, không đau, không tác dụng phụ. Liên hệ <strong>BS. Nguyễn Đức Tâm</strong> để đặt lịch khám: <strong>0973 710 237</strong> — Giờ khám: <strong>18:00–22:00 hàng ngày</strong> — Địa chỉ: <strong>Hà Đông, Hà Nội</strong>.</p>
+</div>
+    `
+  },
+  {
     id: 200,
     slug: "viem-xoang-man-tinh-yhct-phan-the-dieu-tri",
     date: "2026-08-02",
