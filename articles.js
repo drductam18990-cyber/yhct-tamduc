@@ -5,6 +5,57 @@
 
 const ARTICLES = [
   {
+    id: 213,
+    slug: "xoa-bop-bam-huyet-ho-tro-giam-mo-bung-yhct",
+    date: "2026-08-04",
+    category: "khong-thuoc",
+    categoryLabel: "Không dùng thuốc",
+    icon: "🧘",
+    gradient: "g-herb",
+    title: "Xoa bóp và bấm huyệt hỗ trợ giảm mỡ bụng: Liệu pháp không dùng thuốc kiện Tỳ hóa thấp theo Y học cổ truyền",
+    excerpt: "Mỡ bụng trong Y học cổ truyền là hệ quả của Tỳ hư sinh đàm thấp. Xoa bóp vùng bụng và bấm huyệt đúng cách giúp thúc đẩy vận hóa, hóa tan đàm thấp, hỗ trợ giảm mỡ bụng hiệu quả không cần thuốc.",
+    readTime: 5,
+    content: `
+<h2>Tổng quan về mỡ bụng theo Y học cổ truyền</h2>
+<p>Theo Y học cổ truyền (YHCT), mỡ bụng tích tụ thuộc phạm trù <strong>Đàm thấp</strong> (痰濕) và <strong>Phì mãn</strong> (肥滿). Sách <em>Hoàng đế nội kinh</em> ghi: "Tỳ chủ vận hóa thủy cốc... Tỳ hư thì thấp trọc ngưng tụ mà thành đàm béo." Khi chức năng Tỳ vị suy giảm, thủy thấp không được vận hóa sẽ ngưng kết thành đàm mỡ, tích tụ ở vùng trung tiêu (bụng). Khác với quan điểm năng lượng của Y học hiện đại, YHCT nhìn nhận mỡ bụng là biểu hiện của sự rối loạn khí hóa toàn thân, không chỉ là vấn đề calorie đơn thuần.</p>
+<p>Liệu pháp xoa bóp bụng và bấm huyệt trong YHCT không chỉ hỗ trợ tiêu hao mỡ cục bộ mà còn phục hồi chức năng vận hóa của Tỳ vị, điều hòa khí cơ thăng giáng, thúc đẩy lưu thông khí huyết và bài trừ đàm thấp — từ đó cải thiện cân nặng một cách bền vững từ gốc rễ.</p>
+
+<h2>Phân thể nguyên nhân theo Y học cổ truyền</h2>
+<ul>
+  <li><strong>Thể Tỳ hư đàm thấp:</strong> Bụng to, mỡ mềm, người mệt mỏi, chán ăn, tiêu phân nhão, da sắc vàng nhợt. Lưỡi to bệu, rêu trắng nhớt, mạch hoãn nhu. Đây là thể phổ biến nhất, hình thành do ăn uống thất thường, ít vận động khiến Tỳ khí hư yếu, sinh đàm thấp tích tụ bụng.</li>
+  <li><strong>Thể Can khí uất trệ — Khí trệ huyết ứ:</strong> Mỡ bụng tích chủ yếu ở sườn và quanh rốn, căng tức vùng bụng sườn, hay cáu gắt, kinh nguyệt không đều (ở nữ). Lưỡi tím hoặc có điểm ứ huyết, mạch huyền. Hình thành do stress kéo dài, Can khí uất kết, khí trệ không vận hóa được đàm thấp.</li>
+  <li><strong>Thể Thận dương hư — Dương hư thủy thấp:</strong> Mỡ bụng kèm phù nề, sắc mặt nhợt hoặc tối, sợ lạnh, lưng gối đau mỏi, tiểu nhiều đêm. Lưỡi nhạt trắng, mạch trầm trì. Phổ biến ở người cao tuổi, phụ nữ sau sinh hoặc mãn kinh, Thận dương hư không ôn ấm Tỳ thổ khiến thủy thấp ứ đọng.</li>
+  <li><strong>Thể Vị nhiệt — Tỳ Vị đàm nhiệt:</strong> Người béo, ăn nhiều, hay đói, miệng hôi, táo bón, mặt bóng nhờn. Lưỡi đỏ rêu vàng nhớt, mạch hoạt sác. Hình thành do ăn nhiều thức ăn béo ngọt, cay nóng, sinh nhiệt nội sinh.</li>
+</ul>
+
+<h2>Huyệt vị và kỹ thuật bấm huyệt hỗ trợ giảm mỡ bụng</h2>
+<p>Các huyệt được lựa chọn theo nguyên tắc kiện Tỳ hóa thấp, điều khí trung tiêu và thúc đẩy vận hóa:</p>
+<ul>
+  <li><strong>Thiên khu (ST25):</strong> Cách rốn 2 thốn sang hai bên. Huyệt mộ của Đại trường, điều hòa Đại tràng, thúc đẩy tống khí trung tiêu, giảm đầy bụng và đàm thấp. Bấm tròn 1 phút mỗi bên.</li>
+  <li><strong>Khí hải (CV6):</strong> Dưới rốn 1,5 thốn. Bổ nguyên khí, kiện vận trung tiêu, tăng cường chức năng Tỳ vị. Xoa tròn 50 vòng chiều kim đồng hồ.</li>
+  <li><strong>Quan nguyên (CV4):</strong> Dưới rốn 3 thốn. Bổ Thận ôn Tỳ, ôn dương hóa thấp. Đặc biệt hiệu quả với thể Thận dương hư và Tỳ hư. Ấn giữ và xoa nhẹ 2 phút.</li>
+  <li><strong>Túc tam lý (ST36):</strong> Dưới lồi củ xương chày 3 thốn, ngoài mào chày 1 thốn. Huyệt kiện Tỳ vận hóa kinh điển, tăng cường chuyển hóa toàn thân, giảm đàm thấp từ gốc. Bấm 1–2 phút mỗi bên.</li>
+  <li><strong>Âm lăng tuyền (SP9):</strong> Góc trong đầu gối, lõm dưới lồi cầu trong xương chày. Kiện Tỳ lợi thấp, thúc đẩy đào thải thủy thấp qua đường tiểu. Bấm sâu 1 phút mỗi bên.</li>
+  <li><strong>Phong long (ST40):</strong> Giữa nếp khoeo và mắt cá ngoài, ngoài xương chày 2 thốn. Huyệt hóa đàm kinh điển — "Phong long hóa đàm nhất huyệt thắng vạn phương". Bấm mạnh 2 phút mỗi bên.</li>
+</ul>
+
+<h2>Tự thực hành xoa bóp bụng tại nhà</h2>
+<ul>
+  <li><strong>Tư thế:</strong> Nằm ngửa, hai chân co thoải mái, thư giãn hoàn toàn. Thực hiện sau khi ăn ít nhất 1 giờ, tốt nhất vào buổi sáng sau khi thức dậy.</li>
+  <li><strong>Bước 1 — Xoa ấm bụng:</strong> Chà hai lòng bàn tay vào nhau cho ấm, đặt lên rốn. Xoa vòng tròn nhỏ quanh rốn 30 vòng, rồi mở rộng dần ra toàn bụng 30 vòng theo chiều kim đồng hồ. Chiều thuận kim giúp thúc đẩy nhu động ruột và vận khí trung tiêu.</li>
+  <li><strong>Bước 2 — Nhào bóp mỡ bụng:</strong> Dùng cả bàn tay nhào, bóp nhẹ vùng mỡ hai bên bụng và dưới rốn 3–5 phút. Kỹ thuật này kích thích phân giải lipid cục bộ và tăng lưu thông khí huyết kinh mạch vùng bụng.</li>
+  <li><strong>Bước 3 — Bấm huyệt Thiên khu và Khí hải:</strong> Dùng ngón cái ấn sâu 2–3 phút tại từng huyệt theo thứ tự: Thiên khu trái → Thiên khu phải → Khí hải → Quan nguyên. Ấn sâu đến khi có cảm giác tức lan tỏa.</li>
+  <li><strong>Bước 4 — Bấm huyệt tứ chi:</strong> Ngồi dậy, bấm Túc tam lý → Âm lăng tuyền → Phong long hai bên, mỗi huyệt 1–2 phút.</li>
+  <li><strong>Thời gian và tần suất:</strong> Mỗi buổi tập 15–20 phút, thực hiện đều đặn hàng ngày. Kết quả rõ rệt thường sau 4–8 tuần kiên trì.</li>
+  <li><strong>Kết hợp tăng hiệu quả:</strong> Uống 1 ly nước ấm trước khi xoa bóp, điều chỉnh ăn uống giảm đồ béo ngọt, đi bộ nhẹ 20–30 phút sau mỗi buổi tập để tối đa hóa tác dụng hóa đàm thấp.</li>
+</ul>
+
+<div class="art-cta-box">
+  <p>Mỡ bụng dai dẳng không chỉ ảnh hưởng ngoại hình mà còn là dấu hiệu Tỳ vị suy yếu, đàm thấp tích tụ cần được điều chỉnh từ gốc. Tại <strong>Phòng Khám Y học Cổ truyền Tâm Đức</strong>, <strong>BS. Nguyễn Đức Tâm</strong> thực hiện biện chứng phân thể, kết hợp châm cứu, xoa bóp và tư vấn ăn uống theo YHCT để hỗ trợ kiểm soát cân nặng toàn diện và bền vững. Đặt lịch tư vấn: <strong>0973 710 237</strong> — Khám buổi tối <strong>18:00–22:00 hàng ngày</strong> tại <strong>Hà Đông, Hà Nội</strong>.</p>
+</div>
+    `
+  },
+  {
     id: 207,
     slug: "viem-phu-khoa-man-tinh-dai-ha-yhct",
     date: "2026-08-03",
