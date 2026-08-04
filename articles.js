@@ -5,6 +5,364 @@
 
 const ARTICLES = [
   {
+    id: 214,
+    slug: "thien-dau-thong-dau-nua-dau-migraine-yhct",
+    date: "2026-08-04",
+    category: "mat-benh",
+    categoryLabel: "Mặt bệnh",
+    icon: "🩺",
+    gradient: "g-navy",
+    title: "Thiên đầu thống (Đau nửa đầu – Migraine) theo Y học cổ truyền: Phân thể và phác đồ điều trị toàn diện",
+    excerpt: "Thiên đầu thống là chứng đau đầu dữ dội, thường khu trú một bên, tái phát nhiều lần. Y học cổ truyền phân biệt 5 thể bệnh và có phác đồ điều trị kết hợp châm cứu, thuốc thảo dược hiệu quả cao.",
+    readTime: 7,
+    content: `
+<h2>Tổng quan về Thiên đầu thống theo Y học cổ truyền</h2>
+<p>Thiên đầu thống (偏頭痛) — tương đương với chứng Migraine trong y học hiện đại — là một trong những chứng đau đầu phổ biến nhất, được ghi chép trong Y học cổ truyền từ hàng ngàn năm trước. Đặc trưng của bệnh là cơn đau nhói, giật mạnh, thường khu trú ở một bên đầu (thái dương, trán, hoặc vùng chẩm), có thể lan lan tỏa, kèm theo buồn nôn, nôn mửa, sợ ánh sáng, sợ tiếng động. Cơn đau kéo dài từ vài giờ đến 72 giờ, ảnh hưởng nghiêm trọng đến chất lượng cuộc sống.</p>
+<p>Theo quan điểm Y học cổ truyền, thiên đầu thống thuộc phạm vi "đầu thống", bệnh phát sinh do <strong>phong, hàn, thấp, nhiệt</strong> xâm phạm kinh mạch trên đầu, hoặc do <strong>can khí uất kết, can dương vượng, thận âm hư</strong> dẫn đến khí huyết vận hành rối loạn tại kinh mạch vùng đầu. Các kinh liên quan chính gồm: Thiếu dương Đởm kinh, Quyết âm Can kinh, Dương minh Vị kinh và Thái dương Bàng quang kinh.</p>
+
+<h2>Phân thể lâm sàng</h2>
+<p>Y học cổ truyền chia thiên đầu thống thành 5 thể chính, mỗi thể có đặc điểm triệu chứng và pháp trị riêng biệt:</p>
+<ul>
+  <li><strong>Thể Can dương vượng (Can hỏa thượng nhiễu):</strong> Đau đầu dữ dội bên phải hoặc bên trái, đau như búa bổ, kèm mặt đỏ, mắt đỏ, miệng đắng, hay tức giận, ngủ kém, mạch huyền sác. Nguyên nhân do Can khí uất lâu ngày hóa hỏa bốc lên. Pháp trị: Bình can tiềm dương, tả hỏa giáng nghịch. Bài thuốc: Long đởm tả can thang gia giảm, thiên ma câu đằng ẩm.</li>
+  <li><strong>Thể Phong hàn tý trở:</strong> Đau đầu bên thái dương, đau giật, tăng khi gặp gió lạnh, chườm nóng giảm đau, sợ lạnh, mạch phù khẩn. Nguyên nhân do phong hàn xâm phạm kinh Thái dương và Thiếu dương. Pháp trị: Khu phong tán hàn, ôn thông kinh mạch. Bài thuốc: Xuyên khung trà điều tán gia giảm.</li>
+  <li><strong>Thể Đàm trọc nội trở:</strong> Đau đầu âm ỉ kèm cảm giác nặng đầu, buồn nôn hoặc nôn nhiều, ngực bụng đầy tức, miệng nhớt, lưỡi bệu, rêu lưỡi trắng nhờn, mạch hoạt. Nguyên nhân do Tỳ hư sinh đàm, đàm trọc cản trở thanh khiếu. Pháp trị: Hóa đàm giáng trọc, kiện Tỳ thông khiếu. Bài thuốc: Bán hạ bạch truật thiên ma thang.</li>
+  <li><strong>Thể Thận âm hư — Can dương vượng:</strong> Đau đầu bên trái, âm ỉ liên tục, tăng khi mệt mỏi, kèm chóng mặt, ù tai, lưng gối mỏi, ngủ ít, mạch tế sác. Nguyên nhân do Thận âm hư không nuôi dưỡng được Can, khiến Can dương thiếu chế ước mà vượng lên. Pháp trị: Tư thận âm, bình can dương. Bài thuốc: Kỷ cúc địa hoàng hoàn gia thiên ma, câu đằng.</li>
+  <li><strong>Thể Khí huyết lưỡng hư:</strong> Đau đầu mức độ nhẹ đến vừa, hay tái phát, đau tăng khi làm việc nhiều hoặc kinh nguyệt, kèm hoa mắt, mệt mỏi, da nhợt, mạch tế nhược. Nguyên nhân do Tỳ Vị hư yếu, sinh hóa khí huyết bất túc, não bộ thiếu dưỡng. Pháp trị: Bổ khí dưỡng huyết, tư dưỡng não tủy. Bài thuốc: Bát trân thang gia xuyên khung, mạn kinh tử.</li>
+</ul>
+
+<h2>Phương pháp điều trị không dùng thuốc</h2>
+<p>Bên cạnh thuốc thảo dược, Y học cổ truyền có nhiều phương pháp trị liệu không dùng thuốc hiệu quả trong thiên đầu thống:</p>
+<ul>
+  <li><strong>Châm cứu:</strong> Là phương pháp cốt lõi. Các huyệt thường dùng: Thái dương (EX-HN5), Suất cốc (GB8), Phong trì (GB20), Ngoại quan (TE5), Túc lâm khấp (GB41), Thái xung (LR3), Hợp cốc (LI4). Châm tả khi cấp tính, châm bổ tả kết hợp khi mạn tính.</li>
+  <li><strong>Xoa bóp bấm huyệt:</strong> Xoa tròn vùng thái dương, bấm các huyệt Thái dương, Ấn đường, Phong trì, Kiên tỉnh (GB21) 3-5 phút mỗi huyệt.</li>
+  <li><strong>Giác hơi:</strong> Đặt giác ở vùng Đại chùy (GV14), Phong trì (GB20) và lưng trên giúp khu phong, giảm áp lực kinh mạch.</li>
+  <li><strong>Điều chỉnh lối sống:</strong> Ngủ đúng giờ, tránh stress, hạn chế các chất kích thích. Tập thở bụng sâu và thư giãn cơ đầu cổ hàng ngày.</li>
+</ul>
+
+<h2>Các vị thuốc thường dùng</h2>
+<p>Trong điều trị thiên đầu thống, một số vị thuốc đóng vai trò "sứ dẫn" lên đầu và giảm đau hiệu quả:</p>
+<ul>
+  <li><strong>Xuyên khung (Chuanxiong):</strong> Hành khí hoạt huyết, khu phong chỉ thống, là vị thuốc hàng đầu trị đau đầu mọi thể.</li>
+  <li><strong>Thiên ma (Tianma):</strong> Bình can tức phong, định kinh an thần, đặc biệt hiệu quả với thể can dương vượng.</li>
+  <li><strong>Câu đằng (Gouteng):</strong> Tức phong định kinh, bình can giáng áp, dùng tốt trong thể can hỏa.</li>
+  <li><strong>Mạn kinh tử (Vitex):</strong> Sơ tán phong nhiệt, thanh lợi đầu mục, trị đau đầu thể phong nhiệt.</li>
+  <li><strong>Ngô thù du (Evodia):</strong> Tán hàn chỉ thống, hạ nghịch chỉ nôn, dùng trong thể hàn và thể đàm trọc có nôn mửa.</li>
+</ul>
+
+<h2>Phòng ngừa cơn tái phát</h2>
+<p>Sau khi điều trị ổn định, việc phòng ngừa tái phát rất quan trọng trong thiên đầu thống mạn tính:</p>
+<ul>
+  <li>Duy trì lịch ngủ ổn định, ngủ đủ 7-8 tiếng mỗi đêm.</li>
+  <li>Hạn chế tối đa stress bằng thiền định, thở bụng, yoga nhẹ.</li>
+  <li>Tránh các tác nhân kích phát cá nhân: rượu, chocolate, phô mai ủ, ánh sáng chói, tiếng ồn.</li>
+  <li>Ăn uống đúng bữa, không để đói — hạ đường huyết là tác nhân phổ biến gây cơn đau.</li>
+  <li>Uống đủ 2 lít nước mỗi ngày, tránh mất nước.</li>
+  <li>Có thể dùng bài thuốc bổ dưỡng dài ngày (Kỷ cúc địa hoàng hoàn, Bổ trung ích khí thang) để củng cố chính khí, tránh tái phát theo mùa.</li>
+</ul>
+
+<div class="art-cta-box"><p>Thiên đầu thống — đau nửa đầu mạn tính — nếu không điều trị đúng căn nguyên sẽ tái đi tái lại nhiều năm, ảnh hưởng nghiêm trọng đến công việc và sinh hoạt. <strong>Phòng Khám YHCT Tâm Đức</strong> với BS. Nguyễn Đức Tâm có nhiều năm kinh nghiệm điều trị thiên đầu thống bằng kết hợp châm cứu, thuốc thảo dược và xoa bóp bấm huyệt — giúp cắt cơn nhanh và giảm tần suất tái phát lâu dài. Liên hệ tư vấn: <strong>0973 710 237</strong> | Giờ khám: <strong>18:00–22:00 hàng ngày</strong> | Địa chỉ: <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 215,
+    slug: "dinh-duong-lieu-phap-yhct-chua-benh-khong-thuoc",
+    date: "2026-08-04",
+    category: "khong-thuoc",
+    categoryLabel: "Không dùng thuốc",
+    icon: "🧘",
+    gradient: "g-herb",
+    title: "Dinh dưỡng liệu pháp theo Y học cổ truyền: Lựa chọn thực phẩm chữa bệnh không dùng thuốc",
+    excerpt: "Y học cổ truyền coi thực phẩm và thuốc có cùng nguồn gốc — \"thực dược đồng nguyên\". Chọn đúng thực phẩm theo thể tạng và bệnh lý giúp phòng ngừa, hỗ trợ điều trị hiệu quả mà không cần dùng thuốc.",
+    readTime: 6,
+    content: `
+<h2>Thực dược đồng nguyên — Nền tảng triết lý dinh dưỡng YHCT</h2>
+<p>Y học cổ truyền có nguyên lý nổi tiếng: <strong>"Thực dược đồng nguyên" (食藥同源)</strong> — thức ăn và thuốc chữa bệnh cùng một nguồn gốc, đều được phân loại theo tứ khí (hàn, lương, ôn, nhiệt) và ngũ vị (chua, đắng, ngọt, cay, mặn). Bằng cách chọn thực phẩm có tính vị phù hợp với thể tạng và bệnh lý của từng người, chúng ta có thể điều chỉnh âm dương, bổ hư tả thực, điều hòa ngũ tạng mà không cần dùng đến thuốc.</p>
+<p>Nguyên tắc cơ bản: <strong>người hàn thể dùng thực phẩm ôn nhiệt; người nhiệt thể dùng thực phẩm hàn lương; người hư dùng thực phẩm bổ dưỡng; người thực dùng thực phẩm tiêu đạo</strong>. Đây là cốt lõi của dinh dưỡng cá thể hóa theo YHCT.</p>
+
+<h2>Phân loại thực phẩm theo tứ khí và ngũ vị</h2>
+<p>Để áp dụng dinh dưỡng liệu pháp, cần hiểu cơ bản về tính vị thực phẩm:</p>
+<ul>
+  <li><strong>Thực phẩm tính nhiệt – ôn:</strong> Gừng, tỏi, hành, tiêu đen, quế, thịt dê, thịt chó, vải thiều, nhãn, hạt tiêu — thích hợp cho người dương hư, hàn thể, tay chân lạnh, tiêu chảy do lạnh, đau bụng khi gặp lạnh.</li>
+  <li><strong>Thực phẩm tính hàn – lương:</strong> Dưa hấu, khổ qua, bí đao, đậu xanh, ngó sen, rau má, cua, trai — thích hợp cho người âm hư nội nhiệt, viêm nhiễm, táo bón, miệng đắng, mụn nhọt.</li>
+  <li><strong>Thực phẩm tính bình (trung tính):</strong> Gạo tẻ, khoai lang, đậu phộng, thịt lợn, trứng gà, nấm — thích hợp cho hầu hết mọi người, đặc biệt người cần bồi bổ sức khỏe chung.</li>
+  <li><strong>Ngũ vị và ngũ tạng:</strong> Vị chua bổ Can; vị đắng thanh tâm; vị ngọt bổ Tỳ; vị cay tuyên Phế; vị mặn tư Thận. Ăn đúng vị theo tạng bị suy yếu giúp cân bằng cơ thể.</li>
+</ul>
+
+<h2>Thực phẩm chức năng theo từng bệnh lý phổ biến</h2>
+<p>Dưới đây là một số nhóm thực phẩm được YHCT khuyến dùng theo từng bệnh lý thường gặp:</p>
+<ul>
+  <li><strong>Mất ngủ, suy nhược thần kinh:</strong> Hạt sen (an thần), long nhãn (dưỡng tâm huyết), táo đỏ (bổ khí huyết), tâm sen (thanh tâm hỏa), trứng gà luộc lòng đào với lá dâu tằm.</li>
+  <li><strong>Tiêu hóa kém, đầy bụng, Tỳ hư:</strong> Củ sen (kiện Tỳ), củ mài (hoài sơn — bổ Tỳ Thận), bạch truật nấu cháo, gừng tươi (ôn Tỳ hóa thấp), hạt ý dĩ (thẩm thấp kiện Tỳ).</li>
+  <li><strong>Cao huyết áp, Can dương vượng:</strong> Cần tây (giáng áp, bình can), rau ngót (thanh nhiệt), nấm mèo đen (hoạt huyết), mộc nhĩ trắng (dưỡng âm), hoa cúc khô pha trà (thanh can giáng áp).</li>
+  <li><strong>Thận hư, lưng gối mỏi:</strong> Hạt óc chó (bổ thận não), hoa quả màu đen (lý trắc, đỗ đen, nho đen — tư bổ Thận âm), tôm hùm, trai biển, hải sâm (bổ Thận dương), hạt kỷ tử nấu cháo.</li>
+  <li><strong>Thiếu máu, huyết hư:</strong> Gan lợn (bổ Can huyết), rau bina, cải bó xôi (bổ huyết dưỡng Can), long nhãn, táo đỏ, củ dền đỏ, mộc nhĩ đen.</li>
+  <li><strong>Ho mạn tính, Phế hư:</strong> Bạch mộc nhĩ (dưỡng âm nhuận Phế), lê hầm đường phèn (nhuận Phế hóa đàm), hạt sen nấu chè, mật ong, củ năng.</li>
+</ul>
+
+<h2>Nguyên tắc ăn uống theo mùa trong YHCT</h2>
+<p>YHCT đặc biệt chú trọng ăn uống theo mùa để thuận ứng với quy luật âm dương thiên nhiên:</p>
+<ul>
+  <li><strong>Mùa xuân (Can khí vượng):</strong> Ưu tiên thức ăn xanh, vị chua nhẹ, nảy mầm — rau mầm, giá đỗ, lá lốt, cần tây. Tránh thức ăn quá cay nhiệt làm tổn Can.</li>
+  <li><strong>Mùa hè (Tâm khí vượng):</strong> Ưu tiên thức ăn thanh nhiệt, sinh tân dịch — khổ qua, đậu xanh, rau má, dưa hấu, mướp đắng. Hạn chế đồ chiên rán, cay nóng.</li>
+  <li><strong>Mùa thu (Phế khí vượng):</strong> Ưu tiên thức ăn nhuận Phế, dưỡng âm — mộc nhĩ trắng, lê, mật ong, hạt sen, vừng đen. Tránh thức ăn quá cay làm tổn Phế.</li>
+  <li><strong>Mùa đông (Thận khí vượng):</strong> Ưu tiên thức ăn ôn bổ Thận dương — thịt dê, thịt chó (thận trọng với người nhiệt), hành, gừng, tỏi, hạt óc chó, đỗ đen. Bổ sung nhiệt lượng, tích trữ năng lượng cho mùa xuân.</li>
+</ul>
+
+<h2>Thực phẩm cần tránh theo thể tạng</h2>
+<p>Quan trọng không kém là biết thực phẩm "kỵ" với thể tạng của mình:</p>
+<ul>
+  <li><strong>Người âm hư nội nhiệt:</strong> Tránh thức ăn cay nóng (ớt, tiêu, gừng nhiều), rượu bia, cà phê, đồ nướng than.</li>
+  <li><strong>Người dương hư hàn thể:</strong> Tránh đồ lạnh, sống — gỏi, rau sống lạnh, nước đá, trái cây nhiệt đới ăn lạnh, dưa hấu mùa đông.</li>
+  <li><strong>Người Tỳ hư đàm thấp:</strong> Tránh đồ ngọt béo, sữa nhiều, đồ chiên xào, đường tinh luyện — những thứ sinh thêm đàm thấp.</li>
+  <li><strong>Người Can khí uất:</strong> Tránh uống rượu (tuy có thể thông khí nhất thời nhưng làm hại Can lâu dài), thức ăn quá chua gây tổn thương Can khí.</li>
+</ul>
+
+<div class="art-cta-box"><p>Dinh dưỡng liệu pháp theo Y học cổ truyền không phải chế độ ăn kiêng khắt khe mà là nghệ thuật chọn thực phẩm phù hợp với từng người. Để biết thể tạng của bạn là hàn – nhiệt – hư – thực và được tư vấn chế độ ăn uống cá thể hóa, hãy liên hệ <strong>Phòng Khám YHCT Tâm Đức</strong> — BS. Nguyễn Đức Tâm sẽ thăm khám và xây dựng kế hoạch dinh dưỡng phù hợp với tình trạng sức khỏe của bạn. Hotline: <strong>0973 710 237</strong> | Giờ khám: <strong>18:00–22:00 hàng ngày</strong> | Địa chỉ: <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 216,
+    slug: "binh-vi-tan-tao-thap-van-ty-hanh-khi-hoa-vi",
+    date: "2026-08-04",
+    category: "thuoc-yhct",
+    categoryLabel: "Thuốc YHCT",
+    icon: "🌿",
+    gradient: "g-fire",
+    title: "Bình vị tán — Bài thuốc táo thấp vận tỳ, hành khí hòa vị kinh điển của Y học cổ truyền",
+    excerpt: "Bình vị tán là bài thuốc cơ sở điều trị thấp trở Tỳ Vị, với tác dụng táo thấp kiện Tỳ, hành khí hòa Vị. Bài thuốc được ứng dụng rộng rãi trong điều trị các rối loạn tiêu hóa do thấp nhiệt và Tỳ Vị suy yếu.",
+    readTime: 5,
+    content: `
+<h2>Nguồn gốc và lịch sử Bình vị tán</h2>
+<p>Bình vị tán (平胃散) là bài thuốc kinh điển của Y học cổ truyền Trung Quốc, lần đầu tiên được ghi chép trong sách <em>"Hòa tễ cục phương"</em> (和劑局方) thời Tống (thế kỷ 11-12). Đây là bài thuốc nền tảng (base formula) quan trọng bậc nhất trong nhóm <strong>táo thấp kiện Tỳ</strong>, được hàng trăm bài thuốc hậu thế dùng làm cơ sở để gia giảm.</p>
+<p>Tên gọi "Bình vị" (平胃) nghĩa là "bình định Vị khí", tức là đưa chức năng tiêu hóa về trạng thái cân bằng, không hàn không nhiệt, không hư không thực, Tỳ Vị vận hóa thông suốt. Bài thuốc được xếp vào loại <strong>khử thấp tiêu thực</strong> và là cơ sở của nhiều bài thuốc nổi tiếng như Bất hoán kim chính khí tán, Hoắc hương chính khí tán, Sâm linh bạch truật tán biến thể.</p>
+
+<h2>Thành phần và vai trò từng vị thuốc</h2>
+<p>Bình vị tán cổ điển gồm 4 vị chính, hết sức đơn giản nhưng tác dụng toàn diện:</p>
+<ul>
+  <li><strong>Thương truật (Atractylodes lancea) — 12g — Quân:</strong> Vị cay đắng, tính ôn, quy Tỳ Vị kinh. Tác dụng táo thấp kiện Tỳ, khu phong thấp. Đây là vị thuốc chủ lực, trực tiếp điều trị căn nguyên thấp trở Tỳ Vị. Thương truật mạnh táo thấp hơn Bạch truật, dùng khi thấp nặng trọc trở.</li>
+  <li><strong>Hậu phác (Magnolia bark) — 9g — Thần:</strong> Vị đắng cay, tính ôn, quy Tỳ Vị Đại tràng kinh. Tác dụng hành khí táo thấp, tiêu trướng giáng nghịch. Phối hợp với Thương truật tăng cường tác dụng hóa thấp và giải quyết chứng bụng đầy trướng.</li>
+  <li><strong>Trần bì (Citrus reticulata) — 9g — Thần:</strong> Vị cay đắng, tính ôn, quy Tỳ Phế kinh. Tác dụng lý khí kiện Tỳ, táo thấp hóa đàm. Giúp kiện Tỳ vận hóa và hành khí tiêu trướng, làm cho khí cơ trong Trung tiêu thông suốt.</li>
+  <li><strong>Cam thảo chích (Glycyrrhiza) — 3g — Sứ:</strong> Vị ngọt, tính bình, quy Tâm Phế Tỳ Vị kinh. Tác dụng hòa trung bổ Tỳ, điều hòa các vị thuốc và giảm bớt tính táo của Thương truật và Hậu phác.</li>
+  <li><strong>Sinh khương (Gừng tươi) — 3 lát và Đại táo — 2 quả (dẫn):</strong> Sinh khương ôn Tỳ hóa thấp và giúp bài thuốc xuống Vị; Đại táo bổ Tỳ hòa trung, bảo vệ chính khí trong quá trình dùng thuốc.</li>
+</ul>
+
+<h2>Cơ chế tác dụng và chỉ định lâm sàng</h2>
+<p>Bình vị tán tác dụng trên thể bệnh <strong>Thấp trở Tỳ Vị</strong>, biểu hiện bởi:</p>
+<ul>
+  <li>Bụng đầy trướng, đau tức thượng vị sau khi ăn.</li>
+  <li>Buồn nôn hoặc nôn, ợ hơi, ợ chua.</li>
+  <li>Miệng nhớt, miệng nhạt, không khát hoặc khát nhưng uống ít.</li>
+  <li>Đại tiện lỏng hoặc nhão, phân nát, đi không hết cảm giác.</li>
+  <li>Cơ thể nặng nề, mệt mỏi, tứ chi không có sức.</li>
+  <li>Lưỡi bệu, rêu lưỡi trắng dày nhờn, mạch nhu hoãn.</li>
+</ul>
+<p>Các bệnh danh hiện đại tương ứng bao gồm: viêm dạ dày mạn tính, hội chứng ruột kích thích thể hàn thấp, rối loạn tiêu hóa chức năng, béo phì do đàm thấp, phù nề nhẹ do thấp trở.</p>
+
+<h2>Cách dùng và gia giảm</h2>
+<p>Bình vị tán được dùng dưới dạng sắc uống, bột hoặc viên tùy theo hiện đại hóa. Nguyên tắc gia giảm linh hoạt:</p>
+<ul>
+  <li><strong>Thấp trọc hóa nhiệt (miệng đắng, rêu vàng):</strong> Gia thêm Hoàng liên, Hoàng cầm — tức thành Bình vị tán gia vị thanh nhiệt táo thấp.</li>
+  <li><strong>Cảm mạo phong hàn kèm thấp (sốt, không ra mồ hôi, đầy bụng):</strong> Gia thêm Hoắc hương, Tô diệp — tức thành Hoắc hương chính khí tán cơ sở.</li>
+  <li><strong>Tích thực (ăn không tiêu, chướng bụng sau ăn nhiều):</strong> Gia thêm Sơn tra, Thần khúc, Mạch nha — tức thành Bình vị tán gia tiêu thực.</li>
+  <li><strong>Đàm thấp gây ho, khạc đàm trắng:</strong> Gia thêm Bán hạ, Phục linh — tức thành Bình vị tán biến thể hóa đàm.</li>
+</ul>
+
+<h2>Chống chỉ định và lưu ý khi dùng</h2>
+<p>Bình vị tán là bài thuốc ôn táo, cần thận trọng trong các trường hợp sau:</p>
+<ul>
+  <li><strong>Không dùng cho người âm hư:</strong> Người khô miệng, họng khô, lưỡi đỏ ít rêu, ra mồ hôi đêm — tính táo của Thương truật và Hậu phác có thể làm tổn thương tân dịch.</li>
+  <li><strong>Không dùng khi thấp nhiệt nặng:</strong> Nếu rêu lưỡi vàng đặc, sốt cao, phân lỏng mùi khó chịu, cần phối hợp thuốc thanh nhiệt mạnh hơn.</li>
+  <li><strong>Phụ nữ có thai:</strong> Cần tham khảo ý kiến bác sĩ trước khi dùng vì Thương truật và Hậu phác tính khá mạnh.</li>
+  <li><strong>Không dùng dài ngày khi không cần thiết:</strong> Tính táo của bài thuốc có thể gây khô họng, táo bón nếu dùng quá liều và kéo dài khi không có thấp.</li>
+</ul>
+
+<div class="art-cta-box"><p>Bình vị tán là bài thuốc kinh điển đã được kiểm chứng hàng thế kỷ trong điều trị rối loạn tiêu hóa do thấp trở Tỳ Vị. Tuy nhiên, để đạt hiệu quả tối ưu và an toàn, cần được thăm khám và kê đơn đúng thể bệnh. <strong>Phòng Khám YHCT Tâm Đức</strong> — BS. Nguyễn Đức Tâm — sẽ thăm khám tứ chẩn, phân thể bệnh và điều chỉnh bài thuốc phù hợp với từng người bệnh. Liên hệ: <strong>0973 710 237</strong> | Giờ khám: <strong>18:00–22:00 hàng ngày</strong> | Địa chỉ: <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 217,
+    slug: "phong-ngua-viem-phu-khoa-tai-phat-yhct",
+    date: "2026-08-04",
+    category: "phong-benh",
+    categoryLabel: "Phòng bệnh",
+    icon: "🛡️",
+    gradient: "g-amber",
+    title: "Phòng ngừa viêm phụ khoa tái phát theo Y học cổ truyền: Thanh nhiệt kiện Tỳ bảo vệ sức khỏe phụ nữ từ gốc",
+    excerpt: "Viêm phụ khoa tái phát nhiều lần là vấn đề phổ biến ở phụ nữ. Y học cổ truyền chỉ ra căn nguyên từ Tỳ hư thấp nhiệt và đề ra chiến lược phòng ngừa toàn diện bằng điều chỉnh lối sống, ăn uống và bổ trợ thảo dược.",
+    readTime: 6,
+    content: `
+<h2>Viêm phụ khoa tái phát dưới góc nhìn Y học cổ truyền</h2>
+<p>Viêm phụ khoa (viêm âm đạo, viêm cổ tử cung, viêm vùng chậu) tái phát nhiều lần là vấn đề ảnh hưởng đến hàng triệu phụ nữ. Trong Y học cổ truyền, tình trạng này thuộc phạm vi <strong>"Đới hạ" (帶下)</strong> — chứng khí hư, ra huyết trắng bất thường. Bệnh tái phát nhiều lần không phải do viêm nhiễm đơn thuần mà phản ánh sự suy yếu của <strong>chính khí</strong>, đặc biệt là Tỳ khí và Thận khí bị suy yếu, tạo điều kiện cho tà khí (thấp nhiệt, thấp độc) xâm nhập và trú lại.</p>
+<p>Theo YHCT, căn nguyên sâu xa của viêm phụ khoa tái phát gồm: <strong>Tỳ hư không thể vận hóa thấp, khiến thấp tích tụ hóa nhiệt ở hạ tiêu; Thận hư không cố nhiếp đới mạch; Can khí uất kết hóa hỏa thấp hạ chú</strong>. Vì vậy, phòng ngừa tái phát phải nhắm vào kiện Tỳ, bổ Thận, sơ Can — không chỉ điều trị triệu chứng tại chỗ.</p>
+
+<h2>Nhận biết thể tạng dễ tái phát</h2>
+<p>Một số thể tạng có nguy cơ viêm phụ khoa tái phát cao hơn, cần phòng ngừa chủ động:</p>
+<ul>
+  <li><strong>Tỳ hư thấp nhiệt thể:</strong> Người hay mệt mỏi, ăn kém, bụng hay đầy, đại tiện không thành khuôn, khí hư nhiều màu vàng hoặc trắng đục, âm ngứa. Đây là thể phổ biến nhất.</li>
+  <li><strong>Thận âm hư thể:</strong> Phụ nữ trung niên, sau sinh nhiều lần, kinh nguyệt ít, lưng mỏi gối yếu, âm đạo khô, dễ bị kích ứng và viêm nhiễm tái phát.</li>
+  <li><strong>Can Thận bất túc thể:</strong> Phụ nữ stress nhiều, kinh nguyệt không đều, hay cáu gắt, viêm phụ khoa tái phát theo chu kỳ kinh nguyệt hoặc sau khi stress nặng.</li>
+  <li><strong>Khí huyết hư yếu thể:</strong> Phụ nữ sau sinh, sức đề kháng kém, dễ bị nhiễm nấm và viêm âm đạo tái phát, đặc biệt khi dùng kháng sinh kéo dài làm mất cân bằng hệ vi sinh.</li>
+</ul>
+
+<h2>Chiến lược phòng ngừa bằng điều chỉnh lối sống</h2>
+<p>Phòng ngừa tái phát hiệu quả bắt đầu từ thói quen sinh hoạt hàng ngày:</p>
+<ul>
+  <li><strong>Vệ sinh đúng cách:</strong> Rửa vùng kín bằng nước ấm, không dùng xà phòng thường có kiềm cao làm mất cân bằng pH. Thay đồ lót cotton mỗi ngày, phơi nắng hoặc ủi trước khi dùng.</li>
+  <li><strong>Tránh ẩm thấp:</strong> YHCT đặc biệt nhấn mạnh tránh ngồi nơi ẩm thấp, không mặc quần áo ướt kéo dài, không ngâm mình trong hồ bơi công cộng khi vùng kín đang viêm.</li>
+  <li><strong>Điều hòa stress:</strong> Can khí uất là yếu tố khuếch đại viêm nhiễm. Tập thiền, yoga nhẹ, đi bộ buổi sáng giúp sơ Can lý khí, nâng cao chính khí.</li>
+  <li><strong>Ngủ đủ giấc:</strong> Thiếu ngủ làm suy giảm miễn dịch và Tỳ khí. Cố gắng ngủ trước 23h và ngủ đủ 7-8 tiếng.</li>
+  <li><strong>Tránh kháng sinh không cần thiết:</strong> Dùng kháng sinh không đúng chỉ định phá hủy hệ vi sinh lành mạnh, tạo điều kiện cho nấm Candida và vi khuẩn cơ hội phát triển.</li>
+</ul>
+
+<h2>Chế độ ăn uống phòng ngừa</h2>
+<p>Thực phẩm đóng vai trò quan trọng trong việc ngăn ngừa thấp nhiệt tái sinh:</p>
+<ul>
+  <li><strong>Nên ăn:</strong> Ý dĩ nhân (hạt bo bo — thẩm thấp kiện Tỳ), hoài sơn (củ mài — bổ Tỳ Thận), đậu đỏ nấu với ý dĩ, kỷ tử, nấm linh chi, sữa chua không đường (probiotics — cân bằng hệ vi sinh), rau cải xanh, củ cải trắng.</li>
+  <li><strong>Hạn chế hoặc tránh:</strong> Đồ ngọt nhiều đường (thấp nhiệt sinh candida), rượu bia (thấp nhiệt nặng hơn), đồ chiên xào nhiều dầu mỡ, đồ cay nóng khi đang viêm nhiễm, hải sản sống.</li>
+  <li><strong>Bài ăn phòng bệnh:</strong> Cháo ý dĩ hoài sơn (ý dĩ 30g + hoài sơn 20g + gạo tẻ 50g nấu cháo, ăn sáng 3-4 lần/tuần); nước đậu đỏ ý dĩ (uống thay nước hàng ngày).</li>
+</ul>
+
+<h2>Thảo dược và thuốc bổ trợ phòng ngừa lâu dài</h2>
+<p>Sau khi điều trị ổn định viêm phụ khoa, có thể dùng các bài thuốc bổ dưỡng để củng cố chính khí, ngăn tái phát:</p>
+<ul>
+  <li><strong>Hoàn Hoàn Đới Chỉ (hoặc Hoàn Đới thang gia giảm):</strong> Kiện Tỳ táo thấp, chỉ đới — dùng cho thể Tỳ hư thấp nhiệt tái phát mạn tính.</li>
+  <li><strong>Lục vị địa hoàng hoàn:</strong> Tư âm bổ Thận — dùng cho thể Thận âm hư, đặc biệt phụ nữ sau 40 tuổi có khí hư dai dẳng.</li>
+  <li><strong>Ngọc bình phong tán gia vị:</strong> Bổ khí cố biểu nâng cao miễn dịch toàn thân — dùng cho người sức đề kháng kém, hay ốm vặt kèm viêm phụ khoa tái phát.</li>
+  <li><strong>Xông ngải cứu bụng dưới:</strong> Tuần 2-3 lần sau kinh nguyệt, hơ ấm vùng huyệt Quan nguyên (CV4), Khí hải (CV6) — ôn bổ Thận dương, tăng cường tuần hoàn vùng chậu.</li>
+</ul>
+
+<div class="art-cta-box"><p>Viêm phụ khoa tái phát không chỉ gây khó chịu mà còn tiềm ẩn nguy cơ ảnh hưởng đến sức khỏe sinh sản. <strong>Phòng Khám YHCT Tâm Đức</strong> — BS. Nguyễn Đức Tâm — cung cấp phác đồ phòng ngừa và điều trị toàn diện: từ thăm khám biện chứng phân thể, kê đơn thuốc thảo dược cá thể hóa, đến hướng dẫn chế độ ăn uống và lối sống theo YHCT. Liên hệ: <strong>0973 710 237</strong> | Giờ khám: <strong>18:00–22:00 hàng ngày</strong> | Địa chỉ: <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 218,
+    slug: "phuong-huyet-dieu-tri-soi-than-tiet-nieu",
+    date: "2026-08-04",
+    category: "phuong-huyet",
+    categoryLabel: "Phương huyệt",
+    icon: "📍",
+    gradient: "g-huyet",
+    title: "Phương huyệt điều trị sỏi thận và sỏi tiết niệu theo Y học cổ truyền",
+    excerpt: "Châm cứu và bấm huyệt hỗ trợ điều trị sỏi thận – tiết niệu bằng cách thúc đẩy bài xuất sỏi, giảm đau co thắt và cải thiện chức năng Thận Bàng quang. Phương huyệt gồm 6 huyệt cốt lõi với vị trí và tác dụng cụ thể.",
+    readTime: 5,
+    content: `
+<h2>Cơ sở lý luận của châm cứu trong điều trị sỏi tiết niệu</h2>
+<p>Theo Y học cổ truyền, sỏi thận – tiết niệu thuộc chứng <strong>"Thạch lâm" (石淋)</strong> — một trong năm loại lâm chứng (Thạch lâm, Huyết lâm, Khí lâm, Cao lâm, Lao lâm). Bệnh phát sinh do <strong>thận hư, bàng quang thấp nhiệt, khí cơ vận hóa trở trệ</strong> khiến chất khoáng trong nước tiểu không được hóa giải, tích tụ thành sỏi theo thời gian.</p>
+<p>Châm cứu tác động theo cơ chế: <strong>thúc đẩy khí huyết lưu thông trong kinh Thận và Bàng quang, giảm co thắt cơ trơn niệu quản, kích thích nhu động bài xuất sỏi nhỏ, giảm phù nề tắc nghẽn và giảm đau</strong>. Nhiều nghiên cứu hiện đại xác nhận châm cứu kết hợp uống nhiều nước và vận động có thể hỗ trợ bài xuất sỏi nhỏ dưới 6mm hiệu quả.</p>
+
+<h2>Phương huyệt cốt lõi điều trị sỏi thận – tiết niệu</h2>
+<ul>
+  <li>
+    <strong>1. Thận du (BL23 — Shenshu)</strong><br>
+    <em>Vị trí:</em> Trên lưng, dưới gai đốt sống lưng L2, cách đường giữa 1,5 thốn (khoảng 4cm) về mỗi bên.<br>
+    <em>Tác dụng:</em> Bổ Thận khí, lợi thủy thẩm thấp. Là huyệt bối du của Thận tạng, tác động trực tiếp lên chức năng lọc và bài tiết của thận. Kích thích huyệt này làm tăng lưu lượng máu đến thận, cải thiện chức năng lọc nước tiểu và thúc đẩy bài xuất sỏi nhỏ.
+  </li>
+  <li>
+    <strong>2. Bàng quang du (BL28 — Pangguangshu)</strong><br>
+    <em>Vị trí:</em> Vùng xương cùng, ngang mức lỗ xương cùng thứ 2 (S2), cách đường giữa 1,5 thốn.<br>
+    <em>Tác dụng:</em> Lợi niệu, thanh lợi bàng quang, thúc đẩy bài tiết nước tiểu. Huyệt bối du của Bàng quang, đặc biệt hiệu quả khi sỏi nằm ở niệu quản đoạn dưới hoặc bàng quang.
+  </li>
+  <li>
+    <strong>3. Tam âm giao (SP6 — Sanyinjiao)</strong><br>
+    <em>Vị trí:</em> Mặt trong cẳng chân, trên mắt cá trong (medial malleolus) 3 thốn (khoảng 8cm), sát sau bờ xương chày.<br>
+    <em>Tác dụng:</em> Hội tụ của 3 kinh âm chân (Tỳ, Can, Thận). Tác dụng kiện Tỳ, bổ Thận, lợi thấp. Đây là huyệt then chốt điều trị thạch lâm — vừa bổ chính khí, vừa lợi thủy thẩm thấp giúp bài xuất sỏi.
+  </li>
+  <li>
+    <strong>4. Âm lăng tuyền (SP9 — Yinlingquan)</strong><br>
+    <em>Vị trí:</em> Mặt trong cẳng chân, nơi lõm dưới đầu lồi cầu trong xương chày (bên dưới đầu gối về phía trong).<br>
+    <em>Tác dụng:</em> Kiện Tỳ lợi thấp, thông lợi niệu đạo. Huyệt hợp của Tỳ kinh, tác dụng lợi niệu mạnh, giúp tăng lượng nước tiểu và hỗ trợ bài xuất sỏi nhỏ qua niệu đạo. Rất hiệu quả khi phối hợp với Tam âm giao.
+  </li>
+  <li>
+    <strong>5. Ủy dương (BL39 — Weiyang)</strong><br>
+    <em>Vị trí:</em> Hõm khoeo (phía sau đầu gối), phía ngoài đường giữa hõm khoeo, bên ngoài gân cơ nhị đầu đùi.<br>
+    <em>Tác dụng:</em> Thông lợi tam tiêu hạ tiêu, lợi niệu bài thạch. Là huyệt đặc biệt của Tam tiêu kinh nằm ở kinh Bàng quang, tác dụng điều tiết chức năng thủy dịch toàn thân, đặc biệt ở hạ tiêu (niệu quản, bàng quang, niệu đạo).
+  </li>
+  <li>
+    <strong>6. Thủy đạo (ST28 — Shuidao)</strong><br>
+    <em>Vị trí:</em> Vùng bụng dưới, dưới rốn 3 thốn, cách đường giữa 2 thốn về mỗi bên.<br>
+    <em>Tác dụng:</em> Lợi niệu thông lâm, điều tiết thủy đạo hạ tiêu. Huyệt nằm trực tiếp gần vị trí giải phẫu của niệu quản đoạn chậu, kích thích nhu động niệu quản đoạn dưới và bài xuất sỏi. Đặc biệt hiệu quả cho sỏi niệu quản đoạn hạ.
+  </li>
+</ul>
+
+<h2>Phác đồ châm cứu và kỹ thuật thực hiện</h2>
+<p>Phác đồ điều trị được áp dụng như sau:</p>
+<ul>
+  <li><strong>Giai đoạn cấp (đang đau quặn thận):</strong> Châm tả mạnh huyệt Thận du, Bàng quang du, Ủy dương, Tam âm giao. Có thể kết hợp điện châm tần số thấp (2-4Hz) để giảm co thắt nhanh. Duy trì kim 30 phút, ngày châm 1-2 lần.</li>
+  <li><strong>Giai đoạn giữa (hỗ trợ bài xuất sỏi):</strong> Châm bình bổ bình tả toàn bộ 6 huyệt. Sau châm nên uống 300-500ml nước ấm và vận động nhẹ nhàng (đi bộ, nhảy nhẹ) để thúc đẩy bài xuất. Châm 1 lần/ngày, liệu trình 10-15 buổi.</li>
+  <li><strong>Giai đoạn củng cố:</strong> Châm bổ Thận du, Tam âm giao kết hợp cứu ngải ôn huyệt Thận du và Quan nguyên (CV4). Tuần 2-3 lần, duy trì 1-2 tháng để bổ Thận khí, phòng tái phát.</li>
+</ul>
+
+<h2>Bấm huyệt tự thực hành hỗ trợ tại nhà</h2>
+<p>Bệnh nhân có thể tự bấm các huyệt sau tại nhà để hỗ trợ giữa các buổi châm cứu:</p>
+<ul>
+  <li>Bấm huyệt Tam âm giao và Âm lăng tuyền: mỗi huyệt 3-5 phút, 2-3 lần/ngày, kết hợp xoa tròn.</li>
+  <li>Xoa lưng vùng Thận du: dùng lòng bàn tay xoa ấm vùng thắt lưng hai bên cột sống 5-10 phút mỗi sáng.</li>
+  <li>Uống đủ 2,5-3 lít nước mỗi ngày (trừ khi có chống chỉ định tim mạch, thận suy nặng).</li>
+</ul>
+
+<div class="art-cta-box"><p>Châm cứu hỗ trợ điều trị sỏi thận – tiết niệu hiệu quả nhất khi kết hợp đồng bộ với điều trị y học hiện đại và theo dõi siêu âm định kỳ. <strong>Phòng Khám YHCT Tâm Đức</strong> — BS. Nguyễn Đức Tâm — thực hiện phác đồ châm cứu cá thể hóa, kết hợp điện châm và bài thuốc lợi thủy thông lâm cho người bệnh sỏi thận – tiết niệu. Liên hệ tư vấn và đặt lịch: <strong>0973 710 237</strong> | Giờ khám: <strong>18:00–22:00 hàng ngày</strong> | Địa chỉ: <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 219,
+    slug: "dieu-tri-rung-toc-nam-gioi-hoi-dau-yhct",
+    date: "2026-08-04",
+    category: "lam-dep",
+    categoryLabel: "Làm đẹp",
+    icon: "🌸",
+    gradient: "g-rose",
+    title: "Điều trị rụng tóc nam giới (hói đầu dạng nam) theo Y học cổ truyền: Bổ thận dưỡng can hồi phục mái tóc",
+    excerpt: "Hói đầu dạng nam (androgenic alopecia) không chỉ là vấn đề thẩm mỹ mà phản ánh sự mất cân bằng nội tạng sâu xa. Y học cổ truyền tiếp cận từ gốc: bổ Thận tinh, dưỡng Can huyết kết hợp châm cứu da đầu và thảo dược để phục hồi nang tóc.",
+    readTime: 6,
+    content: `
+<h2>Hói đầu dạng nam dưới góc nhìn Y học cổ truyền</h2>
+<p>Hói đầu dạng nam (Androgenic Alopecia — AGA) là loại rụng tóc phổ biến nhất ở nam giới, thường bắt đầu bằng đường chân tóc lùi dần ở hai góc trán, sau đó hói lan ra đỉnh đầu. Y học hiện đại giải thích do DHT (dihydrotestosterone) thu nhỏ nang tóc. Tuy nhiên, Y học cổ truyền nhìn sâu hơn vào <strong>căn nguyên tạng phủ</strong> bên trong.</p>
+<p>YHCT cho rằng: <strong>"Thận tàng tinh, tóc là biểu hiện của Thận" (腎藏精，其華在發)</strong>. Tóc được nuôi dưỡng bởi <strong>Thận tinh và Can huyết</strong>. Khi Thận tinh suy giảm (do tuổi tác, làm việc quá sức, sinh hoạt không điều độ) và Can huyết bất túc (do căng thẳng lâu ngày, ăn uống kém), nang tóc mất đi nguồn dưỡng chất, tóc dần teo lại và rụng. Ngoài ra, <strong>thấp nhiệt trên đầu</strong> (da đầu nhờn, gàu nhiều) cũng cản trở khí huyết nuôi dưỡng nang tóc.</p>
+
+<h2>Phân thể lâm sàng của hói đầu dạng nam theo YHCT</h2>
+<p>YHCT phân biệt các thể bệnh khác nhau để điều trị đúng căn nguyên:</p>
+<ul>
+  <li><strong>Thể Thận tinh bất túc (phổ biến nhất):</strong> Tóc rụng dần, tóc thưa mỏng, da đầu bóng, kèm lưng gối mỏi, tiểu đêm, sức khỏe sinh lý nam giảm, tóc bạc sớm, mạch trầm tế. Pháp trị: Bổ Thận tinh, ích tủy dưỡng phát. Bài thuốc: Lục vị địa hoàng hoàn gia Hà thủ ô, Phục linh.</li>
+  <li><strong>Thể Can huyết hư:</strong> Tóc rụng nhiều sau stress hoặc bệnh lặng, da đầu khô, tóc khô dễ gãy, kèm hoa mắt, mất ngủ, kinh nguyệt ít (ở phụ nữ), móng tay giòn, mạch tế nhược. Pháp trị: Bổ Can dưỡng huyết, tư dưỡng tóc từ gốc. Bài thuốc: Tứ vật thang gia Hà thủ ô, Câu kỷ tử, Mạch môn.</li>
+  <li><strong>Thể Tỳ hư khí hư:</strong> Tóc rụng lan tỏa, tóc mềm yếu không có lực, kèm mệt mỏi nhiều, ăn kém, đại tiện lỏng, mặt vàng nhợt, mạch tế nhược. Pháp trị: Kiện Tỳ ích khí, thông khiếu dưỡng phát. Bài thuốc: Bổ trung ích khí thang gia Hà thủ ô.</li>
+  <li><strong>Thể thấp nhiệt thượng nhiễu:</strong> Da đầu nhờn, gàu nhiều, ngứa da đầu, tóc rụng kèm mụn nhọt da đầu. Pháp trị: Thanh nhiệt táo thấp, trừ phong lương huyết. Bài thuốc: Long đởm tả can thang gia giảm, kết hợp rửa đầu thảo dược.</li>
+</ul>
+
+<h2>Vị thuốc thảo dược then chốt nuôi dưỡng tóc</h2>
+<p>Một số vị thuốc YHCT được nghiên cứu và ứng dụng rộng rãi trong điều trị rụng tóc:</p>
+<ul>
+  <li><strong>Hà thủ ô (Polygonum multiflorum):</strong> Bổ Can Thận, dưỡng tinh huyết, đen tóc — vị thuốc kinh điển nhất trong điều trị tóc bạc sớm và hói đầu. Dùng dạng chế (Chế hà thủ ô) để an toàn hơn và tăng tác dụng bổ dưỡng. Liều: 9-15g/ngày trong thang thuốc.</li>
+  <li><strong>Câu kỷ tử (Lycium chinense):</strong> Tư âm bổ thận, dưỡng Can minh mục. Giàu polysaccharides và betaine hỗ trợ nang tóc. Có thể dùng như thực phẩm: ngâm nước uống hàng ngày 10-15g.</li>
+  <li><strong>Nữ trinh tử (Ligustrum lucidum):</strong> Bổ Can Thận âm, ô tu kiên phát (làm đen tóc, củng cố tóc). Thường phối hợp với Hà thủ ô trong các bài thuốc ô phát (đen tóc).</li>
+  <li><strong>Đương quy (Angelica sinensis):</strong> Bổ huyết hoạt huyết, cải thiện tuần hoàn da đầu, nuôi dưỡng nang tóc từ gốc. Rất tốt cho thể Can huyết hư.</li>
+  <li><strong>Trắc bách diệp (Biota orientalis) — dùng ngoài:</strong> Nấu lấy nước gội đầu hoặc ngâm trong cồn thoa da đầu. Có tác dụng mát huyết chỉ huyết, trừ phong thấp, kích thích nang tóc hoạt động trở lại.</li>
+</ul>
+
+<h2>Châm cứu da đầu — Liệu pháp kích hoạt nang tóc</h2>
+<p>Châm cứu da đầu (Scalp Acupuncture) là phương pháp đặc biệt hiệu quả kết hợp với thuốc thảo dược:</p>
+<ul>
+  <li><strong>Huyệt Bách hội (GV20):</strong> Đỉnh đầu, giao điểm đường nối hai tai và đường giữa đầu. Tác dụng thăng dương khí, thông khiếu, kích thích tuần hoàn vùng đỉnh đầu — vùng hói đầu phổ biến nhất ở nam giới.</li>
+  <li><strong>Huyệt Thượng tinh (GV23):</strong> Đường giữa đầu, phía trên đường chân tóc trước 1 thốn. Kích thích tuần hoàn vùng trán và chân tóc trước.</li>
+  <li><strong>Huyệt Đầu duy (ST8):</strong> Góc trán, nơi đường chân tóc thái dương. Đặc biệt hiệu quả với hói đầu dạng "đường chân tóc lùi hai góc".</li>
+  <li><strong>Huyệt Phong trì (GB20):</strong> Hõm hai bên cổ sau, dưới xương chẩm. Thông khí huyết lên não và da đầu, trừ phong thấp.</li>
+  <li><strong>Châm xung quanh vùng hói:</strong> Châm các kim nằm ngang xung quanh đường biên vùng hói, kích thích tuần hoàn và thúc đẩy nang tóc ngủ đông tái hoạt động.</li>
+  <li><strong>Thủy châm (Aquapuncture):</strong> Tiêm dung dịch Vitamin B12 hoặc chiết xuất Hà thủ ô vào các huyệt Bách hội, Đầu duy — kết hợp tác dụng châm huyệt với dưỡng chất trực tiếp tại da đầu.</li>
+</ul>
+
+<h2>Chăm sóc ngoài da đầu và lối sống hỗ trợ</h2>
+<p>Song song với điều trị nội tâm, chăm sóc da đầu đúng cách là yếu tố không thể bỏ qua:</p>
+<ul>
+  <li>Gội đầu bằng nước sắc trắc bách diệp, hà thủ ô, hương nhu hoặc bồ kết 2-3 lần/tuần — vừa sạch vừa kích thích nang tóc.</li>
+  <li>Massage da đầu 5-10 phút mỗi ngày bằng đầu ngón tay — kích thích tuần hoàn trực tiếp.</li>
+  <li>Hạn chế stress — đây là yếu tố quan trọng nhất vì stress tăng cortisol làm teo nang tóc nhanh hơn.</li>
+  <li>Ngủ đủ giấc, tránh thức khuya (thức khuya tổn Thận âm và Can huyết).</li>
+  <li>Ăn đủ protein, sắt, kẽm từ thực phẩm tự nhiên: trứng, đậu đỗ, hải sản, vừng đen.</li>
+</ul>
+
+<div class="art-cta-box"><p>Hói đầu dạng nam có thể được cải thiện đáng kể khi điều trị sớm và đúng căn nguyên theo Y học cổ truyền. <strong>Phòng Khám YHCT Tâm Đức</strong> — BS. Nguyễn Đức Tâm — cung cấp liệu trình điều trị tóc rụng toàn diện: từ thăm khám biện chứng phân thể, kê đơn thuốc thảo dược bổ Thận dưỡng Can, đến châm cứu da đầu và thủy châm kích hoạt nang tóc. Liên hệ tư vấn: <strong>0973 710 237</strong> | Giờ khám: <strong>18:00–22:00 hàng ngày</strong> | Địa chỉ: <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
     id: 213,
     slug: "xoa-bop-bam-huyet-ho-tro-giam-mo-bung-yhct",
     date: "2026-08-04",
