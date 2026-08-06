@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://drductam18990-cyber.github.io/yhct-tamduc/sitemap.xml
