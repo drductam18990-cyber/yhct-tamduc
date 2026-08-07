@@ -1,5 +1,340 @@
 const ARTICLES = [
   {
+    id: 11,
+    slug: 'roi-loan-tien-dinh-yhct',
+    date: '2026-08-07',
+    category: 'mat-benh',
+    categoryLabel: 'Mặt bệnh',
+    icon: '🩺',
+    gradient: 'g-navy',
+    title: 'Rối loạn tiền đình: Chóng mặt, buồn nôn và cách điều trị theo YHCT',
+    excerpt: 'Rối loạn tiền đình gây ra chóng mặt, mất thăng bằng và buồn nôn, ảnh hưởng nghiêm trọng đến chất lượng cuộc sống. Y học cổ truyền tiếp cận căn bệnh này từ gốc rễ thông qua châm cứu, bấm huyệt và bài thuốc điều hòa can-thận.',
+    readTime: 6,
+    content: `
+<h2>Rối loạn tiền đình là gì?</h2>
+<p>Tiền đình là cơ quan thăng bằng nằm ở tai trong, giúp cơ thể xác định phương hướng và duy trì tư thế. Khi hệ tiền đình bị rối loạn, người bệnh xuất hiện các triệu chứng đặc trưng như chóng mặt đột ngột, cảm giác mọi thứ xung quanh đang quay, buồn nôn, nôn ói và mất thăng bằng. Một số bệnh nhân còn kèm ù tai, nghe kém hoặc đau đầu.</p>
+<p>Theo Y học cổ truyền (YHCT), rối loạn tiền đình thuộc chứng <em>"Huyễn vựng"</em> (眩暈) — chữ "huyễn" chỉ hoa mắt, "vựng" chỉ chóng mặt. Cổ nhân có câu: <em>"Vô đàm bất tác huyễn, vô hư bất tác huyễn"</em> — không có đàm thì không chóng mặt, không có hư thì không chóng mặt.</p>
+
+<h2>Phân thể bệnh theo Y học cổ truyền</h2>
+<p>YHCT chia rối loạn tiền đình thành các thể bệnh chính, mỗi thể có cơ chế bệnh sinh và pháp điều trị riêng:</p>
+<ul>
+  <li><strong>Thể Can dương thượng kháng:</strong> Thường gặp ở người có tính tình nóng nảy, căng thẳng kéo dài. Biểu hiện: chóng mặt kèm đau đầu vùng đỉnh hoặc hai bên thái dương, mặt đỏ, mắt đỏ, miệng đắng, ngủ không ngon. Lưỡi đỏ, rêu vàng, mạch huyền sác.</li>
+  <li><strong>Thể Đàm trọc trở thanh khiếu:</strong> Gặp ở người béo phì, hay ăn đồ béo ngọt. Biểu hiện: chóng mặt nặng đầu, ngực tức, buồn nôn nhiều, người nặng nề mệt mỏi. Rêu lưỡi trắng nhờn, mạch hoạt.</li>
+  <li><strong>Thể Thận tinh bất túc:</strong> Thường gặp ở người cao tuổi hoặc người lao lực quá độ. Biểu hiện: chóng mặt âm ỉ, đau lưng mỏi gối, ù tai tiếng ve, ngủ kém, hay quên. Lưỡi đỏ ít rêu, mạch tế sác.</li>
+  <li><strong>Thể Khí huyết lưỡng hư:</strong> Gặp ở người suy nhược, phụ nữ sau sinh, người bệnh mạn tính. Biểu hiện: chóng mặt khi đứng dậy đột ngột, mặt xanh tái, tim hồi hộp, mệt mỏi, chân tay lạnh. Lưỡi nhạt, mạch tế nhược.</li>
+  <li><strong>Thể Huyết ứ trở lạc:</strong> Gặp sau chấn thương đầu hoặc bệnh mạch máu não. Biểu hiện: chóng mặt kèm đau đầu kiểu như kim châm, miệng thâm, lưỡi có điểm ứ huyết, mạch sáp.</li>
+</ul>
+
+<h2>Phương pháp điều trị theo YHCT</h2>
+<p>Tùy theo thể bệnh, bác sĩ YHCT sẽ lựa chọn phương pháp phù hợp:</p>
+<ul>
+  <li><strong>Châm cứu:</strong> Là phương pháp nền tảng, tác động trực tiếp vào các huyệt vị đặc hiệu như Phong Trì (GB20), Bách Hội (GV20), Nội Quan (PC6), Phong Long (ST40), Thái Xung (LR3) nhằm điều hòa khí huyết, bình can tiềm dương, hóa đàm khai khiếu.</li>
+  <li><strong>Nhĩ châm (châm tai):</strong> Kích thích các điểm phản chiếu tiền đình, thần môn, thận, can trên vành tai, giúp cải thiện triệu chứng nhanh chóng.</li>
+  <li><strong>Xoa bóp bấm huyệt:</strong> Tập trung vùng gáy, vai, đầu; bấm các huyệt Phong Trì, Ế Minh (EX-HN14), Thính Cung (SI19) giúp tăng tuần hoàn não.</li>
+  <li><strong>Bài thuốc YHCT:</strong> Thể can dương dùng Thiên ma câu đằng ẩm; thể đàm trọc dùng Bán hạ bạch truật thiên ma thang; thể thận hư dùng Lục vị địa hoàng hoàn hoặc Tả quy hoàn; thể khí huyết hư dùng Quy tỳ thang.</li>
+</ul>
+
+<h2>Lối sống hỗ trợ điều trị</h2>
+<p>Bên cạnh các phương pháp y tế, người bệnh cần chú ý:</p>
+<ul>
+  <li>Tránh thay đổi tư thế đột ngột, đặc biệt khi ngủ dậy phải từ từ ngồi lên trước rồi mới đứng.</li>
+  <li>Hạn chế chất kích thích: cà phê, rượu bia, thuốc lá làm nặng thêm triệu chứng.</li>
+  <li>Ăn nhạt, giảm muối để giảm áp lực dịch nội dịch trong tai.</li>
+  <li>Ngủ đủ giấc, tránh căng thẳng — căng thẳng là tác nhân khởi phát cơn tiền đình.</li>
+  <li>Tập bài tập Epley hoặc bài dưỡng sinh YHCT giúp tái lập cân bằng tiền đình.</li>
+</ul>
+
+<h2>Khi nào cần điều trị sớm?</h2>
+<p>Rối loạn tiền đình thường lành tính nhưng cần phân biệt với các bệnh nguy hiểm như tai biến mạch máu não hoặc u não. Hãy đến khám ngay nếu chóng mặt kèm: nói khó, liệt tay chân, nhìn đôi, đau đầu dữ dội đột ngột hoặc ngất xỉu. Với rối loạn tiền đình lành tính, điều trị YHCT kết hợp tây y thường cho kết quả tốt sau 4–8 tuần.</p>
+
+<div class="art-cta-box"><p>Phòng Khám Y học Cổ truyền <strong>Tâm Đức</strong> chuyên điều trị rối loạn tiền đình bằng châm cứu và bài thuốc cổ truyền. <strong>BS. Nguyễn Đức Tâm</strong> — chuyên khoa YHCT với hơn 20 năm kinh nghiệm — trực tiếp thăm khám và lập phác đồ cá nhân hóa. Liên hệ: <strong>0973 710 237</strong> | Giờ khám: <strong>18:00–22:00 hàng ngày</strong> | Địa chỉ: <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 12,
+    slug: 'giac-hoi-tri-lieu-yhct',
+    date: '2026-08-07',
+    category: 'khong-thuoc',
+    categoryLabel: 'Không dùng thuốc',
+    icon: '🧘',
+    gradient: 'g-herb',
+    title: 'Giác hơi (Cupping): Phương pháp trị liệu không dùng thuốc của YHCT',
+    excerpt: 'Giác hơi là liệu pháp YHCT hàng nghìn năm tuổi dùng sức hút chân không để thông kinh lạc, trục hàn thấp ra ngoài. Khi được chỉ định đúng, phương pháp này giảm đau hiệu quả mà không cần thuốc.',
+    readTime: 5,
+    content: `
+<h2>Giác hơi là gì và cơ chế tác dụng?</h2>
+<p>Giác hơi (拔罐, bá quán) là liệu pháp dùng cốc thủy tinh, tre hoặc silicon tạo áp suất âm trên bề mặt da, giúp hút máu và khí lên cục bộ. Phương pháp này có lịch sử trên 2.000 năm trong YHCT và được ghi chép trong nhiều y thư cổ.</p>
+<p>Cơ chế tác dụng theo YHCT: sức hút chân không kéo mở kinh lạc, xua đuổi phong-hàn-thấp tà ra khỏi cơ thể, thúc đẩy lưu thông khí huyết và giảm đau. Theo y học hiện đại, giác hơi làm giãn mao mạch tại chỗ, tăng tuần hoàn vi mạch, kích thích phóng thích endorphin nội sinh và giảm viêm cục bộ.</p>
+
+<h2>Các kỹ thuật giác hơi</h2>
+<ul>
+  <li><strong>Giác lửa (hỏa giác):</strong> Dùng bông tẩm cồn đốt trong cốc rồi úp nhanh lên da. Đây là kỹ thuật truyền thống, hiệu quả cao nhưng cần người có kinh nghiệm thực hiện.</li>
+  <li><strong>Giác hút khí (khí giác):</strong> Dùng cốc silicon hoặc cốc nhựa có van bơm, an toàn hơn, dễ kiểm soát lực hút. Thích hợp cho người mới làm quen.</li>
+  <li><strong>Giác trượt (tẩu giác):</strong> Bôi dầu lên da rồi trượt cốc dọc theo kinh lạc. Tác dụng tốt trong thư giãn cơ, giảm đau lưng và vai gáy diện rộng.</li>
+  <li><strong>Thủy giác:</strong> Đổ một ít nước vào cốc trước khi giác. Ít dùng hơn nhưng có tác dụng thanh nhiệt.</li>
+  <li><strong>Điện giác kết hợp:</strong> Kết hợp cốc giác với điện châm hoặc từ trường, tăng hiệu quả điều trị.</li>
+</ul>
+
+<h2>Chỉ định điều trị</h2>
+<p>Giác hơi có hiệu quả được chứng minh lâm sàng trong các tình trạng:</p>
+<ul>
+  <li><strong>Đau cơ xương khớp:</strong> Đau lưng, đau vai gáy, đau cổ, đau cơ toàn thân (fibromyalgia).</li>
+  <li><strong>Cảm mạo phong hàn:</strong> Giác vùng lưng trên (Phế Du, Phong Môn) giúp trừ hàn, giải biểu, cải thiện triệu chứng cảm lạnh.</li>
+  <li><strong>Đau đầu căng cơ:</strong> Giác vùng gáy và vai kết hợp bấm huyệt cho hiệu quả nhanh.</li>
+  <li><strong>Hen phế quản và viêm phế quản mạn:</strong> Giác các huyệt trên lưng (Phế Du, Định Suyễn) hỗ trợ thông phế khí.</li>
+  <li><strong>Mệt mỏi và căng thẳng:</strong> Giác toàn lưng giúp thư giãn thần kinh, giảm cortisol.</li>
+</ul>
+
+<h2>Chống chỉ định và lưu ý</h2>
+<p>Giác hơi <strong>không</strong> được thực hiện trong các trường hợp:</p>
+<ul>
+  <li>Da viêm loét, lở ngứa, chàm, bỏng, vết thương hở tại vùng giác.</li>
+  <li>Rối loạn đông máu, đang dùng thuốc chống đông (warfarin, aspirin liều cao).</li>
+  <li>Phụ nữ có thai (đặc biệt vùng bụng, lưng dưới, huyệt có thể kích thích co tử cung).</li>
+  <li>Người bị phù nề, suy tim nặng, suy thận mạn giai đoạn cuối.</li>
+  <li>Trẻ em dưới 3 tuổi và người cao tuổi da mỏng, mạch máu dễ vỡ cần thận trọng.</li>
+</ul>
+<p>Vết bầm sau giác (màu đỏ tím) là phản ứng bình thường, tự hết sau 3–7 ngày và không gây hại. Sậm màu vết giác thường phản ánh mức độ hàn-thấp-ứ tại vùng đó.</p>
+
+<h2>Liệu trình và kết quả</h2>
+<p>Mỗi buổi giác kéo dài 10–20 phút. Liệu trình cơ bản: 6–10 buổi, 2–3 lần/tuần. Sau 2–3 buổi đầu, đa số bệnh nhân cảm thấy giảm đau rõ rệt và ngủ ngon hơn. Để duy trì kết quả, nên kết hợp giác hơi với châm cứu hoặc bấm huyệt theo chỉ định của bác sĩ YHCT.</p>
+
+<div class="art-cta-box"><p>Phòng Khám Y học Cổ truyền <strong>Tâm Đức</strong> thực hiện giác hơi bằng dụng cụ vô trùng, an toàn theo đúng phác đồ YHCT. <strong>BS. Nguyễn Đức Tâm</strong> trực tiếp thăm khám và chỉ định kỹ thuật giác phù hợp với từng thể trạng. Liên hệ: <strong>0973 710 237</strong> | Giờ khám: <strong>18:00–22:00 hàng ngày</strong> | Địa chỉ: <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 13,
+    slug: 'luc-quan-tu-thang-kien-ty-ich-khi',
+    date: '2026-08-07',
+    category: 'thuoc-yhct',
+    categoryLabel: 'Thuốc YHCT',
+    icon: '🌿',
+    gradient: 'g-fire',
+    title: 'Lục quân tử thang: Bài thuốc kiện tỳ ích khí, hóa đàm chỉ ẩu kinh điển',
+    excerpt: 'Lục quân tử thang là bài thuốc YHCT kinh điển điều trị tỳ vị khí hư kết hợp đàm thấp, giúp cải thiện tiêu hóa kém, buồn nôn mạn tính và mệt mỏi sau bệnh dài ngày.',
+    readTime: 6,
+    content: `
+<h2>Nguồn gốc và tên gọi</h2>
+<p>Lục quân tử thang (六君子湯) là bài thuốc YHCT được hình thành từ việc mở rộng bài <em>Tứ quân tử thang</em> (四君子湯) — bài thuốc bổ khí căn bản nhất trong Đông y, xuất xứ từ bộ <em>Thái bình huệ dân hòa tễ cục phương</em> (太平惠民和劑局方, đời Tống). Về sau, các y gia thêm vào hai vị Trần bì và Bán hạ để tăng tác dụng hóa đàm, tạo thành "Lục vị" (sáu vị). Tên "Quân tử" (君子) tượng trưng cho sự ôn hòa, bổ mà không táo, trừ đàm mà không thương chính khí.</p>
+
+<h2>Thành phần và vai trò từng vị thuốc</h2>
+<p>Bài thuốc gồm 6 vị chính với liều lượng thường dùng:</p>
+<ul>
+  <li><strong>Đảng sâm (Codonopsis pilosula) — 12g, Quân:</strong> Đại bổ nguyên khí, kiện tỳ ích phế, sinh tân chỉ khát. Là vị chủ dược, thay thế Nhân sâm trong các thang thông thường.</li>
+  <li><strong>Bạch truật (Atractylodes macrocephala) — 10g, Thần:</strong> Kiện tỳ táo thấp, ích khí cố biểu. Phối hợp với Đảng sâm để tăng mạnh chức năng vận hóa của tỳ vị.</li>
+  <li><strong>Bạch linh (Poria cocos) — 10g, Thần:</strong> Kiện tỳ ích khí, lợi thủy thẩm thấp, an thần định chí. Giúp vận chuyển đàm thấp ra khỏi tỳ.</li>
+  <li><strong>Cam thảo (Glycyrrhiza uralensis) — 6g, Sứ:</strong> Bổ tỳ hòa trung, điều hòa các vị thuốc trong bài, giải độc. Là vị sứ quan trọng trong nhiều bài bổ khí.</li>
+  <li><strong>Trần bì (Citrus reticulata) — 6g, Tá:</strong> Lý khí kiện tỳ, táo thấp hóa đàm, giáng nghịch chỉ ẩu. Đây là vị "mở rộng" so với Tứ quân tử thang, giúp điều lý khí cơ, tránh bổ mà gây trệ.</li>
+  <li><strong>Bán hạ (Pinellia ternata) — 8g, Tá:</strong> Táo thấp hóa đàm, giáng nghịch chỉ ẩu, tiêu bĩ tán kết. Phối hợp với Trần bì tạo cặp đôi hóa đàm kinh điển.</li>
+</ul>
+
+<h2>Công năng và chỉ định lâm sàng</h2>
+<p>Công năng: <strong>Ích khí kiện tỳ, hóa đàm chỉ ẩu</strong>.</p>
+<p>Lục quân tử thang được chỉ định trong các chứng bệnh thuộc <em>Tỳ vị khí hư kiêm đàm thấp</em>, biểu hiện:</p>
+<ul>
+  <li>Mệt mỏi, thiếu sức lực, chán ăn, ăn không tiêu, bụng đầy trướng sau ăn.</li>
+  <li>Buồn nôn hoặc nôn mạn tính, miệng nhạt không khát nước.</li>
+  <li>Phân lỏng hoặc nát, đại tiện không thành khuôn.</li>
+  <li>Ho có đờm trắng loãng, ngực tức, khó thở nhẹ.</li>
+  <li>Người xanh xao, da mặt không tươi, lưỡi nhạt bệu, rêu trắng nhờn, mạch hoãn hoặc tế nhược.</li>
+  <li>Ứng dụng hiện đại: viêm dạ dày mạn tính, loét dạ dày tá tràng, hội chứng ruột kích thích, trào ngược dạ dày-thực quản, suy dinh dưỡng ở trẻ em, phục hồi sau hóa-xạ trị ung thư.</li>
+</ul>
+
+<h2>Chống chỉ định và thận trọng</h2>
+<ul>
+  <li><strong>Không dùng</strong> khi có thực nhiệt: người bệnh nóng sốt, miệng khô khát, táo bón, rêu lưỡi vàng dày.</li>
+  <li><strong>Thận trọng</strong> với người âm hư (ít nước miếng, lưỡi đỏ không rêu): Bán hạ và Trần bì có tính táo, dễ làm tổn thương tân dịch — cần gia giảm hoặc dùng bài khác.</li>
+  <li>Phụ nữ có thai thận trọng với Bán hạ — cần có sự giám sát của bác sĩ YHCT.</li>
+  <li>Không dùng Bán hạ sống (chưa bào chế); chỉ dùng Bán hạ chế (bào chế với gừng hoặc phèn chua) đúng tiêu chuẩn dược điển.</li>
+</ul>
+
+<h2>Gia giảm theo thể bệnh</h2>
+<p>Lục quân tử thang là bài thuốc cơ sở, bác sĩ YHCT thường gia giảm linh hoạt:</p>
+<ul>
+  <li>Đau bụng nặng thêm: gia Mộc hương, Sa nhân để hành khí chỉ thống.</li>
+  <li>Tiêu lỏng kéo dài: gia Hoài sơn, Liên nhục, Ý dĩ để kiện tỳ chỉ tả.</li>
+  <li>Ho nhiều đờm: gia Tử uyển, Khoản đông hoa để hóa đàm chỉ khái.</li>
+  <li>Suy nhược sau bệnh nặng: gia Hoàng kỳ, Đương quy để ích khí dưỡng huyết.</li>
+</ul>
+
+<div class="art-cta-box"><p>Phòng Khám Y học Cổ truyền <strong>Tâm Đức</strong> bốc thuốc thang YHCT chuẩn theo dược điển, trong đó có Lục quân tử thang và các bài gia giảm phù hợp với từng bệnh nhân. <strong>BS. Nguyễn Đức Tâm</strong> thăm khám và kê đơn trực tiếp. Liên hệ: <strong>0973 710 237</strong> | Giờ khám: <strong>18:00–22:00 hàng ngày</strong> | Địa chỉ: <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 14,
+    slug: 'phong-ngua-loang-xuong-yhct',
+    date: '2026-08-07',
+    category: 'phong-benh',
+    categoryLabel: 'Phòng bệnh',
+    icon: '🛡️',
+    gradient: 'g-amber',
+    title: 'Phòng ngừa loãng xương theo YHCT: Bổ thận kiện cốt từ tuổi 40',
+    excerpt: 'Loãng xương tiến triển âm thầm và không thể đảo ngược hoàn toàn. YHCT nhấn mạnh phòng ngừa từ sớm qua bổ thận tráng cốt, dinh dưỡng đúng theo ngũ hành và dưỡng sinh hàng ngày.',
+    readTime: 6,
+    content: `
+<h2>Loãng xương — "kẻ trộm thầm lặng" của tuổi tác</h2>
+<p>Loãng xương (osteoporosis) là tình trạng mật độ xương giảm dần, cấu trúc xương trở nên xốp và giòn, dễ gãy dù chỉ từ chấn thương nhẹ. Theo thống kê, Việt Nam có hơn 3,6 triệu người mắc loãng xương, trong đó phụ nữ sau mãn kinh chiếm tỷ lệ cao nhất. Đáng lo ngại là bệnh không có triệu chứng rõ rệt cho đến khi xảy ra gãy xương — thường ở cổ xương đùi, cột sống hoặc cổ tay.</p>
+<p>Y học cổ truyền xem <em>"thận chủ cốt, sinh tủy"</em> — thận khí sung mãn thì xương cốt vững chắc. Loãng xương thuộc chứng <em>"Cốt nuy"</em> (xương yếu mềm), căn nguyên chính là thận tinh suy giảm theo tuổi tác, kết hợp can huyết hư và tỳ vị suy yếu làm giảm hấp thu tinh vi nuôi dưỡng xương.</p>
+
+<h2>Yếu tố nguy cơ cần nhận biết sớm</h2>
+<ul>
+  <li><strong>Tuổi tác:</strong> Mật độ xương bắt đầu giảm sau 35 tuổi, giảm nhanh ở phụ nữ sau mãn kinh do thiếu hụt estrogen.</li>
+  <li><strong>Giới tính:</strong> Phụ nữ có nguy cơ cao gấp 4 lần nam giới.</li>
+  <li><strong>Di truyền:</strong> Cha mẹ bị loãng xương hoặc gãy xương hông làm tăng nguy cơ.</li>
+  <li><strong>Chế độ ăn thiếu canxi, vitamin D:</strong> Đây là nguyên nhân phổ biến nhất có thể kiểm soát được.</li>
+  <li><strong>Lối sống ít vận động:</strong> Xương cần chịu lực mới duy trì mật độ.</li>
+  <li><strong>Hút thuốc và rượu bia:</strong> Ức chế hấp thu canxi và tăng bài tiết qua thận.</li>
+  <li><strong>Dùng corticosteroid dài hạn:</strong> Một trong những nguyên nhân loãng xương thứ phát phổ biến nhất.</li>
+</ul>
+
+<h2>Nguyên tắc phòng ngừa theo YHCT</h2>
+<p>YHCT nhấn mạnh <em>"trị vị bệnh"</em> — điều trị trước khi bệnh xảy ra. Với loãng xương, phòng ngừa bắt đầu từ tuổi 35–40, tập trung vào ba trụ cột:</p>
+<ul>
+  <li><strong>Bổ thận kiện cốt:</strong> Dùng các vị thuốc bổ thận như Thục địa, Sơn thù du, Nhục thung dung, Đỗ trọng, Tục đoạn, Cốt toái bổ. Bài thuốc thường dùng: Lục vị địa hoàng hoàn, Hữu quy hoàn (cho người thận dương hư), Tả quy hoàn (cho người thận âm hư).</li>
+  <li><strong>Kiện tỳ ích khí để tăng hấp thu:</strong> Tỳ vị khỏe mạnh giúp hấp thu chất dinh dưỡng nuôi dưỡng xương. Dùng Đảng sâm, Bạch truật, Hoài sơn, Ý dĩ.</li>
+  <li><strong>Dưỡng can bổ huyết:</strong> Can chủ cân, thận chủ cốt — khi can thận đều sung mãn, toàn bộ hệ vận động vững chắc. Dùng Đương quy, Kỷ tử, A giao.</li>
+</ul>
+
+<h2>Dinh dưỡng phòng loãng xương theo YHCT</h2>
+<ul>
+  <li><strong>Thực phẩm bổ thận kiện cốt:</strong> Vừng đen, hạt óc chó, đậu đen, thận heo, tôm khô, cá nhỏ ăn cả xương, lá chùm ngây, rau ngót.</li>
+  <li><strong>Thực phẩm giàu canxi tự nhiên:</strong> Sữa đậu nành, đậu phụ, rau cải xanh, hạnh nhân, hạt chia.</li>
+  <li><strong>Phơi nắng để tổng hợp vitamin D:</strong> 15–20 phút buổi sáng sớm (trước 9h), ánh nắng nhẹ chiếu vào da giúp cơ thể tự tổng hợp vitamin D thiết yếu cho hấp thu canxi.</li>
+  <li><strong>Hạn chế:</strong> Cà phê, muối, đường tinh luyện, rượu bia và nước ngọt có gas — tất cả đều làm tăng bài tiết canxi qua nước tiểu.</li>
+</ul>
+
+<h2>Bài tập dưỡng sinh YHCT phòng loãng xương</h2>
+<p>Vận động chịu lực là cách hiệu quả nhất để kích thích tạo xương mới:</p>
+<ul>
+  <li><strong>Đi bộ nhanh 30 phút/ngày:</strong> Đơn giản, an toàn, phù hợp mọi lứa tuổi.</li>
+  <li><strong>Bài tập Thái Cực Quyền:</strong> Vừa chịu lực vừa cải thiện thăng bằng, giảm nguy cơ té ngã gãy xương.</li>
+  <li><strong>Tập Yoga dưỡng sinh:</strong> Các tư thế đứng, ngồi cân bằng giúp tăng mật độ xương cột sống và hông.</li>
+  <li><strong>Tránh:</strong> Nhảy mạnh, mang vật nặng đột ngột khi đã có loãng xương để phòng gãy xương bệnh lý.</li>
+</ul>
+
+<div class="art-cta-box"><p>Phòng Khám Y học Cổ truyền <strong>Tâm Đức</strong> tư vấn phòng ngừa và hỗ trợ điều trị loãng xương bằng bài thuốc bổ thận kiện cốt phù hợp với từng thể trạng. <strong>BS. Nguyễn Đức Tâm</strong> thăm khám trực tiếp và lập phác đồ bổ sung chuyên biệt. Liên hệ: <strong>0973 710 237</strong> | Giờ khám: <strong>18:00–22:00 hàng ngày</strong> | Địa chỉ: <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 15,
+    slug: 'phuong-huyet-dieu-tri-roi-loan-tien-dinh',
+    date: '2026-08-07',
+    category: 'phuong-huyet',
+    categoryLabel: 'Phương huyệt',
+    icon: '📍',
+    gradient: 'g-huyet',
+    title: 'Phương huyệt điều trị rối loạn tiền đình: 7 huyệt vị cốt lõi và cách phối hợp',
+    excerpt: 'Châm cứu rối loạn tiền đình cho kết quả ấn tượng khi bác sĩ YHCT chọn đúng phương huyệt theo thể bệnh. Bài viết phân tích 7 huyệt vị then chốt với vị trí chính xác, tác dụng và cách phối hợp điều trị.',
+    readTime: 7,
+    content: `
+<h2>Nguyên tắc chọn huyệt trong điều trị rối loạn tiền đình</h2>
+<p>Theo YHCT, rối loạn tiền đình (chứng Huyễn vựng) có nhiều thể bệnh khác nhau. Nguyên tắc chọn huyệt phải dựa trên biện chứng luận trị: thể can dương cần bình can tiềm dương; thể đàm trọc cần hóa đàm khai khiếu; thể thận hư cần bổ thận ích tinh; thể khí huyết hư cần ích khí dưỡng huyết. Phương huyệt dưới đây là nền tảng chung, bác sĩ sẽ gia giảm tùy thể.</p>
+
+<h2>7 huyệt vị cốt lõi</h2>
+
+<h2>1. Bách Hội (GV20 — Đốc mạch)</h2>
+<p><strong>Vị trí:</strong> Điểm giao nhau của đường nối hai đỉnh tai và đường dọc chính giữa đầu, tức đỉnh đầu.</p>
+<p><strong>Tác dụng:</strong> Thăng dương cử hãm, khai khiếu tỉnh thần, bình can tiềm dương. Là huyệt hội tụ của Đốc mạch và các kinh dương, có tác dụng mạnh trong chứng chóng mặt, hoa mắt, tụt huyết áp tư thế.</p>
+<p><strong>Kỹ thuật:</strong> Châm nằm ngang dưới da, sâu 0,5–0,8 thốn theo hướng từ trước ra sau. Có thể dùng cứu ngải 5–7 phút.</p>
+
+<h2>2. Phong Trì (GB20 — Túc Thiếu Dương Đởm kinh)</h2>
+<p><strong>Vị trí:</strong> Phía dưới xương chẩm, trong hõm giữa cơ thang và cơ ức đòn chũm, ngang với huyệt Phong Phủ (GV16). Tìm bằng cách ấn ngón cái vào gáy, tìm hõm hai bên gáy phía dưới đầu.</p>
+<p><strong>Tác dụng:</strong> Tán phong giải biểu, bình can tiềm dương, thanh đầu mục, thông lạc giảm đau. Là huyệt quan trọng nhất trong điều trị rối loạn tiền đình, đặc biệt thể phong dương thượng nhiễu và đàm trọc.</p>
+<p><strong>Kỹ thuật:</strong> Châm hướng mũi châm về phía đầu đối diện (về phía nhân trung), sâu 1–1,5 thốn. Không châm thẳng và sâu vì gần hành tủy. Đắc khí cảm giác tê lan lên đầu hoặc ra vai.</p>
+
+<h2>3. Nội Quan (PC6 — Thủ Quyết Âm Tâm Bào kinh)</h2>
+<p><strong>Vị trí:</strong> Mặt trong cổ tay, cách nếp gấp cổ tay 2 thốn, giữa hai gân cơ gan tay lớn và cơ gan tay bé.</p>
+<p><strong>Tác dụng:</strong> Hòa vị giáng nghịch, chỉ ẩu an thần, thư can lý khí. Đặc biệt hiệu quả trong giảm triệu chứng buồn nôn, nôn ói kèm theo chóng mặt tiền đình. Được y học hiện đại nghiên cứu xác nhận tác dụng chống nôn.</p>
+<p><strong>Kỹ thuật:</strong> Châm thẳng, sâu 0,5–1 thốn. Đắc khí cảm giác tê tê lan xuống ngón tay. Có thể day bấm mạnh huyệt này khi cấp cứu cơn chóng mặt đột ngột.</p>
+
+<h2>4. Phong Long (ST40 — Túc Dương Minh Vị kinh)</h2>
+<p><strong>Vị trí:</strong> Mặt trước ngoài cẳng chân, điểm giữa đường nối đầu gối (huyệt Độc Tỵ, ST35) và mắt cá ngoài (huyệt Giải Khê, ST41), ngang ra ngoài từ bờ xương chày 2 khoát ngón tay.</p>
+<p><strong>Tác dụng:</strong> Hóa đàm giáng trọc, hòa vị giáng nghịch. Đây là huyệt hóa đàm quan trọng nhất trong kinh Vị, được dùng khi rối loạn tiền đình do đàm thấp gây ra — biểu hiện nặng đầu, buồn nôn nhiều, người béo phì.</p>
+<p><strong>Kỹ thuật:</strong> Châm thẳng, sâu 1–1,5 thốn. Đắc khí cảm giác tê nặng tại chỗ hoặc lan lên đùi.</p>
+
+<h2>5. Thái Xung (LR3 — Túc Quyết Âm Can kinh)</h2>
+<p><strong>Vị trí:</strong> Mu bàn chân, trong hõm phía sau đốt ngón chân cái và ngón chân thứ hai, sờ thấy mạch đập nhẹ.</p>
+<p><strong>Tác dụng:</strong> Bình can tiềm dương, sơ can lý khí, thanh can tả hỏa. Dùng trong thể can dương thượng kháng gây chóng mặt, đau đầu, mặt đỏ, tính khí cáu gắt.</p>
+<p><strong>Kỹ thuật:</strong> Châm thẳng, sâu 0,5–1 thốn. Có thể kết hợp với Hợp Cốc (LI4) tạo thành cặp "Tứ quan" — phối huyệt kinh điển bình can an thần.</p>
+
+<h2>6. Thận Du (BL23 — Túc Thái Dương Bàng Quang kinh)</h2>
+<p><strong>Vị trí:</strong> Lưng dưới, ngang đốt sống thắt lưng L2, cách đường cột sống 1,5 thốn về mỗi bên.</p>
+<p><strong>Tác dụng:</strong> Bổ thận ích tinh, cường kiện yêu tích. Được chỉ định trong thể thận tinh bất túc — chóng mặt âm ỉ, đau lưng mỏi gối, ù tai, ngủ kém. Thường kết hợp cứu ngải để ôn bổ thận dương.</p>
+<p><strong>Kỹ thuật:</strong> Châm thẳng, sâu 0,8–1,2 thốn. Cứu ngải 10–15 phút nếu thể thận dương hư (sợ lạnh, tay chân lạnh).</p>
+
+<h2>7. Ế Minh (EX-HN14 — Huyệt ngoài kinh)</h2>
+<p><strong>Vị trí:</strong> Phía sau tai, cách huyệt Ế Phong (TE17) 1 thốn về phía sau, trong hõm phía sau dái tai.</p>
+<p><strong>Tác dụng:</strong> Thông lạc khai khiếu, cải thiện thính lực và thị lực, giảm ù tai chóng mặt. Là huyệt đặc hiệu cho các bệnh lý về tai và tiền đình.</p>
+<p><strong>Kỹ thuật:</strong> Châm thẳng hoặc hơi nghiêng về phía trước, sâu 0,5–0,8 thốn. Đắc khí cảm giác tê lan vào trong tai.</p>
+
+<h2>Phác đồ phối huyệt theo thể bệnh</h2>
+<ul>
+  <li><strong>Thể can dương:</strong> Bách Hội + Phong Trì + Thái Xung + Hành Gian (LR2) + Thái Khê (KI3).</li>
+  <li><strong>Thể đàm trọc:</strong> Phong Trì + Phong Long + Nội Quan + Trung Quản (CV12) + Âm Lăng Tuyền (SP9).</li>
+  <li><strong>Thể thận hư:</strong> Thận Du + Bách Hội + Thái Khê + Quan Nguyên (CV4) + Túc Tam Lý (ST36).</li>
+  <li><strong>Thể khí huyết hư:</strong> Bách Hội + Túc Tam Lý + Tỳ Du (BL20) + Thận Du + Khí Hải (CV6).</li>
+</ul>
+<p>Liệu trình: 10–12 buổi châm, mỗi buổi 25–30 phút, nghỉ 1–2 ngày giữa các buổi. Đa số bệnh nhân thấy cải thiện rõ sau 4–6 buổi châm đầu tiên.</p>
+
+<div class="art-cta-box"><p>Phòng Khám Y học Cổ truyền <strong>Tâm Đức</strong> chuyên châm cứu điều trị rối loạn tiền đình theo phác đồ phương huyệt chuẩn. <strong>BS. Nguyễn Đức Tâm</strong> biện chứng và phối huyệt cá nhân hóa cho từng bệnh nhân. Liên hệ: <strong>0973 710 237</strong> | Giờ khám: <strong>18:00–22:00 hàng ngày</strong> | Địa chỉ: <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 16,
+    slug: 'rung-toc-tung-mang-alopecia-yhct',
+    date: '2026-08-07',
+    category: 'lam-dep',
+    categoryLabel: 'Làm đẹp',
+    icon: '🌸',
+    gradient: 'g-rose',
+    title: 'Điều trị rụng tóc từng mảng (Alopecia Areata) theo Y học cổ truyền',
+    excerpt: 'Rụng tóc từng mảng (alopecia areata) theo YHCT bắt nguồn từ can thận hư, khí huyết bất túc hoặc phong tà xâm phạm. Điều trị kết hợp bài thuốc nội uống, châm cứu tại chỗ và dưỡng sinh cho kết quả bền vững.',
+    readTime: 6,
+    content: `
+<h2>Rụng tóc từng mảng là gì? Quan điểm YHCT</h2>
+<p>Rụng tóc từng mảng (alopecia areata) là tình trạng tóc rụng thành từng vùng tròn hoặc bầu dục trên da đầu, đôi khi lan ra râu, lông mày, mi mắt. Theo y học hiện đại, đây là bệnh tự miễn — hệ miễn dịch tấn công nhầm vào nang tóc. Tuy nhiên căn nguyên sâu xa thường liên quan đến stress, thiếu ngủ hoặc bệnh lý nền.</p>
+<p>Trong YHCT, tóc được coi là <em>"huyết chi dư"</em> (phần thừa của huyết) và là <em>"hoa của thận"</em>. Tóc khỏe mạnh phản ánh can huyết sung mãn và thận tinh dồi dào. Rụng tóc từng mảng thuộc chứng <em>"Du phong"</em> (油風) hoặc <em>"Bạch ngũ"</em>, nguyên nhân chủ yếu là:</p>
+<ul>
+  <li><strong>Can thận bất túc:</strong> Tinh huyết không đủ để nuôi dưỡng nang tóc.</li>
+  <li><strong>Khí huyết lưỡng hư:</strong> Huyết hư không thể vận chuyển đến da đầu, nang tóc thiếu nuôi dưỡng.</li>
+  <li><strong>Phong tà xâm phạm huyết phận:</strong> Phong thắng hóa táo, làm tóc mất đi chất dinh dưỡng và rụng đột ngột.</li>
+  <li><strong>Huyết nhiệt sinh phong:</strong> Nhiệt tích lâu ngày làm tổn thương huyết dịch, phong nhiệt bốc lên gây rụng tóc.</li>
+</ul>
+
+<h2>Điều trị từ bên trong: Bài thuốc YHCT</h2>
+<p>Nền tảng điều trị YHCT là bổ điều từ bên trong tạng phủ trước:</p>
+<ul>
+  <li><strong>Thể can thận hư (phổ biến nhất):</strong> Dùng bài Thất bảo mỹ nhiêm đơn gia giảm — gồm Hà thủ ô chế (quan trọng nhất), Thỏ ty tử, Bổ cốt chỉ, Kim anh tử, Ngưu tất, Kỷ tử, Đương quy. Hà thủ ô là vị thuốc kinh điển nuôi can thận, làm đen tóc và thúc đẩy tái sinh nang tóc.</li>
+  <li><strong>Thể khí huyết hư:</strong> Dùng bài Bát trân thang hoặc Nhân sâm dưỡng vinh thang — bổ khí huyết toàn diện, giúp nang tóc được nuôi dưỡng đầy đủ.</li>
+  <li><strong>Thể phong nhiệt huyết táo:</strong> Dùng bài Lương huyết tiêu phong tán — Sinh địa, Đương quy, Kinh giới, Phòng phong, Khổ sâm, Bạch tiên bì, Thuyền thoái để lương huyết khu phong.</li>
+  <li><strong>Thể huyết ứ:</strong> Gia Đào nhân, Hồng hoa, Xuyên khung vào bài cơ bản để hoạt huyết thông lạc.</li>
+</ul>
+
+<h2>Điều trị tại chỗ: Châm cứu và kỹ thuật ngoài da</h2>
+<p>Đây là điểm mạnh của YHCT — tác động trực tiếp vào vùng rụng tóc:</p>
+<ul>
+  <li><strong>Châm cứu tại vùng rụng:</strong> Châm quanh rìa vùng rụng tóc với mũi kim hướng vào trong (kỹ thuật "bao vây"), kết hợp châm huyệt Bách Hội (GV20) và Tứ Thần Thông (EX-HN1). Kích thích tuần hoàn tại nang tóc, thúc đẩy tế bào gốc nang hoạt động trở lại.</li>
+  <li><strong>Nhĩ châm:</strong> Châm các điểm phản chiếu Thận, Nội tiết, Thần môn, Phổi trên vành tai để điều hòa miễn dịch từ bên trong.</li>
+  <li><strong>Mãng châm (plum blossom needle):</strong> Dùng kim hoa mai gõ nhẹ đều lên toàn bộ vùng rụng tóc đến khi da ửng hồng. Kỹ thuật này kích thích mạnh lưu thông khí huyết tại nang tóc, được nhiều nghiên cứu lâm sàng xác nhận hiệu quả.</li>
+  <li><strong>Bôi dầu thuốc YHCT:</strong> Dầu gừng tươi, dầu hà thủ ô, hoặc cồn thuốc bạch tiên bì bôi tại chỗ và massage 5–10 phút sau mỗi buổi mãng châm.</li>
+</ul>
+
+<h2>Chăm sóc hàng ngày theo YHCT</h2>
+<ul>
+  <li><strong>Dinh dưỡng dưỡng can thận:</strong> Bổ sung vừng đen (mè đen), hạt óc chó, trứng gà, thịt gà ác, hoa chuối, dâu tằm, hạt sen, táo đỏ. Đây là những thực phẩm nuôi can huyết, bổ thận tinh theo nguyên lý ngũ hành.</li>
+  <li><strong>Tránh thực phẩm gây nhiệt huyết:</strong> Đồ cay nóng, rượu bia, thức ăn chiên rán nhiều dầu làm nặng thêm thể huyết nhiệt sinh phong.</li>
+  <li><strong>Kiểm soát stress — nguyên nhân số 1:</strong> Thực hành thiền định, thở bụng sâu, Thái Cực Quyền 20–30 phút/ngày giúp bình ổn can khí, giảm căng thẳng thần kinh.</li>
+  <li><strong>Ngủ đủ giấc trước 23h:</strong> Can tạng hồi phục và tàng huyết trong giờ Tý-Sửu (23h–3h sáng). Thức khuya liên tục là nguyên nhân chính gây can huyết hư.</li>
+  <li><strong>Massage da đầu:</strong> 5–10 phút buổi sáng và tối, dùng đầu ngón tay massage theo vòng tròn từ trán ra sau, kết hợp chải tóc chậm 100 lần/ngày bằng lược gỗ.</li>
+</ul>
+
+<h2>Thời gian và kỳ vọng điều trị</h2>
+<p>Rụng tóc từng mảng theo YHCT thường thấy tóc tơ tái mọc sau 4–8 tuần điều trị tích cực. Liệu trình đầy đủ thường kéo dài 3–6 tháng. Trường hợp rụng toàn đầu (alopecia totalis) hoặc toàn thân (alopecia universalis) cần thời gian điều trị dài hơn và kết hợp với tây y. Điều quan trọng là duy trì liệu trình đều đặn và kiên nhẫn — tóc mọc lại theo chu kỳ sinh lý không thể đốt cháy giai đoạn.</p>
+
+<div class="art-cta-box"><p>Phòng Khám Y học Cổ truyền <strong>Tâm Đức</strong> điều trị rụng tóc từng mảng bằng phác đồ kết hợp châm cứu mãng châm, bài thuốc bổ can thận và tư vấn chăm sóc tại nhà. <strong>BS. Nguyễn Đức Tâm</strong> thăm khám và biện chứng thể bệnh trực tiếp. Liên hệ: <strong>0973 710 237</strong> | Giờ khám: <strong>18:00–22:00 hàng ngày</strong> | Địa chỉ: <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
     id: 1,
     category: 'mat-benh',
     categoryLabel: 'Mặt bệnh',
