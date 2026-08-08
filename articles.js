@@ -1,5 +1,55 @@
 const ARTICLES = [
   {
+    id: 17,
+    slug: 'nhi-cham-giam-stress-yhct',
+    date: '2026-08-08',
+    category: 'khong-thuoc',
+    categoryLabel: 'Không dùng thuốc',
+    icon: '🧘',
+    gradient: 'g-herb',
+    title: 'Nhĩ châm giảm stress: Liệu pháp không dùng thuốc cho người hiện đại bận rộn',
+    excerpt: 'Nhĩ châm kích thích các điểm phản chiếu trên vành tai để điều hòa thần kinh, giảm cortisol và cân bằng tạng phủ — phương pháp YHCT hiệu quả cho người bị stress, lo âu và mất ngủ mà không cần dùng thuốc.',
+    readTime: 5,
+    content: `
+<h2>Tổng quan theo Y học cổ truyền</h2>
+<p>Nhĩ châm (耳針, auriculotherapy) là phương pháp châm cứu tại các điểm phản chiếu trên vành tai nhằm điều trị bệnh lý toàn thân. Theo YHCT, toàn bộ cơ thể con người được phản chiếu lên vành tai theo hình dạng một thai nhi ngược — đầu ở dưới (dái tai), chân ở trên, các tạng phủ ở giữa. Khi một cơ quan bị bệnh, điểm phản chiếu tương ứng trên tai sẽ nhạy đau hoặc có biến đổi điện trở; kích thích điểm đó sẽ truyền tín hiệu về não và điều hòa chức năng cơ quan bệnh.</p>
+<p>Với stress và lo âu, nhĩ châm tác động lên hệ thần kinh thực vật thông qua nhánh thần kinh phế vị (vagus nerve) phân bố dày đặc ở vành tai. Kích thích điểm Thần môn (Shen Men) — điểm nhĩ châm quan trọng nhất — làm tăng trương lực phó giao cảm, giảm phóng thích cortisol và adrenaline, mang lại cảm giác bình tĩnh và thư giãn sâu.</p>
+
+<h2>Phân thể / Nguyên nhân theo YHCT</h2>
+<ul>
+  <li><strong>Thể Can khí uất kết:</strong> Stress căng thẳng liên tục làm can khí bị uất ức, không thư xướng, gây lo âu, dễ cáu giận, ngủ không sâu, ngực tức, ăn kém. Lưỡi đỏ bên cạnh, mạch huyền. Cần sơ can giải uất.</li>
+  <li><strong>Thể Tâm thận bất giao:</strong> Lo nghĩ quá độ hoặc lao lực làm tâm hỏa bốc lên, thận thủy không lên tưới tâm. Biểu hiện: hồi hộp, mất ngủ khó vào giấc, miệng khô, nóng lòng bàn tay bàn chân. Mạch tế sác.</li>
+  <li><strong>Thể Tỳ hư đàm thấp:</strong> Căng thẳng kéo dài làm tỳ vị suy, đàm thấp nội sinh quấy nhiễu tâm thần. Biểu hiện: đầu nặng, mệt mỏi, buồn nôn, ngực tức, ngủ mơ nhiều. Rêu lưỡi trắng nhờn, mạch hoạt.</li>
+  <li><strong>Thể Khí huyết lưỡng hư:</strong> Căng thẳng mãn tính làm hao tổn khí huyết, tâm thần thiếu nuôi dưỡng. Biểu hiện: lo lắng vô cớ, hay quên, mệt mỏi, tim hồi hộp, da xanh tái. Mạch tế nhược.</li>
+</ul>
+
+<h2>Phương pháp nhĩ châm và các huyệt vị điều trị stress</h2>
+<p>Bác sĩ YHCT xác định các điểm nhạy cảm trên tai bằng que dò (auricular probe) hoặc kiểm tra điện trở, sau đó châm kim hoặc dán hạt vương bất lưu hành để kích thích liên tục. Các điểm nhĩ châm cốt lõi cho stress và lo âu:</p>
+<ul>
+  <li><strong>Thần môn (Shen Men — TF4):</strong> Điểm đặc hiệu nhất cho an thần, giảm lo âu và đau. Nằm trong tam giác xoắn tai phía trên. Kích thích điểm này làm tăng hoạt động phó giao cảm, tương đương tác dụng của huyệt Thần môn (HT7) trên cổ tay.</li>
+  <li><strong>Giao cảm (Sympathetic — AH6a):</strong> Nằm ở đáy gờ đối vành, điều hòa hệ thần kinh tự chủ, giảm phản ứng "chiến hay chạy" (fight-or-flight), hạ nhịp tim và huyết áp.</li>
+  <li><strong>Tâm (Heart — CO15):</strong> Nằm ở hõm vành tai giữa, ứng với tim. Dùng khi stress kèm hồi hộp, tim đập nhanh, mất ngủ.</li>
+  <li><strong>Can (Liver — CO12):</strong> Nằm ở hõm vành tai phía sau, dùng khi stress biểu hiện bằng cáu gắt, đau sườn, can khí uất kết.</li>
+  <li><strong>Thận (Kidney — CO10):</strong> Dùng cho thể tâm thận bất giao, lo âu kèm mất ngủ, ù tai do thận hư.</li>
+  <li><strong>Nội tiết (Endocrine — CO18):</strong> Điều hòa trục hạ đồi-tuyến yên-thượng thận, giảm cortisol tổng thể, đặc biệt hữu ích cho stress mãn tính.</li>
+</ul>
+<p>Liệu trình cơ bản: 6–10 buổi, mỗi buổi châm hai tai 20–30 phút hoặc dán hạt 3–5 ngày/lần. Sau 2–3 buổi đầu, hầu hết bệnh nhân cảm thấy ngủ ngon hơn và cơn lo âu giảm rõ.</p>
+
+<h2>Tự thực hành tại nhà</h2>
+<ul>
+  <li><strong>Dán hạt nhĩ châm:</strong> Sau buổi khám, bác sĩ dán hạt vương bất lưu hành tại các điểm Thần môn, Giao cảm và các điểm theo thể bệnh. Ấn nhẹ mỗi điểm 30 lần, 3–4 lần/ngày, đặc biệt khi cảm thấy căng thẳng. Hạt giữ nguyên 3–5 ngày rồi thay mới.</li>
+  <li><strong>Xoa tai buổi sáng:</strong> Dùng ngón cái và ngón trỏ xoa toàn bộ vành tai từ trên xuống dưới, 2–3 phút. Đây là bài "nhĩ công" dưỡng sinh YHCT kích thích khí huyết toàn thân, tỉnh táo đầu óc, phù hợp thực hành mỗi sáng.</li>
+  <li><strong>Bấm huyệt Thần môn trên tay (HT7):</strong> Huyệt Thần môn (HT7) nằm ở nếp gấp cổ tay phía trong xương đậu. Day bấm 1–2 phút mỗi bên trước khi ngủ giúp an thần và dễ vào giấc.</li>
+  <li><strong>Thở bụng 4-7-8:</strong> Hít vào 4 giây, nín thở 7 giây, thở ra 8 giây. Thực hiện 4 chu kỳ khi stress cấp tính. Kết hợp đồng thời ấn điểm Thần môn tai cho hiệu quả tốt hơn.</li>
+  <li><strong>Ngủ trước 23 giờ:</strong> Theo YHCT, can tạng tàng huyết và phục hồi trong giờ Tý (23h–1h). Thức khuya liên tục là nguyên nhân hàng đầu gây can khí uất, làm stress và lo âu trầm trọng hơn.</li>
+</ul>
+
+<div class="art-cta-box">
+  <p>Nhĩ châm giảm stress là liệu pháp nhanh, không đau và hiệu quả ngay từ buổi đầu tiên. Phòng Khám Y học Cổ truyền <strong>Tâm Đức</strong> thực hiện nhĩ châm và dán hạt cá nhân hóa theo thể bệnh. <strong>BS. Nguyễn Đức Tâm</strong> trực tiếp thăm khám và phác đồ điều trị phù hợp cho từng người. Liên hệ: <strong>0973 710 237</strong> | Giờ khám: <strong>18:00–22:00 hàng ngày</strong> | Địa chỉ: <strong>Hà Đông, Hà Nội</strong>.</p>
+</div>
+    `
+  },
+  {
     id: 11,
     slug: 'roi-loan-tien-dinh-yhct',
     date: '2026-08-07',
