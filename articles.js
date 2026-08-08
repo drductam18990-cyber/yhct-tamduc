@@ -1,5 +1,314 @@
 const ARTICLES = [
   {
+    id: 18,
+    slug: 'benh-gout-thong-phong-yhct',
+    date: '2026-08-08',
+    category: 'mat-benh',
+    categoryLabel: 'Mặt bệnh',
+    icon: '🩺',
+    gradient: 'g-navy',
+    title: 'Bệnh gout (thống phong): Nguyên nhân, phân thể và điều trị theo YHCT',
+    excerpt: 'Gout là bệnh rối loạn chuyển hóa purin gây lắng đọng tinh thể urat tại khớp. Y học cổ truyền gọi là Thống Phong, điều trị theo từng thể bệnh bằng châm cứu, bài thuốc thanh nhiệt trừ thấp và điều chỉnh lối sống.',
+    readTime: 6,
+    content: `
+<h2>Tổng quan về bệnh Gout theo YHCT</h2>
+<p>Bệnh gout (gút) trong Y học cổ truyền được gọi là <strong>Thống Phong</strong> (痛風) — có nghĩa là "cơn đau như gió thổi", chỉ tình trạng khớp đột ngột sưng nóng đỏ đau dữ dội, thường xuất hiện vào ban đêm. Y học hiện đại xác định nguyên nhân là do tăng acid uric máu dẫn đến lắng đọng tinh thể monosodium urat tại khớp và mô xung quanh.</p>
+<p>YHCT giải thích cơ chế bệnh theo quan điểm nội sinh và ngoại nhân: Ăn nhiều đồ béo ngọt, uống rượu bia làm Tỳ Vị suy yếu, không vận hóa được thủy thấp, sinh ra đàm trọc. Đàm trọc lưu trú ở kinh lạc, kết hợp phong hàn hoặc thấp nhiệt xâm nhập từ bên ngoài, gây tắc trở khí huyết tại khớp mà phát bệnh. Người có tạng thận hư yếu càng dễ mắc bệnh vì thận chủ cốt và chủ nước — suy thận dẫn đến rối loạn bài tiết acid uric.</p>
+
+<h2>Phân thể bệnh theo YHCT</h2>
+<ul>
+  <li><strong>Thể Phong hàn thấp tý (痛風寒濕型):</strong> Gout mạn tính, khớp đau âm ỉ nặng nề, sưng nhẹ nhưng không đỏ rực, chườm ấm dễ chịu hơn. Trời lạnh ẩm bệnh nặng thêm. Lưỡi nhạt, rêu trắng nhờn, mạch hoãn hoặc huyền hoạt. Phép trị: khu phong tán hàn, trừ thấp thông lạc.</li>
+  <li><strong>Thể Thấp nhiệt tý (濕熱痺型):</strong> Gout cấp điển hình — khớp ngón chân cái (hoặc mắt cá, gối) sưng đỏ nóng đau dữ dội, sờ vào nóng bỏng, đau dữ không dám chạm vào. Sốt nhẹ, miệng đắng khô, tiểu vàng. Lưỡi đỏ rêu vàng nhờn, mạch hoạt sác. Đây là thể phổ biến nhất trong đợt cấp. Phép trị: thanh nhiệt lợi thấp, thông lạc chỉ thống.</li>
+  <li><strong>Thể Đàm trọc ứ kết (痰濁瘀結型):</strong> Gout mạn tính tiến triển lâu năm, hình thành hạt tophi (u cục urat) dưới da quanh khớp. Khớp biến dạng, cứng, cử động hạn chế. Sắc da vùng tổn thương tím thâm. Lưỡi có điểm ứ máu, rêu nhờn, mạch huyền hoạt. Phép trị: hóa đàm tán kết, hoạt huyết hóa ứ, thông lạc.</li>
+  <li><strong>Thể Tỳ thận khí hư (脾腎氣虛型):</strong> Gout kết hợp suy thận mạn, bệnh nhân mệt mỏi, ăn kém, lưng gối mỏi, tiểu nhiều hoặc ít, phù nhẹ. Đây là thể nặng cần phối hợp điều trị kiên trì. Phép trị: kiện tỳ bổ thận, trừ thấp thông lạc.</li>
+  <li><strong>Thể Can thận âm hư (肝腎陰虛型):</strong> Thường gặp ở người cao tuổi bị gout mạn. Khớp đau, cốt tủy đau sâu, kèm hoa mắt chóng mặt, tai ù, lưng gối đau mỏi, ngủ ít. Lưỡi đỏ ít rêu, mạch tế sác. Phép trị: tư bổ can thận, trừ thấp thông lạc.</li>
+</ul>
+
+<h2>Phương pháp điều trị bằng YHCT</h2>
+<p><strong>Châm cứu:</strong> Trong đợt cấp thấp nhiệt, châm tả huyệt Đại đô (SP2), Nội đình (ST44), Tam âm giao (SP6), Âm lăng tuyền (SP9), Phong long (ST40) để thanh nhiệt lợi thấp. Nếu đau tại ngón chân cái, thêm huyệt tại chỗ Hành gian (LR2). Gout mạn tính thể hàn thấp: ôn châm hoặc cứu ngải tại Quan nguyên (CV4), Mệnh môn (GV4), Thận du (BL23), kết hợp Âm lăng tuyền, Túc tam lý (ST36).</p>
+<p><strong>Thuốc YHCT cho thể thấp nhiệt:</strong> Tứ diệu hoàn gia giảm (Hoàng bá, Ý dĩ nhân, Ngưu tất, Thương truật) kết hợp Thổ phục linh, Kim ngân hoa, Xe tiền tử. Thổ phục linh được nghiên cứu lâm sàng tại Việt Nam cho thấy có tác dụng hạ acid uric máu hiệu quả.</p>
+<p><strong>Điều chỉnh lối sống:</strong> Kiêng hoàn toàn nội tạng động vật, hải sản, thịt đỏ trong đợt cấp. Hạn chế rượu bia, đặc biệt bia. Uống đủ 2–2,5 lít nước mỗi ngày (nước kiềm nhẹ). Dùng thực phẩm lợi tiểu tự nhiên: bí đao, râu ngô, mã đề.</p>
+
+<h2>Tiên lượng và theo dõi</h2>
+<p>Gout điều trị bằng YHCT hiệu quả nhất khi bắt đầu từ giai đoạn sớm (acid uric tăng chưa có biến chứng). Trong đợt cấp, châm cứu và thuốc YHCT thường giảm đau rõ sau 2–3 ngày. Điều trị dài hạn (3–6 tháng) có thể đưa acid uric về mức bình thường và giảm tần suất tái phát. Bệnh nhân cần định kỳ xét nghiệm acid uric máu, creatinine và siêu âm thận để theo dõi chức năng thận.</p>
+
+<h2>Phòng ngừa tái phát</h2>
+<p>Sau điều trị ổn định, bệnh nhân nên duy trì chế độ ăn ít purin, tập thể dục nhẹ đều đặn, tránh căng thẳng kéo dài (stress làm tăng acid uric), và uống thuốc YHCT dưỡng sinh thận theo mùa. Ngài ra, cần kiểm soát các bệnh đồng mắc như tăng huyết áp, đái tháo đường, rối loạn lipid máu vì chúng đẩy nhanh tổn thương thận và làm acid uric khó kiểm soát hơn.</p>
+
+<div class="art-cta-box"><p>Bệnh gout (thống phong) cần được chẩn đoán phân thể chính xác và điều trị cá thể hóa để đạt hiệu quả lâu dài. Tại <strong>Phòng Khám YHCT Tâm Đức</strong>, <strong>BS. Nguyễn Đức Tâm</strong> kết hợp châm cứu, bài thuốc thanh nhiệt trừ thấp và hướng dẫn chế độ dinh dưỡng phù hợp từng thể bệnh. Đặt lịch tư vấn qua <strong>0973 710 237</strong>, giờ khám <strong>18:00–22:00 hàng ngày</strong> tại <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 19,
+    slug: 'chuom-ngai-moxibustion-tri-dau-xuong-khop',
+    date: '2026-08-08',
+    category: 'khong-thuoc',
+    categoryLabel: 'Không dùng thuốc',
+    icon: '🧘',
+    gradient: 'g-herb',
+    title: 'Chườm ngải (Moxibustion): Liệu pháp hơi ấm trị đau xương khớp và bổ dưỡng tạng phủ',
+    excerpt: 'Chườm ngải (cứu ngải) là phương pháp dùng nhiệt từ ngải cứu đốt trên huyệt vị để ôn thông kinh lạc, trừ hàn tán thấp, bổ dương và giảm đau — liệu pháp không dùng thuốc hiệu quả cho đau xương khớp mạn tính, đau bụng kinh và suy nhược cơ thể.',
+    readTime: 5,
+    content: `
+<h2>Cứu ngải là gì? Nguyên lý theo YHCT</h2>
+<p><strong>Cứu ngải (Moxibustion — 灸法)</strong> là phương pháp dùng lá ngải cứu khô (Folium Artemisiae Argyi) đốt tạo nhiệt tác động lên huyệt vị hoặc vùng bệnh trên cơ thể. Cùng với châm cứu, cứu ngải là trụ cột của YHCT — người xưa nói "châm sở bất vi, cứu chi sở nghi" (chỗ nào châm không trị được thì dùng cứu). Ngải cứu được chọn vì có vị cay đắng, tính ôn nhiệt, quy kinh Can Tỳ Thận — đặc biệt giỏi ôn kinh tán hàn, lý khí chỉ thống và cầm máu.</p>
+<p>Nhiệt từ ngải thấm sâu vào huyệt vị theo kinh lạc, kích thích khí huyết vận hành, trừ hàn thấp tà khí ra ngoài và bổ sung dương khí cho cơ thể. Nghiên cứu hiện đại cho thấy cứu ngải tăng vi tuần hoàn tại chỗ, kích thích giải phóng beta-endorphin nội sinh (giảm đau tự nhiên), điều hòa hệ miễn dịch và tăng chức năng tuyến thượng thận.</p>
+
+<h2>Các hình thức cứu ngải phổ biến</h2>
+<ul>
+  <li><strong>Cứu điếu ngải (Điếu cứu):</strong> Dùng điếu ngải cuộn tròn như điếu xì gà, đốt đầu rồi hơ cách da khoảng 2–3 cm trên huyệt vị. Cứu ôn hoà (xoay tròn) hoặc cứu chim gõ kiến (lên xuống nhịp nhàng). Đây là hình thức an toàn nhất, dễ tự thực hiện tại nhà.</li>
+  <li><strong>Cứu gián tiếp (Cách vật cứu):</strong> Đặt lớp đệm trung gian giữa ngải và da: cứu cách gừng (điều trị nôn ói, đau bụng hàn), cứu cách muối (trị đau bụng cấp, tiêu chảy do lạnh — đặt tại huyệt Thần khuyết/rốn), cứu cách tỏi (trị ung nhọt, lao phổi). Hiệu quả sâu hơn nhưng cần thầy thuốc thực hiện.</li>
+  <li><strong>Cứu trực tiếp (Trực tiếp cứu):</strong> Đặt mồi ngải nhỏ trực tiếp lên da và đốt. Gồm cứu không để sẹo (mồi nhỏ, lấy ra khi nóng vừa) và cứu để sẹo (mồi lớn hơn, dùng trong bệnh nặng, mạn tính). Hình thức này cần thầy thuốc có kinh nghiệm thực hiện.</li>
+  <li><strong>Hộp cứu:</strong> Dụng cụ hình hộp bằng tre hoặc kim loại đặt lên vùng lưng, bụng, chứa điếu ngải đang cháy bên trong. Thích hợp cứu diện rộng như toàn bộ thắt lưng, bụng dưới. Rất tiện lợi để tự cứu tại nhà.</li>
+</ul>
+
+<h2>Chỉ định — Bệnh nào nên dùng cứu ngải?</h2>
+<ul>
+  <li><strong>Đau xương khớp mạn tính thể hàn thấp:</strong> Đau lưng, đau khớp gối, viêm quanh khớp vai đông cứng, đau thần kinh tọa — đặc biệt bệnh nặng khi trời lạnh, chườm ấm dễ chịu. Cứu tại Thận du, Đại trường du, Mệnh môn, Yêu dương quan.</li>
+  <li><strong>Đau bụng kinh (hành kinh thống) thể hàn:</strong> Đau quặn bụng dưới khi hành kinh, máu kinh tối màu có cục, chườm ấm giảm đau. Cứu Quan nguyên (CV4), Khí hải (CV6), Tam âm giao (SP6) trước kỳ kinh 3–5 ngày.</li>
+  <li><strong>Suy nhược cơ thể, mệt mỏi kéo dài:</strong> Cứu Túc tam lý (ST36), Quan nguyên, Khí hải, Mệnh môn để bổ dương ích khí, tăng sức đề kháng. Đây là công thức dưỡng sinh nổi tiếng: "Thường cứu Túc tam lý — không bệnh an khang."</li>
+  <li><strong>Tiêu chảy mạn, đại tiện phân lỏng thể Tỳ thận dương hư:</strong> Cứu Thần khuyết (rốn), Thiên khu (ST25), Quan nguyên.</li>
+  <li><strong>Phụ nữ sau sinh, cơ thể hư hàn:</strong> Cứu bổ dương phục hồi sức khỏe sau sinh khó, mổ lấy thai, sau mất máu nhiều.</li>
+</ul>
+
+<h2>Chống chỉ định — Khi nào KHÔNG nên dùng cứu ngải?</h2>
+<ul>
+  <li>Bệnh thuộc thể nhiệt (sốt cao, viêm cấp đỏ nóng sưng đau) — cứu sẽ làm bệnh nặng thêm.</li>
+  <li>Phụ nữ có thai — tuyệt đối không cứu vùng bụng, vùng thắt lưng cùng và các huyệt có tác dụng thúc đẻ (Hợp cốc, Tam âm giao, Côn lôn).</li>
+  <li>Vùng da mỏng, gần mạch máu lớn, niêm mạc, vùng mặt (trừ huyệt Ấn đường).</li>
+  <li>Người bị bệnh đa xơ cứng hoặc mất cảm giác tại chỗ — dễ bỏng mà không cảm nhận được.</li>
+  <li>Sau khi ăn no hoặc quá đói, trong tình trạng say rượu.</li>
+</ul>
+
+<h2>Hướng dẫn tự cứu ngải tại nhà (bằng điếu ngải)</h2>
+<p>Chọn điếu ngải chất lượng (ngải cứu đã phơi khô 3–5 năm, gọi là "thục ngải" — tốt hơn ngải tươi). Đốt đầu điếu cho cháy đỏ đều. Hơ cách da 2–3 cm, di chuyển từ từ theo vòng tròn hoặc lên xuống. Cảm giác đúng là ấm dễ chịu, không nóng rát. Mỗi huyệt cứu 10–15 phút, mỗi buổi 2–3 huyệt. Liệu trình: ngày 1 lần hoặc cách ngày, 10–15 buổi là một liệu trình. Sau khi cứu, không tắm ngay trong vòng 1 giờ và tránh gió lạnh.</p>
+
+<div class="art-cta-box"><p>Cứu ngải (moxibustion) có hiệu quả rõ rệt trong điều trị các bệnh hàn chứng và suy nhược dương khí, nhưng cần chẩn đoán đúng thể bệnh để tránh phản tác dụng. Tại <strong>Phòng Khám YHCT Tâm Đức</strong>, <strong>BS. Nguyễn Đức Tâm</strong> thực hiện cứu ngải kết hợp châm cứu và hướng dẫn tự cứu dưỡng sinh tại nhà. Đặt lịch qua <strong>0973 710 237</strong>, giờ khám <strong>18:00–22:00 hàng ngày</strong> tại <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 20,
+    slug: 'tieu-dao-tan-so-can-giai-uut',
+    date: '2026-08-08',
+    category: 'thuoc-yhct',
+    categoryLabel: 'Thuốc YHCT',
+    icon: '🌿',
+    gradient: 'g-fire',
+    title: 'Tiêu Dao Tán: Bài thuốc sơ can giải uất kinh điển cho người stress, kinh nguyệt không đều',
+    excerpt: 'Tiêu Dao Tán (逍遙散) là bài thuốc cổ phương nổi tiếng trong điều trị can khí uất kết — bệnh lý phổ biến ở người stress mạn tính, phụ nữ rối loạn kinh nguyệt, đau tức ngực sườn và trầm cảm nhẹ theo quan điểm YHCT.',
+    readTime: 6,
+    content: `
+<h2>Xuất xứ và lịch sử bài thuốc</h2>
+<p><strong>Tiêu Dao Tán (逍遙散)</strong> xuất phát từ cuốn <em>Hòa Tễ Cục Phương</em> (和劑局方) — dược điển chính thức của nhà Tống (thế kỷ XI–XII), là một trong những bài thuốc được dùng nhiều nhất trong YHCT qua hơn 900 năm. Tên "Tiêu Dao" mang nghĩa "thong dong, tự tại" — ám chỉ mục tiêu điều trị là giải phóng can khí bị uất ức để người bệnh thoát khỏi trạng thái bức bối, căng thẳng, trở lại trạng thái thoải mái, thư thái.</p>
+<p>Bài thuốc thuộc nhóm <em>Hòa giải can tỳ</em>, tức là vừa sơ giải can uất vừa kiện bổ tỳ vị. Đây là đặc điểm quan trọng: vì khi can khí uất kết thường kèm theo tỳ vị bị ức chế (can khắc tỳ), nên chỉ giải uất mà không kiện tỳ thì chưa đủ.</p>
+
+<h2>Thành phần và vai trò từng vị thuốc</h2>
+<ul>
+  <li><strong>Sài hồ (柴胡) — 12g:</strong> Quân dược (chủ dược). Sơ can giải uất, thăng đề dương khí. Dẫn thuốc vào kinh can đởm, đưa can khí uất kết ra ngoài.</li>
+  <li><strong>Đương quy (當歸) — 12g:</strong> Thần dược. Bổ huyết hoạt huyết, dưỡng can nhu can. Can tàng huyết — can huyết đủ thì can khí mới dễ thư xướng. Đặc biệt quan trọng cho phụ nữ bị can huyết hư kèm can uất.</li>
+  <li><strong>Bạch thược (白芍) — 12g:</strong> Thần dược. Dưỡng huyết nhu can, liễm âm chỉ thống. Phối với Sài hồ: Sài hồ sơ can thăng (đưa lên, phát tán) — Bạch thược dưỡng can liễm (thu lại, bổ dưỡng) — đây là cặp đôi hoàn hảo điều hòa chức năng can.</li>
+  <li><strong>Bạch linh (茯苓) — 12g:</strong> Tá dược. Kiện tỳ thẩm thấp, an thần. Tỳ khỏe thì không bị can khí ức chế, đồng thời hóa thấp giảm phù nề và an định tâm thần.</li>
+  <li><strong>Bạch truật (白朮) — 12g:</strong> Tá dược. Kiện tỳ táo thấp ích khí. Cùng Bạch linh và Cam thảo bổ trợ tỳ vị, đảm bảo nguồn khí huyết sinh hóa.</li>
+  <li><strong>Chích cam thảo (炙甘草) — 6g:</strong> Sứ dược (điều hòa). Ích khí hòa trung, điều hòa các vị thuốc.</li>
+  <li><strong>Sinh khương (生薑) — 3 lát:</strong> Ôn vị chỉ ẩu, hòa vị giải biểu.</li>
+  <li><strong>Bạc hà (薄荷) — 3–6g (thêm lúc gần sắc xong):</strong> Sơ can giải uất, thanh tán uất nhiệt, giúp Sài hồ thư can lý khí.</li>
+</ul>
+
+<h2>Chỉ định lâm sàng</h2>
+<p>Tiêu Dao Tán chỉ định cho chứng <strong>Can uất Tỳ hư, huyết hư</strong>, biểu hiện bởi các triệu chứng:</p>
+<ul>
+  <li>Bực bội dễ cáu giận, lo âu căng thẳng, cảm giác tức bức không xả được</li>
+  <li>Đau tức ngực sườn (đặc biệt bên trái), đau vùng dưới sườn phải (vùng gan)</li>
+  <li>Đầu choáng mắt hoa, chóng mặt, nhức đầu</li>
+  <li>Ăn kém, bụng đầy hơi, rối loạn tiêu hóa chức năng</li>
+  <li>Phụ nữ: kinh nguyệt không đều, trước kỳ kinh vú căng đau, đau bụng kinh</li>
+  <li>Miệng khô đắng nhẹ (nếu có uất hóa nhiệt)</li>
+  <li>Lưỡi: nhạt hoặc đỏ nhạt, rêu mỏng trắng. Mạch: huyền tế hoặc huyền nhược</li>
+</ul>
+
+<h2>Các biến phương phổ biến trong lâm sàng</h2>
+<ul>
+  <li><strong>Đan chi tiêu dao tán (丹梔逍遙散):</strong> Thêm Đan bì và Chi tử — dùng khi can uất hóa nhiệt, biểu hiện bốc nóng, mặt đỏ, ngủ kém, miệng đắng khô, kinh nguyệt trước kỳ lượng nhiều.</li>
+  <li><strong>Hắc tiêu dao tán (黑逍遙散):</strong> Thêm Thục địa hoặc Sinh địa — dùng khi huyết hư rõ hơn, người xanh xao, kinh nguyệt ít sắc nhạt.</li>
+  <li><strong>Tiêu dao tán gia Hương phụ, Uất kim:</strong> Dùng khi uất khí nặng hơn, đau ngực sườn nhiều.</li>
+</ul>
+
+<h2>Chống chỉ định và lưu ý</h2>
+<ul>
+  <li>Không dùng cho thể <strong>can dương thượng cang</strong> (tăng huyết áp cao, đầu đau dữ, mặt đỏ, mạch huyền sác mạnh) vì Sài hồ thăng đề sẽ đưa can dương lên cao hơn.</li>
+  <li>Không dùng kéo dài không giám sát cho người âm hư hỏa vượng (Sài hồ tính thăng tán, dùng lâu tổn âm).</li>
+  <li>Phụ nữ có thai: cần thận trọng, tham khảo thầy thuốc.</li>
+  <li>Thời gian dùng: thường 2–4 tuần một liệu trình, đánh giá lại sau 4 tuần.</li>
+</ul>
+
+<div class="art-cta-box"><p><strong>Tiêu Dao Tán</strong> là bài thuốc có giá trị lâm sàng cao nhưng cần được chẩn đoán đúng thể bệnh và gia giảm phù hợp mới phát huy tối đa hiệu quả. Tại <strong>Phòng Khám YHCT Tâm Đức</strong>, <strong>BS. Nguyễn Đức Tâm</strong> kê đơn và bào chế thuốc YHCT cá thể hóa theo từng bệnh nhân. Liên hệ đặt lịch: <strong>0973 710 237</strong>, giờ khám <strong>18:00–22:00 hàng ngày</strong> tại <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 21,
+    slug: 'duong-sinh-mua-thu-bo-phoi-nhuan-tao',
+    date: '2026-08-08',
+    category: 'phong-benh',
+    categoryLabel: 'Phòng bệnh',
+    icon: '🛡️',
+    gradient: 'g-amber',
+    title: 'Dưỡng sinh mùa thu theo YHCT: Bổ phế nhuận táo, tích trữ khí lực cho mùa đông',
+    excerpt: 'Mùa thu theo YHCT thuộc Kim hành, tương ứng tạng Phế. Khí trời hanh khô tổn thương phế âm, gây ho khan, da khô, táo bón. Dưỡng sinh mùa thu cần bổ phế nhuận táo, thu liễm dương khí và chuẩn bị nội lực cho mùa đông.',
+    readTime: 5,
+    content: `
+<h2>Đặc điểm mùa thu theo triết học YHCT</h2>
+<p>Trong ngũ hành học thuyết, mùa thu ứng với <strong>Kim hành</strong> — tạng <strong>Phế</strong> và phủ <strong>Đại trường</strong>. Khí hậu đặc trưng của mùa thu là <strong>táo khí</strong> (khô hanh), làm tổn thương phế âm, phế tân dịch. Phế chủ bì mao (da lông), chủ khí, thông khiếu ở mũi — khi phế âm bất túc, xuất hiện ho khan ít đàm, da khô môi nứt, mũi khô, táo bón, tiểu ít vàng.</p>
+<p>Mùa thu cũng là giai đoạn thiên nhiên "thu liễm" — vạn vật bắt đầu thu rút năng lượng vào bên trong, chuẩn bị cho mùa đông. Con người cần thuận theo quy luật tự nhiên này: <strong>thu liễm dương khí</strong>, tích lũy tinh khí, không tiêu hao quá mức, để mùa đông không bị hư hàn. Sách Hoàng Đế Nội Kinh viết: "Thu tam nguyệt… thử vị dung bình. Thiên khí dĩ cấp, địa khí dĩ minh, tảo ngọa tảo khởi" (Mùa thu ba tháng… gọi là dung bình. Khí trời đã khô hanh, khí đất đã trong sáng, nên ngủ sớm dậy sớm).</p>
+
+<h2>Chế độ ăn uống dưỡng phế mùa thu</h2>
+<p>Nguyên tắc ẩm thực mùa thu: <strong>nhuận táo bổ phế, ít vị cay</strong> (cay tán phế khí) và <strong>tăng vị chua</strong> (chua thu liễm phế khí). Các thực phẩm được khuyên dùng:</p>
+<ul>
+  <li><strong>Lê (梨 — Pyrus):</strong> Vị ngọt chua, tính lương. Sinh tân nhuận táo, thanh phế hóa đàm. Ăn sống hoặc nấu chưng với đường phèn, kỷ tử, hạt mạch môn đông.</li>
+  <li><strong>Ngân nhĩ (银耳 — Tremella fuciformis):</strong> Nấm tuyết trắng, vị ngọt nhạt, tính bình. Bổ phế nhuận táo, dưỡng âm sinh tân. Nấu chè ngân nhĩ với táo đỏ, kỷ tử, hạt sen.</li>
+  <li><strong>Ngó sen — Liên ngẫu (藕):</strong> Vị ngọt chát (sống), vị ngọt ôn (chín). Nhuận táo, dưỡng âm, kiện tỳ. Nấu canh hoặc ép lấy nước uống.</li>
+  <li><strong>Mật ong (蜂蜜):</strong> Nhuận phế chỉ khái, nhuận trường thông tiện, bổ tỳ ích khí. Pha với nước ấm uống buổi sáng.</li>
+  <li><strong>Vừng đen — Hắc chi ma (黑芝麻):</strong> Bổ can thận, nhuận tràng, dưỡng phát (tốt cho tóc và da). Rang chín, ăn hàng ngày.</li>
+  <li><strong>Củ cải trắng (萝卜 — Raphanus sativus):</strong> Hóa đàm tiêu thực, nhuận phế. Nấu canh hoặc luộc ăn trong mùa thu.</li>
+  <li><strong>Hạn chế:</strong> Thức ăn cay nóng (ớt, hành, gừng nhiều), đồ chiên rán, rượu bia — vì làm tăng táo nhiệt tổn thương phế âm.</li>
+</ul>
+
+<h2>Sinh hoạt và vận động mùa thu</h2>
+<ul>
+  <li><strong>Ngủ sớm dậy sớm:</strong> Mùa thu ngày ngắn đêm dài — YHCT khuyên ngủ sớm hơn mùa hạ, dậy sớm cùng bình minh (tránh dậy quá muộn làm khí huyết uất trệ). Ngủ đủ 7–8 giờ giúp phục hồi phế khí.</li>
+  <li><strong>Thở bụng buổi sáng:</strong> Thực hành phúc thức hô hấp (thở bụng) 10–15 phút mỗi sáng tại nơi không khí trong sạch — bổ sung phế khí, tăng dung tích phổi và dưỡng tâm thần.</li>
+  <li><strong>Tập dưỡng sinh nhẹ nhàng:</strong> Đi bộ chậm, thái cực quyền, khí công — vận động vừa phải, không toát mồ hôi nhiều (mùa thu nên thu liễm, không nên tán khí).</li>
+  <li><strong>Bảo vệ cổ và lưng:</strong> Mùa thu sáng sớm và tối lạnh đột ngột — mặc ấm cổ và lưng, tránh cảm phong hàn.</li>
+  <li><strong>Điều tiết cảm xúc:</strong> YHCT cho rằng "bi thương phế" — buồn bã làm tổn thương phế. Mùa thu hay gây u uất, cần giữ tâm trạng lạc quan, tham gia các hoạt động tập thể vui vẻ.</li>
+</ul>
+
+<h2>Bài thuốc dưỡng phế mùa thu điển hình</h2>
+<p><strong>Sa sâm Mạch môn ẩm:</strong> Sa sâm 12g, Mạch môn đông 12g, Ngọc trúc 12g, Thiên hoa phấn 10g, Biển đậu 10g, Tang diệp 6g, Cam thảo 3g. Sắc uống hoặc ngâm nước ấm. Công dụng: dưỡng âm thanh phế, nhuận táo sinh tân. Dùng cho người ho khan ít đàm, miệng khô khát, da khô mùa thu.</p>
+<p><strong>Cháo bổ phế mùa thu:</strong> Gạo tẻ 100g, ngân nhĩ 15g (ngâm nở), hạt sen 20g, táo đỏ 5 quả, kỷ tử 10g, đường phèn vừa đủ. Nấu thành cháo nhuyễn, ăn bữa sáng hoặc buổi tối. Dùng được cho cả người lớn và trẻ em.</p>
+
+<h2>Phòng bệnh đường hô hấp mùa thu–đông</h2>
+<p>Mùa thu là thời điểm chuyển giao, vi khuẩn và virus hô hấp bắt đầu hoạt động mạnh. YHCT phòng ngừa bằng cách: tăng cường phế vệ (cứu ngải Túc tam lý, Phế du tuần 1 lần), ăn uống nhuận phế, tránh gió lạnh đột ngột và vệ sinh tay thường xuyên. Bệnh nhân hen phế quản, viêm mũi dị ứng cần bắt đầu điều trị phòng ngừa từ đầu mùa thu để tránh đợt cấp khi đông đến.</p>
+
+<div class="art-cta-box"><p>Mùa thu là thời điểm vàng để bổ phế nhuận táo và chuẩn bị sức đề kháng cho mùa đông. Tại <strong>Phòng Khám YHCT Tâm Đức</strong>, <strong>BS. Nguyễn Đức Tâm</strong> tư vấn phác đồ dưỡng sinh theo mùa cá thể hóa, kết hợp châm cứu bổ phế và thuốc YHCT phù hợp thể trạng từng người. Đặt lịch: <strong>0973 710 237</strong>, giờ khám <strong>18:00–22:00 hàng ngày</strong> tại <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 22,
+    slug: 'phuong-huyet-viem-mui-di-ung',
+    date: '2026-08-08',
+    category: 'phuong-huyet',
+    categoryLabel: 'Phương huyệt',
+    icon: '📍',
+    gradient: 'g-huyet',
+    title: 'Phương huyệt điều trị viêm mũi dị ứng: 6 huyệt vị cốt lõi giảm ngứa mũi, sổ mũi, nghẹt mũi',
+    excerpt: 'Viêm mũi dị ứng theo YHCT thuộc chứng "tỵ uyên", do phế vệ hư yếu không kháng tà. Phương huyệt kết hợp huyệt tại chỗ và toàn thân giúp thông mũi tức thì, đồng thời bổ phế cố vệ phòng ngừa tái phát.',
+    readTime: 5,
+    content: `
+<h2>Cơ sở lý luận YHCT về viêm mũi dị ứng</h2>
+<p>Viêm mũi dị ứng (allergic rhinitis) trong YHCT thuộc phạm vi chứng <strong>Tỵ uyên (鼻鼽)</strong> — mũi chảy nước trong không dứt. Bệnh xảy ra do <strong>Phế vệ hư yếu</strong>, tà khí (phong hàn, phong nhiệt, phấn hoa, bụi) dễ xâm nhập vào mũi — đường thở của Phế. Phế khai khiếu ở mũi; khi phế khí hư, công năng kháng tà kém, ngoại tà theo đường mũi xâm nhập gây viêm.</p>
+<p>Ở người bệnh mạn tính, ngoài phế hư còn kèm theo <strong>tỳ hư</strong> (không vận hóa thủy thấp, đàm thấp ứ trệ ở mũi xoang) và/hoặc <strong>thận dương hư</strong> (thận dương là gốc của vệ dương toàn thân — thận hư thì vệ khí bất cố). Vì vậy phương huyệt điều trị viêm mũi dị ứng cần giải quyết cả tại chỗ (thông mũi) và toàn thân (bổ phế, kiện tỳ, ôn thận).</p>
+
+<h2>6 huyệt vị cốt lõi trong phương huyệt điều trị viêm mũi dị ứng</h2>
+<ul>
+  <li>
+    <strong>1. Nghinh hương (迎香 — LI20) — Huyệt tại chỗ quan trọng nhất</strong><br>
+    <em>Vị trí:</em> Tại rãnh mũi má (nasolabial groove), ngang với bờ dưới cánh mũi, cách cánh mũi 0,5 thốn.<br>
+    <em>Tác dụng:</em> Thông tỵ khiếu, trừ phong nhiệt — huyệt đặc hiệu nhất cho mọi bệnh lý mũi. Châm thẳng 0,3–0,5 thốn hoặc xiên về phía cánh mũi. Khi châm đúng bệnh nhân cảm giác tê tức lan vào trong mũi, thông mũi gần ngay lập tức.
+  </li>
+  <li>
+    <strong>2. Ấn đường (印堂 — EX-HN3) — Huyệt kinh ngoại</strong><br>
+    <em>Vị trí:</em> Điểm giữa hai đầu trong lông mày (glabella), trên đường giữa mặt.<br>
+    <em>Tác dụng:</em> Thông mũi, trừ phong, định thần. Phối với Nghinh hương tạo cặp đôi cổ điển thông tỵ khiếu. Châm xiên xuống dưới 0,3–0,5 thốn hoặc cò (véo da lên rồi châm ngang).
+  </li>
+  <li>
+    <strong>3. Hợp cốc (合谷 — LI4) — Nguyên huyệt kinh Thủ Dương minh Đại trường</strong><br>
+    <em>Vị trí:</em> Mu bàn tay, điểm giữa của xương đốt bàn ngón 1 và 2 (ở chỗ gờ cơ cao nhất khi áp ngón cái và trỏ vào nhau).<br>
+    <em>Tác dụng:</em> Trừ phong giải biểu, thông lạc chỉ thống, thanh nhiệt. Kinh Đại trường đi qua mũi — Hợp cốc là nguyên huyệt điều khí toàn kinh, giải trừ phong tà ở vùng đầu mặt mũi. Tả pháp trong đợt cấp (phong hàn hoặc phong nhiệt xâm phạm). Bổ pháp khi bệnh mạn tính.
+  </li>
+  <li>
+    <strong>4. Phế du (肺俞 — BL13) — Du huyệt lưng của Phế</strong><br>
+    <em>Vị trí:</em> Trên lưng, dưới gai sau đốt sống ngực 3 (T3), cách đường giữa lưng 1,5 thốn.<br>
+    <em>Tác dụng:</em> Bổ ích phế khí, tuyên phế giải biểu, thông điều phế khí. Huyệt then chốt để bổ phế hư — căn nguyên của viêm mũi dị ứng mạn tính. Kết hợp cứu ngải tại Phế du rất tốt cho người viêm mũi dị ứng thể phế hư hàn.
+  </li>
+  <li>
+    <strong>5. Túc tam lý (足三里 — ST36) — Hợp huyệt kinh Vị</strong><br>
+    <em>Vị trí:</em> Mặt trước ngoài cẳng chân, dưới mắt gối (đầu gối) 3 thốn, cách mào xương chày về phía ngoài 1 thốn.<br>
+    <em>Tác dụng:</em> Kiện tỳ ích vị, bổ khí dưỡng huyết, tăng cường miễn dịch. Tỳ vị là nguồn sinh hóa khí huyết và vệ khí; kiện tỳ vị thì vệ khí mạnh, đề kháng dị nguyên tốt hơn. Cứu ngải Túc tam lý thường xuyên là phương pháp dưỡng sinh miễn dịch kinh điển.
+  </li>
+  <li>
+    <strong>6. Thận du (腎俞 — BL23) — Du huyệt lưng của Thận</strong><br>
+    <em>Vị trí:</em> Vùng thắt lưng, dưới gai sau đốt sống thắt lưng 2 (L2), cách đường giữa lưng 1,5 thốn.<br>
+    <em>Tác dụng:</em> Bổ thận tráng dương, ôn dương cố vệ. Dùng cho bệnh nhân viêm mũi dị ứng mạn tính kèm lưng gối mỏi, sợ lạnh, tay chân lạnh (thận dương hư). Ôn châm hoặc cứu ngải tại Thận du bổ thận dương, từ đó củng cố vệ dương toàn thân.
+  </li>
+</ul>
+
+<h2>Phác đồ phối huyệt theo thể bệnh</h2>
+<ul>
+  <li><strong>Đợt cấp (phong hàn xâm phạm):</strong> Nghinh hương + Ấn đường + Hợp cốc (tả) + Liệt khuyết (LU7) — Sơ phong tán hàn, thông tỵ khiếu.</li>
+  <li><strong>Mạn tính thể Phế khí hư:</strong> Nghinh hương + Ấn đường + Phế du (bổ + cứu) + Túc tam lý (bổ) + Hợp cốc (bình bổ bình tả).</li>
+  <li><strong>Mạn tính thể Tỳ khí hư:</strong> Nghinh hương + Ấn đường + Túc tam lý (bổ + cứu) + Tỳ du (SP20) + Trung quản (CV12).</li>
+  <li><strong>Mạn tính thể Thận dương hư:</strong> Nghinh hương + Phế du + Thận du (ôn châm) + Mệnh môn (cứu) + Túc tam lý.</li>
+</ul>
+
+<h2>Liệu trình và kết quả điều trị</h2>
+<p>Trong đợt cấp: châm ngày 1 lần, 5–7 ngày liên tiếp — thường thông mũi rõ rệt từ buổi đầu tiên. Điều trị dài hạn phòng ngừa tái phát: châm 2–3 lần/tuần trong 1 tháng, sau đó duy trì 1 lần/tuần. Cứu ngải dưỡng sinh tại Phế du, Túc tam lý 1–2 lần/tuần quanh năm. Kết hợp tránh dị nguyên (phấn hoa, bụi, lông thú) và dùng muối sinh lý rửa mũi hàng ngày sẽ tăng đáng kể hiệu quả dài hạn.</p>
+
+<div class="art-cta-box"><p>Châm cứu điều trị viêm mũi dị ứng không chỉ giảm triệu chứng tức thì mà còn bổ phế cố vệ, giảm tần suất tái phát bền vững. Tại <strong>Phòng Khám YHCT Tâm Đức</strong>, <strong>BS. Nguyễn Đức Tâm</strong> thực hiện châm cứu kết hợp cứu ngải và thuốc YHCT theo phác đồ cá thể hóa. Đặt lịch: <strong>0973 710 237</strong>, giờ khám <strong>18:00–22:00 hàng ngày</strong> tại <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 23,
+    slug: 'tri-mun-trung-ca-the-thap-nhiet-yhct',
+    date: '2026-08-08',
+    category: 'lam-dep',
+    categoryLabel: 'Làm đẹp',
+    icon: '🌸',
+    gradient: 'g-rose',
+    title: 'Trị mụn trứng cá thể thấp nhiệt theo YHCT: Thanh nhiệt, giải độc từ bên trong',
+    excerpt: 'Mụn trứng cá thể thấp nhiệt là loại phổ biến nhất ở thanh thiếu niên và người trưởng thành ăn nhiều đồ ngọt béo cay. YHCT điều trị bằng bài thuốc thanh nhiệt giải độc, kết hợp châm cứu và điều chỉnh lối sống để trị mụn từ gốc rễ, không tái phát.',
+    readTime: 6,
+    content: `
+<h2>Mụn trứng cá nhìn từ góc độ YHCT</h2>
+<p>Mụn trứng cá (acne vulgaris) trong YHCT gọi là <strong>Phấn thích (粉刺)</strong> hay <strong>Tọa sang (座瘡)</strong>. Bệnh xuất hiện chủ yếu ở mặt, ngực, lưng — vùng phân bố của kinh Phế và kinh Vị (Dương minh). YHCT quan niệm: Da mặt là "tấm gương" phản chiếu nội tạng. Mụn không chỉ là vấn đề da mà là dấu hiệu của rối loạn nội tạng bên trong.</p>
+<p>Cơ chế bệnh sinh theo YHCT: <strong>Phế kinh phong nhiệt</strong> hoặc ăn uống nhiều đồ béo ngọt cay nóng làm <strong>Tỳ Vị thấp nhiệt nội sinh</strong>. Thấp nhiệt bốc lên kinh Dương minh (đi qua mặt), kết hợp ứ trệ khí huyết ở lỗ chân lông, tắc tuyến bã nhờn mà sinh mụn. Nếu bệnh lâu năm, nhiệt độc hóa mủ (mụn viêm, nang mụn), đàm ứ kết hợp thành nang (mụn bọc, mụn nang).</p>
+
+<h2>Phân thể mụn trứng cá theo YHCT</h2>
+<ul>
+  <li><strong>Thể Phế kinh phong nhiệt:</strong> Mụn nhỏ màu đỏ, ngứa nhẹ, chủ yếu ở trán và hai bên mũi, da mặt dầu. Hay đi kèm táo bón, miệng khô. Thường gặp ở mụn cơm đầu đen, mụn đầu trắng mới hình thành. Lưỡi đỏ rêu vàng mỏng, mạch phù sác. Phép trị: tuyên phế thanh nhiệt, giải độc tiêu sang.</li>
+  <li><strong>Thể Tỳ Vị thấp nhiệt (thể phổ biến nhất):</strong> Mụn sưng đỏ to, mụn viêm có mủ, chủ yếu ở hai bên má và cằm (vùng phân bố kinh Vị). Bệnh nhân ăn nhiều đồ béo ngọt, uống bia rượu, đại tiện phân khô hoặc dính, miệng đắng, bụng đầy hơi. Lưỡi đỏ rêu vàng nhờn, mạch hoạt sác. Phép trị: thanh nhiệt lợi thấp, giải độc tiêu sang.</li>
+  <li><strong>Thể Nhiệt độc uẩn kết (mụn nặng):</strong> Mụn nang lớn (cystic acne), nang mụn sưng đau đỏ tím, kết nối thành mảng, đau khi chạm. Sắc tố sau viêm đậm. Đây là thể nặng nhất, cần điều trị tích cực. Phép trị: thanh nhiệt giải độc mạnh, hoạt huyết hóa ứ, tán kết tiêu sang.</li>
+  <li><strong>Thể Âm hư hỏa vượng (thường gặp ở phụ nữ tuổi 25–35):</strong> Mụn xuất hiện theo chu kỳ kinh nguyệt, nặng hơn trước kỳ kinh. Kèm bốc hỏa, ngủ kém, lưỡi đỏ ít rêu, mạch tế sác. Phép trị: tư âm giáng hỏa, thanh nhiệt lương huyết.</li>
+</ul>
+
+<h2>Điều trị nội (uống thuốc YHCT)</h2>
+<p>Cho thể thấp nhiệt phổ biến, bài thuốc nền thường dùng là <strong>Bì Phu Giải Độc Thang</strong> gia giảm, gồm các vị thanh nhiệt giải độc và lợi thấp: Kim ngân hoa, Liên kiều, Chi tử, Bồ công anh, Tử hoa địa đinh, Hoàng bá, Ý dĩ nhân, Thổ phục linh, Đan bì, Xích thược, Cam thảo.</p>
+<ul>
+  <li><strong>Mụn viêm nhiều mủ:</strong> Thêm Hoàng liên, Đại hoàng (nếu táo bón) để tăng thanh nhiệt giải độc.</li>
+  <li><strong>Sắc tố thâm sau mụn:</strong> Thêm Đương quy, Đan sâm, Ích mẫu thảo để hoạt huyết hóa ứ, thúc đẩy phục hồi da.</li>
+  <li><strong>Mụn theo chu kỳ kinh nguyệt:</strong> Phối hợp Tiêu dao tán gia giảm để sơ can điều kinh.</li>
+</ul>
+
+<h2>Điều trị ngoại (tại chỗ trên da)</h2>
+<ul>
+  <li><strong>Châm cứu:</strong> Châm tả Hợp cốc (LI4), Khúc trì (LI11), Nội đình (ST44), Âm lăng tuyền (SP9), Túc tam lý (ST36), Tam âm giao (SP6). Nếu mụn nhiều vùng má thêm Địa thương (ST4), Đại nghênh (ST5) — huyệt tại chỗ trên đường kinh Vị ở mặt.</li>
+  <li><strong>Nhĩ châm:</strong> Châm hoặc dán hạt tại điểm phản chiếu Phổi, Nội tiết, Thần môn, Tuyến bã nhờn trên vành tai — có tác dụng điều hòa tiết bã nhờn rõ rệt, đặc biệt hiệu quả cho mụn nhờn.</li>
+  <li><strong>Đắp mặt nạ dược thảo:</strong> Bột bạch chỉ + bột hoàng cầm + mật ong: thanh nhiệt, kháng khuẩn, làm sáng da. Bột nghệ + sữa chua: kháng viêm, mờ thâm. Đắp 15–20 phút, 2–3 lần/tuần.</li>
+  <li><strong>Nước rửa mặt dược thảo:</strong> Nước sắc Kim ngân hoa, Cam cúc, Trà xanh loãng — rửa mặt hoặc xông mặt giúp kháng khuẩn, giảm viêm, se lỗ chân lông.</li>
+</ul>
+
+<h2>Chế độ ăn uống và lối sống giảm mụn</h2>
+<ul>
+  <li><strong>Kiêng:</strong> Đồ cay nóng (ớt, hành phi, đồ nướng), đồ ngọt nhiều đường (bánh ngọt, nước ngọt, trà sữa), sữa và các sản phẩm từ sữa (có thể làm tăng IGF-1 kích thích bã nhờn), đồ chiên rán, rượu bia.</li>
+  <li><strong>Nên ăn:</strong> Rau xanh đậm (cải xanh, rau muống, bó xôi), hoa quả ít đường (bưởi, táo, dưa chuột), đậu xanh nấu chè (thanh nhiệt giải độc), rau má (mát gan giải nhiệt), ý dĩ nhân (lợi thấp).</li>
+  <li><strong>Sinh hoạt:</strong> Ngủ đủ giấc trước 23 giờ (ngủ muộn làm can nhiệt, tăng bã nhờn), giảm stress (stress tăng cortisol kích thích bã nhờn), tập thể dục đều đặn (giúp lưu thông khí huyết và đào thải độc tố qua mồ hôi), không nặn mụn bằng tay bẩn.</li>
+</ul>
+
+<h2>Thời gian điều trị và kết quả kỳ vọng</h2>
+<p>Điều trị YHCT mụn trứng cá thường cho kết quả sau 2–4 tuần đầu (giảm viêm, mụn mới ít hơn). Cần kiên trì 2–3 tháng để thấy cải thiện rõ về sắc tố thâm và tình trạng da chung. Ưu điểm so với Tây y: không gây khô da, không kháng kháng sinh, không lo tác dụng phụ như khi dùng isotretinoin dài hạn; đồng thời điều chỉnh thể trạng tổng thể giúp ngăn ngừa tái phát.</p>
+
+<div class="art-cta-box"><p>Mụn trứng cá tái đi tái lại cần được điều trị từ căn nguyên nội tạng, không chỉ trị ngoài da. Tại <strong>Phòng Khám YHCT Tâm Đức</strong>, <strong>BS. Nguyễn Đức Tâm</strong> kết hợp thuốc YHCT uống, châm cứu, nhĩ châm và tư vấn lối sống để điều trị mụn toàn diện. Đặt lịch: <strong>0973 710 237</strong>, giờ khám <strong>18:00–22:00 hàng ngày</strong> tại <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
     id: 17,
     slug: 'nhi-cham-giam-stress-yhct',
     date: '2026-08-08',
