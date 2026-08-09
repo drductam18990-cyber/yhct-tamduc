@@ -1,5 +1,273 @@
 const ARTICLES = [
   {
+    id: 24,
+    slug: 'viem-khop-dang-thap-yhct',
+    date: '2026-08-09',
+    category: 'mat-benh',
+    categoryLabel: 'Mặt bệnh',
+    icon: '🩺',
+    gradient: 'g-navy',
+    title: 'Viêm khớp dạng thấp: Phân thể và điều trị toàn diện theo YHCT',
+    excerpt: 'Viêm khớp dạng thấp (VKDT) là bệnh tự miễn mạn tính gây tổn thương khớp đối xứng, biến dạng và tàn phế nếu không điều trị đúng. Y học cổ truyền phân loại theo tý chứng và có các phương án điều trị bằng thuốc, châm cứu hiệu quả từng thể bệnh.',
+    readTime: 7,
+    content: `
+<h2>Tổng quan viêm khớp dạng thấp theo YHCT</h2>
+<p>Viêm khớp dạng thấp (Rheumatoid Arthritis — RA) trong Y học cổ truyền thuộc phạm trù <strong>Tý chứng (痹證)</strong> — cụ thể là <strong>Lịch tiết phong (歷節風)</strong>, có nghĩa là "phong tà đi khắp các khớp". Bệnh khởi phát do cơ thể chính khí suy kém, phong — hàn — thấp — nhiệt tà xâm nhập kinh lạc, ứ trở khí huyết tại khớp, dần dần gây tổn thương sụn, xương và gân cơ.</p>
+<p>Đặc điểm lâm sàng nổi bật: sưng đau đối xứng các khớp nhỏ (ngón tay, cổ tay, ngón chân), cứng khớp buổi sáng kéo dài trên 1 giờ, có thể có sốt nhẹ, mệt mỏi, thiếu máu. Xét nghiệm dương tính với RF (Rheumatoid Factor) và anti-CCP. YHCT không thay thế điều trị nền (DMARDs) nhưng hỗ trợ hiệu quả trong giảm đau, cải thiện vận động và hạn chế tác dụng phụ dài hạn.</p>
+
+<h2>Phân thể bệnh viêm khớp dạng thấp theo YHCT</h2>
+<ul>
+  <li><strong>Thể Phong hàn thấp tý (風寒濕痹):</strong> Khớp đau nhức, nặng nề, sưng nhẹ không đỏ. Đau lan rộng nhiều khớp, nặng hơn khi trời lạnh ẩm, chườm ấm giảm đau. Lưỡi nhạt rêu trắng nhờn, mạch hoãn hoặc huyền khẩn. Phép trị: khu phong tán hàn, trừ thấp thông lạc. Bài thuốc: Quyên tý thang gia giảm (Khương hoạt, Độc hoạt, Quế chi, Đương quy, Uy linh tiên).</li>
+  <li><strong>Thể Phong thấp nhiệt tý (風濕熱痹):</strong> Phổ biến trong đợt bùng phát. Khớp sưng đỏ nóng đau dữ dội, sờ nóng bỏng, kèm sốt, miệng khô khát, tiểu vàng. Lưỡi đỏ rêu vàng nhờn, mạch hoạt sác. Phép trị: thanh nhiệt lợi thấp, thông kinh chỉ thống. Bài thuốc: Bạch hổ gia quế chi thang kết hợp Nhẫn đông đằng, Hy thiêm thảo.</li>
+  <li><strong>Thể Đàm ứ tý trở (痰瘀痹阻):</strong> VKDT mạn tính lâu năm, khớp biến dạng, sưng cứng không đỏ, cử động hạn chế nhiều. Dưới da có hạt thấp (rheumatoid nodules). Lưỡi tím thâm có điểm ứ máu, rêu nhờn, mạch huyền hoạt hoặc tế sáp. Phép trị: hóa đàm tán kết, hoạt huyết hóa ứ, thông kinh lạc.</li>
+  <li><strong>Thể Can thận lưỡng hư (肝腎兩虛):</strong> Giai đoạn muộn, xương khớp teo nhỏ, biến dạng, cơ lực yếu. Kèm hoa mắt chóng mặt, lưng gối mỏi, tai ù. Hai phân thể: âm hư (lưỡi đỏ, mạch tế sác) và dương hư (sợ lạnh, tay chân lạnh, mạch trầm trì). Phép trị: bổ ích can thận, kiêm trừ phong thấp.</li>
+  <li><strong>Thể Khí huyết lưỡng hư (氣血兩虛):</strong> Thường gặp ở bệnh nhân cao tuổi hoặc VKDT kết hợp thiếu máu. Khớp đau âm ỉ, mặt nhợt, mệt mỏi, hồi hộp, chóng mặt, móng tay nhợt nhạt. Lưỡi nhạt, mạch tế nhược. Phép trị: bổ khí dưỡng huyết, kiêm tán phong thấp.</li>
+</ul>
+
+<h2>Phương pháp châm cứu điều trị VKDT</h2>
+<p><strong>Huyệt toàn thân thường dùng:</strong> Hợp cốc (LI4), Khúc trì (LI11), Ngoại quan (TE5), Túc tam lý (ST36), Tam âm giao (SP6), Huyết hải (SP10), Âm lăng tuyền (SP9). Với thể hàn thấp: ôn châm hoặc cứu ngải. Với thể nhiệt: châm tả không ôn.</p>
+<p><strong>Huyệt tại chỗ theo vị trí khớp tổn thương:</strong> Khớp ngón tay — tám huyệt Bát tà (EX-UE9); khớp cổ tay — Dương trì (TE4), Đại lăng (PC7), Ngoại quan; khớp gối — Tất nhãn (EX-LE5), Lương khâu (ST34), Độc tỵ (ST35), Âm lăng tuyền; khớp ngón chân — Bát phong (EX-LE10).</p>
+<p><strong>Thủy châm (tiêm huyệt vị):</strong> Tiêm Vitamin B1, B12 hoặc Salviamiltiorrhiza (Đan sâm) vào huyệt vị giúp kéo dài tác dụng giảm đau và kháng viêm. Thực hiện 2–3 lần/tuần trong đợt tiến triển.</p>
+
+<h2>Thuốc YHCT hỗ trợ điều trị VKDT</h2>
+<p>Một số vị thuốc được nghiên cứu có tác dụng ức chế phản ứng viêm và điều hòa miễn dịch trong VKDT: <strong>Hy thiêm thảo</strong> (Siegesbeckia orientalis) — kháng viêm mạnh, thường dùng ở dạng cao lỏng; <strong>Thổ phục linh</strong> — thanh nhiệt giải độc, trừ thấp; <strong>Uy linh tiên</strong> — thông kinh lạc, tan đàm kết; <strong>Độc hoạt, Khương hoạt</strong> — khu phong trừ thấp vùng trên và dưới; <strong>Ngưu tất</strong> — hoạt huyết, mạnh gân cốt, dẫn thuốc xuống chi dưới.</p>
+
+<h2>Lối sống và dinh dưỡng theo YHCT</h2>
+<p>YHCT khuyến nghị bệnh nhân VKDT tránh ẩm lạnh, không ngâm tay chân nước lạnh và mặc đủ ấm vùng khớp tổn thương. Thực phẩm nên dùng: gừng, tỏi, nghệ (giảm viêm tự nhiên); cá biển, hạt óc chó (omega-3 kháng viêm); sơn dược, đại táo (kiện tỳ bổ khí). Tránh: bia rượu, thức ăn cay nóng trong đợt bùng phát (thể nhiệt), thức ăn sống lạnh trong thể hàn. Vận động nhẹ nhàng như dưỡng sinh, bơi lội giúp duy trì tầm vận động khớp — không vận động mạnh trong đợt cấp.</p>
+
+<div class="art-cta-box"><p>Viêm khớp dạng thấp cần được điều trị lâu dài, phối hợp YHCT và y học hiện đại để đạt hiệu quả tối ưu và hạn chế biến chứng. Tại <strong>Phòng Khám YHCT Tâm Đức</strong>, <strong>BS. Nguyễn Đức Tâm</strong> xây dựng phác đồ cá thể hóa kết hợp châm cứu, thủy châm và thuốc YHCT phù hợp từng thể bệnh. Liên hệ đặt lịch qua <strong>0973 710 237</strong>, giờ khám <strong>18:00–22:00 hàng ngày</strong> tại <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 25,
+    slug: 'thien-dinh-yhct-duong-sinh',
+    date: '2026-08-09',
+    category: 'khong-thuoc',
+    categoryLabel: 'Không dùng thuốc',
+    icon: '🧘',
+    gradient: 'g-herb',
+    title: 'Thiền định theo YHCT: Tĩnh tâm, điều tức và dưỡng sinh không dùng thuốc',
+    excerpt: 'Thiền định trong Y học cổ truyền là phương pháp điều thần dưỡng tâm, kết hợp điều thân và điều tức để bồi bổ chính khí, cân bằng âm dương ngũ tạng — liệu pháp không dùng thuốc nền tảng cho sức khỏe thể chất và tinh thần bền vững.',
+    readTime: 5,
+    content: `
+<h2>Thiền định trong Y học cổ truyền là gì?</h2>
+<p>Thiền định theo quan điểm YHCT và Đông phương học không đơn thuần là ngồi yên, mà là phương pháp luyện tập tổng thể gồm <strong>ba yếu tố cốt lõi</strong>: <em>Điều thân</em> (điều chỉnh tư thế cơ thể), <em>Điều tức</em> (điều chỉnh hơi thở) và <em>Điều tâm</em> (điều chỉnh tâm trí). Ba yếu tố này tương ứng với việc cân bằng khí, huyết và thần trong học thuyết YHCT.</p>
+<p>YHCT cho rằng <strong>Tâm chủ thần minh</strong> — mọi hoạt động tinh thần đều do Tâm tàng trữ và điều phối. Khi tâm trí bất an (lo âu, stress, giận dữ), khí cơ rối loạn, ngũ tạng mất cân bằng và bệnh tật phát sinh. Thiền định giúp "tĩnh tâm an thần", đưa khí về hòa thuận, phục hồi cân bằng âm dương và tăng cường chính khí — khả năng tự bảo vệ và tự phục hồi của cơ thể.</p>
+
+<h2>Cơ sở lý luận YHCT về thiền định</h2>
+<p><strong>Tĩnh dưỡng thần:</strong> Sách Hoàng Đế Nội Kinh dạy: "Thanh tĩnh vô vi, chân khí tùng chi; tinh thần nội thủ, bệnh an tòng lai" — nghĩa là tâm thanh tĩnh thì chân khí bền vững, thần nội tàng thì bệnh không thể xâm. Thiền định chính là nghệ thuật "thủ thần nội tàng" này.</p>
+<p><strong>Điều hòa ngũ tạng qua khí:</strong> Hơi thở sâu chậm (điều tức) trong thiền định kích thích Phế tuyên phát túc giáng — từ đó điều hòa khí toàn thân, hỗ trợ Can sơ tiết (điều hòa cảm xúc), Tâm an thần, Tỳ kiện vận và Thận tàng tinh. Như vậy, thiền định tác động trực tiếp lên tất cả ngũ tạng qua cơ chế khí.</p>
+<p><strong>Nghiên cứu hiện đại:</strong> Thiền định được chứng minh giảm cortisol, hạ huyết áp, cải thiện nhịp tim biến thiên (HRV), tăng hoạt tính sóng alpha não và kích thích vỏ não trước trán — vùng liên quan đến điều tiết cảm xúc và ra quyết định. Những tác dụng này hoàn toàn phù hợp với quan điểm YHCT về "an thần, bình khí".</p>
+
+<h2>Các phương pháp thiền định theo YHCT</h2>
+<ul>
+  <li><strong>Tĩnh thiền (Tọa thiền):</strong> Ngồi kiết già hoặc bán kiết già, cột sống thẳng, mắt khép hờ nhìn xuống mũi. Buông lỏng toàn thân từ trên xuống dưới. Tập trung ý vào huyệt Đan điền (dưới rốn 3 thốn — huyệt Quan nguyên CV4) — đây là trung tâm tàng khí của cơ thể. Thở bụng chậm sâu đều nhẹ. Thời gian: bắt đầu 10–15 phút/ngày, tăng dần lên 30 phút.</li>
+  <li><strong>Thiền hành (Kinh hành):</strong> Đi chậm rãi với từng bước có ý thức, phối hợp hơi thở: hít vào 3 bước, thở ra 3 bước. Thích hợp cho người không thể ngồi lâu (đau lưng, đau khớp). Có thể thực hiện trong vườn, công viên hoặc hành lang.</li>
+  <li><strong>Thiền nằm (Ngọa công):</strong> Dành cho người bệnh nằm liệt, người cao tuổi hoặc sau phẫu thuật. Nằm ngửa tay duỗi thẳng, tập trung ý vào hơi thở và buông lỏng từng phần cơ thể. Rất hiệu quả để cải thiện giấc ngủ.</li>
+  <li><strong>Thiền quán tưởng theo ngũ hành:</strong> Hình dung màu sắc gắn với tạng cần bổ: xanh lá (Can), đỏ (Tâm), vàng (Tỳ), trắng (Phế), đen (Thận). Kết hợp với âm thanh ngũ âm tương ứng giúp tăng cường tạng phủ liên quan.</li>
+</ul>
+
+<h2>Thiền định và các bệnh YHCT hay gặp</h2>
+<ul>
+  <li><strong>Mất ngủ thể tâm hỏa vượng, can khí uất:</strong> Thiền 20–30 phút trước ngủ kết hợp xoa huyệt Thần môn (HT7) và Nội quan (PC6) giúp an tâm giáng hỏa, đưa vào giấc ngủ tự nhiên.</li>
+  <li><strong>Tăng huyết áp thể can dương vượng:</strong> Thiền hàng ngày kết hợp bấm huyệt Dũng tuyền (KI1 — lòng bàn chân) giúp dẫn dương hạ xuống, hạ áp tự nhiên.</li>
+  <li><strong>Lo âu, trầm cảm nhẹ thể can khí uất:</strong> Thiền hành kết hợp hít thở sâu và hướng ý vào Đan điền giúp sơ can giải uất, lý khí an thần.</li>
+  <li><strong>Suy nhược thần kinh, mệt mỏi mạn tính:</strong> Thiền ngọa công buổi trưa 15–20 phút thay thế giấc ngủ trưa, giúp phục hồi tinh thần và thể lực hiệu quả.</li>
+</ul>
+
+<h2>Hướng dẫn bắt đầu thiền định tại nhà</h2>
+<p>Chọn nơi yên tĩnh, thoáng khí, không bị làm phiền. Thực hiện vào sáng sớm sau khi thức dậy hoặc buổi tối trước khi ngủ — hai thời điểm khí dễ vào tĩnh nhất theo đồng hồ sinh học YHCT. Mặc quần áo rộng thoải mái, không đeo đồng hồ hay thiết bị điện tử. Bắt đầu với 5 phút đơn giản: ngồi thẳng, nhắm mắt, đếm hơi thở từ 1 đến 10 rồi lặp lại. Tăng dần thời gian và kỹ thuật theo tuần. Kiên trì 21 ngày để hình thành thói quen bền vững.</p>
+
+<div class="art-cta-box"><p>Thiền định là nền tảng dưỡng sinh không thể thiếu trong phác đồ điều trị toàn diện theo YHCT. Tại <strong>Phòng Khám YHCT Tâm Đức</strong>, <strong>BS. Nguyễn Đức Tâm</strong> hướng dẫn bệnh nhân tích hợp thiền định vào phác đồ châm cứu và dùng thuốc để đạt hiệu quả chữa bệnh và dưỡng sinh bền vững. Liên hệ <strong>0973 710 237</strong>, khám từ <strong>18:00–22:00 hàng ngày</strong> tại <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 26,
+    slug: 'doc-hoat-ky-sinh-thang-yhct',
+    date: '2026-08-09',
+    category: 'thuoc-yhct',
+    categoryLabel: 'Thuốc YHCT',
+    icon: '🌿',
+    gradient: 'g-fire',
+    title: 'Độc Hoạt Ký Sinh Thang: Bài thuốc trừ phong thấp kinh điển cho đau xương khớp mạn tính',
+    excerpt: 'Độc Hoạt Ký Sinh Thang (獨活寄生湯) là cổ phương hơn 1.300 năm tuổi từ sách Bị Cấp Thiên Kim Yếu Phương của Tôn Tư Mạo. Bài thuốc trứ danh trong điều trị đau thần kinh tọa, thoái hóa khớp, thấp khớp mạn tính theo thể can thận khí huyết hư.',
+    readTime: 6,
+    content: `
+<h2>Xuất xứ và lịch sử bài thuốc</h2>
+<p><strong>Độc Hoạt Ký Sinh Thang (獨活寄生湯)</strong> được ghi chép lần đầu trong bộ sách <em>Bị Cấp Thiên Kim Yếu Phương (備急千金要方)</em> của danh y Tôn Tư Mạo (孫思邈) — "Dược vương" thời nhà Đường (thế kỷ VII). Đây là một trong những bài thuốc thấp khớp được nghiên cứu lâm sàng nhiều nhất trong YHCT hiện đại.</p>
+<p>Tên bài thuốc xuất phát từ hai vị thuốc chủ chốt: <strong>Độc hoạt</strong> (khu phong thấp vùng dưới cơ thể) và <strong>Tang ký sinh</strong> (bổ can thận, mạnh gân cốt, khu phong thấp). Bài thuốc được xây dựng trên nguyên tắc: vừa khu tà (phong hàn thấp tà) vừa phù chính (bổ can thận, ích khí dưỡng huyết) — điều trị tận gốc bệnh thấp khớp mạn tính.</p>
+
+<h2>Thành phần và vai trò từng vị thuốc</h2>
+<ul>
+  <li><strong>Độc hoạt 12g (Quân — vua):</strong> Khu phong thấp, chỉ tý thống. Chuyên trị phong hàn thấp tà ở chi dưới, lưng, gối. Vị đắng cay, tính ôn, quy kinh Thận — Bàng quang.</li>
+  <li><strong>Tang ký sinh 12g (Thần — tướng):</strong> Bổ can thận, mạnh gân cốt, khu phong thấp. Là vị thuốc độc đáo vừa trừ tà vừa bổ chính. Quy kinh Can — Thận.</li>
+  <li><strong>Tần giao 9g, Phòng phong 9g, Tế tân 3g (Thần):</strong> Khu phong thấp, thông kinh lạc, chỉ thống. Tế tân có tác dụng giảm đau mạnh, dùng lượng nhỏ.</li>
+  <li><strong>Nhục quế 3g (Thần):</strong> Ôn thông kinh mạch, tán hàn chỉ thống, giúp dẫn thuốc vào kinh lạc. Không dùng trong thể nhiệt.</li>
+  <li><strong>Phục linh 9g, Đỗ trọng 9g, Ngưu tất 9g (Thần):</strong> Bổ thận kiện tỳ, mạnh gân cốt. Ngưu tất đồng thời hoạt huyết, dẫn thuốc xuống chi dưới.</li>
+  <li><strong>Đương quy 9g, Thục địa 12g, Bạch thược 9g, Xuyên khung 6g (Tá):</strong> Tứ vật thang — dưỡng huyết hoạt huyết. Giúp "huyết hành thì phong tự diệt" và nuôi dưỡng gân cơ khớp.</li>
+  <li><strong>Nhân sâm 9g (hoặc Đảng sâm 15g), Cam thảo 6g (Tá — Sứ):</strong> Bổ khí kiện tỳ, điều hòa các vị thuốc. Cam thảo còn giải độc và điều hòa vị của bài thuốc.</li>
+</ul>
+
+<h2>Chỉ định lâm sàng</h2>
+<p>Bài thuốc chỉ định cho thể <strong>Phong hàn thấp tý kiêm can thận khí huyết lưỡng hư</strong>, biểu hiện: đau lưng — hông — gối mạn tính, nặng hơn khi lạnh ẩm, tê bì chi dưới, đi lại khó khăn, cơ bắp teo nhỏ, toàn thân mệt mỏi, lưỡi nhạt rêu trắng mỏng, mạch trầm tế hoặc trầm trì.</p>
+<p><strong>Các chẩn đoán y học hiện đại phù hợp:</strong></p>
+<ul>
+  <li>Đau thần kinh tọa mạn tính (thoát vị đĩa đệm L4-L5, L5-S1)</li>
+  <li>Thoái hóa khớp gối, cột sống thắt lưng ở người cao tuổi</li>
+  <li>Viêm khớp dạng thấp thể can thận hư</li>
+  <li>Đau cột sống cổ mạn tính do thoái hóa</li>
+  <li>Gout mạn tính thể tỳ thận dương hư</li>
+</ul>
+
+<h2>Chống chỉ định và thận trọng</h2>
+<ul>
+  <li><strong>Tuyệt đối không dùng</strong> khi bệnh thuộc thể <strong>thấp nhiệt</strong> (khớp sưng đỏ nóng, sốt, lưỡi đỏ rêu vàng) — bài thuốc có nhiều vị ôn nhiệt sẽ làm bệnh nặng hơn.</li>
+  <li>Thận trọng ở phụ nữ có thai — Ngưu tất và Xuyên khung có thể kích thích tử cung co bóp.</li>
+  <li>Người có âm hư nội nhiệt (nóng trong, miệng khô, mạch tế sác) cần gia giảm, bỏ Nhục quế, giảm Tế tân và thêm vị bổ âm.</li>
+  <li>Dị ứng với bất kỳ thành phần nào trong bài — cần khai thác tiền sử dị ứng trước khi kê đơn.</li>
+</ul>
+
+<h2>Cách dùng và liệu trình</h2>
+<p>Sắc nước uống: sắc 3 chén nước còn 1 chén, uống ấm sau bữa ăn, ngày 1 thang chia 2 lần. Dùng dạng thuốc viên hoàn hoặc cao lỏng theo chỉ định thầy thuốc để tiện lợi hơn. Liệu trình cơ bản: 1 tháng. Bệnh mạn tính nặng: 3–6 tháng. Đánh giá lại sau mỗi tháng để gia giảm phù hợp. Kết hợp châm cứu (Thận du, Đại trường du, Hoàn khiêu, Ủy trung, Dương lăng tuyền, Túc tam lý) tăng hiệu quả điều trị rõ rệt.</p>
+
+<div class="art-cta-box"><p>Độc Hoạt Ký Sinh Thang là bài thuốc cổ phương hiệu quả cao nhưng cần được kê đơn đúng thể bệnh và gia giảm phù hợp từng người. Tại <strong>Phòng Khám YHCT Tâm Đức</strong>, <strong>BS. Nguyễn Đức Tâm</strong> thăm khám, phân thể và kê đơn cá nhân hóa cho từng bệnh nhân đau xương khớp mạn tính. Đặt lịch qua <strong>0973 710 237</strong>, giờ khám <strong>18:00–22:00 hàng ngày</strong> tại <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 27,
+    slug: 'duong-sinh-mua-dong-yhct',
+    date: '2026-08-09',
+    category: 'phong-benh',
+    categoryLabel: 'Phòng bệnh',
+    icon: '🛡️',
+    gradient: 'g-amber',
+    title: 'Dưỡng sinh mùa đông theo YHCT: Bổ thận tàng tinh, bảo vệ dương khí vượt qua giá lạnh',
+    excerpt: 'Mùa đông trong YHCT là mùa của tạng Thận và hành Thủy — thời điểm lý tưởng để tàng tinh bổ thận, nghỉ ngơi dưỡng sức. Sống thuận theo quy luật mùa đông giúp phòng ngừa bệnh tật, duy trì sức khỏe và tích lũy năng lượng cho cả năm.',
+    readTime: 5,
+    content: `
+<h2>Triết lý mùa đông trong YHCT</h2>
+<p>Hoàng Đế Nội Kinh dạy: <em>"Đông tam nguyệt, thử vị bế tàng. Thủy băng địa lạc, vô nhiễu hồ dương"</em> — Ba tháng mùa đông là thời kỳ bế tàng, nước đóng băng đất nứt nẻ, không được quấy nhiễu dương khí. Đây là thời điểm thiên nhiên và cơ thể người đều hướng vào bên trong: dự trữ năng lượng, hồi phục tàng phủ và tích lũy tinh khí cho chu kỳ mới.</p>
+<p>Mùa đông tương ứng với <strong>tạng Thận</strong> (cơ quan tàng tinh, chủ cốt tủy, nguồn gốc của âm dương toàn thân). Người sống không thuận mùa đông — thức khuya, hoạt động quá sức, ăn lạnh, không giữ ấm — sẽ tổn thương thận khí, dẫn đến mệt mỏi, đau lưng, giảm miễn dịch và dễ mắc bệnh vào xuân hè năm sau.</p>
+
+<h2>Ngủ và nghỉ ngơi theo mùa đông</h2>
+<p>YHCT khuyên: <strong>mùa đông nên ngủ sớm, dậy muộn</strong> — chờ ánh mặt trời mọc rồi mới thức. Giờ ngủ lý tưởng: 22h–23h, dậy khoảng 7h–7h30. Ngủ đủ 7–8 tiếng giúp thận tinh được phục hồi và dương khí được bảo toàn. Không thức khuya vì giờ Tý (23h–1h) là thời điểm âm cực thịnh — cần nghỉ ngơi hoàn toàn để thận khí phục hồi cực đại.</p>
+<p>Tránh ra ngoài sớm khi trời còn tối lạnh — đặc biệt người cao tuổi và người có bệnh tim mạch, huyết áp. Buổi sáng nên vươn vai nhẹ nhàng tại chỗ trong 5 phút trước khi ra khỏi giường để khí huyết lưu thông trước khi chạm với lạnh.</p>
+
+<h2>Vận động dưỡng sinh mùa đông</h2>
+<p>Mùa đông không nên vận động mạnh đến đổ mồ hôi nhiều — YHCT cho rằng mồ hôi ra quá nhiều vào mùa đông làm hao tổn dương khí và tinh khí. Thay vào đó, ưu tiên:</p>
+<ul>
+  <li><strong>Dưỡng sinh (khí công, thái cực quyền):</strong> 20–30 phút buổi sáng sau 8h khi nắng ấm lên. Tập trong nhà nếu trời quá lạnh (dưới 10°C).</li>
+  <li><strong>Đi bộ chậm:</strong> 30–40 phút buổi chiều 14h–16h khi nhiệt độ cao nhất trong ngày. Mặc đủ ấm, đặc biệt bảo vệ cổ, thắt lưng và bàn chân.</li>
+  <li><strong>Ngũ cầm hí (bài tập khí công ngũ tạng):</strong> Bài hổ tăng cường gân cốt, bài gấu bổ thận ích tủy — rất phù hợp cho mùa đông thận vượng.</li>
+</ul>
+
+<h2>Dinh dưỡng bổ thận dưỡng dương mùa đông</h2>
+<p>Nguyên tắc: ăn ấm, ăn chín, ăn vừa phải. Ưu tiên thực phẩm có tính ôn nhiệt và bổ thận:</p>
+<ul>
+  <li><strong>Bổ thận dương:</strong> Thịt dê, thịt chó (ôn thận tráng dương), hạt đào nhân, hạt dẻ, tỏi đen, gừng, quế.</li>
+  <li><strong>Bổ thận âm:</strong> Hải sâm, tôm, cá hồi, trứng gà đen, vừng đen, mộc nhĩ đen, kỷ tử.</li>
+  <li><strong>Kiện tỳ ôn trung:</strong> Sơn dược, đại táo, gạo nếp, canh xương hầm gừng, cháo lá lốt.</li>
+  <li><strong>Tránh:</strong> Thức ăn sống lạnh, nước đá, dưa cà muối chua nhiều, hoa quả lạnh (dưa hấu, lê). Hạn chế bia rượu — tuy cảm thấy ấm ngay nhưng thực chất làm tán dương và mất nhiệt cơ thể sau đó.</li>
+</ul>
+<p>Súp và cháo ấm buổi sáng là lý tưởng nhất cho dạ dày mùa đông. Cháo thận — hầm thận heo với Đỗ trọng, Kỷ tử, Sơn thù du là món ăn bài thuốc bổ thận kinh điển.</p>
+
+<h2>Giữ ấm và bảo vệ dương khí</h2>
+<p>YHCT đặc biệt nhấn mạnh giữ ấm <strong>ba vùng quan trọng</strong>: Đầu — cổ (phong tà xâm nhập dễ qua Phong phủ, Phong trì); Lưng — thắt lưng (Mệnh môn — cửa sinh mệnh, Thận du — bổ thận); Bàn chân (Dũng tuyền — huyệt đầu tiên kinh thận).</p>
+<p>Ngâm chân nước ấm (40–42°C) 15–20 phút trước khi ngủ, thêm gừng tươi hoặc muối gừng — giúp ôn kinh thông lạc, cải thiện tuần hoàn và dễ ngủ hơn. Cứu ngải huyệt Quan nguyên và Mệnh môn 2–3 lần/tuần trong mùa đông là biện pháp bổ dương phòng bệnh cực kỳ hiệu quả.</p>
+
+<div class="art-cta-box"><p>Dưỡng sinh đúng mùa đông giúp bảo vệ sức khỏe toàn diện và phòng ngừa bệnh tật quanh năm. Tại <strong>Phòng Khám YHCT Tâm Đức</strong>, <strong>BS. Nguyễn Đức Tâm</strong> tư vấn phác đồ dưỡng sinh cá thể hóa theo thể trạng từng người cho từng mùa trong năm. Liên hệ <strong>0973 710 237</strong>, khám từ <strong>18:00–22:00 hàng ngày</strong> tại <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 28,
+    slug: 'phuong-huyet-bo-than-trang-duong',
+    date: '2026-08-09',
+    category: 'phuong-huyet',
+    categoryLabel: 'Phương huyệt',
+    icon: '📍',
+    gradient: 'g-huyet',
+    title: 'Phương huyệt bổ thận tráng dương: 7 huyệt vị cốt lõi phục hồi sinh lực và thận khí',
+    excerpt: 'Bổ thận tráng dương bằng châm cứu là phương pháp an toàn, không dùng thuốc để phục hồi thận khí, cải thiện sinh lực, giảm đau lưng mỏi gối và các triệu chứng suy giảm chức năng thận theo YHCT. Bài viết trình bày 7 huyệt vị cốt lõi với vị trí và chức năng cụ thể.',
+    readTime: 6,
+    content: `
+<h2>Cơ sở lý luận bổ thận tráng dương trong YHCT</h2>
+<p>Theo YHCT, <strong>Thận</strong> là cơ quan tàng trữ tinh — nguồn gốc của âm dương toàn thân, chủ cốt tủy, não tủy, sinh dục và phát triển. <strong>Thận dương</strong> (còn gọi là Mệnh môn hỏa) là nguồn nhiệt ôn ấm toàn cơ thể, thúc đẩy khí hóa và các hoạt động sinh lý. Khi thận dương suy, người bệnh biểu hiện: lưng gối đau mỏi lạnh, tay chân lạnh, mệt mỏi nhiều, sinh lực kém, tiểu nhiều về đêm, sợ lạnh, mặt nhợt, lưỡi nhạt có vết răng, mạch trầm trì.</p>
+<p>Châm cứu bổ thận tráng dương dùng kỹ thuật <strong>châm bổ</strong> (nhẹ nhàng, chậm rút kim, hoặc kết hợp cứu ngải) tại các huyệt thuộc kinh Thận, kinh Bàng quang và mạch Đốc để kích thích thận dương phát động và Mệnh môn hỏa bừng sáng.</p>
+
+<h2>7 huyệt vị cốt lõi bổ thận tráng dương</h2>
+<ul>
+  <li><strong>1. Mệnh môn (GV4 — 命門):</strong> Vị trí: mạch Đốc, khoảng cách giữa gai đốt sống thắt lưng L2–L3, ngang mức Thận du. Cách xác định: từ rốn vẽ đường thẳng ngang ra sau, điểm giữa đường đó trên cột sống. Tác dụng: bổ thận dương, ôn Mệnh môn hỏa — huyệt quan trọng nhất trong bổ dương. Kỹ thuật: châm thẳng 0,5–1 thốn, tốt nhất kết hợp cứu ngải 15–20 phút.</li>
+  <li><strong>2. Thận du (BL23 — 腎俞):</strong> Vị trí: bàng kinh Thái dương, ngang L2, cách đường giữa lưng 1,5 thốn (khoảng hai ngón tay), hai bên. Tác dụng: bối du của tạng Thận — huyệt trực tiếp bổ thận, kiện thận, ích tinh tủy. Kỹ thuật: châm thẳng 0,8–1,2 thốn, ôn châm hoặc cứu ngải. Tránh châm quá sâu phía trong (nguy cơ tổn thương thận).</li>
+  <li><strong>3. Quan nguyên (CV4 — 關元):</strong> Vị trí: mạch Nhâm, dưới rốn 3 thốn (4 ngón tay), đường giữa bụng. Tác dụng: "Nguồn gốc nguyên khí" — giao hội của Tam âm kinh và mạch Nhâm. Bổ thận ích tinh, ôn dương cố thoát, điều hòa kinh nguyệt và sinh dục. Kỹ thuật: châm thẳng 1–1,5 thốn, cứu ngải lâu (20–30 phút) — huyệt bảo kiện nổi tiếng nhất YHCT.</li>
+  <li><strong>4. Khí hải (CV6 — 氣海):</strong> Vị trí: mạch Nhâm, dưới rốn 1,5 thốn. Tác dụng: "Biển của khí" — bổ nguyên khí, ôn dương, ích thận cố tinh, điều kinh. Thường phối cùng Quan nguyên tạo thành cặp huyệt bổ thận ích khí kinh điển. Kỹ thuật: châm thẳng 1–1,5 thốn kết hợp cứu ngải.</li>
+  <li><strong>5. Tam âm giao (SP6 — 三陰交):</strong> Vị trí: kinh Tỳ, mặt trong cẳng chân, trên mắt cá chân trong 3 thốn, cạnh sau xương chày. Tác dụng: giao hội của ba kinh âm (Tỳ — Can — Thận). Bổ thận ích tinh, kiện tỳ, dưỡng huyết, điều kinh. Kỹ thuật: châm thẳng 1–1,5 thốn. Lưu ý: KHÔNG châm huyệt này ở phụ nữ mang thai.</li>
+  <li><strong>6. Thái khê (KI3 — 太溪):</strong> Vị trí: kinh Thận, lõm giữa mắt cá chân trong và gân Achilles. Tác dụng: nguyên huyệt kinh Thận — bổ thận âm và thận dương, ích tinh tủy. Đặc biệt hiệu quả cho thận âm hư kèm hư dương bốc. Kỹ thuật: châm thẳng 0,5–1 thốn.</li>
+  <li><strong>7. Dũng tuyền (KI1 — 湧泉):</strong> Vị trí: giếng huyệt kinh Thận, lòng bàn chân, điểm đầu rãnh khi gấp ngón chân (1/3 trước gan bàn chân). Tác dụng: dẫn dương hạ xuống, bổ thận, an thần. Thường dùng bấm huyệt (không châm) hoặc cứu ngải tại nhà. Kỹ thuật: bấm xoa 100 lần/bên mỗi tối trước ngủ — biện pháp dưỡng sinh tự làm hiệu quả.</li>
+</ul>
+
+<h2>Phác đồ châm cứu bổ thận tráng dương</h2>
+<p><strong>Phác đồ cơ bản:</strong> Mệnh môn + Thận du (hai bên) + Quan nguyên + Khí hải + Tam âm giao. Châm bổ, lưu kim 25–30 phút. Kết hợp ôn châm hoặc cứu hộp vùng thắt lưng và bụng dưới.</p>
+<p><strong>Phác đồ nâng cao (thể thận dương hư nặng):</strong> Thêm Thái khê, Túc tam lý (ST36), Bách hội (GV20 — nâng dương khí). Có thể phối thêm nhĩ châm: điểm Thận, Nội tiết, Thần môn nhĩ châm.</p>
+<p><strong>Liệu trình:</strong> Mỗi tuần 2–3 lần, mỗi lần 30–40 phút. Một liệu trình 4 tuần. Đánh giá sau liệu trình đầu; bệnh nặng có thể tiếp tục 2–3 liệu trình liên tiếp.</p>
+
+<h2>Kết hợp dưỡng sinh hỗ trợ bổ thận</h2>
+<p>Hiệu quả bổ thận được tăng cường rõ rệt khi phối hợp: ngủ đủ giờ trước 23h; thực phẩm bổ thận (hạt đen, vừng đen, đỗ đen, hải sản, thịt dê); cứu ngải Quan nguyên và Mệnh môn 2–3 lần/tuần tại nhà; bài tập khí công "Bồi thận" trong Lục tự quyết (âm "khủy — chuy"). Tránh: thức khuya, quan hệ quá độ, làm việc quá sức, sợ hãi kéo dài (Sợ thương thận — Hoàng Đế Nội Kinh).</p>
+
+<div class="art-cta-box"><p>Phương huyệt bổ thận tráng dương cần được thực hiện bởi thầy thuốc YHCT có chuyên môn để đảm bảo đúng kỹ thuật và an toàn. Tại <strong>Phòng Khám YHCT Tâm Đức</strong>, <strong>BS. Nguyễn Đức Tâm</strong> thực hiện liệu trình bổ thận toàn diện kết hợp châm cứu, cứu ngải và tư vấn dưỡng sinh. Đặt lịch qua <strong>0973 710 237</strong>, giờ khám <strong>18:00–22:00 hàng ngày</strong> tại <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 29,
+    slug: 'duong-da-mua-dong-yhct',
+    date: '2026-08-09',
+    category: 'lam-dep',
+    categoryLabel: 'Làm đẹp',
+    icon: '🌸',
+    gradient: 'g-rose',
+    title: 'Dưỡng da mùa đông theo YHCT: Nhuận táo, bổ âm và chăm sóc da từ bên trong',
+    excerpt: 'Da khô, nứt nẻ, kém sắc vào mùa đông theo YHCT là biểu hiện của Phế âm hư, tân dịch bất túc. Phác đồ làm đẹp YHCT kết hợp bổ phế nhuận âm, dưỡng huyết nhuận táo từ bên trong và chăm sóc tại chỗ bằng thảo dược cho làn da căng mịn suốt mùa lạnh.',
+    readTime: 5,
+    content: `
+<h2>Da mùa đông theo quan điểm YHCT</h2>
+<p>Mùa đông — hành Thủy, tạng Thận vượng — nhưng đây cũng là thời điểm <strong>táo tà</strong> (khô hanh) kết hợp hàn tà hoành hành nhất. Da là cơ quan "thụ nhận" sự biến đổi của thiên nhiên đầu tiên. Theo YHCT, <strong>Phế chủ bì mao</strong> — tức Phế khống chế làn da và lông tóc. Khi mùa đông hanh khô kết hợp sưởi ấm kín phòng làm không khí mất ẩm, Phế bị táo tà xâm phạm, tân dịch giảm sút, da mất nước và dinh dưỡng từ bên trong.</p>
+<p>Đồng thời, <strong>Can tàng huyết</strong> — huyết của Can nuôi dưỡng gân cơ, móng tay và cả da. Mùa đông âm dài dương ngắn, con người ít ra ngoài, ít vận động, khí huyết lưu thông kém hơn, gương mặt mất sắc tươi và da thiếu tưới dưỡng. Vì vậy, dưỡng da mùa đông theo YHCT nhất thiết phải đồng thời <strong>bổ phế nhuận táo</strong> và <strong>dưỡng can bổ huyết</strong>.</p>
+
+<h2>Biểu hiện da kém theo từng thể YHCT</h2>
+<ul>
+  <li><strong>Phế âm hư, tân dịch bất túc:</strong> Da khô căng, bong tróc, nứt nẻ ở tay chân, môi khô. Kèm ho khan ít đờm, họng khô, mũi khô. Lưỡi đỏ ít rêu. Phép trị: nhuận phế sinh tân, dưỡng âm chỉ khô.</li>
+  <li><strong>Huyết hư bì phu thất dưỡng:</strong> Da nhợt nhạt, thiếu sức sống, kém đàn hồi, xuất hiện nếp nhăn sớm. Móng tay nhợt giòn. Môi nhợt. Mệt mỏi, hoa mắt. Lưỡi nhạt, mạch tế. Phép trị: bổ huyết dưỡng da, kiện tỳ ích khí.</li>
+  <li><strong>Thận âm hư, tinh huyết bất túc:</strong> Da khô và mỏng, xuất hiện sắc tố (đồi mồi) sớm, tóc bạc sớm, da quanh mắt nhăn. Lưỡi đỏ ít rêu, mạch tế sác. Phép trị: bổ thận ích tinh, tư âm nhuận táo.</li>
+</ul>
+
+<h2>Thực phẩm và bài thuốc dưỡng da từ bên trong</h2>
+<p><strong>Thực phẩm nhuận da YHCT:</strong></p>
+<ul>
+  <li><strong>Bạch ngân nhĩ (nấm tuyết trắng — Tremella fuciformis):</strong> Bổ phế âm, sinh tân dịch, dưỡng da mặt. Kết hợp hầm với kỷ tử, đại táo, đường phèn uống hàng ngày — được mệnh danh là "collagen của phương Đông".</li>
+  <li><strong>Vừng đen (Hắc chi ma — Sesamum indicum):</strong> Bổ can thận, nhuận táo, dưỡng da tóc. Rang và xay bột pha uống sáng sớm hoặc trộn vào cháo.</li>
+  <li><strong>Kỷ tử (Lycium barbarum):</strong> Bổ thận ích tinh, dưỡng can minh mục. Ngâm nước uống hàng ngày hoặc hầm với thịt và thảo dược.</li>
+  <li><strong>Đào nhân (Prunus persica):</strong> Hoạt huyết, nhuận táo, giúp tuần hoàn máu đến da tốt hơn. Hầm súp hoặc làm chè.</li>
+  <li><strong>Mật ong nguyên chất:</strong> Nhuận phế, giải độc, bổ trung ích khí. Uống 1–2 thìa mỗi sáng pha nước ấm — đặc biệt tốt cho da khô mùa đông.</li>
+</ul>
+<p><strong>Bài thuốc uống dưỡng da mùa đông:</strong> <em>Ngọc dung ẩm</em> gia giảm: Bạch ngân nhĩ 10g, Ngọc trúc 12g, Sa sâm 12g, Mạch môn 10g, Kỷ tử 10g, Đại táo 5 quả. Sắc nước uống hàng ngày trong mùa đông. Tác dụng: nhuận phế dưỡng âm, sinh tân dịch, làm sáng da và giảm khô nứt.</p>
+
+<h2>Châm cứu và bấm huyệt dưỡng da mùa đông</h2>
+<p>Châm cứu thẩm mỹ mùa đông tập trung vào <strong>bổ phế, bổ thận và hoạt huyết</strong> để cải thiện tuần hoàn nuôi da:</p>
+<ul>
+  <li><strong>Phế du (BL13) + Tỳ du (BL20):</strong> Bồi du huyệt bổ phế kiện tỳ, tăng sản xuất tân dịch và phân phối dưỡng chất lên da mặt.</li>
+  <li><strong>Túc tam lý (ST36) + Huyết hải (SP10):</strong> Bổ khí dưỡng huyết, cải thiện tuần hoàn toàn thân, làm hồng da.</li>
+  <li><strong>Nghinh hương (LI20) + Tứ bạch (ST2) + Địa thương (ST4):</strong> Huyệt tại chỗ vùng mặt, kích thích vi tuần hoàn cục bộ, tăng độ ẩm và đàn hồi da mặt.</li>
+  <li><strong>Bấm huyệt tự làm:</strong> Xoa huyệt Ấn đường (giữa hai lông mày), Thái dương (thái dương) và Giáp xa (ST6) mỗi sáng 50–100 lần — tăng tuần hoàn mặt, giảm phù và căng da.</li>
+</ul>
+
+<h2>Chăm sóc da ngoài bằng thảo dược YHCT</h2>
+<p><strong>Mặt nạ dưỡng ẩm thiên nhiên:</strong> Nghiền mịn ngọc trai (Trân châu phấn) trộn với mật ong và nước hoa hồng, đắp mặt 20 phút, rửa sạch. Dùng 2 lần/tuần. Ngọc trai trong YHCT có tác dụng thanh nhiệt giải độc, dưỡng da sáng mịn, làm mờ sắc tố.</p>
+<p><strong>Xịt dưỡng ẩm từ nước sắc thảo dược:</strong> Sắc Sa sâm, Ngọc trúc, Mạch môn đặc, lọc lấy nước, cho vào bình xịt nhỏ. Xịt lên mặt 3–4 lần/ngày khi da khô. Giúp cung cấp tân dịch thảo dược trực tiếp lên bề mặt da.</p>
+<p><strong>Dầu dưỡng ẩm ban đêm:</strong> Dầu mè (vừng) pha loãng với vài giọt tinh dầu hoa hồng hoặc tinh dầu hương thảo. Thoa nhẹ lên mặt sau khi rửa mặt buổi tối. Dầu mè trong YHCT tính ôn, nhuận da, bảo vệ da khỏi hàn tà.</p>
+
+<div class="art-cta-box"><p>Làn da mùa đông tươi khỏe bắt đầu từ sức khỏe nội tạng — bổ phế nhuận âm và dưỡng huyết sinh tân từ bên trong mới là giải pháp căn bản. Tại <strong>Phòng Khám YHCT Tâm Đức</strong>, <strong>BS. Nguyễn Đức Tâm</strong> tư vấn phác đồ dưỡng da kết hợp châm cứu thẩm mỹ và thuốc YHCT cá thể hóa theo thể trạng. Đặt lịch qua <strong>0973 710 237</strong>, khám từ <strong>18:00–22:00 hàng ngày</strong> tại <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
     id: 18,
     slug: 'benh-gout-thong-phong-yhct',
     date: '2026-08-08',
