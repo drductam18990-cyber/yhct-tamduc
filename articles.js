@@ -1,5 +1,56 @@
 const ARTICLES = [
   {
+    id: 36,
+    slug: 'xoa-bop-bam-huyet-chua-dau-co-vai-yhct',
+    date: '2026-08-11',
+    category: 'khong-thuoc',
+    categoryLabel: 'Không dùng thuốc',
+    icon: '🧘',
+    gradient: 'g-herb',
+    title: 'Xoa bóp, bấm huyệt chữa đau cổ vai gáy: Kỹ thuật không dùng thuốc giải phóng cơ căng cứng',
+    excerpt: 'Xoa bóp bấm huyệt theo YHCT là liệu pháp không dùng thuốc hiệu quả cho đau cổ vai gáy, giúp thư giãn cơ, thông kinh lạc và giảm đau tức thì. Bài viết hướng dẫn kỹ thuật cơ bản và huyệt vị quan trọng có thể tự thực hành hàng ngày.',
+    readTime: 6,
+    content: `
+<h2>Tổng quan theo Y học cổ truyền</h2>
+<p>Đau cổ vai gáy — hay còn gọi là hội chứng cổ vai tay — trong Y học cổ truyền (YHCT) thuộc phạm trù <strong>Tý chứng</strong>. Bệnh hình thành do phong, hàn, thấp tà xâm phạm kinh lạc vùng cổ vai, làm khí huyết vận hành bị trở ngại, gân cơ co rút, gây đau nhức và cứng cổ. Đây là bệnh lý cực kỳ phổ biến ở người lao động văn phòng, người thường xuyên cúi điện thoại, lái xe đường dài và người lớn tuổi thoái hóa cột sống cổ.</p>
+<p>Theo lý luận YHCT, vùng cổ gáy là nơi hội tụ của ba đường kinh quan trọng: <strong>Túc Thái Dương Bàng Quang</strong>, <strong>Thủ Thái Dương Tiểu Trường</strong> và <strong>Túc Thiếu Dương Đởm</strong>. Khi các kinh này bị hàn tà hoặc khí trệ huyết ứ xâm phạm, khí huyết không lưu thông sẽ dẫn đến cơ cứng và đau. Xoa bóp bấm huyệt tác động trực tiếp vào các kinh lạc này, thông thoáng khí huyết, tan ứ chỉ thống — mang lại hiệu quả giảm đau rõ rệt mà không cần dùng thuốc.</p>
+
+<h2>Phân thể / Nguyên nhân theo YHCT</h2>
+<ul>
+  <li><strong>Thể phong hàn tý:</strong> Đau cổ vai xuất hiện sau khi nhiễm lạnh, ngủ quạt hoặc điều hòa, đau có thể lan lên đỉnh đầu, sợ gió, không sốt, rêu lưỡi trắng mỏng, mạch phù. Hướng điều trị: Khu phong tán hàn, thư cân thông lạc.</li>
+  <li><strong>Thể khí trệ huyết ứ:</strong> Đau cổ vai sau chấn thương nhỏ hoặc ngồi sai tư thế kéo dài, đau có vị trí cố định, không di chuyển, ấn đau rõ, đau tăng về đêm, lưỡi tím nhạt. Hướng điều trị: Hành khí hoạt huyết, hóa ứ thông lạc.</li>
+  <li><strong>Thể can thận hư:</strong> Đau cổ vai mạn tính ở người trung cao tuổi, kèm mỏi lưng, ù tai, hoa mắt, ngủ kém, mạch trầm tế. Hướng điều trị: Bổ can thận, kiện cân cốt, thông kinh lạc lâu dài.</li>
+  <li><strong>Thể thấp nhiệt:</strong> Đau kèm cảm giác nóng rát, căng tức, miệng đắng, tiểu vàng, thường gặp ở người béo phì hoặc hay ăn đồ cay béo. Hướng điều trị: Thanh nhiệt lợi thấp, thư cân hoạt lạc.</li>
+</ul>
+
+<h2>Huyệt vị quan trọng và kỹ thuật bấm huyệt</h2>
+<p>Các huyệt cốt lõi trong điều trị đau cổ vai gáy bằng bấm huyệt — tên huyệt kèm mã quốc tế:</p>
+<ul>
+  <li><strong>Phong Trì (GB20):</strong> Nằm dưới xương chẩm, trong hõm giữa cơ thang và cơ ức đòn chũm. Huyệt khu phong hàng đầu vùng cổ gáy — ấn mạnh 30–60 giây giúp giảm đau đầu, cứng cổ và chóng mặt do co cứng cơ.</li>
+  <li><strong>Kiên Tỉnh (GB21):</strong> Điểm cao nhất của vai, giữa đường nối cổ và mỏm cùng vai. Ấn và nhào lộn cơ thang giúp giải phóng co cơ tức thì, giảm đau vai lan xuống cánh tay.</li>
+  <li><strong>Thiên Trụ (BL10):</strong> Hai bên cột sống cổ, cách đường giữa khoảng 1,5 thốn, dưới đường chân tóc gáy. Bấm huyệt này giúp thư giãn cơ thang trên và cơ bán gai đầu.</li>
+  <li><strong>Đại Chùy (GV14):</strong> Điểm giữa gáy, dưới gai đốt sống cổ 7. Huyệt tổng hội của Dương kinh — tác dụng khu phong tán hàn và giải cứng cổ.</li>
+  <li><strong>Hợp Cốc (LI4):</strong> Trên mu bàn tay, điểm giữa giữa ngón cái và ngón trỏ. Nguyên huyệt của Thủ Dương Minh Đại Trường — tác dụng giảm đau toàn thân và giải phóng kinh khí vùng cổ mặt.</li>
+  <li><strong>Hậu Khê (SI3):</strong> Bờ trong bàn tay, khi nắm tay nhẹ nằm ở nếp ngang đầu ngón út. Huyệt thông với mạch Đốc — tác dụng đặc biệt với cứng đau cột sống cổ và đau mạn tính vùng lưng cổ.</li>
+  <li><strong>Liệt Khuyết (LU7):</strong> Trên cổ tay, phía trên mỏm trâm quay 1,5 thốn. Huyệt lạc của Phế kinh thông với mạch Nhâm — điều trị đau cổ gáy và đau đầu vùng chẩm hiệu quả.</li>
+</ul>
+
+<h2>Tự thực hành tại nhà</h2>
+<ul>
+  <li><strong>Xoa ấm hai bàn tay:</strong> Xoa 2 lòng bàn tay vào nhau 20–30 cái để tạo nhiệt, đặt lên vùng cổ gáy xoa từ trên xuống trong 1–2 phút — bước khởi động quan trọng trước khi bấm huyệt.</li>
+  <li><strong>Bấm Phong Trì (GB20):</strong> Dùng 2 ngón cái ấn đồng thời vào 2 huyệt Phong Trì, ấn-thả nhịp nhàng trong 30–60 giây, thở sâu đều. Cảm giác tức căng lan ra là đắc khí — bình thường.</li>
+  <li><strong>Nhào cơ thang (Kiên Tỉnh GB21):</strong> Bàn tay đối diện nhào nhẹ cơ vai từ cổ ra mỏm cùng vai, 10–15 lần mỗi bên — đây là động tác giải phóng cơ căng hiệu quả nhất.</li>
+  <li><strong>Vuốt dọc cột sống cổ:</strong> Dùng mu bàn tay hoặc các ngón tay vuốt nhẹ từ dưới chân tóc gáy xuống đến đốt sống C7 (Đại Chùy), 10 lần, giúp kích hoạt kinh Bàng Quang và Đốc mạch.</li>
+  <li><strong>Vận động cổ nhẹ nhàng:</strong> Sau xoa bóp, xoay đầu nhẹ sang trái-phải 5 lần, gật đầu trước-sau 5 lần — tuyệt đối không xoay mạnh đột ngột để tránh chấn thương.</li>
+  <li><strong>Tần suất và thời điểm:</strong> Thực hiện 1–2 lần/ngày, mỗi lần 10–15 phút. Hiệu quả tốt nhất khi thực hiện sau tắm nước ấm hoặc sau chườm nóng vùng cổ vai.</li>
+</ul>
+
+<div class="art-cta-box">
+  <p>Đau cổ vai gáy kéo dài hoặc kèm tê tay cần được thăm khám để xác định nguyên nhân và phác đồ phù hợp. <strong>Phòng Khám YHCT Tâm Đức</strong> — BS. Nguyễn Đức Tâm — kết hợp xoa bóp chuyên sâu, châm cứu và thuốc YHCT cá thể hóa để điều trị dứt điểm hội chứng cổ vai tay. Liên hệ: <strong>0973 710 237</strong> — Giờ khám: <strong>18:00–22:00 hàng ngày</strong> — <strong>Hà Đông, Hà Nội</strong>.</p>
+</div>
+    `
+  },
+  {
     id: 30,
     slug: 'hen-phe-quan-dieu-tri-yhct',
     date: '2026-08-10',
