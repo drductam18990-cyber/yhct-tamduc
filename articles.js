@@ -1,5 +1,300 @@
 const ARTICLES = [
   {
+    id: 37,
+    slug: 'hoi-chung-ruot-kich-thich-phan-the-dieu-tri-yhct',
+    date: '2026-08-13',
+    category: 'mat-benh',
+    categoryLabel: 'Mặt bệnh',
+    icon: '🩺',
+    gradient: 'g-navy',
+    title: 'Hội chứng ruột kích thích: Phân thể và điều trị toàn diện theo Y học cổ truyền',
+    excerpt: 'Hội chứng ruột kích thích (IBS) là bệnh lý tiêu hóa mạn tính gây khó chịu kéo dài. YHCT tiếp cận bệnh từ gốc rễ, điều hòa chức năng tỳ-vị-can, mang lại hiệu quả bền vững.',
+    readTime: 6,
+    content: `
+<h2>Hội chứng ruột kích thích nhìn từ góc độ Y học cổ truyền</h2>
+<p>Hội chứng ruột kích thích (IBS — Irritable Bowel Syndrome) là rối loạn chức năng đại tràng mạn tính, biểu hiện bằng đau bụng tái phát, chướng bụng, đi ngoài phân lỏng hoặc táo bón xen kẽ mà không có tổn thương thực thể rõ ràng. Bệnh ảnh hưởng đến 10–15% dân số và phổ biến hơn ở phụ nữ, người trẻ tuổi và người có áp lực tâm lý cao.</p>
+<p>Theo Y học cổ truyền (YHCT), IBS không có tên gọi riêng mà được xếp vào nhóm <strong>Tiết tả</strong> (tiêu chảy chức năng), <strong>Phúc thống</strong> (đau bụng) hoặc <strong>Tiện bí</strong> (táo bón). Cơ chế bệnh sinh được quy về sự rối loạn phối hợp giữa <em>Tỳ — Vị — Can</em>, trong đó <strong>Can khí phạm Tỳ</strong> (stress khiến gan mật ảnh hưởng chức năng tiêu hóa) là nguyên nhân chủ yếu ở người hiện đại.</p>
+
+<h2>Nguyên nhân và cơ chế bệnh sinh theo YHCT</h2>
+<p>YHCT xác định các nguyên nhân cốt lõi gây IBS bao gồm:</p>
+<ul>
+  <li><strong>Can khí uất kết:</strong> Căng thẳng, lo âu kéo dài khiến can khí không sơ tiết thuận thường, tác động vào tỳ vị gây đau bụng âm ỉ, chướng hơi, đi ngoài khi xúc động.</li>
+  <li><strong>Tỳ vị hư yếu:</strong> Ăn uống không điều độ, lạm dụng thuốc kháng sinh, tiêu thụ đồ lạnh — sống làm tổn thương dương khí của tỳ, dẫn đến tiêu hóa kém, phân lỏng nát.</li>
+  <li><strong>Thấp nhiệt nội uẩn:</strong> Chế độ ăn nhiều dầu mỡ, cay nóng, rượu bia tích tụ thấp nhiệt trong trường vị, gây đau bụng quặn, phân nát nóng, hậu môn bỏng rát.</li>
+  <li><strong>Thận dương hư suy:</strong> Gặp ở người cao tuổi hoặc thể trạng yếu, biểu hiện bằng tiêu chảy lúc sáng sớm (ngũ canh tiết tả), tay chân lạnh, lưng gối ê mỏi.</li>
+</ul>
+
+<h2>Phân thể lâm sàng và phương pháp điều trị</h2>
+<p>Dựa trên biểu hiện lâm sàng và mạch — lưỡi, YHCT phân IBS thành 4 thể chính với hướng điều trị khác nhau:</p>
+<ul>
+  <li><strong>Thể Can Tỳ bất hòa:</strong> Đau bụng xảy ra khi stress, đau giảm sau khi đi ngoài, chướng bụng lan ra hai bên sườn, mạch huyền. Pháp điều trị: <em>Sơ can lý khí, kiện tỳ chỉ tả</em> — dùng Tiêu dao tán gia giảm, huyệt Thái xung (LR3), Khí hải (CV6), Thiên xu (ST25).</li>
+  <li><strong>Thể Tỳ Vị hư hàn:</strong> Bụng đau âm ỉ thích chườm ấm, phân lỏng nát mỗi khi ăn đồ lạnh, mệt mỏi, chán ăn, lưỡi nhạt rêu trắng. Pháp điều trị: <em>Kiện tỳ ôn trung, chỉ tả</em> — dùng Phụ tử lý trung thang, cứu huyệt Trung quản (CV12), Quan nguyên (CV4), Túc Tam Lý (ST36).</li>
+  <li><strong>Thể Thấp nhiệt trệ trường:</strong> Đau bụng dữ dội, phân lỏng nóng mùi khó chịu, hậu môn bỏng rát, miệng đắng, lưỡi đỏ rêu vàng nhớt, mạch hoạt sác. Pháp điều trị: <em>Thanh nhiệt lợi thấp, điều khí hành huyết</em> — dùng Hoàng liên giải độc thang, huyệt Hợp cốc (LI4), Thiên xu (ST25), Âm lăng tuyền (SP9).</li>
+  <li><strong>Thể Thận dương hư:</strong> Tiêu chảy sáng sớm, không kiểm soát được, tay chân lạnh, lưng gối ê mỏi, lưỡi nhạt bệu. Pháp điều trị: <em>Ôn thận bổ tỳ, sáp trường chỉ tả</em> — dùng Tứ thần hoàn gia vị, cứu Mệnh môn (GV4), Thần khuyết (CV8), Thận du (BL23).</li>
+</ul>
+
+<h2>Châm cứu và các phương pháp không dùng thuốc</h2>
+<p>Ngoài thuốc thang, châm cứu đóng vai trò quan trọng trong điều trị IBS theo YHCT. Các huyệt thường dùng bao gồm Thiên xu (ST25) — <em>huyệt mộ của đại tràng</em>, Túc Tam Lý (ST36) — bổ tỳ vị, Nội quan (PC6) — an thần giảm lo âu, và Tam âm giao (SP6) — điều hòa khí huyết ba đường kinh âm. Liệu trình thường 10–15 buổi/đợt, kết hợp điện châm và ôn châm tùy thể bệnh.</p>
+<p>Chế độ ăn uống đóng vai trò then chốt: tránh đồ lạnh — sống — dầu mỡ, ăn chín uống ấm, bổ sung men vi sinh tự nhiên từ sữa chua, dưa cải muối đúng cách. Tập thở bụng và thiền định 15–20 phút mỗi ngày giúp giảm đáng kể tần suất cơn đau ở nhóm IBS do stress.</p>
+
+<h2>Tiến trình điều trị và tiên lượng</h2>
+<p>IBS là bệnh mạn tính cần kiên trì điều trị. Với YHCT, đa số người bệnh nhận thấy cải thiện rõ rệt sau 4–8 tuần điều trị tích cực. Sau khi kiểm soát triệu chứng, duy trì thuốc bổ tỳ thận hoặc thực hiện các bài tập dưỡng sinh giúp phòng tái phát hiệu quả. Kết hợp YHCT với điều chỉnh lối sống mang lại tiên lượng tốt hơn so với chỉ dùng thuốc triệu chứng đơn thuần.</p>
+
+<div class="art-cta-box"><p>Nếu bạn đang chịu đựng đau bụng tái phát, rối loạn đại tiện kéo dài hoặc chướng bụng khó chịu, hãy để <strong>Phòng Khám YHCT Tâm Đức</strong> giúp bạn tìm ra căn nguyên và phác đồ điều trị phù hợp. <strong>BS. Nguyễn Đức Tâm</strong> trực tiếp thăm khám, tư vấn kết hợp châm cứu và thuốc thang cá thể hóa theo thể bệnh. Liên hệ đặt lịch: <strong>0973 710 237</strong> — khám buổi tối <strong>18:00–22:00 hàng ngày</strong>, tại <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 38,
+    slug: 'duong-sinh-buoi-sang-theo-yhct-khoi-dau-ngay-moi-bang-khi-luc-doi-dao',
+    date: '2026-08-13',
+    category: 'khong-thuoc',
+    categoryLabel: 'Không dùng thuốc',
+    icon: '🧘',
+    gradient: 'g-herb',
+    title: 'Dưỡng sinh buổi sáng theo YHCT: Khởi đầu ngày mới bằng khí lực dồi dào',
+    excerpt: 'Buổi sáng là thời điểm dương khí bắt đầu thăng, cơ thể sẵn sàng tiếp nhận năng lượng mới. YHCT có một hệ thống dưỡng sinh buổi sáng hoàn chỉnh giúp tăng cường sinh lực và phòng bệnh mà không cần dùng thuốc.',
+    readTime: 5,
+    content: `
+<h2>Tại sao buổi sáng là thời điểm vàng theo YHCT?</h2>
+<p>Theo lý luận âm dương của Y học cổ truyền, buổi sáng — đặc biệt từ <strong>5 giờ đến 9 giờ sáng</strong> — là giai đoạn dương khí trong thiên nhiên bắt đầu thăng mạnh. Cơ thể người, là một tiểu vũ trụ, cũng vận hành theo quy luật đó: khí của Phế (Phế khai khiếu ra mũi, chủ hô hấp) hoạt động mạnh từ 3–5 giờ sáng, tiếp đến Đại tràng từ 5–7 giờ, và Tỳ Vị từ 7–9 giờ. Đây là thời gian lý tưởng để thải độc, nạp khí và bồi bổ chính khí.</p>
+<p>Dưỡng sinh buổi sáng theo YHCT không đơn thuần là tập thể dục — đó là một nghi thức tổng thể kết hợp hô hấp, vận động, tự xoa bóp và điều tâm, nhằm <em>điều hòa khí huyết, thông kinh lạc và bổ ích tạng phủ</em> ngay từ đầu ngày.</p>
+
+<h2>Quy trình dưỡng sinh buổi sáng — 5 bước cốt lõi</h2>
+<ul>
+  <li><strong>Bước 1 — Điều tức (Thở sâu bụng):</strong> Ngay khi thức dậy, ngồi thẳng lưng hoặc nằm ngửa, thực hiện 9 nhịp thở bụng sâu (hít vào phình bụng, thở ra xẹp bụng). Kỹ thuật này kích hoạt thần kinh phó giao cảm, giảm cortisol, tăng cường chức năng Phế và điều hòa Tâm thần.</li>
+  <li><strong>Bước 2 — Khai khiếu (Xoa mặt, ấn huyệt):</strong> Dùng lòng bàn tay xoa nóng rồi áp lên mặt 9 lần. Ấn nhẹ huyệt <em>Nghinh hương</em> (cạnh cánh mũi) để thông phế khiếu, huyệt <em>Thái dương</em> để tỉnh táo, huyệt <em>Phong trì</em> (sau gáy) để khai thông dương khí.</li>
+  <li><strong>Bước 3 — Luyện tập nhẹ (Khí công — dưỡng sinh):</strong> Ra ngoài trời thoáng, thực hiện 15–20 phút bài tập dưỡng sinh đơn giản: xoay cổ, xoay vai, xoay hông, đánh tay, nhún gối nhẹ nhàng. Các động tác chậm rãi, kết hợp hô hấp đều đặn theo nguyên tắc "động tác mở — hít vào, động tác khép — thở ra".</li>
+  <li><strong>Bước 4 — Tự xoa bóp kinh lạc:</strong> Dùng hai bàn tay xoa dọc theo các đường kinh lớn: vỗ nhẹ mặt trong cánh tay (kinh Tâm, Phế, Tâm bào), vỗ mặt ngoài cánh tay (kinh Đại tràng, Tiểu tràng), vỗ mặt trong đùi (kinh Tỳ, Can, Thận). Mỗi đường kinh 9 lần vỗ nhẹ.</li>
+  <li><strong>Bước 5 — Bữa sáng theo YHCT:</strong> Ăn sáng ấm nóng, dễ tiêu vào khung giờ 7–9 giờ khi Tỳ Vị vượng khí. Ưu tiên cháo ấm với kỷ tử, long nhãn, hạt sen; hoặc cơm gạo lứt với rau củ nấu chín. Tránh đồ lạnh, đồ sống, cà phê đen lúc bụng trống.</li>
+</ul>
+
+<h2>Lợi ích được chứng minh sau 4 tuần thực hành</h2>
+<p>Nhiều nghiên cứu về khí công và thiền định buổi sáng cho thấy các lợi ích rõ ràng sau 4–8 tuần thực hành đều đặn:</p>
+<ul>
+  <li>Giảm đáng kể mức độ lo âu và căng thẳng mạn tính</li>
+  <li>Cải thiện chất lượng giấc ngủ nhờ điều hòa nhịp sinh học</li>
+  <li>Tăng cường hệ miễn dịch thông qua cân bằng cortisol buổi sáng</li>
+  <li>Giảm đau xương khớp ở người cao tuổi và người ngồi nhiều</li>
+  <li>Tăng tập trung, minh mẫn và hiệu suất làm việc trong ngày</li>
+</ul>
+
+<h2>Lưu ý để dưỡng sinh buổi sáng đúng phép</h2>
+<p>YHCT khuyến cáo không tập dưỡng sinh ngay sau khi ăn (chờ ít nhất 30 phút), không tập khi đang ốm sốt, không tập trong môi trường ẩm lạnh quá mức. Người cao tuổi, người mới ốm khỏi hoặc người có bệnh tim mạch nên bắt đầu với cường độ nhẹ và tăng dần. Duy trì thói quen ít nhất 5 ngày mỗi tuần để thấy hiệu quả bền vững.</p>
+
+<div class="art-cta-box"><p>Bạn muốn xây dựng thói quen dưỡng sinh buổi sáng phù hợp với thể trạng và bệnh lý của mình? <strong>Phòng Khám YHCT Tâm Đức</strong> cung cấp tư vấn cá nhân hóa về chương trình dưỡng sinh — không dùng thuốc, kết hợp với châm cứu và xoa bóp bấm huyệt. <strong>BS. Nguyễn Đức Tâm</strong> sẽ giúp bạn thiết kế lộ trình phù hợp nhất. Liên hệ: <strong>0973 710 237</strong> — khám buổi tối <strong>18:00–22:00 hàng ngày</strong>, tại <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 39,
+    slug: 'thien-vuong-bo-tam-dan-bai-thuoc-duong-tam-an-than-kinh-dien',
+    date: '2026-08-13',
+    category: 'thuoc-yhct',
+    categoryLabel: 'Thuốc YHCT',
+    icon: '🌿',
+    gradient: 'g-fire',
+    title: 'Thiên Vương Bổ Tâm Đan: Bài thuốc dưỡng tâm an thần kinh điển cho người mất ngủ, lo âu',
+    excerpt: 'Thiên Vương Bổ Tâm Đan là bài thuốc YHCT hàng đầu điều trị mất ngủ, lo âu, hồi hộp do tâm huyết bất túc. Với 14 vị thuốc phối hợp tinh tế, bài thuốc vừa dưỡng tâm, vừa bổ thận, vừa an thần bền vững.',
+    readTime: 6,
+    content: `
+<h2>Nguồn gốc và lịch sử của Thiên Vương Bổ Tâm Đan</h2>
+<p><strong>Thiên Vương Bổ Tâm Đan</strong> (天王補心丹) là bài thuốc cổ phương nổi tiếng, được ghi chép lần đầu trong sách <em>Nhiếp Sinh Bí Phẫu</em> (thế kỷ 16, thời Minh). Tên "Thiên Vương" xuất phát từ giai thoại dân gian về vị thiên vương truyền bài thuốc này cho một vị thiền sư bị suy nhược thần kinh nặng, giúp ông phục hồi sức lực và tinh thần minh mẫn trở lại.</p>
+<p>Bài thuốc thuộc nhóm <em>Bổ ích tâm thần</em>, phối hợp theo nguyên tắc <strong>tâm thận tương giao</strong> — điều trị đồng thời Tâm (an thần) và Thận (tư âm), phù hợp với cơ chế mất ngủ do âm hư hỏa vượng — nguyên nhân phổ biến nhất ở người hiện đại.</p>
+
+<h2>Thành phần và vai trò của từng vị thuốc</h2>
+<p>Bài thuốc gồm 14 vị, chia thành các nhóm tác dụng:</p>
+<ul>
+  <li><strong>Sinh địa hoàng (vị quân):</strong> Tư âm dưỡng huyết, thanh hư nhiệt — vị thuốc chủ đạo, chiếm liều lớn nhất.</li>
+  <li><strong>Nhân sâm, Phục linh, Huyền sâm:</strong> Bổ khí an thần, ích tâm thận, phối hợp giảm hư nhiệt.</li>
+  <li><strong>Đan sâm, Đương quy:</strong> Bổ huyết hoạt huyết, dưỡng tâm, cải thiện tuần hoàn não.</li>
+  <li><strong>Thiên môn đông, Mạch môn đông:</strong> Dưỡng âm nhuận táo, hỗ trợ Sinh địa trong tư âm.</li>
+  <li><strong>Toan táo nhân, Bá tử nhân:</strong> Hai vị an thần cốt lõi, dưỡng tâm huyết, ích thận âm, trấn tĩnh thần kinh.</li>
+  <li><strong>Viễn chí, Cát cánh:</strong> Khai tâm khiếu, thông tâm khí, giúp tinh thần minh mẫn.</li>
+  <li><strong>Ngũ vị tử:</strong> Liễm âm chỉ hãn, an thần thu liễm — giảm mồ hôi trộm, hồi hộp đánh trống ngực.</li>
+</ul>
+
+<h2>Chỉ định lâm sàng — Ai nên dùng Thiên Vương Bổ Tâm Đan?</h2>
+<p>Bài thuốc được chỉ định cho nhóm người có biểu hiện <strong>Tâm huyết bất túc, Thận âm hư</strong> — thể mất ngủ phổ biến nhất ở người trung niên và người lao tâm nhiều:</p>
+<ul>
+  <li>Mất ngủ, khó vào giấc, hay thức giấc lúc nửa đêm — sáng sớm</li>
+  <li>Lo âu, hồi hộp, hay giật mình, tim đập nhanh không rõ nguyên nhân</li>
+  <li>Hay quên, kém tập trung, suy giảm trí nhớ do làm việc trí óc nhiều</li>
+  <li>Mộng nhiều, mộng mị sinh động gây mệt mỏi khi thức dậy</li>
+  <li>Miệng khô họng khát, lòng bàn tay bàn chân nóng về chiều tối</li>
+  <li>Người gầy, da khô, lưỡi đỏ ít rêu hoặc không rêu, mạch tế sác</li>
+  <li>Phụ nữ tiền mãn kinh có triệu chứng bốc hỏa, đổ mồ hôi đêm kèm mất ngủ</li>
+</ul>
+
+<h2>Chống chỉ định và thận trọng khi dùng</h2>
+<p>Do bài thuốc thiên về <em>tư âm bổ huyết</em>, có tính nhuận, nên <strong>không thích hợp</strong> cho:</p>
+<ul>
+  <li>Người mất ngủ do tỳ vị hư hàn (bụng hay lạnh, tiêu chảy, không khát nước)</li>
+  <li>Người đang có ngoại cảm (cảm cúm, sốt, ho cấp tính)</li>
+  <li>Người tỳ hư đàm thấp nhiều (béo phì, hay ợ hơi, bụng đầy chướng)</li>
+  <li>Phụ nữ đang mang thai (cần tham khảo bác sĩ YHCT)</li>
+  <li>Trẻ em dưới 12 tuổi và người suy thận nặng</li>
+</ul>
+<p>Khi dùng cần tránh uống trà đặc, cà phê; hạn chế thức khuya; không dùng cùng các thuốc Tây an thần mà không có sự chỉ dẫn của bác sĩ.</p>
+
+<h2>Cách dùng và liệu trình điều trị</h2>
+<p>Bài thuốc có dạng hoàn mật truyền thống hoặc thuốc thang (sắc uống). Dạng hoàn: uống 6–9g/lần, ngày 2–3 lần với nước ấm hoặc nước sắc Long nhãn — Táo nhân. Dạng thang: sắc uống ấm, chia 2 lần sáng — tối. Liệu trình cơ bản: 4–8 tuần. Người bệnh nặng kéo dài hoặc tái phát nhiều lần có thể dùng đến 3 tháng, sau đó nghỉ 1 tháng rồi đánh giá lại.</p>
+
+<div class="art-cta-box"><p>Thiên Vương Bổ Tâm Đan cần được gia giảm phù hợp với thể trạng từng người để đạt hiệu quả tối ưu. <strong>Phòng Khám YHCT Tâm Đức</strong> — <strong>BS. Nguyễn Đức Tâm</strong> — thăm khám và bốc thuốc thang cá thể hóa, kết hợp châm cứu an thần cho hiệu quả toàn diện. Đặt lịch tư vấn: <strong>0973 710 237</strong> — buổi tối <strong>18:00–22:00 hàng ngày</strong>, tại <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 40,
+    slug: 'cham-soc-suc-khoe-sau-50-tuoi-theo-yhct-duong-sinh-chong-lao-hoa',
+    date: '2026-08-13',
+    category: 'phong-benh',
+    categoryLabel: 'Phòng bệnh',
+    icon: '🛡️',
+    gradient: 'g-amber',
+    title: 'Chăm sóc sức khỏe sau 50 tuổi theo YHCT: Dưỡng thận, bổ tinh và chống lão hóa từ gốc rễ',
+    excerpt: 'Sau tuổi 50, thận tinh dần suy giảm là căn nguyên của hầu hết các triệu chứng lão hóa. YHCT có chiến lược toàn diện giúp người trung niên duy trì sức sống, phòng ngừa bệnh mạn tính và nâng cao chất lượng cuộc sống.',
+    readTime: 6,
+    content: `
+<h2>Tuổi 50 và quy luật suy thoái theo YHCT</h2>
+<p>Sách <em>Hoàng Đế Nội Kinh</em> — kinh điển của Y học cổ truyền — đã mô tả: <em>"Nam tử bát bát, thiên quý kiệt"</em> (đàn ông đến tuổi 64 thận tinh kiệt), <em>"Nữ tử thất thất, thiên quý kiệt"</em> (phụ nữ đến 49 tuổi tiên thiên hư suy). Đây không chỉ là quy luật của thận — mà là quy luật của toàn bộ quá trình lão hóa: <strong>Thận tinh suy → Tủy não bất túc → Khí huyết hư → Tạng phủ suy giảm chức năng</strong>.</p>
+<p>Điều đó giải thích vì sao sau 50 tuổi, người ta thường gặp đồng thời nhiều vấn đề: mất ngủ, hay quên, đau lưng gối, tóc bạc — rụng, suy giảm sinh lý, mệt mỏi kéo dài, huyết áp dao động. Chúng đều có chung căn nguyên: <strong>thận hư</strong>.</p>
+
+<h2>Chiến lược dưỡng thận bảo tinh — Trụ cột phòng lão hóa</h2>
+<p>YHCT đặt <strong>bổ thận</strong> là trung tâm của kế hoạch chăm sóc sức khỏe sau 50 tuổi. Tùy biểu hiện cụ thể, thầy thuốc sẽ xác định thể hư và điều trị phù hợp:</p>
+<ul>
+  <li><strong>Thận âm hư:</strong> Lòng bàn tay bàn chân nóng, đổ mồ hôi đêm, tai ù, hoa mắt chóng mặt — dùng Lục vị địa hoàng hoàn, Tả quy hoàn.</li>
+  <li><strong>Thận dương hư:</strong> Tay chân lạnh, sợ lạnh, lưng gối ê mỏi, tiểu đêm nhiều, sinh lý giảm — dùng Hữu quy hoàn, Bát vị quế phụ.</li>
+  <li><strong>Thận tinh bất túc:</strong> Hay quên, tóc bạc sớm, rụng tóc, suy giảm trí nhớ, xương khớp giòn — dùng Hà thủ ô, Câu kỷ tử, Nữ trinh tử, Hạn liên thảo.</li>
+  <li><strong>Khí huyết lưỡng hư:</strong> Mệt mỏi, tim hồi hộp, da xanh nhợt, chóng mặt — dùng Thập toàn đại bổ thang gia giảm.</li>
+</ul>
+
+<h2>Chế độ ăn uống dưỡng sinh sau 50 tuổi</h2>
+<p>YHCT nhấn mạnh <em>ẩm thực như thuốc</em> — lựa chọn thực phẩm đúng là phòng bệnh tốt nhất:</p>
+<ul>
+  <li><strong>Bổ thận tinh:</strong> Hạt đen (vừng đen, đậu đen), hải sản (tôm, cua, sò), hạt óc chó, hạt dẻ, trứng gà ta, thịt dê, thịt bò nạc.</li>
+  <li><strong>Dưỡng can huyết:</strong> Gấc, cà rốt, rau lá xanh đậm, gan gà — lợn, long nhãn, táo đỏ, kỷ tử.</li>
+  <li><strong>Kiện tỳ ích khí:</strong> Khoai lang, khoai sọ, gạo tẻ, đậu ván, nấm hương, sơn dược (củ mài).</li>
+  <li><strong>Tránh:</strong> Đồ lạnh — sống, rượu bia, đồ ngọt thái quá, thực phẩm chế biến sẵn, ăn quá no nhất là buổi tối.</li>
+</ul>
+
+<h2>Vận động và dưỡng sinh phù hợp tuổi trung niên</h2>
+<p>Sau 50 tuổi, vận động cần ưu tiên <em>nhẹ nhàng — đều đặn — bền bỉ</em> thay vì cường độ cao. Các bộ môn phù hợp theo YHCT: Thái cực quyền (điều khí hoạt huyết), Khí công dưỡng sinh (bổ tạng phủ), đi bộ sáng — chiều 30 phút, bơi lội ôn hòa. Tránh các bộ môn tác động mạnh lên khớp (chạy bộ nhanh, cử tạ nặng) vì thận chủ cốt — thận hư thì xương khớp dễ chấn thương.</p>
+<p>Quan trọng không kém là <strong>điều tâm</strong>: YHCT xem <em>tâm bình khí hòa</em> là nền tảng của trường thọ. Người sau 50 tuổi cần học cách buông bỏ, giảm lo âu, nuôi dưỡng niềm vui và duy trì quan hệ xã hội tích cực.</p>
+
+<h2>Châm cứu và các liệu pháp phòng lão hóa chủ động</h2>
+<p>Châm cứu định kỳ — 1–2 lần/tháng — tại các huyệt bổ thận như <em>Thận du (BL23), Mệnh môn (GV4), Quan nguyên (CV4), Túc Tam Lý (ST36)</em> giúp duy trì lưu thông khí huyết, bổ ích tạng phủ và nâng cao miễn dịch. Kết hợp cứu ngải (moxibustion) mỗi tuần tại Quan nguyên và Thần khuyết được y văn cổ xem là phép "dưỡng sinh trường thọ" hiệu quả nhất.</p>
+
+<div class="art-cta-box"><p>Chăm sóc sức khỏe chủ động từ tuổi 50 là đầu tư thông minh nhất cho những thập kỷ tiếp theo. <strong>Phòng Khám YHCT Tâm Đức</strong> cung cấp chương trình thăm khám toàn diện, đánh giá thể trạng và lập kế hoạch dưỡng sinh cá nhân hóa. <strong>BS. Nguyễn Đức Tâm</strong> trực tiếp tư vấn. Liên hệ: <strong>0973 710 237</strong> — khám buổi tối <strong>18:00–22:00 hàng ngày</strong>, tại <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 41,
+    slug: 'phuong-huyet-ha-huyet-ap-6-huyet-vi-cot-loi-on-dinh-huyet-ap-bang-chau-cuu',
+    date: '2026-08-13',
+    category: 'phuong-huyet',
+    categoryLabel: 'Phương huyệt',
+    icon: '📍',
+    gradient: 'g-huyet',
+    title: 'Phương huyệt hạ huyết áp: 6 huyệt vị cốt lõi ổn định huyết áp bằng châm cứu',
+    excerpt: 'Tăng huyết áp do can dương thượng cang và thận âm hư là thể phổ biến nhất theo YHCT. Châm cứu đúng phương huyệt giúp hạ áp từ từ, ổn định lâu dài và giảm phụ thuộc thuốc Tây.',
+    readTime: 5,
+    content: `
+<h2>Tăng huyết áp nhìn từ góc độ Y học cổ truyền</h2>
+<p>Tăng huyết áp (THA) tương ứng với các chứng <strong>Đầu thống, Huyễn vựng, Can phong</strong> trong YHCT. Cơ chế bệnh sinh chủ yếu là <em>Can dương thượng cang</em> — can âm hư không chế ước được can dương, dương khí bốc ngược lên gây đau đầu, mặt đỏ, cổ cứng, mắt đỏ, ù tai. Ngoài ra còn có thể <em>Đàm thấp trở lạc</em> (béo phì, máu nhiễm mỡ) và <em>Âm dương lưỡng hư</em> (giai đoạn muộn, người cao tuổi).</p>
+<p>Châm cứu điều trị THA có cơ chế rõ ràng: kích thích huyệt vị làm giãn mạch ngoại biên, giảm trương lực thần kinh giao cảm, điều hòa hệ renin-angiotensin và cân bằng can thận âm dương. Nhiều nghiên cứu lâm sàng tại Trung Quốc và châu Âu xác nhận châm cứu có thể hạ huyết áp tâm thu 5–20 mmHg sau liệu trình 4–8 tuần.</p>
+
+<h2>6 huyệt vị cốt lõi trong phương huyệt hạ huyết áp</h2>
+<ul>
+  <li>
+    <strong>1. Thái xung (LR3 — Thái Xung):</strong><br/>
+    <em>Vị trí:</em> Mu bàn chân, khe giữa ngón chân 1 và 2, cách bờ sau kẽ ngón 2 thốn (khoảng 2 cm về phía mu chân).<br/>
+    <em>Tác dụng:</em> Huyệt nguyên của kinh Can — bình can tức phong, sơ can lý khí, hạ áp mạnh nhất trong nhóm. Đây là huyệt không thể thiếu trong mọi phác đồ châm cứu hạ huyết áp.
+  </li>
+  <li>
+    <strong>2. Khúc trì (LI11 — Khúc Trì):</strong><br/>
+    <em>Vị trí:</em> Đầu ngoài nếp gấp khuỷu tay, khi gấp khuỷu 90 độ.<br/>
+    <em>Tác dụng:</em> Thanh nhiệt giải biểu, điều hòa khí huyết. Tác dụng hạ áp rõ đặc biệt trong thể can nhiệt, mặt đỏ, táo bón. Phối hợp với Thái xung tăng hiệu quả bình can.
+  </li>
+  <li>
+    <strong>3. Nội quan (PC6 — Nội Quan):</strong><br/>
+    <em>Vị trí:</em> Mặt trong cổ tay, cách nếp cổ tay 2 thốn (3 cm), giữa hai gân cơ gan tay lớn và gân cơ gan tay bé.<br/>
+    <em>Tác dụng:</em> Huyệt lạc của kinh Tâm bào — an thần định chí, điều chỉnh nhịp tim, giảm lo âu và hạ áp gián tiếp qua điều hòa hệ thần kinh tự chủ.
+  </li>
+  <li>
+    <strong>4. Phong trì (GB20 — Phong Trì):</strong><br/>
+    <em>Vị trí:</em> Sau đầu, dưới xương chẩm, hai bên đường giữa, trong hõm giữa cơ ức đòn chũm và cơ thang.<br/>
+    <em>Tác dụng:</em> Bình can tức phong, khai khiếu, trừ phong tán nhiệt. Đặc biệt hiệu quả với triệu chứng đau đầu vùng chẩm, cổ gáy cứng — dấu hiệu điển hình của THA giai đoạn đang tăng.
+  </li>
+  <li>
+    <strong>5. Tam âm giao (SP6 — Tam Âm Giao):</strong><br/>
+    <em>Vị trí:</em> Mặt trong cẳng chân, trên đỉnh mắt cá trong 3 thốn (khoảng 4 cm), sát bờ sau xương chày.<br/>
+    <em>Tác dụng:</em> Giao điểm của ba kinh Can — Tỳ — Thận. Tư âm bổ thận, kiện tỳ lợi thấp. Quan trọng trong thể THA do thận âm hư và ở người cao tuổi, phụ nữ tiền mãn kinh.
+  </li>
+  <li>
+    <strong>6. Bách hội (GV20 — Bách Hội):</strong><br/>
+    <em>Vị trí:</em> Đỉnh đầu, giao điểm đường giữa đầu và đường nối hai đỉnh tai.<br/>
+    <em>Tác dụng:</em> Thông đốc mạch, tiêu phong, thanh não khai khiếu. Dùng nông, kích thích nhẹ để bình can giáng dương. Châm Bách hội sai kỹ thuật (kích thích mạnh) có thể gây tăng áp — cần thầy thuốc có kinh nghiệm thực hiện.
+  </li>
+</ul>
+
+<h2>Phác đồ điều trị và lưu ý quan trọng</h2>
+<p>Phác đồ cơ bản: Chọn 4–5 huyệt trong danh sách trên tùy thể bệnh, châm bình bổ bình tả hoặc tả pháp (dùng khi can dương thịnh). Liệu trình: 10–15 buổi, mỗi buổi cách nhau 1–2 ngày. Kết hợp nhĩ châm tại điểm <em>Hạ áp điểm, Tâm, Thần môn</em> tăng hiệu quả giữa các lần châm.</p>
+<p><strong>Lưu ý quan trọng:</strong> Châm cứu hỗ trợ điều trị THA nhưng KHÔNG thay thế thuốc hạ áp Tây y trong giai đoạn huyết áp cao chưa kiểm soát. Người bệnh không được tự ý ngừng thuốc Tây y. Mục tiêu là giảm dần liều thuốc dưới sự theo dõi của bác sĩ khi huyết áp đã ổn định.</p>
+
+<div class="art-cta-box"><p>Bạn đang điều trị tăng huyết áp và muốn giảm phụ thuộc thuốc Tây bằng châm cứu YHCT? <strong>Phòng Khám YHCT Tâm Đức</strong> — <strong>BS. Nguyễn Đức Tâm</strong> — thực hiện phác đồ châm cứu hạ huyết áp cá nhân hóa, kết hợp theo dõi sát và điều chỉnh từng giai đoạn. Liên hệ: <strong>0973 710 237</strong> — khám buổi tối <strong>18:00–22:00 hàng ngày</strong>, tại <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 42,
+    slug: 'tri-tham-quang-mat-theo-yhct-duong-can-bổ-than-sang-vung-mat',
+    date: '2026-08-13',
+    category: 'lam-dep',
+    categoryLabel: 'Làm đẹp',
+    icon: '🌸',
+    gradient: 'g-rose',
+    title: 'Trị thâm quầng mắt theo YHCT: Dưỡng can bổ thận, sáng vùng mắt từ bên trong',
+    excerpt: 'Thâm quầng mắt theo YHCT là dấu hiệu của can huyết hư, thận tinh bất túc hoặc khí trệ huyết ứ. Điều trị từ gốc bằng châm cứu và thuốc thang mang lại kết quả bền hơn các liệu pháp che phủ bên ngoài.',
+    readTime: 5,
+    content: `
+<h2>Thâm quầng mắt — Dấu hiệu của tạng phủ suy yếu</h2>
+<p>Trong Y học cổ truyền, vùng quanh mắt có mối liên hệ mật thiết với <strong>Can và Thận</strong>. "Can khai khiếu ra mắt" — toàn bộ vùng mắt phản ánh tình trạng chức năng của Can; đồng thời, <em>thận chủ tinh, tinh sinh huyết, huyết dưỡng mắt</em>. Khi can huyết hư hoặc thận tinh bất túc, vùng quanh mắt không được nuôi dưỡng đủ, sắc tố melanin tích tụ, vi tuần hoàn suy giảm tạo nên màu thâm tím đặc trưng.</p>
+<p>YHCT phân thâm quầng mắt thành 3 thể chính theo cơ chế bệnh sinh khác nhau, mỗi thể có phương pháp điều trị riêng. Đây là cách tiếp cận căn bản hơn so với chỉ dùng kem che quầng hay laser bề mặt — vì nếu căn nguyên bên trong không được giải quyết, quầng mắt sẽ tiếp tục xuất hiện.</p>
+
+<h2>Phân thể và nguyên nhân theo YHCT</h2>
+<ul>
+  <li>
+    <strong>Thể Can huyết hư:</strong> Quầng mắt màu nâu nhạt đến vàng xám, kèm mắt mỏi, nhìn mờ về chiều, hay hoa mắt, kinh nguyệt ít — màu nhạt (phụ nữ), móng tay nhợt, da khô. Thường gặp ở người ngủ ít, làm việc màn hình nhiều, sau khi mất máu nhiều. Pháp điều trị: <em>Bổ huyết dưỡng can, sáng mắt</em>.
+  </li>
+  <li>
+    <strong>Thể Thận tinh bất túc:</strong> Quầng mắt màu tím thẫm — đen sâu, kèm lưng gối ê mỏi, tóc bạc sớm — rụng nhiều, tai ù, hay quên, suy giảm sinh lý. Gặp ở người lao tâm nhiều, thức khuya mạn tính, người cao tuổi. Pháp điều trị: <em>Bổ thận ích tinh, tư âm dưỡng huyết</em>.
+  </li>
+  <li>
+    <strong>Thể Khí trệ huyết ứ:</strong> Quầng mắt màu tím xanh rõ, mạch máu nhỏ li ti nổi quanh mắt, kèm sắc mặt tối xỉn, môi nhợt thâm, kinh nguyệt cục đau (phụ nữ), ngực bụng đôi khi tức khó chịu. Gặp ở người căng thẳng mạn tính, ít vận động, rối loạn nội tiết. Pháp điều trị: <em>Hoạt huyết hóa ứ, hành khí thông lạc</em>.
+  </li>
+</ul>
+
+<h2>Điều trị từ bên trong — Thuốc thang và thực phẩm dưỡng can thận</h2>
+<p>Tùy thể bệnh, thầy thuốc sẽ gia giảm các bài thuốc cổ phương:</p>
+<ul>
+  <li><strong>Thể can huyết hư:</strong> Tứ vật thang gia Kỷ tử, Cúc hoa, Hà thủ ô (chế).</li>
+  <li><strong>Thể thận tinh bất túc:</strong> Lục vị địa hoàng hoàn gia Câu kỷ, Nữ trinh tử, Hạn liên thảo.</li>
+  <li><strong>Thể khí trệ huyết ứ:</strong> Đào hồng tứ vật thang gia Xuyên khung, Uất kim.</li>
+</ul>
+<p>Thực phẩm hỗ trợ theo từng thể: vừng đen, đậu đen, long nhãn, kỷ tử (dưỡng can thận); trứng gà ta, cà rốt, gấc (bổ huyết); nghệ vàng, táo đỏ, mộc nhĩ đen (hoạt huyết). Giảm: cà phê, rượu bia, thức khuya — tất cả đều gây hao tổn can thận và làm nặng thêm thâm quầng.</p>
+
+<h2>Châm cứu và liệu pháp bên ngoài hỗ trợ</h2>
+<p>Châm cứu quanh mắt (vi châm nhan khoa) kết hợp huyệt toàn thân mang lại kết quả rõ rệt sau 4–6 tuần:</p>
+<ul>
+  <li><strong>Huyệt cục bộ:</strong> Tinh minh (BL1), Toán trúc (BL2), Ty trúc không (SJ23), Thừa khấp (ST1), Tứ bạch (ST2) — kích thích vi tuần hoàn, tăng nuôi dưỡng vùng quanh mắt.</li>
+  <li><strong>Huyệt toàn thân:</strong> Can du (BL18), Thận du (BL23) — bổ can thận từ gốc; Tam âm giao (SP6) — dưỡng huyết; Huyết hải (SP10) — hoạt huyết hóa ứ.</li>
+</ul>
+<p>Kết hợp bên ngoài: xoa nhẹ vùng quanh mắt với dầu hạnh nhân hoặc dầu dưỡng chứa nhân sâm — kim ngân ấm, theo chiều từ trong ra ngoài cung mắt trên, dưới. Không dụi mắt mạnh vì làm vỡ vi mạch, tăng thâm.</p>
+
+<h2>Kết quả thực tế và thời gian điều trị</h2>
+<p>Điều trị thâm quầng mắt theo YHCT cần kiên nhẫn — đây là quá trình phục hồi từ bên trong nên không có kết quả ngay sau vài buổi. Thông thường sau 4–6 tuần châm cứu kết hợp thuốc thang, người bệnh nhận thấy vùng quanh mắt sáng hơn, mắt bớt mỏi, da vùng mắt mịn hơn. Sau 8–12 tuần, thâm quầng cải thiện đáng kể. Quan trọng nhất là điều chỉnh lối sống — ngủ đủ 22:30–6:00, bổ sung thực phẩm dưỡng can thận và giảm stress.</p>
+
+<div class="art-cta-box"><p>Thâm quầng mắt kéo dài có thể là dấu hiệu cơ thể đang cần được chăm sóc từ bên trong. <strong>Phòng Khám YHCT Tâm Đức</strong> cung cấp liệu trình châm cứu nhan khoa kết hợp thuốc thang cá thể hóa, giúp bạn sáng vùng mắt bền vững và cải thiện sức khỏe tổng thể. <strong>BS. Nguyễn Đức Tâm</strong> trực tiếp thăm khám. Liên hệ: <strong>0973 710 237</strong> — khám buổi tối <strong>18:00–22:00 hàng ngày</strong>, tại <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
     id: 36,
     slug: 'xoa-bop-bam-huyet-chua-dau-co-vai-yhct',
     date: '2026-08-11',
