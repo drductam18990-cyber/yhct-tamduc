@@ -1,5 +1,287 @@
 const ARTICLES = [
   {
+    id: 43,
+    slug: 'zona-than-kinh-phan-the-dieu-tri-yhct',
+    date: '2026-08-14',
+    category: 'mat-benh',
+    categoryLabel: 'Mặt bệnh',
+    icon: '🩺',
+    gradient: 'g-navy',
+    title: 'Zona thần kinh: Phân thể và điều trị toàn diện theo Y học cổ truyền',
+    excerpt: 'Zona thần kinh (Herpes Zoster) gây đau rát dữ dội dọc đường kinh thần kinh và có thể để lại đau thần kinh kéo dài sau zona. YHCT điều trị hiệu quả bằng cách khu phong, thanh nhiệt, giải độc và thông kinh lạc.',
+    readTime: 6,
+    content: `
+<h2>Zona thần kinh theo quan điểm Y học cổ truyền</h2>
+<p>Zona thần kinh (Herpes Zoster) là bệnh do virus Varicella-Zoster tái hoạt động sau khi ẩn náu nhiều năm trong hạch thần kinh. Bệnh biểu hiện bằng mụn nước mọc thành chùm theo đường dây thần kinh, kèm đau rát dữ dội, ngứa và có thể để lại <strong>đau thần kinh sau zona</strong> (Post-herpetic Neuralgia — PHN) kéo dài nhiều tháng, nhiều năm sau khi tổn thương da đã lành.</p>
+<p>Theo Y học cổ truyền (YHCT), zona được gọi là <strong>"Xà đơn"</strong> (蛇丹) hay <strong>"Cúc đơn"</strong>, có nghĩa là "vòng lửa của rắn" — mô tả sinh động hình ảnh dải mụn nước ngoằn ngoèo như thân rắn quấn quanh người. Cơ chế bệnh sinh được quy về <em>Can hỏa uất kết, thấp nhiệt nội uẩn</em> xâm phạm kinh lạc, kết hợp với <em>chính khí hư suy</em> không đủ sức kháng tà khí. Bệnh thường bùng phát khi cơ thể suy kiệt, căng thẳng kéo dài, tuổi cao hoặc đang điều trị ức chế miễn dịch.</p>
+
+<h2>Nguyên nhân và yếu tố thuận lợi theo YHCT</h2>
+<p>YHCT xác định hai nhóm nguyên nhân chính gây bệnh zona:</p>
+<ul>
+  <li><strong>Tà khí bên ngoài:</strong> Phong hỏa, thấp nhiệt từ môi trường xâm nhập vào cơ thể khi chính khí yếu, ẩn náu trong kinh can đởm, sau đó bùng phát dọc theo đường kinh.</li>
+  <li><strong>Nội nhân — tình chí uất kết:</strong> Căng thẳng, lo âu, tức giận kéo dài làm can khí uất kết hóa hỏa. Can hỏa bốc lên theo kinh can đởm, kết hợp thấp nhiệt tạo thành mụn nước sưng đỏ, đau rát.</li>
+  <li><strong>Chính khí hư suy:</strong> Người cao tuổi, người sau ốm dài ngày, người mắc bệnh mạn tính có chính khí bất túc, tà khí dễ bùng phát và gây bệnh nặng hơn, nguy cơ đau sau zona cao hơn.</li>
+</ul>
+
+<h2>Phân thể lâm sàng và phác đồ điều trị</h2>
+<p>YHCT phân zona thành 4 thể chính dựa trên biểu hiện lâm sàng và tạng phủ liên quan:</p>
+<ul>
+  <li><strong>Thể Can đởm hỏa thịnh (thể điển hình nhất):</strong> Mụn nước đỏ tươi, chùm dày, đau dữ dội như bỏng rát, bệnh nhân cáu kỉnh, miệng đắng, lưỡi đỏ rêu vàng, mạch huyền sác. Pháp điều trị: <em>Thanh can tả hỏa, lợi thấp giải độc</em> — dùng Long đởm tả can thang gia Bản lam căn, Kim ngân hoa, Địa linh; huyệt Thái xung (LR3), Hành gian (LR2), Khúc trì (LI11), Huyết hải (SP10).</li>
+  <li><strong>Thể Tỳ hư thấp thịnh:</strong> Mụn nước to, trong hoặc đục, đau âm ỉ ít dữ dội hơn, bụng đầy chướng, người nặng nề, lưỡi bệu rêu dày nhớt, mạch nhu hoãn. Pháp điều trị: <em>Kiện tỳ lợi thấp, giải độc tiêu thũng</em> — dùng Trừ thấp vị linh thang gia giảm; huyệt Âm lăng tuyền (SP9), Phong long (ST40), Tam âm giao (SP6), Tỳ du (BL20).</li>
+  <li><strong>Thể Khí trệ huyết ứ (đau thần kinh sau zona):</strong> Giai đoạn mụn nước đã lành nhưng đau dai dẳng, đau như kim châm hoặc điện giật dọc đường dây thần kinh, da vùng tổn thương sậm màu, lưỡi tím bầm, mạch sáp. Pháp điều trị: <em>Hành khí hoạt huyết, thông kinh chỉ thống</em> — dùng Huyết phủ trục ứ thang gia Ngô thù du, Diên hồ sách; huyệt A thị huyệt dọc vùng đau, Huyết hải (SP10), Cách du (BL17), Nội quan (PC6).</li>
+  <li><strong>Thể Chính khí hư — zona người cao tuổi:</strong> Bệnh diễn tiến chậm, mụn nước xẹp dần nhưng đau kéo dài, người mệt mỏi, ăn kém, lưỡi nhạt ít rêu, mạch tế nhược. Pháp điều trị: <em>Bổ ích chính khí, hỗ trợ khu tà</em> — dùng Bổ trung ích khí thang kết hợp Long đởm tả can thang liều nhỏ; cứu Quan nguyên (CV4), Túc Tam Lý (ST36).</li>
+</ul>
+
+<h2>Châm cứu điều trị zona — phác đồ tổng quát</h2>
+<p>Châm cứu đóng vai trò quan trọng cả trong giai đoạn cấp lẫn giai đoạn đau sau zona:</p>
+<ul>
+  <li><strong>Giai đoạn cấp (mụn nước đang hoạt động):</strong> Châm tả Thái xung (LR3), Hành gian (LR2) — tả can hỏa; Khúc trì (LI11), Hợp cốc (LI4) — thanh nhiệt; Âm lăng tuyền (SP9) — lợi thấp. Kết hợp đốt mụn nước bằng laser châm hoặc điện kim để tiêu dịch nhanh hơn.</li>
+  <li><strong>Giai đoạn đau sau zona:</strong> Điện châm mật độ cao dọc A thị huyệt, kết hợp Cách du (BL17), Huyết hải (SP10) để hoạt huyết. Nghiên cứu lâm sàng cho thấy điện châm giảm đau sau zona hiệu quả tương đương gabapentin nhưng không gây buồn ngủ, chóng mặt.</li>
+</ul>
+
+<h2>Dinh dưỡng và phòng ngừa tái phát</h2>
+<p>Trong giai đoạn bệnh cấp, nên kiêng tuyệt đối các thực phẩm có tính nhiệt và kích thích tái phát: hải sản (đặc biệt tôm cua), thịt gà, thịt bò, đồ nếp, rượu bia, đồ cay. Ăn nhiều rau xanh, đậu xanh, bí đao — các thực phẩm có tính mát, lợi thấp, thanh nhiệt. Bổ sung Vitamin C, kẽm từ thực phẩm tự nhiên để tăng cường miễn dịch. Tránh căng thẳng, ngủ đủ giấc và tiêm vắc-xin zona (khuyến cáo cho người trên 50 tuổi hoặc người suy giảm miễn dịch) để phòng tái phát.</p>
+
+<div class="art-cta-box"><p>Zona thần kinh nếu không được điều trị đúng và kịp thời có thể để lại đau mạn tính kéo dài nhiều năm. <strong>Phòng Khám YHCT Tâm Đức</strong> chuyên điều trị zona và đau thần kinh sau zona bằng châm cứu, thuốc thang phối hợp — giúp rút ngắn thời gian bệnh và giảm nguy cơ biến chứng. <strong>BS. Nguyễn Đức Tâm</strong> trực tiếp thăm khám và tư vấn phác đồ cá thể hóa. Liên hệ: <strong>0973 710 237</strong> — khám buổi tối <strong>18:00–22:00 hàng ngày</strong>, tại <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 44,
+    slug: 'ngu-cam-hi-bai-tap-khi-cong-ngu-tang-co-truyen',
+    date: '2026-08-14',
+    category: 'khong-thuoc',
+    categoryLabel: 'Không dùng thuốc',
+    icon: '🧘',
+    gradient: 'g-herb',
+    title: 'Ngũ Cầm Hí — Bài tập khí công ngũ tạng cổ truyền: Tăng cường sức khỏe toàn diện không dùng thuốc',
+    excerpt: 'Ngũ Cầm Hí là bài tập khí công cổ truyền mô phỏng 5 con vật thiêng, tương ứng với 5 tạng của cơ thể. Luyện đều đặn mỗi ngày giúp thông kinh lạc, bổ dưỡng ngũ tạng và tăng cường chính khí mà không cần dùng thuốc.',
+    readTime: 5,
+    content: `
+<h2>Ngũ Cầm Hí là gì? Nguồn gốc và triết lý YHCT</h2>
+<p><strong>Ngũ Cầm Hí</strong> (五禽戲 — Wu Qin Xi) là bộ bài tập khí công cổ truyền Trung Hoa do danh y <strong>Hoa Đà</strong> (thế kỷ 2–3 SCN, thời Hán) sáng tạo, mô phỏng động tác và thần thái của 5 loài vật: <em>Hổ, Hươu, Gấu, Vượn và Chim</em>. Hoa Đà quan sát thấy rằng các loài vật này hiếm khi bệnh tật vì chúng vận động theo bản năng phù hợp với cơ chế sinh lý tự nhiên — và ông đã hệ thống hóa thành bài tập có thể dạy và lưu truyền.</p>
+<p>Triết lý cốt lõi của Ngũ Cầm Hí dựa trên nguyên lý <em>Thiên — Địa — Nhân hợp nhất</em>: mỗi con vật tương ứng với một tạng, một hành (Ngũ hành), một mùa và một loại khí cụ thể:</p>
+<ul>
+  <li><strong>Hổ (Hổ hí):</strong> Ứng với <em>Can — Mộc</em>. Động tác mạnh mẽ, duỗi thân, vươn vuốt. Tác dụng: sơ can lý khí, cường kiện gân cơ, sáng mắt.</li>
+  <li><strong>Hươu (Lộc hí):</strong> Ứng với <em>Thận — Thủy</em>. Động tác xoay cổ, xoay hông nhẹ nhàng. Tác dụng: bổ thận ích tinh, thông đốc mạch, tráng lưng gối.</li>
+  <li><strong>Gấu (Hùng hí):</strong> Ứng với <em>Tỳ — Thổ</em>. Động tác lắc thân, chuyển trọng tâm. Tác dụng: kiện tỳ hòa vị, tiêu hóa tốt, tăng cân bằng.</li>
+  <li><strong>Vượn (Viên hí):</strong> Ứng với <em>Tâm — Hỏa</em>. Động tác linh hoạt, nhanh nhẹn, thăng bằng. Tác dụng: dưỡng tâm an thần, cải thiện phản xạ và tập trung.</li>
+  <li><strong>Chim (Điểu hí):</strong> Ứng với <em>Phế — Kim</em>. Động tác dang tay như cánh chim, thở sâu. Tác dụng: tuyên thông Phế khí, tăng dung tích phổi, điều hòa hô hấp.</li>
+</ul>
+
+<h2>Hướng dẫn luyện tập Ngũ Cầm Hí cơ bản</h2>
+<p>Bài tập thực hiện theo thứ tự Hổ → Hươu → Gấu → Vượn → Chim, mỗi con vật 2–4 lần hoặc 1–2 phút. Toàn bài kéo dài khoảng 15–20 phút, thích hợp thực hiện ngoài trời vào buổi sáng hoặc chiều tối:</p>
+<ul>
+  <li><strong>Hổ hí — Động tác vươn vuốt:</strong> Đứng thẳng, hai tay nắm thành "vuốt hổ" (ngón tay cong cứng). Hít vào đồng thời dang hai tay ra ngang rồi đưa lên trên — tưởng tượng hổ vươn mình. Thở ra, thu tay về, cong lưng nhẹ như hổ thu mình. Lặp lại 4 lần mỗi bên.</li>
+  <li><strong>Lộc hí — Động tác xoay hươu:</strong> Đứng chân rộng bằng vai, hai tay đặt lên hông. Xoay đầu nhìn qua vai trái — giữ 3 giây, rồi xoay sang phải. Kết hợp xoay hông nhẹ nhàng theo hướng ngược lại. 4 lần mỗi bên. Thở đều trong suốt động tác.</li>
+  <li><strong>Hùng hí — Lắc gấu:</strong> Đứng chân hơi rộng, hai tay buông tự nhiên. Chuyển trọng tâm sang chân trái, thân nghiêng nhẹ trái — rồi sang phải. Động tác chậm, nhịp nhàng như gấu đi. 8–10 lần mỗi bên. Tập trung cảm nhận vùng bụng và hông.</li>
+  <li><strong>Viên hí — Nhảy vượn:</strong> Từ tư thế đứng, nhấc nhẹ người lên bằng gót chân — như vượn bám cành. Hai tay đưa lên-xuống nhẹ nhàng. Có thể thêm động tác nhìn trái-phải nhanh để tăng phản xạ mắt. 8–12 lần.</li>
+  <li><strong>Điểu hí — Sải cánh chim:</strong> Đứng thẳng, hít vào sâu đồng thời dang rộng hai tay ra ngang (như cánh chim mở). Nhón gót, giơ tay lên cao. Thở ra — hạ tay xuống, hạ gót, cúi người nhẹ. Lặp lại 4–6 lần. Tập trung vào hơi thở và cảm giác ngực mở rộng.</li>
+</ul>
+
+<h2>Lợi ích lâm sàng và nghiên cứu hiện đại</h2>
+<p>Nhiều nghiên cứu hiện đại đã xác nhận hiệu quả của Ngũ Cầm Hí:</p>
+<ul>
+  <li>Cải thiện thăng bằng và phòng ngã ở người cao tuổi (giảm 30–40% nguy cơ té ngã)</li>
+  <li>Tăng mật độ xương ở phụ nữ sau mãn kinh sau 6 tháng luyện tập</li>
+  <li>Giảm huyết áp tâm thu trung bình 5–8 mmHg ở người tăng huyết áp nhẹ</li>
+  <li>Cải thiện dung tích phổi và chức năng hô hấp ở người viêm phổi mạn</li>
+  <li>Giảm mức cortisol và cải thiện chất lượng giấc ngủ sau 8 tuần thực hành đều đặn</li>
+</ul>
+
+<h2>Lưu ý và chống chỉ định</h2>
+<p>Ngũ Cầm Hí phù hợp với mọi lứa tuổi, nhưng người mới tập nên bắt đầu với cường độ nhẹ và tăng dần. Không luyện tập trong các trường hợp: đang sốt cấp tính, chấn thương cột sống chưa ổn định, bệnh tim mạch nặng chưa kiểm soát, phụ nữ mang thai 3 tháng đầu. Những người này cần được bác sĩ YHCT đánh giá và hướng dẫn bài tập thay thế phù hợp.</p>
+
+<div class="art-cta-box"><p>Muốn học Ngũ Cầm Hí đúng phương pháp và phù hợp với tình trạng sức khỏe của bạn? <strong>Phòng Khám YHCT Tâm Đức</strong> cung cấp hướng dẫn dưỡng sinh — khí công cá nhân hóa, kết hợp châm cứu và bấm huyệt để tối ưu hiệu quả. <strong>BS. Nguyễn Đức Tâm</strong> trực tiếp tư vấn. Liên hệ: <strong>0973 710 237</strong> — khám buổi tối <strong>18:00–22:00 hàng ngày</strong>, tại <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 45,
+    slug: 'que-chi-phuc-linh-hoan-hoat-huyet-hoa-u-khoi-u-xo',
+    date: '2026-08-14',
+    category: 'thuoc-yhct',
+    categoryLabel: 'Thuốc YHCT',
+    icon: '🌿',
+    gradient: 'g-fire',
+    title: 'Quế Chi Phục Linh Hoàn: Bài thuốc hoạt huyết hóa ứ điều trị u xơ tử cung và kinh nguyệt không đều',
+    excerpt: 'Quế Chi Phục Linh Hoàn là bài thuốc YHCT kinh điển điều trị các chứng huyết ứ vùng bào cung: u xơ tử cung, u nang buồng trứng, kinh nguyệt không đều, đau bụng kinh. Bài thuốc hoạt huyết hóa ứ đồng thời điều hòa âm dương, không gây tác dụng phụ khi dùng đúng chứng.',
+    readTime: 6,
+    content: `
+<h2>Nguồn gốc và lịch sử Quế Chi Phục Linh Hoàn</h2>
+<p><strong>Quế Chi Phục Linh Hoàn</strong> (桂枝茯苓丸) là bài thuốc cổ phương xuất xứ từ sách <em>Kim Quỹ Yếu Lược</em> của danh y <strong>Trương Trọng Cảnh</strong> (150–219 SCN) — một trong những bộ sách y học kinh điển quan trọng nhất của YHCT. Bài thuốc được sáng tạo để điều trị phụ nữ có thai với triệu chứng rò rỉ máu bất thường do huyết ứ (ngày nay hiểu là tình trạng bong nhau hoặc u trong tử cung). Qua hơn 1.800 năm ứng dụng lâm sàng, Quế Chi Phục Linh Hoàn đã được mở rộng chỉ định sang nhiều bệnh lý phụ khoa và huyết ứ khác.</p>
+<p>Trong y học hiện đại, bài thuốc này được nghiên cứu rộng rãi tại Nhật Bản (dưới tên <em>Keishi-bukuryo-gan</em>) và Trung Quốc, đặc biệt trong điều trị u xơ tử cung (uterine fibroids), lạc nội mạc tử cung và hội chứng buồng trứng đa nang (PCOS).</p>
+
+<h2>Thành phần và vai trò từng vị thuốc</h2>
+<p>Bài thuốc gồm 5 vị thuốc cân bằng tinh tế, liều lượng bằng nhau (thường mỗi vị 9–12g trong thuốc thang, hoặc bào chế thành hoàn mật):</p>
+<ul>
+  <li><strong>Quế chi:</strong> (Cinnamomum cassia) — Vị cay ngọt, tính ấm. Ôn thông huyết mạch, khai thông kinh lạc, tán hàn giải ứ. Đây là vị quân (chủ) của bài thuốc, giúp "phá băng" khối ứ huyết lạnh.</li>
+  <li><strong>Phục linh:</strong> (Poria cocos) — Vị ngọt nhạt, tính bình. Kiện tỳ thẩm thấp, an thần, hóa đàm. Vừa tăng cường tiêu hóa, vừa hóa giải thấp đàm tích tụ trong tử cung. Là vị thần (hỗ trợ chủ).</li>
+  <li><strong>Mẫu đơn bì:</strong> (Paeonia suffruticosa) — Vị đắng cay, tính lạnh. Lương huyết, hoạt huyết, hóa ứ, thanh nhiệt huyết. Tránh cho bài thuốc quá ấm và giải nhiệt do ứ sinh ra.</li>
+  <li><strong>Đào nhân:</strong> (Prunus persica) — Vị đắng ngọt, tính bình. Hoạt huyết hóa ứ, nhuận tràng thông tiện. Tác dụng phá ứ mạnh, thúc đẩy tiêu tan khối u.</li>
+  <li><strong>Thược dược (Bạch thược hoặc Xích thược):</strong> (Paeonia lactiflora) — Vị chua đắng. Dưỡng huyết, hòa can, hoạt huyết. Cân bằng tính hoạt huyết mạnh của Đào nhân, bảo vệ huyết âm không bị tán quá mức.</li>
+</ul>
+
+<h2>Chỉ định lâm sàng và biểu hiện thể bệnh phù hợp</h2>
+<p>Quế Chi Phục Linh Hoàn phù hợp với thể <strong>Huyết ứ bào cung</strong> có kèm hàn hoặc hàn nhiệt lẫn lộn. Các biểu hiện điển hình:</p>
+<ul>
+  <li>Đau bụng kinh dữ dội, đau từng cơn hoặc đau âm ỉ kéo dài, đau giảm khi chườm ấm</li>
+  <li>Kinh nguyệt không đều: ra ít, màu tím sẫm có cục máu đông, hoặc kéo dài không dứt</li>
+  <li>U xơ tử cung kích thước nhỏ đến vừa (dưới 5 cm), u nang buồng trứng chức năng</li>
+  <li>Lạc nội mạc tử cung gây đau bụng kinh và kinh nguyệt rối loạn</li>
+  <li>Hội chứng buồng trứng đa nang (PCOS) với kinh ít, thưa</li>
+  <li>Lưỡi tím bầm hoặc có ban ứ huyết ở rìa lưỡi; mạch sáp hoặc huyền sáp</li>
+</ul>
+
+<h2>Liều dùng, dạng bào chế và thời gian điều trị</h2>
+<p>Bài thuốc có thể dùng dưới các dạng:</p>
+<ul>
+  <li><strong>Thuốc thang sắc uống:</strong> Mỗi thang sắc 2 lần, uống 2 lần/ngày sau ăn. Liệu trình 1–3 tháng, tùy mức độ bệnh.</li>
+  <li><strong>Hoàn mật (viên hoàn):</strong> Dạng thuốc truyền thống, uống 6–9g mỗi lần, 2 lần/ngày. Tiện dùng hơn, phù hợp điều trị dài ngày.</li>
+  <li><strong>Chiết xuất chuẩn hóa (Nhật Bản, Trung Quốc):</strong> Dạng viên nén hoặc cốm hòa tan với hàm lượng chuẩn hóa cao hơn.</li>
+</ul>
+<p>Thời điểm dùng: uống sau ăn no. Với phụ nữ có chu kỳ kinh, nên bắt đầu dùng từ ngày 5 sau khi hết kinh đến trước kỳ kinh tiếp theo. Trong kỳ kinh, giảm liều hoặc tạm ngưng nếu kinh ra nhiều.</p>
+
+<h2>Chống chỉ định và thận trọng</h2>
+<p>Quế Chi Phục Linh Hoàn <strong>chống chỉ định tuyệt đối</strong> với phụ nữ đang mang thai (vì có tác dụng hoạt huyết hóa ứ mạnh, có thể gây sảy thai). Thận trọng khi dùng cho người: đang kinh nguyệt ra nhiều, cơ địa huyết nhiệt nặng (lưỡi đỏ rêu vàng), âm hư nặng, bệnh lý đông máu. Luôn cần có sự chỉ định và theo dõi của bác sĩ YHCT có kinh nghiệm, đặc biệt khi dùng dài ngày.</p>
+
+<div class="art-cta-box"><p>U xơ tử cung, kinh nguyệt không đều và đau bụng kinh có thể được điều trị hiệu quả bằng Quế Chi Phục Linh Hoàn kết hợp châm cứu tại <strong>Phòng Khám YHCT Tâm Đức</strong>. <strong>BS. Nguyễn Đức Tâm</strong> sẽ thăm khám, biện chứng và điều chỉnh bài thuốc phù hợp với thể trạng của từng bệnh nhân. Liên hệ: <strong>0973 710 237</strong> — khám buổi tối <strong>18:00–22:00 hàng ngày</strong>, tại <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 46,
+    slug: 'phong-ngua-soi-than-theo-yhct-loi-nieu-thong-thach',
+    date: '2026-08-14',
+    category: 'phong-benh',
+    categoryLabel: 'Phòng bệnh',
+    icon: '🛡️',
+    gradient: 'g-amber',
+    title: 'Phòng ngừa sỏi thận theo YHCT: Lợi niệu, thông thạch và điều chỉnh lối sống từ gốc rễ',
+    excerpt: 'Sỏi thận — tiết niệu ngày càng phổ biến do lối sống và chế độ ăn thiếu cân bằng. YHCT phòng ngừa sỏi thận bằng cách tăng cường chức năng thận-bàng quang, lợi niệu thông thạch và điều chỉnh thể địa tích nhiệt.',
+    readTime: 5,
+    content: `
+<h2>Sỏi thận theo quan điểm Y học cổ truyền</h2>
+<p>Sỏi thận — tiết niệu (nephrolithiasis) là tình trạng các tinh thể muối khoáng kết tụ thành sỏi trong thận, niệu quản hoặc bàng quang, gây ra các cơn đau quặn thận điển hình, tiểu ra máu và nguy cơ tắc nghẽn đường tiết niệu. Tỷ lệ mắc ngày càng tăng tại Việt Nam, ước tính ảnh hưởng đến 5–10% dân số trưởng thành.</p>
+<p>Theo Y học cổ truyền, sỏi thận thuộc phạm vi <strong>"Thạch lâm"</strong> (石淋) — một trong ngũ lâm (năm thể lâm chứng). Cơ chế bệnh sinh được quy về <em>Thận hư — bàng quang thấp nhiệt</em>: khi thận khí hư suy không đủ sức khí hóa thủy dịch, cộng với thấp nhiệt tích tụ ở hạ tiêu, các chất khoáng trong nước tiểu dễ kết tụ thành "sa thạch" (cát sỏi). Yếu tố thúc đẩy bao gồm: ăn nhiều đồ cay nóng, uống nước quá ít, làm việc trong môi trường nóng bức và thể trạng âm hư nhiệt thịnh.</p>
+
+<h2>Các yếu tố nguy cơ và thể địa dễ hình thành sỏi</h2>
+<p>YHCT nhận diện những thể địa (cơ địa) dễ bị sỏi thận:</p>
+<ul>
+  <li><strong>Thể Thận âm hư — thấp nhiệt:</strong> Hay gặp nhất. Người gầy, miệng khô khát, tiểu ít nước vàng sẫm đặc, lưỡi đỏ ít rêu. Chất khoáng cô đặc trong nước tiểu → dễ kết tinh sỏi calci oxalat, calci phosphat.</li>
+  <li><strong>Thể Tỳ thận dương hư — thủy thấp nội đình:</strong> Người phù nề, tiểu buốt lạnh, lưng gối ê mỏi. Nước tiểu ứ đọng không lưu thông → tạo điều kiện kết sỏi struvite.</li>
+  <li><strong>Thể Can khí uất kết — khí trệ thủy ngưng:</strong> Người hay stress, lo âu, tiểu vặt, căng tức vùng hông sườn. Khí không vận hành → thủy ngưng trệ → sỏi dễ hình thành.</li>
+</ul>
+
+<h2>Chiến lược phòng ngừa sỏi thận theo YHCT</h2>
+<p>YHCT đề xuất chiến lược phòng ngừa tổng thể, tác động vào 3 khâu: môi trường nước tiểu, chức năng thận-bàng quang và thể địa cơ địa:</p>
+<ul>
+  <li><strong>Uống đủ nước — quan trọng nhất:</strong> Mục tiêu nước tiểu trong và lượng nước tiểu trên 2 lít/ngày. YHCT khuyến cáo uống nước ấm hoặc nước sắc thảo dược lợi niệu (kim tiền thảo, mã đề, râu ngô) thay vì nước lạnh — đặc biệt tốt cho người thể hàn.</li>
+  <li><strong>Thảo dược phòng ngừa — Kim Tiền Thảo:</strong> Kim tiền thảo (Desmodium styracifolium) là thảo dược kinh điển YHCT lợi niệu, thông thạch. Uống 15–30g sắc nước mỗi ngày hoặc dạng trà túi lọc đã chuẩn hóa. Kết hợp thêm: Mã đề (lợi thủy thanh nhiệt), Xa tiền tử (thanh nhiệt lợi niệu), Hoạt thạch (thẩm thấp lợi niệu).</li>
+  <li><strong>Chế độ ăn theo thể địa:</strong>
+    <ul>
+      <li>Thể âm hư nhiệt: Giảm oxalat (cải bó xôi, rau muống, củ cải đường); giảm muối, đạm động vật; tăng citrate từ chanh, cam.</li>
+      <li>Thể dương hư hàn: Ăn ấm, giảm đồ lạnh sống; hạn chế canxi bổ sung quá mức.</li>
+      <li>Mọi thể: Hạn chế nước ngọt có ga, rượu bia; ăn đủ rau xanh tươi.</li>
+    </ul>
+  </li>
+  <li><strong>Châm cứu và bấm huyệt định kỳ:</strong> Châm huyệt Thận du (BL23), Bàng quang du (BL28), Tam âm giao (SP6), Âm lăng tuyền (SP9) 1–2 lần/tuần giúp tăng cường chức năng thận-bàng quang, cải thiện lưu thông khí huyết vùng hạ tiêu.</li>
+  <li><strong>Vận động và dưỡng sinh:</strong> Tập nhảy dây, đi bộ nhanh 30 phút mỗi ngày — rung động thúc đẩy sỏi nhỏ tự thoát ra ngoài theo nước tiểu. Tránh ngồi quá lâu một chỗ.</li>
+</ul>
+
+<h2>Dấu hiệu cần khám bác sĩ ngay</h2>
+<p>Các dấu hiệu sau đây cần đến cơ sở y tế ngay lập tức dù đang áp dụng bất kỳ biện pháp phòng ngừa nào: đau quặn hông lưng dữ dội (không thể chịu đựng được), tiểu ra máu đỏ tươi, sốt cao kèm lạnh run (nguy cơ nhiễm trùng thận — urinary sepsis), tiểu ít hoặc vô niệu. Đây là cấp cứu y tế cần can thiệp ngay.</p>
+
+<div class="art-cta-box"><p>Muốn phòng ngừa sỏi thận tái phát hoặc kiểm tra thể địa để có phác đồ phòng ngừa cá thể hóa? <strong>Phòng Khám YHCT Tâm Đức</strong> cung cấp tư vấn dinh dưỡng, thảo dược lợi niệu và châm cứu tăng cường chức năng thận. <strong>BS. Nguyễn Đức Tâm</strong> trực tiếp thăm khám. Liên hệ: <strong>0973 710 237</strong> — khám buổi tối <strong>18:00–22:00 hàng ngày</strong>, tại <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 47,
+    slug: 'phuong-huyet-dieu-tri-tri-noi-ngoai-giam-dau-cam-mau',
+    date: '2026-08-14',
+    category: 'phuong-huyet',
+    categoryLabel: 'Phương huyệt',
+    icon: '📍',
+    gradient: 'g-huyet',
+    title: 'Phương huyệt điều trị trĩ: 6 huyệt vị cốt lõi giảm đau, cầm máu và co búi trĩ',
+    excerpt: 'Trĩ nội và trĩ ngoại là bệnh lý phổ biến gây đau đớn và chảy máu. Châm cứu theo phương huyệt YHCT giúp thăng đề dương khí, lương huyết cầm máu và co búi trĩ hiệu quả mà không cần phẫu thuật.',
+    readTime: 5,
+    content: `
+<h2>Cơ chế bệnh sinh của trĩ theo Y học cổ truyền</h2>
+<p>Trĩ (Hemorrhoids) là tình trạng giãn tĩnh mạch vùng trực tràng — hậu môn, gây đau, chảy máu và sa búi trĩ ra ngoài. Trong YHCT, trĩ thuộc phạm vi <strong>"Trĩ sang"</strong> (痔瘡), được quy về các cơ chế chính:</p>
+<ul>
+  <li><strong>Trung khí hạ hãm:</strong> Tỳ vị hư yếu, dương khí bất túc không đủ sức nâng đỡ, khiến đại tràng và trực tràng sa xuống. Đây là cơ chế chủ yếu gây trĩ độ 3–4 (trĩ sa không co lên được).</li>
+  <li><strong>Đại tràng thấp nhiệt:</strong> Ăn nhiều đồ cay nóng, rượu bia, ngồi lâu → thấp nhiệt tích tụ hạ tiêu → các tĩnh mạch vùng hậu môn sung huyết, sưng nóng đỏ đau.</li>
+  <li><strong>Khí huyết ứ trệ:</strong> Đứng hoặc ngồi quá lâu, táo bón mạn tính → khí huyết không lưu thông ở hạ tiêu → huyết ứ kết thành búi trĩ.</li>
+  <li><strong>Huyết nhiệt vọng hành:</strong> Nhiệt bức huyết xuất ra ngoài mạch gây chảy máu khi đại tiện.</li>
+</ul>
+
+<h2>6 huyệt vị cốt lõi điều trị trĩ</h2>
+<p>Phương huyệt điều trị trĩ được phối hợp theo nguyên tắc: <em>thăng đề trung khí, lương huyết cầm máu, hoạt huyết hóa ứ, kiện tỳ lợi thấp</em>. Dưới đây là 6 huyệt vị quan trọng nhất:</p>
+<ul>
+  <li><strong>Bách Hội (GV20) — Đốc mạch:</strong> Vị trí: đỉnh đầu, giao điểm đường nối hai tai và đường giữa đầu. Tác dụng: thăng dương cử hãm, nâng đỡ trung khí — huyệt quan trọng nhất trong điều trị trĩ do trung khí hạ hãm. Kỹ thuật: châm thẳng 0,3–0,5 thốn hoặc cứu ngải. Đặc biệt hiệu quả với trĩ sa độ 3–4.</li>
+  <li><strong>Trường Cường (GV1) — Đốc mạch:</strong> Vị trí: dưới xương cụt, giữa điểm xương cụt và hậu môn. Tác dụng: thông đốc mạch, hoạt huyết hóa ứ vùng hậu môn trực tràng, chỉ thống cầm máu. Huyệt cục bộ quan trọng nhất, tác động trực tiếp vào vùng bệnh. Châm tà 1–1,5 thốn hướng lên trên (không châm thẳng vào hậu môn).</li>
+  <li><strong>Thứ Liêu (BL32) — Kinh Bàng Quang:</strong> Vị trí: lỗ thứ 2 xương cùng, cách đường giữa 1 thốn. Tác dụng: điều khí huyết vùng hạ tiêu, thư cân hoạt lạc, giảm sung huyết và phù nề hậu môn. Huyệt bối du vùng cùng có tác dụng thần kinh điều tiết tuần hoàn tại chỗ.</li>
+  <li><strong>Thừa Sơn (BL57) — Kinh Bàng Quang:</strong> Vị trí: bắp chân sau, giữa đường nối gót chân và hõm khoeo, ngay điểm hình V của cơ bắp chân. Tác dụng: hoạt huyết thư cân, chỉ thống, giảm trương lực tĩnh mạch bàng quang và đại tràng. Huyệt viễn đạo kinh điển điều trị bệnh vùng hậu môn — trực tràng. Châm thẳng 1–1,5 thốn.</li>
+  <li><strong>Huyết Hải (SP10) — Kinh Tỳ:</strong> Vị trí: mặt trong đùi, cách bờ trên xương bánh chè 2 thốn, lên trên và vào trong. Tác dụng: lương huyết cầm máu, hoạt huyết hóa ứ, điều hòa huyết phận. Đặc biệt hữu ích khi trĩ chảy máu do huyết nhiệt. Châm thẳng 1–1,5 thốn, tả pháp.</li>
+  <li><strong>Tam Âm Giao (SP6) — Kinh Tỳ:</strong> Vị trí: mặt trong cẳng chân, cách mắt cá trong 3 thốn, sau bờ trong xương chày. Tác dụng: kiện tỳ lợi thấp, bổ can thận, điều hòa khí huyết ba đường kinh âm (Tỳ — Can — Thận). Huyệt hỗ trợ toàn diện, đặc biệt với trĩ do tỳ hư thấp thịnh hoặc can thận hư.</li>
+</ul>
+
+<h2>Phối huyệt theo thể bệnh</h2>
+<ul>
+  <li><strong>Trĩ chảy máu nhiều (huyết nhiệt):</strong> Bách Hội + Thừa Sơn + Huyết Hải + Đại Đôn (LR1, tả) — lương huyết cầm máu.</li>
+  <li><strong>Trĩ sa độ 3–4 (trung khí hạ hãm):</strong> Bách Hội (cứu) + Trường Cường + Thứ Liêu + Túc Tam Lý (ST36, bổ) — thăng đề dương khí.</li>
+  <li><strong>Đau, sưng cấp (thấp nhiệt):</strong> Trường Cường + Thứ Liêu + Âm Lăng Tuyền (SP9) + Hợp Cốc (LI4) — thanh nhiệt lợi thấp.</li>
+</ul>
+
+<h2>Liệu trình và hiệu quả điều trị</h2>
+<p>Liệu trình điều trị trĩ bằng châm cứu thường là 10–15 buổi/đợt (5 buổi/tuần), giữa các đợt nghỉ 1 tuần. Đa số bệnh nhân trĩ độ 1–2 có cải thiện rõ sau 2–3 đợt (giảm đau, giảm chảy máu, búi trĩ co nhỏ dần). Trĩ độ 3–4 cần điều trị dài hơn (3–6 tháng) và có thể kết hợp phẫu thuật để đạt kết quả tối ưu. Kết hợp chế độ ăn nhiều chất xơ, uống đủ nước và tránh rặn mạnh khi đại tiện là điều kiện bắt buộc để duy trì kết quả điều trị.</p>
+
+<div class="art-cta-box"><p>Trĩ gây khó chịu kéo dài nhưng có thể điều trị hiệu quả bằng châm cứu và YHCT mà không cần phẫu thuật ở nhiều trường hợp. <strong>Phòng Khám YHCT Tâm Đức</strong> có phác đồ châm cứu chuyên biệt kết hợp thuốc thang, giúp giảm đau — cầm máu — co búi trĩ bền vững. Liên hệ <strong>BS. Nguyễn Đức Tâm</strong>: <strong>0973 710 237</strong> — khám buổi tối <strong>18:00–22:00 hàng ngày</strong>, tại <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
+    id: 48,
+    slug: 'tri-me-day-man-tinh-theo-yhct-khu-phong-luong-huyet',
+    date: '2026-08-14',
+    category: 'lam-dep',
+    categoryLabel: 'Làm đẹp',
+    icon: '🌸',
+    gradient: 'g-rose',
+    title: 'Trị mề đay mạn tính theo YHCT: Khu phong, lương huyết và tăng cường chính khí từ bên trong',
+    excerpt: 'Mề đay mạn tính (nổi mẩn ngứa tái phát trên 6 tuần) phản ánh sự mất cân bằng nội tạng — chủ yếu huyết hư sinh phong hoặc phong thấp nhiệt uất. YHCT điều trị tận gốc bằng khu phong, lương huyết, bổ chính — giúp giảm tái phát bền vững và phục hồi làn da.',
+    readTime: 6,
+    content: `
+<h2>Mề đay mạn tính nhìn từ góc độ Y học cổ truyền</h2>
+<p>Mề đay (Urticaria) là phản ứng da đặc trưng bởi các sẩn phù ngứa dữ dội, màu hồng đỏ, xuất hiện và biến mất nhanh chóng. Khi tình trạng này kéo dài trên 6 tuần và tái phát nhiều lần, được gọi là <strong>mề đay mạn tính</strong> (Chronic Urticaria). Y học hiện đại chỉ kiểm soát triệu chứng bằng kháng histamine mà chưa điều trị được căn nguyên, và nhiều người bệnh lệ thuộc thuốc trong nhiều năm.</p>
+<p>Trong YHCT, mề đay thuộc phạm vi <strong>"Ẩn chẩn"</strong> (隱疹) hay <strong>"Phong chẩn"</strong> — nốt phát chẩn do phong tà gây ra. Điểm khác biệt quan trọng của YHCT là nhìn mề đay như biểu hiện của <em>bất cân bằng nội tạng</em>, đặc biệt liên quan đến <em>huyết phận</em> và <em>chính khí</em> của cơ thể, chứ không chỉ là phản ứng dị ứng đơn thuần. Cơ chế chính: <em>huyết hư không đủ dưỡng bì phu → sinh nội phong; hoặc phong nhiệt — phong hàn từ ngoài xâm nhập vào người có huyết nhiệt sẵn</em>.</p>
+
+<h2>Phân thể mề đay mạn tính và da liễu YHCT</h2>
+<p>YHCT phân mề đay mạn tính thành 4 thể chính, mỗi thể có biểu hiện da và tạng phủ đặc trưng:</p>
+<ul>
+  <li><strong>Thể Phong nhiệt:</strong> Nốt đỏ tươi, nóng rát nhiều hơn ngứa, gặp đồ nóng hoặc ra ngoài trời nóng thì bùng phát, miệng khô, lưỡi đỏ rêu vàng. Pháp điều trị: <em>Sơ phong thanh nhiệt, lương huyết chỉ dưỡng</em> — dùng Tiêu phong tán gia Sinh địa, Ngưu bàng tử, Kim ngân hoa.</li>
+  <li><strong>Thể Phong hàn:</strong> Nốt nhạt màu, ngứa nhiều hơn đỏ, gặp lạnh hoặc gió thì bùng phát, cơ thể ớn lạnh, lưỡi nhạt rêu trắng. Pháp điều trị: <em>Sơ phong tán hàn, điều hòa doanh vệ</em> — dùng Quế chi thang gia Phòng phong, Kinh giới; bổ sung cứu ngải Túc Tam Lý (ST36), Quan Nguyên (CV4).</li>
+  <li><strong>Thể Huyết hư sinh phong (thể mạn tính điển hình nhất):</strong> Nốt xuất hiện nhiều vào buổi chiều tối — đêm, màu nhạt hoặc hồng nhạt, ngứa dai dẳng kéo dài hàng tháng, người bệnh thiếu máu, da khô, tóc rụng, kinh ít, lưỡi nhạt, mạch tế nhược. Pháp điều trị: <em>Dưỡng huyết khu phong, bổ ích can thận</em> — dùng Đương quy ẩm tử gia giảm (Đương quy, Bạch thược, Thục địa, Xuyên khung, Hà thủ ô, Kinh giới, Phòng phong). Đây là căn nguyên sâu xa của mề đay mạn tính.</li>
+  <li><strong>Thể Vị trường thấp nhiệt:</strong> Nốt thường xuất hiện sau khi ăn uống sai (hải sản, đồ cay), kèm bụng chướng, tiêu chảy hoặc phân lỏng, lưỡi đỏ rêu vàng nhớt. Pháp điều trị: <em>Thanh nhiệt lợi thấp, kiện tỳ hóa đàm</em> — dùng Phòng phong thông thánh tán gia Hoàng liên, Bạch truật, Phục linh.</li>
+</ul>
+
+<h2>Châm cứu và phương huyệt điều trị mề đay</h2>
+<p>Phương huyệt cơ bản cho mọi thể mề đay: <strong>Khúc Trì (LI11)</strong> — thanh nhiệt khu phong, <strong>Huyết Hải (SP10)</strong> — lương huyết hoạt huyết chỉ dưỡng, <strong>Tam Âm Giao (SP6)</strong> — dưỡng huyết, <strong>Phong Trì (GB20)</strong> — khu phong tán nhiệt. Phối thêm theo thể: Phong nhiệt gia Đại Chùy (GV14); Phong hàn cứu Phong Môn (BL12); Huyết hư gia bổ Cách Du (BL17) — huyệt hội của huyết; Thấp nhiệt gia Âm Lăng Tuyền (SP9), Thiên Xu (ST25).</p>
+<p>Liệu trình: 10–15 buổi/đợt, 2–3 đợt liên tiếp. Kết hợp điện châm và xoa bóp kinh lạc Tỳ — Can giúp tăng hiệu quả điều trị huyết hư.</p>
+
+<h2>Chăm sóc da và thực phẩm theo YHCT</h2>
+<p>YHCT tập trung điều trị từ bên trong, nhưng cũng có các biện pháp chăm sóc da hỗ trợ:</p>
+<ul>
+  <li><strong>Tắm thảo dược:</strong> Sắc lá khổ qua tươi, lá kinh giới, lá lốt ngâm tắm vùng da nổi mề đay — thanh nhiệt, khu phong, giảm ngứa tại chỗ. Không chà xát mạnh.</li>
+  <li><strong>Thực phẩm kiêng:</strong> Hải sản (đặc biệt tôm, cua, cá biển), thịt bò, thịt gà (với thể nhiệt), đồ cay, rượu bia, thực phẩm lên men, phụ gia thực phẩm nhân tạo.</li>
+  <li><strong>Thực phẩm nên ăn:</strong> Đậu xanh (lương huyết), bí đao (thanh nhiệt lợi thấp), mộc nhĩ đen (hoạt huyết dưỡng huyết), hạt kê, rau ngót, rau má — tăng cường huyết phận từ thức ăn.</li>
+  <li><strong>Bổ sung từ thực phẩm:</strong> Hà thủ ô chế (dưỡng huyết bổ can thận), kỷ tử (bổ can thận, dưỡng huyết), long nhãn (bổ tâm huyết an thần). Tất cả đều hỗ trợ thể huyết hư — căn nguyên sâu xa của mề đay mạn tính.</li>
+</ul>
+
+<h2>Khi nào cần kết hợp y học hiện đại</h2>
+<p>Mề đay cấp nặng, phù Quincke (phù môi, họng, mắt), khó thở do phù đường hô hấp là các tình huống cần cấp cứu y tế ngay. Trong giai đoạn ổn định, YHCT có thể kết hợp với kháng histamine liều thấp và dần dần giảm thuốc Tây khi cơ thể ổn định. Theo dõi định kỳ 1–2 tháng/lần để đánh giá tiến triển và điều chỉnh phác đồ.</p>
+
+<div class="art-cta-box"><p>Mề đay mạn tính tái phát nhiều lần là dấu hiệu cơ thể đang mất cân bằng từ bên trong. <strong>Phòng Khám YHCT Tâm Đức</strong> điều trị mề đay bằng châm cứu kết hợp thuốc thang dưỡng huyết khu phong — giúp giảm tái phát bền vững và cải thiện làn da. <strong>BS. Nguyễn Đức Tâm</strong> tư vấn và theo dõi sát từng bệnh nhân. Liên hệ: <strong>0973 710 237</strong> — khám buổi tối <strong>18:00–22:00 hàng ngày</strong>, tại <strong>Hà Đông, Hà Nội</strong>.</p></div>
+    `
+  },
+  {
     id: 37,
     slug: 'hoi-chung-ruot-kich-thich-phan-the-dieu-tri-yhct',
     date: '2026-08-13',
