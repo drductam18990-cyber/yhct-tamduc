@@ -2413,5 +2413,1464 @@ const ARTICLES = [
 <p style="margin-top:24px;padding:16px 20px;background:#fff1f2;border-radius:12px;border-left:4px solid #e11d48;">
   <strong>✨ Tư vấn châm cứu thẩm mỹ:</strong> BS. Nguyễn Đức Tâm tư vấn và thực hiện liệu trình châm cứu thẩm mỹ cá nhân hóa. Đặt lịch: <strong>0973 710 237</strong> — khám buổi tối tại Hà Đông, Hà Nội.
 </p>`
+  },
+{
+    id: 11,
+    category: 'mat-benh',
+    categoryLabel: 'Mặt bệnh',
+    gradient: 'g-herb',
+    icon: '🦵',
+    title: 'Thoái hóa khớp gối: Điều trị bảo tồn bằng YHCT thay vì phẫu thuật',
+    excerpt: 'Thoái hóa khớp gối là bệnh mãn tính phổ biến nhất ở người trên 50 tuổi. YHCT có nhiều phương pháp hiệu quả giúp giảm đau, cải thiện chức năng và làm chậm tiến triển bệnh mà không cần can thiệp phẫu thuật.',
+    date: '2026-07-30',
+    readTime: 6,
+    content: `<h2>Thoái hóa khớp gối là gì?</h2>
+<p>Thoái hóa khớp gối (Osteoarthritis) là tình trạng sụn khớp bị bào mòn dần theo thời gian, khiến hai đầu xương cọ xát vào nhau gây đau, cứng và sưng. Đây là bệnh cơ xương khớp phổ biến nhất ở người cao tuổi — ảnh hưởng đến khoảng 30% người trên 60 tuổi tại Việt Nam.</p>
+<p>Theo YHCT, thoái hóa khớp gối thuộc chứng <em>Tý chứng</em> (phong-hàn-thấp tà xâm phạm kinh lạc) kết hợp <em>Can thận hư</em> (gân cốt không được nuôi dưỡng đủ). Điều trị phải đồng thời khu tà (loại trừ yếu tố gây bệnh) và bổ hư (tăng cường khí huyết nuôi gân cốt).</p>
+<h2>Phương pháp YHCT điều trị</h2>
+<ul>
+<li><strong>Châm cứu:</strong> Các huyệt Độc Tỵ (ST35), Nội Tất Nhãn, Lương Khâu (ST34), Huyết Hải (SP10), Túc Tam Lý (ST36) — giảm viêm, tăng tuần hoàn nội khớp, giảm đau hiệu quả.</li>
+<li><strong>Cứu ngải:</strong> Đặc biệt tốt khi đau tăng lúc lạnh, trời mưa — ôn thông kinh lạc, giảm co thắt quanh khớp.</li>
+<li><strong>Xoa bóp:</strong> Thủ thuật nhẹ nhàng quanh khớp gối giúp tăng tiết dịch khớp, giảm cứng buổi sáng.</li>
+<li><strong>Thuốc thang:</strong> Độc Hoạt Ký Sinh Thang bổ can thận, khu phong thấp — phù hợp người cao tuổi thể trạng yếu.</li>
+</ul>
+<h2>Kết quả và lưu ý</h2>
+<p>Liệu trình cơ bản 15–20 buổi châm cứu kết hợp thuốc thang. Đa số bệnh nhân giảm đau rõ rệt sau 5–7 buổi. Điều quan trọng: duy trì cân nặng hợp lý, tập bơi hoặc đi bộ đều đặn, tránh leo cầu thang và ngồi xổm. Những thay đổi lối sống này song hành với YHCT cho kết quả bền vững nhất.</p>
+<p style="margin-top:24px;padding:16px 20px;background:#f0fdf4;border-radius:12px;border-left:4px solid #16a34a;">
+<strong>🦵 Đặt lịch khám khớp gối:</strong> BS. Nguyễn Đức Tâm thăm khám và lập phác đồ cá nhân. Gọi <strong>0973 710 237</strong> — khám tối 18h–22h kể cả cuối tuần.
+</p>`
+  },
+  {
+    id: 12,
+    category: 'mat-benh',
+    categoryLabel: 'Mặt bệnh',
+    gradient: 'g-herb',
+    icon: '⚡',
+    title: 'Đau thần kinh tọa: Triệu chứng, nguyên nhân và điều trị YHCT',
+    excerpt: 'Đau thần kinh tọa gây đau lan từ lưng xuống mông, đùi và bàn chân — ảnh hưởng nghiêm trọng đến sinh hoạt. YHCT có phác đồ hiệu quả giúp giảm đau nhanh và phục hồi chức năng mà không cần phẫu thuật.',
+    date: '2026-07-28',
+    readTime: 6,
+    content: `<h2>Nhận biết đau thần kinh tọa đúng</h2>
+<p>Thần kinh tọa (sciatic nerve) là dây thần kinh dài nhất cơ thể, chạy từ cột sống thắt lưng qua mông, đùi, cẳng chân đến bàn chân. Khi bị chèn ép — thường do thoát vị đĩa đệm L4-L5 hoặc L5-S1 — người bệnh cảm thấy đau kiểu "điện giật" theo đường đi của dây thần kinh, thường chỉ một bên.</p>
+<p>Dấu hiệu đặc trưng: đau tăng khi ngồi lâu, khi ho hoặc hắt hơi; đôi khi kèm tê bì, yếu cơ chân. Theo YHCT, đây là chứng <em>Tọa cốt phong</em> — phong hàn thấp tà nhân lúc chính khí suy yếu xâm nhập kinh Bàng Quang và kinh Đởm vùng thắt lưng-hông.</p>
+<h2>Phác đồ điều trị YHCT</h2>
+<ul>
+<li><strong>Điện châm:</strong> Các huyệt Đại Trường Du (BL25), Hoàn Khiêu (GB30), Phong Thị (GB31), Ủy Trung (BL40), Thừa Sơn (BL57), Côn Lôn (BL60) — kích thích giải phóng endorphin, giảm viêm rễ thần kinh.</li>
+<li><strong>Cứu ngải:</strong> Ôn kinh tán hàn, đặc biệt với thể hàn thấp (đau tăng khi lạnh).</li>
+<li><strong>Giác hơi:</strong> Dọc kinh Bàng Quang vùng lưng để giải phóng tắc nghẽn.</li>
+<li><strong>Thuốc thang:</strong> Thân Thống Trục Ứ Thang (thể huyết ứ), Độc Hoạt Ký Sinh Thang (thể thận hư phong thấp).</li>
+</ul>
+<h2>Tiến triển điều trị</h2>
+<p>Giai đoạn cấp: 3–5 buổi/tuần, ưu tiên giảm đau. Sau 1–2 tuần, hầu hết bệnh nhân có thể đi lại bình thường. Giai đoạn phục hồi: 2 buổi/tuần thêm 4–6 tuần. Kết hợp bài tập kéo giãn cột sống nhẹ nhàng để phòng tái phát.</p>
+<p style="margin-top:24px;padding:16px 20px;background:#f0fdf4;border-radius:12px;border-left:4px solid #16a34a;">
+<strong>⚡ Giảm đau thần kinh tọa:</strong> Gọi <strong>0973 710 237</strong> để đặt lịch khám tối tại YHCT Tâm Đức, Hà Đông.
+</p>`
+  },
+  {
+    id: 13,
+    category: 'mat-benh',
+    categoryLabel: 'Mặt bệnh',
+    gradient: 'g-herb',
+    icon: '😮',
+    title: 'Liệt mặt ngoại biên (Bell\'s Palsy): Châm cứu giúp phục hồi nhanh hơn',
+    excerpt: 'Liệt mặt ngoại biên (liệt dây thần kinh VII) gây méo miệng, nhắm mắt không kín đột ngột. Châm cứu là phương pháp được chứng minh giúp phục hồi nhanh hơn đáng kể so với điều trị Tây y đơn thuần.',
+    date: '2026-07-25',
+    readTime: 5,
+    content: `<h2>Liệt mặt — cần điều trị ngay trong 72 giờ đầu</h2>
+<p>Liệt mặt ngoại biên (Bell's Palsy) là tình trạng viêm và phù nề dây thần kinh VII gây liệt một bên mặt đột ngột. Biểu hiện: miệng méo sang một bên, nhắm mắt không kín, mất nếp nhăn trán, không thể nhe răng hay thổi sáo. Nguyên nhân thường gặp: virus herpes simplex tái hoạt, lạnh đột ngột (ngồi điều hòa, đi mưa).</p>
+<p>Theo YHCT: phong hàn hoặc phong nhiệt xâm phạm kinh lạc mặt (kinh Dương Minh và kinh Thiếu Dương), gây tắc nghẽn kinh khí, cơ mặt mất nuôi dưỡng. Điều trị càng sớm càng tốt — lý tưởng trong 72 giờ đầu.</p>
+<h2>Châm cứu phục hồi liệt mặt</h2>
+<p>Các huyệt cục bộ trên mặt: Địa Thương (ST4), Giáp Xa (ST6), Hạ Quan (ST7), Dương Bạch (GB14), Tứ Bạch (ST2), Toán Trúc (BL2), Nghinh Hương (LI20). Huyệt toàn thân: Hợp Cốc (LI4), Thái Xung (LR3) để sơ phong thông lạc.</p>
+<p>Đặc biệt: dùng kim châm rất nhỏ, xuyên huyệt theo hướng kéo cơ ngược chiều liệt. Phương pháp xuyên thấu huyệt (透穴) cho kết quả nhanh với liệt mặt hơn châm cứu thông thường.</p>
+<h2>Tỷ lệ phục hồi</h2>
+<p>Với điều trị châm cứu sớm và tích cực (hàng ngày trong 2 tuần đầu), 85–90% bệnh nhân phục hồi hoàn toàn trong 4–8 tuần. Điều trị muộn (sau 2 tuần) kết quả kém hơn — đây là lý do cần đến khám ngay khi phát hiện triệu chứng.</p>
+<p style="margin-top:24px;padding:16px 20px;background:#f0fdf4;border-radius:12px;border-left:4px solid #16a34a;">
+<strong>🚨 Liệt mặt cần điều trị gấp:</strong> Gọi <strong>0973 710 237</strong> để đặt lịch khám ngay — mỗi ngày trễ giảm khả năng phục hồi hoàn toàn.
+</p>`
+  },
+  {
+    id: 14,
+    category: 'mat-benh',
+    categoryLabel: 'Mặt bệnh',
+    gradient: 'g-herb',
+    icon: '🧠',
+    title: 'Phục hồi chức năng sau tai biến mạch máu não bằng YHCT',
+    excerpt: 'YHCT đóng vai trò quan trọng trong phục hồi chức năng sau đột quỵ — từ cải thiện vận động, ngôn ngữ đến nhận thức. Bắt đầu sớm trong giai đoạn hồi phục mang lại kết quả tốt nhất.',
+    date: '2026-07-22',
+    readTime: 7,
+    content: `<h2>YHCT trong phục hồi sau đột quỵ</h2>
+<p>Sau giai đoạn cấp cứu tại bệnh viện, phục hồi chức năng là quá trình dài và quyết định chất lượng cuộc sống. YHCT — đặc biệt châm cứu — được nghiên cứu rộng rãi và cho thấy hiệu quả rõ rệt trong cải thiện: vận động chi trên và chi dưới, ngôn ngữ (aphasia), nuốt (dysphagia), đau sau đột quỵ, và trầm cảm hậu đột quỵ.</p>
+<p>Theo YHCT, đột quỵ (中風 — Trúng phong) do phong, hỏa, đàm, ứ trệ lên não. Giai đoạn phục hồi tập trung vào: bổ khí hoạt huyết, thông lạc giải ứ, bổ can thận.</p>
+<h2>Phác đồ châm cứu phục hồi</h2>
+<ul>
+<li><strong>Tứ chi liệt:</strong> Tập trung huyệt trên kinh dương (Kiên Ngung LI15, Khúc Trì LI11, Hợp Cốc LI4; Hoàn Khiêu GB30, Dương Lăng Tuyền GB34, Túc Tam Lý ST36).</li>
+<li><strong>Ngôn ngữ khó:</strong> Kim Tân Ngọc Dịch (dưới lưỡi), Liêm Tuyền (CV23), Thông Lý (HT5).</li>
+<li><strong>Nuốt khó:</strong> Phong Trì (GB20), Ế Phong (TE17), Thiên Đột (CV22).</li>
+<li><strong>Điện châm cường độ vừa:</strong> Kích thích thần kinh cơ, tăng tốc tái tổ chức thần kinh (neuroplasticity).</li>
+</ul>
+<h2>Thời gian và kỳ vọng</h2>
+<p>Bắt đầu châm cứu càng sớm sau giai đoạn cấp càng tốt (thường từ tuần 2–4 sau đột quỵ). Tần suất: hàng ngày hoặc 5 buổi/tuần trong tháng đầu. Phục hồi là quá trình dài 3–6 tháng — kiên trì là yếu tố quyết định.</p>
+<p style="margin-top:24px;padding:16px 20px;background:#f0fdf4;border-radius:12px;border-left:4px solid #16a34a;">
+<strong>🧠 Tư vấn phục hồi sau đột quỵ:</strong> Gọi <strong>0973 710 237</strong> — BS. Nguyễn Đức Tâm tư vấn phác đồ phục hồi chức năng kết hợp YHCT và vật lý trị liệu.
+</p>`
+  },
+  {
+    id: 15,
+    category: 'mat-benh',
+    categoryLabel: 'Mặt bệnh',
+    gradient: 'g-herb',
+    icon: '🫃',
+    title: 'Hội chứng ruột kích thích (IBS): Tiếp cận điều trị toàn diện bằng YHCT',
+    excerpt: 'IBS ảnh hưởng đến 10–15% dân số, gây đau bụng, đầy hơi và rối loạn tiêu hóa mãn tính. YHCT nhìn nhận IBS như mất cân bằng can-tỳ và có phương pháp điều trị gốc rễ hiệu quả.',
+    date: '2026-07-20',
+    readTime: 5,
+    content: `<h2>IBS — bệnh của thời đại stress</h2>
+<p>Hội chứng ruột kích thích (Irritable Bowel Syndrome) là rối loạn chức năng tiêu hóa phổ biến nhất, đặc trưng bởi đau bụng tái phát kèm thay đổi thói quen đại tiện (táo bón, tiêu chảy hoặc xen kẽ) mà không có tổn thương thực thể. Stress và lo âu luôn làm triệu chứng nặng hơn.</p>
+<p>YHCT phân IBS thành các thể: <strong>Can khí phạm tỳ</strong> (hay gặp nhất — đau bụng khi căng thẳng, đầy hơi, tiêu chảy khi lo lắng), <strong>Tỳ vị hư nhược</strong> (tiêu hóa kém, mệt mỏi), <strong>Đại trường thấp nhiệt</strong> (tiêu lỏng kèm nóng rát hậu môn).</p>
+<h2>Điều trị theo thể bệnh</h2>
+<ul>
+<li><strong>Can khí phạm tỳ:</strong> Châm cứu Thái Xung (LR3), Túc Tam Lý (ST36), Nội Quan (PC6), Thiên Xu (ST25). Thuốc: Tiêu Dao Tán kết hợp Thống Tả Yếu Phương.</li>
+<li><strong>Tỳ vị hư:</strong> Cứu ngải Trung Quản (CV12), Thiên Xu (ST25), Khí Hải (CV6). Thuốc: Tứ Quân Tử Thang gia vị.</li>
+<li><strong>Chế độ ăn quan trọng:</strong> Tránh đồ lạnh, thức ăn nhiều dầu mỡ, cà phê, rượu bia. Tăng cường gừng ấm, cháo dễ tiêu.</li>
+</ul>
+<p style="margin-top:24px;padding:16px 20px;background:#f0fdf4;border-radius:12px;border-left:4px solid #16a34a;">
+<strong>🌿 Điều trị IBS tận gốc:</strong> Gọi <strong>0973 710 237</strong> để được chẩn đoán thể bệnh và điều trị đúng hướng.
+</p>`
+  },
+  {
+    id: 16,
+    category: 'mat-benh',
+    categoryLabel: 'Mặt bệnh',
+    gradient: 'g-herb',
+    icon: '🫀',
+    title: 'Viêm loét dạ dày tá tràng: YHCT hỗ trợ lành loét và ngăn tái phát',
+    excerpt: 'Viêm loét dạ dày tá tràng gây đau thượng vị, ợ chua, buồn nôn. Kết hợp YHCT với điều trị Tây y giúp làm lành tổn thương nhanh hơn, giảm tái phát và cải thiện chức năng tiêu hóa toàn diện.',
+    date: '2026-07-18',
+    readTime: 5,
+    content: `<h2>YHCT nhìn nhận bệnh dạ dày như thế nào?</h2>
+<p>Viêm loét dạ dày-tá tràng (Peptic Ulcer Disease) trong YHCT thuộc phạm vi <em>Vị quản thống</em> (đau vùng thượng vị). Nguyên nhân thường gặp: <strong>Can khí phạm vị</strong> (stress làm đau tăng), <strong>Tỳ vị hư hàn</strong> (đau khi đói, dịu khi ăn), <strong>Vị nhiệt</strong> (đau kèm ợ chua nóng, ăn cay rượu nhiều).</p>
+<h2>Phương pháp điều trị</h2>
+<ul>
+<li><strong>Châm cứu:</strong> Trung Quản (CV12), Túc Tam Lý (ST36), Nội Quan (PC6), Công Tôn (SP4) — điều hòa nhu động dạ dày, giảm tiết acid, giảm đau.</li>
+<li><strong>Cứu ngải:</strong> Ưu tiên thể tỳ vị hư hàn — ôn trung tán hàn, kích thích nhu động.</li>
+<li><strong>Thuốc thang:</strong> Hoàng Kỳ Kiến Trung Thang (tỳ vị hư hàn), Tả Kim Hoàn (vị nhiệt ợ chua), Sài Hồ Sơ Can Tán (can khí phạm vị).</li>
+</ul>
+<h2>Thảo dược hỗ trợ lành loét</h2>
+<p>Cam thảo (DGL — deglycyrrhizinated licorice) đã được nghiên cứu lâm sàng, giúp tái tạo niêm mạc dạ dày. Nghệ (curcumin) kháng viêm và kháng H. pylori tự nhiên. Chè dạ dày (thảo dược Việt Nam) được sử dụng rộng rãi với kết quả tốt trong thực hành lâm sàng.</p>
+<p style="margin-top:24px;padding:16px 20px;background:#f0fdf4;border-radius:12px;border-left:4px solid #16a34a;">
+<strong>🌿 Điều trị dạ dày YHCT:</strong> Gọi <strong>0973 710 237</strong> — khám tối hàng ngày tại Hà Đông.
+</p>`
+  },
+  {
+    id: 17,
+    category: 'mat-benh',
+    categoryLabel: 'Mặt bệnh',
+    gradient: 'g-herb',
+    icon: '🔥',
+    title: 'Trào ngược dạ dày thực quản (GERD): Giải pháp YHCT không phụ thuộc thuốc',
+    excerpt: 'Ợ chua, ợ nóng mãn tính gây tổn thương thực quản và giảm chất lượng cuộc sống. YHCT điều trị GERD theo gốc rễ giúp giảm phụ thuộc vào thuốc ức chế acid dài hạn.',
+    date: '2026-07-15',
+    readTime: 5,
+    content: `<h2>GERD và vòng luẩn quẩn của thuốc ức chế acid</h2>
+<p>Trào ngược dạ dày thực quản (GERD) là tình trạng acid dạ dày trào ngược lên thực quản gây ợ chua, ợ nóng, đôi khi ho mãn tính và khàn tiếng. Thuốc ức chế bơm proton (PPI) kiểm soát triệu chứng tốt nhưng dùng lâu làm giảm hấp thu B12, magie và tăng nguy cơ nhiễm khuẩn tiêu hóa.</p>
+<p>YHCT phân tích: GERD thường do <strong>Vị khí thượng nghịch</strong> (khí vị đi ngược lên thay vì xuống). Nguyên nhân sâu: tỳ vị hư (cơ vòng thực quản yếu), can khí uất (stress làm trào ngược tăng), hoặc thực nhiệt (ăn nhiều đồ cay nóng, rượu).</p>
+<h2>Điều trị</h2>
+<ul>
+<li><strong>Châm cứu:</strong> Trung Quản (CV12), Nội Quan (PC6), Túc Tam Lý (ST36), Lệ Đoài (ST45) — giáng vị khí nghịch, tăng nhu động theo chiều xuống.</li>
+<li><strong>Thuốc:</strong> Toàn Phúc Đại Giả Thạch Thang (giáng nghịch chỉ ẩu), Lục Quân Tử Thang (tỳ hư).</li>
+<li><strong>Lối sống:</strong> Không nằm ngay sau ăn, nâng đầu giường 10–15cm, ăn chậm và ít, tránh cà phê-rượu-chocolate.</li>
+</ul>
+<p style="margin-top:24px;padding:16px 20px;background:#f0fdf4;border-radius:12px;border-left:4px solid #16a34a;">
+<strong>🌿 Thoát khỏi ợ chua mãn tính:</strong> Gọi <strong>0973 710 237</strong> — khám tối 18h–22h tại YHCT Tâm Đức.
+</p>`
+  },
+  {
+    id: 18,
+    category: 'mat-benh',
+    categoryLabel: 'Mặt bệnh',
+    gradient: 'g-herb',
+    icon: '💉',
+    title: 'Tiểu đường type 2: YHCT hỗ trợ kiểm soát đường huyết bền vững',
+    excerpt: 'YHCT không thay thế thuốc tiểu đường nhưng có thể hỗ trợ kiểm soát đường huyết, giảm biến chứng và cải thiện chất lượng cuộc sống khi kết hợp đúng cách với điều trị hiện đại.',
+    date: '2026-07-12',
+    readTime: 6,
+    content: `<h2>Tiểu đường trong quan điểm YHCT</h2>
+<p>Đái tháo đường type 2 tương ứng với <em>Tiêu khát</em> trong YHCT — có 3 thể: Thượng tiêu (khát nhiều — phế âm hư), Trung tiêu (ăn nhiều — vị nhiệt), Hạ tiêu (tiểu nhiều — thận âm hư). Hầu hết bệnh nhân type 2 lâu năm có thể Thận âm hư hoặc Thận âm dương lưỡng hư.</p>
+<h2>Vai trò của YHCT</h2>
+<ul>
+<li><strong>Châm cứu:</strong> Tụy Du (BL20), Thận Du (BL23), Tam Âm Giao (SP6), Túc Tam Lý (ST36), Nhiên Cốc (KD2) — nghiên cứu lâm sàng cho thấy giảm HbA1c 0.5–1% sau 3 tháng châm cứu đều đặn.</li>
+<li><strong>Thảo dược hỗ trợ:</strong> Khổ qua (Momordica charantia) — insulin thực vật; Quế (Cinnamomum) — tăng nhạy cảm insulin; Hoài sơn (Dioscorea) — bổ tỳ thận.</li>
+<li><strong>Thuốc thang:</strong> Lục Vị Địa Hoàng Hoàn (thận âm hư), Ngọc Nữ Tiễn (vị nhiệt thận âm hư).</li>
+</ul>
+<h2>Quan trọng: không tự ý thay thuốc</h2>
+<p>YHCT đóng vai trò hỗ trợ, không thay thế thuốc Tây y trong tiểu đường. Luôn phối hợp với bác sĩ điều trị chính để điều chỉnh liều thuốc phù hợp khi kết hợp YHCT.</p>
+<p style="margin-top:24px;padding:16px 20px;background:#f0fdf4;border-radius:12px;border-left:4px solid #16a34a;">
+<strong>🌿 Hỗ trợ điều trị tiểu đường:</strong> Tư vấn kết hợp YHCT và Tây y. Gọi <strong>0973 710 237</strong>.
+</p>`
+  },
+  {
+    id: 19,
+    category: 'mat-benh',
+    categoryLabel: 'Mặt bệnh',
+    gradient: 'g-herb',
+    icon: '❤️',
+    title: 'Huyết áp cao: Châm cứu và thảo dược hỗ trợ hạ áp tự nhiên',
+    excerpt: 'Tăng huyết áp nguyên phát chiếm 90% các trường hợp và chịu ảnh hưởng lớn từ lối sống. YHCT có nhiều phương pháp hỗ trợ hạ áp an toàn, giảm căng thẳng và bảo vệ cơ quan đích.',
+    date: '2026-07-10',
+    readTime: 5,
+    content: `<h2>Huyết áp cao trong YHCT</h2>
+<p>Tăng huyết áp tương ứng với <em>Huyễn vựng</em> (chóng mặt đau đầu) trong YHCT. Phân thể: <strong>Can dương thượng kháng</strong> (huyết áp cao kèm đau đầu, mặt đỏ, dễ cáu — phổ biến nhất ở người căng thẳng), <strong>Đàm thấp trở trệ</strong> (béo phì, đầu nặng, buồn nôn), <strong>Âm hư dương kháng</strong> (người cao tuổi, ù tai, đau lưng).</p>
+<h2>Phương pháp hỗ trợ hạ áp</h2>
+<ul>
+<li><strong>Châm cứu:</strong> Khúc Trì (LI11), Túc Tam Lý (ST36), Thái Xung (LR3), Nội Quan (PC6), Tam Âm Giao (SP6) — nghiên cứu cho thấy giảm huyết áp tâm thu trung bình 5–10mmHg sau 6 tuần châm cứu.</li>
+<li><strong>Huyệt tai:</strong> Nhĩ châm huyệt Hạ Áp, Thần Môn — đặc biệt hiệu quả với huyết áp do căng thẳng.</li>
+<li><strong>Thảo dược:</strong> Hà thủ ô (bổ can thận), Cây hạ áp (thuộc loại Rauwolfia — cần thận trọng liều), Tâm sen (an thần hạ áp nhẹ).</li>
+</ul>
+<h2>Lưu ý quan trọng</h2>
+<p>Không ngừng thuốc huyết áp Tây y khi dùng YHCT song song. YHCT hỗ trợ ổn định huyết áp, giảm biến động và bảo vệ thận-tim-não. Theo dõi huyết áp tại nhà hàng ngày.</p>
+<p style="margin-top:24px;padding:16px 20px;background:#f0fdf4;border-radius:12px;border-left:4px solid #16a34a;">
+<strong>❤️ Kiểm soát huyết áp bền vững:</strong> Gọi <strong>0973 710 237</strong> — tư vấn kết hợp điều trị.
+</p>`
+  },
+  {
+    id: 20,
+    category: 'mat-benh',
+    categoryLabel: 'Mặt bệnh',
+    gradient: 'g-herb',
+    icon: '😰',
+    title: 'Lo âu và trầm cảm nhẹ: YHCT tiếp cận sức khỏe tâm thần toàn diện',
+    excerpt: 'Lo âu mãn tính và trầm cảm nhẹ ảnh hưởng đến hàng triệu người Việt Nam nhưng ít được nhận biết. YHCT có hệ thống lý luận riêng về sức khỏe tâm thần và nhiều phương pháp điều trị không dùng thuốc an toàn, hiệu quả.',
+    date: '2026-07-08',
+    readTime: 6,
+    content: `<h2>Sức khỏe tâm thần trong YHCT</h2>
+<p>YHCT không tách rời thể xác và tâm trí. Các trạng thái cảm xúc được gắn với từng tạng phủ: <strong>Lo âu</strong> thuộc Tỳ (lo nghĩ tổn tỳ), <strong>Trầm cảm-ức chế</strong> thuộc Can (can khí uất kết), <strong>Sợ hãi-bất an</strong> thuộc Thận (thận tinh bất túc). Điều trị tâm thần trong YHCT luôn điều hòa tạng phủ tương ứng.</p>
+<h2>Phương pháp điều trị</h2>
+<ul>
+<li><strong>Châm cứu:</strong> Bách Hội (GV20), Thần Môn (HT7), Nội Quan (PC6), Tam Âm Giao (SP6), Thái Xung (LR3) — kích thích hệ thần kinh phó giao cảm, giảm cortisol, tăng serotonin.</li>
+<li><strong>Thuốc thang theo thể:</strong> Can uất → Tiêu Dao Hoàn; Tâm tỳ hư → Quy Tỳ Thang; Thận âm hư → Lục Vị Địa Hoàng; Đàm nhiệt → Ôn Đởm Thang.</li>
+<li><strong>Dưỡng sinh:</strong> Thở bụng sâu, khí công nhẹ nhàng — điều hòa hệ thần kinh tự chủ, giảm phản ứng stress.</li>
+</ul>
+<h2>Khi nào cần hỗ trợ tâm lý chuyên sâu</h2>
+<p>YHCT hiệu quả tốt nhất với lo âu mức độ nhẹ-vừa và trầm cảm nhẹ. Trầm cảm nặng, có ý nghĩ tự hại hoặc rối loạn lưỡng cực cần được điều trị bởi chuyên gia tâm thần. YHCT đóng vai trò hỗ trợ bổ sung.</p>
+<p style="margin-top:24px;padding:16px 20px;background:#f0fdf4;border-radius:12px;border-left:4px solid #16a34a;">
+<strong>🌿 Sức khỏe tâm thần toàn diện:</strong> Gọi <strong>0973 710 237</strong> để tư vấn kết hợp YHCT và hỗ trợ tâm lý.
+</p>`
+  },
+  {
+    id: 21,
+    category: 'mat-benh',
+    categoryLabel: 'Mặt bệnh',
+    gradient: 'g-herb',
+    icon: '🤕',
+    title: 'Đau nửa đầu (Migraine): Châm cứu giảm tần suất và cường độ cơn đau',
+    excerpt: 'Migraine ảnh hưởng đến 12% dân số, đặc biệt phụ nữ. Châm cứu được Tổ chức Y tế Thế giới (WHO) công nhận là phương pháp hiệu quả cho đau đầu mãn tính — giảm tần suất cơn đau mà không có tác dụng phụ.',
+    date: '2026-07-05',
+    readTime: 6,
+    content: `<h2>Migraine trong quan điểm YHCT</h2>
+<p>Đau nửa đầu (migraine) với các đặc trưng: đau một bên, nhói theo nhịp tim, kèm buồn nôn, nhạy cảm với ánh sáng-tiếng ồn, và aura thị giác ở một số người. YHCT phân loại: <strong>Can phong nội động</strong> (đau khi căng thẳng, kinh nguyệt), <strong>Đàm trọc thượng nhiễu</strong> (đau kèm buồn nôn, đầu nặng), <strong>Khí huyết hư</strong> (đau mỏi sau mệt mỏi).</p>
+<h2>Hiệu quả của châm cứu với migraine</h2>
+<p>Tổng hợp 22 thử nghiệm lâm sàng ngẫu nhiên với 4985 bệnh nhân cho thấy châm cứu giảm tần suất cơn migraine tương đương thuốc dự phòng (topiramate, propranolol) nhưng ít tác dụng phụ hơn đáng kể. Hiệu quả kéo dài 6–12 tháng sau liệu trình.</p>
+<ul>
+<li><strong>Huyệt cốt lõi:</strong> Suất Cốc (GB8), Thái Dương (EX-HN5), Phong Trì (GB20), Hợp Cốc (LI4), Túc Lâm Khấp (GB41), Ngoại Quan (TE5).</li>
+<li><strong>Phòng ngừa giữa cơn:</strong> Thái Xung (LR3), Tam Âm Giao (SP6), Thận Du (BL23) — bình can tiềm dương.</li>
+</ul>
+<h2>Liệu trình</h2>
+<p>Để phòng ngừa migraine: 12–15 buổi trong 3 tháng. Cơn cấp có thể châm ngay — nhiều bệnh nhân báo cắt cơn đau trong 20–30 phút đầu điều trị.</p>
+<p style="margin-top:24px;padding:16px 20px;background:#f0fdf4;border-radius:12px;border-left:4px solid #16a34a;">
+<strong>🤕 Thoát khỏi migraine:</strong> Gọi <strong>0973 710 237</strong> để đặt lịch điều trị dự phòng tại YHCT Tâm Đức.
+</p>`
+  },
+  {
+    id: 22,
+    category: 'mat-benh',
+    categoryLabel: 'Mặt bệnh',
+    gradient: 'g-herb',
+    icon: '🦾',
+    title: 'Viêm khớp dạng thấp: YHCT hỗ trợ kiểm soát viêm và bảo vệ khớp',
+    excerpt: 'Viêm khớp dạng thấp (RA) là bệnh tự miễn gây viêm đối xứng nhiều khớp. YHCT không chữa khỏi RA nhưng giúp kiểm soát triệu chứng, giảm liều thuốc ức chế miễn dịch và cải thiện chất lượng cuộc sống.',
+    date: '2026-07-02',
+    readTime: 5,
+    content: `<h2>Viêm khớp dạng thấp — bệnh cần quản lý lâu dài</h2>
+<p>RA là bệnh tự miễn dịch, hệ miễn dịch tấn công nhầm màng hoạt dịch khớp gây viêm, đau, sưng đối xứng (thường khớp ngón tay, cổ tay, gối). Nếu không điều trị sớm, khớp bị phá hủy dần không hồi phục. Điều trị Tây y bằng thuốc DMARDs (methotrexate, hydroxychloroquine) rất cần thiết — YHCT đóng vai trò hỗ trợ, không thay thế.</p>
+<h2>Vai trò của YHCT trong RA</h2>
+<ul>
+<li><strong>Châm cứu:</strong> Giảm đau và viêm cục bộ tại các khớp bị tổn thương, cải thiện tầm vận động. Nghiên cứu cho thấy châm cứu giảm VAS đau trung bình 30–40%.</li>
+<li><strong>Thuốc thang kháng viêm:</strong> Độc Hoạt Ký Sinh Thang, Quyên Tý Thang — các bài thuốc cổ điển khu phong thấp, hoạt huyết thông lạc.</li>
+<li><strong>Tắm ngâm thuốc:</strong> Ngâm tay chân với sắc dược liệu (ngải cứu, lá lốt, gừng) giúp giảm cứng khớp buổi sáng.</li>
+</ul>
+<p style="margin-top:24px;padding:16px 20px;background:#f0fdf4;border-radius:12px;border-left:4px solid #16a34a;">
+<strong>🌿 Tư vấn viêm khớp dạng thấp:</strong> Gọi <strong>0973 710 237</strong> để được tư vấn kết hợp điều trị.
+</p>`
+  },
+  {
+    id: 23,
+    category: 'mat-benh',
+    categoryLabel: 'Mặt bệnh',
+    gradient: 'g-herb',
+    icon: '🦶',
+    title: 'Bệnh Gout: Điều trị cơn cấp và phòng ngừa tái phát bằng YHCT',
+    excerpt: 'Gout gây đau khớp dữ dội đột ngột do lắng đọng tinh thể urat. YHCT có phác đồ hiệu quả cho cả cơn cấp và phòng ngừa lâu dài thông qua điều chỉnh chuyển hóa purin.',
+    date: '2026-06-30',
+    readTime: 5,
+    content: `<h2>Gout trong YHCT — chứng Thống phong</h2>
+<p>Gout (Thống phong — đau do gió) gây viêm khớp cấp tính, thường ở ngón chân cái, với đau đỏ sưng nóng dữ dội. Nồng độ acid uric máu cao (do ăn nhiều purin, uống rượu, thận bài tiết kém) là nguyên nhân trực tiếp. Theo YHCT: thấp nhiệt ứ trệ tích tụ tại kinh lạc và khớp.</p>
+<h2>Điều trị cơn cấp</h2>
+<ul>
+<li><strong>Châm cứu:</strong> Đại Đô (SP2), Thái Bạch (SP3), Tam Âm Giao (SP6), A Thị huyệt (điểm đau nhất) — thanh nhiệt lợi thấp, giảm đau nhanh.</li>
+<li><strong>Thuốc thanh nhiệt lợi thấp:</strong> Tứ Diệu Tán (Hoàng Bá, Thương Truật, Ngưu Tất, Ý Dĩ) — bài thuốc kinh điển trị gout theo YHCT, hỗ trợ đào thải urat qua thận.</li>
+</ul>
+<h2>Phòng ngừa tái phát</h2>
+<p>Giảm ăn phủ tạng, hải sản, thịt đỏ, đậu, bia. Uống đủ 2–3 lít nước/ngày. Tránh stress và mệt mỏi đột ngột. Duy trì cân nặng hợp lý. Ý dĩ (hạt bo bo) nấu ăn hàng ngày hỗ trợ lợi thấp tốt.</p>
+<p style="margin-top:24px;padding:16px 20px;background:#f0fdf4;border-radius:12px;border-left:4px solid #16a34a;">
+<strong>🦶 Điều trị gout:</strong> Gọi <strong>0973 710 237</strong> — cắt cơn đau và phòng tái phát lâu dài.
+</p>`
+  },
+  {
+    id: 24,
+    category: 'mat-benh',
+    categoryLabel: 'Mặt bệnh',
+    gradient: 'g-herb',
+    icon: '🌡️',
+    title: 'Phong thấp: Điều trị đau khớp do thời tiết bằng YHCT',
+    excerpt: 'Đau khớp tăng theo thời tiết — lạnh, ẩm, trở trời — là biểu hiện kinh điển của chứng phong thấp. YHCT có phương pháp khu phong trừ thấp hiệu quả đã được kiểm chứng hàng nghìn năm.',
+    date: '2026-06-27',
+    readTime: 5,
+    content: `<h2>Phong thấp — bệnh nhạy cảm với thời tiết</h2>
+<p>Trong YHCT, <em>Tý chứng</em> (phong-hàn-thấp) là nguyên nhân đau khớp phổ biến nhất. Phong tà gây đau di chuyển (nay khớp này mai khớp khác), hàn tà gây đau cố định-tăng khi lạnh, thấp tà gây đau nặng nề-khớp sưng. Phần lớn bệnh nhân phong thấp có hỗn hợp cả 3 yếu tố.</p>
+<h2>Điều trị</h2>
+<ul>
+<li><strong>Cứu ngải:</strong> Phương pháp quan trọng nhất với phong thấp do hàn — ôn thông kinh lạc, trục hàn thấp ra ngoài. Cứu tại các huyệt khớp đau 15–20 phút/huyệt.</li>
+<li><strong>Châm cứu:</strong> Huyệt theo vị trí khớp đau kết hợp huyệt khu phong thấp: Phong Môn (BL12), Tỳ Du (BL20), Âm Lăng Tuyền (SP9).</li>
+<li><strong>Giác hơi:</strong> Dọc cột sống và vùng khớp — kéo hàn thấp ra bề mặt, thông kinh hoạt lạc.</li>
+<li><strong>Thuốc thang:</strong> Độc Hoạt Ký Sinh Thang (hàn thấp, người cao tuổi), Quyên Tý Thang (phong thấp chi trên), Phòng Kỷ Hoàng Kỳ Thang (thấp nặng, phù).</li>
+</ul>
+<p style="margin-top:24px;padding:16px 20px;background:#f0fdf4;border-radius:12px;border-left:4px solid #16a34a;">
+<strong>🌿 Điều trị phong thấp:</strong> Gọi <strong>0973 710 237</strong> — khám tối hàng ngày tại Hà Đông.
+</p>`
+  },
+  {
+    id: 25,
+    category: 'mat-benh',
+    categoryLabel: 'Mặt bệnh',
+    gradient: 'g-herb',
+    icon: '🤲',
+    title: 'Hội chứng ống cổ tay: Tê bì tay ban đêm và giải pháp không phẫu thuật',
+    excerpt: 'Hội chứng ống cổ tay gây tê bì ngón tay, đặc biệt ban đêm, phổ biến ở người dùng máy tính và phụ nữ mang thai. Châm cứu và bấm huyệt có hiệu quả điều trị bảo tồn rõ rệt.',
+    date: '2026-06-25',
+    readTime: 5,
+    content: `<h2>Nhận biết hội chứng ống cổ tay</h2>
+<p>Hội chứng ống cổ tay (Carpal Tunnel Syndrome) xảy ra khi thần kinh giữa bị chèn ép tại ống cổ tay, gây tê bì 3 ngón rưỡi phía ngón cái (ngón 1-2-3 và nửa ngón 4), đau tay ban đêm thường xuyên đánh thức giấc ngủ, yếu khi cầm nắm. Phổ biến ở người gõ phím nhiều, thợ may, phụ nữ có thai (phù nề).</p>
+<h2>Châm cứu điều trị</h2>
+<p>Các huyệt tại chỗ và lân cận: Đại Lăng (PC7), Nội Quan (PC6), Lao Cung (PC8), Ngư Tế (LU10), Hợp Cốc (LI4). Điện châm tần số thấp giúp giảm phù nề ống cổ tay và kích thích phục hồi myelin thần kinh giữa.</p>
+<p>Nghiên cứu so sánh châm cứu với nẹp cổ tay cho thấy sau 8 tuần, châm cứu cải thiện dẫn truyền thần kinh và giảm triệu chứng tương đương — nhưng hiệu quả kéo dài hơn sau khi ngừng điều trị.</p>
+<h2>Hỗ trợ tại nhà</h2>
+<p>Đeo nẹp cổ tay khi ngủ, nghỉ giải lao 5 phút mỗi giờ gõ phím, bài tập kéo giãn gân gấp cổ tay. Nặng không đáp ứng điều trị bảo tồn sau 3–6 tháng mới cân nhắc phẫu thuật giải phóng ống cổ tay.</p>
+<p style="margin-top:24px;padding:16px 20px;background:#f0fdf4;border-radius:12px;border-left:4px solid #16a34a;">
+<strong>🤲 Điều trị tê tay:</strong> Gọi <strong>0973 710 237</strong> — tư vấn và điều trị tại YHCT Tâm Đức.
+</p>`
+  },
+  {
+    id: 26,
+    category: 'mat-benh',
+    categoryLabel: 'Mặt bệnh',
+    gradient: 'g-herb',
+    icon: '🦵',
+    title: 'Gai gót chân và viêm cân gan bàn chân: Điều trị không mổ bằng YHCT',
+    excerpt: 'Đau gót chân buổi sáng khi mới bước xuống giường là triệu chứng kinh điển của viêm cân gan bàn chân. YHCT có phác đồ điều trị hiệu quả giúp hết đau mà không cần phẫu thuật.',
+    date: '2026-06-22',
+    readTime: 5,
+    content: `<h2>Gai gót vs viêm cân gan bàn chân</h2>
+<p>Gai gót chân (calcaneal spur) là gai xương mọc ra ở mặt dưới xương gót, thường đi kèm viêm cân gan bàn chân (plantar fasciitis). Thực ra, đau chủ yếu từ tình trạng viêm của cân, không phải từ gai xương — vì vậy điều trị không nhất thiết phải mổ lấy gai.</p>
+<p>Theo YHCT: thận hư cốt nhuyễn (xương yếu dễ tạo gai), huyết ứ (vi tổn thương mãn tính cân gan bàn chân chưa lành).</p>
+<h2>Điều trị YHCT</h2>
+<ul>
+<li><strong>Châm cứu:</strong> Thái Khê (KD3), Thủy Tuyền (KD5), A Thị huyệt (điểm đau nhất gót chân), Thừa Sơn (BL57) — giảm viêm, tăng tuần hoàn cục bộ.</li>
+<li><strong>Cứu ngải:</strong> Ôn thận mạnh xương, giảm viêm mãn tính.</li>
+<li><strong>Tiêm huyệt (thủy châm):</strong> Tiêm huyệt dược — hiệu quả nhanh với viêm cấp.</li>
+</ul>
+<h2>Hỗ trợ tại nhà</h2>
+<p>Lăn bàn chân trên chai nước lạnh buổi sáng 2 phút, kéo giãn cân gan bàn chân trước khi bước xuống giường, dùng lót giày có đệm gót. Giảm cân nếu thừa cân để giảm tải trọng gót chân.</p>
+<p style="margin-top:24px;padding:16px 20px;background:#f0fdf4;border-radius:12px;border-left:4px solid #16a34a;">
+<strong>🦶 Điều trị đau gót chân:</strong> Gọi <strong>0973 710 237</strong> — không cần phẫu thuật trong hầu hết trường hợp.
+</p>`
+  },
+  {
+    id: 27,
+    category: 'mat-benh',
+    categoryLabel: 'Mặt bệnh',
+    gradient: 'g-herb',
+    icon: '💪',
+    title: 'Đau khớp vai — viêm quanh khớp vai: Phục hồi tầm vận động bằng YHCT',
+    excerpt: 'Viêm quanh khớp vai gây đau và hạn chế vận động vai, đôi khi không giơ tay lên được. YHCT kết hợp châm cứu, xoa bóp và bài tập phục hồi giúp lấy lại tầm vận động hiệu quả.',
+    date: '2026-06-20',
+    readTime: 5,
+    content: `<h2>Viêm quanh khớp vai — bệnh hay bị điều trị sai</h2>
+<p>Viêm quanh khớp vai (Periarthritis humeroscapularis) là nhóm bệnh lý gây đau và hạn chế vận động khớp vai, bao gồm: viêm gân cơ chóp xoay, viêm túi hoạt dịch dưới mỏm cùng vai, và hội chứng vai đóng băng (frozen shoulder). Nhiều bệnh nhân bị điều trị sai hướng do chẩn đoán không chính xác.</p>
+<h2>Điều trị theo YHCT</h2>
+<ul>
+<li><strong>Châm cứu:</strong> Kiên Ngung (LI15), Kiên Trinh (SI9), Nao Du (SI10), Khúc Trì (LI11), Ngoại Quan (TE5). Kết hợp A Thị huyệt tại điểm đau nhất. Điện châm tần số thấp cho viêm gân cơ chóp xoay.</li>
+<li><strong>Xoa bóp:</strong> Kỹ thuật thư giãn cơ vai, kéo giãn bao khớp — quan trọng với frozen shoulder.</li>
+<li><strong>Bài tập phục hồi:</strong> Bài tập con lắc Codman, treo tay kéo giãn nhẹ — làm trong và sau điều trị YHCT.</li>
+</ul>
+<p>Với frozen shoulder: liệu trình thường dài hơn (3–6 tháng), kết hợp châm cứu tích cực và bài tập hàng ngày tại nhà.</p>
+<p style="margin-top:24px;padding:16px 20px;background:#f0fdf4;border-radius:12px;border-left:4px solid #16a34a;">
+<strong>💪 Phục hồi khớp vai:</strong> Gọi <strong>0973 710 237</strong> — tư vấn và điều trị tại YHCT Tâm Đức, Hà Đông.
+</p>`
+  },
+  {
+    id: 28,
+    category: 'mat-benh',
+    categoryLabel: 'Mặt bệnh',
+    gradient: 'g-herb',
+    icon: '🌀',
+    title: 'Rối loạn tiền đình: Chóng mặt xoay tròn và điều trị hiệu quả bằng YHCT',
+    excerpt: 'Chóng mặt xoay tròn, buồn nôn, mất thăng bằng đột ngột là triệu chứng của rối loạn tiền đình. YHCT có phác đồ hiệu quả điều trị cả nguyên nhân ngoại biên và trung ương.',
+    date: '2026-06-17',
+    readTime: 5,
+    content: `<h2>Rối loạn tiền đình — nhầm lẫn phổ biến</h2>
+<p>Không phải mọi chóng mặt đều là "rối loạn tiền đình" — đây là chẩn đoán bị lạm dụng tại Việt Nam. Thực tế, chóng mặt có thể do: BPPV (sỏi tai), viêm dây thần kinh tiền đình, thiếu máu não, huyết áp thấp hoặc lo âu. Mỗi nguyên nhân có điều trị khác nhau.</p>
+<p>Theo YHCT: chóng mặt (huyễn vựng) do <strong>Can dương thượng kháng</strong>, <strong>Đàm thấp trở trệ</strong>, hoặc <strong>Khí huyết hư không nuôi não</strong>.</p>
+<h2>Điều trị</h2>
+<ul>
+<li><strong>BPPV (sỏi tai — hay gặp nhất):</strong> Thủ thuật Epley kết hợp châm cứu thường giải quyết trong 1–3 buổi.</li>
+<li><strong>Đàm thấp:</strong> Trạch Tả Thang, châm cứu Phong Trì (GB20), Nội Quan (PC6), Phong Long (ST40).</li>
+<li><strong>Can dương:</strong> Thiên Ma Câu Đằng Ẩm, châm cứu Thái Xung (LR3), Phong Trì (GB20), Bách Hội (GV20).</li>
+<li><strong>Khí huyết hư:</strong> Bổ trung ích khí, cứu ngải Bách Hội, Túc Tam Lý (ST36).</li>
+</ul>
+<p style="margin-top:24px;padding:16px 20px;background:#f0fdf4;border-radius:12px;border-left:4px solid #16a34a;">
+<strong>🌀 Điều trị chóng mặt:</strong> Gọi <strong>0973 710 237</strong> — chẩn đoán đúng, điều trị đúng hướng.
+</p>`
+  },
+  {
+    id: 29,
+    category: 'mat-benh',
+    categoryLabel: 'Mặt bệnh',
+    gradient: 'g-herb',
+    icon: '👂',
+    title: 'Ù tai mãn tính: Nguyên nhân và điều trị theo YHCT',
+    excerpt: 'Ù tai mãn tính ảnh hưởng đến 15% người trưởng thành và không có thuốc đặc trị trong Tây y. YHCT tiếp cận ù tai theo nguyên nhân tạng phủ với kết quả điều trị đáng khích lệ.',
+    date: '2026-06-15',
+    readTime: 5,
+    content: `<h2>Ù tai trong YHCT</h2>
+<p>Ù tai (tinnitus) mãn tính — tiếng ù, ve, hoặc chuông không ngừng trong tai — không có nguyên nhân thực thể rõ ràng trong nhiều trường hợp. Tây y hiện không có thuốc điều trị đặc hiệu. YHCT phân: <strong>Thận tinh hư</strong> (ù tai âm thanh thấp-liên tục, kèm đau lưng mỏi gối — phổ biến người cao tuổi), <strong>Can đởm hỏa thịnh</strong> (ù tai âm thanh cao-to, kèm đau đầu, cáu gắt — thường sau stress), <strong>Đàm hỏa uất kết</strong> (ù tai kèm tức ngực, đầu nặng).</p>
+<h2>Điều trị</h2>
+<ul>
+<li><strong>Châm cứu nhĩ vùng:</strong> Nhĩ Môn (TE21), Thính Cung (SI19), Thính Hội (GB2), Ế Phong (TE17) — tác động trực tiếp vùng tai.</li>
+<li><strong>Theo thể bệnh:</strong> Thận hư → Lục Vị, châm Thái Khê (KD3), Thính Cung. Can hỏa → Long Đởm Tả Can Thang, châm Thái Xung (LR3), Hiệp Khê (GB43).</li>
+<li><strong>Nhĩ châm:</strong> Châm huyệt tai Thận, Thần Môn, Nội Nhĩ — phương pháp bổ sung hiệu quả với ù tai.</li>
+</ul>
+<p style="margin-top:24px;padding:16px 20px;background:#f0fdf4;border-radius:12px;border-left:4px solid #16a34a;">
+<strong>👂 Điều trị ù tai:</strong> Gọi <strong>0973 710 237</strong> — chẩn đoán thể bệnh và điều trị cá nhân hóa.
+</p>`
+  },
+  {
+    id: 30,
+    category: 'mat-benh',
+    categoryLabel: 'Mặt bệnh',
+    gradient: 'g-herb',
+    icon: '👃',
+    title: 'Viêm xoang mãn tính: Điều trị YHCT giúp giảm phụ thuộc kháng sinh',
+    excerpt: 'Viêm xoang mãn tính tái phát liên tục, kháng sinh không giải quyết được gốc rễ. YHCT tăng cường hệ miễn dịch niêm mạc, cải thiện dẫn lưu xoang và giảm phụ thuộc thuốc Tây.',
+    date: '2026-06-12',
+    readTime: 5,
+    content: `<h2>Viêm xoang mãn tính — vòng luẩn quẩn kháng sinh</h2>
+<p>Viêm xoang mãn tính (hơn 12 tuần) thường liên quan đến: dị ứng, polyp mũi, cấu trúc mũi bất thường, hoặc hệ miễn dịch niêm mạc yếu. Dùng kháng sinh lặp đi lặp lại chỉ điều trị đợt cấp mà không giải quyết yếu tố tạng phủ nền.</p>
+<p>YHCT phân: <strong>Phế khí hư (Phế bị phong hàn)</strong> — ngứa mũi, hắt hơi, nước mũi trong; <strong>Đởm kinh nhiệt thịnh</strong> — mũi vàng đặc, đau trán; <strong>Tỳ vị thấp nhiệt</strong> — mũi đặc, đầu nặng, mệt mỏi.</p>
+<h2>Điều trị</h2>
+<ul>
+<li><strong>Châm cứu:</strong> Nghinh Hương (LI20), Ấn Đường (EX-HN3), Thượng Tinh (GV23), Hợp Cốc (LI4) — thông mũi, giảm viêm niêm mạc.</li>
+<li><strong>Cứu ngải:</strong> Phế Du (BL13), Túc Tam Lý (ST36) — bổ phế khí, tăng miễn dịch toàn thân.</li>
+<li><strong>Thuốc:</strong> Thương Nhĩ Tử Tán (viêm xoang cổ điển), Tân Di Tán (tắc mũi phong hàn).</li>
+<li><strong>Rửa mũi bằng nước muối sinh lý:</strong> Kết hợp hàng ngày — phương pháp được WHO khuyến cáo.</li>
+</ul>
+<p style="margin-top:24px;padding:16px 20px;background:#f0fdf4;border-radius:12px;border-left:4px solid #16a34a;">
+<strong>👃 Điều trị viêm xoang:</strong> Gọi <strong>0973 710 237</strong> — chẩn đoán thể bệnh và điều trị tại YHCT Tâm Đức.
+</p>`
+  },
+  {
+    id: 31,
+    category: 'khong-thuoc',
+    categoryLabel: 'Không dùng thuốc',
+    gradient: 'g-amber',
+    icon: '🔥',
+    title: 'Giác hơi: Tác dụng thực sự, cách thực hiện và những điều cần biết',
+    excerpt: 'Giác hơi (cupping therapy) để lại vết tròn đỏ nổi tiếng trên lưng vận động viên. Đây không phải trend — đây là liệu pháp YHCT hàng nghìn năm với cơ chế rõ ràng và chỉ định cụ thể.',
+    date: '2026-06-10',
+    readTime: 5,
+    content: `<h2>Cơ chế tác dụng của giác hơi</h2>
+<p>Giác hơi tạo áp suất âm hút da và mô mềm phía dưới vào trong cốc, gây giãn mạch máu và bạch huyết cục bộ. Tác dụng: tăng tuần hoàn máu vùng điều trị, giải phóng co cứng cơ sâu, kích thích phản ứng chống viêm tự nhiên, và "mở" kinh lạc tắc nghẽn.</p>
+<p>Vết tím sau giác hơi là xuất huyết dưới da — không phải bầm tím do va đập. Màu vết giác nói lên tình trạng: tím đậm = ứ trệ nặng, hồng nhạt = khí huyết bình thường.</p>
+<h2>Chỉ định phù hợp</h2>
+<ul>
+<li>Co cứng cơ lưng, vai gáy mãn tính</li>
+<li>Đau lưng, đau cơ sau vận động nặng</li>
+<li>Cảm lạnh, phong hàn mới nhiễm (giác vùng lưng sớm)</li>
+<li>Bổ trợ điều trị thoát vị đĩa đệm</li>
+</ul>
+<h2>Chống chỉ định quan trọng</h2>
+<p>Không giác trên vùng da bị viêm, vết thương hở, giãn tĩnh mạch. Không giác khi đang sốt cao, mang thai (vùng bụng-thắt lưng), có rối loạn đông máu hoặc đang dùng thuốc chống đông. Bệnh nhân lần đầu nên bắt đầu với thời gian ngắn (5 phút) để kiểm tra phản ứng da.</p>
+<p style="margin-top:24px;padding:16px 20px;background:#fef3c7;border-radius:12px;border-left:4px solid #d97706;">
+<strong>🔥 Giác hơi chuyên nghiệp:</strong> Gọi <strong>0973 710 237</strong> — thực hiện bởi BS. Nguyễn Đức Tâm tại YHCT Tâm Đức, Hà Đông.
+</p>`
+  },
+  {
+    id: 32,
+    category: 'khong-thuoc',
+    categoryLabel: 'Không dùng thuốc',
+    gradient: 'g-amber',
+    icon: '🪨',
+    title: 'Cạo gió (Gua Sha): Khoa học đằng sau kỹ thuật dân gian phổ biến',
+    excerpt: 'Cạo gió là kỹ thuật YHCT dùng dụng cụ cứng cạo trên da để điều trị đau cơ và cảm lạnh. Nghiên cứu hiện đại giải thích cơ chế tác dụng của phương pháp tưởng chừng đơn giản này.',
+    date: '2026-06-08',
+    readTime: 5,
+    content: `<h2>Cạo gió không phải 'mê tín'</h2>
+<p>Cạo gió (Gua Sha — 刮痧) là kỹ thuật dùng dụng cụ (thìa, sừng trâu, hoặc công cụ chuyên dụng) cạo lên da đã bôi trơn theo hướng kinh lạc, tạo ra các đốm đỏ (petechiae) gọi là "sha". Nghiên cứu của Trường Y Harvard cho thấy Gua Sha làm tăng đáng kể enzyme HO-1 (heme oxygenase-1) — chất có tác dụng kháng viêm mạnh — trong vòng 24–72 giờ sau điều trị.</p>
+<h2>Tác dụng được chứng minh</h2>
+<ul>
+<li><strong>Đau cơ mãn tính:</strong> Giải phóng dính fascial, tăng tuần hoàn cơ cục bộ.</li>
+<li><strong>Đau cổ mãn tính:</strong> Thử nghiệm lâm sàng cho thấy hiệu quả tương đương kéo cổ cơ học.</li>
+<li><strong>Cảm lạnh khởi phát:</strong> Cạo vùng lưng sớm khi có triệu chứng giúp đẩy nhanh phục hồi.</li>
+<li><strong>Viêm gân mãn tính:</strong> Kỹ thuật IASTM (Instrument-Assisted Soft Tissue Mobilization) trong vật lý trị liệu hiện đại là biến thể của Gua Sha.</li>
+</ul>
+<h2>Cách thực hiện an toàn</h2>
+<p>Bôi dầu trơn (dầu gừng, dầu vừng). Cạo theo hướng xuống với lực vừa phải, 7–10 lần mỗi đường. Vùng đỏ nhiều = tắc nghẽn nhiều. Sau cạo gió: giữ ấm, không tắm ngay, uống nước ấm. "Sha" mờ dần trong 2–5 ngày.</p>
+<p style="margin-top:24px;padding:16px 20px;background:#fef3c7;border-radius:12px;border-left:4px solid #d97706;">
+<strong>🪨 Cạo gió đúng kỹ thuật:</strong> Gọi <strong>0973 710 237</strong> — điều trị bởi chuyên gia tại YHCT Tâm Đức.
+</p>`
+  },
+  {
+    id: 33,
+    category: 'khong-thuoc',
+    categoryLabel: 'Không dùng thuốc',
+    gradient: 'g-amber',
+    icon: '🌿',
+    title: 'Cứu ngải (Moxibustion): Liệu pháp nhiệt YHCT và cách dùng hiệu quả',
+    excerpt: 'Cứu ngải dùng nhiệt từ đốt ngải cứu để kích thích huyệt vị. Đây là liệu pháp bổ sung quan trọng bên cạnh châm cứu, đặc biệt hiệu quả với các chứng hàn, hư và suy giảm miễn dịch.',
+    date: '2026-06-05',
+    readTime: 5,
+    content: `<h2>Cứu ngải là gì?</h2>
+<p>Moxibustion (Cứu ngải — 灸) là kỹ thuật đốt điếu ngải cứu khô (Artemisia vulgaris) để tạo nhiệt tác động lên huyệt vị. Nhiệt từ ngải cứu thâm nhập sâu hơn nhiệt từ đèn hồng ngoại thông thường — do các hợp chất thơm trong ngải (borneol, cineole) có tác dụng sinh học riêng ngoài nhiệt thuần túy.</p>
+<h2>Chỉ định phù hợp</h2>
+<ul>
+<li><strong>Thể hàn:</strong> Đau tăng khi lạnh, tứ chi lạnh, sợ gió — cứu ôn thông kinh lạc.</li>
+<li><strong>Thể hư:</strong> Mệt mỏi, miễn dịch yếu, sau bệnh nặng, người cao tuổi — cứu bổ dương khí.</li>
+<li><strong>Ngôi thai ngược:</strong> Cứu Chí Âm (BL67) có tỷ lệ thành công 60–70% trong nghiên cứu lâm sàng.</li>
+<li><strong>Phòng bệnh:</strong> Cứu Túc Tam Lý (ST36) thường xuyên — phương pháp dưỡng sinh cổ truyền.</li>
+</ul>
+<h2>Cách thực hiện an toàn tại nhà</h2>
+<p>Dùng điếu ngải thương mại (an toàn hơn tự làm). Hơ cách da 2–3 cm đến khi cảm thấy ấm dễ chịu (không bỏng). Mỗi huyệt 10–15 phút. Đảm bảo thông gió tốt — khói ngải có thể gây kích ứng hô hấp nếu phòng kín. Không cứu khi đang sốt hoặc âm hư nội nhiệt.</p>
+<p style="margin-top:24px;padding:16px 20px;background:#fef3c7;border-radius:12px;border-left:4px solid #d97706;">
+<strong>🌿 Cứu ngải chuyên nghiệp:</strong> Gọi <strong>0973 710 237</strong> — BS. Nguyễn Đức Tâm tư vấn liệu trình cứu ngải phù hợp thể trạng.
+</p>`
+  },
+  {
+    id: 34,
+    category: 'khong-thuoc',
+    categoryLabel: 'Không dùng thuốc',
+    gradient: 'g-amber',
+    icon: '🛁',
+    title: 'Tắm thuốc và ngâm chân thảo dược: Liệu pháp dưỡng sinh từ bên ngoài',
+    excerpt: 'Tắm ngâm thuốc là phương pháp đưa dược liệu vào cơ thể qua da, đặc biệt hiệu quả với bệnh lý cơ xương khớp, phong thấp và hỗ trợ sức khỏe phụ nữ sau sinh.',
+    date: '2026-06-03',
+    readTime: 5,
+    content: `<h2>Tắm thuốc trong YHCT</h2>
+<p>Tắm ngâm thuốc (熏洗法 — Huân tẩy pháp) là phương pháp ngoại trị quan trọng trong YHCT. Các hoạt chất từ dược liệu thấm qua da, tác động trực tiếp lên kinh lạc và mô cục bộ, đồng thời nhiệt từ nước nóng hỗ trợ giãn mạch và thư giãn cơ.</p>
+<h2>Các công thức ngâm phổ biến</h2>
+<ul>
+<li><strong>Ngâm chân trị phong thấp:</strong> Ngải cứu 50g + lá lốt 50g + muối hột 1 thìa + gừng 3 lát. Sắc lấy nước, pha loãng ngâm 20 phút trước ngủ. Ấm kinh tán hàn, giảm đau khớp chân hiệu quả.</li>
+<li><strong>Ngâm chân an thần:</strong> Táo nhân 30g + bá tử nhân 20g + muối 1 nhúm. Ngâm 15–20 phút trước khi ngủ — thư giãn, cải thiện giấc ngủ.</li>
+<li><strong>Tắm sau sinh:</strong> Lá kinh giới + lá tía tô + lá ngải + sả — ôn kinh, khu phong hàn sau sinh, chống nhiễm khuẩn nhẹ.</li>
+<li><strong>Ngâm tay viêm khớp:</strong> Cúc hoa 30g + kinh giới 20g + phèn chua 10g — giảm đau sưng khớp ngón tay.</li>
+</ul>
+<h2>Lưu ý</h2>
+<p>Nước ngâm không quá 42°C để tránh bỏng. Không ngâm khi vết thương hở, da viêm loét. Người tiểu đường kiểm tra nhiệt độ cẩn thận (giảm cảm giác nhiệt). Ngâm 15–20 phút là đủ — quá lâu gây mệt và mất điện giải.</p>
+<p style="margin-top:24px;padding:16px 20px;background:#fef3c7;border-radius:12px;border-left:4px solid #d97706;">
+<strong>🛁 Tư vấn tắm thuốc:</strong> Gọi <strong>0973 710 237</strong> — BS. Nguyễn Đức Tâm kê công thức tắm thuốc phù hợp bệnh trạng.
+</p>`
+  },
+  {
+    id: 35,
+    category: 'khong-thuoc',
+    categoryLabel: 'Không dùng thuốc',
+    gradient: 'g-amber',
+    icon: '👂',
+    title: 'Nhĩ châm (Ear Acupuncture): Điều trị toàn thân qua bản đồ huyệt tai',
+    excerpt: 'Nhĩ châm là kỹ thuật châm cứu trên vành tai với bản đồ huyệt phản ánh toàn bộ cơ thể. Đặc biệt hiệu quả để cai thuốc lá, giảm cân, điều trị đau và lo âu.',
+    date: '2026-06-01',
+    readTime: 5,
+    content: `<h2>Lý thuyết nhĩ châm</h2>
+<p>Nhĩ châm (Ear Acupuncture / Auriculotherapy) dựa trên lý thuyết vành tai là bản đồ thu nhỏ của cơ thể — hình một bào thai úp ngược. Mỗi vùng trên tai tương ứng với một tạng phủ hoặc bộ phận cơ thể. Bác sĩ Pháp Paul Nogier hệ thống hóa nhĩ châm vào thập niên 1950, từ đó được kết hợp với hệ thống YHCT Trung Quốc.</p>
+<h2>Ứng dụng lâm sàng</h2>
+<ul>
+<li><strong>Cai thuốc lá:</strong> Huyệt Phổi, Thần Môn, Miệng, Nội Tiết — giảm cơn thèm nicotine. Giao thức NADA (5 huyệt tai) được dùng rộng rãi tại Mỹ cho cai nghiện.</li>
+<li><strong>Giảm đau mãn tính:</strong> Kích hoạt hệ thống giảm đau nội sinh (endorphin) nhanh hơn châm cứu thân thể.</li>
+<li><strong>Lo âu và mất ngủ:</strong> Huyệt Thần Môn tai — an thần hiệu quả, có thể dùng hạt giống bấm huyệt dán lên tai tự kích thích tại nhà.</li>
+<li><strong>Hỗ trợ giảm cân:</strong> Kích thích vùng Dạ dày, Miệng, Nội Tiết giảm cảm giác thèm ăn.</li>
+</ul>
+<h2>Hạt giống bấm huyệt tai</h2>
+<p>Dán hạt nhỏ (hạt vương bất lưu hành hoặc hạt magnolia) lên huyệt tai, bệnh nhân tự bấm 3–5 lần/ngày giữa các buổi điều trị. Đây là cách duy trì tác dụng điều trị liên tục rất tiện lợi.</p>
+<p style="margin-top:24px;padding:16px 20px;background:#fef3c7;border-radius:12px;border-left:4px solid #d97706;">
+<strong>👂 Nhĩ châm tại YHCT Tâm Đức:</strong> Gọi <strong>0973 710 237</strong> — kết hợp với châm cứu toàn thân cho kết quả toàn diện.
+</p>`
+  },
+  {
+    id: 36,
+    category: 'khong-thuoc',
+    categoryLabel: 'Không dùng thuốc',
+    gradient: 'g-amber',
+    icon: '🧘',
+    title: 'Dưỡng sinh YHCT: Nghệ thuật sống lâu mạnh khỏe theo cổ nhân',
+    excerpt: 'Dưỡng sinh (養生) là hệ thống triết lý và thực hành sức khỏe toàn diện trong YHCT — bao gồm điều chỉnh ăn uống, vận động, giấc ngủ và tâm trí để sống lâu và khỏe mạnh.',
+    date: '2026-05-28',
+    readTime: 5,
+    content: `<h2>Dưỡng sinh là gì?</h2>
+<p>Dưỡng sinh (養生 — Yangsheng) nghĩa đen là "nuôi dưỡng sự sống". Đây là hệ thống triết lý YHCT về cách sống để duy trì và tăng cường sức khỏe, không phải chỉ chữa bệnh khi đã phát. Bao gồm: điều chỉnh ăn uống theo mùa và thể trạng, vận động nhẹ nhàng đều đặn, duy trì tâm thái bình ổn, ngủ đúng giờ giấc và tránh lạm dụng tình dục và cảm xúc thái quá.</p>
+<h2>5 trụ cột dưỡng sinh</h2>
+<ul>
+<li><strong>Điều thần:</strong> Giữ tâm bình, tránh thất tình thái quá (giận, lo, sợ, buồn quá mức). Thiền định 15 phút/ngày.</li>
+<li><strong>Điều thực:</strong> Ăn đủ 5 màu, 5 vị. Ăn ấm, ăn chậm. Không ăn no quá 80%. Ăn theo mùa.</li>
+<li><strong>Điều thân:</strong> Vận động nhẹ nhàng đều đặn — Thái Cực Quyền, Bát Đoạn Cẩm, đi bộ 30 phút/ngày.</li>
+<li><strong>Điều tức:</strong> Thở bụng sâu, khí công thở — kích thích phó giao cảm, giảm stress.</li>
+<li><strong>Điều ngủ:</strong> Ngủ trước 23h để bổ thận dương, ngủ đủ 7–8 giờ, không dùng điện thoại trong giường.</li>
+</ul>
+<p style="margin-top:24px;padding:16px 20px;background:#fef3c7;border-radius:12px;border-left:4px solid #d97706;">
+<strong>🧘 Tư vấn dưỡng sinh cá nhân:</strong> Gọi <strong>0973 710 237</strong> — BS. Nguyễn Đức Tâm tư vấn lối sống dưỡng sinh phù hợp thể trạng.
+</p>`
+  },
+  {
+    id: 37,
+    category: 'khong-thuoc',
+    categoryLabel: 'Không dùng thuốc',
+    gradient: 'g-amber',
+    icon: '🫁',
+    title: 'Xông hơi thảo dược: Thanh nhiệt giải độc và phòng bệnh hô hấp',
+    excerpt: 'Xông hơi thảo dược là phương pháp YHCT kết hợp nhiệt và tinh dầu từ dược liệu để điều trị cảm lạnh, thông mũi, và hỗ trợ sức khỏe da — đơn giản, an toàn và hiệu quả.',
+    date: '2026-05-25',
+    readTime: 5,
+    content: `<h2>Tác dụng của xông hơi thảo dược</h2>
+<p>Xông hơi thảo dược (Huân chưng pháp) kết hợp hai tác nhân: nhiệt (mở lỗ chân lông, giãn mạch, đổ mồ hôi) và tinh dầu thảo dược (kháng khuẩn, kháng virus, thông mũi). Tác dụng chính: đẩy phong hàn ra ngoài qua mồ hôi, thông xoang mũi, giảm đau đầu do cảm lạnh, cải thiện tuần hoàn da.</p>
+<h2>Công thức xông phổ biến</h2>
+<ul>
+<li><strong>Xông cảm lạnh:</strong> Lá sả + lá kinh giới + lá bưởi + lá ngải + gừng. Sắc sôi, trùm chăn xông 10–15 phút. Sau xông lau khô ngay, giữ ấm.</li>
+<li><strong>Xông thông mũi:</strong> Tinh dầu bạch đàn + bạc hà + khuynh diệp nhỏ vào bát nước nóng, xông mặt 5–10 phút.</li>
+<li><strong>Xông dưỡng da:</strong> Hoa hồng + cam thảo + bạch chỉ — mở lỗ chân lông, làm sạch sâu và dưỡng ẩm tự nhiên.</li>
+</ul>
+<h2>Lưu ý an toàn</h2>
+<p>Không xông khi đang sốt cao, huyết áp cao, tim mạch không ổn định, mang thai. Trẻ em dưới 5 tuổi không xông. Người cao tuổi xông thời gian ngắn hơn (5–7 phút) và có người hỗ trợ bên cạnh.</p>
+<p style="margin-top:24px;padding:16px 20px;background:#fef3c7;border-radius:12px;border-left:4px solid #d97706;">
+<strong>🌿 Tư vấn xông hơi thảo dược:</strong> Gọi <strong>0973 710 237</strong> để được BS. Nguyễn Đức Tâm hướng dẫn công thức phù hợp.
+</p>`
+  },
+  {
+    id: 38,
+    category: 'khong-thuoc',
+    categoryLabel: 'Không dùng thuốc',
+    gradient: 'g-amber',
+    icon: '🤸',
+    title: 'Bát Đoạn Cẩm: 8 bài tập khí công cổ điển cho người bận rộn',
+    excerpt: 'Bát Đoạn Cẩm là hệ thống 8 bài tập khí công YHCT được thực hành hơn 1000 năm. Mỗi bài tác động lên một tạng phủ cụ thể, chỉ cần 15–20 phút mỗi sáng để cải thiện sức khỏe toàn diện.',
+    date: '2026-05-22',
+    readTime: 5,
+    content: `<h2>Bát Đoạn Cẩm là gì?</h2>
+<p>Bát Đoạn Cẩm (八段锦 — 8 đoạn lụa) là bộ khí công dưỡng sinh cổ điển của Trung Quốc, có nguồn gốc từ thời Tống (thế kỷ 12). Tên "lụa" ám chỉ các động tác mượt mà, liên tục như dải lụa. Mỗi trong 8 bài tập có tên gọi gợi hình và tác động lên hệ thống kinh lạc và tạng phủ cụ thể.</p>
+<h2>8 bài tập và tác dụng</h2>
+<ul>
+<li><strong>Bài 1 — Hai tay nâng trời:</strong> Điều hòa tam tiêu, kéo giãn toàn thân.</li>
+<li><strong>Bài 2 — Bắn tên hai phía:</strong> Kiện phế cường thận, mở ngực vai.</li>
+<li><strong>Bài 3 — Nâng tay điều tỳ vị:</strong> Kiện tỳ hòa vị, cải thiện tiêu hóa.</li>
+<li><strong>Bài 4 — Nhìn sau xua bệnh:</strong> Khu ngũ lao thất thương, trị mỏi cổ.</li>
+<li><strong>Bài 5 — Lắc đầu vẫy đuôi:</strong> Tả tâm hỏa, giảm stress.</li>
+<li><strong>Bài 6 — Cúi nhặt bổ thận:</strong> Bổ thận tráng dương, cường gân cốt.</li>
+<li><strong>Bài 7 — Thụng nắm đấm:</strong> Tăng khí lực, cải thiện tuần hoàn.</li>
+<li><strong>Bài 8 — Nhún gót bách bệnh tiêu:</strong> Tổng hòa toàn bộ kinh lạc.</li>
+</ul>
+<h2>Cách thực hành</h2>
+<p>Tập buổi sáng sau khi thức dậy 15–30 phút. Mặc quần áo thoải mái, thở tự nhiên. Không cần dụng cụ, có thể tập ở bất kỳ không gian rộng nào. Người mới bắt đầu từ 2–3 lần/bài, tăng dần lên 8 lần/bài.</p>
+<p style="margin-top:24px;padding:16px 20px;background:#fef3c7;border-radius:12px;border-left:4px solid #d97706;">
+<strong>🤸 Học dưỡng sinh YHCT:</strong> Gọi <strong>0973 710 237</strong> để được BS. Nguyễn Đức Tâm hướng dẫn bài tập phù hợp thể trạng.
+</p>`
+  },
+  {
+    id: 39,
+    category: 'khong-thuoc',
+    categoryLabel: 'Không dùng thuốc',
+    gradient: 'g-amber',
+    icon: '💉',
+    title: 'Thủy châm (Tiêm huyệt): Kết hợp châm cứu và tiêm thuốc để tăng hiệu quả',
+    excerpt: 'Thủy châm là kỹ thuật tiêm dung dịch thuốc (vitamin, dược liệu, hoặc nước muối) vào huyệt vị — kết hợp tác dụng kích thích huyệt của châm cứu với tác dụng dược học của thuốc.',
+    date: '2026-05-20',
+    readTime: 5,
+    content: `<h2>Thủy châm là gì?</h2>
+<p>Thủy châm (水針 — Aquapuncture) là kỹ thuật tiêm lượng nhỏ dung dịch thuốc vào huyệt vị bằng kim tiêm. Cơ chế tác dụng gấp đôi: kích thích cơ học của kim vào huyệt (giống châm cứu) + tác dụng dược học của chất tiêm vào mô huyệt vị có mật độ thần kinh và mạch máu cao.</p>
+<h2>Các loại dung dịch thường dùng</h2>
+<ul>
+<li><strong>Vitamin B1, B6, B12:</strong> Phục hồi thần kinh — dùng cho tê bì, đau thần kinh, liệt mặt, sau tai biến.</li>
+<li><strong>Thuốc giảm đau loại nhẹ:</strong> Giảm đau cấp tại khớp đau, điểm cơ co cứng.</li>
+<li><strong>Dịch chiết dược liệu:</strong> Đương quy, Đan sâm — hoạt huyết tại huyệt.</li>
+<li><strong>Nước muối sinh lý:</strong> Kích thích cơ học thuần túy — an toàn, không tác dụng phụ dược học.</li>
+</ul>
+<h2>Chỉ định và ưu điểm</h2>
+<p>Thủy châm đặc biệt hiệu quả với: đau thần kinh tọa cấp, liệt mặt, tê bì tay chân do thiếu vitamin B, đau điểm kích hoạt cơ (trigger point). Ưu điểm: tác dụng kéo dài hơn châm cứu thông thường vì dung dịch tiêm duy trì kích thích huyệt nhiều giờ sau đó.</p>
+<p style="margin-top:24px;padding:16px 20px;background:#fef3c7;border-radius:12px;border-left:4px solid #d97706;">
+<strong>💉 Thủy châm chuyên khoa:</strong> Gọi <strong>0973 710 237</strong> — thực hiện bởi BS. Nguyễn Đức Tâm tại YHCT Tâm Đức.
+</p>`
+  },
+  {
+    id: 40,
+    category: 'khong-thuoc',
+    categoryLabel: 'Không dùng thuốc',
+    gradient: 'g-amber',
+    icon: '🫶',
+    title: 'Xoa bóp trẻ em theo YHCT: Tăng đề kháng và điều trị bệnh vặt không dùng thuốc',
+    excerpt: 'Xoa bóp trẻ em (Tiểu nhi tui na) là phương pháp dành riêng cho trẻ từ 0–7 tuổi, điều trị các bệnh thường gặp như tiêu chảy, biếng ăn, ho và tăng cường miễn dịch mà không cần thuốc.',
+    date: '2026-05-18',
+    readTime: 5,
+    content: `<h2>Tại sao trẻ em cần kỹ thuật riêng?</h2>
+<p>Tiểu nhi tui na (小儿推拿) là hệ thống xoa bóp chuyên biệt cho trẻ em, khác hoàn toàn với xoa bóp người lớn. Trẻ nhỏ có bản đồ huyệt vị khác, đặc biệt trên bàn tay — với các huyệt tương ứng 5 tạng có thể kích thích trực tiếp. Lực tác động nhẹ hơn nhiều nhưng hiệu quả cao do da trẻ mỏng, nhạy cảm và dẫn truyền tốt hơn.</p>
+<h2>Điều trị các bệnh thường gặp</h2>
+<ul>
+<li><strong>Biếng ăn, chậm tăng cân:</strong> Bổ tỳ (bổ kinh Tỳ trên ngón cái), xoa bụng theo chiều kim đồng hồ 5 phút — làm trước bữa ăn 30 phút.</li>
+<li><strong>Tiêu chảy:</strong> Bổ đại trường (vê ngón trỏ hướng ra), ấn huyệt Thiên Xu (cạnh rốn), xoa vùng xương cùng lên.</li>
+<li><strong>Táo bón:</strong> Thanh đại trường (vê ngón trỏ hướng vào), xoa bụng ngược chiều kim đồng hồ.</li>
+<li><strong>Ho, cảm lạnh:</strong> Khai thiên môn (xoa từ giữa trán lên đỉnh đầu), phân âm dương (xoa ra hai bên từ ấn đường), vỗ lưng khu đàm.</li>
+</ul>
+<h2>Kết hợp dưỡng sinh cho trẻ</h2>
+<p>Xoa bóp hàng ngày 10–15 phút trước bữa sáng là thói quen dưỡng sinh tốt nhất cho trẻ — đặc biệt trẻ hay ốm vặt, biếng ăn. Phụ huynh có thể học kỹ thuật cơ bản để thực hành tại nhà.</p>
+<p style="margin-top:24px;padding:16px 20px;background:#fef3c7;border-radius:12px;border-left:4px solid #d97706;">
+<strong>🫶 Xoa bóp trẻ em:</strong> Gọi <strong>0973 710 237</strong> — BS. Nguyễn Đức Tâm hướng dẫn kỹ thuật cho phụ huynh.
+</p>`
+  },
+{
+    id: 41,
+    category: 'thuoc-yhct',
+    categoryLabel: 'Thuốc YHCT',
+    gradient: 'g-navy',
+    icon: '🌱',
+    title: 'Lục Vị Địa Hoàng Hoàn: Bài thuốc bổ thận âm kinh điển',
+    excerpt: 'Lục Vị Địa Hoàng Hoàn là một trong những bài thuốc YHCT nổi tiếng nhất, được sử dụng hàng nghìn năm để bổ thận âm. Hiểu đúng công dụng và cách dùng để tránh lạm dụng.',
+    date: '2026-05-15',
+    readTime: 6,
+    content: `<h2>Thành phần và cơ chế</h2>
+<p>Lục Vị Địa Hoàng Hoàn gồm 6 vị: Thục địa (bổ thận âm — vị chính), Sơn thù du (bổ can thận), Hoài sơn (bổ tỳ thận), Trạch tả (tả thận hỏa), Phục linh (lợi thấp kiện tỳ), Đan bì (thanh can nhiệt). Công thức "tam bổ tam tả" — 3 vị bổ, 3 vị tả — tạo sự cân bằng, tránh bổ quá gây trệ.</p>
+<h2>Chỉ định đúng</h2>
+<ul>
+<li>Thận âm hư: lưng gối mỏi, tai ù, chóng mặt, đổ mồ hôi trộm, nóng lòng bàn tay chân, miệng khô</li>
+<li>Di tinh, tiểu đêm nhiều (thận không cố nhiếp)</li>
+<li>Trẻ em chậm phát triển, mọc răng chậm, đứng đi chậm (thận tinh bất túc)</li>
+<li>Phụ nữ mãn kinh: bốc hỏa, đổ mồ hôi đêm, khô âm đạo</li>
+</ul>
+<h2>Không dùng khi nào</h2>
+<p>Không dùng khi tỳ vị hư hàn (tiêu chảy, ăn kém, bụng lạnh) vì thục địa và sơn thù du nặng và trệ, dễ gây đầy bụng, khó tiêu. Cũng không phải thuốc dùng cho mọi trường hợp "yếu sinh lý" — chỉ đúng khi nguyên nhân là thận âm hư.</p>
+<p style="margin-top:24px;padding:16px 20px;background:#eff6ff;border-radius:12px;border-left:4px solid #3b82f6;">
+<strong>🌱 Kê đơn thuốc đúng thể bệnh:</strong> Gọi <strong>0973 710 237</strong> — BS. Nguyễn Đức Tâm chẩn mạch và kê bài thuốc phù hợp cho từng người.
+</p>`
+  },
+  {
+    id: 42,
+    category: 'thuoc-yhct',
+    categoryLabel: 'Thuốc YHCT',
+    gradient: 'g-navy',
+    icon: '⚡',
+    title: 'Bổ Trung Ích Khí Thang: Bài thuốc bổ tỳ phế nâng cao năng lượng',
+    excerpt: 'Mệt mỏi kinh niên, dễ ốm vặt, sa nội tạng — đây là chỉ định của Bổ Trung Ích Khí Thang, bài thuốc kinh điển bổ trung khí, nâng cao tỳ vị và tăng đề kháng toàn thân.',
+    date: '2026-05-12',
+    readTime: 5,
+    content: `<h2>Bổ Trung Ích Khí Thang — nguồn gốc</h2>
+<p>Bài thuốc này do danh y Lý Đông Viên (thế kỷ 13) sáng tạo, chuyên trị chứng khí hư hạ hãm (khí trung tiêu suy yếu, không nâng đỡ được các tạng phủ). Gồm: Hoàng kỳ (quân — bổ phế tỳ khí), Đảng sâm, Bạch truật, Cam thảo (bổ tỳ), Thăng ma, Sài hồ (nâng dương khí), Đương quy (dưỡng huyết), Trần bì (lý khí).</p>
+<h2>Chỉ định</h2>
+<ul>
+<li><strong>Mệt mỏi kinh niên:</strong> Mệt sau ít gắng sức, không muốn nói chuyện, thở ngắn, tự ra mồ hôi.</li>
+<li><strong>Sa nội tạng:</strong> Sa dạ dày, sa trực tràng, sa tử cung do trung khí bất túc không nâng đỡ.</li>
+<li><strong>Tiêu chảy mãn tính do tỳ hư:</strong> Phân lỏng sau ăn, không hấp thu tốt.</li>
+<li><strong>Sốt do lao (khí hư phát sốt):</strong> Sốt nhẹ chiều tối, mồ hôi đêm, mệt mỏi — thể khí hư.</li>
+<li><strong>Sau hóa xạ trị:</strong> Phục hồi khí lực, tăng bạch cầu.</li>
+</ul>
+<p style="margin-top:24px;padding:16px 20px;background:#eff6ff;border-radius:12px;border-left:4px solid #3b82f6;">
+<strong>⚡ Phục hồi năng lượng:</strong> Gọi <strong>0973 710 237</strong> — chẩn đoán thể bệnh và kê thuốc đúng hướng.
+</p>`
+  },
+  {
+    id: 43,
+    category: 'thuoc-yhct',
+    categoryLabel: 'Thuốc YHCT',
+    gradient: 'g-navy',
+    icon: '🍃',
+    title: 'Tiêu Dao Hoàn: Bài thuốc \'giải thoát\' cho người hay căng thẳng lo âu',
+    excerpt: 'Tiêu Dao Hoàn — tên gọi có nghĩa \'tự do phiêu diêu\' — là bài thuốc YHCT hàng đầu điều trị can khí uất kết: căng thẳng, cáu gắt, đau ngực sườn, kinh nguyệt không đều do stress.',
+    date: '2026-05-10',
+    readTime: 5,
+    content: `<h2>Tiêu Dao Hoàn trị gì?</h2>
+<p>Tiêu Dao Hoàn (逍遥丸) gồm: Sài hồ (sơ can giải uất — vị chính), Đương quy (dưỡng huyết hoạt huyết), Bạch thược (nhu can chỉ thống), Bạch truật + Phục linh (kiện tỳ), Cam thảo (điều hòa), Bạc hà (tăng sơ can), Gừng (ôn vị). Bài thuốc "sơ can, kiện tỳ, dưỡng huyết" — ba tác dụng cùng lúc.</p>
+<h2>Chỉ định</h2>
+<ul>
+<li>Can khí uất kết: căng thẳng, hay cáu gắt, đau hạ sườn, thở dài, ngực tức</li>
+<li>Kinh nguyệt không đều do căng thẳng: đau bụng kinh tăng khi stress, kinh trước hoặc sau kỳ</li>
+<li>PMS (Hội chứng tiền kinh nguyệt): cáu gắt, ngực căng, đầy bụng trước kỳ kinh</li>
+<li>Trầm cảm nhẹ-vừa thể can uất: thích khóc, hay buồn không rõ lý do</li>
+<li>Đau dạ dày do căng thẳng: đau tăng khi lo âu, giảm khi thư giãn</li>
+</ul>
+<h2>Lưu ý</h2>
+<p>Tiêu Dao Hoàn chỉ đúng với thể can uất. Nếu kết hợp thêm âm hư nội nhiệt (nóng trong, đổ mồ hôi đêm), dùng Đan Chi Tiêu Dao Hoàn (thêm đan bì + chi tử). Không dùng khi mang thai.</p>
+<p style="margin-top:24px;padding:16px 20px;background:#eff6ff;border-radius:12px;border-left:4px solid #3b82f6;">
+<strong>🍃 Giải thoát căng thẳng:</strong> Gọi <strong>0973 710 237</strong> — chẩn đoán và kê đơn thuốc đúng thể.
+</p>`
+  },
+  {
+    id: 44,
+    category: 'thuoc-yhct',
+    categoryLabel: 'Thuốc YHCT',
+    gradient: 'g-navy',
+    icon: '🦴',
+    title: 'Độc Hoạt Ký Sinh Thang: Bài thuốc vàng cho đau xương khớp người cao tuổi',
+    excerpt: 'Độc Hoạt Ký Sinh Thang là bài thuốc YHCT kinh điển điều trị phong thấp, đau khớp mãn tính và thoái hóa — đặc biệt phù hợp người cao tuổi có thể can thận hư kết hợp phong hàn thấp.',
+    date: '2026-05-08',
+    readTime: 5,
+    content: `<h2>Thành phần và tác dụng</h2>
+<p>Bài thuốc có 15 vị, chia 3 nhóm: (1) Khu phong thấp: Độc hoạt, Phòng phong, Tần giao, Tế tân; (2) Bổ can thận: Tang ký sinh, Đỗ trọng, Ngưu tất, Địa hoàng, Đương quy, Bạch thược; (3) Ích khí hoạt huyết: Nhân sâm, Phục linh, Cam thảo, Xuyên khung, Quế chi. Công thức toàn diện: trị cả ngọn (khu tà) lẫn gốc (bổ chính).</p>
+<h2>Chỉ định phù hợp</h2>
+<ul>
+<li>Đau lưng-gối mãn tính người cao tuổi: thận hư cốt nhuyễn + phong hàn thấp tà</li>
+<li>Thoái hóa cột sống thắt lưng, thoái hóa khớp gối</li>
+<li>Thoát vị đĩa đệm thể hàn thấp</li>
+<li>Phong thấp mãn tính: đau tăng khi lạnh, ẩm</li>
+</ul>
+<h2>Thời gian điều trị</h2>
+<p>Thường dùng dạng thuốc thang sắc uống, liệu trình 1–3 tháng. Hiện có dạng viên hoàn tiện dụng hơn. Kết quả rõ nhất khi kết hợp với châm cứu và cứu ngải cùng lúc.</p>
+<p style="margin-top:24px;padding:16px 20px;background:#eff6ff;border-radius:12px;border-left:4px solid #3b82f6;">
+<strong>🦴 Bổ thận mạnh xương:</strong> Gọi <strong>0973 710 237</strong> — BS. Nguyễn Đức Tâm kê đơn thuốc thang cá nhân hóa.
+</p>`
+  },
+  {
+    id: 45,
+    category: 'thuoc-yhct',
+    categoryLabel: 'Thuốc YHCT',
+    gradient: 'g-navy',
+    icon: '🌸',
+    title: 'Đương Quy: Vị thuốc bổ huyết hàng đầu cho phụ nữ trong YHCT',
+    excerpt: 'Đương quy là vị thuốc quan trọng bậc nhất trong YHCT cho sức khỏe phụ nữ — bổ huyết, hoạt huyết, điều kinh. Được mệnh danh là \'nhân sâm của phụ nữ\' vì công dụng toàn diện.',
+    date: '2026-05-05',
+    readTime: 5,
+    content: `<h2>Đương quy — vị thuốc của phụ nữ</h2>
+<p>Đương quy (Angelica sinensis) được ghi trong Thần Nông Bản Thảo Kinh — bộ dược điển cổ nhất của YHCT. Tên "đương quy" nghĩa là "phải trở về" — ám chỉ tác dụng đưa huyết về đúng chỗ, điều hòa kinh mạch. Vị ngọt cay, tính ôn; quy kinh tâm, can, tỳ.</p>
+<h2>Tác dụng dược lý hiện đại</h2>
+<ul>
+<li><strong>Bổ huyết:</strong> Kích thích sinh hồng cầu, tăng hemoglobin — phù hợp thiếu máu nhẹ.</li>
+<li><strong>Điều hòa tử cung:</strong> Ferulic acid trong đương quy vừa có tác dụng co và giãn cơ trơn tử cung tùy liều — giải thích tác dụng điều kinh hai chiều.</li>
+<li><strong>Kháng viêm và giảm đau:</strong> Ức chế sản xuất prostaglandin — giảm đau bụng kinh hiệu quả.</li>
+<li><strong>Chống đông nhẹ:</strong> Tăng tuần hoàn máu — tốt với người khí huyết ứ trệ.</li>
+</ul>
+<h2>Cách dùng phổ biến</h2>
+<p>Trong bài thuốc thang: 8–15g/ngày. Nấu cháo với gà ác: 10g đương quy + gà ác — bổ huyết sau sinh, sau kinh nguyệt nhiều. Không dùng khi mang thai (đặc biệt 3 tháng đầu), đang tiêu chảy, hoặc xuất huyết cấp.</p>
+<p style="margin-top:24px;padding:16px 20px;background:#eff6ff;border-radius:12px;border-left:4px solid #3b82f6;">
+<strong>🌸 Tư vấn thuốc bổ huyết:</strong> Gọi <strong>0973 710 237</strong> — được tư vấn sử dụng đương quy và các vị thuốc bổ phù hợp.
+</p>`
+  },
+  {
+    id: 46,
+    category: 'thuoc-yhct',
+    categoryLabel: 'Thuốc YHCT',
+    gradient: 'g-navy',
+    icon: '💪',
+    title: 'Hoàng Kỳ: Vị thuốc tăng miễn dịch số 1 trong YHCT',
+    excerpt: 'Hoàng kỳ là vị thuốc bổ khí hàng đầu trong YHCT, được nghiên cứu hiện đại xác nhận tác dụng tăng miễn dịch mạnh mẽ. Tìm hiểu cách sử dụng đúng và hiệu quả nhất.',
+    date: '2026-05-03',
+    readTime: 5,
+    content: `<h2>Hoàng kỳ và hệ miễn dịch</h2>
+<p>Hoàng kỳ (Astragalus membranaceus) là vị thuốc bổ phế tỳ khí quan trọng nhất trong YHCT. Nghiên cứu hiện đại xác nhận: polysaccharide từ hoàng kỳ (APS) kích thích tăng sinh tế bào T, tế bào NK và đại thực bào — ba thành phần miễn dịch quan trọng nhất. MD Anderson Cancer Center (Mỹ) đã nghiên cứu hoàng kỳ trong hỗ trợ điều trị ung thư.</p>
+<h2>Chỉ định</h2>
+<ul>
+<li>Khí hư tự ra mồ hôi: mồ hôi ra nhiều mà không gắng sức, hay bị cảm vặt</li>
+<li>Tăng đề kháng mùa dịch, người hay ốm vặt</li>
+<li>Hỗ trợ hồi phục sau hóa xạ trị ung thư</li>
+<li>Tiểu đường: cải thiện nhạy cảm insulin, bảo vệ thận</li>
+<li>Sa nội tạng: kết hợp trong bài Bổ Trung Ích Khí</li>
+</ul>
+<h2>Cách dùng hàng ngày</h2>
+<p>Sắc 15–30g uống như trà. Nấu cháo hoặc hầm xương với 20g hoàng kỳ. Hoặc dùng chiết xuất chuẩn hóa (500mg/ngày). Không dùng khi đang sốt, viêm nhiễm cấp (bệnh thực chứng) vì bổ có thể làm bế tà.</p>
+<p style="margin-top:24px;padding:16px 20px;background:#eff6ff;border-radius:12px;border-left:4px solid #3b82f6;">
+<strong>💪 Tăng đề kháng bằng YHCT:</strong> Gọi <strong>0973 710 237</strong> — tư vấn phác đồ tăng miễn dịch cá nhân hóa.
+</p>`
+  },
+  {
+    id: 47,
+    category: 'thuoc-yhct',
+    categoryLabel: 'Thuốc YHCT',
+    gradient: 'g-navy',
+    icon: '🔴',
+    title: 'Tam Thất: Vị thuốc cầm máu, bổ huyết và bảo vệ tim mạch',
+    excerpt: 'Tam thất là vị thuốc quý trong YHCT với tác dụng kép độc đáo: vừa cầm máu vừa hoạt huyết. Nghiên cứu hiện đại xác nhận nhiều tác dụng bảo vệ tim mạch và chống oxy hóa.',
+    date: '2026-05-01',
+    readTime: 5,
+    content: `<h2>Tam thất — vị thuốc hai mặt</h2>
+<p>Tam thất (Panax notoginseng) là họ hàng gần của nhân sâm, được YHCT gọi là "Kim bất hoán" (vàng không đổi được). Đặc điểm độc đáo: vừa cầm máu (khi chảy máu) vừa hoạt huyết, tiêu ứ (khi không chảy máu) — tùy trạng thái sinh lý mà tác dụng khác nhau. Hoạt chất chính: notoginsenoside R1, ginsenoside Rg1, Rb1.</p>
+<h2>Tác dụng lâm sàng</h2>
+<ul>
+<li><strong>Cầm máu:</strong> Chấn thương, chảy máu vết thương ngoài da, băng huyết. Dùng dạng bột rắc lên vết thương hoặc uống trong.</li>
+<li><strong>Tim mạch:</strong> Giảm cholesterol xấu (LDL), tăng HDL, chống tạo huyết khối — được nghiên cứu rộng rãi cho bệnh tim mạch.</li>
+<li><strong>Sau chấn thương, sau phẫu thuật:</strong> Tiêu sưng, giảm đau, hoạt huyết tiêu ứ.</li>
+<li><strong>Đau ngực, đau thắt ngực:</strong> Dùng trong bài thuốc tim mạch YHCT.</li>
+</ul>
+<h2>Cách dùng</h2>
+<p>Bột tam thất: 3–6g/ngày pha nước ấm. Hoặc ngâm rượu: 50g tam thất + 500ml rượu 40 độ, uống 10ml/ngày. Phụ nữ mang thai không dùng (đặc biệt 3 tháng đầu). Không dùng cùng thuốc chống đông máu.</p>
+<p style="margin-top:24px;padding:16px 20px;background:#eff6ff;border-radius:12px;border-left:4px solid #3b82f6;">
+<strong>🔴 Tư vấn tam thất:</strong> Gọi <strong>0973 710 237</strong> — tư vấn cách dùng đúng và an toàn.
+</p>`
+  },
+  {
+    id: 48,
+    category: 'thuoc-yhct',
+    categoryLabel: 'Thuốc YHCT',
+    gradient: 'g-navy',
+    icon: '👑',
+    title: 'Nhân Sâm: Sự thật về \'thần dược\' và cách dùng đúng',
+    excerpt: 'Nhân sâm là vị thuốc bổ khí nổi tiếng nhất YHCT nhưng cũng bị hiểu sai nhiều nhất. Không phải ai cũng phù hợp dùng nhân sâm — tìm hiểu chỉ định đúng và tránh tác hại không mong muốn.',
+    date: '2026-04-28',
+    readTime: 6,
+    content: `<h2>Nhân sâm — đúng và sai</h2>
+<p>Nhân sâm (Panax ginseng) chứa ginsenoside — nhóm hoạt chất đã được nghiên cứu lâm sàng rộng rãi. Tác dụng xác nhận: bổ khí, tăng thể lực, cải thiện nhận thức, tăng đề kháng, điều hòa đường huyết. Tuy nhiên, nhân sâm không phải "thần dược cho mọi người" — dùng sai thể bệnh có thể gây hại.</p>
+<h2>Ai nên dùng nhân sâm</h2>
+<ul>
+<li>Khí hư: mệt mỏi mãn tính, thở ngắn, ra mồ hôi tự nhiên, miễn dịch yếu</li>
+<li>Tỳ vị hư: ăn kém, tiêu hóa yếu, phân lỏng (dùng Đảng sâm thay thế với chi phí thấp hơn)</li>
+<li>Người cao tuổi thể trạng yếu</li>
+<li>Sau bệnh nặng, sau phẫu thuật cần phục hồi</li>
+</ul>
+<h2>Ai KHÔNG nên dùng nhân sâm</h2>
+<p>Thực nhiệt (người đang sốt, viêm cấp), âm hư nội nhiệt (nóng bừng, đổ mồ hôi đêm, họng khô), người huyết áp cao không ổn định, phụ nữ mang thai 3 tháng đầu. Dùng nhân sâm khi thực chứng hoặc nhiệt chứng gây: đau đầu, huyết áp tăng, mất ngủ, bức rức khó chịu — gọi là "nhân sâm lạm dụng" (ginseng abuse syndrome).</p>
+<p style="margin-top:24px;padding:16px 20px;background:#eff6ff;border-radius:12px;border-left:4px solid #3b82f6;">
+<strong>👑 Tư vấn nhân sâm đúng thể:</strong> Gọi <strong>0973 710 237</strong> — chẩn mạch xác định thể trạng trước khi dùng.
+</p>`
+  },
+  {
+    id: 49,
+    category: 'thuoc-yhct',
+    categoryLabel: 'Thuốc YHCT',
+    gradient: 'g-navy',
+    icon: '🍄',
+    title: 'Linh Chi: Thực tế khoa học đằng sau \'nấm trường thọ\'',
+    excerpt: 'Linh chi (Ganoderma lucidum) có hàng nghìn năm sử dụng trong YHCT. Nghiên cứu hiện đại xác nhận một số tác dụng quan trọng — nhưng cũng có nhiều tuyên bố phóng đại cần biết để tránh lừa đảo.',
+    date: '2026-04-25',
+    readTime: 5,
+    content: `<h2>Linh chi trong YHCT và nghiên cứu hiện đại</h2>
+<p>Linh chi (靈芝 — Ganoderma) được xếp vào thượng phẩm trong Thần Nông Bản Thảo Kinh — thuốc bổ tâm an thần, bổ hư, kéo dài tuổi thọ. Hoạt chất chính: beta-glucan (miễn dịch), triterpenoid (kháng viêm, bảo vệ gan), adenosine (giãn mạch, giảm đau).</p>
+<h2>Tác dụng có bằng chứng</h2>
+<ul>
+<li><strong>Tăng miễn dịch:</strong> Beta-glucan kích thích tế bào NK và đại thực bào — hỗ trợ phòng và điều trị ung thư phụ trợ.</li>
+<li><strong>Bảo vệ gan:</strong> Triterpenoid bảo vệ tế bào gan, giảm men gan — được dùng hỗ trợ viêm gan B mãn tính.</li>
+<li><strong>An thần, cải thiện giấc ngủ:</strong> Adenosine và polysaccharide có tác dụng an thần nhẹ.</li>
+<li><strong>Hạ đường huyết nhẹ:</strong> Hỗ trợ tiểu đường type 2.</li>
+</ul>
+<h2>Cảnh báo về chất lượng</h2>
+<p>Thị trường linh chi tràn ngập hàng giả, hàng kém chất lượng. Mua linh chi từ nguồn uy tín, có kiểm nghiệm beta-glucan và triterpenoid. Không có bằng chứng linh chi "chữa ung thư" — chỉ hỗ trợ phụ trợ.</p>
+<p style="margin-top:24px;padding:16px 20px;background:#eff6ff;border-radius:12px;border-left:4px solid #3b82f6;">
+<strong>🍄 Tư vấn thảo dược chất lượng:</strong> Gọi <strong>0973 710 237</strong> — được tư vấn về nguồn gốc và cách dùng đúng.
+</p>`
+  },
+  {
+    id: 50,
+    category: 'thuoc-yhct',
+    categoryLabel: 'Thuốc YHCT',
+    gradient: 'g-navy',
+    icon: '🥬',
+    title: 'Tứ Quân Tử Thang: Bài thuốc bổ tỳ cơ bản nhất — nền tảng của nhiều bài thuốc',
+    excerpt: 'Tứ Quân Tử Thang là bài thuốc bổ khí đơn giản nhất nhưng quan trọng nhất trong YHCT. Là nền tảng của hàng chục bài thuốc bổ tỳ vị khác và là khởi điểm điều trị mọi chứng khí hư.',
+    date: '2026-04-22',
+    readTime: 5,
+    content: `<h2>Tứ Quân Tử — 4 vị thuốc cơ bản</h2>
+<p>Tứ Quân Tử Thang gồm đúng 4 vị: Nhân sâm (hoặc Đảng sâm — đại bổ nguyên khí), Bạch truật (kiện tỳ táo thấp), Phục linh (kiện tỳ lợi thấp), Cam thảo chích (bổ tỳ điều hòa). Bốn "quân tử" (bốn vị thuốc cư xử đứng đắn) phối hợp bổ khí tỳ vị toàn diện mà không gây trệ.</p>
+<h2>Biến thể và ứng dụng</h2>
+<ul>
+<li><strong>Lục Quân Tử:</strong> + Trần bì + Bán hạ — tỳ hư có đàm thấp, ăn kém buồn nôn</li>
+<li><strong>Hương Sa Lục Quân:</strong> + Mộc hương + Sa nhân — tỳ hư khí trệ, đau bụng đầy hơi</li>
+<li><strong>Bổ Trung Ích Khí:</strong> Biến thể bổ tỳ + nâng dương khí (thêm Hoàng kỳ, Thăng ma, Sài hồ)</li>
+<li><strong>Quy Tỳ Thang:</strong> Biến thể tỳ + tâm — thêm dưỡng huyết an thần</li>
+</ul>
+<h2>Chỉ định đơn giản</h2>
+<p>Ăn kém, tiêu hóa yếu, phân lỏng, mệt mỏi, mặt vàng nhợt, thở ngắn, tiếng nói nhỏ yếu — đây là hội chứng tỳ khí hư điển hình cần Tứ Quân tử.</p>
+<p style="margin-top:24px;padding:16px 20px;background:#eff6ff;border-radius:12px;border-left:4px solid #3b82f6;">
+<strong>🥬 Bổ tỳ vị đúng cách:</strong> Gọi <strong>0973 710 237</strong> — chẩn đoán và kê thuốc bổ phù hợp.
+</p>`
+  },
+  {
+    id: 51,
+    category: 'thuoc-yhct',
+    categoryLabel: 'Thuốc YHCT',
+    gradient: 'g-navy',
+    icon: '🔥',
+    title: 'Kim Quỹ Thận Khí Hoàn: Bổ thận dương — điều trị yếu sinh lý và lạnh lưng',
+    excerpt: 'Kim Quỹ Thận Khí Hoàn là bài thuốc bổ thận dương kinh điển — điều trị lưng gối lạnh, tiểu đêm nhiều, yếu sinh lý nam, chi dưới lạnh. Là đối trọng bổ dương với Lục Vị bổ âm.',
+    date: '2026-04-20',
+    readTime: 5,
+    content: `<h2>Thận dương hư — bệnh của thể lạnh</h2>
+<p>Thận dương (命門之火 — lửa Mệnh môn) là nguồn nhiệt gốc của cơ thể. Thận dương hư gây: lưng gối lạnh-yếu, sợ lạnh, tứ chi lạnh, tiểu đêm nhiều, tiêu chảy sáng sớm, phù nề, giảm ham muốn tình dục. Phân biệt với thận âm hư (nóng bừng, đổ mồ hôi đêm) rất quan trọng.</p>
+<h2>Kim Quỹ Thận Khí Hoàn</h2>
+<p>Thành phần: Lục Vị Địa Hoàng (nền bổ thận) + Phụ tử (ôn thận dương — vị chính) + Nhục quế (dẫn hỏa quy nguyên). Bài thuốc bổ âm để dưỡng dương — "âm trung cầu dương" — đây là nguyên tắc bổ dương khôn ngoan trong YHCT.</p>
+<h2>Chỉ định</h2>
+<ul>
+<li>Tiểu đêm nhiều (đêm tiểu 3–5 lần), tiểu không tự chủ người cao tuổi</li>
+<li>Phù nề do thận dương hư không khí hóa thủy thấp</li>
+<li>Yếu sinh lý nam: liệt dương, xuất tinh sớm thể thận dương hư</li>
+<li>Tiêu chảy sáng sớm (ngũ canh tả)</li>
+<li>Phụ nữ: khí hư bạch đới do hạ nguyên hư hàn</li>
+</ul>
+<p style="margin-top:24px;padding:16px 20px;background:#eff6ff;border-radius:12px;border-left:4px solid #3b82f6;">
+<strong>🔥 Bổ thận dương đúng thể:</strong> Gọi <strong>0973 710 237</strong> — chẩn mạch xác định âm hư hay dương hư trước khi dùng.
+</p>`
+  },
+  {
+    id: 52,
+    category: 'thuoc-yhct',
+    categoryLabel: 'Thuốc YHCT',
+    gradient: 'g-navy',
+    icon: '🫚',
+    title: 'Đông Trùng Hạ Thảo: Thực tế và huyền thoại về \'thuốc quý nhất thế giới\'',
+    excerpt: 'Đông trùng hạ thảo được mệnh danh là thuốc quý nhất YHCT, giá đắt như vàng. Tìm hiểu tác dụng thực sự được khoa học xác nhận và cách phân biệt hàng thật-giả trên thị trường.',
+    date: '2026-04-18',
+    readTime: 5,
+    content: `<h2>Đông trùng hạ thảo là gì?</h2>
+<p>Đông trùng hạ thảo (冬蟲夏草 — Cordyceps sinensis) là ký sinh nấm phát triển trên sâu bướm, ký sinh trong đất vùng cao nguyên Tây Tạng và dãy Himalaya. Mùa đông là sâu, mùa hè nảy nấm — tên gọi từ đó. Hiếm và khó thu hoạch nên giá rất cao (có thể vài chục triệu đồng/kg hàng thật).</p>
+<h2>Tác dụng được nghiên cứu</h2>
+<ul>
+<li><strong>Bổ phế thận:</strong> Cải thiện công năng hô hấp, VO2 max — được vận động viên Trung Quốc dùng trong Olympic 1992.</li>
+<li><strong>Tăng miễn dịch:</strong> Cordycepin và polysaccharide kích thích hệ miễn dịch.</li>
+<li><strong>Bảo vệ thận:</strong> Giảm protein niệu, bảo vệ chức năng thận trong bệnh thận mãn.</li>
+<li><strong>Chống mệt mỏi:</strong> Tăng ATP tế bào cơ.</li>
+</ul>
+<h2>Cảnh báo về thị trường</h2>
+<p>95% sản phẩm "đông trùng hạ thảo" trên thị trường là Cordyceps militaris (nuôi trồng) — rẻ hơn và an toàn hơn, có một số tác dụng tương tự nhưng không phải Cordyceps sinensis tự nhiên. Không mua đông trùng hạ thảo giá rẻ vì đây là hàng giả hoàn toàn.</p>
+<p style="margin-top:24px;padding:16px 20px;background:#eff6ff;border-radius:12px;border-left:4px solid #3b82f6;">
+<strong>🫚 Tư vấn thuốc bổ quý:</strong> Gọi <strong>0973 710 237</strong> — được tư vấn lựa chọn thuốc bổ phù hợp túi tiền và thể trạng.
+</p>`
+  },
+  {
+    id: 53,
+    category: 'thuoc-yhct',
+    categoryLabel: 'Thuốc YHCT',
+    gradient: 'g-navy',
+    icon: '🍵',
+    title: 'Trà thảo dược YHCT: 5 loại trà dễ làm tại nhà cho từng vấn đề sức khỏe',
+    excerpt: 'Trà thảo dược là cách đơn giản nhất để tích hợp YHCT vào cuộc sống hàng ngày. 5 công thức trà cho các vấn đề phổ biến nhất: mất ngủ, tiêu hóa kém, stress, đau đầu và tăng đề kháng.',
+    date: '2026-04-15',
+    readTime: 5,
+    content: `<h2>Trà thảo dược — YHCT trong tách trà</h2>
+<p>Người Việt Nam có truyền thống uống trà thảo dược lâu đời — từ chè vối, trà gừng đến trà atiso. YHCT sử dụng trà thảo dược như liệu pháp duy trì sức khỏe hàng ngày, không phải chỉ khi bệnh.</p>
+<h2>5 công thức trà thực dụng</h2>
+<ul>
+<li><strong>Trà an thần (mất ngủ nhẹ):</strong> Tâm sen 3g + lá vông 5g + bạc hà 2g. Hãm 10 phút. Uống trước ngủ 30 phút. Không dùng liên tục quá 2 tuần.</li>
+<li><strong>Trà tiêu hóa (ăn không tiêu, đầy bụng):</strong> Gừng 3 lát + trần bì 5g + hậu phác 3g. Sắc 15 phút uống sau ăn. Ôn trung hành khí.</li>
+<li><strong>Trà giải stress (can khí uất):</strong> Hoa cúc 5g + hoa nhài 3g + cam thảo 2g. Hãm 7 phút. Uống chiều. Sơ can giải uất, an thần nhẹ.</li>
+<li><strong>Trà đau đầu (phong nhiệt):</strong> Cúc hoa 8g + câu kỷ tử 5g + bạc hà 3g. Hãm 5 phút. Thanh nhiệt sáng mắt, giảm đau đầu do nhiệt.</li>
+<li><strong>Trà tăng đề kháng:</strong> Hoàng kỳ 10g + đại táo 3 quả + gừng 2 lát. Sắc 20 phút uống buổi sáng. Bổ khí vệ, tăng phòng vệ.</li>
+</ul>
+<p style="margin-top:24px;padding:16px 20px;background:#eff6ff;border-radius:12px;border-left:4px solid #3b82f6;">
+<strong>🍵 Tư vấn trà thảo dược:</strong> Gọi <strong>0973 710 237</strong> — BS. Nguyễn Đức Tâm tư vấn công thức phù hợp thể trạng.
+</p>`
+  },
+  {
+    id: 54,
+    category: 'thuoc-yhct',
+    categoryLabel: 'Thuốc YHCT',
+    gradient: 'g-navy',
+    icon: '🌾',
+    title: 'Ý Dĩ (Hạt Bo Bo): Thực phẩm — thuốc giúp trừ thấp, làm đẹp da và hỗ trợ gout',
+    excerpt: 'Ý dĩ là thực phẩm — thuốc phổ biến trong YHCT, dễ dùng, an toàn, hiệu quả trong trừ thấp, hỗ trợ gout, và đặc biệt nổi tiếng làm đẹp da theo phong cách YHCT Nhật Bản.',
+    date: '2026-04-12',
+    readTime: 5,
+    content: `<h2>Ý dĩ — thực phẩm lợi thấp</h2>
+<p>Ý dĩ (Coix lacryma-jobi, hạt bo bo) là ngũ cốc phổ biến nhưng ít được biết đến tác dụng y học. Trong YHCT: vị ngọt đạm, tính hơi hàn, lợi thấp kiện tỳ, thanh nhiệt bài nùng. Đặc biệt phù hợp với thể thấp nhiệt — người béo, da nhờn, mụn, đau khớp tăng khi ẩm.</p>
+<h2>Tác dụng lâm sàng</h2>
+<ul>
+<li><strong>Hỗ trợ gout:</strong> Trừ thấp nhiệt, hỗ trợ đào thải acid uric qua thận. Nấu cháo ý dĩ ăn hàng ngày trong đợt gout.</li>
+<li><strong>Làm đẹp da:</strong> Ý dĩ nổi tiếng trong YHCT Nhật Bản (hato mugi) làm trắng da, giảm mụn — ức chế tyrosinase (enzyme tổng hợp melanin). Uống trà ý dĩ rang vàng hàng ngày.</li>
+<li><strong>Hỗ trợ tiêu hóa:</strong> Lợi thấp kiện tỳ, giúp tiêu chảy, phù thấp nhẹ.</li>
+<li><strong>Hỗ trợ chống ung thư:</strong> Coixenolide trong ý dĩ đang được nghiên cứu tác dụng chống tế bào ung thư.</li>
+</ul>
+<h2>Cách dùng hàng ngày</h2>
+<p>Rang vàng ý dĩ, sắc uống như trà (20g/ngày). Nấu cháo ý dĩ + đậu đỏ (lợi thấp mạnh hơn). Hoặc xay bột pha sữa. Phụ nữ mang thai 3 tháng đầu hạn chế dùng.</p>
+<p style="margin-top:24px;padding:16px 20px;background:#eff6ff;border-radius:12px;border-left:4px solid #3b82f6;">
+<strong>🌾 Thực phẩm — thuốc hàng ngày:</strong> Gọi <strong>0973 710 237</strong> — tư vấn chế độ ăn theo YHCT cho từng thể trạng.
+</p>`
+  },
+  {
+    id: 55,
+    category: 'thuoc-yhct',
+    categoryLabel: 'Thuốc YHCT',
+    gradient: 'g-navy',
+    icon: '🫁',
+    title: 'Bài thuốc YHCT hỗ trợ điều trị viêm phế quản và hen suyễn nhẹ',
+    excerpt: 'Hen suyễn và viêm phế quản mãn tính là nhóm bệnh hô hấp quan trọng cần quản lý lâu dài. YHCT có bài thuốc và phương pháp hỗ trợ hiệu quả giúp giảm tần suất cơn và cải thiện chức năng phổi.',
+    date: '2026-04-10',
+    readTime: 5,
+    content: `<h2>YHCT và bệnh hô hấp mãn tính</h2>
+<p>Hen suyễn trong YHCT gọi là <em>Háo chứng</em> (喘证) — thở khò khè, khó thở cơn. YHCT phân: <strong>Phát tác kỳ</strong> (cơn cấp — trục tà) và <strong>Hoãn giải kỳ</strong> (ngoài cơn — bổ chính). Không dùng thuốc bổ trong cơn cấp và không chỉ dùng trục tà khi ngoài cơn.</p>
+<h2>Trong giai đoạn ngoài cơn (quan trọng nhất)</h2>
+<ul>
+<li><strong>Thể phế tỳ khí hư:</strong> Ngọc Bình Phong Tán (hoàng kỳ + bạch truật + phòng phong) — tăng sức đề kháng niêm mạc hô hấp, giảm tần suất cơn cảm và cơn hen.</li>
+<li><strong>Thể phế thận dương hư:</strong> Kim Quỹ Thận Khí gia giảm — ôn thận nạp khí, giảm khó thở gắng sức.</li>
+<li><strong>Châm cứu:</strong> Định Suyễn (ngoại kỳ huyệt), Phế Du (BL13), Phong Môn (BL12), Túc Tam Lý (ST36) — liệu trình 10–15 buổi/đợt, 3–4 đợt/năm.</li>
+</ul>
+<h2>Lưu ý</h2>
+<p>Không thay thuốc cắt cơn hen cấp (ventolin, corticoid) bằng YHCT. YHCT đóng vai trò phòng ngừa và hỗ trợ dài hạn, không điều trị cơn cấp. Luôn mang theo thuốc cắt cơn.</p>
+<p style="margin-top:24px;padding:16px 20px;background:#eff6ff;border-radius:12px;border-left:4px solid #3b82f6;">
+<strong>🫁 Hỗ trợ điều trị hen YHCT:</strong> Gọi <strong>0973 710 237</strong> — tư vấn phác đồ dự phòng dài hạn.
+</p>`
+  },
+  {
+    id: 56,
+    category: 'phong-benh',
+    categoryLabel: 'Phòng bệnh',
+    gradient: 'g-fire',
+    icon: '🌸',
+    title: 'Phòng bệnh theo mùa: Lịch dưỡng sinh 4 mùa theo YHCT',
+    excerpt: 'YHCT quan niệm cơ thể người phải hòa nhập với nhịp điệu của thiên nhiên theo mùa. Mỗi mùa có quy tắc ăn uống, vận động và sinh hoạt riêng để bảo vệ tạng phủ tương ứng.',
+    date: '2026-04-08',
+    readTime: 5,
+    content: `<h2>Thiên nhân hợp nhất — sống cùng thiên nhiên</h2>
+<p>Nguyên lý <em>Thiên nhân hợp nhất</em> (天人合一) là nền tảng của dưỡng sinh YHCT: cơ thể người là thu nhỏ của vũ trụ, phải sống thuận theo nhịp thiên nhiên để duy trì sức khỏe. Mỗi mùa có hành khí đặc trưng tác động lên tạng phủ tương ứng.</p>
+<h2>Lịch dưỡng sinh theo mùa</h2>
+<ul>
+<li><strong>Mùa xuân (Gan — Mộc):</strong> Dậy sớm, vận động ngoài trời, ăn xanh (rau mầm, cải xanh). Tránh tức giận. Bổ can: câu kỷ tử, cúc hoa.</li>
+<li><strong>Mùa hè (Tim — Hỏa):</strong> Ngủ trưa ngắn 20 phút, không để mồ hôi ra quá nhiều. Ăn đắng-nhạt (khổ qua, tâm sen). Tránh nóng giận. Uống nhiều nước.</li>
+<li><strong>Mùa thu (Phổi — Kim):</strong> Ngủ sớm dậy sớm, tập thở. Ăn trắng, ẩm (lê, bạch mộc nhĩ, mật ong). Tránh buồn bã.</li>
+<li><strong>Mùa đông (Thận — Thủy):</strong> Ngủ sớm dậy muộn (lưu trữ dương khí), giữ ấm lưng và bàn chân. Ăn đen, mặn nhẹ (đậu đen, mè đen). Tránh sợ hãi.</li>
+</ul>
+<p style="margin-top:24px;padding:16px 20px;background:#fff7ed;border-radius:12px;border-left:4px solid #ea580c;">
+<strong>🌸 Dưỡng sinh theo mùa:</strong> Gọi <strong>0973 710 237</strong> — tư vấn lối sống dưỡng sinh cá nhân hóa theo thể trạng và mùa.
+</p>`
+  },
+  {
+    id: 57,
+    category: 'phong-benh',
+    categoryLabel: 'Phòng bệnh',
+    gradient: 'g-fire',
+    icon: '🍽️',
+    title: 'Chế độ ăn theo thể trạng YHCT: Tìm hiểu bạn thuộc thể nào',
+    excerpt: 'YHCT phân chia con người thành các thể trạng khác nhau và mỗi thể cần chế độ ăn riêng. Ăn đúng thể trạng là nền tảng của dưỡng sinh — đúng đến mức có thể phòng và hỗ trợ điều trị bệnh.',
+    date: '2026-04-05',
+    readTime: 6,
+    content: `<h2>9 thể trạng cơ bản theo YHCT hiện đại</h2>
+<p>Giáo sư Vương Kỳ (Bắc Kinh) hệ thống hóa 9 thể trạng: Bình hòa (lý tưởng), Khí hư, Dương hư, Âm hư, Đàm thấp, Thấp nhiệt, Huyết ứ, Khí uất, Đặc bẩm (dị ứng). Mỗi thể có biểu hiện và chế độ ăn riêng.</p>
+<h2>Chế độ ăn theo 4 thể phổ biến nhất</h2>
+<ul>
+<li><strong>Khí hư (mệt mỏi, hay ốm):</strong> Tăng: hoàng kỳ, đảng sâm, đại táo, thịt bò, gà, khoai lang. Tránh: thức ăn sống lạnh, đồ uống có ga.</li>
+<li><strong>Dương hư (lạnh tay chân, sợ lạnh):</strong> Tăng: gừng, tỏi, hành, thịt dê, quế, hồ tiêu. Tránh: đồ lạnh, dưa hấu, cua, ốc.</li>
+<li><strong>Âm hư (nóng lòng bàn tay, khô họng):</strong> Tăng: lê, bạch mộc nhĩ, mật ong, đậu đen, vừng đen, cá biển. Tránh: cay nóng, nướng chiên, rượu.</li>
+<li><strong>Đàm thấp (béo, da nhờn, đầu nặng):</strong> Tăng: ý dĩ, đậu đỏ, khổ qua, hành tây, tảo biển. Tránh: đồ béo, ngọt, bia rượu, đồ ăn đêm.</li>
+</ul>
+<p style="margin-top:24px;padding:16px 20px;background:#fff7ed;border-radius:12px;border-left:4px solid #ea580c;">
+<strong>🍽️ Xác định thể trạng:</strong> Gọi <strong>0973 710 237</strong> — chẩn mạch xác định thể trạng và tư vấn chế độ ăn phù hợp.
+</p>`
+  },
+  {
+    id: 58,
+    category: 'phong-benh',
+    categoryLabel: 'Phòng bệnh',
+    gradient: 'g-fire',
+    icon: '❄️',
+    title: 'Dưỡng sinh mùa đông: Giữ ấm dương khí và tăng cường thận',
+    excerpt: 'Mùa đông là mùa của thận — tạng thu trữ tinh khí. YHCT có những nguyên tắc dưỡng sinh mùa đông cụ thể giúp tích trữ năng lượng, tăng sức đề kháng và chuẩn bị cho mùa xuân.',
+    date: '2026-04-02',
+    readTime: 5,
+    content: `<h2>Mùa đông — mùa thu trữ</h2>
+<p>Trong Nội Kinh Tố Vấn: "Đông tam nguyệt, thử vị bế tàng" — mùa đông 3 tháng là mùa đóng kín và tích trữ. Cây cối thu lá, dương khí ẩn vào trong đất. Con người cũng nên vậy: ngủ nhiều hơn, vận động nhẹ hơn, ăn ấm hơn để bảo tồn dương khí và tích trữ thận tinh.</p>
+<h2>Nguyên tắc dưỡng sinh mùa đông</h2>
+<ul>
+<li><strong>Ngủ sớm dậy muộn:</strong> Chờ ánh mặt trời mọc mới dậy — YHCT gọi là "chờ ánh dương" để không tiêu hao dương khí khi trời chưa sáng.</li>
+<li><strong>Giữ ấm 3 vùng:</strong> Vùng cổ (quàng khăn), vùng thắt lưng (bảo vệ thận dương), bàn chân (ngâm chân ấm mỗi tối).</li>
+<li><strong>Ăn ấm và bổ:</strong> Canh xương tủy, thịt dê hầm, cháo đậu đen, chè táo đỏ kỷ tử. Hạn chế đồ lạnh, sống, dưa cải lên men.</li>
+<li><strong>Vận động nhẹ trong nhà:</strong> Bát Đoạn Cẩm, Thái Cực Quyền — không vận động mạnh ra mồ hôi nhiều giữa mùa đông.</li>
+<li><strong>Cứu ngải phòng bệnh:</strong> Cứu Túc Tam Lý (ST36) hàng ngày mùa đông — phương pháp dưỡng sinh cổ truyền tốt nhất.</li>
+</ul>
+<p style="margin-top:24px;padding:16px 20px;background:#fff7ed;border-radius:12px;border-left:4px solid #ea580c;">
+<strong>❄️ Tư vấn dưỡng sinh mùa đông:</strong> Gọi <strong>0973 710 237</strong> — hướng dẫn chế độ phù hợp thể trạng.
+</p>`
+  },
+  {
+    id: 59,
+    category: 'phong-benh',
+    categoryLabel: 'Phòng bệnh',
+    gradient: 'g-fire',
+    icon: '☀️',
+    title: 'Dưỡng sinh mùa hè: Thanh nhiệt, dưỡng tâm và tránh say nắng',
+    excerpt: 'Mùa hè nóng ẩm là thách thức lớn với sức khỏe — nguy cơ say nắng, mất nước, rối loạn tiêu hóa tăng cao. YHCT có những nguyên tắc dưỡng sinh mùa hè giúp sống khỏe mạnh trong cái nóng.',
+    date: '2026-03-30',
+    readTime: 5,
+    content: `<h2>Mùa hè — mùa trưởng thành của Tâm</h2>
+<p>Theo Ngũ hành, mùa hè thuộc Hỏa — tạng Tâm. "Hạ tam nguyệt, thử vị phiên tú" — mùa hè vạn vật phát triển rực rỡ, con người cũng phải hoạt động tích cực nhưng không quá sức. Nhiệt mùa hè dễ nhiễu loạn Tâm thần gây bứt rứt, khó ngủ, cáu gắt.</p>
+<h2>Nguyên tắc dưỡng sinh mùa hè</h2>
+<ul>
+<li><strong>Ngủ muộn dậy sớm + nghỉ trưa 20 phút:</strong> Ngủ trưa ngắn phục hồi dương khí, không ngủ quá 30 phút (gây uể oải).</li>
+<li><strong>Ăn mát — thanh nhiệt:</strong> Khổ qua, bí xanh, dưa chuột, đậu đen, tâm sen, nước chanh gừng. Hạn chế cay nóng, rượu bia, thức ăn chiên rán.</li>
+<li><strong>Tránh điều hòa quá lạnh:</strong> Chênh lệch trong-ngoài >10°C gây phong hàn. Giữ điều hòa ở 25–27°C, không để gió thổi trực tiếp vào người.</li>
+<li><strong>Uống đủ nước — đúng cách:</strong> 2–2.5 lít/ngày, uống từng ngụm nhỏ ấm. Không uống nước đá khi đang ra nhiều mồ hôi — gây tổn thương dạ dày đột ngột.</li>
+<li><strong>Dưỡng Tâm:</strong> Thiền ngắn 10–15 phút buổi chiều, tránh căng thẳng quá mức trong ngày nóng.</li>
+</ul>
+<p style="margin-top:24px;padding:16px 20px;background:#fff7ed;border-radius:12px;border-left:4px solid #ea580c;">
+<strong>☀️ Sống khỏe mùa hè:</strong> Gọi <strong>0973 710 237</strong> — tư vấn dưỡng sinh theo mùa và thể trạng.
+</p>`
+  },
+  {
+    id: 60,
+    category: 'phong-benh',
+    categoryLabel: 'Phòng bệnh',
+    gradient: 'g-fire',
+    icon: '🧬',
+    title: 'Phòng ngừa tiểu đường type 2 bằng lối sống YHCT',
+    excerpt: 'Tiểu đường type 2 phát triển từ từ và hoàn toàn có thể phòng ngừa hoặc làm chậm tiến triển bằng thay đổi lối sống. YHCT cung cấp hệ thống nguyên tắc ăn uống và vận động hiệu quả.',
+    date: '2026-03-28',
+    readTime: 5,
+    content: `<h2>Tiểu đường type 2 — bệnh của lối sống</h2>
+<p>90% tiểu đường type 2 có thể phòng ngừa hoặc làm chậm khởi phát bằng thay đổi lối sống. YHCT quan niệm tiểu đường (tiêu khát) phát triển từ thói quen ăn uống không điều độ, stress mãn tính và thiếu vận động — gây tổn thương tỳ vị, thận và phế theo thời gian.</p>
+<h2>Phòng ngừa theo YHCT</h2>
+<ul>
+<li><strong>Chế độ ăn "ngũ谷 vi dưỡng":</strong> Ngũ cốc nguyên hạt là nền tảng (gạo lứt, yến mạch, lúa mì nguyên cám) — hấp thu chậm, không tăng đường huyết đột ngột.</li>
+<li><strong>Thực phẩm bổ tỳ thận:</strong> Đậu đen, hoài sơn (khoai mỡ), ý dĩ, quả mướp đắng (hạ đường huyết tự nhiên).</li>
+<li><strong>Vận động sau ăn:</strong> Đi bộ nhẹ 15–20 phút sau mỗi bữa — giảm đường huyết sau ăn hiệu quả nhất.</li>
+<li><strong>Kiểm soát stress:</strong> Cortisol tăng cao mãn tính gây kháng insulin. Thiền, khí công, thư giãn — không phải xa xỉ mà là phòng ngừa y tế.</li>
+<li><strong>Cứu ngải phòng ngừa:</strong> Cứu Túc Tam Lý, Tỳ Du, Thận Du hàng tuần — cải thiện chức năng tỳ thận, tăng nhạy cảm insulin.</li>
+</ul>
+<p style="margin-top:24px;padding:16px 20px;background:#fff7ed;border-radius:12px;border-left:4px solid #ea580c;">
+<strong>🧬 Phòng ngừa tiểu đường:</strong> Gọi <strong>0973 710 237</strong> — tư vấn lối sống và chế độ ăn phòng ngừa.
+</p>`
+  },
+  {
+    id: 61,
+    category: 'phong-benh',
+    categoryLabel: 'Phòng bệnh',
+    gradient: 'g-fire',
+    icon: '🧠',
+    title: 'Phòng ngừa đột quỵ: Những yếu tố nguy cơ và biện pháp YHCT',
+    excerpt: 'Đột quỵ là nguyên nhân tàn phế hàng đầu tại Việt Nam. 80% đột quỵ có thể phòng ngừa. YHCT đóng vai trò quan trọng trong kiểm soát yếu tố nguy cơ lâu dài.',
+    date: '2026-03-25',
+    readTime: 5,
+    content: `<h2>Yếu tố nguy cơ cần kiểm soát</h2>
+<p>Huyết áp cao là yếu tố nguy cơ lớn nhất của đột quỵ (chiếm 50% nguyên nhân). Kế đến: rung nhĩ, tiểu đường, hút thuốc, cholesterol cao, béo phì, ít vận động, rượu bia nhiều. Theo YHCT, nền tảng nguy cơ là: can dương thượng kháng (huyết áp không kiểm soát), đàm ứ trở trệ (cholesterol, xơ vữa), khí huyết hư (tuần hoàn não kém).</p>
+<h2>Phòng ngừa tích cực bằng YHCT</h2>
+<ul>
+<li><strong>Châm cứu kiểm soát huyết áp:</strong> Điều trị đều đặn 2 buổi/tuần giúp ổn định huyết áp, giảm biến động huyết áp 24 giờ.</li>
+<li><strong>Thuốc hoạt huyết:</strong> Đan sâm (Salvia miltiorrhiza) — nghiên cứu lâm sàng rộng rãi, giảm độ nhớt máu, chống kết tập tiểu cầu nhẹ.</li>
+<li><strong>Dưỡng sinh kiểm soát stress:</strong> Thiền, khí công Bát Đoạn Cẩm — giảm cortisol, ổn định nhịp tim.</li>
+<li><strong>Chế độ ăn DASH kết hợp YHCT:</strong> Ít muối, ít chất béo bão hòa, nhiều rau xanh — phù hợp với nguyên tắc ăn thanh đạm của YHCT.</li>
+</ul>
+<p style="margin-top:24px;padding:16px 20px;background:#fff7ed;border-radius:12px;border-left:4px solid #ea580c;">
+<strong>🧠 Phòng ngừa đột quỵ:</strong> Gọi <strong>0973 710 237</strong> — tư vấn kiểm soát yếu tố nguy cơ dài hạn.
+</p>`
+  },
+  {
+    id: 62,
+    category: 'phong-benh',
+    categoryLabel: 'Phòng bệnh',
+    gradient: 'g-fire',
+    icon: '👶',
+    title: 'Tăng đề kháng cho trẻ em bằng YHCT: Phòng ốm vặt hiệu quả',
+    excerpt: 'Trẻ hay ốm vặt, viêm họng tái phát, biếng ăn còi cọc — những vấn đề phổ biến mà YHCT có phương pháp tăng đề kháng an toàn, không cần kháng sinh.',
+    date: '2026-03-22',
+    readTime: 5,
+    content: `<h2>Tại sao trẻ hay ốm vặt?</h2>
+<p>YHCT giải thích: trẻ hay ốm vặt thường do <strong>Phế tỳ khí hư</strong> — phế khí yếu (hàng rào miễn dịch niêm mạc hô hấp kém) kết hợp tỳ vị yếu (hấp thu dinh dưỡng kém). Không phải nguyên nhân là "lạnh nhiều" hay "ăn ít" đơn giản — cần bổ đúng hướng.</p>
+<h2>Phương pháp YHCT tăng đề kháng</h2>
+<ul>
+<li><strong>Xoa bóp tăng đề kháng:</strong> Bổ phế (vỗ nhẹ lưng vùng phổi), bổ tỳ (xoa bụng tròn), ấn Túc Tam Lý — 10 phút mỗi sáng trước bữa ăn.</li>
+<li><strong>Cháo thuốc:</strong> Cháo hoài sơn + đại táo + ý dĩ ăn 3 lần/tuần — bổ tỳ thực phẩm an toàn, trẻ thích ăn.</li>
+<li><strong>Nhĩ châm:</strong> Dán hạt nhĩ châm huyệt Phế, Tỳ, Thần Môn trên tai trẻ từ 3 tuổi — tăng đề kháng hiệu quả.</li>
+<li><strong>Ngọc Bình Phong Tán:</strong> Bột hoàng kỳ + bạch truật + phòng phong — cho trẻ hay ốm vặt uống liên tục 3 tháng mùa đông.</li>
+</ul>
+<p style="margin-top:24px;padding:16px 20px;background:#fff7ed;border-radius:12px;border-left:4px solid #ea580c;">
+<strong>👶 Tăng đề kháng cho trẻ:</strong> Gọi <strong>0973 710 237</strong> — BS. Nguyễn Đức Tâm tư vấn phác đồ phòng bệnh cho trẻ.
+</p>`
+  },
+  {
+    id: 63,
+    category: 'phong-benh',
+    categoryLabel: 'Phòng bệnh',
+    gradient: 'g-fire',
+    icon: '👴',
+    title: 'Dinh dưỡng và dưỡng sinh cho người cao tuổi theo YHCT',
+    excerpt: 'Người cao tuổi có nhu cầu dinh dưỡng và lối sống đặc thù. YHCT có hệ thống dưỡng sinh phù hợp giúp người cao tuổi sống khỏe mạnh, minh mẫn và hạn chế bệnh mãn tính.',
+    date: '2026-03-20',
+    readTime: 5,
+    content: `<h2>Người cao tuổi trong quan điểm YHCT</h2>
+<p>Người trên 60 tuổi theo YHCT có xu hướng: thận tinh suy giảm (tóc bạc, xương yếu, trí nhớ kém), tỳ vị hư (tiêu hóa kém, hấp thu yếu), và khí huyết lưu thông chậm (ứ trệ, đau nhức). Dưỡng sinh phải bổ thận, kiện tỳ và hoạt huyết thông lạc.</p>
+<h2>Nguyên tắc dinh dưỡng YHCT cho người cao tuổi</h2>
+<ul>
+<li><strong>Ăn ít, ăn ấm, ăn mềm:</strong> Khả năng tiêu hóa giảm — ăn 4–5 bữa nhỏ thay vì 3 bữa lớn. Thức ăn nấu chín mềm, ấm nhiệt độ.</li>
+<li><strong>Bổ thận qua thực phẩm:</strong> Đậu đen, vừng đen, óc chó, cá biển, tủy xương, hàu — thực phẩm đen bổ thận trong YHCT.</li>
+<li><strong>Hoạt huyết hàng ngày:</strong> Đi bộ 30 phút/ngày + tự xoa bóp tay chân 10 phút — duy trì tuần hoàn ngoại vi.</li>
+<li><strong>Dưỡng tâm:</strong> Đọc sách, học điều mới, giao tiếp xã hội — "dưỡng thần" trong YHCT. Cô đơn xã hội là yếu tố nguy cơ lớn cho sức khỏe tổng thể.</li>
+</ul>
+<p style="margin-top:24px;padding:16px 20px;background:#fff7ed;border-radius:12px;border-left:4px solid #ea580c;">
+<strong>👴 Dưỡng sinh cho người cao tuổi:</strong> Gọi <strong>0973 710 237</strong> — tư vấn phác đồ điều trị và dưỡng sinh phù hợp.
+</p>`
+  },
+  {
+    id: 64,
+    category: 'phong-benh',
+    categoryLabel: 'Phòng bệnh',
+    gradient: 'g-fire',
+    icon: '🌙',
+    title: 'Ngủ đúng giờ và đủ giấc: Tại sao YHCT coi giấc ngủ là thuốc bổ tốt nhất',
+    excerpt: 'YHCT coi giấc ngủ không chỉ là nghỉ ngơi mà là thời gian phục hồi dương khí và bổ thận tinh. Ngủ sai giờ và thiếu ngủ gây tổn hại sâu xa mà thuốc bổ không bù đắp được.',
+    date: '2026-03-18',
+    readTime: 5,
+    content: `<h2>Giấc ngủ trong đồng hồ sinh học YHCT</h2>
+<p>YHCT có hệ thống <em>Tý Ngọ Lưu Chú</em> (子午流注) — mỗi tạng phủ có giờ hoạt động mạnh nhất trong ngày. Giờ Tý (23h–1h sáng): Đởm kinh vượng — thời điểm tái tạo dương khí và bổ can thận quan trọng nhất. Không ngủ trong giờ này gây can thận tổn hại lâu dài.</p>
+<h2>Tác hại của thức khuya theo YHCT và khoa học</h2>
+<ul>
+<li>Thức sau 23h liên tục → giảm tiết melatonin (chất chống lão hóa) → lão hóa sớm</li>
+<li>Thiếu ngủ mãn tính → tăng cortisol → kháng insulin → nguy cơ tiểu đường tăng</li>
+<li>Không ngủ giờ Tý → "can hỏa vượng" (da xỉn, mắt đỏ, cáu gắt) và can không tàng huyết (kinh nguyệt không đều ở phụ nữ)</li>
+</ul>
+<h2>Tối ưu hóa giấc ngủ theo YHCT</h2>
+<p>Ngủ trước 23h (bắt buộc với người bệnh và người trên 40 tuổi). Phòng ngủ tối và mát. Ngâm chân nước ấm 15 phút trước ngủ — dẫn khí xuống, tâm thần yên. Không dùng điện thoại/màn hình 1 giờ trước ngủ.</p>
+<p style="margin-top:24px;padding:16px 20px;background:#fff7ed;border-radius:12px;border-left:4px solid #ea580c;">
+<strong>🌙 Điều trị mất ngủ:</strong> Gọi <strong>0973 710 237</strong> — châm cứu và thuốc thang điều trị mất ngủ tận gốc.
+</p>`
+  },
+  {
+    id: 65,
+    category: 'phong-benh',
+    categoryLabel: 'Phòng bệnh',
+    gradient: 'g-fire',
+    icon: '🥦',
+    title: 'Thực phẩm tương khắc: Những kết hợp thực phẩm cần tránh theo YHCT',
+    excerpt: 'YHCT có lý thuyết về tương khắc thực phẩm — những kết hợp gây hại cho tiêu hóa và sức khỏe. Một số có căn cứ khoa học, một số là kinh nghiệm dân gian đáng tham khảo.',
+    date: '2026-03-15',
+    readTime: 5,
+    content: `<h2>Thực phẩm tương khắc trong YHCT</h2>
+<p>Lý thuyết tương khắc thực phẩm (相克食物) trong YHCT dựa trên quan sát lâm sàng hàng nghìn năm — một số kết hợp gây rối loạn tiêu hóa, dị ứng hoặc làm giảm hấp thu dinh dưỡng. Khoa học hiện đại giải thích được một số trong đó.</p>
+<h2>Kết hợp nên tránh (có bằng chứng)</h2>
+<ul>
+<li><strong>Tôm + Vitamin C (trái cây chua):</strong> Arsenic vô cơ trong tôm + vitamin C → arsenic trioxide — độc. Tránh ăn tôm cùng cam, chanh, cà chua ngay lập tức.</li>
+<li><strong>Sữa + chanh:</strong> Acid kết tủa protein sữa — không hại nhưng khó tiêu, gây đầy bụng.</li>
+<li><strong>Đậu phụ + rau chân vịt:</strong> Oxalate trong rau chân vịt kết hợp canxi đậu phụ tạo calcium oxalate — cản trở hấp thu canxi và tăng nguy cơ sỏi thận nếu ăn nhiều thường xuyên.</li>
+<li><strong>Thuốc YHCT + trà xanh:</strong> Tannin trong trà kết hợp alkaloid và glycoside thuốc — giảm hấp thu. Uống thuốc thang cách trà 1–2 giờ.</li>
+</ul>
+<h2>Kết hợp trong YHCT nhưng chưa có bằng chứng khoa học mạnh</h2>
+<p>Nhiều tương khắc truyền thống (cua + hồng; chuối + khoai môn) chưa được kiểm chứng khoa học đầy đủ. Tốt nhất: không ăn quá nhiều một loại thực phẩm và ăn đa dạng.</p>
+<p style="margin-top:24px;padding:16px 20px;background:#fff7ed;border-radius:12px;border-left:4px solid #ea580c;">
+<strong>🥦 Tư vấn chế độ ăn YHCT:</strong> Gọi <strong>0973 710 237</strong> — được tư vấn dinh dưỡng phù hợp thể trạng.
+</p>`
+  },
+  {
+    id: 66,
+    category: 'phong-benh',
+    categoryLabel: 'Phòng bệnh',
+    gradient: 'g-fire',
+    icon: '💻',
+    title: 'Phòng bệnh cho dân văn phòng: 8 thói quen bảo vệ sức khỏe khi ngồi nhiều',
+    excerpt: 'Ngồi văn phòng 8 giờ/ngày là yếu tố nguy cơ không thua thuốc lá về tác hại sức khỏe dài hạn. YHCT và y học hiện đại cùng đề xuất các giải pháp thực tiễn dễ áp dụng.',
+    date: '2026-03-12',
+    readTime: 5,
+    content: `<h2>Ngồi nhiều — mối nguy thầm lặng</h2>
+<p>Nghiên cứu gần đây cho thấy ngồi liên tục hơn 8 giờ/ngày tăng nguy cơ tử vong sớm 15–40% ngay cả khi có tập thể dục bù. YHCT giải thích: ngồi lâu tổn tỳ (khí trệ huyết ứ), gây đầy bụng, mệt mỏi, cơ lưng yếu, khí không lưu thông toàn thân.</p>
+<h2>8 thói quen phòng bệnh dân văn phòng</h2>
+<ul>
+<li><strong>Đứng dậy mỗi 45 phút:</strong> Đi bộ 2–3 phút hoặc đứng tại chỗ — quan trọng hơn tất cả.</li>
+<li><strong>Màn hình ngang tầm mắt:</strong> Giảm 90% đau cổ-vai do tư thế sai.</li>
+<li><strong>Kỹ thuật thở 4-7-8 giữa công việc:</strong> Hít 4 giây, nín 7, thở ra 8 — kích thích phó giao cảm, giảm cortisol ngay lập tức.</li>
+<li><strong>Trà gừng/trà quế buổi chiều:</strong> Ôn trung hành khí — chống mệt mỏi và đầy bụng do ngồi nhiều.</li>
+<li><strong>Bấm huyệt tại bàn:</strong> Bấm Hợp Cốc (LI4) khi đau đầu, Nội Quan (PC6) khi căng thẳng, Túc Tam Lý (ST36) sau bữa ăn — không ai nhìn thấy, làm được ngay tại bàn làm việc.</li>
+<li><strong>Ăn trưa đúng giờ, không ăn trước màn hình:</strong> Tỳ vị cần 30 phút tập trung — ăn vừa làm giảm hấp thu 30%.</li>
+<li><strong>Vươn vai sau mỗi cuộc họp dài.</strong></li>
+<li><strong>Uống 250ml nước mỗi giờ</strong> để duy trì lưu thông khí huyết não.</li>
+</ul>
+<p style="margin-top:24px;padding:16px 20px;background:#fff7ed;border-radius:12px;border-left:4px solid #ea580c;">
+<strong>💻 Khám sức khỏe định kỳ:</strong> Gọi <strong>0973 710 237</strong> — YHCT Tâm Đức hỗ trợ kiểm tra và điều trị bệnh nghề nghiệp dân văn phòng.
+</p>`
+  },
+  {
+    id: 67,
+    category: 'phong-benh',
+    categoryLabel: 'Phòng bệnh',
+    gradient: 'g-fire',
+    icon: '🫧',
+    title: 'Detox theo YHCT: Cơ thể tự thanh lọc — không cần nước ép hay nhịn ăn',
+    excerpt: 'Trend \'detox\' hiện đại nhiều khi phản tác dụng. YHCT có quan điểm sâu sắc hơn về thanh lọc cơ thể — không phải nhịn ăn hay uống nước ép đắt tiền mà là hỗ trợ chức năng tự thải độc tự nhiên.',
+    date: '2026-03-10',
+    readTime: 5,
+    content: `<h2>Cơ thể đã có hệ thống detox hoàn hảo</h2>
+<p>Gan, thận, phổi, da và hệ bạch huyết đã là hệ thống thải độc tự nhiên hiệu quả nhất. "Detox" thực sự nghĩa là hỗ trợ những cơ quan này hoạt động tốt hơn — không phải đưa thêm thứ gì vào cơ thể để "rửa" nó. Nhiều sản phẩm detox thương mại không có bằng chứng khoa học và có thể gây hại cho thận.</p>
+<h2>Detox thực sự theo YHCT</h2>
+<ul>
+<li><strong>Hỗ trợ gan (Can):</strong> Nghỉ ngơi giờ Sửu (1h–3h sáng — can vượng), hạn chế rượu, ăn xanh (atiso, bồ công anh, cúc gai — milk thistle bảo vệ gan).</li>
+<li><strong>Hỗ trợ thận lọc máu:</strong> Uống đủ nước sạch, giảm muối, tránh dùng thuốc không cần thiết. Thục địa, câu kỷ tử hỗ trợ chức năng thận.</li>
+<li><strong>Hỗ trợ phổi thải khí:</strong> Hít thở sâu nơi không khí trong lành. Bát Đoạn Cẩm bài 1 và 2 kích thích hô hấp sâu.</li>
+<li><strong>Hỗ trợ đại tràng:</strong> Ăn đủ chất xơ (30g/ngày), uống đủ nước — giảm thời gian phân trong đại tràng, hạn chế tái hấp thu độc tố.</li>
+</ul>
+<p style="margin-top:24px;padding:16px 20px;background:#fff7ed;border-radius:12px;border-left:4px solid #ea580c;">
+<strong>🫧 Sức khỏe toàn diện:</strong> Gọi <strong>0973 710 237</strong> — tư vấn lối sống và chế độ ăn hỗ trợ thải độc tự nhiên.
+</p>`
+  },
+  {
+    id: 68,
+    category: 'phong-benh',
+    categoryLabel: 'Phòng bệnh',
+    gradient: 'g-fire',
+    icon: '🛡️',
+    title: 'Tăng cường đề kháng mùa dịch bằng YHCT: Từ phòng ngừa đến hỗ trợ phục hồi',
+    excerpt: 'Trong và sau đại dịch COVID-19, YHCT được nghiên cứu và áp dụng rộng rãi trong hỗ trợ phòng ngừa và phục hồi. Tìm hiểu những biện pháp có cơ sở khoa học nhất.',
+    date: '2026-03-08',
+    readTime: 5,
+    content: `<h2>YHCT trong phòng và điều trị hỗ trợ dịch bệnh</h2>
+<p>Trung Quốc đã dùng YHCT kết hợp Tây y trong điều trị COVID-19 với kết quả công bố tích cực — đặc biệt bài thuốc Thanh Phế Bài Độc Thang và Liên Hoa Thanh Ôn. Trong điều kiện Việt Nam, YHCT có thể đóng vai trò: tăng đề kháng trước dịch, hỗ trợ phục hồi sau nhiễm và giảm hội chứng COVID kéo dài (long COVID).</p>
+<h2>Phòng ngừa trước dịch</h2>
+<ul>
+<li><strong>Ngọc Bình Phong Tán:</strong> Hoàng kỳ + bạch truật + phòng phong — bổ phế vệ khí, tăng sức đề kháng niêm mạc hô hấp. Nghiên cứu Trung Quốc cho thấy giảm tỷ lệ mắc cúm ở người dùng thường xuyên.</li>
+<li><strong>Xông hơi thảo dược:</strong> Trong dịch bệnh đường hô hấp, xông hơi kinh giới-sả-ngải ngày 1 lần.</li>
+<li><strong>Vệ sinh mũi họng:</strong> Rửa mũi bằng nước muối sinh lý 2 lần/ngày — hàng rào vật lý đầu tiên.</li>
+</ul>
+<h2>Hỗ trợ phục hồi sau bệnh</h2>
+<p>Sau nhiễm virus gây mệt mỏi kéo dài, ho dai dẳng, đờm: Bổ Phế Thang kết hợp Bổ Trung Ích Khí. Mất vị giác-khứu giác kéo dài: châm cứu vùng mũi + nhĩ châm + Khai Khiếu thảo dược.</p>
+<p style="margin-top:24px;padding:16px 20px;background:#fff7ed;border-radius:12px;border-left:4px solid #ea580c;">
+<strong>🛡️ Tăng đề kháng YHCT:</strong> Gọi <strong>0973 710 237</strong> — tư vấn phác đồ tăng miễn dịch và phục hồi sau bệnh.
+</p>`
+  },
+  {
+    id: 69,
+    category: 'phong-benh',
+    categoryLabel: 'Phòng bệnh',
+    gradient: 'g-fire',
+    icon: '⚖️',
+    title: 'Giảm cân lành mạnh theo YHCT: Không nhịn đói, không thuốc giảm cân độc hại',
+    excerpt: 'Béo phì trong YHCT thường do đàm thấp và khí trệ — không phải đơn giản là \'ăn nhiều\'. Điều trị đúng nguyên nhân giúp giảm cân bền vững mà không ảnh hưởng sức khỏe.',
+    date: '2026-03-05',
+    readTime: 5,
+    content: `<h2>Béo phì trong YHCT — không đơn giản là ăn nhiều</h2>
+<p>YHCT phân tích béo phì theo thể bệnh: <strong>Đàm thấp nội trở</strong> (80% trường hợp — chuyển hóa kém, giữ nước, da nhờn), <strong>Vị nhiệt táo thực</strong> (ăn nhiều do dạ dày nóng), <strong>Khí trệ huyết ứ</strong> (stress-ăn uống bù đắp cảm xúc), <strong>Thận dương hư</strong> (trao đổi chất chậm, người lạnh-mệt).</p>
+<h2>Phương pháp YHCT giảm cân</h2>
+<ul>
+<li><strong>Châm cứu giảm cân:</strong> Kích thích huyệt điều hòa nội tiết, tăng chuyển hóa, giảm thèm ăn. Hiệu quả nhất khi kết hợp với thay đổi chế độ ăn.</li>
+<li><strong>Nhĩ châm:</strong> Huyệt Miệng, Dạ dày, Nội Tiết, Thần Môn — dán hạt kích thích trước bữa ăn 30 phút để giảm cảm giác đói.</li>
+<li><strong>Thuốc lợi thấp hóa đàm:</strong> Ý dĩ + trần bì + phục linh + bán hạ — cải thiện chuyển hóa, trừ phù nề, giảm cholesterol.</li>
+<li><strong>Vận động kết hợp:</strong> Bài tập khí công sau ăn tối 30 phút — tăng đốt cháo năng lượng và giảm stress đồng thời.</li>
+</ul>
+<p style="margin-top:24px;padding:16px 20px;background:#fff7ed;border-radius:12px;border-left:4px solid #ea580c;">
+<strong>⚖️ Giảm cân YHCT:</strong> Gọi <strong>0973 710 237</strong> — BS. Nguyễn Đức Tâm tư vấn phác đồ phù hợp thể bệnh.
+</p>`
+  },
+  {
+    id: 70,
+    category: 'phong-benh',
+    categoryLabel: 'Phòng bệnh',
+    gradient: 'g-fire',
+    icon: '🧘',
+    title: 'Thiền định và sức khỏe: Khoa học và YHCT cùng nhìn về một hướng',
+    excerpt: 'Thiền định từ lâu là phần cốt lõi của dưỡng sinh YHCT. Khoa học hiện đại xác nhận những tác dụng y học cụ thể — từ giảm cortisol đến tăng mật độ xám vùng prefrontal cortex.',
+    date: '2026-03-02',
+    readTime: 5,
+    content: `<h2>Thiền trong YHCT — Điều Thần</h2>
+<p>YHCT gọi thiền là <em>Điều thần</em> (調神 — điều hòa thần chí) — một trong 5 trụ cột dưỡng sinh. Thiền không phải tôn giáo mà là kỹ thuật điều hòa hệ thần kinh tự chủ: từ trạng thái giao cảm (stress) sang phó giao cảm (phục hồi). YHCT cho rằng đây là cách "an tâm dưỡng thần" — nền tảng của tất cả phương pháp dưỡng sinh khác.</p>
+<h2>Tác dụng được khoa học xác nhận</h2>
+<ul>
+<li>Giảm cortisol 23% sau 8 tuần thiền chánh niệm (MBSR) — Harvard Medical School</li>
+<li>Tăng mật độ chất xám vùng hippocampus (trí nhớ) và giảm amygdala (lo âu)</li>
+<li>Giảm huyết áp tâm thu trung bình 5mmHg — tương đương một số thuốc hạ áp nhẹ</li>
+<li>Giảm viêm (giảm IL-6 và CRP) — bảo vệ tim mạch và hệ miễn dịch</li>
+</ul>
+<h2>Bắt đầu 5 phút/ngày</h2>
+<p>Ngồi thẳng, nhắm mắt, tập trung vào hơi thở vào-ra. Khi có suy nghĩ, nhẹ nhàng đưa chú ý về hơi thở — không cố gắng không nghĩ. 5 phút/sáng trong 30 ngày là đủ để thấy khác biệt. Không cần ứng dụng, không cần thiết bị.</p>
+<p style="margin-top:24px;padding:16px 20px;background:#fff7ed;border-radius:12px;border-left:4px solid #ea580c;">
+<strong>🧘 Học dưỡng sinh toàn diện:</strong> Gọi <strong>0973 710 237</strong> — BS. Nguyễn Đức Tâm tư vấn tích hợp thiền và YHCT vào lối sống.
+</p>`
   }
 ];
