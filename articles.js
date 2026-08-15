@@ -3872,5 +3872,777 @@ const ARTICLES = [
 <p style="margin-top:24px;padding:16px 20px;background:#fff7ed;border-radius:12px;border-left:4px solid #ea580c;">
 <strong>🧘 Học dưỡng sinh toàn diện:</strong> Gọi <strong>0973 710 237</strong> — BS. Nguyễn Đức Tâm tư vấn tích hợp thiền và YHCT vào lối sống.
 </p>`
+  },
+{
+    id: 71,
+    category: 'phuong-huyet',
+    categoryLabel: 'Phương huyệt',
+    gradient: 'g-huyet',
+    icon: '✋',
+    title: 'Huyệt Hợp Cốc (LI4): Huyệt vạn năng giảm đau đầu, đau răng và stress',
+    excerpt: 'Hợp Cốc là một trong 4 huyệt quan trọng nhất trong châm cứu cổ điển — được gọi là huyệt \'vạn bệnh trị\' vì phổ tác dụng rộng nhất. Học cách tự bấm huyệt đúng kỹ thuật.',
+    date: '2026-02-28',
+    readTime: 5,
+    content: `<h2>Hợp Cốc — huyệt số 1 trong thực hành lâm sàng</h2>
+<p>Huyệt Hợp Cốc (合谷, LI4 — Đại Trường Kinh huyệt 4) được mệnh danh "Diện bộ chi chủ" — chủ trị toàn bộ vùng mặt, đầu và cổ. Câu kinh điển: "Đầu diện toàn thâu tẩm Hợp Cốc" — mọi chứng bệnh vùng đầu mặt đều dùng Hợp Cốc.</p>
+<h2>Vị trí chính xác</h2>
+<p>Mu bàn tay, giữa ngón cái và ngón trỏ. Cách tìm: khép ngón cái vào ngón trỏ, điểm cao nhất của cơ gian cốt mu tay chính là huyệt. Hoặc: đặt lằn da khớp đốt ngón cái của tay kia ngang ngón trỏ, đầu ngón cái chạm đúng huyệt.</p>
+<h2>Chỉ định phổ biến nhất</h2>
+<ul>
+<li><strong>Đau đầu:</strong> Tất cả loại đau đầu — migraine, đau đầu căng thẳng, đau đầu cảm cúm. Bấm 2–3 phút mỗi bên.</li>
+<li><strong>Đau răng:</strong> Tác dụng giảm đau răng trong 10–15 phút — cứu nguy khi chờ gặp nha sĩ.</li>
+<li><strong>Mặt liệt (méo miệng):</strong> Phối huyệt với Địa Thương, Giáp Xa, Nhân Trung.</li>
+<li><strong>Viêm mũi, nghẹt mũi:</strong> Kết hợp với Nghinh Hương (LI20) thông mũi ngay lập tức.</li>
+<li><strong>Táo bón:</strong> Bấm hoặc châm Hợp Cốc + Thiên Xu (ST25) — thông Đại Trường kinh.</li>
+</ul>
+<h2>Chống chỉ định</h2>
+<p>Phụ nữ mang thai tuyệt đối không châm hoặc bấm mạnh Hợp Cốc — có thể gây co bóp tử cung, nguy cơ sảy thai.</p>
+<p style="margin-top:24px;padding:16px 20px;background:#f0fdf4;border-radius:12px;border-left:4px solid #16a34a;">
+<strong>✋ Học châm cứu huyệt Hợp Cốc:</strong> Gọi <strong>0973 710 237</strong> — BS. Nguyễn Đức Tâm hướng dẫn tự bấm huyệt tại nhà.
+</p>`
+  },
+  {
+    id: 72,
+    category: 'phuong-huyet',
+    categoryLabel: 'Phương huyệt',
+    gradient: 'g-huyet',
+    icon: '🦵',
+    title: 'Huyệt Túc Tam Lý (ST36): Vua của các huyệt bổ — tăng miễn dịch và hồi phục sức khỏe',
+    excerpt: 'Túc Tam Lý là huyệt quan trọng nhất trong toàn bộ hệ thống huyệt vị châm cứu — dân gian Nhật Bản gọi là \'huyệt trăm bệnh\'. Cứu ngải tại đây mỗi ngày là thói quen dưỡng sinh của người sống thọ.',
+    date: '2026-02-25',
+    readTime: 5,
+    content: `<h2>Tại sao Túc Tam Lý được gọi là 'vua huyệt'?</h2>
+<p>Túc Tam Lý (足三里, ST36 — Vị kinh huyệt 36) là huyệt hợp của Vị kinh — điểm mạnh nhất của kinh Vị (tỳ vị — hậu thiên chi bản). Bổ tỳ vị = bổ được tất cả vì "tỳ vị là gốc của hậu thiên, nguồn sinh hóa khí huyết". Nghiên cứu hiện đại xác nhận châm ST36 kích thích hệ thần kinh phó giao cảm, tăng tế bào NK, tăng beta-endorphin (giảm đau nội sinh).</p>
+<h2>Vị trí</h2>
+<p>Dưới lồi củ xương chày (đầu gối) 3 thốn (khoảng 4 ngón tay), ngoài mào chày 1 thốn. Khi bấm đúng: có cảm giác tê căng lan xuống mu bàn chân.</p>
+<h2>Chỉ định</h2>
+<ul>
+<li>Tăng miễn dịch, phòng bệnh (cứu mỗi ngày)</li>
+<li>Tiêu hóa kém: đau dạ dày, đầy hơi, tiêu chảy, táo bón</li>
+<li>Mệt mỏi mãn tính, thiếu máu</li>
+<li>Đau gối, đau chân do thoái hóa</li>
+<li>Hồi phục sau bệnh nặng, sau hóa xạ trị</li>
+</ul>
+<h2>Cứu ngải hàng ngày</h2>
+<p>Người Nhật có câu: "Chớ đi đâu xa khi chưa cứu Túc Tam Lý". Cứu mồi ngải 3–5 mồi/huyệt mỗi ngày vào buổi sáng — thói quen dưỡng sinh trường thọ của người Nhật sống đến 100 tuổi.</p>
+<p style="margin-top:24px;padding:16px 20px;background:#f0fdf4;border-radius:12px;border-left:4px solid #16a34a;">
+<strong>🦵 Châm cứu Túc Tam Lý:</strong> Gọi <strong>0973 710 237</strong> — liệu trình châm cứu và cứu ngải bổ trung.
+</p>`
+  },
+  {
+    id: 73,
+    category: 'phuong-huyet',
+    categoryLabel: 'Phương huyệt',
+    gradient: 'g-huyet',
+    icon: '🫀',
+    title: 'Huyệt Nội Quan (PC6): Điều hòa tim mạch, chống nôn và giảm lo âu',
+    excerpt: 'Nội Quan là huyệt chủ trị bệnh tim mạch, buồn nôn và lo âu trong châm cứu. Được nghiên cứu lâm sàng rộng rãi nhất trong số tất cả huyệt châm cứu — đặc biệt hiệu quả chống nôn sau hóa trị.',
+    date: '2026-02-22',
+    readTime: 5,
+    content: `<h2>Nội Quan — huyệt tim mạch và tiêu hóa trên</h2>
+<p>Huyệt Nội Quan (内關, PC6 — Tâm Bào Kinh huyệt 6) là Lạc huyệt của Tâm Bào Kinh, thông với Âm Duy Mạch. Tác dụng: điều hòa tâm (tim), an thần, giáng nghịch (chống nôn, chống trào ngược). Vòng đeo tay chống say tàu xe thương mại (Sea-Band, Acuband) ấn vào đúng huyệt Nội Quan.</p>
+<h2>Vị trí</h2>
+<p>Mặt trong cổ tay, giữa hai gân Palmaris longus và Flexor carpi radialis, trên nếp lằn cổ tay 2 thốn (~3 ngón tay). Ấn nhẹ vào giữa hai gân — cảm giác tê lan lên cẳng tay.</p>
+<h2>Ứng dụng lâm sàng đã được nghiên cứu</h2>
+<ul>
+<li><strong>Chống nôn sau hóa trị ung thư:</strong> Meta-analysis 40 nghiên cứu xác nhận châm PC6 giảm buồn nôn sau hóa trị có ý nghĩa thống kê.</li>
+<li><strong>Say tàu xe, say sóng:</strong> Bấm hoặc đeo vòng Nội Quan 30 phút trước khi đi.</li>
+<li><strong>Hồi hộp đánh trống ngực, rối loạn nhịp tim nhẹ:</strong> Bấm Nội Quan + Tâm Du (BL15) điều hòa nhịp tim.</li>
+<li><strong>Lo âu, stress cấp:</strong> Bấm sâu Nội Quan 2 phút — kích thích phó giao cảm nhanh chóng.</li>
+<li><strong>Trào ngược dạ dày:</strong> Giáng nghịch — giảm acid trào ngược thực quản.</li>
+</ul>
+<p style="margin-top:24px;padding:16px 20px;background:#f0fdf4;border-radius:12px;border-left:4px solid #16a34a;">
+<strong>🫀 Điều hòa tim mạch bằng châm cứu:</strong> Gọi <strong>0973 710 237</strong> — tư vấn và điều trị.
+</p>`
+  },
+  {
+    id: 74,
+    category: 'phuong-huyet',
+    categoryLabel: 'Phương huyệt',
+    gradient: 'g-huyet',
+    icon: '🌊',
+    title: 'Huyệt Tam Âm Giao (SP6): Huyệt vàng cho phụ nữ — điều kinh, sinh sản và mãn kinh',
+    excerpt: 'Tam Âm Giao là huyệt quan trọng nhất trong điều trị bệnh phụ khoa bằng châm cứu — nơi hội tụ 3 kinh âm Tỳ, Can, Thận ở chân. Bấm đúng huyệt này giảm đau bụng kinh trong 10–15 phút.',
+    date: '2026-02-20',
+    readTime: 5,
+    content: `<h2>Tam Âm Giao — giao điểm 3 kinh âm</h2>
+<p>Tam Âm Giao (三陰交, SP6 — Tỳ Kinh huyệt 6) là nơi hội tụ của 3 kinh âm ở chân: Tỳ kinh, Can kinh và Thận kinh — 3 kinh quan trọng nhất với sức khỏe phụ nữ. Một huyệt bấm — 3 kinh được điều hòa.</p>
+<h2>Vị trí</h2>
+<p>Mặt trong cẳng chân, trên đỉnh mắt cá trong 3 thốn (4 ngón tay đặt trên mắt cá), sát bờ sau xương chày. Bấm đúng: tê căng lan lên bắp chân và đùi trong.</p>
+<h2>Ứng dụng trong phụ khoa</h2>
+<ul>
+<li><strong>Đau bụng kinh (thống kinh):</strong> Bấm Tam Âm Giao + Hợp Cốc (LI4) mạnh 2 phút trước kỳ kinh — giảm đau 60–80% theo nghiên cứu.</li>
+<li><strong>Kinh nguyệt không đều:</strong> Kết hợp với Quan Nguyên (CV4) điều kinh.</li>
+<li><strong>Hội chứng mãn kinh:</strong> Bốc hỏa, đổ mồ hôi đêm — phối với Thận Du (BL23), Thái Khê (KI3).</li>
+<li><strong>Khó ngủ do huyết hư:</strong> Bấm buổi tối — dưỡng huyết an thần.</li>
+<li><strong>Phù nề chân:</strong> Lợi thủy thấm thấp — bấm Tam Âm Giao + Âm Lăng Tuyền (SP9).</li>
+</ul>
+<h2>Chống chỉ định</h2>
+<p>Phụ nữ mang thai: tuyệt đối không châm hoặc bấm mạnh — có tác dụng kích thích co bóp tử cung.</p>
+<p style="margin-top:24px;padding:16px 20px;background:#f0fdf4;border-radius:12px;border-left:4px solid #16a34a;">
+<strong>🌊 Điều trị phụ khoa bằng châm cứu:</strong> Gọi <strong>0973 710 237</strong> — liệu trình châm cứu điều kinh chuyên biệt.
+</p>`
+  },
+  {
+    id: 75,
+    category: 'phuong-huyet',
+    categoryLabel: 'Phương huyệt',
+    gradient: 'g-huyet',
+    icon: '💆',
+    title: 'Huyệt Bách Hội (GV20): Đỉnh đầu — trị đau đầu, sa nội tạng và tăng tỉnh táo',
+    excerpt: 'Bách Hội là huyệt ở đỉnh đầu, nơi hội tụ của tất cả dương kinh. Tác dụng nâng dương khí, trị đau đầu đỉnh, sa nội tạng, huyết áp thấp và tăng tỉnh táo trí não rất đặc trưng.',
+    date: '2026-02-18',
+    readTime: 5,
+    content: `<h2>Bách Hội — đỉnh cao của dương khí</h2>
+<p>Bách Hội (百會, GV20 — Đốc Mạch huyệt 20) nằm ở đỉnh đầu, là điểm giao nhau của tất cả dương kinh trong cơ thể. Đốc Mạch là "biển của các dương kinh" (陽脈之海) và GV20 là điểm cao nhất, đại diện cho toàn bộ dương khí của cơ thể.</p>
+<h2>Vị trí</h2>
+<p>Giao điểm của đường nối 2 đỉnh tai và đường dọc giữa đầu — đỉnh đầu. Khi sờ vào: thường có chỗ hơi lõm nhẹ hoặc cảm giác mạch đập.</p>
+<h2>Chỉ định đặc trưng</h2>
+<ul>
+<li><strong>Đau đầu đỉnh và đau nửa đầu:</strong> Huyệt tại chỗ — châm hay bấm đều giảm đau nhanh.</li>
+<li><strong>Sa nội tạng, sa tử cung:</strong> Nâng dương khí, thăng đề — mô hình "dương khí bất thăng". Phối Túc Tam Lý và Thăng Ma.</li>
+<li><strong>Huyết áp thấp, choáng váng khi đứng dậy:</strong> Nâng dương khí lên não.</li>
+<li><strong>Mất tập trung, buồn ngủ:</strong> Cứu ngải nhẹ tại Bách Hội — tăng tỉnh táo ngay lập tức.</li>
+<li><strong>Mất ngủ (tâm thận bất giao):</strong> Phối Thần Môn (HT7) và Thái Khê (KI3).</li>
+</ul>
+<p style="margin-top:24px;padding:16px 20px;background:#f0fdf4;border-radius:12px;border-left:4px solid #16a34a;">
+<strong>💆 Châm cứu Bách Hội:</strong> Gọi <strong>0973 710 237</strong> — điều trị đau đầu và các chứng dương khí bất thăng.
+</p>`
+  },
+  {
+    id: 76,
+    category: 'phuong-huyet',
+    categoryLabel: 'Phương huyệt',
+    gradient: 'g-huyet',
+    icon: '🎯',
+    title: 'Huyệt Quan Nguyên (CV4): Trung tâm dương khí và sinh lực cơ thể',
+    excerpt: 'Quan Nguyên là huyệt chứa nguyên khí — nguồn sinh lực gốc của cơ thể. Cứu ngải Quan Nguyên được xem là phương pháp bổ dương và dưỡng sinh mạnh mẽ nhất trong YHCT.',
+    date: '2026-02-15',
+    readTime: 5,
+    content: `<h2>Quan Nguyên — bể chứa nguyên khí</h2>
+<p>Quan Nguyên (關元, CV4 — Nhâm Mạch huyệt 4) dưới rốn 3 thốn, là nơi tích tụ nguyên khí của cơ thể — "Tam tiêu chi khí sở chung, Tiểu Trường chi mộ huyệt". Đây là huyệt hội tụ 3 kinh âm ở bụng (Tỳ, Can, Thận) và Nhâm Mạch — kinh âm chủ đạo toàn thân.</p>
+<h2>Vị trí</h2>
+<p>Dưới rốn 3 thốn (4 ngón tay) trên đường trắng giữa bụng. Khi cứu ngải: cảm giác ấm lan xuống vùng sinh dục và xung quanh bụng dưới.</p>
+<h2>Chỉ định</h2>
+<ul>
+<li><strong>Thận dương hư:</strong> Tiểu đêm, lạnh lưng, yếu sinh lý — cứu mỗi ngày 15–20 phút.</li>
+<li><strong>Kinh nguyệt không đều, lạnh cung:</strong> Phối Tam Âm Giao, điều hòa đường kinh âm.</li>
+<li><strong>Vô sinh do hàn:</strong> Bụng dưới lạnh, kinh thưa, vô sinh — cứu ngải liệu trình 3 tháng.</li>
+<li><strong>Sa tử cung, sa trực tràng:</strong> Phối Bách Hội + Túc Tam Lý.</li>
+<li><strong>Mệt mỏi kinh niên, hồi phục sau ốm nặng:</strong> Bổ nguyên khí.</li>
+</ul>
+<h2>Cứu ngải Quan Nguyên đúng cách</h2>
+<p>Dùng điếu ngải treo cách da 2–3cm, cứu 15–20 phút/ngày. Không cứu khi đang sốt, viêm cấp, hoặc mang thai. Liệu trình: 10–30 ngày liên tục.</p>
+<p style="margin-top:24px;padding:16px 20px;background:#f0fdf4;border-radius:12px;border-left:4px solid #16a34a;">
+<strong>🎯 Cứu ngải Quan Nguyên:</strong> Gọi <strong>0973 710 237</strong> — học cách cứu ngải tại nhà đúng kỹ thuật.
+</p>`
+  },
+  {
+    id: 77,
+    category: 'phuong-huyet',
+    categoryLabel: 'Phương huyệt',
+    gradient: 'g-huyet',
+    icon: '👁️',
+    title: 'Châm cứu điều trị cận thị và mỏi mắt — phương pháp bảo vệ thị lực',
+    excerpt: 'Mỏi mắt, khô mắt và cận thị ngày càng phổ biến trong thời đại màn hình. Châm cứu có hệ thống huyệt quanh mắt và can thận huyệt giúp cải thiện triệu chứng hiệu quả.',
+    date: '2026-02-12',
+    readTime: 5,
+    content: `<h2>Bệnh mắt trong YHCT — Can khai khiếu ở Mắt</h2>
+<p>YHCT quan niệm: "Can khai khiếu ư mục" — gan biểu hiện ra mắt. Sức nhìn phụ thuộc can huyết nuôi dưỡng mắt. Mỏi mắt, khô mắt, nhìn mờ — thường do can huyết hư hoặc can âm bất túc. Cận thị ở trẻ — ngoài yếu tố di truyền còn do tỳ thận khí hư, tinh không nuôi dưỡng mắt.</p>
+<h2>Huyệt điều trị mắt</h2>
+<ul>
+<li><strong>Tinh Minh (BL1):</strong> Góc trong mắt — huyệt tại chỗ quan trọng nhất. Châm 0.5 thốn thẳng vào — KHÔNG tự châm, chỉ bấm nhẹ.</li>
+<li><strong>Toán Trúc (BL2):</strong> Đầu trong lông mày — giảm đau đầu sau gáy và mỏi mắt.</li>
+<li><strong>Thái Dương (EX-HN5):</strong> Thái dương — thường day bấm khi mỏi mắt, đau đầu.</li>
+<li><strong>Quang Minh (GB37):</strong> Lạc huyệt Can kinh — "quang minh" nghĩa là sáng — huyệt xa trị bệnh mắt do can hư.</li>
+<li><strong>Can Du (BL18) + Thận Du (BL23):</strong> Du huyệt lưng — bổ can thận, tăng nuôi dưỡng mắt.</li>
+</ul>
+<h2>Tự massage mắt hàng ngày</h2>
+<p>Xoa 2 bàn tay ấm, áp lên mắt nhắm 30 giây. Bấm nhẹ 4 huyệt quanh mắt (Tinh Minh, Toán Trúc, Thái Dương, Thừa Khấp) mỗi huyệt 30 lần — bài tập mắt YHCT cổ điển cho học sinh Trung Quốc.</p>
+<p style="margin-top:24px;padding:16px 20px;background:#f0fdf4;border-radius:12px;border-left:4px solid #16a34a;">
+<strong>👁️ Điều trị mỏi mắt châm cứu:</strong> Gọi <strong>0973 710 237</strong> — liệu trình châm cứu bảo vệ thị lực.
+</p>`
+  },
+  {
+    id: 78,
+    category: 'phuong-huyet',
+    categoryLabel: 'Phương huyệt',
+    gradient: 'g-huyet',
+    icon: '🦷',
+    title: 'Nhĩ châm (châm tai): Bản đồ toàn thân trên vành tai và ứng dụng thực tiễn',
+    excerpt: 'Nhĩ châm là hệ thống châm cứu độc lập trên vành tai — dựa trên giả thuyết toàn ký tương tự (holograms): toàn thân phản chiếu lên tai. Được WHO công nhận và ứng dụng rộng rãi toàn cầu.',
+    date: '2026-02-10',
+    readTime: 5,
+    content: `<h2>Nhĩ châm — bản đồ cơ thể trên tai</h2>
+<p>Bác sĩ Paul Nogier (Pháp, 1957) hệ thống hóa bản đồ nhĩ châm: tai có hình dạng như thai nhi nằm ngược, các điểm trên tai tương ứng với các bộ phận cơ thể. YHCT tích hợp và phát triển lý thuyết này, hiện được WHO công nhận là phương pháp châm cứu hợp lệ.</p>
+<h2>Cách hoạt động</h2>
+<p>Châm kim nhỏ (0.2mm) hoặc dán hạt kim loại/hạt thực vật (ngũ cốc, hạt cải) vào điểm tương ứng trên tai. Bệnh nhân tự bấm hạt khi có triệu chứng — kích thích liên tục 24/7 trong 3–7 ngày.</p>
+<h2>Ứng dụng phổ biến nhất</h2>
+<ul>
+<li><strong>Cai thuốc lá:</strong> Huyệt Phổi, Thần Môn, Nội Tiết, Miệng tai — giảm cơn thèm thuốc hiệu quả.</li>
+<li><strong>Giảm cân:</strong> Huyệt Miệng, Dạ Dày, Nội Tiết — giảm cảm giác đói.</li>
+<li><strong>Giảm đau:</strong> Điểm đau tương ứng cơ quan + Thần Môn — giảm đau nhanh.</li>
+<li><strong>Mất ngủ:</strong> Thần Môn, Tâm, Não — an thần, cải thiện chất lượng giấc ngủ.</li>
+<li><strong>Lo âu, stress:</strong> Thần Môn + Giao Cảm + Dưới Vỏ não.</li>
+</ul>
+<p style="margin-top:24px;padding:16px 20px;background:#f0fdf4;border-radius:12px;border-left:4px solid #16a34a;">
+<strong>🦷 Nhĩ châm chuyên biệt:</strong> Gọi <strong>0973 710 237</strong> — BS. Nguyễn Đức Tâm thực hiện nhĩ châm dán hạt, tự bấm tại nhà.
+</p>`
+  },
+  {
+    id: 79,
+    category: 'phuong-huyet',
+    categoryLabel: 'Phương huyệt',
+    gradient: 'g-huyet',
+    icon: '🧊',
+    title: 'Cạo Gió (Gua Sha): Kỹ thuật trị cảm mạo và đau cơ — đúng và sai',
+    excerpt: 'Cạo gió (Gua Sha) là phương pháp dân gian phổ biến nhất Việt Nam và Đông Á. Hiểu đúng cơ chế, chỉ định và kỹ thuật để tránh tác hại và tận dụng hiệu quả tối đa.',
+    date: '2026-02-08',
+    readTime: 5,
+    content: `<h2>Cạo gió — cơ chế thực sự</h2>
+<p>Gua Sha (刮痧) tạo ra hiện tượng xuất huyết dưới da (petechiae) — các đốm đỏ hoặc tím. Nghiên cứu 2019 (Journal of Acupuncture and Meridian Studies) xác nhận: cạo gió làm tăng lưu lượng máu dưới da 400%, tăng heme oxygenase-1 (enzyme kháng viêm mạnh) và giảm đau cơ học qua cơ chế DNIC (diffuse noxious inhibitory control).</p>
+<h2>Chỉ định đúng</h2>
+<ul>
+<li><strong>Cảm mạo phong hàn:</strong> Sốt nhẹ, đau đầu, cứng gáy, sợ lạnh — cạo vùng cổ gáy và lưng dọc bàng quang kinh.</li>
+<li><strong>Đau cơ cấp tính:</strong> Đau cổ vai gáy do ngồi lâu, đau lưng cơ học — cạo dọc cơ.</li>
+<li><strong>Heatstroke (say nắng) nhẹ:</strong> Cạo ngực, cổ — truyền thống dân gian có cơ sở khai thông dương khí.</li>
+</ul>
+<h2>Không cạo gió khi nào</h2>
+<ul>
+<li>Da viêm nhiễm, mụn nhọt, chàm — lây lan nhiễm trùng</li>
+<li>Rối loạn đông máu, đang dùng thuốc chống đông</li>
+<li>Xương gãy, bong gân cấp</li>
+<li>Phụ nữ mang thai (vùng bụng và lưng dưới)</li>
+<li>Trẻ dưới 7 tuổi — da mỏng dễ tổn thương</li>
+</ul>
+<p style="margin-top:24px;padding:16px 20px;background:#f0fdf4;border-radius:12px;border-left:4px solid #16a34a;">
+<strong>🧊 Học cạo gió đúng kỹ thuật:</strong> Gọi <strong>0973 710 237</strong> — hướng dẫn kỹ thuật và chỉ định đúng.
+</p>`
+  },
+  {
+    id: 80,
+    category: 'phuong-huyet',
+    categoryLabel: 'Phương huyệt',
+    gradient: 'g-huyet',
+    icon: '🌡️',
+    title: 'Cứu Ngải (Moxibustion): Nhiệt trị liệu YHCT — khi nào dùng, khi nào không',
+    excerpt: 'Cứu ngải là phương pháp dùng nhiệt từ đốt ngải diệp để kích thích huyệt vị. Hiệu quả cao trong các chứng hàn, dương hư — nhưng dùng sai chứng có thể làm bệnh nặng thêm.',
+    date: '2026-02-05',
+    readTime: 5,
+    content: `<h2>Cứu ngải — nhiệt liệu pháp YHCT</h2>
+<p>Cứu ngải (灸法) dùng nhiệt từ đốt lá ngải (Artemisia argyi) để kích thích huyệt vị. Cơ chế: nhiệt xâm nhập sâu qua da → tăng tuần hoàn cục bộ, giải co thắt cơ, kích thích miễn dịch qua hệ thần kinh tự chủ. Tia hồng ngoại xa từ ngải đốt (8–14 μm) phù hợp với dải hấp thụ nhiệt của da người — khác với đèn hồng ngoại thông thường.</p>
+<h2>Phương pháp cứu ngải</h2>
+<ul>
+<li><strong>Cứu điếu (Moxa stick):</strong> Phổ biến nhất — cầm điếu ngải cách da 2–3cm, di chuyển vòng tròn hoặc đứng yên 15–20 phút. Dễ tự làm tại nhà.</li>
+<li><strong>Cứu gián tiếp qua gừng:</strong> Đặt lát gừng dày 3mm trên huyệt, đặt mồi ngải trên gừng — nhiệt + tính ôn của gừng tăng tác dụng bổ dương.</li>
+<li><strong>Cứu hộp ngải:</strong> Hộp gỗ đặt lên vùng lưng — cứu rộng nhiều huyệt cùng lúc.</li>
+</ul>
+<h2>Chỉ định và chống chỉ định</h2>
+<p>Chỉ định: hàn chứng, dương hư, khí hư — lưng lạnh, tiểu đêm, tiêu chảy sáng sớm, đau khớp tăng khi lạnh, mệt mỏi.<br>
+KHÔNG cứu: nhiệt chứng (sốt, viêm đỏ), âm hư nội nhiệt, vùng mặt-đầu-cổ (trừ Bách Hội), niêm mạc, vùng mạch máu lớn, phụ nữ mang thai (bụng và lưng dưới).</p>
+<p style="margin-top:24px;padding:16px 20px;background:#f0fdf4;border-radius:12px;border-left:4px solid #16a34a;">
+<strong>🌡️ Cứu ngải chuyên nghiệp:</strong> Gọi <strong>0973 710 237</strong> — liệu trình cứu ngải điều trị hàn chứng hiệu quả.
+</p>`
+  },
+  {
+    id: 81,
+    category: 'phuong-huyet',
+    categoryLabel: 'Phương huyệt',
+    gradient: 'g-huyet',
+    icon: '💉',
+    title: 'Châm cứu điều trị đau thắt lưng — hiệu quả cao hơn một số thuốc giảm đau',
+    excerpt: 'Đau thắt lưng là lý do khám bệnh phổ biến nhất thế giới. Meta-analysis từ nghiên cứu lâm sàng lớn xác nhận châm cứu hiệu quả hơn điều trị giả dược và tương đương một số thuốc trong đau lưng mãn tính.',
+    date: '2026-02-03',
+    readTime: 5,
+    content: `<h2>Bằng chứng khoa học về châm cứu và đau lưng</h2>
+<p>Cochrane Review 2013 phân tích 32 thử nghiệm lâm sàng với 8.243 bệnh nhân kết luận: châm cứu hiệu quả hơn điều trị không châm cứu trong đau lưng dưới mãn tính (cả đau và chức năng). Archives of Internal Medicine 2012: châm cứu hiệu quả hơn chăm sóc thông thường cho đau lưng, cổ và đau đầu mãn tính. WHO liệt kê đau lưng dưới mãn tính là chỉ định châm cứu cấp độ 1 (bằng chứng mạnh nhất).</p>
+<h2>Cơ chế giảm đau</h2>
+<p>Châm cứu kích thích: (1) Giải phóng beta-endorphin, encephalin nội sinh — giảm đau toàn thân; (2) Ức chế dẫn truyền đau qua cổng kiểm soát (gate control theory); (3) Giảm viêm cục bộ qua tăng adenosine; (4) Giảm co thắt cơ cạnh sống.</p>
+<h2>Phác đồ huyệt cơ bản</h2>
+<ul>
+<li>Thận Du (BL23), Đại Trường Du (BL25), Quan Nguyên Du (BL26) — du huyệt lưng tại chỗ</li>
+<li>Ủy Trung (BL40) — huyệt lệnh bệnh lưng (kinh cổ điển)</li>
+<li>Côn Lôn (BL60), Thái Khê (KI3) — xa huyệt tăng tác dụng</li>
+<li>A-thị huyệt (điểm đau nhất) — thường phối hợp</li>
+</ul>
+<p style="margin-top:24px;padding:16px 20px;background:#f0fdf4;border-radius:12px;border-left:4px solid #16a34a;">
+<strong>💉 Châm cứu đau lưng:</strong> Gọi <strong>0973 710 237</strong> — liệu trình 10 buổi, kết quả rõ rệt sau buổi 3–5.
+</p>`
+  },
+  {
+    id: 82,
+    category: 'phuong-huyet',
+    categoryLabel: 'Phương huyệt',
+    gradient: 'g-huyet',
+    icon: '⚡',
+    title: 'Điện châm và Laser châm: Công nghệ hiện đại kết hợp châm cứu cổ truyền',
+    excerpt: 'Điện châm và laser châm là những phát triển công nghệ kết hợp với châm cứu cổ truyền — tăng hiệu quả điều trị trong nhiều chứng bệnh, đặc biệt đau mãn tính và liệt cơ.',
+    date: '2026-02-01',
+    readTime: 5,
+    content: `<h2>Điện châm — châm cứu kết hợp kích thích điện</h2>
+<p>Điện châm (Electroacupuncture — EA) kết hợp kim châm với kích thích điện tần số thấp (2–100Hz). Cơ chế: (1) Tần số thấp (2Hz) kích thích giải phóng beta-endorphin và met-enkephalin; (2) Tần số cao (100Hz) kích thích dynorphin và nociceptin — giảm đau khác cơ chế. Nghiên cứu từ Trung Quốc, Mỹ, Châu Âu xác nhận EA hiệu quả hơn châm cứu thủ công trong nhiều chỉ định.</p>
+<h2>Chỉ định điện châm</h2>
+<ul>
+<li><strong>Liệt ngoại vi (facial palsy):</strong> Kích thích điện phục hồi thần kinh mặt — kết quả rõ rệt khi bắt đầu sớm trong 72 giờ.</li>
+<li><strong>Đau mãn tính:</strong> Fibromyalgia, đau thần kinh sau zona, đau lưng — EA 30 phút/buổi, 3 buổi/tuần.</li>
+<li><strong>Phục hồi chức năng sau đột quỵ:</strong> Kết hợp với vật lý trị liệu — tăng phục hồi vận động.</li>
+</ul>
+<h2>Laser châm</h2>
+<p>Dùng tia laser low-level (LLLT) kích thích huyệt không dùng kim — không đau, phù hợp trẻ em và người sợ kim. Hiệu quả thấp hơn điện châm trong đau nặng nhưng tốt cho liệu trình dài hạn và người nhạy cảm.</p>
+<p style="margin-top:24px;padding:16px 20px;background:#f0fdf4;border-radius:12px;border-left:4px solid #16a34a;">
+<strong>⚡ Điện châm chuyên biệt:</strong> Gọi <strong>0973 710 237</strong> — liệu trình điện châm điều trị đau và phục hồi chức năng.
+</p>`
+  },
+  {
+    id: 83,
+    category: 'phuong-huyet',
+    categoryLabel: 'Phương huyệt',
+    gradient: 'g-huyet',
+    icon: '🤸',
+    title: 'Tự bấm huyệt chữa mất ngủ: 5 huyệt hiệu quả nhất không cần kim châm',
+    excerpt: 'Mất ngủ không cần phải phụ thuộc vào thuốc ngủ. 5 huyệt YHCT này có thể tự bấm tại nhà, hiệu quả trong 10–15 phút, giúp vào giấc ngủ nhanh và sâu hơn một cách tự nhiên.',
+    date: '2026-01-28',
+    readTime: 5,
+    content: `<h2>Mất ngủ theo YHCT và giải pháp bấm huyệt</h2>
+<p>YHCT phân tích mất ngủ (thất miên — 失眠) theo nguyên nhân: Tâm thận bất giao (hay nhất), Can uất hóa hỏa, Tâm tỳ lưỡng hư, Đàm nhiệt nội nhiễu, Âm hư hỏa vượng. Bấm huyệt giải quyết nguyên nhân gốc rễ thay vì chỉ gây buồn ngủ nhân tạo như thuốc.</p>
+<h2>5 huyệt tự bấm trước khi ngủ</h2>
+<ul>
+<li><strong>Thần Môn (HT7):</strong> Mặt trong cổ tay, phía ngón út, nếp lằn cổ tay. Bấm 2–3 phút mỗi bên — an tâm thần, đặc trị mất ngủ do lo âu.</li>
+<li><strong>Ấn Đường (GV24.5):</strong> Giữa 2 lông mày. Day nhẹ tròn 2–3 phút — an thần, giảm đau đầu, giúp thư giãn não.</li>
+<li><strong>Bách Hội (GV20):</strong> Đỉnh đầu. Bấm nhẹ + gõ nhẹ 50 lần — an tâm thần.</li>
+<li><strong>Tam Âm Giao (SP6):</strong> Cẳng chân trong, trên mắt cá 3 thốn. Bấm 2 phút — dưỡng âm an thần.</li>
+<li><strong>Thái Khê (KI3):</strong> Giữa mắt cá trong và gân Achilles. Bấm 2 phút — bổ thận âm, giao thông tâm thận.</li>
+</ul>
+<h2>Trình tự tốt nhất</h2>
+<p>Ngâm chân nước ấm 15 phút → bấm Thái Khê + Tam Âm Giao 3 phút mỗi huyệt → nằm xuống bấm Thần Môn + Ấn Đường → Bách Hội. Thực hiện đều đặn 10–14 ngày.</p>
+<p style="margin-top:24px;padding:16px 20px;background:#f0fdf4;border-radius:12px;border-left:4px solid #16a34a;">
+<strong>🤸 Điều trị mất ngủ YHCT:</strong> Gọi <strong>0973 710 237</strong> — châm cứu điều trị mất ngủ tận gốc nguyên nhân.
+</p>`
+  },
+  {
+    id: 84,
+    category: 'phuong-huyet',
+    categoryLabel: 'Phương huyệt',
+    gradient: 'g-huyet',
+    icon: '🌬️',
+    title: 'Châm cứu điều trị viêm xoang mãn tính — cách tiếp cận toàn diện',
+    excerpt: 'Viêm xoang mãn tính gây ngạt mũi, đau đầu và suy giảm chất lượng sống kéo dài. Châm cứu kết hợp thuốc YHCT giải quyết căn nguyên sâu xa hơn chỉ dùng thuốc kháng sinh và xịt mũi.',
+    date: '2026-01-25',
+    readTime: 5,
+    content: `<h2>Viêm xoang mãn tính — quan điểm YHCT</h2>
+<p>Viêm xoang mãn tính (Tỵ uyên — 鼻淵) trong YHCT do: (1) Phế khí hư, vệ khí bất cố (hàng rào miễn dịch niêm mạc kém — phong hàn xâm nhập); (2) Đàm nhiệt uất phế (viêm mãn, đàm đặc vàng). Điều trị phải vừa khu tà (thông mũi) vừa bổ chính (tăng phế khí).</p>
+<h2>Phác đồ châm cứu</h2>
+<ul>
+<li><strong>Tại chỗ:</strong> Nghinh Hương (LI20), Bách Hội (GV20), Thượng Tinh (GV23), Ấn Đường — mở thông lỗ mũi ngay lập tức.</li>
+<li><strong>Toàn thân:</strong> Hợp Cốc (LI4) — Đại Trường kinh phối biểu lý với Phế kinh; Phế Du (BL13) bổ phế; Túc Tam Lý (ST36) tăng đề kháng.</li>
+<li><strong>Điện châm:</strong> Nghinh Hương kết nối điện tần số 2Hz — thông mũi hiệu quả hơn châm thủ công.</li>
+</ul>
+<h2>Thuốc kết hợp</h2>
+<p>Thương Nhĩ Tử Tán (thương nhĩ tử + bạch chỉ + tân di + bạc hà) — bài thuốc YHCT hàng đầu điều trị viêm xoang. Kết hợp với xông hơi thảo dược (bạc hà, kinh giới, cúc hoa) mỗi tối.</p>
+<p style="margin-top:24px;padding:16px 20px;background:#f0fdf4;border-radius:12px;border-left:4px solid #16a34a;">
+<strong>🌬️ Điều trị viêm xoang YHCT:</strong> Gọi <strong>0973 710 237</strong> — phác đồ châm cứu + thuốc kết hợp.
+</p>`
+  },
+  {
+    id: 85,
+    category: 'phuong-huyet',
+    categoryLabel: 'Phương huyệt',
+    gradient: 'g-huyet',
+    icon: '🤱',
+    title: 'Châm cứu hỗ trợ sinh sản và điều trị vô sinh — bằng chứng và thực tiễn',
+    excerpt: 'Châm cứu hỗ trợ sinh sản đang được nhiều phòng khám IVF tích hợp vào phác đồ điều trị. Tìm hiểu bằng chứng lâm sàng và cơ chế tác dụng được nghiên cứu đến nay.',
+    date: '2026-01-22',
+    readTime: 5,
+    content: `<h2>YHCT và vô sinh hiếm muộn</h2>
+<p>YHCT điều trị vô sinh bằng cách tối ưu hóa "thận tinh" và cân bằng hành kinh. Phụ nữ: điều hòa Xung Nhâm Mạch (kinh mạch điều hòa tử cung và kinh nguyệt). Nam giới: bổ thận tinh, cải thiện chất lượng tinh trùng. Nghiên cứu hiện đại xác nhận một số cơ chế này.</p>
+<h2>Bằng chứng lâm sàng</h2>
+<ul>
+<li>Meta-analysis 2012 (Fertility and Sterility): châm cứu trước và sau chuyển phôi IVF tăng tỷ lệ thành công lên 65% so với giả dược.</li>
+<li>Nghiên cứu 2016: châm cứu cải thiện dự trữ buồng trứng (AMH) và số lượng nang noãn ở phụ nữ suy giảm dự trữ buồng trứng.</li>
+<li>Nam giới: châm cứu cải thiện độ di động và hình thái tinh trùng sau 10 tuần điều trị.</li>
+</ul>
+<h2>Phác đồ huyệt</h2>
+<p>Phụ nữ: Quan Nguyên (CV4), Tử Cung (ngoại kỳ huyệt), Tam Âm Giao (SP6), Thận Du (BL23) — bổ xung nhâm, dưỡng huyết điều kinh. Nam giới: Quan Nguyên (CV4), Thận Du (BL23), Thái Khê (KI3), Túc Tam Lý (ST36) — bổ thận tinh.</p>
+<p style="margin-top:24px;padding:16px 20px;background:#f0fdf4;border-radius:12px;border-left:4px solid #16a34a;">
+<strong>🤱 Hỗ trợ sinh sản YHCT:</strong> Gọi <strong>0973 710 237</strong> — BS. Nguyễn Đức Tâm tư vấn phác đồ điều trị vô sinh hiếm muộn.
+</p>`
+  },
+  {
+    id: 86,
+    category: 'lam-dep',
+    categoryLabel: 'Làm đẹp',
+    gradient: 'g-rose',
+    icon: '✨',
+    title: 'Châm cứu thẩm mỹ: Nâng cơ mặt tự nhiên không cần dao kéo',
+    excerpt: 'Châm cứu thẩm mỹ (Cosmetic Acupuncture) đang trở thành xu hướng làm đẹp tự nhiên được giới thượng lưu phương Tây ưa chuộng. Tìm hiểu cơ chế và kết quả thực tế có thể kỳ vọng.',
+    date: '2026-01-20',
+    readTime: 5,
+    content: `<h2>Châm cứu thẩm mỹ — nâng cơ từ bên trong</h2>
+<p>Facial Acupuncture hay Cosmetic Acupuncture sử dụng kim siêu nhỏ (0.16–0.20mm) châm vào các điểm trên mặt và toàn thân. Cơ chế: (1) Tạo vi chấn thương có kiểm soát → kích thích sản xuất collagen tự nhiên; (2) Tăng tuần hoàn mặt → mang dưỡng chất và oxy đến tế bào da; (3) Cân bằng cơ mặt — giãn cơ co thắt (gây nếp nhăn) và kích thích cơ nhão.</p>
+<h2>Kết quả thực tế</h2>
+<ul>
+<li>Da sáng và mịn hơn sau 3–5 buổi</li>
+<li>Giảm nếp nhăn nông-vừa sau 10–12 buổi</li>
+<li>Nâng góc miệng, giảm jowl nhẹ sau 15–20 buổi</li>
+<li>Giảm bọng mắt và quầng thâm (tăng tuần hoàn)</li>
+</ul>
+<h2>So sánh với Botox</h2>
+<p>Châm cứu không tạo kết quả nhanh và mạnh như Botox/filler — nhưng tự nhiên hơn, không rủi ro biến chứng, và cải thiện toàn diện chứ không chỉ một vùng. Phù hợp: người 35–60 tuổi muốn trẻ hóa tự nhiên, người không muốn tiêm chích, người duy trì kết quả sau Botox.</p>
+<p style="margin-top:24px;padding:16px 20px;background:#fdf2f8;border-radius:12px;border-left:4px solid #db2777;">
+<strong>✨ Châm cứu thẩm mỹ:</strong> Gọi <strong>0973 710 237</strong> — BS. Nguyễn Đức Tâm thực hiện liệu trình châm cứu thẩm mỹ chuyên biệt.
+</p>`
+  },
+  {
+    id: 87,
+    category: 'lam-dep',
+    categoryLabel: 'Làm đẹp',
+    gradient: 'g-rose',
+    icon: '🌿',
+    title: 'Mặt nạ thảo dược YHCT tại nhà: Công thức theo từng loại da',
+    excerpt: 'YHCT có kho tàng nguyên liệu thảo dược làm đẹp da phong phú — từ đương quy, ngọc trúc đến bạch linh. Công thức mặt nạ tại nhà theo từng loại da: da dầu, da khô, da lão hóa.',
+    date: '2026-01-18',
+    readTime: 5,
+    content: `<h2>Da theo quan điểm YHCT</h2>
+<p>YHCT quan niệm da là biểu hiện bên ngoài của tạng phủ bên trong: "Phế chủ bì mao" (phổi cai quản da lông), Can tàng huyết nuôi da, Thận tinh ẩn thấu qua da. Da tốt = nội tạng khỏe. Dùng thảo dược bôi ngoài mà không điều chỉnh bên trong chỉ là giải pháp tạm thời.</p>
+<h2>Công thức mặt nạ theo loại da</h2>
+<ul>
+<li><strong>Da dầu — mụn (đàm thấp nhiệt):</strong> Bột ý dĩ 2 muỗng + bột bạch linh 1 muỗng + nước hoa hồng. Ý dĩ trừ thấp, bạch linh kiện tỳ thẩm thấp. Đắp 15 phút, 3 lần/tuần.</li>
+<li><strong>Da khô — thiếu nước (âm hư):</strong> Mật ong nguyên chất 1 muỗng + bột ngọc trúc 1 muỗng + sữa tươi. Ngọc trúc dưỡng âm sinh tân, mật ong dưỡng ẩm. Đắp 20 phút.</li>
+<li><strong>Da lão hóa — thâm nám (huyết ứ):</strong> Bột đương quy 1 muỗng + bột tam thất 0.5 muỗng + mật ong. Đương quy hoạt huyết, tam thất tiêu ứ. Đắp 15 phút tối 2–3 lần/tuần.</li>
+<li><strong>Da nhạy cảm — đỏ (phong nhiệt):</strong> Bột cúc hoa 2 muỗng + bột lô hội tươi. Cúc hoa thanh nhiệt chống viêm. Đắp 10 phút, ít nhất ban đầu.</li>
+</ul>
+<p style="margin-top:24px;padding:16px 20px;background:#fdf2f8;border-radius:12px;border-left:4px solid #db2777;">
+<strong>🌿 Tư vấn chăm sóc da YHCT:</strong> Gọi <strong>0973 710 237</strong> — kết hợp điều trị từ bên trong và bên ngoài.
+</p>`
+  },
+  {
+    id: 88,
+    category: 'lam-dep',
+    categoryLabel: 'Làm đẹp',
+    gradient: 'g-rose',
+    icon: '💇',
+    title: 'Rụng tóc theo YHCT: Nguyên nhân và điều trị từ gốc rễ tạng phủ',
+    excerpt: 'Rụng tóc có nhiều nguyên nhân YHCT: thận tinh suy, huyết hư, stress gây can khí uất. Mỗi thể cần điều trị khác nhau — dùng nhầm thuốc không những không hiệu quả mà còn hại thêm.',
+    date: '2026-01-15',
+    readTime: 5,
+    content: `<h2>Tóc — biểu hiện của thận tinh và huyết</h2>
+<p>YHCT: "Phát vi huyết chi dư" (tóc là thừa của huyết) và "Thận chủ cốt, khai khiếu ư nhĩ, kỳ hoa tại phát" (thận biểu hiện ra tóc). Tóc đẹp = can huyết đủ + thận tinh đầy. Rụng tóc phân theo nguyên nhân:</p>
+<h2>Phân loại và điều trị</h2>
+<ul>
+<li><strong>Thận tinh hư (di truyền, lão hóa):</strong> Hói đỉnh đầu, tóc thưa bạc sớm. Điều trị: Thất Bảo Mỹ Nhiêm Đan (hà thủ ô, bổ cốt chỉ, câu kỷ tử, đương quy...). Dài hạn 3–6 tháng.</li>
+<li><strong>Huyết hư (sau sinh, stress, ăn ít):</strong> Tóc rụng lan tỏa, da đầu khô. Điều trị: Bát Trân Thang bổ khí huyết. Phổ biến nhất ở phụ nữ sau sinh.</li>
+<li><strong>Can khí uất (stress mãn tính):</strong> Rụng tóc từng mảng (alopecia areata) hoặc tóc rụng nhiều đột ngột. Điều trị: Tiêu Dao Hoàn + châm cứu.</li>
+<li><strong>Đàm thấp nhiệt (da đầu nhờn, gàu nhiều):</strong> Điều trị: bài thuốc trừ thấp nhiệt, gội đầu bằng nước sắc trắc bá diệp.</li>
+</ul>
+<p style="margin-top:24px;padding:16px 20px;background:#fdf2f8;border-radius:12px;border-left:4px solid #db2777;">
+<strong>💇 Điều trị rụng tóc YHCT:</strong> Gọi <strong>0973 710 237</strong> — chẩn đoán thể bệnh và kê đơn thuốc đúng hướng.
+</p>`
+  },
+  {
+    id: 89,
+    category: 'lam-dep',
+    categoryLabel: 'Làm đẹp',
+    gradient: 'g-rose',
+    icon: '🫙',
+    title: 'Tắm thảo dược và ngâm chân YHCT: Liệu pháp thư giãn và trị bệnh',
+    excerpt: 'Tắm thảo dược và ngâm chân là liệu pháp YHCT dễ thực hiện nhất tại nhà — không chỉ thư giãn mà còn trị liệu thực sự. Công thức cho từng mục đích: giải cảm, dưỡng da, giảm stress.',
+    date: '2026-01-12',
+    readTime: 5,
+    content: `<h2>Dưỡng sinh qua da — hấp thu thảo dược</h2>
+<p>Da là cơ quan lớn nhất cơ thể — có khả năng hấp thu một số hoạt chất thảo dược, đặc biệt khi nhiệt độ nước ấm làm giãn lỗ chân lông. YHCT dùng tắm thảo dược (薰洗疗法) hàng nghìn năm: trị bệnh ngoài da, giải cảm, thư giãn cơ và dưỡng sinh.</p>
+<h2>Công thức thực tiễn</h2>
+<ul>
+<li><strong>Ngâm chân giải mỏi:</strong> Ngải cứu 30g + muối biển 1 muỗng + gừng 5 lát. Sắc 15 phút, pha thêm nước ấm 40–42°C, ngâm 20–30 phút tối. Tăng tuần hoàn chân, cải thiện giấc ngủ.</li>
+<li><strong>Tắm giải cảm:</strong> Kinh giới 30g + tía tô 30g + sả 20g + gừng 10g. Sắc sôi 10 phút, pha bồn tắm ấm, tắm 15–20 phút. Ra mồ hôi nhẹ → hết cảm.</li>
+<li><strong>Ngâm chân dưỡng thận:</strong> Đỗ trọng 20g + ngưu tất 15g + muối 1 muỗng. Bổ thận cường cơ, giảm đau lưng-gối người cao tuổi.</li>
+<li><strong>Tắm dưỡng da:</strong> Bạch linh 20g + ý dĩ 30g + hoa cúc 15g. Trừ thấp làm trắng da, giảm mụn.</li>
+</ul>
+<h2>Lưu ý an toàn</h2>
+<p>Không ngâm chân khi có vết thương hở, phụ nữ mang thai hạn chế, người tiểu đường không dùng nước quá nóng (>40°C vì tê liệt cảm giác nhiệt).</p>
+<p style="margin-top:24px;padding:16px 20px;background:#fdf2f8;border-radius:12px;border-left:4px solid #db2777;">
+<strong>🫙 Tư vấn liệu pháp tắm thảo dược:</strong> Gọi <strong>0973 710 237</strong> — công thức cá nhân hóa theo thể trạng.
+</p>`
+  },
+  {
+    id: 90,
+    category: 'lam-dep',
+    categoryLabel: 'Làm đẹp',
+    gradient: 'g-rose',
+    icon: '🌺',
+    title: 'Điều trị nám da bằng YHCT: Tiếp cận từ bên trong và bên ngoài',
+    excerpt: 'Nám da (melasma) là vấn đề da phổ biến nhất ở phụ nữ Việt Nam, đặc biệt sau sinh và ở tuổi 30–50. YHCT coi nám là biểu hiện của huyết ứ và can thận hư — điều trị từ gốc bền vững hơn laser đơn thuần.',
+    date: '2026-01-10',
+    readTime: 5,
+    content: `<h2>Nám da — biểu hiện của huyết ứ trong YHCT</h2>
+<p>Nám da (肝斑 — gan ban) trong YHCT: tên chữ Hán đã chỉ nguyên nhân — bệnh của gan (can). Can uất hóa hỏa, hỏa động huyết, huyết ứ ở mặt → melanin tăng sản xuất và lắng đọng. Thường kết hợp: can khí uất kết (stress) + thận tinh hư (lão hóa) + huyết ứ (tuần hoàn mặt kém).</p>
+<h2>Điều trị từ bên trong</h2>
+<ul>
+<li><strong>Tiêu Dao Hoàn:</strong> Sơ can giải uất — chỉ định chính khi nám do stress mãn tính, PMS, sau sinh.</li>
+<li><strong>Lục Vị Địa Hoàng:</strong> Bổ can thận âm — nám tuổi 40–50 kèm mãn kinh, âm hư.</li>
+<li><strong>Tam thất:</strong> 3g/ngày — hoạt huyết tiêu ứ, cải thiện tuần hoàn da mặt lâu dài.</li>
+</ul>
+<h2>Điều trị từ bên ngoài</h2>
+<p>Mặt nạ đương quy + tam thất: bột đương quy 1 muỗng + bột tam thất 0.5 muỗng + mật ong, đắp 15 phút tối 2–3 lần/tuần. Kem dưỡng bạch linh: bạch linh có chứa pachymic acid ức chế tyrosinase — làm trắng tự nhiên. Dùng kem chống nắng SPF50 mỗi ngày — không có chống nắng, mọi điều trị đều vô nghĩa.</p>
+<p style="margin-top:24px;padding:16px 20px;background:#fdf2f8;border-radius:12px;border-left:4px solid #db2777;">
+<strong>🌺 Điều trị nám YHCT:</strong> Gọi <strong>0973 710 237</strong> — phác đồ kết hợp châm cứu + thuốc + chăm sóc da ngoài.
+</p>`
+  },
+  {
+    id: 91,
+    category: 'lam-dep',
+    categoryLabel: 'Làm đẹp',
+    gradient: 'g-rose',
+    icon: '💅',
+    title: 'Giảm cellulite bằng phương pháp YHCT: Đả thông kinh lạc và lợi thấp',
+    excerpt: 'Cellulite (da vỏ cam) không phải chỉ vấn đề thẩm mỹ — YHCT xem là biểu hiện của đàm thấp ứ trệ và khí trệ huyết ứ. Điều trị đúng hướng giảm cellulite đồng thời cải thiện sức khỏe tổng thể.',
+    date: '2026-01-08',
+    readTime: 5,
+    content: `<h2>Cellulite trong YHCT — đàm thấp ứ trệ</h2>
+<p>Cellulite hình thành khi mô mỡ đẩy qua vách ngăn collagen dưới da tạo bề mặt gồ ghề. YHCT phân tích: đàm thấp (thể chất tích tụ không chuyển hóa được) + khí trệ huyết ứ (tuần hoàn bạch huyết và máu kém) = tích tụ cục bộ. Điều trị cần: lợi thấp + hoạt huyết + thông lạc.</p>
+<h2>Phương pháp YHCT điều trị cellulite</h2>
+<ul>
+<li><strong>Giác hơi (Cupping):</strong> Giác di động trên vùng đùi và mông — tạo áp lực âm phá vỡ vách ngăn, tăng tuần hoàn bạch huyết. Thực hiện 2–3 lần/tuần, 10 buổi/liệu trình.</li>
+<li><strong>Gua Sha toàn thân:</strong> Cạo nhẹ theo chiều lymphatic drainage — dọc từ dưới lên, từ ngoài vào trong.</li>
+<li><strong>Châm cứu:</strong> Huyệt lợi thấp và hoạt huyết: Âm Lăng Tuyền (SP9), Tam Âm Giao (SP6), Túc Tam Lý (ST36) + huyệt tại chỗ vùng đùi.</li>
+<li><strong>Thuốc uống:</strong> Ý dĩ + đậu đỏ + trần bì sắc uống hàng ngày — lợi thấp hóa đàm từ bên trong.</li>
+</ul>
+<p style="margin-top:24px;padding:16px 20px;background:#fdf2f8;border-radius:12px;border-left:4px solid #db2777;">
+<strong>💅 Điều trị cellulite YHCT:</strong> Gọi <strong>0973 710 237</strong> — liệu trình giác hơi + châm cứu tại Tâm Đức.
+</p>`
+  },
+  {
+    id: 92,
+    category: 'lam-dep',
+    categoryLabel: 'Làm đẹp',
+    gradient: 'g-rose',
+    icon: '🧖',
+    title: 'Xoa bóp mặt Gua Sha: Kỹ thuật đúng để nâng cơ và giảm phù nề',
+    excerpt: 'Gua Sha mặt đang là trend làm đẹp toàn cầu — nhưng kỹ thuật sai có thể gây giãn mao mạch. Học kỹ thuật đúng từ YHCT để đạt hiệu quả nâng cơ, giảm phù và tăng tuần hoàn mặt.',
+    date: '2026-01-05',
+    readTime: 5,
+    content: `<h2>Gua Sha mặt — không giống Gua Sha lưng</h2>
+<p>Gua Sha mặt (jade roller, rose quartz gua sha) dùng lực nhẹ hơn nhiều so với cạo gió toàn thân — không cần tạo vết đỏ (petechiae). Mục tiêu: kích thích bạch mạch mặt (lymphatic drainage), thư giãn cơ mặt, tăng tuần hoàn da. Áp lực nhẹ, động tác chậm và đúng hướng là yếu tố quyết định.</p>
+<h2>Kỹ thuật đúng từng bước</h2>
+<ul>
+<li><strong>Chuẩn bị:</strong> Thoa dầu dưỡng (dầu hoa hồng hoặc dầu jojoba) lên mặt — không bao giờ cạo mặt khô.</li>
+<li><strong>Hướng kéo:</strong> Từ giữa mặt ra ngoài và lên trên — theo hướng thoát bạch huyết về hạch sau tai.</li>
+<li><strong>Vùng trán:</strong> Giữa trán → thái dương, sau tai xuống cổ. 5–7 lần mỗi bên.</li>
+<li><strong>Vùng gò má:</strong> Từ mũi → thái dương. Vùng hàm: từ cằm → tai, xuống cổ.</li>
+<li><strong>Cổ:</strong> Từ sau tai xuống xương đòn — quan trọng nhất để drain lymph.</li>
+<li><strong>Kết thúc:</strong> Vuốt nhẹ toàn mặt xuống cổ 3 lần để hoàn tất lymphatic drainage.</li>
+</ul>
+<p>Tần suất: ngày 1 lần, 5–7 phút. Vào buổi sáng giảm phù nề tốt nhất.</p>
+<p style="margin-top:24px;padding:16px 20px;background:#fdf2f8;border-radius:12px;border-left:4px solid #db2777;">
+<strong>🧖 Châm cứu thẩm mỹ toàn diện:</strong> Gọi <strong>0973 710 237</strong> — kết hợp Gua Sha + châm cứu thẩm mỹ chuyên nghiệp.
+</p>`
+  },
+  {
+    id: 93,
+    category: 'lam-dep',
+    categoryLabel: 'Làm đẹp',
+    gradient: 'g-rose',
+    icon: '🌙',
+    title: 'Dưỡng ẩm da bằng thảo dược YHCT: Bí quyết da mịn theo mùa',
+    excerpt: 'YHCT có hệ thống dưỡng da theo mùa và theo thể trạng — mùa thu-đông ưu tiên dưỡng âm giữ ẩm, mùa hè chú trọng thanh nhiệt. Thảo dược tự nhiên dưỡng ẩm hiệu quả và an toàn lâu dài.',
+    date: '2026-01-03',
+    readTime: 5,
+    content: `<h2>Da và âm dịch trong YHCT</h2>
+<p>Da khô trong YHCT = âm dịch bất túc — thiếu dưỡng chất từ bên trong. Nguyên nhân: phế âm hư (da khô vùng mặt và thân), vị âm hư (da khô sau bệnh nặng hoặc dùng thuốc nhiều), thận âm hư (da khô lão hóa). Dưỡng ẩm từ bên trong hiệu quả và bền vững hơn bôi ngoài.</p>
+<h2>Thực phẩm dưỡng âm — dưỡng da</h2>
+<ul>
+<li><strong>Ngọc trúc:</strong> Vị thuốc hàng đầu dưỡng phế vị âm — nấu chè, hầm canh. Da căng và ẩm.</li>
+<li><strong>Bạch mộc nhĩ:</strong> Giàu polysaccharide dưỡng ẩm — được nghiên cứu có tác dụng giữ ẩm da tương đương hyaluronic acid.</li>
+<li><strong>Lê:</strong> Nhuận phế sinh tân — đặc biệt tốt mùa thu cho da khô.</li>
+<li><strong>Mật ong:</strong> Dưỡng vị âm, da mặt — uống 1 muỗng pha nước ấm mỗi sáng.</li>
+</ul>
+<h2>Công thức dưỡng ẩm tại nhà</h2>
+<p>Serum ngọc trúc: sắc đặc ngọc trúc 30g + lọc lấy nước, làm mát, thêm 1ml glycerin, đựng lọ xịt tủ lạnh dùng trong 5 ngày. Dưỡng ẩm tự nhiên không hóa chất.</p>
+<p style="margin-top:24px;padding:16px 20px;background:#fdf2f8;border-radius:12px;border-left:4px solid #db2777;">
+<strong>🌙 Dưỡng da YHCT:</strong> Gọi <strong>0973 710 237</strong> — tư vấn chế độ dưỡng da từ bên trong theo thể trạng.
+</p>`
+  },
+  {
+    id: 94,
+    category: 'lam-dep',
+    categoryLabel: 'Làm đẹp',
+    gradient: 'g-rose',
+    icon: '🌹',
+    title: 'Điều trị mụn trứng cá bằng YHCT: Từ thể bệnh đến bài thuốc',
+    excerpt: 'Mụn trứng cá không chỉ là vấn đề da — YHCT xem là biểu hiện của mất cân bằng nội tạng. Điều trị đúng thể bệnh giải quyết tận gốc và ngăn ngừa tái phát hiệu quả hơn kem bôi đơn thuần.',
+    date: '2026-01-01',
+    readTime: 5,
+    content: `<h2>Mụn theo YHCT — 4 thể cần phân biệt</h2>
+<p>Mụn trứng cá (痤疮 — Tọa sang) xuất hiện chủ yếu do: phế vị nhiệt, huyết nhiệt, đàm thấp và huyết ứ. Điều trị SAI thể không hiệu quả — ví dụ uống thuốc bổ (gây nhiệt hơn) khi mụn do nhiệt là phản tác dụng.</p>
+<h2>4 thể mụn và điều trị</h2>
+<ul>
+<li><strong>Phế vị nhiệt (mụn đầu đen, đầu trắng, vùng mũi má):</strong> Tỳ Bà Thanh Phế Ẩm. Ăn ít cay nóng, đồ nướng chiên, sữa. Thanh phế vị nhiệt.</li>
+<li><strong>Huyết nhiệt (mụn đỏ to, viêm, sờ nóng):</strong> Đơn Bì Tiêu Diêu. Tránh cay nóng, uống nhiều nước, tăng rau xanh.</li>
+<li><strong>Đàm thấp (mụn bọc lớn, không đỏ hoặc đỏ nhạt, da nhờn):</strong> Lợi thấp hóa đàm: ý dĩ + trần bì + bán hạ. Giảm đồ ngọt, béo, bia rượu.</li>
+<li><strong>Huyết ứ (mụn thâm, sẹo lõm):</strong> Đào Hồng Tứ Vật Thang. Tăng tuần hoàn, tam thất.</li>
+</ul>
+<p style="margin-top:24px;padding:16px 20px;background:#fdf2f8;border-radius:12px;border-left:4px solid #db2777;">
+<strong>🌹 Điều trị mụn YHCT:</strong> Gọi <strong>0973 710 237</strong> — chẩn đoán thể mụn và kê đơn thuốc cá nhân hóa.
+</p>`
+  },
+  {
+    id: 95,
+    category: 'lam-dep',
+    categoryLabel: 'Làm đẹp',
+    gradient: 'g-rose',
+    icon: '💋',
+    title: 'Massage Gua Sha cổ vai gáy: Giảm căng thẳng và làm đẹp đường nét cổ',
+    excerpt: 'Cổ vai gáy căng cứng không chỉ gây đau mà còn ảnh hưởng đến đường nét mặt và cổ. Kỹ thuật Gua Sha và massage YHCT giúp giải phóng căng cứng, cải thiện tư thế và làm đẹp đường cổ.',
+    date: '2025-12-28',
+    readTime: 5,
+    content: `<h2>Cổ vai gáy và gương mặt</h2>
+<p>Cơ SCOM (sternocleidomastoid), cơ thang và cơ cổ căng cứng kéo da mặt xuống, tạo nếp nhăn vùng cổ và cằm đôi. Giải phóng căng thẳng cổ vai gáy = cải thiện đường nét mặt tự nhiên — đây là lý do các chuyên gia thẩm mỹ YHCT luôn điều trị cổ trước khi làm gì đó với mặt.</p>
+<h2>Kỹ thuật tự massage cổ vai gáy</h2>
+<ul>
+<li><strong>Bước 1 — Nhiệt:</strong> Dùng khăn ấm đắp cổ vai 3–5 phút để giãn cơ trước.</li>
+<li><strong>Bước 2 — Kéo giãn:</strong> Nghiêng đầu sang phải, dùng tay trái nhẹ nhàng kéo tăng đoạn 15 giây mỗi bên.</li>
+<li><strong>Bước 3 — Bấm huyệt:</strong> Phong Trì (GB20 — sau ót, 2 bên), Thiên Trụ (BL10), Kiên Tỉnh (GB21 — vai). Bấm nhẹ 30 giây mỗi huyệt.</li>
+<li><strong>Bước 4 — Gua Sha cổ:</strong> Cạo nhẹ từ sau tai xuống xương đòn theo đường cơ SCOM. Không cần để lại vết đỏ — lực nhẹ, kéo chậm.</li>
+</ul>
+<h2>Tần suất</h2>
+<p>Ngày 1 lần trước tắm, 5–10 phút. Sau 2 tuần: cổ dài hơn, vai thả xuống, mặt nâng lên nhẹ — đây không phải mơ mà là cơ học cơ xương.</p>
+<p style="margin-top:24px;padding:16px 20px;background:#fdf2f8;border-radius:12px;border-left:4px solid #db2777;">
+<strong>💋 Chăm sóc cổ vai gáy YHCT:</strong> Gọi <strong>0973 710 237</strong> — liệu trình cạo gió + châm cứu cổ vai chuyên nghiệp.
+</p>`
+  },
+  {
+    id: 96,
+    category: 'lam-dep',
+    categoryLabel: 'Làm đẹp',
+    gradient: 'g-rose',
+    icon: '🌸',
+    title: 'Chống lão hóa toàn diện bằng YHCT: Bảo tồn thận tinh và dưỡng huyết',
+    excerpt: 'Lão hóa trong YHCT là quá trình thận tinh suy giảm tự nhiên — nhưng tốc độ có thể làm chậm đáng kể bằng lối sống đúng. Đây là nền tảng của mọi phương pháp chống lão hóa trong YHCT.',
+    date: '2025-12-25',
+    readTime: 5,
+    content: `<h2>Lão hóa — thận tinh tự nhiên suy giảm</h2>
+<p>YHCT quan niệm: mỗi người sinh ra có một lượng tiên thiên chi tinh (thận tinh bẩm sinh) nhất định — đây là "nguyên liệu" của cuộc sống. Tiêu hao quá nhanh (stress, thức khuya, lạm dụng tình dục, bệnh nặng) = lão hóa sớm. Bảo tồn và bổ sung thận tinh = chống lão hóa.</p>
+<h2>Chiến lược chống lão hóa YHCT</h2>
+<ul>
+<li><strong>Bảo tồn thận tinh:</strong> Ngủ trước 23h, tránh stress mãn tính, kiểm soát hoạt động tình dục có điều độ. Đây là bảo tồn tiên thiên.</li>
+<li><strong>Bổ sung hậu thiên (tỳ vị):</strong> Ăn đủ chất, đúng thể trạng. Tỳ vị mạnh = hấp thu tốt = bổ sung được thận tinh từ thực phẩm.</li>
+<li><strong>Thuốc bổ thận chống lão:</strong> Hà thủ ô đỏ (chế — không dùng sống), câu kỷ tử, đông trùng hạ thảo, nhân sâm — tùy thể âm hư hay dương hư.</li>
+<li><strong>Dưỡng huyết:</strong> Đương quy, thục địa — nuôi da và tóc từ bên trong.</li>
+<li><strong>Vận động khí công:</strong> Thái Cực Quyền, Bát Đoạn Cẩm — duy trì "khí lưu thông" = chống ứ trệ = chống lão hóa.</li>
+</ul>
+<p style="margin-top:24px;padding:16px 20px;background:#fdf2f8;border-radius:12px;border-left:4px solid #db2777;">
+<strong>🌸 Chống lão hóa YHCT:</strong> Gọi <strong>0973 710 237</strong> — tư vấn phác đồ chống lão hóa toàn diện cá nhân hóa.
+</p>`
+  },
+  {
+    id: 97,
+    category: 'lam-dep',
+    categoryLabel: 'Làm đẹp',
+    gradient: 'g-rose',
+    icon: '🫶',
+    title: 'Xoa bóp toàn thân Shiatsu phong cách YHCT: Tại nhà không cần chuyên gia',
+    excerpt: 'Shiatsu (chỉ áp liệu pháp Nhật Bản) có gốc rễ từ Tsubo - huyệt vị YHCT Trung Quốc. Học 10 kỹ thuật bấm huyệt toàn thân có thể tự thực hiện tại nhà để duy trì sức khỏe hàng ngày.',
+    date: '2025-12-22',
+    readTime: 5,
+    content: `<h2>Shiatsu — YHCT qua bàn tay Nhật Bản</h2>
+<p>Shiatsu (指圧 — chỉ áp) là phương pháp bấm huyệt Nhật Bản phát triển từ YHCT Trung Quốc, được Nhật Bản chính thức công nhận là phương pháp trị liệu năm 1955. Dùng ngón cái, lòng bàn tay và khuỷu tay ấn theo điểm (huyệt/tsubo) và đường kinh lạc. Không cần dầu, không cần thiết bị.</p>
+<h2>10 kỹ thuật tự thực hiện</h2>
+<ul>
+<li><strong>Bàn chân:</strong> Ngón cái ấn điểm giữa gan bàn chân (Dũng Tuyền — KI1) 30 giây. Tốt nhất trước khi ngủ.</li>
+<li><strong>Bắp chân:</strong> 2 ngón cái ấn dọc giữa bắp chân từ dưới lên. Giảm phù nề và mệt mỏi chân.</li>
+<li><strong>Đùi:</strong> Nắm tay lăn dọc đùi trong và ngoài — tăng tuần hoàn.</li>
+<li><strong>Lưng dưới:</strong> 2 nắm tay áp lưng dưới, xoay tròn nhẹ. Giảm đau lưng.</li>
+<li><strong>Vai:</strong> Kiên Tỉnh (GB21 — đỉnh vai) — ấn 30 giây. Giải phóng căng thẳng.</li>
+<li><strong>Đầu:</strong> 10 ngón tay gõ nhẹ toàn đầu 60 giây. Tăng tuần hoàn não.</li>
+</ul>
+<p style="margin-top:24px;padding:16px 20px;background:#fdf2f8;border-radius:12px;border-left:4px solid #db2777;">
+<strong>🫶 Xoa bóp bấm huyệt chuyên nghiệp:</strong> Gọi <strong>0973 710 237</strong> — liệu trình xoa bóp tại phòng khám Tâm Đức.
+</p>`
+  },
+  {
+    id: 98,
+    category: 'lam-dep',
+    categoryLabel: 'Làm đẹp',
+    gradient: 'g-rose',
+    icon: '✌️',
+    title: 'Kỹ thuật giác hơi thẩm mỹ: Giảm béo cục bộ và trẻ hóa da',
+    excerpt: 'Giác hơi (cupping therapy) không chỉ trị đau lưng — ứng dụng thẩm mỹ đang ngày càng phổ biến: giảm cellulite, căng bụng sau sinh và trẻ hóa da mặt. Tìm hiểu kỹ thuật và chỉ định.',
+    date: '2025-12-20',
+    readTime: 5,
+    content: `<h2>Giác hơi thẩm mỹ — xu hướng toàn cầu</h2>
+<p>Giác hơi (拔罐 — Bát quán) dùng áp lực âm kéo da và cơ vào cốc — ngược với xoa bóp đẩy vào. Tác dụng thẩm mỹ: (1) Tăng tuần hoàn máu và bạch huyết cục bộ; (2) Kéo giãn mô liên kết dưới da; (3) Kích thích sản xuất collagen; (4) Phá vỡ vách ngăn mỡ (cellulite). Được Gwyneth Paltrow, Beyoncé và nhiều sao Hollywood sử dụng.</p>
+<h2>Ứng dụng thẩm mỹ</h2>
+<ul>
+<li><strong>Giảm cellulite đùi-mông:</strong> Giác di động (sliding cupping) dùng dầu thực vật + giác silicon — di chuyển nhẹ nhàng không để vết tím. 3 lần/tuần, 10 phút/vùng.</li>
+<li><strong>Căng bụng sau sinh:</strong> Giác nhỏ silicon di động vùng bụng — cải thiện đàn hồi da sau sinh.</li>
+<li><strong>Giác mặt (Facial Cupping):</strong> Giác silicon siêu nhỏ di động trên mặt — tăng tuần hoàn, căng da nhẹ. Áp lực rất nhẹ, KHÔNG để vết tím trên mặt.</li>
+</ul>
+<h2>Lưu ý</h2>
+<p>Vết tím (cupping marks) là bình thường ở lưng — tự mất sau 3–7 ngày. Vùng mặt KHÔNG để vết tím. Không giác khi có viêm da, phụ nữ mang thai, rối loạn đông máu.</p>
+<p style="margin-top:24px;padding:16px 20px;background:#fdf2f8;border-radius:12px;border-left:4px solid #db2777;">
+<strong>✌️ Giác hơi thẩm mỹ:</strong> Gọi <strong>0973 710 237</strong> — liệu trình giác hơi điều trị và thẩm mỹ tại Tâm Đức.
+</p>`
+  },
+  {
+    id: 99,
+    category: 'lam-dep',
+    categoryLabel: 'Làm đẹp',
+    gradient: 'g-rose',
+    icon: '🍯',
+    title: 'Thực phẩm làm đẹp theo YHCT: 10 siêu thực phẩm cho da tóc và móng',
+    excerpt: 'YHCT coi thực phẩm là thuốc — và thực phẩm làm đẹp là thuốc bổ. 10 thực phẩm YHCT hàng đầu dưỡng da, nuôi tóc và làm móng khỏe từ bên trong một cách khoa học và tự nhiên.',
+    date: '2025-12-18',
+    readTime: 5,
+    content: `<h2>Đẹp từ bên trong — nguyên tắc YHCT</h2>
+<p>YHCT không tách rời vẻ đẹp ra khỏi sức khỏe nội tạng. Da sáng = phế tốt + vị âm đủ. Tóc đen bóng = thận tinh đầy + can huyết dồi dào. Móng hồng cứng = can huyết tốt. Ăn đúng thực phẩm = bổ đúng tạng phủ = đẹp từ gốc.</p>
+<h2>10 siêu thực phẩm làm đẹp YHCT</h2>
+<ul>
+<li><strong>Mè đen:</strong> Bổ thận tinh → tóc đen, da căng. Ăn 1–2 muỗng/ngày.</li>
+<li><strong>Câu kỷ tử:</strong> Bổ can thận → sáng mắt, da tươi sáng. 10–15 hạt/ngày ngâm nước.</li>
+<li><strong>Đại táo (táo đỏ):</strong> Bổ tỳ vị, dưỡng huyết → da hồng hào, môi đỏ. 3–5 quả/ngày.</li>
+<li><strong>Bạch mộc nhĩ:</strong> Dưỡng phế âm → da ẩm mịn, giảm nếp nhăn.</li>
+<li><strong>Đậu đen:</strong> Bổ thận → tóc đen, da sáng, chống lão hóa.</li>
+<li><strong>Hà thủ ô đỏ (chế):</strong> Bổ thận tinh, dưỡng huyết → chống bạc tóc. Phải dùng hà thủ ô CHẾ (không dùng sống — độc gan).</li>
+<li><strong>Ngọc trúc:</strong> Dưỡng vị âm → da căng ẩm.</li>
+<li><strong>Óc chó:</strong> Bổ thận não → tóc khỏe, da ẩm. 3–4 hạt/ngày.</li>
+<li><strong>Hoa hiên (kim châm):</strong> Dưỡng huyết an thần → ngủ ngon → da đẹp.</li>
+<li><strong>Mật ong nguyên chất:</strong> Dưỡng vị âm, giải độc → da sáng mịn.</li>
+</ul>
+<p style="margin-top:24px;padding:16px 20px;background:#fdf2f8;border-radius:12px;border-left:4px solid #db2777;">
+<strong>🍯 Tư vấn dinh dưỡng làm đẹp YHCT:</strong> Gọi <strong>0973 710 237</strong> — chế độ ăn cá nhân hóa cho da tóc.
+</p>`
+  },
+  {
+    id: 100,
+    category: 'lam-dep',
+    categoryLabel: 'Làm đẹp',
+    gradient: 'g-rose',
+    icon: '👸',
+    title: 'Bộ Quy Trình Làm Đẹp YHCT 30 Ngày: Từ Bên Trong Đến Bên Ngoài',
+    excerpt: 'Tổng hợp quy trình làm đẹp toàn diện theo YHCT — kết hợp thực phẩm, thảo dược, kỹ thuật massage và lối sống. Thực hiện đều đặn 30 ngày để thấy da sáng, tóc bóng và cảm thấy khỏe mạnh hơn.',
+    date: '2025-12-15',
+    readTime: 6,
+    content: `<h2>30 ngày làm đẹp toàn diện theo YHCT</h2>
+<p>Vẻ đẹp bền vững không đến từ một sản phẩm hay một liệu pháp — mà từ sự kết hợp đồng bộ của dinh dưỡng, giấc ngủ, quản lý stress và chăm sóc từ bên ngoài. Quy trình này tích hợp tất cả nguyên lý YHCT đã học, thiết kế cho lịch sống bận rộn.</p>
+<h2>Quy trình buổi sáng (15 phút)</h2>
+<ul>
+<li>7:00: Uống 250ml nước ấm với 10 hạt câu kỷ tử và 1 muỗng mật ong</li>
+<li>7:10: Bài tập mắt YHCT (xoa tay ấm áp lên mắt + bấm 4 huyệt quanh mắt)</li>
+<li>7:15: Gua Sha mặt 5 phút (thoa dầu → cổ → má → trán → hoàn thành)</li>
+</ul>
+<h2>Quy trình buổi tối (20 phút)</h2>
+<ul>
+<li>21:00: Uống trà thảo dược theo thể trạng (an thần/dưỡng âm/bổ thận)</li>
+<li>21:30: Ngâm chân nước ấm với ngải cứu + gừng 20 phút</li>
+<li>21:50: Bấm 5 huyệt an thần (Thần Môn, Tam Âm Giao, Thái Khê, Ấn Đường, Bách Hội)</li>
+<li>22:00: Thoa mặt nạ thảo dược theo loại da, nằm xuống 15 phút</li>
+<li>22:30: Ngủ (trước 23h bắt buộc)</li>
+</ul>
+<h2>Thực phẩm hàng ngày</h2>
+<p>Sáng: cháo đại táo + câu kỷ tử. Trưa: ăn đủ chất, có protein và rau xanh. Tối: nhẹ, ấm, sớm trước 19h. Mỗi ngày: 1 muỗng mè đen, 3 quả táo đỏ, 1 muỗng mật ong.</p>
+<h2>Kết quả kỳ vọng sau 30 ngày</h2>
+<p>Tuần 1–2: giấc ngủ cải thiện, da bớt xỉn. Tuần 3: da căng và ẩm hơn, giảm mụn nếu có. Tuần 4: tóc bóng hơn, năng lượng tổng thể tốt hơn rõ rệt.</p>
+<p style="margin-top:24px;padding:16px 20px;background:#fdf2f8;border-radius:12px;border-left:4px solid #db2777;">
+<strong>👸 Khởi đầu hành trình làm đẹp YHCT:</strong> Gọi <strong>0973 710 237</strong> — BS. Nguyễn Đức Tâm tư vấn quy trình cá nhân hóa cho bạn.
+</p>`
   }
 ];
