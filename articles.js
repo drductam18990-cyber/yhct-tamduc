@@ -1,5 +1,54 @@
 var ARTICLES = [
 {
+  id: 107,
+  slug: 'bam-huyet-cai-thien-tieu-hoa',
+  date: '2026-08-17',
+  category: 'khong-thuoc',
+  categoryLabel: 'Không dùng thuốc',
+  icon: '🧘',
+  gradient: 'g-herb',
+  title: 'Bấm huyệt cải thiện tiêu hóa: Kích thích huyệt vị điều hòa tỳ vị và đại tràng không dùng thuốc',
+  excerpt: 'Bấm huyệt là liệu pháp không dùng thuốc giúp điều hòa tỳ vị, giảm đầy bụng, khó tiêu và táo bón. Chỉ 10–15 phút mỗi ngày với 5 huyệt vị then chốt, bạn có thể tự hỗ trợ tiêu hóa hiệu quả ngay tại nhà.',
+  readTime: 6,
+  content: `
+<h2>Tổng quan theo Y học cổ truyền</h2>
+<p>Trong Y học cổ truyền (YHCT), tiêu hóa là chức năng trung tâm của <strong>Tỳ vị</strong> — hai tạng phủ chịu trách nhiệm <em>vận hóa thủy cốc</em> (chuyển hóa thức ăn thành khí huyết nuôi cơ thể). Tỳ chủ vận hóa, thăng thanh; Vị chủ thụ nạp, giáng trọc. Khi hai tạng này mất cân bằng — do ăn uống không điều độ, stress, ngồi nhiều ít vận động hoặc dùng nhiều thuốc kháng sinh — xuất hiện các triệu chứng như đầy bụng, khó tiêu, ăn không ngon, buồn nôn, táo bón hoặc tiêu chảy.</p>
+<p>Bấm huyệt (acupressure) là kỹ thuật dùng ngón tay tác động lên các huyệt vị trên kinh lạc, kích thích lưu thông khí huyết tương tự như châm cứu nhưng không dùng kim. Kỹ thuật này có thể <strong>tự thực hành tại nhà</strong> hoàn toàn an toàn, đặc biệt hiệu quả cho các rối loạn tiêu hóa chức năng mạn tính.</p>
+
+<h2>Phân thể / Nguyên nhân theo YHCT</h2>
+<ul>
+  <li><strong>Thể Tỳ hư khí trệ:</strong> Đầy bụng sau ăn, ăn ít mà đã no, ợ hơi, mệt mỏi — phổ biến nhất ở người ăn uống thất thường, ít vận động. Huyệt ưu tiên: Túc tam lý (ST36), Trung quản (CV12), Khí hải (CV6).</li>
+  <li><strong>Thể Can tỳ bất hòa:</strong> Bụng đau căng từng cơn liên quan đến cảm xúc, đại tiện bất thường (táo lỏng xen kẽ), ăn không thấy ngon khi stress. Huyệt ưu tiên: Thái xung (LV3), Túc tam lý (ST36), Nội quan (PC6).</li>
+  <li><strong>Thể Thực trệ (tích thực):</strong> Đầy tức vùng thượng vị sau khi ăn nhiều, ợ chua, hôi miệng, phân khô cứng — thường gặp sau ăn tiệc hoặc ăn quá no. Huyệt ưu tiên: Thiên khu (ST25), Hợp cốc (LI4), Nội đình (ST44).</li>
+  <li><strong>Thể Tỳ vị hư hàn:</strong> Bụng lạnh đau âm ỉ, thích xoa ấm, tiêu chảy phân lỏng không thành khuôn, tay chân lạnh — thường gặp ở người thể hàn hoặc hay ăn đồ lạnh. Huyệt ưu tiên: Quan nguyên (CV4), Trung quản (CV12), Tỳ du (BL20) — kết hợp cứu ngải.</li>
+  <li><strong>Thể Vị âm hư:</strong> Miệng khô, đói mà ăn không ngon, táo bón phân khô, lưỡi đỏ ít rêu — thường gặp sau bệnh lâu ngày hoặc stress mạn tính. Huyệt ưu tiên: Âm lăng tuyền (SP9), Tam âm giao (SP6), Túc tam lý (ST36).</li>
+</ul>
+
+<h2>5 Huyệt vị then chốt cho tiêu hóa và cách bấm</h2>
+<p>Tất cả huyệt dưới đây có thể bấm bằng ngón cái hoặc ngón trỏ, lực vừa phải tạo cảm giác tức căng nhẹ (Đắc khí), giữ 1–2 phút mỗi huyệt, thực hiện hàng ngày trước hoặc sau bữa ăn 30 phút:</p>
+<ul>
+  <li><strong>Túc tam lý (ST36) — Huyệt số 1 cho tiêu hóa:</strong> Vị trí: dưới đầu gối 3 thốn (khoảng 4 ngón tay), phía ngoài xương chày. Tác dụng: kiện tỳ vị, tăng nhu động ruột, hỗ trợ hấp thu và giảm mệt mỏi. Đây là huyệt hội của Dương minh Vị kinh — mạnh nhất trong điều hòa tiêu hóa.</li>
+  <li><strong>Trung quản (CV12) — Huyệt mộ của Vị:</strong> Vị trí: điểm giữa rốn và mũi ức (mỏm kiếm), trên đường giữa bụng. Tác dụng: hòa vị giáng nghịch, giảm đầy bụng, ợ hơi, buồn nôn và đau vùng thượng vị. Không bấm mạnh — dùng lực nhẹ, xoa tròn theo chiều kim đồng hồ 2–3 phút.</li>
+  <li><strong>Thiên khu (ST25) — Huyệt mộ của Đại tràng:</strong> Vị trí: ngang rốn, cách rốn 2 thốn (khoảng 3 ngón tay) về mỗi bên. Tác dụng: điều hòa đại tràng, trị táo bón và tiêu chảy, giảm đau bụng và đầy hơi ruột. Bấm đồng thời cả hai bên, lực vừa, giữ 1–2 phút.</li>
+  <li><strong>Âm lăng tuyền (SP9) — Trừ thấp kiện tỳ:</strong> Vị trí: phía trong cẳng chân, ngay dưới đầu lồi cầu trong xương chày (chỗ lõm khi vuốt ngón tay từ mắt cá lên). Tác dụng: lợi thấp, giảm phù nề, hỗ trợ hệ tiêu hóa hấp thu nước — đặc biệt tốt cho người bụng hay đầy nước, phân nhão.</li>
+  <li><strong>Nội quan (PC6) — Hòa vị chỉ ẩu:</strong> Vị trí: mặt trong cổ tay, cách nếp cổ tay 2 thốn, giữa hai gân cơ. Tác dụng: giảm buồn nôn, nôn mửa, ợ chua và hồi hộp do lo âu — hiệu quả đặc biệt với rối loạn tiêu hóa do stress.</li>
+</ul>
+
+<h2>Tự thực hành tại nhà</h2>
+<ul>
+  <li><strong>Bài bấm huyệt buổi sáng (10 phút):</strong> Sau khi thức dậy, ngồi thư giãn, bấm lần lượt: Túc tam lý (ST36) → Thiên khu (ST25) → Trung quản (CV12) → Nội quan (PC6). Mỗi huyệt 1–2 phút.</li>
+  <li><strong>Xoa bụng theo YHCT:</strong> Nằm ngửa thả lỏng, dùng lòng bàn tay ấm xoa tròn vùng bụng theo chiều kim đồng hồ 50–100 vòng — chiều thuận giúp nhu động ruột và giảm táo bón.</li>
+  <li><strong>Bấm Âm lăng tuyền (SP9) sau bữa ăn:</strong> Bấm 1–2 phút mỗi bên sau ăn 30 phút giúp vận hóa thủy thấp, giảm đầy bụng và hỗ trợ tiêu hóa.</li>
+  <li><strong>Chú ý khi thực hành:</strong> Không bấm huyệt khi đang đói hoặc no quá. Phụ nữ mang thai không bấm Hợp cốc (LI4) và Tam âm giao (SP6) vì có thể kích thích co bóp tử cung.</li>
+  <li><strong>Kết hợp điều chỉnh lối sống:</strong> Ăn đúng giờ, nhai kỹ, ngồi im 15 phút sau ăn, hạn chế thức ăn lạnh và đồ uống có ga — đây là "phần thuốc" quan trọng không kém bấm huyệt.</li>
+</ul>
+
+<div class="art-cta-box">
+  <p>Nếu các rối loạn tiêu hóa của bạn kéo dài, tái phát nhiều lần hoặc không cải thiện sau 2–3 tuần tự thực hành, hãy đến thăm khám trực tiếp để được chẩn đoán thể bệnh và lập phác đồ cá nhân hóa — kết hợp châm cứu, thuốc YHCT và hướng dẫn dưỡng sinh phù hợp. <strong>BS. Nguyễn Đức Tâm</strong>, chuyên gia YHCT tại <strong>Phòng Khám YHCT Tâm Đức, Hà Đông, Hà Nội</strong>. Đặt lịch: <strong>0973 710 237</strong>, giờ khám <strong>18:00–22:00 hàng ngày</strong>.</p>
+</div>
+`
+},
+{
     id: 101,
     category: 'mat-benh',
     categoryLabel: 'Mặt bệnh',
